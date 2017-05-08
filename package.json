@@ -1,0 +1,27 @@
+{
+  "name": "interactive-examples",
+  "version": "1.0.0",
+  "description": "Interactive code exmaples embedded on MDN",
+  "author": "Mozilla",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla/interactive-examples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mozilla/interactive-examples/issues"
+  },
+  "homepage": "https://github.com/mozilla/interactive-examples#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "nodejs"
+  ],
+  "devDependencies": {
+    "uglify-js": "^3.0.1"
+  },
+}
