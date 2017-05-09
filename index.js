@@ -6,12 +6,12 @@ const fse = require('fs-extra');
 const uglify = require('uglify-js');
 
 const config = {
-    baseDir: './gh-pages/',
-    cssExamplesDir: './gh-pages/pages/css/',
-    destCssDir: './gh-pages/css/',
-    destJsDir: './gh-pages/js/',
+    baseDir: './docs/',
+    cssExamplesDir: './docs/pages/css/',
+    destCssDir: './docs/css/',
+    destJsDir: './docs/js/',
     examplesRoot: 'live-examples',
-    jsExamplesDir: './gh-pages/pages/js/',
+    jsExamplesDir: './docs/pages/js/',
     mediaRoot: 'media'
 };
 
