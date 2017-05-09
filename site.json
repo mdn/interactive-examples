@@ -29,31 +29,31 @@
     "pages": {
         "arrayFind": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "example": "./live-examples/js-examples/array-find.js",
+            "example": "../../live-examples/js-examples/array-find.js",
             "fileName": "array-find.html",
             "type": "js"
         },
         "arrayIndexof": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "example": "./live-examples/js-examples/array-indexof.js",
+            "example": "../../live-examples/js-examples/array-indexof.js",
             "fileName": "array-indexof.html",
             "type": "js"
         },
         "arrayMap": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "example": "./live-examples/js-examples/array-map.js",
+            "example": "../../live-examples/js-examples/array-map.js",
             "fileName": "array-map.html",
             "type": "js"
         },
         "arrayPush": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "example": "./live-examples/js-examples/array-push.js",
+            "example": "../../live-examples/js-examples/array-push.js",
             "fileName": "array-push.html",
             "type": "js"
         },
         "arraySlice": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "example": "./live-examples/js-examples/array-slice.js",
+            "example": "../../live-examples/js-examples/array-slice.js",
             "fileName": "array-slice.html",
             "type": "js"
         }
