@@ -7,10 +7,11 @@ const uglify = require('uglify-js');
 
 const config = {
     baseDir: './gh-pages/',
+    cssExamplesDir: './gh-pages/pages/css/',
     destCssDir: './gh-pages/css/',
     destJsDir: './gh-pages/js/',
     examplesRoot: 'live-examples',
-    jsExmaplesDir: './gh-pages/pages/js/',
+    jsExamplesDir: './gh-pages/pages/js/',
     mediaRoot: 'media'
 };
 
@@ -56,12 +57,35 @@ function buildPages(pages) {
     for (let page in pages) {
         let currentPage = pages[page];
         let tmpl = fse.readFileSync(currentPage.baseTmpl, 'utf-8');
-        let finalTmplStr = tmpl.replace('%example-src%', currentPage.example);
 
         if (pages[page].type === 'js') {
             fse.outputFileSync(
-                config.jsExmaplesDir + currentPage.fileName,
-                finalTmplStr
+                config.jsExamplesDir + currentPage.fileName,
+                tmpl.replace('%example-src%', currentPage.exampleSrc)
+            );
+        }
+
+        if (pages[page].type === 'css') {
+            // Is there a linked CSS file
+            if (currentPage.exampleSrc) {
+                // inject the link tag with the source
+                tmpl = tmpl.replace(
+                    '%example-src%',
+                    '<link rel="stylesheet" href="' +
+                        currentPage.exampleSrc +
+                        '" />'
+                );
+            } else {
+                // clear out the template string
+                tmpl = tmpl.replace('%example-src%', '');
+            }
+
+            fse.outputFileSync(
+                config.cssExamplesDir + currentPage.fileName,
+                tmpl.replace(
+                    '%example-code%',
+                    fse.readFileSync(currentPage.exampleCode, 'utf-8')
+                )
             );
         }
     }
@@ -108,7 +132,7 @@ function copyMedia() {
 
         // copy all media assets to target directory
         for (let file in files) {
-            fse.outputFileSync(files[file], config.baseDir + files[file]);
+            fse.copySync(files[file], config.baseDir + files[file]);
         }
     });
 }

@@ -28,6 +28,7 @@ module.exports = {
         'new-cap': 2
     },
     globals: {
+        Prism: true,
         require: true,
         site: true
     }
