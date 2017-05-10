@@ -64,6 +64,13 @@
             "fileName": "border-top-color.html",
             "type": "css"
         },
+        "boxShadow": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleSrc": "../../live-examples/css-examples/css/box-shadow.css",
+            "exampleCode": "live-examples/css-examples/box-shadow.html",
+            "fileName": "box-shadow.html",
+            "type": "css"
+        },
         "filter": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "exampleCode": "live-examples/css-examples/filter.html",
