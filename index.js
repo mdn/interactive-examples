@@ -15,6 +15,11 @@ const config = {
     mediaRoot: 'media'
 };
 
+/**
+ * Utility function that checks whether the specified directory exists.
+ * If not, it creates the directory
+ * @param {string} dir - Project root relative path to directory
+ */
 function ensureDir(dir) {
     // if the target directory does not exist
     if (!fse.pathExistsSync(dir)) {
@@ -23,6 +28,20 @@ function ensureDir(dir) {
     }
 }
 
+/**
+ * Traverse the list of bundles, and uses the data to generate the final
+ * CSS and JavaScript bundles to `/docs/[css|js]`
+ * @param {object} bundles - An object containing directives for building the bundles
+ *
+ * Example object:
+ *
+ * "cssExamplesBase": {
+ *     "javascript": ["js/libs/prism.js", "js/editable-css.js"],
+ *     "css": ["css/editable-css.css", "css/libs/prism.css"],
+ *     "destFileName": "css-examples-base"
+ * },
+ *
+ */
 function buildBundles(bundles) {
     for (let bundle in bundles) {
         let currentBundle = bundles[bundle];
@@ -32,6 +51,7 @@ function buildBundles(bundles) {
             // ensure the target dir exists
             ensureDir(config.destJsDir);
 
+            // concatenate, uglify, and write the result to file
             concat(currentBundle.javascript).then(function(result) {
                 let uglified = uglify.minify(result);
                 fse.outputFileSync(
@@ -45,6 +65,7 @@ function buildBundles(bundles) {
             // ensure the target dir exists
             ensureDir(config.destCssDir);
 
+            // for CSS, we currently simply concat and write to file
             concat(
                 currentBundle.css,
                 config.destCssDir + currentFilename + '.css'
@@ -53,6 +74,22 @@ function buildBundles(bundles) {
     }
 }
 
+/**
+ * Traverse the list of pages, and uses the meta data to generate the final
+ * HTML source documents to `/docs/pages/[css|js]`
+ * @param {object} pages - An object containing directives for building the pages
+ *
+ * Example object:
+ *
+ * "borderTopColor": {
+ *     "baseTmpl": "tmpl/live-css-tmpl.html",
+ *     "exampleSrc": "../../live-examples/css-examples/css/border-top-color.css",
+ *     "exampleCode": "live-examples/css-examples/border-top-color.html",
+ *     "fileName": "border-top-color.html",
+ *     "type": "css"
+ * }
+ *
+ */
 function buildPages(pages) {
     for (let page in pages) {
         let currentPage = pages[page];
@@ -66,9 +103,9 @@ function buildPages(pages) {
         }
 
         if (pages[page].type === 'css') {
-            // Is there a linked CSS file
+            // is there a linked CSS file
             if (currentPage.exampleSrc) {
-                // inject the link tag with the source
+                // inject the link tag into the source
                 tmpl = tmpl.replace(
                     '%example-src%',
                     '<link rel="stylesheet" href="' +
@@ -91,13 +128,19 @@ function buildPages(pages) {
     }
 }
 
-function copyExamples() {
-    dir.files(config.examplesRoot, function(err, files) {
+/**
+ * Copies all assets recursively in `sourceDir` to the directory specified as `destDir`
+ * @param {string} sourceDir - The root relative path to the directory containing assets
+ * @param {string} destDir - The root relative path to the directory to copy the assets to
+ */
+function copyDirectory(sourceDir, destDir) {
+    // gather all files in sourceDir
+    dir.files(sourceDir, function(err, files) {
         if (err) {
-            if (err.code === 'ENOENT' && err.path === config.examplesRoot) {
+            if (err.code === 'ENOENT' && err.path === sourceDir) {
                 console.error(
                     'Specified directory "' +
-                        config.examplesRoot +
+                        sourceDir +
                         '" does not exist. \nPlease specify an existing directory relative to the root of the project.'
                 );
                 return;
@@ -109,34 +152,15 @@ function copyExamples() {
 
         // copy all examples to target directory
         for (let file in files) {
-            fse.copySync(files[file], config.baseDir + files[file]);
+            fse.copySync(files[file], destDir + files[file]);
         }
     });
 }
 
-function copyMedia() {
-    dir.files(config.mediaRoot, function(err, files) {
-        if (err) {
-            if (err.code === 'ENOENT' && err.path === config.mediaRoot) {
-                console.error(
-                    'Specified directory "' +
-                        config.mediaRoot +
-                        '" does not exist. \nPlease specify an existing directory relative to the root of the project.'
-                );
-                return;
-            }
-
-            console.error('Error reading file list', err);
-            throw err;
-        }
-
-        // copy all media assets to target directory
-        for (let file in files) {
-            fse.copySync(files[file], config.baseDir + files[file]);
-        }
-    });
-}
-
+/**
+ * Initialization of the module. This loads `site.json` at the root of the
+ * project and calls the follow on functions to generate the pages.
+ */
 function init() {
     fse
         .readJson('./site.json')
@@ -150,10 +174,14 @@ function init() {
                 fse.ensureDirSync(config.baseDir);
             }
 
-            copyMedia();
-            copyExamples();
+            // copy assets in `/media`
+            copyDirectory(config.mediaRoot, config.baseDir);
+            // copy live examples in `/live-examples`
+            copyDirectory(config.examplesRoot, config.baseDir);
 
+            // builds the CSS and JS bundles
             buildBundles(site.bundles);
+            // generates the pages
             buildPages(site.pages);
         })
         .catch(function(err) {

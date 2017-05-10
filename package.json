@@ -19,7 +19,10 @@
   "keywords": [
     "javascript",
     "css",
-    "nodejs"
+    "nodejs",
+    "page-generator",
+    "mdn",
+    "mozilla"
   ],
   "devDependencies": {
     "concat": "^1.0.3",
