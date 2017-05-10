@@ -14,7 +14,8 @@
   "homepage": "https://github.com/mozilla/interactive-examples#readme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js"
   },
   "keywords": [
     "javascript",
