@@ -3,7 +3,7 @@
 const concat = require('concat');
 const dir = require('node-dir');
 const fse = require('fs-extra');
-const uglify = require('uglify-js');
+const uglify = require('uglify-es');
 
 const config = {
     baseDir: './docs/',
