@@ -131,6 +131,6 @@ npm run server
 
 Point your browser to:
 
-[localhost:8080/docs/pages/css/border-radius.html](localhost:8000/docs/pages/css/border-radius.html)
+[localhost:8080/docs/pages/css/border-radius.html](http://localhost:8000/docs/pages/css/border-radius.html)
 
 Once satisfied with the example, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
