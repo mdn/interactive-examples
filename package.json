@@ -15,7 +15,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node index.js"
+    "build": "node index.js",
+    "server": "http-server ./docs"
   },
   "keywords": [
     "javascript",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "concat": "^1.0.3",
     "fs-extra": "^3.0.1",
+    "http-server": "^0.10.0",
     "node-dir": "^0.1.16",
     "uglify-es": "^3.0.3"
   }
