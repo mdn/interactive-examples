@@ -33,6 +33,12 @@
             "fileName": "array-find.html",
             "type": "js"
         },
+        "arrayFrom": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleSrc": "../../live-examples/js-examples/array-from.js",
+            "fileName": "array-from.html",
+            "type": "js"
+        },
         "arrayIndexof": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleSrc": "../../live-examples/js-examples/array-indexof.js",
