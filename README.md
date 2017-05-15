@@ -126,7 +126,7 @@ npm run build
 Once this completes run:
 
 ```
-npm run server
+npm start
 ```
 
 Point your browser to:
