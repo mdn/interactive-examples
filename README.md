@@ -6,11 +6,12 @@ Home of the [MDN](https://developer.mozilla.org/) live code interactive examples
 ## Folder Structure
 
 * [css] - This contains CSS used by the base templates
-* [docs] - This is dynamically generated and contains everything needed to display the examples on MDN
 * [js] - This contains the JS used by the base templates
 * [live-examples] - This contains the live example CSS and JS fragments
 * [media] - The contains images used by the live examples and templates
 * [tmpl] - The base templates
+
+The dynamically generated pages, their dependecies and assets are generated to the `gh-pages` branch.
 
 ## site.json
 
