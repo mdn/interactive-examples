@@ -8,7 +8,7 @@ script:
 - npm run build
 deploy:
   provider: script
-  script: travis-deploy-pages
+  script: ./travis-deploy-pages
   on:
     branch: master
   skip_cleanup: true
