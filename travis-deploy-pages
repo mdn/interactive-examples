@@ -8,6 +8,6 @@ git config user.email "sneethling@mozilla.com"
 git checkout -b gh-pages
 git add .
 git commit -m "Deploying latest generated pages"
-git remote add schalkneethling "https://GITHUB_TOKEN@github.com/schalkneethling/interactive-examples.git"
+git remote add schalkneethling "https://$GITHUB_TOKEN@github.com/schalkneethling/interactive-examples.git"
 # Eat output so it doesn't spit out the sensitive GH_TOKEN if something goes wrong:
 git push -q -f schalkneethling gh-pages > /dev/null 2>&1
