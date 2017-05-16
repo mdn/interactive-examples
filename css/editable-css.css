@@ -35,7 +35,7 @@ body {
 .example-choice {
     position: relative;
     display: block;
-    padding: .25em;
+    padding: 0 .45em;
     width: 100%;
     font-size: 14px;
     cursor: pointer;

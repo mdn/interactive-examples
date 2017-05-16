@@ -97,7 +97,11 @@ Inside this newly created file, copy and paste the following code.
 
 <p>Try editing the selected example, or select a different example:</p>
 
-<pre class="prettyprint lang-css" id="example-choice-list"><div class="example-choice">// css rule goes here</div></pre>
+<pre id="example-choice-list">
+<div class="example-choice">
+<code class="language-css">// css rule goes here</code>
+</div>
+</pre>
 ```
 
 This is base starting point for all CSS examples. Your next step is to fill in the example element. For `border-raius` it makes sense to have a simple div element with a solid background color. For this example then, the already present `example-element` div will do, however we do need to give it some basic styling, and perhaps add the text "Style Me".
@@ -125,7 +129,17 @@ Next, create a new CSS file inside `live-examples\css-examples\css\`. Call this 
 Next we need to add some different examples of using `border-radius`. In the `pre` tab from before, you will see there is a nested `example-choice` element. For each example you wish to add, you will add one of these with the CSS style rule to applied, as is content, for example:
 
 ```
-<pre class="prettyprint lang-css" id="example-choice-list"><div class="example-choice">border-radius: 10px;</div><div class="example-choice">border-radius: 10px 5%;</div><div class="example-choice">border-radius: 10px 5px 2em / 20px 25px 30%;</div></pre>
+<pre id="example-choice-list">
+<div class="example-choice">
+<code class="language-css">border-radius: 10px;</code>
+</div>
+<div class="example-choice">
+<code class="language-css">border-radius: 10px 5%;</code>
+</div>
+<div class="example-choice">
+<code class="language-css">border-radius: 10px 5px 2em / 20px 25px 30%;</code>
+</div>
+</pre>
 ```
 With this, the example work is complete, and all you need to do, is tell the page generator about your new page and its dependecies. To do this, open up `site.json` at the root of the project folder. Under `pages`, find an exising entry with the `type` of `css`.
 

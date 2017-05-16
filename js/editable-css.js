@@ -4,7 +4,12 @@ var initialChoice = 0;
 var originalChoices = [];
 
 function applyCode(code, choice) {
+    // http://regexr.com/3fvik
+    var cssCommentsMatch = /(\/\*)[\s\S]+(\*\/)/g;
     var errorIcon = choice.querySelector('.error');
+
+    // strip out any CSS comments before applying the code
+    code.replace(cssCommentsMatch, '');
 
     element.style.cssText = code;
 

@@ -63,6 +63,13 @@
             "fileName": "array-slice.html",
             "type": "js"
         },
+        "backgroundImage": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleSrc": "../../live-examples/css-examples/css/background-image.css",
+            "exampleCode": "live-examples/css-examples/background-image.html",
+            "fileName": "background-image.html",
+            "type": "css"
+        },
         "borderTopColor": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "exampleSrc": "../../live-examples/css-examples/css/border-top-color.css",
