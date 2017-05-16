@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #EAEFF2;
+    background-color: #eaeff2;
     padding: 0;
     margin: 0;
 }
@@ -13,7 +13,7 @@ body {
     width: 100%;
     height: 200px;
     padding: 1em 0;
-    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, .1);
 }
 
 #example-element {
@@ -35,7 +35,7 @@ body {
 .example-choice {
     position: relative;
     display: block;
-    padding: 0.25em;
+    padding: .25em;
     width: 100%;
     font-size: 14px;
     cursor: pointer;
@@ -43,12 +43,12 @@ body {
 }
 
 .example-choice:hover {
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
 }
 
 .example-choice.selected {
     background-color: #fff;
-    box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, .2);
     cursor: text;
     transition: background-color .2s ease-in;
 }
