@@ -13,6 +13,7 @@ script:
 deploy:
   local_dir: docs
   name: schalkneethling
+  email: sneethling@mozilla.com
   provider: pages
   skip_cleanup: true
   github_token: GITHUB_TOKEN
