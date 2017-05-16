@@ -12,6 +12,7 @@ script:
 
 deploy:
   local_dir: docs
+  name: schalkneethling
   provider: pages
   skip_cleanup: true
   github_token: GITHUB_TOKEN
