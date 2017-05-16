@@ -1,25 +1,21 @@
 language: node_js
-
 node_js:
-  - "node"
-
+- node
 branches:
   only:
-    - master
-
+  - master
 script:
-  - npm run build
-
+- npm run build
 before_install:
-  - git config --global user.email "sneethling@mozilla.com"
-  - git config --global user.name "schalkneethling"
-
+- git config --global user.email "sneethling@mozilla.com"
+- git config --global user.name "schalkneethling"
 deploy:
   local_dir: docs
-  name: schalkneethling
-  email: sneethling@mozilla.com
   provider: pages
   skip_cleanup: true
   github_token: GITHUB_TOKEN
   on:
     branch: master
+env:
+  global:
+    secure: AzyxaNGx9RsBtCt8SxTO0AG9HoVnLTpe+/LaeYb6JgVJoUyMPGPxRHdUmPUcXd+IFmnl7EYB+NE1yGkapQAE1itqeDfZvhnzkTXEB4srwpeslwM2lqVmbTgDlvQvt09mEN0vSSZYmv4Wd/tGF9FaEmOZgPc2VwU2wbUCXL4lGY8jLAUrr225OJYP26R3L+g4HRpoOX1UZNsLdQ1SfUh8/Jh2kP/TQlb2eMf9EDW3lOwBBRJUrZDRgq3Ms63P68xYXX49pXFdFgQYBQopfOCKyxsQnf3dD1LDNiaMz3rLGCk3OcGZHKu1KdaX9nmwz30zRVtYK40ZkoaqUv+dZZlJ1vO0DUyIGDBEVBiyOamjuBvTkhht+A5qGvpUEYDnbAQyNEo9S1xsskmLGH0TrOl6xQM1zPa5Y8FrGZljH478va/LTtAd/5Qkg9hDOXnt7YC6ubxeF8L3acAOgN7uFeXhXenhnEaF3Z7UZUbpTgwoEHOBnf/y2Wb73jUhLjhAhYfTFDtLB7ixC6wsZmePUt5ViZz+aYXz+DniTb7t8rqgU1fdd6KKdJF77siuIA7QPmskSNi/jJdYl6KDyvlmuCaJ9ZlbId34chbOP1obtr/VMdezrbO3TNYAeZF0M19xqglIbVEzdHDSBcSHLz0H4q8J52RSPR4SmhVgNTaWT3ZUNkA=
