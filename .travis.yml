@@ -10,6 +10,10 @@ branches:
 script:
   - npm run build
 
+before_install:
+  - git config --global user.email "sneethling@mozilla.com"
+  - git config --global user.name "schalkneethling"
+
 deploy:
   local_dir: docs
   name: schalkneethling
