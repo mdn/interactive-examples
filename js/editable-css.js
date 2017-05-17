@@ -24,7 +24,7 @@ function applyCode(code, choice) {
 }
 
 function indexOf(exampleChoices, choice) {
-    for (var i = 0; i < exampleChoices.length; i++) {
+    for (var i = 0, l = exampleChoices.length; i < l; i++) {
         if (exampleChoices[i] === choice) {
             return i;
         }
@@ -86,7 +86,7 @@ document.addEventListener('copy', copyTextOnly);
 for (var exampleChoice of exampleChoices) {
     var resetButton = exampleChoice.querySelector('.reset');
 
-    originalChoices.push(exampleChoice.textContent);
+    originalChoices.push(exampleChoice.querySelector('code').textContent);
 
     if (exampleChoice.getAttribute('initial-choice')) {
         initialChoice = indexOf(exampleChoices, exampleChoice);
@@ -105,7 +105,7 @@ for (var exampleChoice of exampleChoices) {
                 replacementText,
                 Prism.languages.css
             );
-            choice.firstChild.innerHTML = highlighted;
+            choice.querySelector('pre').innerHTML = highlighted;
         });
     }
 }
