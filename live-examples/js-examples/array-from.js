@@ -4,5 +4,5 @@ let result = Array.from('foo');
 // log the result
 console.log(result);`;
 
-var cmSelectLine = 2;
-var cmSelectChStart = 26;
+var cmSelectLine = 1;
+var cmSelectChStart = 25;

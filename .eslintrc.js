@@ -28,6 +28,11 @@ module.exports = {
         'new-cap': 2
     },
     globals: {
+        CodeMirror: true,
+        console: true,
+        cmInitContent: true,
+        cmSelectChStart: true,
+        cmSelectLine: true,
         Prism: true,
         require: true,
         site: true
