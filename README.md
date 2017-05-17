@@ -92,17 +92,18 @@ Inside this newly created file, copy and paste the following code.
 
 ```
 <div id="output">
-  <div id="example-element">
-  </div>
+  <div id="example-element"></div>
 </div>
 
-<p>Try editing the selected example, or select a different example:</p>
+<p>Try editing the selected examples, or select a different example below:</p>
 
-<pre id="example-choice-list">
+<section id="example-choice-list">
 <div class="example-choice">
-<code class="language-css">// css rule goes here</code>
+<pre><code class="language-css">
+/* css rule goes here */
+</code></pre>
 </div>
-</pre>
+</section>
 ```
 
 This is base starting point for all CSS examples. Your next step is to fill in the example element. For `border-raius` it makes sense to have a simple div element with a solid background color. For this example then, the already present `example-element` div will do, however we do need to give it some basic styling, and perhaps add the text "Style Me".
