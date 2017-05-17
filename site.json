@@ -17,7 +17,7 @@
         },
         "cssExamplesBase": {
             "javascript": ["js/libs/prism.js", "js/editable-css.js"],
-            "css": ["css/editable-css.css", "css/libs/prism.css"],
+            "css": ["css/libs/prism.css", "css/editable-css.css"],
             "destFileName": "css-examples-base"
         },
         "editorJS": {
@@ -62,6 +62,13 @@
             "exampleSrc": "../../live-examples/js-examples/array-slice.js",
             "fileName": "array-slice.html",
             "type": "js"
+        },
+        "animation": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleSrc": "../../live-examples/css-examples/css/animation.css",
+            "exampleCode": "live-examples/css-examples/animation.html",
+            "fileName": "animation.html",
+            "type": "css"
         },
         "backgroundImage": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
