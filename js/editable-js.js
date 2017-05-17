@@ -4,8 +4,6 @@ var output = document.getElementById('output');
 var execute = document.getElementById('execute');
 var reset = document.getElementById('reset');
 
-var gConsole = console;
-
 var console = {
     log: function(loggedItem) {
         if (typeof loggedItem === 'string') {
@@ -28,7 +26,7 @@ var cmEditor = CodeMirror(editor, cmOptions);
 cmEditor.setSize('100%', 150);
 cmEditor.doc.setValue(cmInitContent);
 cmEditor.focus();
-cmEditor.doc.setCursor({ line: cmSelectLine, ch: cmSelectChStart });
+cmEditor.doc.setCursor(cmSelectLine, cmSelectChStart);
 
 function applyCode() {
     var code = cmEditor.doc.getValue();
@@ -36,7 +34,7 @@ function applyCode() {
     try {
         var result = eval(code);
     } catch (e) {
-        var result = 'Error: ' + e.message;
+        result = 'Error: ' + e.message;
     }
 
     output.classList.add('fade-in');
@@ -50,7 +48,7 @@ function applyCode() {
 reset.addEventListener('click', function() {
     cmEditor.doc.setValue(cmInitContent);
     cmEditor.focus();
-    cmEditor.doc.setCursor({ line: cmSelectLine, ch: cmSelectChStart });
+    cmEditor.doc.setCursor(cmSelectLine, cmSelectChStart);
     applyCode();
 });
 

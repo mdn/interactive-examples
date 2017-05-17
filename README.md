@@ -200,6 +200,8 @@ var cmSelectLine = 2;
 var cmSelectChStart = 26;
 ```
 
+In the above template, `cmSelectLine` defines the line(0 indexed), and `cmSelectChStart` defines the chracter(0 indexed) at which point the text cursor will be in the editor. There's no hard and fast rules here, choose a point that makes the most sense to you.
+
 That is all for the live example piece. All that remains is to tell the page generator about our new example. To do this, open up `site.json` at the root of the project folder. Under `pages`, find an exising entry with the `type` of `js`.
 
 Copy and paste an example, noting that pages are grouped by `type`, and then alphabetically for each `type`. You entry will look as follows when edited:
