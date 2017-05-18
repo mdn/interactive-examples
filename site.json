@@ -91,6 +91,13 @@
             "fileName": "box-shadow.html",
             "type": "css"
         },
+        "color": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleSrc": "../../live-examples/css-examples/css/color.css",
+            "exampleCode": "live-examples/css-examples/color.html",
+            "fileName": "color.html",
+            "type": "css"
+        },
         "filter": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "exampleCode": "live-examples/css-examples/filter.html",
