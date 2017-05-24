@@ -28,11 +28,13 @@ module.exports = {
         'new-cap': 2
     },
     globals: {
+        applyCode: true,
         CodeMirror: true,
         console: true,
         cmInitContent: true,
         cmSelectChStart: true,
         cmSelectLine: true,
+        mceUtils: true,
         Prism: true,
         require: true,
         site: true
