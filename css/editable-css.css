@@ -18,6 +18,9 @@ pre[class*='language-'] {
 
 #output {
     background-color: #fff;
+}
+
+#output section {
     width: 100%;
     height: 220px;
     max-height: 250px;
