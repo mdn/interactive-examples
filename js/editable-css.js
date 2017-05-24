@@ -1,11 +1,11 @@
-var element = document.getElementById('example-element');
 var exampleChoices = document.querySelectorAll('.example-choice');
 var initialChoice = 0;
 var originalChoices = [];
 
-function applyCode(code, choice) {
+function applyCode(code, choice, targetElement) {
     // http://regexr.com/3fvik
     var cssCommentsMatch = /(\/\*)[\s\S]+(\*\/)/g;
+    var element = targetElement || document.getElementById('example-element');
     var errorIcon = choice.querySelector('.error');
 
     // strip out any CSS comments before applying the code
@@ -30,6 +30,26 @@ function indexOf(exampleChoices, choice) {
         }
     }
     return -1;
+}
+
+/**
+ * Resets the default example to visible but, only if it is currently hidden
+ */
+function resetDefault() {
+    var defaultExample = document.getElementById('default-example');
+
+    // only reset to default if the default example is hidden
+    if (defaultExample.classList.value.indexOf('hidden') > -1) {
+        var sections = document.querySelectorAll('#output section');
+        // loop over all sections and set to hidden
+        for (var i = 0, l = sections.length; i < l; i++) {
+            sections[i].classList.add('hidden');
+            sections[i].setAttribute('aria-hidden', true);
+        }
+        // show the default example
+        defaultExample.classList.remove('hidden');
+        defaultExample.setAttribute('aria-hidden', false);
+    }
 }
 
 function choose(choice) {
@@ -63,6 +83,7 @@ function onChoose(e) {
         exampleChoice.classList.remove('selected');
     }
 
+    resetDefault();
     choose(e.currentTarget);
 }
 

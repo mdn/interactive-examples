@@ -16,7 +16,7 @@
             "destFileName": "codemirror"
         },
         "cssExamplesBase": {
-            "javascript": ["js/libs/prism.js", "js/editable-css.js"],
+            "javascript": ["js/libs/prism.js", "js/mce-utils.js", "js/editable-css.js"],
             "css": ["css/libs/prism.css", "css/editable-css.css"],
             "destFileName": "css-examples-base"
         },
@@ -29,71 +29,71 @@
     "pages": {
         "arrayFind": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleSrc": "../../live-examples/js-examples/array-find.js",
+            "jsExampleSrc": "../../live-examples/js-examples/array-find.js",
             "fileName": "array-find.html",
             "type": "js"
         },
         "arrayFrom": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleSrc": "../../live-examples/js-examples/array-from.js",
+            "jsExampleSrc": "../../live-examples/js-examples/array-from.js",
             "fileName": "array-from.html",
             "type": "js"
         },
         "arrayIndexof": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleSrc": "../../live-examples/js-examples/array-indexof.js",
+            "jsExampleSrc": "../../live-examples/js-examples/array-indexof.js",
             "fileName": "array-indexof.html",
             "type": "js"
         },
         "arrayMap": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleSrc": "../../live-examples/js-examples/array-map.js",
+            "jsExampleSrc": "../../live-examples/js-examples/array-map.js",
             "fileName": "array-map.html",
             "type": "js"
         },
         "arrayPush": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleSrc": "../../live-examples/js-examples/array-push.js",
+            "jsExampleSrc": "../../live-examples/js-examples/array-push.js",
             "fileName": "array-push.html",
             "type": "js"
         },
         "arraySlice": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleSrc": "../../live-examples/js-examples/array-slice.js",
+            "jsExampleSrc": "../../live-examples/js-examples/array-slice.js",
             "fileName": "array-slice.html",
             "type": "js"
         },
         "animation": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleSrc": "../../live-examples/css-examples/css/animation.css",
+            "cssExampleSrc": "../../live-examples/css-examples/css/animation.css",
             "exampleCode": "live-examples/css-examples/animation.html",
             "fileName": "animation.html",
             "type": "css"
         },
         "backgroundImage": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleSrc": "../../live-examples/css-examples/css/background-image.css",
+            "cssExampleSrc": "../../live-examples/css-examples/css/background-image.css",
             "exampleCode": "live-examples/css-examples/background-image.html",
             "fileName": "background-image.html",
             "type": "css"
         },
         "borderTopColor": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleSrc": "../../live-examples/css-examples/css/border-top-color.css",
+            "cssExampleSrc": "../../live-examples/css-examples/css/border-top-color.css",
             "exampleCode": "live-examples/css-examples/border-top-color.html",
             "fileName": "border-top-color.html",
             "type": "css"
         },
         "boxShadow": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleSrc": "../../live-examples/css-examples/css/box-shadow.css",
+            "cssExampleSrc": "../../live-examples/css-examples/css/box-shadow.css",
             "exampleCode": "live-examples/css-examples/box-shadow.html",
             "fileName": "box-shadow.html",
             "type": "css"
         },
         "color": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleSrc": "../../live-examples/css-examples/css/color.css",
+            "cssExampleSrc": "../../live-examples/css-examples/css/color.css",
             "exampleCode": "live-examples/css-examples/color.html",
             "fileName": "color.html",
             "type": "css"
@@ -106,9 +106,17 @@
         },
         "font": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleSrc": "../../live-examples/css-examples/css/font.css",
+            "cssExampleSrc": "../../live-examples/css-examples/css/font.css",
             "exampleCode": "live-examples/css-examples/font.html",
             "fileName": "font.html",
+            "type": "css"
+        },
+        "position": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/css/position.css",
+            "exampleCode": "live-examples/css-examples/position.html",
+            "fileName": "position.html",
+            "jsExampleSrc": "../../live-examples/css-examples/js/position.js",
             "type": "css"
         },
         "textAlign": {
@@ -119,7 +127,7 @@
         },
         "transform": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleSrc": "../../live-examples/css-examples/css/transform.css",
+            "cssExampleSrc": "../../live-examples/css-examples/css/transform.css",
             "exampleCode": "live-examples/css-examples/transform.html",
             "fileName": "transform.html",
             "type": "css"

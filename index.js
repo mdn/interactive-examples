@@ -83,7 +83,7 @@ function buildBundles(bundles) {
  *
  * "borderTopColor": {
  *     "baseTmpl": "tmpl/live-css-tmpl.html",
- *     "exampleSrc": "../../live-examples/css-examples/css/border-top-color.css",
+ *     "cssExampleSrc": "../../live-examples/css-examples/css/border-top-color.css",
  *     "exampleCode": "live-examples/css-examples/border-top-color.html",
  *     "fileName": "border-top-color.html",
  *     "type": "css"
@@ -93,30 +93,45 @@ function buildBundles(bundles) {
 function buildPages(pages) {
     for (let page in pages) {
         let currentPage = pages[page];
+        let cssSource = currentPage.cssExampleSrc;
+        let jsSource = currentPage.jsExampleSrc;
         let tmpl = fse.readFileSync(currentPage.baseTmpl, 'utf-8');
 
-        if (pages[page].type === 'js') {
+        // is there a linked CSS file
+        if (cssSource) {
+            // inject the link tag into the source
+            tmpl = tmpl.replace(
+                '%example-css-src%',
+                `<link rel="stylesheet" href=" ${cssSource}" />`
+            );
+        } else {
+            // clear out the template string
+            tmpl = tmpl.replace('%example-css-src%', '');
+        }
+
+        // is there a linked JS file
+        if (jsSource) {
+            // inject the script tag into the source
+            tmpl = tmpl.replace(
+                '%example-js-src%',
+                `<script src=" ${jsSource}" /></script>`
+            );
+        } else {
+            // clear out the template string
+            tmpl = tmpl.replace('%example-js-src%', '');
+        }
+
+        // at this point, simply write out the JS example html
+        if (currentPage.type === 'js') {
             fse.outputFileSync(
                 config.jsExamplesDir + currentPage.fileName,
-                tmpl.replace('%example-src%', currentPage.exampleSrc)
+                tmpl
             );
         }
 
-        if (pages[page].type === 'css') {
-            // is there a linked CSS file
-            if (currentPage.exampleSrc) {
-                // inject the link tag into the source
-                tmpl = tmpl.replace(
-                    '%example-src%',
-                    '<link rel="stylesheet" href="' +
-                        currentPage.exampleSrc +
-                        '" />'
-                );
-            } else {
-                // clear out the template string
-                tmpl = tmpl.replace('%example-src%', '');
-            }
-
+        /* For CSS examples, we need to read in the example html
+        before writing the final file */
+        if (currentPage.type === 'css') {
             fse.outputFileSync(
                 config.cssExamplesDir + currentPage.fileName,
                 tmpl.replace(

@@ -40,7 +40,8 @@ This section is used to describe live example pages that will be generated. The 
 ```
 "arrayFind": {
     "baseTmpl": "tmpl/live-js-tmpl.html",
-    "exampleSrc": "../../live-examples/js-examples/array-find.js",
+    ["cssExampleSrc": "../../live-examples/css-examples/css/animation.css",]
+    ["jsExampleSrc": "../../live-examples/js-examples/array-find.js",]
     ["exampleCode": "live-examples/css-examples/border-top-color.html",]
     "fileName": "array-find.html",
     "type": "js"
@@ -48,8 +49,9 @@ This section is used to describe live example pages that will be generated. The 
 ```
 
 * `baseTmpl` - The base template to use for this example
-* `exampleSrc` - This is a file location that will be used as the value for the `src` attribute for JavaScript examples, or the `href` attribute of the `link` tag for CSS examples.
-* `exampleCode` - This is currently only used by the CSS examples, and point to the file location of the relevant live example.
+* `cssExampleSrc` - File location that will be used as the value for the `href` attribute for a `link` tag.
+* `jsExampleSrc` - File location that will be used as the value for the `src` attribute for a `script` tag.
+* `exampleCode` - This is currently only used by the CSS examples, and points to the file location of the relevant live example HTML.
 * `fileName` - This is the file name that will be used for the generated live example page
 * `type` - Whether this is a JavaScript or CSS live example page.
 
@@ -150,7 +152,7 @@ Copy and paste an example, noting that pages are grouped by `type`, and then alp
 ```
 "borderRadius": {
     "baseTmpl": "tmpl/live-css-tmpl.html",
-    "exampleSrc": "../../live-examples/css-examples/css/border-radius.css",
+    "cssExampleSrc": "../../live-examples/css-examples/css/border-radius.css",
     "exampleCode": "live-examples/css-examples/border-radius.html",
     "fileName": "border-radius.html",
     "type": "css"
@@ -210,7 +212,7 @@ Copy and paste an example, noting that pages are grouped by `type`, and then alp
 ```
 "arrayFrom": {
     "baseTmpl": "tmpl/live-js-tmpl.html",
-    "exampleSrc": "../../live-examples/js-examples/array-from.js",
+    "jsExampleSrc": "../../live-examples/js-examples/array-from.js",
     "fileName": "array-from.html",
     "type": "js"
 },

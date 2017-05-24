@@ -19,8 +19,9 @@ pre[class*='language-'] {
 #output {
     background-color: #fff;
     width: 100%;
-    height: auto;
-    padding: 1em 0;
+    height: 220px;
+    max-height: 250px;
+    overflow: hidden;
     box-shadow: 0 2px 5px -2px rgba(0, 0, 0, .1);
 }
 
@@ -29,10 +30,6 @@ pre[class*='language-'] {
     max-width: 80%;
     max-height: 80%;
     text-align: center;
-}
-
-#output {
-    overflow: hidden;
 }
 
 #example-element {
