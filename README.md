@@ -94,7 +94,9 @@ Inside this newly created file, copy and paste the following code.
 
 ```
 <div id="output">
-  <div id="example-element"></div>
+    <section id="default-example">
+        <div id="example-element"></div>
+    </section>
 </div>
 
 <p>Try editing the selected examples, or select a different example below:</p>
@@ -114,9 +116,11 @@ First then, inside the `example-element` div add the text "Style Me".
 
 ```
 <div id="output">
-  <div id="example-element">
-    Style Me!
-  </div>
+    <section id="default-example">
+        <div id="example-element">
+            Style Me!
+        </div>
+    </section>
 </div>
 ```
 
