@@ -45,6 +45,12 @@
             "fileName": "array-indexof.html",
             "type": "js"
         },
+        "arrayLength": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "jsExampleSrc": "../../live-examples/js-examples/array-length.js",
+            "fileName": "array-length.html",
+            "type": "js"
+        },
         "arrayMap": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "jsExampleSrc": "../../live-examples/js-examples/array-map.js",
