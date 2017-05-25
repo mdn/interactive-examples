@@ -33,6 +33,12 @@
             "fileName": "array-concat.html",
             "type": "js"
         },
+        "arrayCopyWithin": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "jsExampleSrc": "../../live-examples/js-examples/array-copywithin.js",
+            "fileName": "array-copywithin.html",
+            "type": "js"
+        },
         "arrayFind": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "jsExampleSrc": "../../live-examples/js-examples/array-find.js",
