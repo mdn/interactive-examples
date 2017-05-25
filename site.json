@@ -27,6 +27,12 @@
         }
     },
     "pages": {
+        "arrayConcat": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "jsExampleSrc": "../../live-examples/js-examples/array-concat.js",
+            "fileName": "array-concat.html",
+            "type": "js"
+        },
         "arrayFind": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "jsExampleSrc": "../../live-examples/js-examples/array-find.js",
