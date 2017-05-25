@@ -23,7 +23,7 @@ var cmOptions = {
 };
 
 var cmEditor = CodeMirror(editor, cmOptions);
-cmEditor.setSize('100%', 150);
+cmEditor.setSize('100%', 200);
 cmEditor.doc.setValue(cmInitContent);
 cmEditor.focus();
 cmEditor.doc.setCursor(cmSelectLine, cmSelectChStart);

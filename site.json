@@ -39,6 +39,12 @@
             "fileName": "array-copywithin.html",
             "type": "js"
         },
+        "arrayEntries": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "jsExampleSrc": "../../live-examples/js-examples/array-entries.js",
+            "fileName": "array-entries.html",
+            "type": "js"
+        },
         "arrayFind": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "jsExampleSrc": "../../live-examples/js-examples/array-find.js",
