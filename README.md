@@ -1,5 +1,7 @@
 # interactive-examples
 
+[![Build Status](https://travis-ci.org/mdn/interactive-examples.svg?branch=master)](https://travis-ci.org/mdn/interactive-examples)
+
 Home of the [MDN](https://developer.mozilla.org/) live code interactive examples.
 
 
