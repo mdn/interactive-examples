@@ -63,6 +63,12 @@
             "fileName": "array-find.html",
             "type": "js"
         },
+        "arrayFindIndex": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "jsExampleSrc": "../../live-examples/js-examples/array-findindex.js",
+            "fileName": "array-findindex.html",
+            "type": "js"
+        },
         "arrayFilter": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "jsExampleSrc": "../../live-examples/js-examples/array-filter.js",
