@@ -117,6 +117,12 @@
             "fileName": "array-map.html",
             "type": "js"
         },
+        "arrayPop": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "jsExampleSrc": "../../live-examples/js-examples/array-pop.js",
+            "fileName": "array-pop.html",
+            "type": "js"
+        },
         "arrayPush": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "jsExampleSrc": "../../live-examples/js-examples/array-push.js",
