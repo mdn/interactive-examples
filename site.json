@@ -45,6 +45,12 @@
             "fileName": "array-entries.html",
             "type": "js"
         },
+        "arrayEvery": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "jsExampleSrc": "../../live-examples/js-examples/array-every.js",
+            "fileName": "array-every.html",
+            "type": "js"
+        },
         "arrayFind": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "jsExampleSrc": "../../live-examples/js-examples/array-find.js",
