@@ -81,6 +81,12 @@
             "fileName": "array-from.html",
             "type": "js"
         },
+        "arrayIncludes": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "jsExampleSrc": "../../live-examples/js-examples/array-includes.js",
+            "fileName": "array-includes.html",
+            "type": "js"
+        },
         "arrayIndexof": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "jsExampleSrc": "../../live-examples/js-examples/array-indexof.js",
