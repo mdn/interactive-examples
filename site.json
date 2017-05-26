@@ -135,6 +135,12 @@
             "fileName": "array-reduce.html",
             "type": "js"
         },
+        "arrayReduceRight": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "jsExampleSrc": "../../live-examples/js-examples/array-reduce-right.js",
+            "fileName": "array-reduce-right.html",
+            "type": "js"
+        },
         "arraySlice": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "jsExampleSrc": "../../live-examples/js-examples/array-slice.js",
