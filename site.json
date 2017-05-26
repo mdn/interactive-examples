@@ -93,6 +93,12 @@
             "fileName": "array-indexof.html",
             "type": "js"
         },
+        "arrayJoin": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "jsExampleSrc": "../../live-examples/js-examples/array-join.js",
+            "fileName": "array-join.html",
+            "type": "js"
+        },
         "arrayLength": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "jsExampleSrc": "../../live-examples/js-examples/array-length.js",
