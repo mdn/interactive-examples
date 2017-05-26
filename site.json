@@ -129,6 +129,12 @@
             "fileName": "array-push.html",
             "type": "js"
         },
+        "arrayReduce": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "jsExampleSrc": "../../live-examples/js-examples/array-reduce.js",
+            "fileName": "array-reduce.html",
+            "type": "js"
+        },
         "arraySlice": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "jsExampleSrc": "../../live-examples/js-examples/array-slice.js",
