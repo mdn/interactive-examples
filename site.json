@@ -202,6 +202,13 @@
             "fileName": "font.html",
             "type": "css"
         },
+        "fontWeight": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/css/font-weight.css",
+            "exampleCode": "live-examples/css-examples/font-weight.html",
+            "fileName": "font-weight.html",
+            "type": "css"
+        },
         "position": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc": "../../live-examples/css-examples/css/position.css",
