@@ -182,6 +182,13 @@
             "fileName": "background-position.html",
             "type": "css"
         },
+        "backgroundRepeat": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/css/background-repeat.css",
+            "exampleCode": "live-examples/css-examples/background-repeat.html",
+            "fileName": "background-repeat.html",
+            "type": "css"
+        },
         "backgroundSize": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc": "../../live-examples/css-examples/css/background-size.css",
