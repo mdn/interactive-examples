@@ -6,20 +6,16 @@ function applyCode(code, choice, targetElement) {
     // http://regexr.com/3fvik
     var cssCommentsMatch = /(\/\*)[\s\S]+(\*\/)/g;
     var element = targetElement || document.getElementById('example-element');
-    var errorIcon = choice.querySelector('.error');
 
     // strip out any CSS comments before applying the code
     code.replace(cssCommentsMatch, '');
 
     element.style.cssText = code;
 
-    // not all examples have an error icon
-    if (errorIcon) {
-        if (!element.style.cssText) {
-            errorIcon.classList.remove('hidden');
-        } else {
-            errorIcon.classList.add('hidden');
-        }
+    if (!element.style.cssText) {
+        choice.classList.add('invalid');
+    } else {
+        choice.classList.remove('invalid');
     }
 }
 
@@ -88,7 +84,7 @@ function onChoose(e) {
 }
 
 function onEdit(e) {
-    applyCode(e.currentTarget.textContent, e.currentTarget.parentNode);
+    applyCode(e.currentTarget.textContent, e.currentTarget);
 }
 
 function copyTextOnly(e) {
