@@ -66,6 +66,10 @@ pre[class*='language-'] {
     width: 90%;
 }
 
+.example-choice.invalid {
+    background: #fff url('../media/alerticon-warning@2x.png') 95% center no-repeat;
+}
+
 .reset {
     display: none;
     position: absolute;
