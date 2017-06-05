@@ -13,6 +13,7 @@ pre {
 }
 
 pre[class*='language-'] {
+    margin: .2em;
     padding: 0 1em;
 }
 
@@ -43,7 +44,7 @@ pre[class*='language-'] {
 .example-choice {
     position: relative;
     display: block;
-    padding: 0 .45em;
+    padding: 0 .5em .5em;
     width: 100%;
     font-size: 14px;
     cursor: pointer;
@@ -79,14 +80,6 @@ pre[class*='language-'] {
 
 .example-choice.selected > .reset {
     display: unset;
-}
-
-.error {
-    position: absolute;
-    top: .75em;
-    right: 5.5em;
-    max-height: 1em;
-    cursor: pointer;
 }
 
 .hidden {
