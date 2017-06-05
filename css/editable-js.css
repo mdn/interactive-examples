@@ -12,14 +12,14 @@ body {
     margin: .5em;
 }
 
-#output {
+.output-container {
     background-color: #fff;
+    padding: .8em 1em 1em;
     width: 100%;
     height: 40px;
-    padding: 1em;
     font-family: courier;
-    font-size: 13px;
     box-shadow: 0 2px 5px -2px rgba(0, 0, 0, .1);
+    line-height: 1;
 }
 
 #editor,
@@ -50,11 +50,11 @@ body {
     display: none;
 }
 
-#output > p {
+#output {
     margin: 0;
 }
 
-.fade-in p {
+.fade-in {
     animation: fadein .5s;
 }
 
