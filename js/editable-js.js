@@ -38,10 +38,10 @@ function applyCode() {
     }
 
     output.classList.add('fade-in');
-    output.firstChild.textContent = result;
+    output.textContent = result;
 
-    output.firstChild.addEventListener('animationend', e => {
-        e.target.parentNode.classList.remove('fade-in');
+    output.addEventListener('animationend', function() {
+        output.classList.remove('fade-in');
     });
 }
 
