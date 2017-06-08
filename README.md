@@ -95,21 +95,19 @@ With a CSS example, you start of by creating a new HTML fragment inside `live-ex
 Inside this newly created file, copy and paste the following code.
 
 ```
-<div id="output">
+<section id="example-choice-list" class="example-choice-list">
+<div class="example-choice">
+<pre>
+<code class="language-css">/* css rule goes here */</code>
+</pre>
+</div>
+</section>
+
+<div id="output" class="output">
     <section id="default-example">
         <div id="example-element"></div>
     </section>
 </div>
-
-<p>Try editing the selected examples, or select a different example below:</p>
-
-<section id="example-choice-list">
-<div class="example-choice">
-<pre><code class="language-css">
-/* css rule goes here */
-</code></pre>
-</div>
-</section>
 ```
 
 This is base starting point for all CSS examples. Your next step is to fill in the example element. For `border-raius` it makes sense to have a simple div element with a solid background color. For this example then, the already present `example-element` div will do, however we do need to give it some basic styling, and perhaps add the text "Style Me".
@@ -117,11 +115,9 @@ This is base starting point for all CSS examples. Your next step is to fill in t
 First then, inside the `example-element` div add the text "Style Me".
 
 ```
-<div id="output">
+<div id="output" class="output">
     <section id="default-example">
-        <div id="example-element">
-            Style Me!
-        </div>
+        <div id="example-element">Style Me!</div>
     </section>
 </div>
 ```
@@ -139,18 +135,36 @@ Next, create a new CSS file inside `live-examples\css-examples\css\`. Call this 
 Next we need to add some different examples of using `border-radius`. In the `pre` tab from before, you will see there is a nested `example-choice` element. For each example you wish to add, you will add one of these with the CSS style rule to applied, as is content, for example:
 
 ```
-<pre id="example-choice-list">
+<section id="example-choice-list" class="example-choice-list">
 <div class="example-choice">
+<pre>
 <code class="language-css">border-radius: 10px;</code>
-</div>
-<div class="example-choice">
-<code class="language-css">border-radius: 10px 5%;</code>
-</div>
-<div class="example-choice">
-<code class="language-css">border-radius: 10px 5px 2em / 20px 25px 30%;</code>
-</div>
 </pre>
+</div>
+
+<div class="example-choice">
+<pre>
+<code class="language-css">border-radius: 10px 5%;</code>
+</pre>
+</div>
+
+<div class="example-choice">
+<pre>
+<code class="language-css">border-radius: 10px 5px 2em / 20px 25px 30%;</code>
+</pre>
+</div>
+</section>
 ```
+
+#### Comments
+
+As with the JavaScript examples below, you can add comments to the examples you add. However, when adding comments, please follow these guidelines:
+
+* Add comments when absolutely required
+* Wrap comments in the standard CSS comments i.e. `/* */`
+* A comment should never span more than one line
+* Aim to limit the number of chracters to around 80
+
 With this, the example work is complete, and all you need to do, is tell the page generator about your new page and its dependecies. To do this, open up `site.json` at the root of the project folder. Under `pages`, find an exising entry with the `type` of `css`.
 
 Copy and paste an example, noting that pages are grouped by `type`, and then alphabetically for each `type`. You entry will look as follows when edited:
