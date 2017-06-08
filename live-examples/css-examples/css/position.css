@@ -1,5 +1,11 @@
-#output {
+.output.large {
     overflow: scroll;
+}
+
+.output section.default-example {
+    position: relative;
+    margin: 100px auto;
+    width: 80%;
 }
 
 .box,
@@ -21,9 +27,9 @@ Fixed Example CSS
 */
 .fixed-example {
     padding-left: 120px;
-    width: 500px;
-    height: 200px;
-    overflow: scroll;
+    width: 100%;
+    /* forces example-element to use this as it's container */
+    transform: rotate(0);
 }
 
 .fixed-example.hidden .box {

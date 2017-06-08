@@ -1,8 +1,9 @@
 #example-element {
-    margin-top: 20px;
-    padding: 50px;
+    margin: 20px auto;
+    padding: 50px 0;
     border: 20px solid;
-    width: 100%;
-    height: 100%;
-    font-size: 2em;
+    width: 80%;
+    height: 80%;
+    font-size: 1.2em;
+    text-align: center;
 }
