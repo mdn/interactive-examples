@@ -8,20 +8,6 @@ body {
     margin: 0;
 }
 
-#buttons {
-    margin: .5em;
-}
-
-.output-container {
-    background-color: #fff;
-    padding: .8em 1em 1em;
-    width: 100%;
-    height: 40px;
-    font-family: courier;
-    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, .1);
-    line-height: 1;
-}
-
 #editor,
 #output {
     font-size: 14px;
@@ -50,8 +36,30 @@ body {
     display: none;
 }
 
-#output {
+.output {
+    display: inline-block;
+    background: #fff url('../media/output-arrow.png') -5px -6px no-repeat;
     margin: 0;
+    padding: .8em 1em 1em 50px;
+    border: 1px solid #e0e0e0;
+    border-left: 0;
+    width: 92%;
+    height: 40px;
+    font-family: courier;
+    line-height: 1;
+    vertical-align: bottom;
+}
+
+.run {
+    display: inline-block;
+    background-color: #fff;
+    margin: 0;
+    padding: .8em 1em 1em;
+    border: 1px solid #e0e0e0;
+    font-size: .9em;
+    width: 7%;
+    height: 40px;
+    cursor: pointer;
 }
 
 .fade-in {
