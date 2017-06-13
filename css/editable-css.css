@@ -110,6 +110,17 @@ pre[class*='language-'] {
     display: unset;
 }
 
+/* JavaScript disabled styling */
+.nojs .example-choice-list,
+.nojs .example-choice-list.large {
+    float: none;
+    width: auto;
+}
+
+.nojs .example-choice {
+    background-color: transparent;
+}
+
 .hidden {
     display: none;
 }

@@ -7,14 +7,20 @@
     %example-css-src%
   </head>
   <body>
-    <div id="editor">
-      <input id="reset" type="button" value="Reset" />
-    </div>
+      <section id="static">
+          %example-code%
+      </section>
 
-    <div class="output-container">
-        <button id="execute" class="run" type="button">Run</button>
-        <div id="output" class="output"></div>
-    </div>
+      <section id="live" class="hidden">
+          <div id="editor">
+            <input id="reset" type="button" value="Reset" />
+          </div>
+
+          <div class="output-container">
+              <button id="execute" class="run" type="button">Run</button>
+              <div id="output" class="output"></div>
+          </div>
+      </section>
 
     <script src="../../js/codemirror.js"></script>
     %example-js-src%

@@ -29,121 +29,121 @@
     "pages": {
         "arrayConcat": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-concat.js",
+            "exampleCode": "live-examples/js-examples/array-concat.html",
             "fileName": "array-concat.html",
             "type": "js"
         },
         "arrayCopyWithin": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-copywithin.js",
+            "exampleCode": "live-examples/js-examples/array-copywithin.html",
             "fileName": "array-copywithin.html",
             "type": "js"
         },
         "arrayEntries": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-entries.js",
+            "exampleCode": "live-examples/js-examples/array-entries.html",
             "fileName": "array-entries.html",
             "type": "js"
         },
         "arrayEvery": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-every.js",
+            "exampleCode": "live-examples/js-examples/array-every.html",
             "fileName": "array-every.html",
             "type": "js"
         },
         "arrayFill": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-fill.js",
+            "exampleCode": "live-examples/js-examples/array-fill.html",
             "fileName": "array-fill.html",
+            "type": "js"
+        },
+        "arrayFilter": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/array-filter.html",
+            "fileName": "array-filter.html",
             "type": "js"
         },
         "arrayFind": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-find.js",
+            "exampleCode": "live-examples/js-examples/array-find.html",
             "fileName": "array-find.html",
             "type": "js"
         },
         "arrayFindIndex": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-findindex.js",
+            "exampleCode": "live-examples/js-examples/array-findindex.html",
             "fileName": "array-findindex.html",
-            "type": "js"
-        },
-        "arrayFilter": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-filter.js",
-            "fileName": "array-filter.html",
             "type": "js"
         },
         "arrayFrom": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-from.js",
+            "exampleCode": "live-examples/js-examples/array-from.html",
             "fileName": "array-from.html",
             "type": "js"
         },
         "arrayIncludes": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-includes.js",
+            "exampleCode": "live-examples/js-examples/array-includes.html",
             "fileName": "array-includes.html",
             "type": "js"
         },
         "arrayIndexof": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-indexof.js",
+            "exampleCode": "live-examples/js-examples/array-indexof.html",
             "fileName": "array-indexof.html",
             "type": "js"
         },
         "arrayJoin": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-join.js",
+            "exampleCode": "live-examples/js-examples/array-join.html",
             "fileName": "array-join.html",
             "type": "js"
         },
         "arrayLastIndexOf": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-lastindexof.js",
+            "exampleCode": "live-examples/js-examples/array-lastindexof.html",
             "fileName": "array-lastindexof.html",
             "type": "js"
         },
         "arrayLength": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-length.js",
+            "exampleCode": "live-examples/js-examples/array-length.html",
             "fileName": "array-length.html",
             "type": "js"
         },
         "arrayMap": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-map.js",
+            "exampleCode": "live-examples/js-examples/array-map.html",
             "fileName": "array-map.html",
-            "type": "js"
-        },
-        "arrayPop": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-pop.js",
-            "fileName": "array-pop.html",
             "type": "js"
         },
         "arrayPush": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-push.js",
+            "exampleCode": "live-examples/js-examples/array-push.html",
             "fileName": "array-push.html",
             "type": "js"
         },
-        "arrayReduce": {
+        "arrayPop": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-reduce.js",
-            "fileName": "array-reduce.html",
+            "exampleCode": "live-examples/js-examples/array-pop.html",
+            "fileName": "array-pop.html",
             "type": "js"
         },
         "arrayReduceRight": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-reduce-right.js",
+            "exampleCode": "live-examples/js-examples/array-reduce-right.html",
             "fileName": "array-reduce-right.html",
+            "type": "js"
+        },
+        "arrayReduce": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/array-reduce.html",
+            "fileName": "array-reduce.html",
             "type": "js"
         },
         "arraySlice": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "jsExampleSrc": "../../live-examples/js-examples/array-slice.js",
+            "exampleCode": "live-examples/js-examples/array-slice.html",
             "fileName": "array-slice.html",
             "type": "js"
         },

@@ -201,44 +201,48 @@ Once satisfied with the example, [submit your pull request](https://help.github.
 
 ### Contributing A JavaScript Example
 
-With a JavaScript example you start by creating a new `.js` file in `live-examples\css-examples\js\`. The saming naming convention applies here as it does for CSS. In this example we are going to contribute a sample of using `Array.from` so, create a new file called `array-from.js`. Paste the following code(this will be the same for all JavaScript examples you add):
+With a JavaScript example you start by creating a new `.html` file in `live-examples\css-examples\js\`. The same naming convention applies here as it does for CSS. In this example we are going to contribute an exmaple demonstrating the use of `Array.from` so, create a new file called `array-from.html`. Paste the following code into this new file(this will be the same for all JavaScript examples you add):
 
 ```
-var cmInitContent = ``;
-
-var cmSelectLine = 2;
-var cmSelectChStart = 26;
+<pre>
+<code id="static-js" class="language-js" data-line="" data-char="">
+</code>
+</pre>
 ```
 
-Inside `cmInitContent` is where our example code will go. Change the code to read as below:
+Inside the `code` block is where our example code will go. Change the code to read as follows:
 
 ```
-var cmInitContent = `// call from(), passing a string
+<pre>
+<code id="static-js" class="language-js" data-line="2" data-char="26">// call from(), passing a string
 let result = Array.from('foo');
 
 // log the result
-console.log(result);`;
-
-var cmSelectLine = 2;
-var cmSelectChStart = 26;
+logger.log(result);
+</code>
+</pre>
 ```
 
-In the above template, `cmSelectLine` defines the line(0 indexed), and `cmSelectChStart` defines the chracter(0 indexed) at which point the text cursor will be in the editor. There's no hard and fast rules here, choose a point that makes the most sense to you.
+In the above template, `data-line` maps to `cmSelectLine` and `data-char` maps to `cmSelectChStart`, which respectively defines the line and character where the text cursor will be inserted by the editor. There's no hard and fast rules here, choose a point that makes the most sense for the example.
 
 That is all for the live example piece. All that remains is to tell the page generator about our new example. To do this, open up `site.json` at the root of the project folder. Under `pages`, find an exising entry with the `type` of `js`.
 
-Copy and paste an example, noting that pages are grouped by `type`, and then alphabetically for each `type`. You entry will look as follows when edited:
+Copy and paste an example.
+
+> The file is ordered by `type`, and then alphabetically for each `type`.
+
+You entry will look as follows when edited:
 
 ```
 "arrayFrom": {
     "baseTmpl": "tmpl/live-js-tmpl.html",
-    "jsExampleSrc": "../../live-examples/js-examples/array-from.js",
+    "exampleCode": "live-examples/js-examples/array-from.html",
     "fileName": "array-from.html",
     "type": "js"
 },
 ```
 
-You're done. All that remain is testing that your page generates and displayes as intended, and opening your pull request for review.
+You're done. All that remain is testing that your page generates and displayes as intended.
 
 From your command line run:
 
@@ -258,4 +262,4 @@ Point your browser to:
 
 Once satisfied with the example, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
 
-Thank you for your contributions~ o/\o
+Thank you for your contribution ~ o/\o
