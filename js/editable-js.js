@@ -4,7 +4,7 @@ var output = document.getElementById('output');
 var execute = document.getElementById('execute');
 var reset = document.getElementById('reset');
 
-var console = {
+var logger = {
     log: function(loggedItem) {
         if (typeof loggedItem === 'string') {
             return loggedItem;
@@ -21,12 +21,33 @@ var cmOptions = {
     showCursorWhenSelecting: true,
     styleActiveLine: true
 };
-
 var cmEditor = CodeMirror(editor, cmOptions);
-cmEditor.setSize('100%', 200);
-cmEditor.doc.setValue(cmInitContent);
-cmEditor.focus();
-cmEditor.doc.setCursor(cmSelectLine, cmSelectChStart);
+var cmInitContent = '';
+var cmSelectLine = 0;
+var cmSelectChStart = 0;
+
+function initCodeMirror() {
+    cmEditor.setSize('100%', 200);
+    cmEditor.doc.setValue(cmInitContent);
+    cmEditor.focus();
+    cmEditor.doc.setCursor({ line: cmSelectLine, ch: cmSelectChStart });
+    cmEditor.refresh();
+}
+
+function enableLiveEditor() {
+    var liveContainer = document.getElementById('live');
+    var staticContainer = document.getElementById('static');
+    var codeBlock = staticContainer.querySelector('#static-js');
+
+    cmInitContent = codeBlock.textContent;
+    cmSelectChStart = codeBlock.dataset['char'];
+    cmSelectLine = codeBlock.dataset['line'];
+
+    staticContainer.classList.add('hidden');
+    liveContainer.classList.remove('hidden');
+
+    initCodeMirror();
+}
 
 function applyCode() {
     var code = cmEditor.doc.getValue();
@@ -48,7 +69,8 @@ function applyCode() {
 reset.addEventListener('click', function() {
     cmEditor.doc.setValue(cmInitContent);
     cmEditor.focus();
-    cmEditor.doc.setCursor(cmSelectLine, cmSelectChStart);
+    cmEditor.doc.setCursor({ line: cmSelectLine, ch: cmSelectChStart });
+    cmEditor.refresh();
     applyCode();
 });
 
@@ -56,4 +78,7 @@ execute.addEventListener('click', function() {
     applyCode();
 });
 
-window.addEventListener('load', applyCode);
+window.addEventListener('load', function() {
+    enableLiveEditor();
+    applyCode();
+});

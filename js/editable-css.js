@@ -1,6 +1,8 @@
 var exampleChoices = document.querySelectorAll('.example-choice');
+var header = document.querySelector('header');
 var initialChoice = 0;
 var originalChoices = [];
+var output = document.getElementById('output');
 
 function applyCode(code, choice, targetElement) {
     // http://regexr.com/3fvik
@@ -36,7 +38,7 @@ function resetDefault() {
 
     // only reset to default if the default example is hidden
     if (defaultExample.classList.value.indexOf('hidden') > -1) {
-        var sections = document.querySelectorAll('#output section');
+        var sections = output.querySelectorAll('section');
         // loop over all sections and set to hidden
         for (var i = 0, l = sections.length; i < l; i++) {
             sections[i].classList.add('hidden');
@@ -127,4 +129,8 @@ for (var exampleChoice of exampleChoices) {
     }
 }
 
+// show output if JS is enabled
+output.classList.remove('hidden');
+header.classList.remove('hidden');
+document.body.classList.remove('nojs');
 choose(exampleChoices[initialChoice]);

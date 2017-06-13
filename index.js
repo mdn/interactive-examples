@@ -7,9 +7,9 @@ const uglify = require('uglify-es');
 
 const config = {
     baseDir: './docs/',
-    cssExamplesDir: './docs/pages/css/',
     destCssDir: './docs/css/',
     destJsDir: './docs/js/',
+    examplesDir: './docs/pages/',
     examplesRoot: 'live-examples',
     jsExamplesDir: './docs/pages/js/',
     mediaRoot: 'media'
@@ -121,25 +121,15 @@ function buildPages(pages) {
             tmpl = tmpl.replace('%example-js-src%', '');
         }
 
-        // at this point, simply write out the JS example html
-        if (currentPage.type === 'js') {
-            fse.outputFileSync(
-                config.jsExamplesDir + currentPage.fileName,
-                tmpl
-            );
-        }
-
-        /* For CSS examples, we need to read in the example html
-        before writing the final file */
-        if (currentPage.type === 'css') {
-            fse.outputFileSync(
-                config.cssExamplesDir + currentPage.fileName,
-                tmpl.replace(
-                    '%example-code%',
-                    fse.readFileSync(currentPage.exampleCode, 'utf-8')
-                )
-            );
-        }
+        let outputPath =
+            config.examplesDir + currentPage.type + '/' + currentPage.fileName;
+        fse.outputFileSync(
+            outputPath,
+            tmpl.replace(
+                '%example-code%',
+                fse.readFileSync(currentPage.exampleCode, 'utf-8')
+            )
+        );
     }
 }
 

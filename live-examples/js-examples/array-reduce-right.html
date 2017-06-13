@@ -1,0 +1,12 @@
+<pre>
+<code id="static-js" class="language-js" data-line="2" data-char="44">/* Calls reduceRight() on a multi dimensional array, passing a callback function that converts it into a flattened array. */
+var flattenedArray = [[0, 1], [2, 3], [4, 5]].reduceRight(
+    function(previousValue, currentValue) {
+        return previousValue.concat(currentValue);
+    }
+);
+
+// log the result
+logger.log(flattenedArray);
+</code>
+</pre>

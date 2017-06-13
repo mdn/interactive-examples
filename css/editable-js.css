@@ -8,8 +8,7 @@ body {
     margin: 0;
 }
 
-#editor,
-#output {
+#editor, #output {
     font-size: 14px;
 }
 
@@ -64,6 +63,10 @@ body {
 
 .fade-in {
     animation: fadein .5s;
+}
+
+.hidden {
+    display: none;
 }
 
 @keyframes fadein {
