@@ -36,7 +36,14 @@ pre[class*='language-'] {
     overflow: hidden;
 }
 
-.example-choice-list {
+.example-choice-list,
+.example-choice-list.large {
+    float: none;
+    width: auto;
+}
+
+.example-choice-list.live,
+.example-choice-list.large.live {
     float: left;
     width: 55%;
 }
@@ -64,7 +71,6 @@ pre[class*='language-'] {
 }
 
 .example-choice {
-    background-color: #e0e0e0;
     position: relative;
     display: block;
     margin: .2em 0;
@@ -72,6 +78,10 @@ pre[class*='language-'] {
     font-size: 14px;
     cursor: pointer;
     transition: background-color .2s ease-out;
+}
+
+.live .example-choice {
+    background-color: #e0e0e0;
 }
 
 .example-choice-list .example-choice:first-child {
@@ -108,17 +118,6 @@ pre[class*='language-'] {
 
 .example-choice.selected > .reset {
     display: unset;
-}
-
-/* JavaScript disabled styling */
-.nojs .example-choice-list,
-.nojs .example-choice-list.large {
-    float: none;
-    width: auto;
-}
-
-.nojs .example-choice {
-    background-color: transparent;
 }
 
 .hidden {

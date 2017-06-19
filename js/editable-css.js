@@ -1,4 +1,5 @@
-var exampleChoices = document.querySelectorAll('.example-choice');
+var exampleChoiceList = document.getElementById('example-choice-list');
+var exampleChoices = exampleChoiceList.querySelectorAll('.example-choice');
 var header = document.querySelector('header');
 var initialChoice = 0;
 var originalChoices = [];
@@ -99,38 +100,47 @@ function copyTextOnly(e) {
     e.stopPropagation();
 }
 
-document.addEventListener('cut', copyTextOnly);
-document.addEventListener('copy', copyTextOnly);
+/**
+ * Enables and initializes the live code editor
+ */
+function enableLiveEditor() {
+    header.classList.remove('hidden');
+    exampleChoiceList.classList.add('live');
+    output.classList.remove('hidden');
 
-for (var exampleChoice of exampleChoices) {
-    var resetButton = exampleChoice.querySelector('.reset');
+    document.addEventListener('cut', copyTextOnly);
+    document.addEventListener('copy', copyTextOnly);
 
-    originalChoices.push(exampleChoice.querySelector('code').textContent);
+    for (var exampleChoice of exampleChoices) {
+        var resetButton = exampleChoice.querySelector('.reset');
 
-    if (exampleChoice.getAttribute('initial-choice')) {
-        initialChoice = indexOf(exampleChoices, exampleChoice);
-    }
+        originalChoices.push(exampleChoice.querySelector('code').textContent);
 
-    exampleChoice.addEventListener('click', onChoose);
-    exampleChoice.addEventListener('keyup', onEdit);
+        if (exampleChoice.getAttribute('initial-choice')) {
+            initialChoice = indexOf(exampleChoices, exampleChoice);
+        }
 
-    // not all examples have a reset button
-    if (resetButton) {
-        resetButton.addEventListener('click', function(e) {
-            var choice = e.target.parentNode;
-            var replacementText =
-                originalChoices[indexOf(exampleChoices, choice)];
-            var highlighted = Prism.highlight(
-                replacementText,
-                Prism.languages.css
-            );
-            choice.querySelector('pre').innerHTML = highlighted;
-        });
+        exampleChoice.addEventListener('click', onChoose);
+        exampleChoice.addEventListener('keyup', onEdit);
+
+        // not all examples have a reset button
+        if (resetButton) {
+            resetButton.addEventListener('click', function(e) {
+                var choice = e.target.parentNode;
+                var replacementText =
+                    originalChoices[indexOf(exampleChoices, choice)];
+                var highlighted = Prism.highlight(
+                    replacementText,
+                    Prism.languages.css
+                );
+                choice.querySelector('pre').innerHTML = highlighted;
+            });
+        }
     }
 }
 
-// show output if JS is enabled
-output.classList.remove('hidden');
-header.classList.remove('hidden');
-document.body.classList.remove('nojs');
-choose(exampleChoices[initialChoice]);
+// only show the live code view if JS is enabled and the property is supported
+if (mceUtils.isPropertySupported(exampleChoiceList.dataset['property'])) {
+    enableLiveEditor();
+    choose(exampleChoices[initialChoice]);
+}
