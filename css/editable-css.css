@@ -3,7 +3,6 @@
 }
 
 body {
-    background-color: #f0f0f0;
     padding: 0;
     margin: 0;
 }
@@ -51,8 +50,8 @@ pre[class*='language-'] {
 .ouput-header {
     top: 0;
     left: 0;
-    background-color: #fff;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     margin: 0;
     padding: .5em;
     width: 100%;
@@ -68,6 +67,7 @@ pre[class*='language-'] {
 
 .output section {
     height: 100%;
+    text-align: center;
 }
 
 .example-choice {
@@ -126,4 +126,32 @@ pre[class*='language-'] {
 
 [contenteditable]:focus {
     outline: 0 solid transparent;
+}
+
+
+@media screen and (max-width: 700px) {
+    .editor-wrapper {
+        max-height: 600px;
+    }
+
+    .example-choice-list,
+    .example-choice-list.live,
+    .example-choice-list.large.live,
+    .output {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .output {
+        position: relative;
+        float: none;
+        width: 100%;
+        box-shadow: inset 3px 0 5px 0 rgba(0, 0, 0, .4);
+    }
+
+    .output,
+    .output.large {
+        height: 220px;
+    }
 }
