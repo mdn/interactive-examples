@@ -4,6 +4,7 @@
 
 #example-element {
     top: 0;
+    left: 0;
     display: inline-block;
     background-color: #000;
     color: #fff;

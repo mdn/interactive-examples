@@ -233,7 +233,6 @@
         },
         "filter": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/img-viewer.css",
             "exampleCode": "live-examples/css-examples/filter.html",
             "fileName": "filter.html",
             "type": "css"
@@ -276,7 +275,6 @@
         },
         "transform": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/img-viewer.css",
             "exampleCode": "live-examples/css-examples/transform.html",
             "fileName": "transform.html",
             "type": "css"
