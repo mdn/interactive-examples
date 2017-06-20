@@ -35,6 +35,11 @@ body {
     display: none;
 }
 
+.live {
+    background-color: #eaeff2;
+    border: 10px solid #eaeff2;
+}
+
 .output {
     display: inline-block;
     background: #fff url('../media/output-arrow.png') -5px -6px no-repeat;
