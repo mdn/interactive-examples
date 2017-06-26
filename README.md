@@ -97,9 +97,8 @@ Inside this newly created file, copy and paste the following code.
 ```
 <section id="example-choice-list" class="example-choice-list">
 <div class="example-choice">
-<pre>
-<code class="language-css">/* css rule goes here */</code>
-</pre>
+<pre><code class="language-css">/* optional comment */
+your CSS goes here</code></pre>
 </div>
 </section>
 
@@ -137,21 +136,15 @@ Next we need to add some different examples of using `border-radius`. In the `pr
 ```
 <section id="example-choice-list" class="example-choice-list">
 <div class="example-choice">
-<pre>
-<code class="language-css">border-radius: 10px;</code>
-</pre>
+<pre><code class="language-css">border-radius: 10px;</code></pre>
 </div>
 
 <div class="example-choice">
-<pre>
-<code class="language-css">border-radius: 10px 5%;</code>
-</pre>
+<pre><code class="language-css">border-radius: 10px 5%;</code></pre>
 </div>
 
 <div class="example-choice">
-<pre>
-<code class="language-css">border-radius: 10px 5px 2em / 20px 25px 30%;</code>
-</pre>
+<pre><code class="language-css">border-radius: 10px 5px 2em / 20px 25px 30%;</code></pre>
 </div>
 </section>
 ```
