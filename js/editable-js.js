@@ -1,18 +1,7 @@
 var editor = document.getElementById('editor');
-var output = document.getElementById('output');
 
 var execute = document.getElementById('execute');
 var reset = document.getElementById('reset');
-
-var logger = {
-    log: function(loggedItem) {
-        if (typeof loggedItem === 'string') {
-            return loggedItem;
-        } else {
-            return eval(loggedItem);
-        }
-    }
-};
 
 var cmOptions = {
     mode: 'javascript',
@@ -51,6 +40,7 @@ function enableLiveEditor() {
 
 function applyCode() {
     var code = cmEditor.doc.getValue();
+    var output = document.querySelector('#output code');
 
     try {
         var result = eval(code);
