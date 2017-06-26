@@ -52,10 +52,11 @@ function resetDefault() {
 }
 
 function choose(choice) {
+    var codeBlock = choice.querySelector('code');
     choice.classList.add('selected');
-    choice.setAttribute('contentEditable', true);
-    choice.setAttribute('spellcheck', false);
-    choice.focus();
+    codeBlock.setAttribute('contentEditable', true);
+    codeBlock.setAttribute('spellcheck', false);
+    codeBlock.focus();
     applyCode(choice.textContent, choice);
 }
 
