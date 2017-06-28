@@ -83,3 +83,18 @@ body {
         opacity: 1;
     }
 }
+
+@supports (display: flex) {
+    .output-container {
+        display: flex;
+    }
+
+    .output-container button {
+        margin-right: 20px;
+        flex: 0 75px;
+    }
+
+    .output {
+        flex: 10 150px;
+    }
+}
