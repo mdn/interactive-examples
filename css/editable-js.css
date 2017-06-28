@@ -58,13 +58,24 @@ body {
 .run {
     display: inline-block;
     background-color: #fff;
+    color: #29627e;
     margin: 0;
     padding: .8em 1em 1em;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #3f87a6;
     font-size: .9em;
     width: 7%;
     height: 40px;
     cursor: pointer;
+}
+
+.run:hover,
+.run:focus {
+    background-color: #29627e;
+    color: #fff;
+}
+
+.run:active {
+    margin-top: 1px;
 }
 
 .fade-in {
