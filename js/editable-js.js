@@ -1,74 +1,68 @@
-var editor = document.getElementById('editor');
+(function() {
+    'use strict';
 
-var execute = document.getElementById('execute');
-var reset = document.getElementById('reset');
+    var cmEditor = undefined;
+    var cmInitContent = '';
+    var cmSelectChStart = 0;
+    var cmSelectLine = 0;
+    var execute = document.getElementById('execute');
+    var reset = document.getElementById('reset');
 
-var cmOptions = {
-    mode: 'javascript',
-    theme: 'eclipse',
-    lineNumbers: true,
-    showCursorWhenSelecting: true,
-    styleActiveLine: true
-};
-var cmEditor = CodeMirror(editor, cmOptions);
-var cmInitContent = '';
-var cmSelectLine = 0;
-var cmSelectChStart = 0;
+    function applyCode() {
+        var code = cmEditor.doc.getValue();
+        var output = document.querySelector('#output code');
 
-function initCodeMirror() {
-    cmEditor.setSize('100%', 200);
-    cmEditor.doc.setValue(cmInitContent);
-    cmEditor.focus();
-    cmEditor.doc.setCursor({ line: cmSelectLine, ch: cmSelectChStart });
-    cmEditor.refresh();
-}
+        try {
+            var result = eval(code);
+        } catch (e) {
+            result = 'Error: ' + e.message;
+        }
 
-function enableLiveEditor() {
-    var liveContainer = document.getElementById('live');
-    var staticContainer = document.getElementById('static');
-    var codeBlock = staticContainer.querySelector('#static-js');
+        output.classList.add('fade-in');
+        output.textContent = result;
 
-    cmInitContent = codeBlock.textContent;
-    cmSelectChStart = codeBlock.dataset['char'];
-    cmSelectLine = codeBlock.dataset['line'];
-
-    staticContainer.classList.add('hidden');
-    liveContainer.classList.remove('hidden');
-
-    initCodeMirror();
-}
-
-function applyCode() {
-    var code = cmEditor.doc.getValue();
-    var output = document.querySelector('#output code');
-
-    try {
-        var result = eval(code);
-    } catch (e) {
-        result = 'Error: ' + e.message;
+        output.addEventListener('animationend', function() {
+            output.classList.remove('fade-in');
+        });
     }
 
-    output.classList.add('fade-in');
-    output.textContent = result;
+    function enableLiveEditor() {
+        var liveContainer = document.getElementById('live');
+        var staticContainer = document.getElementById('static');
+        var codeBlock = staticContainer.querySelector('#static-js');
 
-    output.addEventListener('animationend', function() {
-        output.classList.remove('fade-in');
+        cmInitContent = codeBlock.textContent;
+        cmSelectChStart = codeBlock.dataset['char'];
+        cmSelectLine = codeBlock.dataset['line'];
+
+        staticContainer.classList.add('hidden');
+        liveContainer.classList.remove('hidden');
+
+        cmEditor = codemirrorUtils.initCodeMirror({
+            cmInitContent: cmInitContent,
+            cmSelectLine: cmSelectLine,
+            cmSelectChStart: cmSelectChStart
+        });
+    }
+
+    execute.addEventListener('click', function() {
+        applyCode();
     });
-}
 
-reset.addEventListener('click', function() {
-    cmEditor.doc.setValue(cmInitContent);
-    cmEditor.focus();
-    cmEditor.doc.setCursor({ line: cmSelectLine, ch: cmSelectChStart });
-    cmEditor.refresh();
-    applyCode();
-});
+    reset.addEventListener('click', function() {
+        var editorContentOptions = {
+            cmInitContent: cmInitContent,
+            cmSelectLine: cmSelectLine,
+            cmSelectChStart: cmSelectChStart
+        };
 
-execute.addEventListener('click', function() {
-    applyCode();
-});
+        codemirrorUtils.setEditorContent(editorContentOptions);
 
-window.addEventListener('load', function() {
-    enableLiveEditor();
-    applyCode();
-});
+        applyCode();
+    });
+
+    window.addEventListener('load', function() {
+        enableLiveEditor();
+        applyCode();
+    });
+})();
