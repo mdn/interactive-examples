@@ -21,7 +21,7 @@
             "destFileName": "css-examples-base"
         },
         "editorJS": {
-            "javascript": ["js/libs/log.js", "js/editable-js.js"],
+            "javascript": ["js/libs/log.js", "js/libs/codemirrorUtil.js", "js/editable-js.js"],
             "css": ["css/editable-js.css"],
             "destFileName": "editor-js"
         }

@@ -18,8 +18,11 @@
 
             mceUtils.showCustomExampleHTML(fixedExample);
 
-            // TO-DO: Refector so we do not have these globals
-            applyCode(code, codeElement, fixedExample.querySelector('.box'));
+            cssEditorUtils.applyCode(
+                code,
+                codeElement,
+                fixedExample.querySelector('.box')
+            );
         }
     });
 
@@ -37,7 +40,7 @@
             mceUtils.showCustomExampleHTML(stickyExample);
 
             for (var i = 0, l = dtElements.length; i < l; i++) {
-                applyCode(code, codeElement, dtElements[i]);
+                cssEditorUtils.applyCode(code, codeElement, dtElements[i]);
             }
         }
     });

@@ -28,9 +28,10 @@ module.exports = {
         'new-cap': 2
     },
     globals: {
-        applyCode: true,
         CodeMirror: true,
+        codemirrorUtils: true,
         console: true,
+        cssEditorUtils: true,
         mceUtils: true,
         Prism: true,
         require: true,
