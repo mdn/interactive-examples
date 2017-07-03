@@ -3,7 +3,7 @@
 }
 
 #example-element {
-    background-color: #fff;
+    background-color: transparent;
     padding: 0 40px;
     min-height: 200px;
 }
