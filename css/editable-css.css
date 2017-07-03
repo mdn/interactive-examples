@@ -107,7 +107,8 @@ pre[class*='language-'] {
 }
 
 .example-choice.invalid {
-    background: #fff url('../media/alerticon-warning@2x.png') 95% center no-repeat;
+    border: 1px solid #e43100;
+    border-right: 10px solid #e43100;
 }
 
 .reset {
