@@ -10,10 +10,11 @@
 
     function applyCode() {
         var code = cmEditor.doc.getValue();
+        var result = '';
         var output = document.querySelector('#output code');
 
         try {
-            var result = eval(code);
+            result = executeLiveExample(code);
         } catch (e) {
             result = 'Error: ' + e.message;
         }
@@ -43,6 +44,16 @@
             cmSelectLine: cmSelectLine,
             cmSelectChStart: cmSelectChStart
         });
+    }
+
+    /**
+     * Creates a new Function from the live example, and immediately executes it.
+     * The result of the function execution is returned.
+     * @param {string} body - The live example string to parse into a Function
+     */
+    function executeLiveExample(body) {
+        new Function(body)();
+        return window.liveExResult;
     }
 
     execute.addEventListener('click', function() {
