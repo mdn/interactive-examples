@@ -1,12 +1,10 @@
-(function() {
+(function(global) {
     var Logger = {
         log: function(loggedItem) {
-            if (typeof loggedItem === 'string') {
-                return loggedItem;
-            } else {
-                return eval(loggedItem);
-            }
+            /* store the result of the function execution as a global variable
+               which will be accessed in editable-js.js */
+            global.liveExResult = loggedItem;
         }
     };
-    window.logger = Logger;
-})();
+    global.logger = Logger;
+})(window);
