@@ -156,3 +156,14 @@ pre[class*='language-'] {
         height: 220px;
     }
 }
+
+@supports (display: flex) {
+    .example-choice-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .example-choice {
+        flex-grow: 1;
+    }
+}
