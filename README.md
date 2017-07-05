@@ -211,7 +211,7 @@ Inside the `code` block is where our example code will go. Change the code to re
 let result = Array.from('foo');
 
 // log the result
-logger.log(result);
+console.log(result);
 </code>
 </pre>
 ```
