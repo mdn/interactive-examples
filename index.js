@@ -131,6 +131,7 @@ function buildPages(pages) {
             )
         );
     }
+    console.log('Pages built successfully'); // eslint-disable-line no-console
 }
 
 /**

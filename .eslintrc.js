@@ -32,9 +32,9 @@ module.exports = {
         codemirrorUtils: true,
         console: true,
         cssEditorUtils: true,
+        mceAnalytics: true,
         mceUtils: true,
         Prism: true,
-        require: true,
-        site: true
+        require: true
     }
 };

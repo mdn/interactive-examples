@@ -16,12 +16,22 @@
             "destFileName": "codemirror"
         },
         "cssExamplesBase": {
-            "javascript": ["js/libs/prism.js", "js/mce-utils.js", "js/editable-css.js"],
+            "javascript": [
+                "js/libs/prism.js",
+                "js/mce-utils.js",
+                "js/editable-css.js"
+            ],
             "css": ["css/libs/prism.css", "css/editable-css.css"],
             "destFileName": "css-examples-base"
         },
         "editorJS": {
-            "javascript": ["js/libs/console.js", "js/libs/codemirrorUtil.js", "js/editable-js.js"],
+            "javascript": [
+                "js/editor-libs/analytics.js",
+                "js/editor-libs/events.js",
+                "js/editor-libs/console.js",
+                "js/libs/codemirrorUtil.js",
+                "js/editable-js.js"
+            ],
             "css": ["css/editable-js.css"],
             "destFileName": "editor-js"
         }
