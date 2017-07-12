@@ -26,9 +26,9 @@ body {
     margin-bottom: 1em;
 }
 
-#editor > input {
+#editor > button {
     position: absolute;
-    top: 10px;
+    bottom: 10px;
     right: 10px;
     z-index: 10;
 }
@@ -58,7 +58,7 @@ body {
     overflow-y: scroll;
 }
 
-.run {
+.button {
     display: inline-block;
     background-color: #fff;
     color: #29627e;
@@ -69,6 +69,14 @@ body {
     width: 7%;
     height: 40px;
     cursor: pointer;
+}
+
+.reset {
+    background-color: #29627e;
+    color: #fff;
+    padding: .5em;
+    font-size: 1em;
+    animation: fadein 1s;
 }
 
 .run:hover,
