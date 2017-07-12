@@ -131,6 +131,10 @@ pre[class*='language-'] {
     display: none;
 }
 
+.transition-all {
+    transition: all .3s ease-in;
+}
+
 [contenteditable]:focus {
     outline: 0 solid transparent;
 }
