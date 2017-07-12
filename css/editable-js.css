@@ -44,16 +44,18 @@ body {
 
 .output {
     display: inline-block;
-    background: #fff url('../media/output-arrow.png') -5px -6px no-repeat;
+    background-color: #fff;
     margin: 0;
-    padding: .8em 1em 1em 50px;
+    padding: .8em 1em 1em;
     border: 1px solid #e0e0e0;
     border-left: 0;
+    border-radius: 6px;
+    border-top-left-radius: 0;
     width: 92%;
-    height: 40px;
+    height: 80px;
     font-family: courier;
-    line-height: 1;
-    vertical-align: bottom;
+    word-break: break-word;
+    overflow-y: scroll;
 }
 
 .run {
@@ -107,6 +109,8 @@ body {
     }
 
     .output {
+        display: flex;
         flex: 10 150px;
+        align-items: center;
     }
 }
