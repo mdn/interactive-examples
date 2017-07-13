@@ -75,6 +75,7 @@ body {
     background-color: #29627e;
     color: #fff;
     padding: .5em;
+    width: 12%;
     font-size: 1em;
     animation: fadein 1s;
 }
