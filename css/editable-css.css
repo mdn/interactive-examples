@@ -107,8 +107,7 @@ pre[class*='language-'] {
 }
 
 .example-choice.invalid {
-    border: 1px solid #e43100;
-    border-left: 10px solid #e43100;
+    border-left: 10px solid #f8b83e;
 }
 
 .example-choice > code {
@@ -117,7 +116,6 @@ pre[class*='language-'] {
 }
 
 .reset {
-    display: none;
     position: absolute;
     top: .75em;
     right: 1em;
@@ -128,10 +126,6 @@ pre[class*='language-'] {
     font-size: 14px;
     line-height: 1;
     cursor: pointer;
-}
-
-.example-choice.selected > .reset {
-    display: unset;
 }
 
 .hidden {

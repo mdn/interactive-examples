@@ -17,8 +17,9 @@
         },
         "cssExamplesBase": {
             "javascript": [
+                "js/editor-libs/mce-utils.js",
+                "js/editor-libs/events.js",
                 "js/libs/prism.js",
-                "js/mce-utils.js",
                 "js/editable-css.js"
             ],
             "css": ["css/libs/prism.css", "css/editable-css.css"],
@@ -26,6 +27,7 @@
         },
         "editorJS": {
             "javascript": [
+                "js/editor-libs/mce-utils.js",
                 "js/editor-libs/analytics.js",
                 "js/editor-libs/events.js",
                 "js/editor-libs/console.js",
