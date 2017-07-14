@@ -188,7 +188,7 @@ npm start
 
 Point your browser to:
 
-[localhost:8080/docs/pages/css/border-radius.html](http://localhost:8000/docs/pages/css/border-radius.html)
+[localhost:8080/pages/css/border-radius.html](http://localhost:8000/pages/css/border-radius.html)
 
 Once satisfied with the example, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
 
@@ -251,7 +251,7 @@ npm start
 
 Point your browser to:
 
-[localhost:8080/docs/pages/js/array-from.html](http://localhost:8000/docs/pages/js/array-from.html)
+[localhost:8080/pages/js/array-from.html](http://localhost:8000/pages/js/array-from.html)
 
 Once satisfied with the example, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
 

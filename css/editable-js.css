@@ -7,6 +7,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    border: 1em solid #eaeff2;
 }
 
 #editor,
@@ -43,51 +44,54 @@ body {
 }
 
 .output {
+    position: relative;
     display: inline-block;
     background-color: #fff;
     margin: 0;
-    padding: .8em 1em 1em;
-    border: 1px solid #e0e0e0;
-    border-left: 0;
-    border-radius: 6px;
-    border-top-left-radius: 0;
+    border: 0;
+    box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, .1);
     width: 92%;
     height: 80px;
     font-family: courier;
     word-break: break-word;
-    overflow-y: scroll;
+    overflow-y: auto;
+    vertical-align: middle;
+}
+
+.output:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 40px solid transparent; /* half of height of .output */
+    border-left: 20px solid #eaeff2;
+    border-right: 0;
+}
+
+.output code {
+    padding: .8em 1em .8em 35px;
 }
 
 .button {
     display: inline-block;
     background-color: #fff;
-    color: #29627e;
+    color: #4c4c4c;
     margin: 0;
-    padding: .8em 1em 1em;
-    border: 1px solid #3f87a6;
-    font-size: .9em;
-    width: 7%;
-    height: 40px;
+    padding: 3px 5px 2px;
+    border: 2px solid #9b9b9b;
+    font-size: 14px;
+    line-height: 1;
     cursor: pointer;
 }
 
 .reset {
-    background-color: #29627e;
-    color: #fff;
-    padding: .5em;
-    width: 12%;
-    font-size: 1em;
     animation: fadein 1s;
 }
 
-.run:hover,
-.run:focus {
+.run {
     background-color: #29627e;
+    border-color: transparent;
     color: #fff;
-}
-
-.run:active {
-    margin-top: 1px;
 }
 
 .fade-in {
@@ -110,11 +114,11 @@ body {
 @supports (display: flex) {
     .output-container {
         display: flex;
+        align-items: center;
     }
 
-    .output-container button {
-        margin-right: 20px;
-        flex: 0 75px;
+    .run {
+        margin-right: 10px;
     }
 
     .output {
