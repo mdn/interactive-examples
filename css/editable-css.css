@@ -6,6 +6,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    border: 1em solid #eaeff2;
 }
 
 header h4 {
@@ -20,7 +21,6 @@ pre[class*='language-'] {
 
 .editor-wrapper {
     background-color: #eaeff2;
-    border: 10px solid #eaeff2;
     width: 100%;
     max-height: 500px;
     overflow: hidden;
