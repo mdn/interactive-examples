@@ -29,9 +29,17 @@
     function choose(choice) {
         var codeBlock = choice.querySelector('pre');
         choice.classList.add('selected');
+
+        /* If the newly chosen example is in an invalid state,
+           ensure that the reset buttton is visible */
+        if (choice.classList.contains('invalid')) {
+            window.mceUtils.showReset(choice);
+        }
+
         codeBlock.setAttribute('contentEditable', true);
         codeBlock.setAttribute('spellcheck', false);
         codeBlock.focus();
+
         CSSEditorUtils.applyCode(choice.textContent, choice);
     }
 
@@ -96,9 +104,9 @@
     }
 
     function onChoose(e) {
-        // highlght the code we are leaving
         var selected = document.querySelector('.selected');
 
+        // highlght the code we are leaving
         if (selected && e.currentTarget !== selected) {
             var highlighted = Prism.highlight(
                 selected.firstChild.textContent,
@@ -107,18 +115,8 @@
             selected.firstChild.innerHTML = highlighted;
         }
 
-        if (selected) {
-            var errorIcon = selected.querySelector('.error');
-            if (errorIcon) {
-                errorIcon.classList.add('hidden');
-            }
-        }
-
-        for (var exampleChoice of exampleChoices) {
-            exampleChoice.classList.remove('selected');
-        }
-
         resetDefault();
+
         choose(e.currentTarget);
     }
 
@@ -143,6 +141,25 @@
             // show the default example
             defaultExample.classList.remove('hidden');
             defaultExample.setAttribute('aria-hidden', false);
+        }
+
+        resetUIState();
+    }
+
+    /**
+     * Resets the UI state by deselcting all example choice, and
+     * hiding all reset buttons.
+     */
+    function resetUIState() {
+        var resetButtons = exampleChoiceList.querySelectorAll('.reset');
+
+        for (var resetButton of resetButtons) {
+            resetButton.classList.add('hidden');
+            resetButton.setAttribute('aria-hidden', true);
+        }
+
+        for (var exampleChoice of exampleChoices) {
+            exampleChoice.classList.remove('selected');
         }
     }
 

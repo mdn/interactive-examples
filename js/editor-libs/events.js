@@ -1,27 +1,28 @@
 (function() {
     'use strict';
 
+    var exampleChoiceList = document.getElementById('example-choice-list');
     var liveEditorContainer = document.getElementById('live');
     var liveEditor = document.getElementById('editor');
 
-    /**
-     * Enable and show the reset button on first keyup inside the editor
-     */
-    function showReset() {
-        var resetButton = document.getElementById('reset');
-        resetButton.classList.remove('hidden');
-        resetButton.setAttribute('aria-hidden', false);
-        // we can now safely remove the event listener
-        liveEditor.removeEventListener('keyup', showReset);
+    // only bind events if the container exist
+    if (exampleChoiceList) {
+        exampleChoiceList.addEventListener('keyup', function(event) {
+            window.mceUtils.showReset(event.target.parentElement);
+        });
     }
 
-    liveEditorContainer.addEventListener('click', function(event) {
-        switch (event.target.id) {
-        case 'execute':
-            mceAnalytics.trackRunClicks();
-            break;
-        }
-    });
+    if (liveEditor) {
+        liveEditorContainer.addEventListener('click', function(event) {
+            switch (event.target.id) {
+            case 'execute':
+                mceAnalytics.trackRunClicks();
+                break;
+            }
+        });
 
-    liveEditor.addEventListener('keyup', showReset);
+        liveEditor.addEventListener('keyup', function() {
+            window.mceUtils.showReset(liveEditor);
+        });
+    }
 })();
