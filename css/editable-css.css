@@ -83,7 +83,7 @@ pre[class*='language-'] {
 }
 
 .example-choice-list .example-choice:first-child {
-    margin: 0;
+    margin-top: 0;
 }
 
 .example-choice:hover {
