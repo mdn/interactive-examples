@@ -51,14 +51,9 @@ pre[class*='language-'] {
     width: 55%;
 }
 
-.ouput-header {
-    top: 0;
-    left: 0;
-    background-color: #000;
-    color: #fff;
+.output-header {
     margin: 0;
-    padding: .5em;
-    width: 100%;
+    padding: 0 0 .5em 0;
 }
 
 .output {
