@@ -113,7 +113,7 @@ pre[class*='language-'] {
 
 .reset {
     position: absolute;
-    top: .75em;
+    top: 50%;
     right: 1em;
     background-color: #fff;
     color: #4c4c4c;
@@ -122,6 +122,7 @@ pre[class*='language-'] {
     font-size: 14px;
     line-height: 1;
     cursor: pointer;
+    transform: translateY(-50%);
 }
 
 .hidden {
