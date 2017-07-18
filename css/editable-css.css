@@ -162,8 +162,11 @@ pre[class*='language-'] {
     outline: 0 solid transparent;
 }
 
-
-@media screen and (max-width: 700px) {
+/*
+Column display
+- kuma flips display at tablet size, with padding that's approx 738px
+*/
+@media screen and (max-width: 738px) {
     .editor-wrapper {
         max-height: 600px;
     }
