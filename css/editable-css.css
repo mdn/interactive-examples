@@ -3,10 +3,11 @@
 }
 
 body {
+    height: 100%;
     padding: 0;
-    margin: 0;
+    margin: 1em;
     font-family: sans-serif;
-    border: 1em solid #eaeff2;
+    background-color: #eaeff2;
 }
 
 header h4 {
@@ -24,6 +25,10 @@ pre[class*='language-'] {
     width: 100%;
     max-height: 500px;
     overflow: hidden;
+}
+
+.example-choice-list {
+    padding-right: 2em;
 }
 
 .example-choice-list,
@@ -50,14 +55,9 @@ pre[class*='language-'] {
     width: 55%;
 }
 
-.ouput-header {
-    top: 0;
-    left: 0;
-    background-color: #000;
-    color: #fff;
+.output-header {
     margin: 0;
-    padding: .5em;
-    width: 100%;
+    padding: 0 0 .5em 0;
 }
 
 .output {
@@ -65,6 +65,9 @@ pre[class*='language-'] {
     float: right;
     background-color: #fff;
     width: 45%;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, .2);
+    padding: 1em;
 }
 
 .output section {
@@ -74,12 +77,14 @@ pre[class*='language-'] {
 
 .example-choice {
     position: relative;
+    z-index: 1;
     display: block;
     margin: .2em 0;
     width: 100%;
+    border: 1px solid transparent;
     font-size: 14px;
     cursor: pointer;
-    transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out, border .2s ease-out;
 }
 
 .live .example-choice {
@@ -87,27 +92,43 @@ pre[class*='language-'] {
 }
 
 .example-choice-list .example-choice:first-child {
-    margin: 0;
+    margin-top: 0;
 }
 
 .example-choice:hover {
     background-color: #f5f5f5;
 }
 
-.example-choice {
-    border-left: 10px solid #9d9d9c;
+.example-choice:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    z-index: 1;
+    opacity: 0;
+    transition: all .2s ease-out;
+    transform: translateY(-50%);
+    border-left: 10px solid #9b9b9b;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.example-choice.selected:before {
+    opacity: 1;
+    right: -1.5em;
+}
+
+.example-choice.invalid:before {
+    border-color: #f8b83e;
 }
 
 .example-choice.selected {
     background-color: #fff;
-    border-left-color: #4d9f0c;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-top: 1px solid rgba(0, 0, 0, .3);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
     box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, .2);
     cursor: text;
-    transition: background-color .2s ease-in;
-}
-
-.example-choice.invalid {
-    border-left: 10px solid #f8b83e;
 }
 
 .example-choice > code {
@@ -117,7 +138,7 @@ pre[class*='language-'] {
 
 .reset {
     position: absolute;
-    top: .75em;
+    top: 50%;
     right: 1em;
     background-color: #fff;
     color: #4c4c4c;
@@ -126,6 +147,7 @@ pre[class*='language-'] {
     font-size: 14px;
     line-height: 1;
     cursor: pointer;
+    transform: translateY(-50%);
 }
 
 .hidden {
@@ -140,8 +162,11 @@ pre[class*='language-'] {
     outline: 0 solid transparent;
 }
 
-
-@media screen and (max-width: 700px) {
+/*
+Column display
+- kuma flips display at tablet size, with padding that's approx 738px
+*/
+@media screen and (max-width: 738px) {
     .editor-wrapper {
         max-height: 600px;
     }
@@ -153,6 +178,15 @@ pre[class*='language-'] {
         float: none;
         width: 100%;
         height: auto;
+    }
+
+    .example-choice-list {
+        padding-right: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .example-choice.selected:before {
+        transform: translateY(-50%) rotate(90deg);
     }
 
     .output {
