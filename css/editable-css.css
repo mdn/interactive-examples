@@ -89,7 +89,6 @@ pre[class*='language-'] {
 
 .live .example-choice {
     background-color: #e0e0e0;
-    border-left: 10px solid #9d9d9c;
 }
 
 .example-choice-list .example-choice:first-child {
@@ -128,13 +127,8 @@ pre[class*='language-'] {
     border: 1px solid rgba(0, 0, 0, .2);
     border-top: 1px solid rgba(0, 0, 0, .3);
     border-bottom: 1px solid rgba(0, 0, 0, .1);
-    border-left: 10px solid #4d9f0c;
     box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, .2);
     cursor: text;
-}
-
-.example-choice.invalid {
-    border-left: 10px solid #f8b83e;
 }
 
 .example-choice > code {
