@@ -24,13 +24,26 @@
             customBlock.setAttribute('aria-hidden', false);
         },
         /**
-         * Enable and show the reset button on first keyup inside the editor
+         * Show or hide the reset button
          * @param {Object} container - The element containing the reset element
          */
-        showReset: function(container) {
+        toggleReset: function(container) {
             var resetButton = container.querySelector('.reset');
-            resetButton.classList.remove('hidden');
-            resetButton.setAttribute('aria-hidden', false);
+
+            if (resetButton.classList.contains('hidden')) {
+                resetButton.classList.remove('hidden', 'fade-out');
+                resetButton.classList.add('fade-in');
+                resetButton.setAttribute('aria-hidden', false);
+            } else {
+                resetButton.classList.remove('fade-in');
+                resetButton.classList.add('fade-out');
+
+                resetButton.addEventListener('animationend', function hide() {
+                    resetButton.classList.add('hidden');
+                    resetButton.setAttribute('aria-hidden', true);
+                    resetButton.removeEventListener('animationend', hide);
+                });
+            }
         }
     };
 

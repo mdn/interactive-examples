@@ -6,6 +6,7 @@
     var cmSelectChStart = 0;
     var cmSelectLine = 0;
     var execute = document.getElementById('execute');
+    var liveContainer = '';
     var reset = document.getElementById('reset');
 
     function applyCode() {
@@ -28,9 +29,10 @@
     }
 
     function enableLiveEditor() {
-        var liveContainer = document.getElementById('live');
         var staticContainer = document.getElementById('static');
         var codeBlock = staticContainer.querySelector('#static-js');
+
+        liveContainer = document.getElementById('live');
 
         cmInitContent = codeBlock.textContent;
         cmSelectChStart = codeBlock.dataset['char'];
@@ -68,6 +70,8 @@
         };
 
         codemirrorUtils.setEditorContent(editorContentOptions);
+
+        mceUtils.toggleReset(liveContainer);
 
         applyCode();
     });

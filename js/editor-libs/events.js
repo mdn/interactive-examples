@@ -8,7 +8,12 @@
     // only bind events if the container exist
     if (exampleChoiceList) {
         exampleChoiceList.addEventListener('keyup', function(event) {
-            window.mceUtils.showReset(event.target.parentElement);
+            var parentElement = event.target.parentElement;
+            var resetButton = parentElement.querySelector('.reset');
+            // only toggle the reset button on keyup if it is currently hidden
+            if (resetButton.classList.contains('hidden')) {
+                window.mceUtils.toggleReset(parentElement);
+            }
         });
     }
 
@@ -22,7 +27,11 @@
         });
 
         liveEditor.addEventListener('keyup', function() {
-            window.mceUtils.showReset(liveEditor);
+            var resetButton = liveEditor.querySelector('.reset');
+            // only toggle the reset button on keyup if it is currently hidden
+            if (resetButton.classList.contains('hidden')) {
+                window.mceUtils.toggleReset(liveEditor);
+            }
         });
     }
 })();

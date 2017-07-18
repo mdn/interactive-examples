@@ -22,7 +22,11 @@
                 "js/libs/prism.js",
                 "js/editable-css.js"
             ],
-            "css": ["css/libs/prism.css", "css/editable-css.css"],
+            "css": [
+                "css/libs/prism.css",
+                "css/editor-libs/common.css",
+                "css/editable-css.css"
+            ],
             "destFileName": "css-examples-base"
         },
         "editorJS": {
@@ -34,7 +38,7 @@
                 "js/libs/codemirrorUtil.js",
                 "js/editable-js.js"
             ],
-            "css": ["css/editable-js.css"],
+            "css": ["css/editor-libs/common.css", "css/editable-js.css"],
             "destFileName": "editor-js"
         }
     },
