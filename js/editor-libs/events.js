@@ -14,6 +14,10 @@
             if (resetButton.classList.contains('hidden')) {
                 window.mceUtils.toggleReset(parentElement);
             }
+
+            if (!localStorage.getItem('firstCSSEditRecorded')) {
+                mceAnalytics.trackFirstEdit('css');
+            }
         });
     }
 
@@ -31,6 +35,10 @@
             // only toggle the reset button on keyup if it is currently hidden
             if (resetButton.classList.contains('hidden')) {
                 window.mceUtils.toggleReset(liveEditor);
+            }
+
+            if (!localStorage.getItem('firstJSEditRecorded')) {
+                mceAnalytics.trackFirstEdit('js');
             }
         });
     }
