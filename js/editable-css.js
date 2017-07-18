@@ -116,6 +116,8 @@
             );
             selected.firstChild.innerHTML = highlighted;
 
+            mceUtils.trackCSSExampleSelection();
+
             resetDefault();
             choose(e.currentTarget);
         }
