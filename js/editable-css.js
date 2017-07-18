@@ -33,7 +33,7 @@
         /* If the newly chosen example is in an invalid state,
            ensure that the reset buttton is visible */
         if (choice.classList.contains('invalid')) {
-            window.mceUtils.showReset(choice);
+            window.mceUtils.toggleReset(choice);
         }
 
         codeBlock.setAttribute('contentEditable', true);
@@ -64,7 +64,8 @@
         document.addEventListener('cut', copyTextOnly);
         document.addEventListener('copy', copyTextOnly);
 
-        for (var exampleChoice of exampleChoices) {
+        for (let i = 0, l = exampleChoices.length; i < l; i++) {
+            var exampleChoice = exampleChoices[i];
             var resetButton = exampleChoice.querySelector('.reset');
 
             originalChoices.push(
@@ -78,19 +79,20 @@
             exampleChoice.addEventListener('click', onChoose);
             exampleChoice.addEventListener('keyup', onEdit);
 
-            // not all examples have a reset button
-            if (resetButton) {
-                resetButton.addEventListener('click', function(e) {
-                    var choice = e.target.parentNode;
-                    var replacementText =
-                        originalChoices[indexOf(exampleChoices, choice)];
-                    var highlighted = Prism.highlight(
-                        replacementText,
-                        Prism.languages.css
-                    );
-                    choice.querySelector('pre').innerHTML = highlighted;
-                });
-            }
+            resetButton.addEventListener('click', function(e) {
+                var choice = e.target.parentNode;
+                var replacementText =
+                    originalChoices[indexOf(exampleChoices, choice)];
+                var highlighted = Prism.highlight(
+                    replacementText,
+                    Prism.languages.css
+                );
+
+                exampleChoices[i].classList.remove('invalid');
+                mceUtils.toggleReset(exampleChoices[i]);
+
+                choice.querySelector('pre').innerHTML = highlighted;
+            });
         }
     }
 
@@ -113,11 +115,10 @@
                 Prism.languages.css
             );
             selected.firstChild.innerHTML = highlighted;
+
+            resetDefault();
+            choose(e.currentTarget);
         }
-
-        resetDefault();
-
-        choose(e.currentTarget);
     }
 
     function onEdit(e) {
@@ -155,6 +156,7 @@
 
         for (var resetButton of resetButtons) {
             resetButton.classList.add('hidden');
+            resetButton.classList.remove('fade-in');
             resetButton.setAttribute('aria-hidden', true);
         }
 

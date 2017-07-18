@@ -85,31 +85,14 @@ body {
     cursor: pointer;
 }
 
-.reset {
-    animation: fadein 1s;
-}
-
 .run {
     background-color: #29627e;
     border-color: transparent;
     color: #fff;
 }
 
-.fade-in {
-    animation: fadein .5s;
-}
-
 .hidden {
     display: none;
-}
-
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
 
 @supports (display: flex) {
