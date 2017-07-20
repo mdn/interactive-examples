@@ -41,6 +41,19 @@
             );
         },
         /**
+         * Sends the duration from `navigationStart` until `onload` to GA
+         * in order to measure performance
+         * @param {String} exampleType - One of js or css
+         * @param {int} duration - The time it took for the editor to load
+         */
+        trackFrameLoadTime: function(exampleType, duration) {
+            this.trackEvent({
+                category: exampleType,
+                action: 'Load time in ms: ' + duration,
+                label: 'Performance'
+            });
+        },
+        /**
          * Creates an object that is passed to trackEvent, recording
          * the clicks on the JS examples run button.
          */
