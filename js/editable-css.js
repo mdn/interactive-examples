@@ -116,7 +116,7 @@
             );
             selected.firstChild.innerHTML = highlighted;
 
-            mceUtils.trackCSSExampleSelection();
+            mceAnalytics.trackCSSExampleSelection();
 
             resetDefault();
             choose(e.currentTarget);
