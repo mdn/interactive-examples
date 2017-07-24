@@ -1,0 +1,9 @@
+/* Prism theme overrides */
+pre[class*='language-']:before,
+pre[class*='language-']:after {
+    width: 0;
+}
+
+code[class*='language-'] {
+    height: auto;
+}
