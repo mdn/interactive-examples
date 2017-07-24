@@ -208,6 +208,11 @@ Column display
     }
 
     .example-choice {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .example-choice pre {
         flex-grow: 1;
     }
 

@@ -44,6 +44,10 @@ body {
     border: 10px solid #eaeff2;
 }
 
+[contenteditable]:focus {
+    outline: 0 solid transparent;
+}
+
 .output {
     position: relative;
     display: inline-block;

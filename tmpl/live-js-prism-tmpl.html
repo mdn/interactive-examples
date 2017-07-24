@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="../../css/editor-js-prism.css" rel="stylesheet" />
+    %example-css-src%
+  </head>
+  <body>
+      <section id="static">
+          %example-code%
+      </section>
+
+      <section id="live" class="hidden">
+          <div id="editor">
+              <pre class="language-js line-numbers"><code></code></pre>
+            <button id="reset" type="button" class="button reset hidden" aria-hidden="false">Reset</button>
+          </div>
+
+          <div class="output-container">
+              <button id="execute" class="button run" type="button">Run &rsaquo;</button>
+              <div id="output" class="output"><code></code></div>
+          </div>
+      </section>
+
+    %example-js-src%
+    <script src="../../js/editor-js-prism.js"></script>
+  </body>
+</html>
