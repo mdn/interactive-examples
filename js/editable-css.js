@@ -28,11 +28,18 @@
 
     function choose(choice) {
         var codeBlock = choice.querySelector('pre');
+        var currentChoiceText = choice.textContent.trim();
+        var originalChoice = originalChoices[indexOf(exampleChoices, choice)];
+
         choice.classList.add('selected');
 
-        /* If the newly chosen example is in an invalid state,
-           ensure that the reset buttton is visible */
-        if (choice.classList.contains('invalid')) {
+        /* If the newly chosen example is in an invalid state, or the code
+           does not match the original example, ensure that the reset buttton
+           is visible */
+        if (
+            choice.classList.contains('invalid') ||
+            currentChoiceText !== originalChoice
+        ) {
             window.mceUtils.toggleReset(choice);
         }
 
