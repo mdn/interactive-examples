@@ -1,7 +1,16 @@
 /* Prism theme overrides */
+pre[class*='language-'] {
+    background-image: none;
+}
+
 pre[class*='language-']:before,
 pre[class*='language-']:after {
     width: 0;
+}
+
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
+    background-color: transparent;
 }
 
 code[class*='language-'] {
