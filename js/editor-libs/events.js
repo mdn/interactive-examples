@@ -61,4 +61,23 @@
             }
         });
     }
+
+    /**
+     * Catches JavaScript errors from the editor that bubble up to the
+     * window and passes them on to GA
+     */
+    window.onerror = function(msg, url, lineNo, columnNo, error) {
+        var errorDetails = [
+            'URL: ' + url,
+            'Line: ' + lineNo,
+            'Column: ' + columnNo,
+            'Error object: ' + JSON.stringify(error)
+        ].join(' - ');
+
+        mceAnalytics.trackEvent({
+            category: 'JavaScript Errors',
+            action: errorDetails,
+            label: msg
+        });
+    };
 })();
