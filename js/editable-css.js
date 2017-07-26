@@ -98,7 +98,7 @@
                 exampleChoices[i].classList.remove('invalid');
                 mceUtils.toggleReset(exampleChoices[i]);
 
-                choice.querySelector('pre').innerHTML = highlighted;
+                choice.querySelector('code').innerHTML = highlighted;
             });
         }
     }
