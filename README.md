@@ -84,6 +84,10 @@ npm install
 
 This will ensure that you have all the required development modules installed to build and test your contributions. You are now set-up, and ready to contribute. Thank you o/\o
 
+### Publishing to production (`interactive-examples.mdn.mozilla.net`)
+
+1. Push to the `prod` branch on GitHub, e.g. `git push origin master:prod` (this will push your local `master` branch to the remote `prod` branch)
+
 ### General
 
 There are two types of live examples we currently support. Those are JavaScript and Cascasing Style Sheets. The process of contributing either is essentially the same but, there are slight differences you need to be aware of.
