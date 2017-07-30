@@ -3,16 +3,15 @@
 }
 
 body {
-    height: 100%;
-    background-color: #eaeff2;
+    background-color: #fff;
+    color: #333;
     padding: 0;
-    margin: 1em;
+    height: 100%;
     font-family: sans-serif;
-    background-color: #eaeff2;
 }
 
-#editor,
-#output {
+.editor,
+.output {
     font-size: 14px;
 }
 
@@ -23,25 +22,29 @@ body {
     box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, .2);
 }
 
-#editor {
-    position: relative;
-    margin-bottom: 1em;
+.live {
+    background-color: #f5f9fa;
+    padding: .7em;
+    border: 1px solid #eaf2f4;
 }
 
-#editor > button {
+.editor {
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 1em;
+    border: 1px solid #3f87a6;
+    border-left: 5px solid #3f87a6;
+}
+
+.editor > button {
     position: absolute;
     bottom: 10px;
     right: 10px;
     z-index: 10;
 }
 
-#editor > input.hidden {
+.editor > input.hidden {
     display: none;
-}
-
-.live {
-    background-color: #eaeff2;
-    border: 10px solid #eaeff2;
 }
 
 pre.js-editor[class*='language-'] {
@@ -57,45 +60,42 @@ pre.js-editor[class*='language-'] {
     display: inline-block;
     background-color: #fff;
     margin: 0;
-    border: 0;
+    border: 1px solid #eaf2f4;
     box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, .1);
     width: 92%;
-    height: 80px;
+    height: 100px;
     font-family: courier;
     word-break: break-word;
     overflow-y: auto;
     vertical-align: middle;
 }
 
-.output:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 40px solid transparent; /* half of height of .output */
-    border-left: 20px solid #eaeff2;
-    border-right: 0;
-}
-
 .output code {
     padding: .8em 1em .8em 35px;
 }
 
+.buttons-container {
+    align-self: flex-start;
+}
+
 .button {
-    display: inline-block;
+    display: block;
     background-color: #fff;
-    color: #4c4c4c;
-    margin: 0;
-    padding: 3px 5px 2px;
-    border: 2px solid #9b9b9b;
+    color: #333;
+    padding: .5em;
+    border: 2px solid #333;
+    width: 100px;
     font-size: 14px;
     line-height: 1;
     cursor: pointer;
 }
 
-.run {
-    background-color: #29627e;
-    border-color: transparent;
+.button:first-child {
+    margin-bottom: .5em;
+}
+
+.button:hover {
+    background-color: #333;
     color: #fff;
 }
 
