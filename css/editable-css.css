@@ -3,12 +3,12 @@
 }
 
 body {
-    height: 100%;
-    padding: 0;
-    margin: 1em;
-    font-family: sans-serif;
     background-color: #fff;
     color: #333;
+    margin: 1em;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
 }
 
 header h4 {

@@ -37,18 +37,6 @@
                 "js/editor-libs/analytics.js",
                 "js/editor-libs/events.js",
                 "js/editor-libs/console.js",
-                "js/libs/codemirrorUtil.js",
-                "js/editable-js.js"
-            ],
-            "css": ["css/editor-libs/common.css", "css/editable-js.css"],
-            "destFileName": "editor-js"
-        },
-        "editorJSPrism": {
-            "javascript": [
-                "js/editor-libs/mce-utils.js",
-                "js/editor-libs/analytics.js",
-                "js/editor-libs/events.js",
-                "js/editor-libs/console.js",
                 "js/libs/prism.js",
                 "js/editable-js-prism.js"
             ],
@@ -58,12 +46,12 @@
                 "css/editor-libs/prism-override.css",
                 "css/editable-js.css"
             ],
-            "destFileName": "editor-js-prism"
+            "destFileName": "editor-js"
         }
     },
     "pages": {
         "arrayConcat": {
-            "baseTmpl": "tmpl/live-js-prism-tmpl.html",
+            "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/array-concat.html",
             "fileName": "array-concat.html",
             "type": "js"
