@@ -36,28 +36,6 @@
 
             customBlock.classList.remove('hidden');
             customBlock.setAttribute('aria-hidden', false);
-        },
-        /**
-         * Show or hide the reset button
-         * @param {Object} container - The element containing the reset element
-         */
-        toggleReset: function(container) {
-            var resetButton = container.querySelector('.reset');
-
-            if (resetButton.classList.contains('hidden')) {
-                resetButton.classList.remove('hidden', 'fade-out');
-                resetButton.classList.add('fade-in');
-                resetButton.setAttribute('aria-hidden', false);
-            } else {
-                resetButton.classList.remove('fade-in');
-                resetButton.classList.add('fade-out');
-
-                resetButton.addEventListener('animationend', function hide() {
-                    resetButton.classList.add('hidden');
-                    resetButton.setAttribute('aria-hidden', true);
-                    resetButton.removeEventListener('animationend', hide);
-                });
-            }
         }
     };
 

@@ -1,4 +1,6 @@
 (function(global) {
+    'use strict';
+
     var exampleChoiceList = document.getElementById('example-choice-list');
     var exampleChoices = exampleChoiceList.querySelectorAll('.example-choice');
     var header = document.querySelector('header');
@@ -28,20 +30,8 @@
 
     function choose(choice) {
         var codeBlock = choice.querySelector('pre');
-        var currentChoiceText = choice.textContent.trim();
-        var originalChoice = originalChoices[indexOf(exampleChoices, choice)];
 
         choice.classList.add('selected');
-
-        /* If the newly chosen example is in an invalid state, or the code
-           does not match the original example, ensure that the reset buttton
-           is visible */
-        if (
-            choice.classList.contains('invalid') ||
-            currentChoiceText !== originalChoice
-        ) {
-            window.mceUtils.toggleReset(choice);
-        }
 
         codeBlock.setAttribute('contentEditable', true);
         codeBlock.setAttribute('spellcheck', false);
@@ -73,7 +63,6 @@
 
         for (let i = 0, l = exampleChoices.length; i < l; i++) {
             var exampleChoice = exampleChoices[i];
-            var resetButton = exampleChoice.querySelector('.reset');
 
             originalChoices.push(
                 exampleChoice.querySelector('code').textContent
@@ -85,22 +74,35 @@
 
             exampleChoice.addEventListener('click', onChoose);
             exampleChoice.addEventListener('keyup', onEdit);
+        }
 
-            resetButton.addEventListener('click', function(e) {
-                var choice = e.target.parentNode;
-                var replacementText =
-                    originalChoices[indexOf(exampleChoices, choice)];
+        handleResetEvents();
+    }
+
+    /**
+     * Attached an event handler on the reset button, and handles
+     * reset all the CSS examples to their original state
+     */
+    function handleResetEvents() {
+        var resetButton = exampleChoiceList.querySelector('.reset');
+
+        resetButton.addEventListener('click', function() {
+            for (var i = 0, l = exampleChoices.length; i < l; i++) {
                 var highlighted = Prism.highlight(
-                    replacementText,
+                    originalChoices[i],
                     Prism.languages.css
                 );
+                exampleChoices[i].classList.remove('invalid', 'selected');
+                exampleChoices[i].querySelector('code').innerHTML = highlighted;
+            }
 
-                exampleChoices[i].classList.remove('invalid');
-                mceUtils.toggleReset(exampleChoices[i]);
-
-                choice.querySelector('code').innerHTML = highlighted;
-            });
-        }
+            // if there is an initial choice set, set it as selected
+            if (initialChoice) {
+                choose(exampleChoices[initialChoice]);
+            } else {
+                choose(exampleChoices[0]);
+            }
+        });
     }
 
     function indexOf(exampleChoices, choice) {
@@ -157,18 +159,9 @@
     }
 
     /**
-     * Resets the UI state by deselcting all example choice, and
-     * hiding all reset buttons.
+     * Resets the UI state by deselcting all example choice
      */
     function resetUIState() {
-        var resetButtons = exampleChoiceList.querySelectorAll('.reset');
-
-        for (var resetButton of resetButtons) {
-            resetButton.classList.add('hidden');
-            resetButton.classList.remove('fade-in');
-            resetButton.setAttribute('aria-hidden', true);
-        }
-
         for (var exampleChoice of exampleChoices) {
             exampleChoice.classList.remove('selected');
         }

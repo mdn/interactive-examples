@@ -71,8 +71,6 @@
 
         codemirrorUtils.setEditorContent(editorContentOptions);
 
-        mceUtils.toggleReset(liveContainer);
-
         applyCode();
     });
 
