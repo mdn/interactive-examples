@@ -78,7 +78,6 @@
     });
 
     reset.addEventListener('click', function() {
-        mceUtils.toggleReset(liveContainer);
         codeEditor.textContent = codeBlock.textContent;
         updateOutput(codeBlock.textContent);
         Prism.highlightAll();

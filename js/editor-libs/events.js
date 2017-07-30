@@ -24,14 +24,7 @@
     if (exampleChoiceList) {
         sendPerformanceMetric('css');
 
-        exampleChoiceList.addEventListener('keyup', function(event) {
-            var parentElement = event.target.parentElement;
-            var resetButton = parentElement.querySelector('.reset');
-            // only toggle the reset button on keyup if it is currently hidden
-            if (resetButton.classList.contains('hidden')) {
-                window.mceUtils.toggleReset(parentElement);
-            }
-
+        exampleChoiceList.addEventListener('keyup', function() {
             if (!localStorage.getItem('firstCSSEditRecorded')) {
                 mceAnalytics.trackFirstEdit('css');
             }
@@ -50,12 +43,6 @@
         });
 
         liveEditor.addEventListener('keyup', function() {
-            var resetButton = liveEditor.querySelector('.reset');
-            // only toggle the reset button on keyup if it is currently hidden
-            if (resetButton.classList.contains('hidden')) {
-                window.mceUtils.toggleReset(liveEditor);
-            }
-
             if (!localStorage.getItem('firstJSEditRecorded')) {
                 mceAnalytics.trackFirstEdit('js');
             }
