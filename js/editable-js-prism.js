@@ -78,9 +78,7 @@
     });
 
     reset.addEventListener('click', function() {
-        codeEditor.textContent = codeBlock.textContent;
-        updateOutput(codeBlock.textContent);
-        Prism.highlightAll();
+        window.location.reload();
     });
 
     window.addEventListener('load', function() {
