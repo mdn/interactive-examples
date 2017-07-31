@@ -6,9 +6,9 @@ set -eo pipefail
 
 # defaults and constants
 NICK="examplesbot"
-CHANNEL="#www"
+CHANNEL="#mdndev"
 SERVER="irc.mozilla.org:6697"
-BLUE_BUILD_URL="https://ci.us-west.moz.works/blue/organizations/jenkins/irlpodcast"
+BLUE_BUILD_URL="https://ci.us-west.moz.works/blue/organizations/jenkins/mdn_interactive_examples"
 BLUE_BUILD_URL="${BLUE_BUILD_URL}/detail/${BRANCH_NAME/\//%2f}/${BUILD_NUMBER}/pipeline"
 # colors and styles: values from the following links
 # http://www.mirc.com/colors.html
