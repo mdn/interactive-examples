@@ -29,7 +29,7 @@
     };
 
     function choose(choice) {
-        var codeBlock = choice.querySelector('pre');
+        var codeBlock = choice.querySelector('code');
 
         choice.classList.add('selected');
 
