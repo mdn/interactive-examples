@@ -5,6 +5,7 @@ pre[class*='language-'] {
     border: 4px solid #f5f9fa;
     border-left: 0;
     box-shadow: none;
+    overflow: scroll;
 }
 
 pre[class*='language-']:before,
