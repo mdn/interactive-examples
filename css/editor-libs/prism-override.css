@@ -2,8 +2,8 @@
 pre[class*='language-'] {
     background-image: none;
     margin: 0;
-    border: 4px solid #f5f9fa;
-    border-left: 0;
+    padding: .5em;
+    border: 0;
     box-shadow: none;
     overflow: scroll;
 }

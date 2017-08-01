@@ -16,11 +16,6 @@ header h4 {
     font-weight: normal;
 }
 
-pre[class*='language-'] {
-    margin: 0;
-    padding: .5em;
-}
-
 .editor-wrapper {
     background-color: #fff;
     border: 1px solid #eaf2f4;
