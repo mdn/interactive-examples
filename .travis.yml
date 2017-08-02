@@ -4,8 +4,6 @@ node_js:
 branches:
   only:
   - master
-script:
-- npm run build
 deploy:
   provider: script
   script: ./travis-deploy-pages
