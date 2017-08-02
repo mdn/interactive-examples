@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive JS Example Code Editor</title>
+    <link href="../../css/editor-js.css" rel="stylesheet" />
+    
+  </head>
+  <body>
+      <section id="static">
+          <pre>
+<code id="static-js" class="language-js" data-line="2" data-char="25">// create an array
+var arr1 = ['a', 'b', 'c'];
+// create an iterator by calling entries on the array
+var iterator = arr1.entries();
+
+// log the results, which prints the next Array index, value on each call
+console.log(
+    'First entry: ' + iterator.next().value + ' :: ' +
+    'Second entry: ' + iterator.next().value + ' :: ' +
+    'Third entry: ' + iterator.next().value);
+</code>
+</pre>
+
+      </section>
+
+      <section id="live" class="live hidden">
+          <div id="editor" class="editor">
+              <pre class="js-editor language-js line-numbers"><code></code></pre>
+          </div>
+
+          <div class="output-container">
+              <div class="buttons-container">
+                  <button id="execute" class="button run" type="button">Run &rsaquo;</button>
+                  <button id="reset" type="button" class="button">Reset</button>
+              </div>
+              <div id="output" class="output"><code></code></div>
+          </div>
+      </section>
+
+    
+    <script src="../../js/editor-js.js"></script>
+  </body>
+</html>

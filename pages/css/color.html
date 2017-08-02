@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive CSS Example Code Editor</title>
+    <link rel="stylesheet" href="../../css/css-examples-base.css" />
+    <link rel="stylesheet" href=" ../../live-examples/css-examples/css/color.css" />
+  </head>
+  <body>
+    <header class="output-header hidden">
+      <h4>Try editing the selected example, or select a different example:</h4>
+    </header>
+    <div class="editor-wrapper">
+        <section id="example-choice-list" class="example-choice-list large" data-property="color">
+<div class="example-choice">
+<pre><code class="language-css">color: currentcolor;</code></pre>
+</div>
+
+<div class="example-choice">
+<pre><code class="language-css">color: rebeccapurple;</code></pre>
+</div>
+
+<div class="example-choice">
+<pre><code class="language-css">color: #00ff00;</code></pre>
+</div>
+
+<div class="example-choice">
+<pre><code class="language-css">color: rgb(34, 12, 64);</code></pre>
+</div>
+
+<div class="example-choice">
+<pre><code class="language-css">color: rgba(34, 12, 64, 0.3)</code></pre>
+</div>
+
+<div class="example-choice">
+<pre><code class="language-css">color: hsl(30, 100%, 50%);</code></pre>
+</div>
+
+<div class="example-choice">
+<pre><code class="language-css">color: hsla(30, 100%, 50%, 0.3);</code></pre>
+</div>
+
+<div class="example-choice">
+<pre><code class="language-css">color: initial;</code></pre>
+</div>
+<button id="reset" class="reset" type="button" />Reset</button>
+</section>
+
+<div id="output" class="output large hidden">
+    <section id="default-example">
+        <div id="example-element" class="transition-all">Select one of the examples to change the color of the text.</div>
+    </section>
+</div>
+
+    </div>
+    <script src="../../js/css-examples-base.js"></script>
+    
+  </body>
+</html>

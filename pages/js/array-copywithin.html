@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive JS Example Code Editor</title>
+    <link href="../../css/editor-js.css" rel="stylesheet" />
+    
+  </head>
+  <body>
+      <section id="static">
+          <pre>
+<code id="static-js" class="language-js" data-line="5" data-char="16">// create your array
+var arr1 = ['alpha', 'bravo', 'charlie', 'delta', 'echo', 'foxtrot', 'golf'];
+
+/* call copyWithin passing the target, starting,
+and ending points */
+var result = arr1.copyWithin(2, 4, 6);
+
+// log the result
+console.log(result);
+</code>
+</pre>
+
+      </section>
+
+      <section id="live" class="live hidden">
+          <div id="editor" class="editor">
+              <pre class="js-editor language-js line-numbers"><code></code></pre>
+          </div>
+
+          <div class="output-container">
+              <div class="buttons-container">
+                  <button id="execute" class="button run" type="button">Run &rsaquo;</button>
+                  <button id="reset" type="button" class="button">Reset</button>
+              </div>
+              <div id="output" class="output"><code></code></div>
+          </div>
+      </section>
+
+    
+    <script src="../../js/editor-js.js"></script>
+  </body>
+</html>

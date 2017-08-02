@@ -1,0 +1,5 @@
+#example-element {
+    background-image: url('https://placekitten.com/g/80/80');
+    background-repeat: no-repeat;
+    height: 100%;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive JS Example Code Editor</title>
+    <link href="../../css/editor-js.css" rel="stylesheet" />
+    
+  </head>
+  <body>
+      <section id="static">
+          <pre>
+<code id="static-js" class="language-js" data-line="2" data-char="44">/* Calls reduceRight() on a multi dimensional array, passing a callback function that converts it into a flattened array. */
+var flattenedArray = [[0, 1], [2, 3], [4, 5]].reduceRight(
+    function(previousValue, currentValue) {
+        return previousValue.concat(currentValue);
+    }
+);
+
+// log the result
+console.log(flattenedArray);
+</code>
+</pre>
+
+      </section>
+
+      <section id="live" class="live hidden">
+          <div id="editor" class="editor">
+              <pre class="js-editor language-js line-numbers"><code></code></pre>
+          </div>
+
+          <div class="output-container">
+              <div class="buttons-container">
+                  <button id="execute" class="button run" type="button">Run &rsaquo;</button>
+                  <button id="reset" type="button" class="button">Reset</button>
+              </div>
+              <div id="output" class="output"><code></code></div>
+          </div>
+      </section>
+
+    
+    <script src="../../js/editor-js.js"></script>
+  </body>
+</html>

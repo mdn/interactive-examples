@@ -1,0 +1,6 @@
+@import 'fonts-base.css';
+
+#output section {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
