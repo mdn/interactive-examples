@@ -1,7 +1,6 @@
 #!/bin/sh -e
 # Uploads generated pages to gh-pages branch. Thx @erikrose and @pmac
 
-cd docs
 git init
 git config user.name "schalkneethling"
 git config user.email "sneethling@mozilla.com"
