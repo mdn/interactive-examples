@@ -4,6 +4,7 @@
 git init
 git config user.name "schalkneethling"
 git config user.email "sneethling@mozilla.com"
+git checkout -b prod
 git add .
 git commit -m "Deploying latest generated pages"
 git remote add mdn "https://$GITHUB_TOKEN@github.com/mdn/interactive-examples.git"
