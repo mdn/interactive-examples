@@ -14,7 +14,6 @@
     "homepage": "https://github.com/mozilla/interactive-examples#readme",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "build": "node index.js",
         "start-server": "http-server ./docs",
         "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'docs/**' -i 'node_modules/**' -c 'npm run build' --initial --silent",
