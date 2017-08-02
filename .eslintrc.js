@@ -28,8 +28,6 @@ module.exports = {
         'new-cap': 2
     },
     globals: {
-        CodeMirror: true,
-        codemirrorUtils: true,
         console: true,
         cssEditorUtils: true,
         mceAnalytics: true,

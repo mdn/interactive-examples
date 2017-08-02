@@ -1,20 +1,5 @@
 {
     "bundles": {
-        "codemirror": {
-            "javascript": [
-                "js/libs/codemirror/lib/codemirror.js",
-                "js/libs/codemirror/mode/javascript/javascript.js",
-                "js/libs/codemirror/addon/hint/javascript-hint.js",
-                "js/libs/codemirror/addon/hint/show-hint.js",
-                "js/libs/codemirror/addon/selection/active-line.js"
-            ],
-            "css": [
-                "js/libs/codemirror/lib/codemirror.css",
-                "js/libs/codemirror/theme/eclipse.css",
-                "js/libs/codemirror/addon/hint/show-hint.css"
-            ],
-            "destFileName": "codemirror"
-        },
         "cssExamplesBase": {
             "javascript": [
                 "js/editor-libs/mce-utils.js",
@@ -38,7 +23,7 @@
                 "js/editor-libs/events.js",
                 "js/editor-libs/console.js",
                 "js/libs/prism.js",
-                "js/editable-js-prism.js"
+                "js/editable-js.js"
             ],
             "css": [
                 "css/libs/prism.css",
