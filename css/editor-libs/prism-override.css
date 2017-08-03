@@ -20,6 +20,8 @@ pre[class*='language-'] {
 
 code[class*='language-'] {
     height: auto;
+    max-height: 220px;
+    overflow: scroll;
 }
 
 .line-numbers .line-numbers-rows {
