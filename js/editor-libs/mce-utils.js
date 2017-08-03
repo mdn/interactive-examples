@@ -6,7 +6,7 @@
          * Calculates the perceived load time of the iframe using
          * the Navigation Timing API
          */
-        calculateFrameLoadTime() {
+        calculateFrameLoadTime: function() {
             var loadTime = 'Not supported';
             var now = new Date().getTime();
 

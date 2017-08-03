@@ -162,8 +162,8 @@
      * Resets the UI state by deselcting all example choice
      */
     function resetUIState() {
-        for (var exampleChoice of exampleChoices) {
-            exampleChoice.classList.remove('selected');
+        for (var i = 0, l = exampleChoices.length; i < l; i++) {
+            exampleChoices[i].classList.remove('selected');
         }
     }
 
