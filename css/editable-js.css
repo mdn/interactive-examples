@@ -55,7 +55,7 @@ pre.js-editor[class*='language-'] {
     margin: 0;
     border: 1px solid #eaf2f4;
     box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, .1);
-    width: 92%;
+    width: 91%;
     height: 100px;
     font-family: courier;
     word-break: break-word;
@@ -68,7 +68,9 @@ pre.js-editor[class*='language-'] {
 }
 
 .buttons-container {
-    align-self: flex-start;
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
 }
 
 .button {
@@ -97,6 +99,11 @@ pre.js-editor[class*='language-'] {
 }
 
 @supports (display: flex) {
+    .buttons-container {
+        align-self: flex-start;
+        width: auto;
+    }
+
     .output-container {
         display: flex;
         align-items: center;
