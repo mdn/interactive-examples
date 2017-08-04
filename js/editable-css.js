@@ -84,7 +84,7 @@
      * reset all the CSS examples to their original state
      */
     function handleResetEvents() {
-        var resetButton = exampleChoiceList.querySelector('.reset');
+        var resetButton = document.getElementById('reset');
 
         resetButton.addEventListener('click', function() {
             for (var i = 0, l = exampleChoices.length; i < l; i++) {
