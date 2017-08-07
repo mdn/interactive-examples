@@ -57,7 +57,7 @@
             }
 
             return sibling;
-        }
+        },
         /**
          * Creates a temporary element and tests whether the passed
          * property exists on the `style` property of the element.
