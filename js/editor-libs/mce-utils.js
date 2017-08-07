@@ -17,6 +17,48 @@
             return loadTime;
         },
         /**
+         * Provided an element Node, find the appropriate choice element based on the
+         * specified direction. This function makes some assumptions based on known
+         * factors of the HTML/DOM. Not perfect, but good enough for this use case.
+         * @param {Object} element - The nexted element from which to start
+         * @param {String} direction - The direction to search [next || previous]
+         */
+        findChoiceElem: function(element, direction) {
+            var findDirection =
+                direction === 'next'
+                    ? 'nextElementSibling'
+                    : 'previousElementSibling';
+            // first get the element parent
+            var parent = element.parentNode;
+            var sibling = undefined;
+
+            /* we are looking for the `example-choice` element that wraps
+            the provided element, before getting its sibling */
+            if (!parent.classList.contains('example-choice')) {
+                // it was not the direct parent, need to go up on more
+                parent = parent.parentNode;
+            }
+
+            sibling = parent[findDirection];
+
+            /* if sibling returns null, we are either on the first, or the
+            last of the choices. Depending on the specified direction, return
+            either the first, or the last choice in the Array of choices */
+            if (sibling === null) {
+                var choiceList = document.querySelector('.example-choice-list');
+                var choices = choiceList.querySelectorAll('.example-choice');
+                sibling =
+                    direction === 'next'
+                        ? choices[0]
+                        : choices[choices.length - 1];
+            } else if (!sibling.classList) {
+                // we probably hit a #text node so, we need its sibling
+                sibling = sibling[findDirection];
+            }
+
+            return sibling;
+        },
+        /**
          * Creates a temporary element and tests whether the passed
          * property exists on the `style` property of the element.
          * @param {string} property = The CSS property to test
