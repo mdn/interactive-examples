@@ -172,6 +172,10 @@ header h4 {
     transition: all .3s ease-in;
 }
 
+code[class*='language-'] {
+    padding: 1em;
+}
+
 [contenteditable]:focus {
     outline: 0 solid transparent;
 }

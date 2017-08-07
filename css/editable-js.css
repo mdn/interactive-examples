@@ -98,6 +98,16 @@ pre.js-editor[class*='language-'] {
     display: none;
 }
 
+/* removes borders and padding when copy/pasting in Fx */
+pre.line-numbers[class*='language-'] code code {
+    padding-left: 0;
+}
+
+code :not(pre) > code[class*='language-'],
+code > code[class*='language-'] {
+    border: 0;
+}
+
 @supports (display: flex) {
     .buttons-container {
         align-self: flex-start;

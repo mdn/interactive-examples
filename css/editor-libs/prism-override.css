@@ -19,7 +19,6 @@ pre[class*='language-'] {
 }
 
 code[class*='language-'] {
-    padding: 1em;
     height: auto;
     max-height: 220px;
     overflow: scroll;
