@@ -96,8 +96,8 @@ header h4 {
 }
 
 .example-choice:hover {
-    border: 1px solid #75b7d4;
-    border-left: 5px solid #75b7d4;
+    border: 1px solid #666;
+    border-left: 5px solid #666;
 }
 
 .example-choice:before {

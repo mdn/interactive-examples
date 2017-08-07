@@ -25,7 +25,22 @@
     if (exampleChoiceList) {
         sendPerformanceMetric('css');
 
-        exampleChoiceList.addEventListener('keyup', function() {
+        exampleChoiceList.addEventListener('keyup', function(event) {
+            switch (event.keyCode) {
+            case 40:
+                    // up arrow key pressed
+                cssEditorUtils.onChoose(
+                        mceUtils.findChoiceElem(event.target, 'next')
+                    );
+                break;
+            case 38:
+                    // down arrow key pressed
+                cssEditorUtils.onChoose(
+                        mceUtils.findChoiceElem(event.target, 'previous')
+                    );
+                break;
+            }
+
             if (!localStorage.getItem('firstCSSEditRecorded')) {
                 mceAnalytics.trackFirstEdit('css');
             }

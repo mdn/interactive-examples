@@ -25,9 +25,36 @@
             } else {
                 choice.classList.remove('invalid');
             }
+        },
+        /**
+         * Called when a new `example-choice` has been selected.
+         * @param {Object} choice - The selected `example-choice` element
+         */
+        onChoose: function(choice) {
+            var selected = document.querySelector('.selected');
+
+            // highlght the code we are leaving
+            if (selected && !choice.classList.contains('selected')) {
+                var highlighted = Prism.highlight(
+                    selected.firstChild.textContent,
+                    Prism.languages.css
+                );
+                selected.firstChild.innerHTML = highlighted;
+
+                mceAnalytics.trackCSSExampleSelection();
+
+                resetDefault();
+                choose(choice);
+            }
         }
     };
 
+    /**
+     * Sets the choice to selected, changes the nested code element to be editable,
+     * turns of spellchecking, and moves focus to the code. Lastly, it applies
+     * the code to the example element by calling applyCode.
+     * @param {Object} choice - The selected `example-choice` element
+     */
     function choose(choice) {
         var codeBlock = choice.querySelector('code');
 
@@ -72,8 +99,10 @@
                 initialChoice = indexOf(exampleChoices, exampleChoice);
             }
 
-            exampleChoice.addEventListener('click', onChoose);
             exampleChoice.addEventListener('keyup', onEdit);
+            exampleChoice.addEventListener('click', function(event) {
+                CSSEditorUtils.onChoose(event.currentTarget);
+            });
         }
 
         handleResetEvents();
@@ -92,7 +121,9 @@
                     originalChoices[i],
                     Prism.languages.css
                 );
-                exampleChoices[i].classList.remove('invalid', 'selected');
+                // IE11 does not support multiple selectors in `remove`
+                exampleChoices[i].classList.remove('invalid');
+                exampleChoices[i].classList.remove('selected');
                 exampleChoices[i].querySelector('code').innerHTML = highlighted;
             }
 
@@ -114,24 +145,6 @@
         return -1;
     }
 
-    function onChoose(e) {
-        var selected = document.querySelector('.selected');
-
-        // highlght the code we are leaving
-        if (selected && e.currentTarget !== selected) {
-            var highlighted = Prism.highlight(
-                selected.firstChild.textContent,
-                Prism.languages.css
-            );
-            selected.firstChild.innerHTML = highlighted;
-
-            mceAnalytics.trackCSSExampleSelection();
-
-            resetDefault();
-            choose(e.currentTarget);
-        }
-    }
-
     function onEdit(e) {
         CSSEditorUtils.applyCode(e.currentTarget.textContent, e.currentTarget);
     }
@@ -143,7 +156,7 @@
         var defaultExample = document.getElementById('default-example');
 
         // only reset to default if the default example is hidden
-        if (defaultExample.classList.value.indexOf('hidden') > -1) {
+        if (defaultExample.classList.contains('hidden')) {
             var sections = output.querySelectorAll('section');
             // loop over all sections and set to hidden
             for (var i = 0, l = sections.length; i < l; i++) {
