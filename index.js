@@ -121,6 +121,9 @@ function buildPages(pages) {
             tmpl = tmpl.replace('%example-js-src%', '');
         }
 
+        // set main title
+        tmpl = setMainTitle(currentPage, tmpl);
+
         let outputPath =
             config.examplesDir + currentPage.type + '/' + currentPage.fileName;
         fse.outputFileSync(
@@ -161,6 +164,24 @@ function copyDirectory(sourceDir, destDir) {
             fse.copySync(files[file], destDir + files[file]);
         }
     });
+}
+
+/**
+ * Sets the `<title>` and `<h4>` main page title
+ * @param {Object} currentPage - The current page object
+ * @param {String} tmpl - The template as a string
+ *
+ * @returns The processed template
+ */
+function setMainTitle(currentPage, tmpl) {
+    let resultsArray = [];
+    let regex = /%title%/g;
+
+    // replace all instances of `%title` with the `currentPage.title`
+    while ((resultsArray = regex.exec(tmpl)) !== null) {
+        tmpl = tmpl.replace(resultsArray[0].trim(), currentPage.title);
+    }
+    return tmpl;
 }
 
 /**

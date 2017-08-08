@@ -13,8 +13,15 @@ body {
 
 header h4 {
     display: inline-block;
-    margin: 0;
-    font-weight: normal;
+    margin: .5em;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.css-editor-container {
+    background-color: #f8f8f8;
+    padding: .7em;
+    border-radius: 6px;
 }
 
 .editor-wrapper {
