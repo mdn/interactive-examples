@@ -3,17 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Interactive JS Example Code Editor</title>
+    <title>%title%</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../../css/editor-js.css" rel="stylesheet" />
     %example-css-src%
   </head>
   <body>
       <section id="static">
+          <header>
+              <h4>%title%</h4>
+          </header>
           %example-code%
       </section>
 
       <section id="live" class="live hidden">
+          <header>
+              <h4>%title%</h4>
+          </header>
           <div id="editor" class="editor">
               <pre class="js-editor language-js line-numbers"><code></code></pre>
           </div>
