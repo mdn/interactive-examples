@@ -10,9 +10,22 @@ header h4:before {
 
 header h4 {
     display: inline-block;
-    margin: .5em;
+    margin: .5em 0;
     font-size: 1.4rem;
     font-weight: bold;
+}
+
+.user-message {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    border-radius: 4px;
+    opacity: 1;
+    transition: opacity .5s,
+                top .5s;
 }
 
 .fade-in {
@@ -21,6 +34,30 @@ header h4 {
 
 .fade-out {
     animation: fadeout .5s;
+}
+
+.flyout {
+    top: -50px;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Hide visually, but not to screen readers */
+.visually-hidden {
+    position: absolute !important; /* stylelint-disable-line */
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    padding: 0;
+    border: 0;
 }
 
 @keyframes fadein {
@@ -38,5 +75,14 @@ header h4 {
     }
     to {
         opacity: 0;
+    }
+}
+
+@keyframes grow-field {
+    from {
+        flex-basis: 40px;
+    }
+    to {
+        flex-basis: 60px;
     }
 }

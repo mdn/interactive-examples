@@ -50,6 +50,35 @@
     };
 
     /**
+     * Initialise clipboard.js, and setup success handler
+     */
+    function addClippy() {
+        var clipboard = new Clipboard('.copy');
+        clipboard.on('success', function(event) {
+            var userMessage = document.getElementById('user-message');
+            userMessage.classList.remove('hide');
+            userMessage.setAttribute('aria-hidden', false);
+
+            window.setTimeout(function() {
+                userMessage.classList.add('flyout', 'hide');
+                userMessage.setAttribute('aria-hidden', true);
+
+                userMessage.addEventListener('transitionend', function() {
+                    userMessage.classList.remove('flyout');
+                });
+            }, 1500);
+
+            event.clearSelection();
+
+            mceAnalytics.trackEvent({
+                category: 'css',
+                action: 'Copy to clipboard clicked',
+                label: 'Interaction Events'
+            });
+        });
+    }
+
+    /**
      * Sets the choice to selected, changes the nested code element to be editable,
      * turns of spellchecking, and moves focus to the code. Lastly, it applies
      * the code to the example element by calling applyCode.
@@ -104,6 +133,8 @@
                 CSSEditorUtils.onChoose(event.currentTarget);
             });
         }
+
+        addClippy();
 
         handleResetEvents();
     }

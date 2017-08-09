@@ -28,6 +28,7 @@ module.exports = {
         'new-cap': 2
     },
     globals: {
+        Clipboard: true,
         console: true,
         cssEditorUtils: true,
         mceAnalytics: true,
