@@ -5,7 +5,7 @@ pre[class*='language-'] {
     padding: .5em;
     border: 0;
     box-shadow: none;
-    overflow: scroll;
+    overflow: auto;
 }
 
 pre[class*='language-']:before,
@@ -21,7 +21,7 @@ pre[class*='language-'] {
 code[class*='language-'] {
     height: auto;
     max-height: 220px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .line-numbers .line-numbers-rows {
