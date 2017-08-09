@@ -11,22 +11,15 @@ body {
     font-family: sans-serif;
 }
 
-header h4 {
-    display: inline-block;
-    margin: .5em;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
 .css-editor-container {
     background-color: #f8f8f8;
     padding: .7em;
+    border: 1px solid #eaf2f4;
     border-radius: 6px;
 }
 
 .editor-wrapper {
     background-color: #fff;
-    border: 1px solid #eaf2f4;
     width: 100%;
     overflow: hidden;
 }
@@ -44,7 +37,7 @@ header h4 {
 }
 
 .example-choice-list {
-    background-color: #f5f9fa;
+    background-color: #f8f8f8;
     padding: .7em 2em .7em .7em;
 }
 
