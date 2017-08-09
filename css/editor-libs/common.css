@@ -10,7 +10,7 @@ header h4:before {
 
 header h4 {
     display: inline-block;
-    margin: .5em 0;
+    margin: 0 0 .3em .5em;
     font-size: 1.4rem;
     font-weight: bold;
 }

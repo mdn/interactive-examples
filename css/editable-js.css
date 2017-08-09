@@ -10,10 +10,6 @@ body {
     font-family: sans-serif;
 }
 
-h4 {
-    margin: .5em 0 1em;
-}
-
 .editor,
 .output {
     font-size: 14px;
