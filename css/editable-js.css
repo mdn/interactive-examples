@@ -98,10 +98,6 @@ pre.js-editor[class*='language-'] {
     color: #fff;
 }
 
-.hidden {
-    display: none;
-}
-
 /* removes borders and padding when copy/pasting in Fx */
 pre.line-numbers[class*='language-'] code code {
     padding-left: 0;

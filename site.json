@@ -6,6 +6,7 @@
                 "js/editor-libs/analytics.js",
                 "js/editor-libs/events.js",
                 "js/libs/prism.js",
+                "js/libs/clipboard.js",
                 "js/editable-css.js"
             ],
             "css": [
