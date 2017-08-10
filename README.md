@@ -57,6 +57,17 @@ This section is used to describe live example pages that will be generated. The 
 * `fileName` - This is the file name that will be used for the generated live example page
 * `type` - Whether this is a JavaScript or CSS live example page.
 
+## Browser Support Baseline
+
+The following is the list of browser/version combination that's supported by the interactive editors. For browsers that do not meet the crediteria, we will degrade gracefully to displaying static examples.
+
+* Firefox - Latest three release versions
+* Chrome - Latest three release versions
+* Opera - Latest two release versions
+* Safari - Latest two release versions
+* Internet Explorer - version 11
+* Edge - Latest released version
+
 
 ## Contributing Live Code Examples
 
