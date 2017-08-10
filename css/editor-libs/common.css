@@ -1,10 +1,14 @@
-@font-face {
-    font-family: 'Zilla Slab';
-    src: url('../../media/fonts/ZillaSlab-Bold.woff');
-    src: url('../../media/fonts/ZillaSlab-Bold.woff2') format('woff2'),
-         url('../../media/fonts/ZillaSlab-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
 }
 
 header h4:before {
@@ -20,7 +24,6 @@ header h4:before {
 header h4 {
     display: inline-block;
     margin: 0 0 .3em .5em;
-    font-family: 'Zilla Slab', sans-serif;
     font-size: 1.4rem;
     font-weight: bold;
 }
