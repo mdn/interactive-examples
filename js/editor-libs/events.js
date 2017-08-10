@@ -28,7 +28,8 @@
         exampleChoiceList.addEventListener('keyup', function(event) {
             switch (event.keyCode) {
             case 40:
-                    // up arrow key pressed
+            case 9:
+                    // up arrow key, or tab pressed
                 cssEditorUtils.onChoose(
                         mceUtils.findChoiceElem(event.target, 'next')
                     );
