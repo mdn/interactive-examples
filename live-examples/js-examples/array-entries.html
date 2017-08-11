@@ -5,9 +5,7 @@ var arr1 = ['a', 'b', 'c'];
 var iterator = arr1.entries();
 
 // log the results, which prints the next Array index, value on each call
-console.log(
-    'First entry: ' + iterator.next().value + ' :: ' +
-    'Second entry: ' + iterator.next().value + ' :: ' +
-    'Third entry: ' + iterator.next().value);
+console.log(iterator.next().value);
+// expected output: 0,a
 </code>
 </pre>
