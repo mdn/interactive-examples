@@ -1,6 +1,7 @@
 (function(global) {
     'use strict';
 
+    var cssEditorContainer = document.querySelector('.css-editor-container');
     var exampleChoiceList = document.getElementById('example-choice-list');
     var exampleChoices = exampleChoiceList.querySelectorAll('.example-choice');
     var header = document.querySelector('header');
@@ -137,6 +138,8 @@
         addClippy();
 
         handleResetEvents();
+
+        mceUtils.sendContainerHeight(cssEditorContainer);
     }
 
     /**
