@@ -82,7 +82,12 @@
     });
 
     window.addEventListener('load', function() {
-        initInteractiveEditor();
-        applyCode();
+        /* only execute JS in supported browsers. As `document.all`
+        is a non standard object available only in IE10 and older,
+        this will stop JS from executing in those versions. */
+        if (!document.all) {
+            initInteractiveEditor();
+            applyCode();
+        }
     });
 })();

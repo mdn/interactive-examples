@@ -117,7 +117,7 @@
         document.addEventListener('cut', copyTextOnly);
         document.addEventListener('copy', copyTextOnly);
 
-        for (let i = 0, l = exampleChoices.length; i < l; i++) {
+        for (var i = 0, l = exampleChoices.length; i < l; i++) {
             var exampleChoice = exampleChoices[i];
 
             originalChoices.push(
@@ -211,8 +211,15 @@
         }
     }
 
-    // only show the live code view if JS is enabled and the property is supported
-    if (mceUtils.isPropertySupported(exampleChoiceList.dataset['property'])) {
+    /* only show the live code view if JS is enabled and the property is supported.
+    Also, only execute JS in our supported browsers. As `document.all`
+    is a non standard object available only in IE10 and older,
+    this will stop JS from executing in those versions. */
+    if (
+        typeof exampleChoiceList.dataset !== 'undefined' &&
+        mceUtils.isPropertySupported(exampleChoiceList.dataset['property']) &&
+        !document.all
+    ) {
         enableLiveEditor();
         choose(exampleChoices[initialChoice]);
     }
