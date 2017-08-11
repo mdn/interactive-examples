@@ -5,27 +5,30 @@
     border-radius: 6px;
 }
 
+.example-choice-list {
+    background-color: #f8f8f8;
+    padding: 0 2em 0 0;
+}
+
+.live code[class*='language-'] {
+    padding: 1em;
+}
+
 .editor-wrapper {
-    background-color: #fff;
     width: 100%;
     overflow: hidden;
 }
 
-.example-choice-list,
+.example-choice-list.live,
 .output {
     height: 300px;
     overflow: hidden;
 }
 
-.example-choice-list.large,
+.example-choice-list.live.large,
 .output.large {
     height: 550px;
     overflow: hidden;
-}
-
-.example-choice-list {
-    background-color: #f8f8f8;
-    padding: 0 2em 0 0;
 }
 
 .example-choice-list,
@@ -61,7 +64,7 @@
     text-align: center;
 }
 
-.example-choice {
+.live .example-choice {
     position: relative;
     z-index: 1;
     display: block;
@@ -173,10 +176,6 @@
     transition: all .3s ease-in;
 }
 
-code[class*='language-'] {
-    padding: 1em;
-}
-
 [contenteditable]:focus {
     outline: 0 solid transparent;
 }
@@ -223,23 +222,23 @@ Column display
 }
 
 @supports (display: flex) {
-    .example-choice-list {
+    .example-choice-list.live {
         display: flex;
         flex-direction: column;
     }
 
-    .example-choice {
+    .live .example-choice {
         display: flex;
         align-items: center;
         flex-basis: 40px;
         flex-grow: 1;
     }
 
-    .example-choice pre {
+    .live .example-choice pre {
         flex-grow: 1;
     }
 
-    .example-choice.selected {
+    .live .example-choice.selected {
         flex-basis: 60px;
         animation: grow-field .5s; /* stylelint-disable-line */
     }
