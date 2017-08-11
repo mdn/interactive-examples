@@ -20,7 +20,7 @@ pre[class*='language-'] {
 
 code[class*='language-'] {
     height: auto;
-    max-height: 220px;
+    max-height: 240px;
     overflow: auto;
 }
 

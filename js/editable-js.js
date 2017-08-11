@@ -87,7 +87,6 @@
         this will stop JS from executing in those versions. */
         if (!document.all) {
             initInteractiveEditor();
-            applyCode();
         }
     });
 })();
