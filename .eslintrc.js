@@ -29,6 +29,7 @@ module.exports = {
     },
     globals: {
         Clipboard: true,
+        clippy: true,
         console: true,
         cssEditorUtils: true,
         mceAnalytics: true,

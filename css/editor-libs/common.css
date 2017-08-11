@@ -34,11 +34,12 @@ header h4 {
     left: 50%;
     background-color: #333;
     color: #fff;
-    padding: 1em;
+    padding: .5em;
     border-radius: 4px;
+    font-size: 14px;
     opacity: 1;
-    transition: opacity .5s,
-                top .5s;
+    transition: opacity .5s;
+    z-index: 4;
 }
 
 .fade-in {
@@ -47,10 +48,6 @@ header h4 {
 
 .fade-out {
     animation: fadeout .5s;
-}
-
-.flyout {
-    top: -50px;
 }
 
 .hide {
