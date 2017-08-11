@@ -5,6 +5,7 @@
                 "js/editor-libs/mce-utils.js",
                 "js/editor-libs/analytics.js",
                 "js/editor-libs/events.js",
+                "js/editor-libs/clippy.js",
                 "js/libs/prism.js",
                 "js/libs/clipboard.js",
                 "js/editable-css.js"
