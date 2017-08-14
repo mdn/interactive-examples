@@ -82,10 +82,14 @@
     });
 
     window.addEventListener('load', function() {
+        var exampleFeature = document.getElementById('static-js').dataset[
+            'feature'
+        ];
+
         /* only execute JS in supported browsers. As `document.all`
         is a non standard object available only in IE10 and older,
         this will stop JS from executing in those versions. */
-        if (!document.all) {
+        if (!document.all && featureDetector.isDefined(exampleFeature)) {
             initInteractiveEditor();
         }
     });
