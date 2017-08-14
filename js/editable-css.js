@@ -2,6 +2,7 @@
     'use strict';
 
     var cssEditorContainer = document.querySelector('.css-editor-container');
+    var editTimer = undefined;
     var exampleChoiceList = document.getElementById('example-choice-list');
     var exampleChoices = exampleChoiceList.querySelectorAll('.example-choice');
     var header = document.querySelector('header');
@@ -21,11 +22,14 @@
 
             element.style.cssText = code;
 
-            if (!element.style.cssText) {
-                choice.classList.add('invalid');
-            } else {
-                choice.classList.remove('invalid');
-            }
+            editTimer = setTimeout(function() {
+                if (!element.style.cssText) {
+                    choice.classList.add('invalid');
+                } else {
+                    choice.classList.remove('invalid');
+                }
+                clearTimeout(editTimer);
+            }, 500);
         },
         /**
          * Called when a new `example-choice` has been selected.
