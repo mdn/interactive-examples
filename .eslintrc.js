@@ -32,6 +32,7 @@ module.exports = {
         clippy: true,
         console: true,
         cssEditorUtils: true,
+        featureDetector: true,
         mceAnalytics: true,
         mceUtils: true,
         Prism: true,

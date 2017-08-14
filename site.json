@@ -24,6 +24,7 @@
                 "js/editor-libs/analytics.js",
                 "js/editor-libs/events.js",
                 "js/editor-libs/console.js",
+                "js/editor-libs/feature-detector.js",
                 "js/libs/prism.js",
                 "js/editable-js.js"
             ],
