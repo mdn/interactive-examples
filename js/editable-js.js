@@ -74,6 +74,7 @@
     }
 
     execute.addEventListener('click', function() {
+        editorConsole.clearOutputArray();
         applyCode();
     });
 
