@@ -56,7 +56,6 @@
             }
 
             choose(choice);
-            clippy.toggleClippy(choice);
         }
     };
 
@@ -73,19 +72,11 @@
 
         codeBlock.setAttribute('contentEditable', true);
         codeBlock.setAttribute('spellcheck', false);
-        codeBlock.focus();
+        choice.focus();
+
+        clippy.toggleClippy(choice);
 
         CSSEditorUtils.applyCode(choice.textContent, choice);
-    }
-
-    function copyTextOnly(e) {
-        var selection = window.getSelection();
-        var range = selection.getRangeAt(0);
-
-        e.clipboardData.setData('text/plain', range.toString());
-        e.clipboardData.setData('text/html', range.toString());
-        e.preventDefault();
-        e.stopPropagation();
     }
 
     /**
@@ -95,9 +86,6 @@
         header.classList.remove('hidden');
         exampleChoiceList.classList.add('live');
         output.classList.remove('hidden');
-
-        document.addEventListener('cut', copyTextOnly);
-        document.addEventListener('copy', copyTextOnly);
 
         for (var i = 0, l = exampleChoices.length; i < l; i++) {
             var exampleChoice = exampleChoices[i];
