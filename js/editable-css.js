@@ -22,13 +22,17 @@
 
             element.style.cssText = code;
 
+            // clear any existing timer
+            clearTimeout(editTimer);
+            /* Start a new timer. This will ensure that the state is
+            not marked as invalid, until the user has stopped typing
+            for 500ms */
             editTimer = setTimeout(function() {
                 if (!element.style.cssText) {
                     choice.classList.add('invalid');
                 } else {
                     choice.classList.remove('invalid');
                 }
-                clearTimeout(editTimer);
             }, 500);
         },
         /**
