@@ -45,8 +45,7 @@
             last of the choices. Depending on the specified direction, return
             either the first, or the last choice in the Array of choices */
             if (sibling === null) {
-                var choiceList = document.querySelector('.example-choice-list');
-                var choices = choiceList.querySelectorAll('.example-choice');
+                var choices = document.querySelectorAll('.example-choice');
                 sibling =
                     direction === 'next'
                         ? choices[0]

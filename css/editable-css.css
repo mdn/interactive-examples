@@ -10,10 +10,6 @@
     padding: 0 2em 0 0;
 }
 
-.live code[class*='language-'] {
-    padding: 1em;
-}
-
 .editor-wrapper {
     width: 100%;
     overflow: hidden;
@@ -80,6 +76,10 @@
 
 .live .example-choice {
     background-color: #fff;
+}
+
+.live .example-choice pre {
+    height: 90%;
 }
 
 .example-choice-list .example-choice:first-child {
@@ -177,6 +177,10 @@
 }
 
 [contenteditable]:focus {
+    outline: 0 solid transparent;
+}
+
+.example-choice.selected:focus {
     outline: 0 solid transparent;
 }
 

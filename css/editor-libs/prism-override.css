@@ -2,7 +2,6 @@
 pre[class*='language-'] {
     background-image: none;
     margin: 0;
-    padding: .5em;
     border: 0;
     box-shadow: none;
     overflow: auto;
@@ -19,7 +18,6 @@ pre[class*='language-'] {
 }
 
 code[class*='language-'] {
-    height: auto;
     max-height: 240px;
     overflow: auto;
 }
