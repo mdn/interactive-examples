@@ -87,12 +87,3 @@ header h4 {
         opacity: 0;
     }
 }
-
-@keyframes grow-field {
-    from {
-        flex-basis: 40px;
-    }
-    to {
-        flex-basis: 60px;
-    }
-}

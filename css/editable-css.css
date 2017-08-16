@@ -238,11 +238,6 @@ Column display
         flex-grow: 1;
     }
 
-    .live .example-choice.selected {
-        flex-basis: 60px;
-        animation: grow-field .5s; /* stylelint-disable-line */
-    }
-
     .reset {
         align-self: flex-end;
     }
