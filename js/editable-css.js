@@ -56,6 +56,8 @@
             }
 
             choose(choice);
+
+            clippy.toggleClippy(choice);
         }
     };
 
@@ -72,9 +74,7 @@
 
         codeBlock.setAttribute('contentEditable', true);
         codeBlock.setAttribute('spellcheck', false);
-        choice.focus();
-
-        clippy.toggleClippy(choice);
+        codeBlock.focus();
 
         CSSEditorUtils.applyCode(choice.textContent, choice);
     }
