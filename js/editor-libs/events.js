@@ -60,20 +60,7 @@
         exampleChoiceList.addEventListener('copy', copyTextOnly);
         exampleChoiceList.addEventListener('paste', handlePasteEvents);
 
-        exampleChoiceList.addEventListener('keydown', function(event) {
-            switch (event.keyCode) {
-            case 9:
-                if (event.target.type === 'button') {
-                    cssEditorUtils.onChoose(
-                            mceUtils.findChoiceElem(
-                                event.target.previousElementSibling,
-                                'next'
-                            )
-                        );
-                }
-                break;
-            }
-
+        exampleChoiceList.addEventListener('keydown', function() {
             if (!localStorage.getItem('firstCSSEditRecorded')) {
                 mceAnalytics.trackFirstEdit('css');
             }
