@@ -178,6 +178,41 @@
             "title": "JavaScript Demo: Array.slice()",
             "type": "js"
         },
+        "arraybufferConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/arraybuffer-constructor.html",
+            "fileName": "arraybuffer-constructor.html",
+            "title": "JavaScript Demo: ArrayBuffer Constructor",
+            "type": "js"
+        },
+        "arraybufferByteLength": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/arraybuffer-bytelength.html",
+            "fileName": "arraybuffer-bytelength.html",
+            "title": "JavaScript Demo: ArrayBuffer.byteLength()",
+            "type": "js"
+        },
+        "arraybufferIsView": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/arraybuffer-isview.html",
+            "fileName": "arraybuffer-isview.html",
+            "title": "JavaScript Demo: ArrayBuffer.isView()",
+            "type": "js"
+        },
+        "arraybufferSlice": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/arraybuffer-slice.html",
+            "fileName": "arraybuffer-slice.html",
+            "title": "JavaScript Demo: ArrayBuffer.slice()",
+            "type": "js"
+        },
+        "arraybufferTransfer": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/arraybuffer-transfer.html",
+            "fileName": "arraybuffer-transfer.html",
+            "title": "JavaScript Demo: ArrayBuffer.transfer()",
+            "type": "js"
+        },
         "animation": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc": "../../live-examples/css-examples/css/animation.css",
