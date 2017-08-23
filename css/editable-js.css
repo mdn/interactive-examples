@@ -3,12 +3,6 @@
     font-size: 14px;
 }
 
-.live {
-    background-color: #f5f9fa;
-    padding: .7em;
-    border: 1px solid #eaf2f4;
-}
-
 .editor {
     position: relative;
     background-color: #fff;

@@ -67,33 +67,6 @@
             return tmpElem.style[property] !== undefined;
         },
         /**
-         * Get the `scrollHeight` of the editor container and pass the height to
-         * the parent `window`. Also listens for a `MediaQueryListEvent`, gets
-         * the new height, and passes it to the parent window. The value is then
-         * used to size the iframe appropriately.
-         * @param {Object} container - The container from which to read the `scrollHeight`
-         */
-        sendContainerHeight: function(container) {
-            var mediaQuery = window.matchMedia('(max-width: 738px)');
-            window.parent.postMessage(
-                {
-                    iframeHeight: container.scrollHeight + 5
-                },
-                'https://developer.mozilla.org'
-            );
-
-            mediaQuery.addListener(function(event) {
-                if (event.matches) {
-                    window.parent.postMessage(
-                        {
-                            iframeHeight: container.scrollHeight + 5
-                        },
-                        'https://developer.mozilla.org'
-                    );
-                }
-            });
-        },
-        /**
          * Hides the default example and shows the custom block
          * @param {object} customBlock - The HTML section to show
          */
