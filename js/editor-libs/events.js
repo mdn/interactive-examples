@@ -113,6 +113,31 @@
         });
     }
 
+    // listens for post message from Kuma
+    window.addEventListener(
+        'message',
+        function(event) {
+            var isExpectedOrigin =
+                event.origin === 'https://developer.mozilla.org';
+
+            /* there may be other post messages so, ensure that the origin is the
+            expected and, that `event.data` contains an `smallViewport` property */
+            if (
+                isExpectedOrigin &&
+                typeof event.data.smallViewport !== undefined
+            ) {
+                var editorWrapper = document.querySelector('.editor-wrapper');
+
+                if (event.data.smallViewport) {
+                    editorWrapper.classList.add('small-desktop-and-below');
+                } else {
+                    editorWrapper.classList.remove('small-desktop-and-below');
+                }
+            }
+        },
+        false
+    );
+
     /**
      * Catches JavaScript errors from the editor that bubble up to the
      * window and passes them on to GA

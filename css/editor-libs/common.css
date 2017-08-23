@@ -3,12 +3,11 @@
 }
 
 body {
-    background-color: #fff;
     color: #333;
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: sans-serif;
+    font: 16px/1.5 sans-serif;
 }
 
 header h4:before {
@@ -29,6 +28,10 @@ header h4 {
 }
 
 .user-message {
+    display: none;
+}
+
+.live .user-message {
     position: absolute;
     top: 30px;
     left: 50%;
