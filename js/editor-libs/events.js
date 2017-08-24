@@ -4,7 +4,6 @@
     var exampleChoiceList = document.getElementById('example-choice-list');
     var liveEditorContainer = document.getElementById('live');
     var liveEditor = document.getElementById('editor');
-    var newLineRegExr = /\n(?!$)/g;
 
     /**
      *
@@ -68,8 +67,6 @@
     }
 
     if (liveEditor) {
-        var lastNewLineCount = 0;
-
         sendPerformanceMetric('js');
 
         liveEditorContainer.addEventListener('click', function(event) {
@@ -80,33 +77,7 @@
             }
         });
 
-        liveEditor.addEventListener('keyup', function(event) {
-            var code = liveEditor.querySelector('code').innerText;
-            // get the line numbers container
-            var lineNumbersRows = liveEditor.querySelector(
-                '.line-numbers-rows'
-            );
-
-            switch (event.keyCode) {
-                // Enter/Return key was pressed
-            case 13:
-                var spanElem = document.createElement('span');
-                lastNewLineCount = code.match(newLineRegExr).length;
-                    /* append the empty span element to the end of the
-                    line numbers container. The causes additional line
-                    numbers to be added as a user presses the enter key */
-                lineNumbersRows.appendChild(spanElem);
-                break;
-                // Backspace was pressed
-            case 8:
-                var newLineCount = code.match(newLineRegExr).length;
-
-                if (newLineCount < lastNewLineCount) {
-                    lineNumbersRows.removeChild(lineNumbersRows.lastChild);
-                }
-                break;
-            }
-
+        liveEditor.addEventListener('keyup', function() {
             if (!localStorage.getItem('firstJSEditRecorded')) {
                 mceAnalytics.trackFirstEdit('js');
             }
