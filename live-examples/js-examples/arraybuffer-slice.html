@@ -1,21 +1,14 @@
 <pre>
 <code id="static-js">// create an ArrayBuffer with a size in bytes
-  var buffer = new ArrayBuffer(16);
+var buffer = new ArrayBuffer(16);
 
-  var int32View = new Int32Array(buffer); // create the view
+var int32View = new Int32Array(buffer); // create the view
+int32View[2] = 42;
 
-  for (var i = 0; i < int32View.length; i++) {
-    int32View[i] = i;
-  }
+var lastHalfView = new Int32Array(buffer.slice(8,16));
 
-  // 0,1,2,3
+console.log(lastHalfView[0]);
 
-  var lastHalf = buffer.slice(8,16);
-
-  var lastHalfView = new Int32Array(lastHalf);
-
-  console.log(lastHalfView[0]);
-
-  // expected output: 2
+// expected output: 42
 </code>
 </pre>
