@@ -1,5 +1,10 @@
 {
     "bundles": {
+        "codeMirror": {
+            "javascript": ["js/libs/codemirror.js", "js/libs/javascript.js"],
+            "css": ["css/libs/codemirror.css"],
+            "destFileName": "codemirror"
+        },
         "cssExamplesBase": {
             "javascript": [
                 "js/editor-libs/mce-utils.js",
@@ -25,15 +30,9 @@
                 "js/editor-libs/events.js",
                 "js/editor-libs/console.js",
                 "js/editor-libs/feature-detector.js",
-                "js/libs/prism.js",
                 "js/editable-js.js"
             ],
-            "css": [
-                "css/libs/prism.css",
-                "css/editor-libs/common.css",
-                "css/editor-libs/prism-override.css",
-                "css/editable-js.css"
-            ],
+            "css": ["css/editor-libs/common.css", "css/editable-js.css"],
             "destFileName": "editor-js"
         }
     },

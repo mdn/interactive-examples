@@ -5,7 +5,7 @@
     var execute = document.getElementById('execute');
     var liveContainer = '';
     var reset = document.getElementById('reset');
-    var codeEditor;
+    var codeMirror = undefined;
     var staticContainer;
     var codeBlock;
 
@@ -15,15 +15,8 @@
      * output container
      */
     function applyCode() {
-        var exampleCode = liveContainer.querySelector('code').textContent;
-        updateOutput(exampleCode);
-    }
-
-    function enableInteractiveEditor() {
-        var editor = this.querySelector('code');
-        editor.setAttribute('contentEditable', true);
-        editor.setAttribute('spellcheck', false);
-        editor.focus();
+        var codeMirrorDoc = codeMirror.getDoc();
+        updateOutput(codeMirrorDoc.getValue());
     }
 
     /**
@@ -41,20 +34,24 @@
     }
 
     function initInteractiveEditor() {
-        codeEditor = editorContainer.querySelector('code');
-
         staticContainer = document.getElementById('static');
         staticContainer.classList.add('hidden');
 
         codeBlock = staticContainer.querySelector('#static-js');
-        codeEditor.textContent = codeBlock.textContent;
 
         liveContainer = document.getElementById('live');
         liveContainer.classList.remove('hidden');
 
-        liveContainer.addEventListener('click', enableInteractiveEditor);
-
-        Prism.highlightAll();
+        // eslint-disable-next-line new-cap
+        codeMirror = CodeMirror(editorContainer, {
+            autofocus: true,
+            inputStyle: 'contenteditable',
+            lineNumbers: true,
+            mode: 'javascript',
+            undoDepth: 50,
+            tabindex: 0,
+            value: codeBlock.textContent
+        });
     }
 
     /**
