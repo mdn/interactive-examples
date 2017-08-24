@@ -2,15 +2,8 @@
 <code id="static-js">// create an ArrayBuffer with a size in bytes
 var buffer = new ArrayBuffer(16);
 
-var int32View;
+console.log(ArrayBuffer.isView(new Int32Array()));
 
-// check that the Int32Array() view is supported
-if (ArrayBuffer.isView(new Int32Array()) == true) {
-  int32View = new Int32Array(buffer); // create the view
-}
-
-console.log(int32View.byteLength);
-
-// expected output: 16
+// expected output: true
 </code>
 </pre>
