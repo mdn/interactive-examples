@@ -1,0 +1,11 @@
+<pre>
+<code id="static-js" class="language-js">//create an ArrayBuffer
+var buffer = new ArrayBuffer(123);
+
+// Create a view
+var view = new DataView(buffer);
+
+console.log(view.buffer.byteLength);
+// expected output: 123
+</code>
+</pre>
