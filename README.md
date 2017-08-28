@@ -213,7 +213,7 @@ With a JavaScript example you start by creating a new `.html` file in `live-exam
 
 ```
 <pre>
-<code id="static-js" class="language-js" data-line="" data-char="">
+<code id="static-js" class="language-js">
 </code>
 </pre>
 ```
@@ -222,7 +222,7 @@ Inside the `code` block is where our example code will go. Change the code to re
 
 ```
 <pre>
-<code id="static-js" class="language-js" data-line="2" data-char="26">// call from(), passing a string
+<code id="static-js" class="language-js">// call from(), passing a string
 let result = Array.from('foo');
 
 // log the result
@@ -230,8 +230,6 @@ console.log(result);
 </code>
 </pre>
 ```
-
-In the above template, `data-line` maps to `cmSelectLine` and `data-char` maps to `cmSelectChStart`, which respectively defines the line and character where the text cursor will be inserted by the editor. There's no hard and fast rules here, choose a point that makes the most sense for the example.
 
 That is all for the live example piece. All that remains is to tell the page generator about our new example. To do this, open up `site.json` at the root of the project folder. Under `pages`, find an exising entry with the `type` of `js`.
 
