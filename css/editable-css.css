@@ -156,13 +156,13 @@
     top: 0;
     right: 0;
     background: #eee url('../media/clippy.svg') 50% 50% no-repeat;
-    background-size: 20px;
+    background-size: 15px;
     padding: 6px 12px;
     border: 1px solid #d5d5d5;
     border-top: 0;
     border-right: 0;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     vertical-align: middle;
     cursor: pointer;
 }
@@ -215,9 +215,7 @@
 }
 
 .small-desktop-and-below .copy {
-    background-size: 15px;
-    width: 30px;
-    height: 30px;
+    display: none;
 }
 
 @supports (display: flex) {
