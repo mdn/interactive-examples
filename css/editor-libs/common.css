@@ -23,7 +23,7 @@ header h4:before {
 header h4 {
     display: inline-block;
     margin: 0 0 .3em .5em;
-    font-size: 1.4rem;
+    font-size: .9rem;
     font-weight: bold;
 }
 
@@ -71,6 +71,20 @@ header h4 {
     clip: rect(0 0 0 0);
     padding: 0;
     border: 0;
+}
+
+/* mobile ends */
+@media screen and (min-width: 47.9375em) {
+    header h4 {
+        font-size: 1.1rem;
+    }
+}
+
+/* tablet ends */
+@media screen and (min-width: 63.9375em) {
+    header h4 {
+        font-size: 1.4rem;
+    }
 }
 
 @keyframes fadein {
