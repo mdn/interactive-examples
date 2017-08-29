@@ -2,24 +2,25 @@
 (function(global) {
     'use strict';
 
-    var outputArray = [];
     var originalConsoleLogger = console.log; // eslint-disable-line no-console
+    var outputContainer = document.getElementById('output');
+    var output = outputContainer.querySelector('code');
 
     var EditorConsole = {
         /**
-         * Clears the output array
+         * Clears the output code block
          */
-        clearOutputArray: function() {
-            outputArray = [];
+        clearOutput: function() {
+            output.textContent = '';
         }
     };
 
     // eslint-disable-next-line no-console
     console.log = function(loggedItem) {
-        outputArray.push(loggedItem);
-        /* store the result of the function execution as a global variable
-           which will be accessed in editable-js.js */
-        global.liveExResult = outputArray.join('\n');
+        var outputContent = output.textContent;
+        var newLogItem = '> ' + loggedItem + '\n';
+        output.textContent = outputContent + newLogItem;
+        // do not swallow console.log
         originalConsoleLogger.apply(console, arguments);
     };
 

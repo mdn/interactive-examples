@@ -21,13 +21,11 @@
 
     /**
      * Creates a new Function from the live example, and immediately executes it.
-     * The result of the function execution is returned.
      * @param {string} body - The live example string to parse into a Function
      */
     function executeInteractiveExample(body) {
         try {
             new Function(body)();
-            return window.liveExResult;
         } catch (e) {
             return 'Error: ' + e.message;
         }
@@ -63,7 +61,7 @@
         var output = document.querySelector('#output code');
 
         output.classList.add('fade-in');
-        output.textContent = executeInteractiveExample(exampleCode);
+        executeInteractiveExample(exampleCode);
 
         output.addEventListener('animationend', function() {
             output.classList.remove('fade-in');
@@ -71,7 +69,7 @@
     }
 
     execute.addEventListener('click', function() {
-        editorConsole.clearOutputArray();
+        editorConsole.clearOutput();
         applyCode();
     });
 
