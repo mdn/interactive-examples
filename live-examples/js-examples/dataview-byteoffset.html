@@ -2,11 +2,10 @@
 <code id="static-js" class="language-js">//create an ArrayBuffer
 var buffer = new ArrayBuffer(16);
 
-// Create a couple of views
-var view1 = new DataView(buffer);
-var view2 = new DataView(buffer,12,4); //from byte 12 for the next 4 bytes
+// Create a view
+var view = new DataView(buffer,12,4); //from byte 12 for the next 4 bytes
 
-console.log(view1.byteOffset + view2.byteOffset); // 0 + 12
+console.log(view.byteOffset);
 // expected output: 12
 </code>
 </pre>
