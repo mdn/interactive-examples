@@ -59,6 +59,11 @@
     color: #fff;
 }
 
+/* CodeMirror overrides */
+.CodeMirror {
+    height: 280px;
+}
+
 @supports (display: flex) {
     .buttons-container {
         align-self: flex-start;
