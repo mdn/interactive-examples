@@ -1,0 +1,12 @@
+<pre>
+<code id="static-js" class="language-js">//create an ArrayBuffer
+var buffer = new ArrayBuffer(16);
+
+// Create a view
+var view = new DataView(buffer);
+view.setFloat64(1, Math.PI);
+
+console.log(view.getFloat64(1));
+// expected output: 3.141592653589793
+</code>
+</pre>
