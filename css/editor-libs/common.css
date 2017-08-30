@@ -22,7 +22,7 @@ header h4:before {
 
 header h4 {
     display: inline-block;
-    margin: 0 0 .3em .5em;
+    margin: 0;
     font-size: .9rem;
     font-weight: bold;
 }
