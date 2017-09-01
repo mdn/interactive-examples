@@ -24,11 +24,7 @@
      * @param {string} body - The live example string to parse into a Function
      */
     function executeInteractiveExample(body) {
-        try {
-            new Function(body)();
-        } catch (e) {
-            return 'Error: ' + e.message;
-        }
+      new Function(body)();
     }
 
     function initInteractiveEditor() {
@@ -61,7 +57,13 @@
         var output = document.querySelector('#output code');
 
         output.classList.add('fade-in');
-        executeInteractiveExample(exampleCode);
+
+        try {
+          executeInteractiveExample(exampleCode);
+        }
+        catch (e) {
+          output.textContent = "Error: " + e.message;
+        }
 
         output.addEventListener('animationend', function() {
             output.classList.remove('fade-in');
