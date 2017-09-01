@@ -1,5 +1,10 @@
 {
     "bundles": {
+        "codeMirror": {
+            "javascript": ["js/libs/codemirror.js", "js/libs/javascript.js"],
+            "css": ["css/libs/codemirror.css"],
+            "destFileName": "codemirror"
+        },
         "cssExamplesBase": {
             "javascript": [
                 "js/editor-libs/mce-utils.js",
@@ -25,15 +30,9 @@
                 "js/editor-libs/events.js",
                 "js/editor-libs/console.js",
                 "js/editor-libs/feature-detector.js",
-                "js/libs/prism.js",
                 "js/editable-js.js"
             ],
-            "css": [
-                "css/libs/prism.css",
-                "css/editor-libs/common.css",
-                "css/editor-libs/prism-override.css",
-                "css/editable-js.css"
-            ],
+            "css": ["css/editor-libs/common.css", "css/editable-js.css"],
             "destFileName": "editor-js"
         }
     },
@@ -176,6 +175,384 @@
             "exampleCode": "live-examples/js-examples/array-slice.html",
             "fileName": "array-slice.html",
             "title": "JavaScript Demo: Array.slice()",
+            "type": "js"
+        },
+        "arraybufferConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/arraybuffer-constructor.html",
+            "fileName": "arraybuffer-constructor.html",
+            "title": "JavaScript Demo: ArrayBuffer Constructor",
+            "type": "js"
+        },
+        "arraybufferByteLength": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/arraybuffer-bytelength.html",
+            "fileName": "arraybuffer-bytelength.html",
+            "title": "JavaScript Demo: ArrayBuffer.byteLength()",
+            "type": "js"
+        },
+        "arraybufferIsView": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/arraybuffer-isview.html",
+            "fileName": "arraybuffer-isview.html",
+            "title": "JavaScript Demo: ArrayBuffer.isView()",
+            "type": "js"
+        },
+        "arraybufferSlice": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/arraybuffer-slice.html",
+            "fileName": "arraybuffer-slice.html",
+            "title": "JavaScript Demo: ArrayBuffer.slice()",
+            "type": "js"
+        },
+        "dataviewBuffer": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-buffer.html",
+            "fileName": "dataview-buffer.html",
+            "title": "JavaScript Demo: DataView.buffer",
+            "type": "js"
+        },
+        "dataviewByteLength": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-bytelength.html",
+            "fileName": "dataview-bytelength.html",
+            "title": "JavaScript Demo: DataView.byteLength",
+            "type": "js"
+        },
+        "dataviewByteOffset": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-byteoffset.html",
+            "fileName": "dataview-byteoffset.html",
+            "title": "JavaScript Demo: DataView.byteOffset",
+            "type": "js"
+        },
+        "dataviewConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-constructor.html",
+            "fileName": "dataview-constructor.html",
+            "title": "JavaScript Demo: DataView Constructor",
+            "type": "js"
+        },
+        "dataviewGetFloat32": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-getfloat32.html",
+            "fileName": "dataview-getfloat32.html",
+            "title": "JavaScript Demo: DataView.getFloat32()",
+            "type": "js"
+        },
+        "dataviewGetFloat64": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-getfloat64.html",
+            "fileName": "dataview-getfloat64.html",
+            "title": "JavaScript Demo: DataView.getFloat64()",
+            "type": "js"
+        },
+        "dataviewGetInt8": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-getint8.html",
+            "fileName": "dataview-getint8.html",
+            "title": "JavaScript Demo: DataView.getInt8()",
+            "type": "js"
+        },
+        "dataviewGetInt16": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-getint16.html",
+            "fileName": "dataview-getint16.html",
+            "title": "JavaScript Demo: DataView.getInt16()",
+            "type": "js"
+        },
+        "dataviewGetInt32": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-getint32.html",
+            "fileName": "dataview-getint32.html",
+            "title": "JavaScript Demo: DataView.getInt32()",
+            "type": "js"
+        },
+        "dataviewGetUint8": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-getuint8.html",
+            "fileName": "dataview-getuint8.html",
+            "title": "JavaScript Demo: DataView.getUint8()",
+            "type": "js"
+        },
+        "dataviewGetUint16": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-getuint16.html",
+            "fileName": "dataview-getuint16.html",
+            "title": "JavaScript Demo: DataView.getUint16()",
+            "type": "js"
+        },
+        "dataviewGetUint32": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-getuint32.html",
+            "fileName": "dataview-getuint32.html",
+            "title": "JavaScript Demo: DataView.getUint32()",
+            "type": "js"
+        },
+        "dataviewSetFloat32": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-setfloat32.html",
+            "fileName": "dataview-setfloat32.html",
+            "title": "JavaScript Demo: DataView.setFloat32()",
+            "type": "js"
+        },
+        "dataviewSetFloat64": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-setfloat64.html",
+            "fileName": "dataview-setfloat64.html",
+            "title": "JavaScript Demo: DataView.setFloat64()",
+            "type": "js"
+        },
+        "dataviewSetInt8": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-setint8.html",
+            "fileName": "dataview-setint8.html",
+            "title": "JavaScript Demo: DataView.setInt8()",
+            "type": "js"
+        },
+        "dataviewSetInt16": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-setint16.html",
+            "fileName": "dataview-setint16.html",
+            "title": "JavaScript Demo: DataView.setInt16()",
+            "type": "js"
+        },
+        "dataviewSetInt32": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-setint32.html",
+            "fileName": "dataview-setint32.html",
+            "title": "JavaScript Demo: DataView.setInt32()",
+            "type": "js"
+        },
+        "dataviewSetUint8": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-setuint8.html",
+            "fileName": "dataview-setuint8.html",
+            "title": "JavaScript Demo: DataView.setUint8()",
+            "type": "js"
+        },
+        "dataviewSetUint8etUint16": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-setuint16.html",
+            "fileName": "dataview-setuint16.html",
+            "title": "JavaScript Demo: DataView.setUint16()",
+            "type": "js"
+        },
+        "dataviewSetUint32": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-setuint32.html",
+            "fileName": "dataview-setuint32.html",
+            "title": "JavaScript Demo: DataView.setUint32()",
+            "type": "js"
+        },
+        "typedarrayBuffer": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-buffer.html",
+            "fileName": "typedarray-buffer.html",
+            "title": "JavaScript Demo: TypedArray.buffer",
+            "type": "js"
+        },
+        "typedarrayByteLength": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-bytelength.html",
+            "fileName": "typedarray-bytelength.html",
+            "title": "JavaScript Demo: TypedArray.byteLength",
+            "type": "js"
+        },
+        "typedarrayBytesPerElement": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-bytes_per_element.html",
+            "fileName": "typedarray-bytes_per_element.html",
+            "title": "JavaScript Demo: TypedArray.BYTES_PER_ELEMENT",
+            "type": "js"
+        },
+        "typedarrayConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-constructor.html",
+            "fileName": "typedarray-constructor.html",
+            "title": "JavaScript Demo: TypedArray Constructor",
+            "type": "js"
+        },
+        "typedarrayCopyWithin": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-copywithin.html",
+            "fileName": "typedarray-copywithin.html",
+            "title": "JavaScript Demo: TypedArray.copyWithin()",
+            "type": "js"
+        },
+        "typedarrayEntries": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-entries.html",
+            "fileName": "typedarray-entries.html",
+            "title": "JavaScript Demo: TypedArray.entries()",
+            "type": "js"
+        },
+        "typedarrayEvery": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-every.html",
+            "fileName": "typedarray-every.html",
+            "title": "JavaScript Demo: TypedArray.every()",
+            "type": "js"
+        },
+        "typedarrayFill": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-fill.html",
+            "fileName": "typedarray-fill.html",
+            "title": "JavaScript Demo: TypedArray.fill()",
+            "type": "js"
+        },
+        "typedarrayFilter": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-filter.html",
+            "fileName": "typedarray-filter.html",
+            "title": "JavaScript Demo: TypedArray.filter()",
+            "type": "js"
+        },
+        "typedarrayFind": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-find.html",
+            "fileName": "typedarray-find.html",
+            "title": "JavaScript Demo: TypedArray.find()",
+            "type": "js"
+        },
+        "typedarrayFindIndex": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-find.html",
+            "fileName": "typedarray-findindex.html",
+            "title": "JavaScript Demo: TypedArray.findIndex()",
+            "type": "js"
+        },
+        "typedarrayFrom": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-from.html",
+            "fileName": "typedarray-from.html",
+            "title": "JavaScript Demo: TypedArray.from()",
+            "type": "js"
+        },
+        "typedarrayIncludes": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-includes.html",
+            "fileName": "typedarray-includes.html",
+            "title": "JavaScript Demo: TypedArray.includes()",
+            "type": "js"
+        },
+        "typedarrayIndexOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-indexof.html",
+            "fileName": "typedarray-indexof.html",
+            "title": "JavaScript Demo: TypedArray.indexOf()",
+            "type": "js"
+        },
+        "typedarrayJoin": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-join.html",
+            "fileName": "typedarray-join.html",
+            "title": "JavaScript Demo: TypedArray.join()",
+            "type": "js"
+        },
+        "typedarrayKeys": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-keys.html",
+            "fileName": "typedarray-keys.html",
+            "title": "JavaScript Demo: TypedArray.keys()",
+            "type": "js"
+        },
+        "typedarrayLastIndexOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-lastindexof.html",
+            "fileName": "typedarray-lastindexof.html",
+            "title": "JavaScript Demo: TypedArray.lastIndexOf()",
+            "type": "js"
+        },
+        "typedarrayLength": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-length.html",
+            "fileName": "typedarray-length.html",
+            "title": "JavaScript Demo: TypedArray.length",
+            "type": "js"
+        },
+        "typedarrayMap": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-map.html",
+            "fileName": "typedarray-map.html",
+            "title": "JavaScript Demo: TypedArray.map()",
+            "type": "js"
+        },
+        "typedarrayName": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-name.html",
+            "fileName": "typedarray-name.html",
+            "title": "JavaScript Demo: TypedArray.name",
+            "type": "js"
+        },
+        "typedarrayOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-of.html",
+            "fileName": "typedarray-of.html",
+            "title": "JavaScript Demo: TypedArray.of()",
+            "type": "js"
+        },
+        "typedarrayReduce": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-reduce.html",
+            "fileName": "typedarray-reduce.html",
+            "title": "JavaScript Demo: TypedArray.reduce()",
+            "type": "js"
+        },
+        "typedarrayReverse": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-reverse.html",
+            "fileName": "typedarray-reverse.html",
+            "title": "JavaScript Demo: TypedArray.reverse()",
+            "type": "js"
+        },
+        "typedarraySet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-set.html",
+            "fileName": "typedarray-set.html",
+            "title": "JavaScript Demo: TypedArray.set()",
+            "type": "js"
+        },
+        "typedarraySlice": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-slice.html",
+            "fileName": "typedarray-slice.html",
+            "title": "JavaScript Demo: TypedArray.slice()",
+            "type": "js"
+        },
+        "typedarraySome": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-some.html",
+            "fileName": "typedarray-some.html",
+            "title": "JavaScript Demo: TypedArray.some()",
+            "type": "js"
+        },
+        "typedarraySort": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-sort.html",
+            "fileName": "typedarray-sort.html",
+            "title": "JavaScript Demo: TypedArray.sort()",
+            "type": "js"
+        },
+        "typedarraySubarray": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-subarray.html",
+            "fileName": "typedarray-subarray.html",
+            "title": "JavaScript Demo: TypedArray.subarray()",
+            "type": "js"
+        },
+        "typedarrayToString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-tostring.html",
+            "fileName": "typedarray-tostring.html",
+            "title": "JavaScript Demo: TypedArray.tostring()",
+            "type": "js"
+        },
+        "typedarrayValues": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/typedarray-values.html",
+            "fileName": "typedarray-values.html",
+            "title": "JavaScript Demo: TypedArray.values()",
             "type": "js"
         },
         "animation": {
