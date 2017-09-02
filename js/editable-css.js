@@ -1,7 +1,6 @@
 (function(global) {
     'use strict';
 
-    var cssEditorContainer = document.querySelector('.css-editor-container');
     var editTimer = undefined;
     var exampleChoiceList = document.getElementById('example-choice-list');
     var exampleChoices = exampleChoiceList.querySelectorAll('.example-choice');
@@ -107,8 +106,6 @@
         clippy.addClippy();
 
         handleResetEvents();
-
-        mceUtils.sendContainerHeight(cssEditorContainer);
     }
 
     /**
@@ -132,9 +129,9 @@
 
             // if there is an initial choice set, set it as selected
             if (initialChoice) {
-                choose(exampleChoices[initialChoice]);
+                CSSEditorUtils.onChoose(exampleChoices[initialChoice]);
             } else {
-                choose(exampleChoices[0]);
+                CSSEditorUtils.onChoose(exampleChoices[0]);
             }
         });
     }

@@ -1,0 +1,12 @@
+<pre>
+<code id="static-js" class="language-js">//create an ArrayBuffer
+var buffer = new ArrayBuffer(16);
+
+// Create a view
+var view = new DataView(buffer);
+view.setInt16(1, 32767); // (max signed 16-bit integer)
+
+console.log(view.getInt16(1));
+// expected output: 32767
+</code>
+</pre>

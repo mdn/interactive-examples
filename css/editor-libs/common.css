@@ -3,12 +3,11 @@
 }
 
 body {
-    background-color: #fff;
     color: #333;
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: sans-serif;
+    font: 16px/1.5 sans-serif;
 }
 
 header h4:before {
@@ -23,12 +22,13 @@ header h4:before {
 
 header h4 {
     display: inline-block;
-    margin: 0 0 .3em .5em;
-    font-size: 1.4rem;
+    margin: 0;
+    font-size: .9rem;
     font-weight: bold;
 }
 
 .user-message {
+    display: none;
     position: absolute;
     top: 30px;
     left: 50%;
@@ -58,6 +58,10 @@ header h4 {
     display: none;
 }
 
+.show {
+    display: block;
+}
+
 /* Hide visually, but not to screen readers */
 .visually-hidden {
     position: absolute !important; /* stylelint-disable-line */
@@ -68,6 +72,20 @@ header h4 {
     clip: rect(0 0 0 0);
     padding: 0;
     border: 0;
+}
+
+/* mobile ends */
+@media screen and (min-width: 47.9375em) {
+    header h4 {
+        font-size: 1.1rem;
+    }
+}
+
+/* tablet ends */
+@media screen and (min-width: 63.9375em) {
+    header h4 {
+        font-size: 1.4rem;
+    }
 }
 
 @keyframes fadein {

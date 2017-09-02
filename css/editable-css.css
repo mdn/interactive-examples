@@ -1,13 +1,5 @@
-.css-editor-container {
-    background-color: #f8f8f8;
-    padding: .7em;
-    border: 1px solid #eaf2f4;
-    border-radius: 6px;
-}
-
 .example-choice-list {
-    background-color: #f8f8f8;
-    padding: 0 2em 0 0;
+    padding: 0;
 }
 
 .editor-wrapper {
@@ -16,15 +8,17 @@
 }
 
 .example-choice-list.live,
-.output {
-    height: 300px;
-    overflow: hidden;
+.example-choice-list.large.live {
+    float: left;
+    padding: 0 2em 0 0;
+    width: 60%;
+    text-align: right;
+    overflow: auto;
 }
 
-.example-choice-list.live.large,
-.output.large {
-    height: 550px;
-    overflow: hidden;
+.example-choice-list.live {
+    height: 300px;
+    max-height: 300px;
 }
 
 .example-choice-list,
@@ -33,11 +27,9 @@
     width: auto;
 }
 
-.example-choice-list.live,
-.example-choice-list.large.live {
-    float: left;
-    width: 60%;
-    text-align: right;
+.output {
+    height: 300px;
+    overflow: hidden;
 }
 
 .output-header {
@@ -69,7 +61,6 @@
     border: 2px solid #d6dee0;
     border-left: 5px solid #d6dee0;
     font-size: 14px;
-    flex-basis: 40px;
     cursor: pointer;
     transition: background-color .2s ease-out, border .2s ease-out;
 }
@@ -79,7 +70,11 @@
 }
 
 .live .example-choice pre {
-    height: 90%;
+    padding: 0 10px;
+}
+
+.live .example-choice code {
+    padding: 10px 0;
 }
 
 .example-choice-list .example-choice:first-child {
@@ -91,7 +86,7 @@
     border-left-color: #666;
 }
 
-.example-choice:before {
+.live .example-choice:before {
     content: '';
     position: absolute;
     top: 50%;
@@ -161,13 +156,13 @@
     top: 0;
     right: 0;
     background: #eee url('../media/clippy.svg') 50% 50% no-repeat;
-    background-size: 20px;
+    background-size: 15px;
     padding: 6px 12px;
     border: 1px solid #d5d5d5;
     border-top: 0;
     border-right: 0;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     vertical-align: middle;
     cursor: pointer;
 }
@@ -184,45 +179,43 @@
     outline: 0 solid transparent;
 }
 
-/*
-Column display
-- kuma flips display at tablet size, with padding that's approx 738px
-*/
-@media screen and (max-width: 738px) {
-    .example-choice-list,
-    .example-choice-list.live,
-    .example-choice-list.large.live,
-    .output {
-        float: none;
-        width: 100%;
-        height: auto;
-    }
+/* styling for small desktop viewports and below */
+.small-desktop-and-below .example-choice-list,
+.small-desktop-and-below .example-choice-list.live,
+.small-desktop-and-below .example-choice-list.large.live,
+.small-desktop-and-below .output {
+    float: none;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
 
-    .example-choice-list {
-        padding-right: .7em;
-        margin-bottom: 1em;
-    }
+.small-desktop-and-below .example-choice-list.live {
+    max-height: 225px;
+    overflow: auto;
+}
 
-    .example-choice:before {
-        content: none;
-    }
+.small-desktop-and-below .output,
+.small-desktop-and-below .output.large {
+    position: relative;
+    height: 225px;
+}
 
-    .copy {
-        background-size: 15px;
-        width: 30px;
-        height: 30px;
-    }
+.small-desktop-and-below .example-choice-list {
+    padding-right: .7em;
+    margin-bottom: 1em;
+}
 
-    .output {
-        position: relative;
-        float: none;
-        width: 100%;
-    }
+.small-desktop-and-below .example-choice:before {
+    content: none;
+}
 
-    .output,
-    .output.large {
-        height: 220px;
-    }
+.small-desktop-and-below .live .example-choice {
+    min-height: 40px;
+}
+
+.small-desktop-and-below .copy {
+    display: none;
 }
 
 @supports (display: flex) {
@@ -234,7 +227,6 @@ Column display
     .live .example-choice {
         display: flex;
         align-items: center;
-        flex-basis: 40px;
         flex-grow: 1;
     }
 

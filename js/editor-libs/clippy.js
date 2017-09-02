@@ -10,13 +10,13 @@
             clipboard.on('success', function(event) {
                 var msgContainer = document.getElementById('user-message');
 
-                msgContainer.classList.remove('hide');
+                msgContainer.classList.add('show');
                 msgContainer.setAttribute('aria-hidden', false);
 
                 setClippyPosition(event, msgContainer);
 
                 window.setTimeout(function() {
-                    msgContainer.classList.add('hide');
+                    msgContainer.classList.remove('show');
                     msgContainer.setAttribute('aria-hidden', true);
                 }, 1000);
 

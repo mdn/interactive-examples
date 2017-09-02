@@ -1,0 +1,12 @@
+<pre>
+<code id="static-js" class="language-js">//create an ArrayBuffer
+var buffer = new ArrayBuffer(16);
+
+// Create a view
+var view = new DataView(buffer);
+view.setUint32(1, 4294967295); // (max unsigned 32-bit integer)
+
+console.log(view.getUint32(1));
+// expected output: 4294967295
+</code>
+</pre>

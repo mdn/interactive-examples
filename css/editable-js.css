@@ -3,37 +3,11 @@
     font-size: 14px;
 }
 
-.live {
-    background-color: #f5f9fa;
-    padding: .7em;
-    border: 1px solid #eaf2f4;
-}
-
 .editor {
     position: relative;
-    background-color: #fff;
     margin-bottom: 1em;
     border: 1px solid #3f87a6;
     border-left: 5px solid #3f87a6;
-}
-
-.editor > button {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    z-index: 10;
-}
-
-.editor > input.hidden {
-    display: none;
-}
-
-pre.js-editor[class*='language-'] {
-    background-color: #fff;
-}
-
-[contenteditable]:focus {
-    outline: 0 solid transparent;
 }
 
 .output {
@@ -85,14 +59,9 @@ pre.js-editor[class*='language-'] {
     color: #fff;
 }
 
-/* removes borders and padding when copy/pasting in Fx */
-pre.line-numbers[class*='language-'] code code {
-    padding-left: 0;
-}
-
-code :not(pre) > code[class*='language-'],
-code > code[class*='language-'] {
-    border: 0;
+/* CodeMirror overrides */
+.CodeMirror {
+    height: 280px;
 }
 
 @supports (display: flex) {
