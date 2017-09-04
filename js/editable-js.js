@@ -19,14 +19,6 @@
         updateOutput(codeMirrorDoc.getValue());
     }
 
-    /**
-     * Creates a new Function from the live example, and immediately executes it.
-     * @param {string} body - The live example string to parse into a Function
-     */
-    function executeInteractiveExample(body) {
-      new Function(body)();
-    }
-
     function initInteractiveEditor() {
         staticContainer = document.getElementById('static');
         staticContainer.classList.add('hidden');
@@ -59,10 +51,10 @@
         output.classList.add('fade-in');
 
         try {
-          executeInteractiveExample(exampleCode);
-        }
-        catch (e) {
-          output.textContent = "Error: " + e.message;
+          // Create a new Function from the code, and immediately execute it.
+          new Function(exampleCode)();
+        } catch (event) {
+          output.textContent = "Error: " + event.message;
         }
 
         output.addEventListener('animationend', function() {
