@@ -1,0 +1,12 @@
+<pre>
+<code id="static-js" class="language-js">// create a SharedArrayBuffer with a size in bytes
+var buffer = new SharedArrayBuffer(16);
+var uint8 = new Uint8Array(buffer);
+uint8[0] = 7;
+
+Atomics.add(uint8, 0, 2); // (returns 7)
+
+console.log(Atomics.load(uint8, 0)); // 7 + 2
+// expected output: 9
+</code>
+</pre>
