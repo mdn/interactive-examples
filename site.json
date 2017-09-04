@@ -345,6 +345,27 @@
             "title": "JavaScript Demo: DataView.setUint32()",
             "type": "js"
         },
+        "sharedarraybufferByteLength": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/sharedarraybuffer-bytelength.html",
+            "fileName": "sharedarraybuffer-bytelength.html",
+            "title": "JavaScript Demo: SharedArrayBuffer.byteLength",
+            "type": "js"
+        },
+        "sharedarraybufferConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/sharedarraybuffer-constructor.html",
+            "fileName": "sharedarraybuffer-constructor.html",
+            "title": "JavaScript Demo: SharedArrayBuffer Constructor",
+            "type": "js"
+        },
+        "sharedarraybufferSlice": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/sharedarraybuffer-slice.html",
+            "fileName": "sharedarraybuffer-slice.html",
+            "title": "JavaScript Demo: SharedArrayBuffer.slice()",
+            "type": "js"
+        },
         "animation": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc": "../../live-examples/css-examples/css/animation.css",
