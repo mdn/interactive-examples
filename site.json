@@ -2,7 +2,7 @@
     "bundles": {
         "codeMirror": {
             "javascript": ["js/libs/codemirror.js", "js/libs/javascript.js"],
-            "css": ["css/libs/codemirror.css", "css/editor-libs/codemirror-override.css"],
+            "css": ["css/libs/codemirror.css"],
             "destFileName": "codemirror"
         },
         "cssExamplesBase": {
@@ -343,6 +343,55 @@
             "exampleCode": "live-examples/js-examples/dataview-setuint32.html",
             "fileName": "dataview-setuint32.html",
             "title": "JavaScript Demo: DataView.setUint32()",
+            "type": "js"
+        },
+        "promiseAll": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/promise-all.html",
+            "fileName": "promise-all.html",
+            "title": "JavaScript Demo: Promise.all()",
+            "type": "js"
+        },
+        "promiseCatch": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/promise-catch.html",
+            "fileName": "promise-catch.html",
+            "title": "JavaScript Demo: Promise.catch()",
+            "type": "js"
+        },
+        "promiseConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/promise-constructor.html",
+            "fileName": "promise-constructor.html",
+            "title": "JavaScript Demo: Promise Constructor",
+            "type": "js"
+        },
+        "promiseRace": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/promise-race.html",
+            "fileName": "promise-race.html",
+            "title": "JavaScript Demo: Promise.race()",
+            "type": "js"
+        },
+        "promiseReject": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/promise-reject.html",
+            "fileName": "promise-reject.html",
+            "title": "JavaScript Demo: Promise.reject()",
+            "type": "js"
+        },
+        "promiseResolve": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/promise-resolve.html",
+            "fileName": "promise-resolve.html",
+            "title": "JavaScript Demo: Promise.resolve()",
+            "type": "js"
+        },
+        "promiseThen": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/promise-then.html",
+            "fileName": "promise-then.html",
+            "title": "JavaScript Demo: Promise.then()",
             "type": "js"
         },
         "animation": {
