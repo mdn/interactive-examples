@@ -1,15 +1,15 @@
 <pre>
-<code id="static-js" class="language-js">var p1 = new Promise(function(resolve, reject) {
+<code id="static-js" class="language-js">var promise1 = new Promise(function(resolve, reject) {
     setTimeout(resolve, 500, 'one');
 });
 
-var p2 = new Promise(function(resolve, reject) {
+var promise2 = new Promise(function(resolve, reject) {
     setTimeout(resolve, 100, 'two');
 });
 
-Promise.race([p1, p2]).then(function(value) {
+Promise.race([promise1, promise2]).then(function(value) {
   console.log(value);
-  // Both resolve, but p2 is faster
+  // Both resolve, but promise2 is faster
 });
 // expected output: two
 </code>

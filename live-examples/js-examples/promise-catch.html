@@ -1,9 +1,9 @@
 <pre>
-<code id="static-js" class="language-js">var p1 = new Promise(function(resolve, reject) {
+<code id="static-js" class="language-js">var promise1 = new Promise(function(resolve, reject) {
   throw 'Uh-oh!';
 });
 
-p1.catch(function(error) {
+promise1.catch(function(error) {
   console.log(error);
 });
 // expected output: Uh-oh!

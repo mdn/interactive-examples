@@ -2,7 +2,7 @@
     "bundles": {
         "codeMirror": {
             "javascript": ["js/libs/codemirror.js", "js/libs/javascript.js"],
-            "css": ["css/libs/codemirror.css"],
+            "css": ["css/libs/codemirror.css", "css/editor-libs/codemirror-override.css"],
             "destFileName": "codemirror"
         },
         "cssExamplesBase": {
