@@ -1,9 +1,13 @@
 <pre>
-<code id="static-js" class="language-js">Promise.reject(new Error('fail')).then(function(error) {
-  // not called
-}, function(error) {
-  console.log(error);
-});
+<code id="static-js" class="language-js">function resolved(result) {
+  console.log("Resolved");
+}
+
+function rejected(result) {
+  console.log(result);
+}
+
+Promise.reject(new Error('fail')).then(resolved, rejected);
 // expected output: Error: fail
 </code>
 </pre>
