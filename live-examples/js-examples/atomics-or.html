@@ -2,11 +2,12 @@
 <code id="static-js" class="language-js">// create a SharedArrayBuffer with a size in bytes
 var buffer = new SharedArrayBuffer(16);
 var uint8 = new Uint8Array(buffer);
-uint8[0] = 7;
+uint8[0] = 5;
 
-Atomics.or(uint8, 0, 2); // (returns 7)
+// 5 (0101) OR 2 (0010) = 7 (0111)
+console.log(Atomics.or(uint8, 0, 2));
+// expected output: 5
 
-// 7 (0111) OR 2 (0010) = 7 (0111)
 console.log(Atomics.load(uint8, 0));
 // expected output: 7
 </code>
