@@ -2,7 +2,7 @@
     "bundles": {
         "codeMirror": {
             "javascript": ["js/libs/codemirror.js", "js/libs/javascript.js"],
-            "css": ["css/libs/codemirror.css"],
+            "css": ["css/libs/codemirror.css", "css/editor-libs/codemirror-override.css"],
             "destFileName": "codemirror"
         },
         "cssExamplesBase": {
@@ -413,6 +413,27 @@
             "exampleCode": "live-examples/js-examples/atomics-xor.html",
             "fileName": "atomics-xor.html",
             "title": "JavaScript Demo: Atomics.xor()",
+            "type": "js"
+        },
+        "sharedarraybufferByteLength": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/sharedarraybuffer-bytelength.html",
+            "fileName": "sharedarraybuffer-bytelength.html",
+            "title": "JavaScript Demo: SharedArrayBuffer.byteLength",
+            "type": "js"
+        },
+        "sharedarraybufferConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/sharedarraybuffer-constructor.html",
+            "fileName": "sharedarraybuffer-constructor.html",
+            "title": "JavaScript Demo: SharedArrayBuffer Constructor",
+            "type": "js"
+        },
+        "sharedarraybufferSlice": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/sharedarraybuffer-slice.html",
+            "fileName": "sharedarraybuffer-slice.html",
+            "title": "JavaScript Demo: SharedArrayBuffer.slice()",
             "type": "js"
         },
         "animation": {
