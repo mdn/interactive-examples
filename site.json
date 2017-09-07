@@ -1,718 +1,726 @@
 {
-    "bundles": {
-        "codeMirror": {
-            "javascript": ["js/libs/codemirror.js", "js/libs/javascript.js"],
-            "css": ["css/libs/codemirror.css"],
-            "destFileName": "codemirror"
-        },
-        "cssExamplesBase": {
-            "javascript": [
-                "js/editor-libs/mce-utils.js",
-                "js/editor-libs/analytics.js",
-                "js/editor-libs/events.js",
-                "js/editor-libs/clippy.js",
-                "js/libs/prism.js",
-                "js/libs/clipboard.js",
-                "js/editable-css.js"
-            ],
-            "css": [
-                "css/libs/prism.css",
-                "css/editor-libs/common.css",
-                "css/editor-libs/prism-override.css",
-                "css/editable-css.css"
-            ],
-            "destFileName": "css-examples-base"
-        },
-        "editorJS": {
-            "javascript": [
-                "js/editor-libs/mce-utils.js",
-                "js/editor-libs/analytics.js",
-                "js/editor-libs/events.js",
-                "js/editor-libs/console.js",
-                "js/editor-libs/feature-detector.js",
-                "js/editable-js.js"
-            ],
-            "css": ["css/editor-libs/common.css", "css/editable-js.css"],
-            "destFileName": "editor-js"
-        }
+  "bundles": {
+    "codeMirror": {
+      "javascript": [
+        "js/libs/codemirror.js",
+        "js/libs/javascript.js"
+      ],
+      "css": [
+        "css/libs/codemirror.css"
+      ],
+      "destFileName": "codemirror"
     },
-    "pages": {
-        "arrayConcat": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-concat.html",
-            "fileName": "array-concat.html",
-            "title": "JavaScript Demo: Array.concat()",
-            "type": "js"
-        },
-        "arrayCopyWithin": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-copywithin.html",
-            "fileName": "array-copywithin.html",
-            "title": "JavaScript Demo: Array.copyWithin()",
-            "type": "js"
-        },
-        "arrayEntries": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-entries.html",
-            "fileName": "array-entries.html",
-            "title": "JavaScript Demo: Array.entries()",
-            "type": "js"
-        },
-        "arrayEvery": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-every.html",
-            "fileName": "array-every.html",
-            "title": "JavaScript Demo: Array.every()",
-            "type": "js"
-        },
-        "arrayFill": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-fill.html",
-            "fileName": "array-fill.html",
-            "title": "JavaScript Demo: Array.fill()",
-            "type": "js"
-        },
-        "arrayFilter": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-filter.html",
-            "fileName": "array-filter.html",
-            "title": "JavaScript Demo: Array.filter()",
-            "type": "js"
-        },
-        "arrayFind": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-find.html",
-            "fileName": "array-find.html",
-            "title": "JavaScript Demo: Array.find()",
-            "type": "js"
-        },
-        "arrayFindIndex": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-findindex.html",
-            "fileName": "array-findindex.html",
-            "title": "JavaScript Demo: Array.findIndex()",
-            "type": "js"
-        },
-        "arrayFrom": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-from.html",
-            "fileName": "array-from.html",
-            "title": "JavaScript Demo: Array.from()",
-            "type": "js"
-        },
-        "arrayIncludes": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-includes.html",
-            "fileName": "array-includes.html",
-            "title": "JavaScript Demo: Array.includes()",
-            "type": "js"
-        },
-        "arrayIndexof": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-indexof.html",
-            "fileName": "array-indexof.html",
-            "title": "JavaScript Demo: Array.indexOf()",
-            "type": "js"
-        },
-        "arrayJoin": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-join.html",
-            "fileName": "array-join.html",
-            "title": "JavaScript Demo: Array.join()",
-            "type": "js"
-        },
-        "arrayLastIndexOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-lastindexof.html",
-            "fileName": "array-lastindexof.html",
-            "title": "JavaScript Demo: Array.lastIndexOf()",
-            "type": "js"
-        },
-        "arrayLength": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-length.html",
-            "fileName": "array-length.html",
-            "title": "JavaScript Demo: Array.length",
-            "type": "js"
-        },
-        "arrayMap": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-map.html",
-            "fileName": "array-map.html",
-            "title": "JavaScript Demo: Array.map()",
-            "type": "js"
-        },
-        "arrayPush": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-push.html",
-            "fileName": "array-push.html",
-            "title": "JavaScript Demo: Array.push()",
-            "type": "js"
-        },
-        "arrayPop": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-pop.html",
-            "fileName": "array-pop.html",
-            "title": "JavaScript Demo: Array.pop()",
-            "type": "js"
-        },
-        "arrayReduceRight": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-reduce-right.html",
-            "fileName": "array-reduce-right.html",
-            "title": "JavaScript Demo: Array.reduceRight()",
-            "type": "js"
-        },
-        "arrayReduce": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-reduce.html",
-            "fileName": "array-reduce.html",
-            "title": "JavaScript Demo: Array.reduce()",
-            "type": "js"
-        },
-        "arraySlice": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array-slice.html",
-            "fileName": "array-slice.html",
-            "title": "JavaScript Demo: Array.slice()",
-            "type": "js"
-        },
-        "arraybufferConstructor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/arraybuffer-constructor.html",
-            "fileName": "arraybuffer-constructor.html",
-            "title": "JavaScript Demo: ArrayBuffer Constructor",
-            "type": "js"
-        },
-        "arraybufferByteLength": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/arraybuffer-bytelength.html",
-            "fileName": "arraybuffer-bytelength.html",
-            "title": "JavaScript Demo: ArrayBuffer.byteLength()",
-            "type": "js"
-        },
-        "arraybufferIsView": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/arraybuffer-isview.html",
-            "fileName": "arraybuffer-isview.html",
-            "title": "JavaScript Demo: ArrayBuffer.isView()",
-            "type": "js"
-        },
-        "arraybufferSlice": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/arraybuffer-slice.html",
-            "fileName": "arraybuffer-slice.html",
-            "title": "JavaScript Demo: ArrayBuffer.slice()",
-            "type": "js"
-        },
-        "dataviewBuffer": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-buffer.html",
-            "fileName": "dataview-buffer.html",
-            "title": "JavaScript Demo: DataView.buffer",
-            "type": "js"
-        },
-        "dataviewByteLength": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-bytelength.html",
-            "fileName": "dataview-bytelength.html",
-            "title": "JavaScript Demo: DataView.byteLength",
-            "type": "js"
-        },
-        "dataviewByteOffset": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-byteoffset.html",
-            "fileName": "dataview-byteoffset.html",
-            "title": "JavaScript Demo: DataView.byteOffset",
-            "type": "js"
-        },
-        "dataviewConstructor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-constructor.html",
-            "fileName": "dataview-constructor.html",
-            "title": "JavaScript Demo: DataView Constructor",
-            "type": "js"
-        },
-        "dataviewGetFloat32": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-getfloat32.html",
-            "fileName": "dataview-getfloat32.html",
-            "title": "JavaScript Demo: DataView.getFloat32()",
-            "type": "js"
-        },
-        "dataviewGetFloat64": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-getfloat64.html",
-            "fileName": "dataview-getfloat64.html",
-            "title": "JavaScript Demo: DataView.getFloat64()",
-            "type": "js"
-        },
-        "dataviewGetInt8": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-getint8.html",
-            "fileName": "dataview-getint8.html",
-            "title": "JavaScript Demo: DataView.getInt8()",
-            "type": "js"
-        },
-        "dataviewGetInt16": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-getint16.html",
-            "fileName": "dataview-getint16.html",
-            "title": "JavaScript Demo: DataView.getInt16()",
-            "type": "js"
-        },
-        "dataviewGetInt32": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-getint32.html",
-            "fileName": "dataview-getint32.html",
-            "title": "JavaScript Demo: DataView.getInt32()",
-            "type": "js"
-        },
-        "dataviewGetUint8": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-getuint8.html",
-            "fileName": "dataview-getuint8.html",
-            "title": "JavaScript Demo: DataView.getUint8()",
-            "type": "js"
-        },
-        "dataviewGetUint16": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-getuint16.html",
-            "fileName": "dataview-getuint16.html",
-            "title": "JavaScript Demo: DataView.getUint16()",
-            "type": "js"
-        },
-        "dataviewGetUint32": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-getuint32.html",
-            "fileName": "dataview-getuint32.html",
-            "title": "JavaScript Demo: DataView.getUint32()",
-            "type": "js"
-        },
-        "dataviewSetFloat32": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-setfloat32.html",
-            "fileName": "dataview-setfloat32.html",
-            "title": "JavaScript Demo: DataView.setFloat32()",
-            "type": "js"
-        },
-        "dataviewSetFloat64": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-setfloat64.html",
-            "fileName": "dataview-setfloat64.html",
-            "title": "JavaScript Demo: DataView.setFloat64()",
-            "type": "js"
-        },
-        "dataviewSetInt8": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-setint8.html",
-            "fileName": "dataview-setint8.html",
-            "title": "JavaScript Demo: DataView.setInt8()",
-            "type": "js"
-        },
-        "dataviewSetInt16": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-setint16.html",
-            "fileName": "dataview-setint16.html",
-            "title": "JavaScript Demo: DataView.setInt16()",
-            "type": "js"
-        },
-        "dataviewSetInt32": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-setint32.html",
-            "fileName": "dataview-setint32.html",
-            "title": "JavaScript Demo: DataView.setInt32()",
-            "type": "js"
-        },
-        "dataviewSetUint8": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-setuint8.html",
-            "fileName": "dataview-setuint8.html",
-            "title": "JavaScript Demo: DataView.setUint8()",
-            "type": "js"
-        },
-        "dataviewSetUint8etUint16": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-setuint16.html",
-            "fileName": "dataview-setuint16.html",
-            "title": "JavaScript Demo: DataView.setUint16()",
-            "type": "js"
-        },
-        "dataviewSetUint32": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-setuint32.html",
-            "fileName": "dataview-setuint32.html",
-            "title": "JavaScript Demo: DataView.setUint32()",
-            "type": "js"
-        },
-        "typedarrayBuffer": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-buffer.html",
-            "fileName": "typedarray-buffer.html",
-            "title": "JavaScript Demo: TypedArray.buffer",
-            "type": "js"
-        },
-        "typedarrayByteLength": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-bytelength.html",
-            "fileName": "typedarray-bytelength.html",
-            "title": "JavaScript Demo: TypedArray.byteLength",
-            "type": "js"
-        },
-        "typedarrayBytesPerElement": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-bytes-per-element.html",
-            "fileName": "typedarray-bytes-per-element.html",
-            "title": "JavaScript Demo: TypedArray.BYTES_PER_ELEMENT",
-            "type": "js"
-        },
-        "typedarrayConstructor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-constructor.html",
-            "fileName": "typedarray-constructor.html",
-            "title": "JavaScript Demo: TypedArray Constructor",
-            "type": "js"
-        },
-        "typedarrayCopyWithin": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-copywithin.html",
-            "fileName": "typedarray-copywithin.html",
-            "title": "JavaScript Demo: TypedArray.copyWithin()",
-            "type": "js"
-        },
-        "typedarrayEntries": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-entries.html",
-            "fileName": "typedarray-entries.html",
-            "title": "JavaScript Demo: TypedArray.entries()",
-            "type": "js"
-        },
-        "typedarrayEvery": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-every.html",
-            "fileName": "typedarray-every.html",
-            "title": "JavaScript Demo: TypedArray.every()",
-            "type": "js"
-        },
-        "typedarrayFill": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-fill.html",
-            "fileName": "typedarray-fill.html",
-            "title": "JavaScript Demo: TypedArray.fill()",
-            "type": "js"
-        },
-        "typedarrayFilter": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-filter.html",
-            "fileName": "typedarray-filter.html",
-            "title": "JavaScript Demo: TypedArray.filter()",
-            "type": "js"
-        },
-        "typedarrayFind": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-find.html",
-            "fileName": "typedarray-find.html",
-            "title": "JavaScript Demo: TypedArray.find()",
-            "type": "js"
-        },
-        "typedarrayFindIndex": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-find.html",
-            "fileName": "typedarray-findindex.html",
-            "title": "JavaScript Demo: TypedArray.findIndex()",
-            "type": "js"
-        },
-        "typedarrayFrom": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-from.html",
-            "fileName": "typedarray-from.html",
-            "title": "JavaScript Demo: TypedArray.from()",
-            "type": "js"
-        },
-        "typedarrayIncludes": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-includes.html",
-            "fileName": "typedarray-includes.html",
-            "title": "JavaScript Demo: TypedArray.includes()",
-            "type": "js"
-        },
-        "typedarrayIndexOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-indexof.html",
-            "fileName": "typedarray-indexof.html",
-            "title": "JavaScript Demo: TypedArray.indexOf()",
-            "type": "js"
-        },
-        "typedarrayJoin": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-join.html",
-            "fileName": "typedarray-join.html",
-            "title": "JavaScript Demo: TypedArray.join()",
-            "type": "js"
-        },
-        "typedarrayKeys": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-keys.html",
-            "fileName": "typedarray-keys.html",
-            "title": "JavaScript Demo: TypedArray.keys()",
-            "type": "js"
-        },
-        "typedarrayLastIndexOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-lastindexof.html",
-            "fileName": "typedarray-lastindexof.html",
-            "title": "JavaScript Demo: TypedArray.lastIndexOf()",
-            "type": "js"
-        },
-        "typedarrayLength": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-length.html",
-            "fileName": "typedarray-length.html",
-            "title": "JavaScript Demo: TypedArray.length",
-            "type": "js"
-        },
-        "typedarrayMap": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-map.html",
-            "fileName": "typedarray-map.html",
-            "title": "JavaScript Demo: TypedArray.map()",
-            "type": "js"
-        },
-        "typedarrayName": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-name.html",
-            "fileName": "typedarray-name.html",
-            "title": "JavaScript Demo: TypedArray.name",
-            "type": "js"
-        },
-        "typedarrayOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-of.html",
-            "fileName": "typedarray-of.html",
-            "title": "JavaScript Demo: TypedArray.of()",
-            "type": "js"
-        },
-        "typedarrayReduce": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-reduce.html",
-            "fileName": "typedarray-reduce.html",
-            "title": "JavaScript Demo: TypedArray.reduce()",
-            "type": "js"
-        },
-        "typedarrayReverse": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-reverse.html",
-            "fileName": "typedarray-reverse.html",
-            "title": "JavaScript Demo: TypedArray.reverse()",
-            "type": "js"
-        },
-        "typedarraySet": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-set.html",
-            "fileName": "typedarray-set.html",
-            "title": "JavaScript Demo: TypedArray.set()",
-            "type": "js"
-        },
-        "typedarraySlice": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-slice.html",
-            "fileName": "typedarray-slice.html",
-            "title": "JavaScript Demo: TypedArray.slice()",
-            "type": "js"
-        },
-        "typedarraySome": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-some.html",
-            "fileName": "typedarray-some.html",
-            "title": "JavaScript Demo: TypedArray.some()",
-            "type": "js"
-        },
-        "typedarraySort": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-sort.html",
-            "fileName": "typedarray-sort.html",
-            "title": "JavaScript Demo: TypedArray.sort()",
-            "type": "js"
-        },
-        "typedarraySubarray": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-subarray.html",
-            "fileName": "typedarray-subarray.html",
-            "title": "JavaScript Demo: TypedArray.subarray()",
-            "type": "js"
-        },
-        "typedarrayToString": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-tostring.html",
-            "fileName": "typedarray-tostring.html",
-            "title": "JavaScript Demo: TypedArray.tostring()",
-            "type": "js"
-        },
-        "typedarrayValues": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/typedarray-values.html",
-            "fileName": "typedarray-values.html",
-            "title": "JavaScript Demo: TypedArray.values()",
-            "type": "js"
-        },
-        "animation": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/animation.css",
-            "exampleCode": "live-examples/css-examples/animation.html",
-            "fileName": "animation.html",
-            "title": "CSS Demo: Animation",
-            "type": "css"
-        },
-        "backgroundClip": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/background-clip.css",
-            "exampleCode": "live-examples/css-examples/background-clip.html",
-            "fileName": "background-clip.html",
-            "title": "CSS Demo: Background Clip",
-            "type": "css"
-        },
-        "backgroundColor": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/background-color.css",
-            "exampleCode": "live-examples/css-examples/background-color.html",
-            "fileName": "background-color.html",
-            "title": "CSS Demo: Background Color",
-            "type": "css"
-        },
-        "backgroundImage": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/background-image.css",
-            "exampleCode": "live-examples/css-examples/background-image.html",
-            "fileName": "background-image.html",
-            "title": "CSS Demo: Background Image",
-            "type": "css"
-        },
-        "backgroundPosition": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/background-position.css",
-            "exampleCode": "live-examples/css-examples/background-position.html",
-            "fileName": "background-position.html",
-            "title": "CSS Demo: Background Position",
-            "type": "css"
-        },
-        "backgroundRepeat": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/background-repeat.css",
-            "exampleCode": "live-examples/css-examples/background-repeat.html",
-            "fileName": "background-repeat.html",
-            "title": "CSS Demo: Background Repeat",
-            "type": "css"
-        },
-        "backgroundSize": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/background-size.css",
-            "exampleCode": "live-examples/css-examples/background-size.html",
-            "fileName": "background-size.html",
-            "title": "CSS Demo: Background Size",
-            "type": "css"
-        },
-        "borderImage": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/border-image.css",
-            "exampleCode": "live-examples/css-examples/border-image.html",
-            "fileName": "border-image.html",
-            "title": "CSS Demo: Background Image",
-            "type": "css"
-        },
-        "borderStyle": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/border-style.css",
-            "exampleCode": "live-examples/css-examples/border-style.html",
-            "fileName": "border-style.html",
-            "title": "CSS Demo: Border Style",
-            "type": "css"
-        },
-        "borderTopColor": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/border-top-color.css",
-            "exampleCode": "live-examples/css-examples/border-top-color.html",
-            "fileName": "border-top-color.html",
-            "title": "CSS Demo: Border Top Color",
-            "type": "css"
-        },
-        "boxShadow": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/box-shadow.css",
-            "exampleCode": "live-examples/css-examples/box-shadow.html",
-            "fileName": "box-shadow.html",
-            "title": "CSS Demo: Box Shadow",
-            "type": "css"
-        },
-        "color": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/color.css",
-            "exampleCode": "live-examples/css-examples/color.html",
-            "fileName": "color.html",
-            "title": "CSS Demo: Color",
-            "type": "css"
-        },
-        "filter": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode": "live-examples/css-examples/filter.html",
-            "fileName": "filter.html",
-            "title": "CSS Demo: Filter",
-            "type": "css"
-        },
-        "font": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/font.css",
-            "exampleCode": "live-examples/css-examples/font.html",
-            "fileName": "font.html",
-            "title": "CSS Demo: Font",
-            "type": "css"
-        },
-        "fontStyle": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/fonts-base.css",
-            "exampleCode": "live-examples/css-examples/font-style.html",
-            "fileName": "font-style.html",
-            "title": "CSS Demo: Font Style",
-            "type": "css"
-        },
-        "fontWeight": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/fonts-base.css",
-            "exampleCode": "live-examples/css-examples/font-weight.html",
-            "fileName": "font-weight.html",
-            "title": "CSS Demo: Font Weight",
-            "type": "css"
-        },
-        "position": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/position.css",
-            "exampleCode": "live-examples/css-examples/position.html",
-            "fileName": "position.html",
-            "jsExampleSrc": "../../live-examples/css-examples/js/position.js",
-            "title": "CSS Demo: Position",
-            "type": "css"
-        },
-        "textAlign": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/fonts-base.css",
-            "exampleCode": "live-examples/css-examples/text-align.html",
-            "fileName": "text-align.html",
-            "title": "CSS Demo: Text Align",
-            "type": "css"
-        },
-        "transform": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode": "live-examples/css-examples/transform.html",
-            "fileName": "transform.html",
-            "title": "CSS Demo: Transform",
-            "type": "css"
-        },
-        "zIndex": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/css/z-index.css",
-            "exampleCode": "live-examples/css-examples/z-index.html",
-            "fileName": "z-index.html",
-            "title": "CSS Demo: Z-Index",
-            "type": "css"
-        }
+    "cssExamplesBase": {
+      "javascript": [
+        "js/editor-libs/mce-utils.js",
+        "js/editor-libs/analytics.js",
+        "js/editor-libs/events.js",
+        "js/editor-libs/clippy.js",
+        "js/libs/prism.js",
+        "js/libs/clipboard.js",
+        "js/editable-css.js"
+      ],
+      "css": [
+        "css/libs/prism.css",
+        "css/editor-libs/common.css",
+        "css/editor-libs/prism-override.css",
+        "css/editable-css.css"
+      ],
+      "destFileName": "css-examples-base"
+    },
+    "editorJS": {
+      "javascript": [
+        "js/editor-libs/mce-utils.js",
+        "js/editor-libs/analytics.js",
+        "js/editor-libs/events.js",
+        "js/editor-libs/console.js",
+        "js/editor-libs/feature-detector.js",
+        "js/editable-js.js"
+      ],
+      "css": [
+        "css/editor-libs/common.css",
+        "css/editable-js.css"
+      ],
+      "destFileName": "editor-js"
     }
+  },
+  "pages": {
+    "arrayConcat": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-concat.html",
+      "fileName": "array-concat.html",
+      "title": "JavaScript Demo: Array.concat()",
+      "type": "js"
+    },
+    "arrayCopyWithin": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-copywithin.html",
+      "fileName": "array-copywithin.html",
+      "title": "JavaScript Demo: Array.copyWithin()",
+      "type": "js"
+    },
+    "arrayEntries": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-entries.html",
+      "fileName": "array-entries.html",
+      "title": "JavaScript Demo: Array.entries()",
+      "type": "js"
+    },
+    "arrayEvery": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-every.html",
+      "fileName": "array-every.html",
+      "title": "JavaScript Demo: Array.every()",
+      "type": "js"
+    },
+    "arrayFill": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-fill.html",
+      "fileName": "array-fill.html",
+      "title": "JavaScript Demo: Array.fill()",
+      "type": "js"
+    },
+    "arrayFilter": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-filter.html",
+      "fileName": "array-filter.html",
+      "title": "JavaScript Demo: Array.filter()",
+      "type": "js"
+    },
+    "arrayFind": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-find.html",
+      "fileName": "array-find.html",
+      "title": "JavaScript Demo: Array.find()",
+      "type": "js"
+    },
+    "arrayFindIndex": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-findindex.html",
+      "fileName": "array-findindex.html",
+      "title": "JavaScript Demo: Array.findIndex()",
+      "type": "js"
+    },
+    "arrayFrom": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-from.html",
+      "fileName": "array-from.html",
+      "title": "JavaScript Demo: Array.from()",
+      "type": "js"
+    },
+    "arrayIncludes": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-includes.html",
+      "fileName": "array-includes.html",
+      "title": "JavaScript Demo: Array.includes()",
+      "type": "js"
+    },
+    "arrayIndexof": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-indexof.html",
+      "fileName": "array-indexof.html",
+      "title": "JavaScript Demo: Array.indexOf()",
+      "type": "js"
+    },
+    "arrayJoin": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-join.html",
+      "fileName": "array-join.html",
+      "title": "JavaScript Demo: Array.join()",
+      "type": "js"
+    },
+    "arrayLastIndexOf": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-lastindexof.html",
+      "fileName": "array-lastindexof.html",
+      "title": "JavaScript Demo: Array.lastIndexOf()",
+      "type": "js"
+    },
+    "arrayLength": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-length.html",
+      "fileName": "array-length.html",
+      "title": "JavaScript Demo: Array.length",
+      "type": "js"
+    },
+    "arrayMap": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-map.html",
+      "fileName": "array-map.html",
+      "title": "JavaScript Demo: Array.map()",
+      "type": "js"
+    },
+    "arrayPush": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-push.html",
+      "fileName": "array-push.html",
+      "title": "JavaScript Demo: Array.push()",
+      "type": "js"
+    },
+    "arrayPop": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-pop.html",
+      "fileName": "array-pop.html",
+      "title": "JavaScript Demo: Array.pop()",
+      "type": "js"
+    },
+    "arrayReduceRight": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-reduce-right.html",
+      "fileName": "array-reduce-right.html",
+      "title": "JavaScript Demo: Array.reduceRight()",
+      "type": "js"
+    },
+    "arrayReduce": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-reduce.html",
+      "fileName": "array-reduce.html",
+      "title": "JavaScript Demo: Array.reduce()",
+      "type": "js"
+    },
+    "arraySlice": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/array-slice.html",
+      "fileName": "array-slice.html",
+      "title": "JavaScript Demo: Array.slice()",
+      "type": "js"
+    },
+    "arraybufferConstructor": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/arraybuffer-constructor.html",
+      "fileName": "arraybuffer-constructor.html",
+      "title": "JavaScript Demo: ArrayBuffer Constructor",
+      "type": "js"
+    },
+    "arraybufferByteLength": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/arraybuffer-bytelength.html",
+      "fileName": "arraybuffer-bytelength.html",
+      "title": "JavaScript Demo: ArrayBuffer.byteLength()",
+      "type": "js"
+    },
+    "arraybufferIsView": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/arraybuffer-isview.html",
+      "fileName": "arraybuffer-isview.html",
+      "title": "JavaScript Demo: ArrayBuffer.isView()",
+      "type": "js"
+    },
+    "arraybufferSlice": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/arraybuffer-slice.html",
+      "fileName": "arraybuffer-slice.html",
+      "title": "JavaScript Demo: ArrayBuffer.slice()",
+      "type": "js"
+    },
+    "dataviewBuffer": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-buffer.html",
+      "fileName": "dataview-buffer.html",
+      "title": "JavaScript Demo: DataView.buffer",
+      "type": "js"
+    },
+    "dataviewByteLength": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-bytelength.html",
+      "fileName": "dataview-bytelength.html",
+      "title": "JavaScript Demo: DataView.byteLength",
+      "type": "js"
+    },
+    "dataviewByteOffset": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-byteoffset.html",
+      "fileName": "dataview-byteoffset.html",
+      "title": "JavaScript Demo: DataView.byteOffset",
+      "type": "js"
+    },
+    "dataviewConstructor": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-constructor.html",
+      "fileName": "dataview-constructor.html",
+      "title": "JavaScript Demo: DataView Constructor",
+      "type": "js"
+    },
+    "dataviewGetFloat32": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-getfloat32.html",
+      "fileName": "dataview-getfloat32.html",
+      "title": "JavaScript Demo: DataView.getFloat32()",
+      "type": "js"
+    },
+    "dataviewGetFloat64": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-getfloat64.html",
+      "fileName": "dataview-getfloat64.html",
+      "title": "JavaScript Demo: DataView.getFloat64()",
+      "type": "js"
+    },
+    "dataviewGetInt8": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-getint8.html",
+      "fileName": "dataview-getint8.html",
+      "title": "JavaScript Demo: DataView.getInt8()",
+      "type": "js"
+    },
+    "dataviewGetInt16": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-getint16.html",
+      "fileName": "dataview-getint16.html",
+      "title": "JavaScript Demo: DataView.getInt16()",
+      "type": "js"
+    },
+    "dataviewGetInt32": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-getint32.html",
+      "fileName": "dataview-getint32.html",
+      "title": "JavaScript Demo: DataView.getInt32()",
+      "type": "js"
+    },
+    "dataviewGetUint8": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-getuint8.html",
+      "fileName": "dataview-getuint8.html",
+      "title": "JavaScript Demo: DataView.getUint8()",
+      "type": "js"
+    },
+    "dataviewGetUint16": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-getuint16.html",
+      "fileName": "dataview-getuint16.html",
+      "title": "JavaScript Demo: DataView.getUint16()",
+      "type": "js"
+    },
+    "dataviewGetUint32": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-getuint32.html",
+      "fileName": "dataview-getuint32.html",
+      "title": "JavaScript Demo: DataView.getUint32()",
+      "type": "js"
+    },
+    "dataviewSetFloat32": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-setfloat32.html",
+      "fileName": "dataview-setfloat32.html",
+      "title": "JavaScript Demo: DataView.setFloat32()",
+      "type": "js"
+    },
+    "dataviewSetFloat64": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-setfloat64.html",
+      "fileName": "dataview-setfloat64.html",
+      "title": "JavaScript Demo: DataView.setFloat64()",
+      "type": "js"
+    },
+    "dataviewSetInt8": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-setint8.html",
+      "fileName": "dataview-setint8.html",
+      "title": "JavaScript Demo: DataView.setInt8()",
+      "type": "js"
+    },
+    "dataviewSetInt16": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-setint16.html",
+      "fileName": "dataview-setint16.html",
+      "title": "JavaScript Demo: DataView.setInt16()",
+      "type": "js"
+    },
+    "dataviewSetInt32": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-setint32.html",
+      "fileName": "dataview-setint32.html",
+      "title": "JavaScript Demo: DataView.setInt32()",
+      "type": "js"
+    },
+    "dataviewSetUint8": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-setuint8.html",
+      "fileName": "dataview-setuint8.html",
+      "title": "JavaScript Demo: DataView.setUint8()",
+      "type": "js"
+    },
+    "dataviewSetUint8etUint16": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-setuint16.html",
+      "fileName": "dataview-setuint16.html",
+      "title": "JavaScript Demo: DataView.setUint16()",
+      "type": "js"
+    },
+    "dataviewSetUint32": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/dataview-setuint32.html",
+      "fileName": "dataview-setuint32.html",
+      "title": "JavaScript Demo: DataView.setUint32()",
+      "type": "js"
+    },
+    "typedarrayBuffer": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-buffer.html",
+      "fileName": "typedarray-buffer.html",
+      "title": "JavaScript Demo: TypedArray.buffer",
+      "type": "js"
+    },
+    "typedarrayByteLength": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-bytelength.html",
+      "fileName": "typedarray-bytelength.html",
+      "title": "JavaScript Demo: TypedArray.byteLength",
+      "type": "js"
+    },
+    "typedarrayBytesPerElement": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-bytes-per-element.html",
+      "fileName": "typedarray-bytes-per-element.html",
+      "title": "JavaScript Demo: TypedArray.BYTES_PER_ELEMENT",
+      "type": "js"
+    },
+    "typedarrayConstructor": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-constructor.html",
+      "fileName": "typedarray-constructor.html",
+      "title": "JavaScript Demo: TypedArray Constructor",
+      "type": "js"
+    },
+    "typedarrayCopyWithin": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-copywithin.html",
+      "fileName": "typedarray-copywithin.html",
+      "title": "JavaScript Demo: TypedArray.copyWithin()",
+      "type": "js"
+    },
+    "typedarrayEntries": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-entries.html",
+      "fileName": "typedarray-entries.html",
+      "title": "JavaScript Demo: TypedArray.entries()",
+      "type": "js"
+    },
+    "typedarrayEvery": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-every.html",
+      "fileName": "typedarray-every.html",
+      "title": "JavaScript Demo: TypedArray.every()",
+      "type": "js"
+    },
+    "typedarrayFill": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-fill.html",
+      "fileName": "typedarray-fill.html",
+      "title": "JavaScript Demo: TypedArray.fill()",
+      "type": "js"
+    },
+    "typedarrayFilter": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-filter.html",
+      "fileName": "typedarray-filter.html",
+      "title": "JavaScript Demo: TypedArray.filter()",
+      "type": "js"
+    },
+    "typedarrayFind": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-find.html",
+      "fileName": "typedarray-find.html",
+      "title": "JavaScript Demo: TypedArray.find()",
+      "type": "js"
+    },
+    "typedarrayFindIndex": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-findindex.html",
+      "fileName": "typedarray-findindex.html",
+      "title": "JavaScript Demo: TypedArray.findIndex()",
+      "type": "js"
+    },
+    "typedarrayFrom": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-from.html",
+      "fileName": "typedarray-from.html",
+      "title": "JavaScript Demo: TypedArray.from()",
+      "type": "js"
+    },
+    "typedarrayIncludes": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-includes.html",
+      "fileName": "typedarray-includes.html",
+      "title": "JavaScript Demo: TypedArray.includes()",
+      "type": "js"
+    },
+    "typedarrayIndexOf": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-indexof.html",
+      "fileName": "typedarray-indexof.html",
+      "title": "JavaScript Demo: TypedArray.indexOf()",
+      "type": "js"
+    },
+    "typedarrayJoin": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-join.html",
+      "fileName": "typedarray-join.html",
+      "title": "JavaScript Demo: TypedArray.join()",
+      "type": "js"
+    },
+    "typedarrayKeys": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-keys.html",
+      "fileName": "typedarray-keys.html",
+      "title": "JavaScript Demo: TypedArray.keys()",
+      "type": "js"
+    },
+    "typedarrayLastIndexOf": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-lastindexof.html",
+      "fileName": "typedarray-lastindexof.html",
+      "title": "JavaScript Demo: TypedArray.lastIndexOf()",
+      "type": "js"
+    },
+    "typedarrayLength": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-length.html",
+      "fileName": "typedarray-length.html",
+      "title": "JavaScript Demo: TypedArray.length",
+      "type": "js"
+    },
+    "typedarrayMap": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-map.html",
+      "fileName": "typedarray-map.html",
+      "title": "JavaScript Demo: TypedArray.map()",
+      "type": "js"
+    },
+    "typedarrayName": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-name.html",
+      "fileName": "typedarray-name.html",
+      "title": "JavaScript Demo: TypedArray.name",
+      "type": "js"
+    },
+    "typedarrayOf": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-of.html",
+      "fileName": "typedarray-of.html",
+      "title": "JavaScript Demo: TypedArray.of()",
+      "type": "js"
+    },
+    "typedarrayReduce": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-reduce.html",
+      "fileName": "typedarray-reduce.html",
+      "title": "JavaScript Demo: TypedArray.reduce()",
+      "type": "js"
+    },
+    "typedarrayReverse": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-reverse.html",
+      "fileName": "typedarray-reverse.html",
+      "title": "JavaScript Demo: TypedArray.reverse()",
+      "type": "js"
+    },
+    "typedarraySet": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-set.html",
+      "fileName": "typedarray-set.html",
+      "title": "JavaScript Demo: TypedArray.set()",
+      "type": "js"
+    },
+    "typedarraySlice": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-slice.html",
+      "fileName": "typedarray-slice.html",
+      "title": "JavaScript Demo: TypedArray.slice()",
+      "type": "js"
+    },
+    "typedarraySome": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-some.html",
+      "fileName": "typedarray-some.html",
+      "title": "JavaScript Demo: TypedArray.some()",
+      "type": "js"
+    },
+    "typedarraySort": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-sort.html",
+      "fileName": "typedarray-sort.html",
+      "title": "JavaScript Demo: TypedArray.sort()",
+      "type": "js"
+    },
+    "typedarraySubarray": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-subarray.html",
+      "fileName": "typedarray-subarray.html",
+      "title": "JavaScript Demo: TypedArray.subarray()",
+      "type": "js"
+    },
+    "typedarrayToString": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-tostring.html",
+      "fileName": "typedarray-tostring.html",
+      "title": "JavaScript Demo: TypedArray.tostring()",
+      "type": "js"
+    },
+    "typedarrayValues": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/typedarray-values.html",
+      "fileName": "typedarray-values.html",
+      "title": "JavaScript Demo: TypedArray.values()",
+      "type": "js"
+    },
+    "animation": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/animation.css",
+      "exampleCode": "live-examples/css-examples/animation.html",
+      "fileName": "animation.html",
+      "title": "CSS Demo: Animation",
+      "type": "css"
+    },
+    "backgroundClip": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/background-clip.css",
+      "exampleCode": "live-examples/css-examples/background-clip.html",
+      "fileName": "background-clip.html",
+      "title": "CSS Demo: Background Clip",
+      "type": "css"
+    },
+    "backgroundColor": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/background-color.css",
+      "exampleCode": "live-examples/css-examples/background-color.html",
+      "fileName": "background-color.html",
+      "title": "CSS Demo: Background Color",
+      "type": "css"
+    },
+    "backgroundImage": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/background-image.css",
+      "exampleCode": "live-examples/css-examples/background-image.html",
+      "fileName": "background-image.html",
+      "title": "CSS Demo: Background Image",
+      "type": "css"
+    },
+    "backgroundPosition": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/background-position.css",
+      "exampleCode": "live-examples/css-examples/background-position.html",
+      "fileName": "background-position.html",
+      "title": "CSS Demo: Background Position",
+      "type": "css"
+    },
+    "backgroundRepeat": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/background-repeat.css",
+      "exampleCode": "live-examples/css-examples/background-repeat.html",
+      "fileName": "background-repeat.html",
+      "title": "CSS Demo: Background Repeat",
+      "type": "css"
+    },
+    "backgroundSize": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/background-size.css",
+      "exampleCode": "live-examples/css-examples/background-size.html",
+      "fileName": "background-size.html",
+      "title": "CSS Demo: Background Size",
+      "type": "css"
+    },
+    "borderImage": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/border-image.css",
+      "exampleCode": "live-examples/css-examples/border-image.html",
+      "fileName": "border-image.html",
+      "title": "CSS Demo: Background Image",
+      "type": "css"
+    },
+    "borderStyle": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/border-style.css",
+      "exampleCode": "live-examples/css-examples/border-style.html",
+      "fileName": "border-style.html",
+      "title": "CSS Demo: Border Style",
+      "type": "css"
+    },
+    "borderTopColor": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/border-top-color.css",
+      "exampleCode": "live-examples/css-examples/border-top-color.html",
+      "fileName": "border-top-color.html",
+      "title": "CSS Demo: Border Top Color",
+      "type": "css"
+    },
+    "boxShadow": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/box-shadow.css",
+      "exampleCode": "live-examples/css-examples/box-shadow.html",
+      "fileName": "box-shadow.html",
+      "title": "CSS Demo: Box Shadow",
+      "type": "css"
+    },
+    "color": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/color.css",
+      "exampleCode": "live-examples/css-examples/color.html",
+      "fileName": "color.html",
+      "title": "CSS Demo: Color",
+      "type": "css"
+    },
+    "filter": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "exampleCode": "live-examples/css-examples/filter.html",
+      "fileName": "filter.html",
+      "title": "CSS Demo: Filter",
+      "type": "css"
+    },
+    "font": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/font.css",
+      "exampleCode": "live-examples/css-examples/font.html",
+      "fileName": "font.html",
+      "title": "CSS Demo: Font",
+      "type": "css"
+    },
+    "fontStyle": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/fonts-base.css",
+      "exampleCode": "live-examples/css-examples/font-style.html",
+      "fileName": "font-style.html",
+      "title": "CSS Demo: Font Style",
+      "type": "css"
+    },
+    "fontWeight": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/fonts-base.css",
+      "exampleCode": "live-examples/css-examples/font-weight.html",
+      "fileName": "font-weight.html",
+      "title": "CSS Demo: Font Weight",
+      "type": "css"
+    },
+    "position": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/position.css",
+      "exampleCode": "live-examples/css-examples/position.html",
+      "fileName": "position.html",
+      "jsExampleSrc": "../../live-examples/css-examples/js/position.js",
+      "title": "CSS Demo: Position",
+      "type": "css"
+    },
+    "textAlign": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/fonts-base.css",
+      "exampleCode": "live-examples/css-examples/text-align.html",
+      "fileName": "text-align.html",
+      "title": "CSS Demo: Text Align",
+      "type": "css"
+    },
+    "transform": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "exampleCode": "live-examples/css-examples/transform.html",
+      "fileName": "transform.html",
+      "title": "CSS Demo: Transform",
+      "type": "css"
+    },
+    "zIndex": {
+      "baseTmpl": "tmpl/live-css-tmpl.html",
+      "cssExampleSrc": "../../live-examples/css-examples/css/z-index.css",
+      "exampleCode": "live-examples/css-examples/z-index.html",
+      "fileName": "z-index.html",
+      "title": "CSS Demo: Z-Index",
+      "type": "css"
+    }
+  }
 }

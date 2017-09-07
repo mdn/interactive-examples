@@ -1,7 +1,12 @@
 <pre>
 <code id="static-js" class="language-js">var uint8 = new Uint8Array([10, 20, 50, 50, 50]);
 
-console.log(uint8.lastIndexOf(50, 4));  // check the first 4 elements
+// check all elements
+console.log(uint8.lastIndexOf(50, 4));
 // expected output: 4
+
+// check the first 4 elements
+console.log(uint8.lastIndexOf(50, 3));
+// expected output: 3
 </code>
 </pre>

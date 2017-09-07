@@ -4,9 +4,12 @@
 }
 
 var int8 = new Int8Array([-10, 20, -30, 40, -50]);
+var positives = new Int8Array([10, 20, 30, 40, 50]);
 
-// test every element - at least one must pass
 console.log(int8.some(isNegative));
 // expected output: true
+
+console.log(positives.some(isNegative));
+// expected output: false
 </code>
 </pre>

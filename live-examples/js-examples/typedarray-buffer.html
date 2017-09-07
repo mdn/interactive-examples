@@ -3,7 +3,7 @@
 var buffer = new ArrayBuffer(8);
 var uint16 = new Uint16Array(buffer);
 
-console.log(uint16);
-// expected output: 0,0,0,0
+console.log(uint16.buffer.byteLength);
+// expected output: 8
 </code>
 </pre>
