@@ -213,7 +213,7 @@ With a JavaScript example you start by creating a new `.html` file in `live-exam
 
 ```
 <pre>
-<code id="static-js" class="language-js">
+<code id="static-js">
 </code>
 </pre>
 ```
@@ -222,7 +222,7 @@ Inside the `code` block is where our example code will go. Change the code to re
 
 ```
 <pre>
-<code id="static-js" class="language-js">// call from(), passing a string
+<code id="static-js">// call from(), passing a string
 let result = Array.from('foo');
 
 // log the result
