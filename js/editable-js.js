@@ -51,10 +51,10 @@
         output.classList.add('fade-in');
 
         try {
-          // Create a new Function from the code, and immediately execute it.
-          new Function(exampleCode)();
+            // Create a new Function from the code, and immediately execute it.
+            new Function(exampleCode)();
         } catch (event) {
-          output.textContent = "Error: " + event.message;
+            output.textContent = 'Error: ' + event.message;
         }
 
         output.addEventListener('animationend', function() {
