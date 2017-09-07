@@ -6,7 +6,10 @@
     var liveEditor = document.getElementById('editor');
 
     /**
-     *
+     * Ensure that only the text portion of a copy event is stored in the
+     * clipboard, by setting both 'text/plain', and 'text/html' to the same
+     * plain text value.
+     * @param {Object} event - The copy event
      */
     function copyTextOnly(event) {
         var selection = window.getSelection();
@@ -20,7 +23,10 @@
     }
 
     /**
-     *
+     * Handles paste events for the CSS editor. Concatenates the new text
+     * from the clipboard with the existing, and syntax highlights the
+     * result.
+     * @param {Object} event - The paste event object
      */
     function handlePasteEvents(event) {
         var clipboardText = event.clipboardData.getData('text/plain');
@@ -51,7 +57,7 @@
         };
     }
 
-    // only bind events if the container exist
+    // only bind events if the `exampleChoiceList` container exist
     if (exampleChoiceList) {
         sendPerformanceMetric('css');
 
@@ -63,6 +69,27 @@
             if (!localStorage.getItem('firstCSSEditRecorded')) {
                 mceAnalytics.trackFirstEdit('css');
             }
+        });
+
+        exampleChoiceList.addEventListener('keyup', function(event) {
+            var exampleChoiceParent = event.target.parentElement.parentElement;
+            cssEditorUtils.applyCode(
+                exampleChoiceParent.textContent,
+                exampleChoiceParent
+            );
+        });
+
+        exampleChoiceList.addEventListener('click', function(event) {
+            var target = event.originalTarget;
+
+            // if the original target is not an `example-choice` element
+            if (!target.classList.contains('example-choice')) {
+                // find this element's `example-choice` parent
+                target = mceUtils.findParentChoiceElem(target);
+            }
+
+            // and pass it on the `onChoose`
+            cssEditorUtils.onChoose(target);
         });
     }
 

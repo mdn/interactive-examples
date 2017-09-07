@@ -96,11 +96,6 @@
             if (exampleChoice.getAttribute('initial-choice')) {
                 initialChoice = indexOf(exampleChoices, exampleChoice);
             }
-
-            exampleChoice.addEventListener('keyup', onEdit);
-            exampleChoice.addEventListener('click', function(event) {
-                CSSEditorUtils.onChoose(event.currentTarget);
-            });
         }
 
         clippy.addClippy();
@@ -143,10 +138,6 @@
             }
         }
         return -1;
-    }
-
-    function onEdit(e) {
-        CSSEditorUtils.applyCode(e.currentTarget.textContent, e.currentTarget);
     }
 
     /**
