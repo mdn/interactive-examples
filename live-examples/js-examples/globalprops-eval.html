@@ -1,0 +1,12 @@
+<pre>
+<code id="static-js">console.log(eval('2 + 2'));
+// expected output: 4
+
+console.log(eval(new String('2 + 2')));
+// expected output: 2 + 2
+
+var expression = new String('2 + 2');
+console.log(eval(expression.toString()));
+// expected output: 4
+</code>
+</pre>
