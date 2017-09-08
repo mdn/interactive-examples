@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js" class="language-js">// create a TypedArray with a size in bytes
+var typedArray1 = new Int8Array(8);
+typedArray1[0] = 32;
+// create a TypedArray from an existing array
+var typedArray2 = new Int8Array(typedArray1);
+typedArray2[1] = 42;
+
+console.log(typedArray1);
+// expected output: 32,0,0,0,0,0,0,0
+console.log(typedArray2);
+// expected output: 32,42,0,0,0,0,0,0
+</code>
+</pre>
