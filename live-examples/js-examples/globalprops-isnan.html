@@ -1,15 +1,15 @@
 <pre>
-<code id="static-js">console.log(isNaN(undefined));
-// expected output: true
-console.log(isNaN(null));
-// expected output: false
-console.log(isNaN(37));
-// expected output: false
-console.log(isNaN('37'));
-// expected output: false
-console.log(isNaN('37ABC'));
-// expected output: true
-console.log(isNaN('')); // or space equivalent to zero
-// expected output: true
+<code id="static-js">function milliseconds(x) {
+  if (isNaN(x)) {
+    return "Not a Number!";
+  }
+  return x * 1000;
+}
+
+console.log(milliseconds("100F"));
+// expected output: Not a Number!
+
+console.log(milliseconds("0.0314E+2"));
+// expected output: 3140
 </code>
 </pre>

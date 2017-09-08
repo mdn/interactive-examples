@@ -1,15 +1,13 @@
 <pre>
-<code id="static-js">console.log(parseFloat(3.14));
-// expected output: 3.14
-console.log(parseFloat('3.14'));
-// expected output: 3.14
-console.log(parseFloat('314e-2'));
-// expected output: 3.14
-console.log(parseFloat('3.14abcdefghijklm'));
-// expected output: 3.14
-console.log(parseFloat('0.0314E+2'));
-// expected output: 3.14
-console.log(parseFloat('$3.14'));
-// expected output: NaN
+<code id="static-js">function circumference(r) {
+  if (isNaN(parseFloat(r))) { return 0 };
+  return parseFloat(r) * 2.0 * Math.PI ;
+}
+
+console.log(circumference("4.567abcdefgh"));
+//expected output: 28.695307297889173
+
+console.log(circumference("abcdefgh"));
+//expected output: 0
 </code>
 </pre>
