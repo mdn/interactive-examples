@@ -17,45 +17,22 @@
             return loadTime;
         },
         /**
-         * Provided an element Node, find the appropriate choice element based on the
-         * specified direction. This function makes some assumptions based on known
-         * factors of the HTML/DOM. Not perfect, but good enough for this use case.
-         * @param {Object} element - The nexted element from which to start
-         * @param {String} direction - The direction to search [next || previous]
+         * Find and return the `example-choice` parent of the provided element
+         * @param {Object} element - The child element for which to find the
+         * `example-choice` parent
+         *
+         * @return The parent `example-choice` element
          */
-        findChoiceElem: function(element, direction) {
-            var findDirection =
-                direction === 'next'
-                    ? 'nextElementSibling'
-                    : 'previousElementSibling';
-            // first get the element parent
-            var parent = element.parentNode;
-            var sibling = undefined;
-
-            /* we are looking for the `example-choice` element that wraps
-            the provided element, before getting its sibling */
-            if (!parent.classList.contains('example-choice')) {
-                // it was not the direct parent, need to go up on more
-                parent = parent.parentNode;
+        findParentChoiceElem: function(element) {
+            var parent = element.parentElement;
+            var parentClassList = parent.classList;
+            while (parent && !parentClassList.contains('example-choice')) {
+                // get the next parent
+                parent = parent.parentElement;
+                // get the new parent's `classList`
+                parentClassList = parent.classList;
             }
-
-            sibling = parent[findDirection];
-
-            /* if sibling returns null, we are either on the first, or the
-            last of the choices. Depending on the specified direction, return
-            either the first, or the last choice in the Array of choices */
-            if (sibling === null) {
-                var choices = document.querySelectorAll('.example-choice');
-                sibling =
-                    direction === 'next'
-                        ? choices[0]
-                        : choices[choices.length - 1];
-            } else if (!sibling.classList) {
-                // we probably hit a #text node so, we need its sibling
-                sibling = sibling[findDirection];
-            }
-
-            return sibling;
+            return parent;
         },
         /**
          * Creates a temporary element and tests whether the passed

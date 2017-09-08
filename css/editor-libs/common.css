@@ -29,9 +29,6 @@ header h4 {
 
 .user-message {
     display: none;
-}
-
-.live .user-message {
     position: absolute;
     top: 30px;
     left: 50%;
@@ -59,6 +56,10 @@ header h4 {
 
 .hidden {
     display: none;
+}
+
+.show {
+    display: block;
 }
 
 /* Hide visually, but not to screen readers */
