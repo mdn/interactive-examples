@@ -80,7 +80,7 @@
         });
 
         exampleChoiceList.addEventListener('click', function(event) {
-            var target = event.originalTarget;
+            var target = event.target;
 
             // if the original target is not an `example-choice` element
             if (!target.classList.contains('example-choice')) {
