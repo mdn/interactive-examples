@@ -1,7 +1,9 @@
 <pre>
 <code id="static-js">function roughScale(x, base) {
   var parsed = Number.parseInt(x, base);
-  if (Number.isNaN(parsed)) { return 0 }
+  if (Number.isNaN(parsed)) {
+    return 0;
+  }
   return parsed * 100;
 }
 
