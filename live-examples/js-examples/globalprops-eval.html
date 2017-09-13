@@ -1,14 +1,14 @@
 <pre>
-<code id="static-js">function equivalence(x,y){
-  if (eval(x) === eval(y)) return "Strong";
-  if (eval(x.toString()) === eval(y.toString())) return "Weak";
-  return "None";
-}
+<code id="static-js">console.log(eval('2 + 2'));
+// expected output: 4
 
-console.log(equivalence('2 + 2', '4'));
-// expected output: Strong
+console.log(eval(new String('2 + 2')));
+// expected output: 2 + 2
 
-console.log(equivalence('2 + 2', new String('2 + 2')));
-//expected output: Weak
+console.log(eval('2 + 2') === eval('4'));
+// expected output: true
+
+console.log(eval('2 + 2') === eval(new String('2 + 2')));
+// expected output: false
 </code>
 </pre>

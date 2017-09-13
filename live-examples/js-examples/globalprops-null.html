@@ -1,16 +1,13 @@
 <pre>
-<code id="static-js">function realType(x) {
-  if (typeof x === 'object') {
-    if (x === null) { return "Is Null" }
-    return "Is an Object";
+<code id="static-js">function getVowels(str) {
+  var m = str.match(/[aeiou]/gi);
+  if (m === null) {
+    return 0;
   }
-  return "Is NOT an Object";
+  return m.length;
 }
 
-console.log(realType(null));
-// expected output: Is Null
-
-console.log(realType(new String()));
-// expected output: Is an Object
+console.log(getVowels("sky"));
+// expected output: 0
 </code>
 </pre>

@@ -1,7 +1,9 @@
 <pre>
 <code id="static-js">function sanitise(x) {
-	if (isNaN(x)) { return NaN }
-  	return x;
+  if (isNaN(x)) {
+    return NaN;
+  }
+  return x;
 }
 
 console.log(sanitise("1"));
