@@ -23,15 +23,13 @@
     * @param {any} input - The output to log.
     */
     function indicateType(input) {
-        switch (typeof(input)) {
-            case "string":
-                input = `"${input}"`;
-            case "object":
-                if (Array.isArray(input)) {
-                    input = `[${input}]`;
-                }
+        if (typeof(input) === "string") {
+            return `"${input}"`;
+        } else if (Array.isArray(input)) {
+            return `[${input}]`;
+        } else {
+            return input;
         }
-        return input;
     }
 
     /**
