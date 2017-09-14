@@ -17,16 +17,17 @@
     };
 
     /**
-    * Formats output to indicate its type:
-    * - quotes around strings
-    * - square brackets around arrays
-    * @param {any} input - The output to log.
-    */
-    function indicateType(input) {
+     * Formats output to indicate its type:
+     * - quotes around strings
+     * - square brackets around arrays
+     * @param {any} input - The output to log.
+     * @returns Formatted output as a string.
+     */
+    function formatOutput(input) {
         if (typeof(input) === "string") {
-            return `"${input}"`;
+            return '"' + input + '"';
         } else if (Array.isArray(input)) {
-            return `[${input}]`;
+          return '[' + input + ']';
         } else {
             return input;
         }
@@ -50,7 +51,7 @@
 
     // eslint-disable-next-line no-console
     console.log = function(loggedItem) {
-        writeOutput(indicateType(loggedItem));
+        writeOutput(formatOutput(loggedItem));
         // do not swallow console.log
         originalConsoleLogger.apply(console, arguments);
     };
