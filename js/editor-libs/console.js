@@ -17,6 +17,24 @@
     };
 
     /**
+    * Formats output to indicate its type:
+    * - quotes around strings
+    * - square brackets around arrays
+    * @param {any} input - The output to log.
+    */
+    function indicateType(input) {
+        switch (typeof(input)) {
+            case "string":
+                input = `"${input}"`;
+            case "object":
+                if (Array.isArray(input)) {
+                    input = `[${input}]`;
+                }
+        }
+        return input;
+    }
+
+    /**
      * Writes the provided content to the editor’s output area
      * @param {String} content - The content to write to output
      */
@@ -34,7 +52,7 @@
 
     // eslint-disable-next-line no-console
     console.log = function(loggedItem) {
-        writeOutput(loggedItem);
+        writeOutput(indicateType(loggedItem));
         // do not swallow console.log
         originalConsoleLogger.apply(console, arguments);
     };
