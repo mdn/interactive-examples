@@ -1,0 +1,15 @@
+<pre>
+<code id="static-js">var event = new Date('Tue, August 19, 1975 23:15:30');
+
+console.log(event.toLocaleTimeString('en-US'));
+// expected output: 11:15:30 PM
+
+console.log(event.toLocaleTimeString('it-IT'));
+// expected output: 23:15:30
+
+console.log(event.toLocaleTimeString('ar-EG'));
+// expected output: ١١:١٥:٣٠ م
+
+// NOTE: THERE SEEMS TO BE SOME INCONSISTENCY BETWEEN BROWSERS HERE!
+</code>
+</pre>
