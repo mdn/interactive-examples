@@ -615,56 +615,56 @@
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-setutchours.html",
             "fileName": "date-setutchours.html",
-            "title": "JavaScript Demo: Date.setUTCHours())",
+            "title": "JavaScript Demo: Date.setUTCHours()",
             "type": "js"
         },
         "dateSetUTCMonth": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-setutcmonth.html",
             "fileName": "date-setutcmonth.html",
-            "title": "JavaScript Demo: Date.setUTCMonth())",
+            "title": "JavaScript Demo: Date.setUTCMonth()",
             "type": "js"
         },
         "dateToDateString": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-todatestring.html",
             "fileName": "date-todatestring.html",
-            "title": "JavaScript Demo: Date.toDateString())",
+            "title": "JavaScript Demo: Date.toDateString()",
             "type": "js"
         },
         "dateToISOString": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-toisostring.html",
             "fileName": "date-toisostring.html",
-            "title": "JavaScript Demo: Date.toISOString())",
+            "title": "JavaScript Demo: Date.toISOString()",
             "type": "js"
         },
         "dateToJSON": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-tojson.html",
             "fileName": "date-tojson.html",
-            "title": "JavaScript Demo: Date.toJSON())",
+            "title": "JavaScript Demo: Date.toJSON()",
             "type": "js"
         },
         "dateToLocaleDateString": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-tolocaledatestring.html",
             "fileName": "date-tolocaledatestring.html",
-            "title": "JavaScript Demo: Date.toLocaleDateString())",
+            "title": "JavaScript Demo: Date.toLocaleDateString()",
             "type": "js"
         },
         "dateToLocaleString": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-tolocalestring.html",
             "fileName": "date-tolocalestring.html",
-            "title": "JavaScript Demo: Date.toLocaleString())",
+            "title": "JavaScript Demo: Date.toLocaleString()",
             "type": "js"
         },
         "dateToLocaleTimeString": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-tolocaletimestring.html",
             "fileName": "date-tolocaletimestring.html",
-            "title": "JavaScript Demo: Date.toLocaleTimeString())",
+            "title": "JavaScript Demo: Date.toLocaleTimeString()",
             "type": "js"
         },
         "dateToString": {
