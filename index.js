@@ -4,7 +4,6 @@ const CleanCSS = require('clean-css');
 const concat = require('concat');
 const dir = require('node-dir');
 const fse = require('fs-extra');
-const minify = require('html-minifier').minify;
 const uglify = require('uglify-es');
 
 const config = {
@@ -127,17 +126,9 @@ function buildPages(pages) {
 
         outputPath =
             config.examplesDir + currentPage.type + '/' + currentPage.fileName;
-        outputHTML = minify(
-            tmpl.replace(
-                '%example-code%',
-                fse.readFileSync(currentPage.exampleCode, 'utf-8')
-            ),
-            {
-                removeScriptTypeAttributes: true,
-                removeStyleLinkTypeAttributes: true,
-                sortAttributes: true,
-                sortClassName: true
-            }
+        outputHTML = tmpl.replace(
+            '%example-code%',
+            fse.readFileSync(currentPage.exampleCode, 'utf-8')
         );
 
         fse.outputFileSync(outputPath, outputHTML);
