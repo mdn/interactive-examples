@@ -1,0 +1,13 @@
+<pre>
+<code id="static-js">function* foo() {
+  yield 'a';
+  yield 'b';
+  yield 'c';
+}
+
+const [...values] = foo();
+
+console.log(values);
+// expected output: [a,b,c]
+</code>
+</pre>

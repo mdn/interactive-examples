@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">try {
+  notHoisted();
+}
+catch(e) {
+  console.log(e);
+  // expected output: TypeError: notHoisted is not a function
+}
+
+var notHoisted = function() {
+  console.log("bar");
+};
+</code>
+</pre>
