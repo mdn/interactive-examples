@@ -1,15 +1,14 @@
 <pre>
-<code id="static-js">function addIfBothPositive(a, b) {
-  if (a > 0 && b > 0) {
-    return a + b;
-  }
-  return 0;
-}
+<code id="static-js">var a = 3;
+var b = -2;
 
-console.log(addIfBothPositive(2, 3));
-// expected output: 5
+console.log(a > 0 && b > 0);
+// expected output: false
 
-console.log(addIfBothPositive(-2, 3));
-// expected output: 0
+console.log(a > 0 || b > 0);
+// expected output: true
+
+console.log(!(a > 0 || b > 0));
+// expected output: false
 </code>
 </pre>

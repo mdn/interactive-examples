@@ -1,14 +1,9 @@
 <pre>
-<code id="static-js">try {
-  notHoisted();
-}
-catch(e) {
-  console.log(e);
-  // expected output: TypeError: notHoisted is not a function
+<code id="static-js">function getRectArea2(width, height) {
+  return width * height;
 }
 
-var notHoisted = function() {
-  console.log("bar");
-};
+console.log(getRectArea(3,4));
+// expected output: 12
 </code>
 </pre>

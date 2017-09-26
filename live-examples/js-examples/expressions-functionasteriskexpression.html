@@ -5,9 +5,12 @@
   yield 'c';
 }
 
-const [...values] = foo();
+var str = "";
+for (let val of foo()) {
+  str = str + val;
+}
 
-console.log(values);
-// expected output: [a,b,c]
+console.log(str);
+// expected output: "abc"
 </code>
 </pre>
