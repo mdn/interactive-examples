@@ -1,11 +1,12 @@
 <pre>
-<code id="static-js">var utcDate1 = new Date(Date.UTC(96, 1, 2, 3, 4, 5));
-var utcDate2 = new Date(Date.UTC(0, 0, 0, 0, 0, 0));
+<code id="static-js">var date1 = new Date(Date.UTC(96, 1, 2, 3, 4, 5));
 
-console.log(utcDate1.toUTCString());
-// expected output: Fri, 02 Feb 1996 03:04:05 GMT
+console.log(date1.valueOf());
+// expected output: 823230245000
 
-console.log(utcDate2.toUTCString());
-// expected output: Sun, 31 Dec 1899 00:00:00 GMT
+var date2 = new Date('02 Feb 1996 03:04:05 GMT');
+
+console.log(date1.valueOf());
+// expected output: 823230245000
 </code>
 </pre>
