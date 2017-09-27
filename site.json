@@ -289,6 +289,55 @@
             "title": "JavaScript Demo: DataView.byteLength",
             "type": "js"
         },
+        "atomicsExchange": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-exchange.html",
+            "fileName": "atomics-exchange.html",
+            "title": "JavaScript Demo: Atomics.exchange()",
+            "type": "js"
+        },
+        "atomicsIsLockFree": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-islockfree.html",
+            "fileName": "atomics-islockfree.html",
+            "title": "JavaScript Demo: Atomics.isLockFree()",
+            "type": "js"
+        },
+        "atomicsLoad": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-load.html",
+            "fileName": "atomics-load.html",
+            "title": "JavaScript Demo: Atomics.load()",
+            "type": "js"
+        },
+        "atomicsOr": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-or.html",
+            "fileName": "atomics-or.html",
+            "title": "JavaScript Demo: Atomics.or()",
+            "type": "js"
+        },
+        "atomicsStore": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-store.html",
+            "fileName": "atomics-store.html",
+            "title": "JavaScript Demo: Atomics.store()",
+            "type": "js"
+        },
+        "atomicsSub": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-sub.html",
+            "fileName": "atomics-sub.html",
+            "title": "JavaScript Demo: Atomics.sub()",
+            "type": "js"
+        },
+        "atomicsXor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-xor.html",
+            "fileName": "atomics-xor.html",
+            "title": "JavaScript Demo: Atomics.xor()",
+            "type": "js"
+        },
         "dataviewByteOffset": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/dataview-byteoffset.html",
