@@ -1,5 +1,6 @@
 'use strict';
 
+const CleanCSS = require('clean-css');
 const concat = require('concat');
 const dir = require('node-dir');
 const fse = require('fs-extra');
@@ -66,10 +67,13 @@ function buildBundles(bundles) {
             ensureDir(config.destCssDir);
 
             // for CSS, we currently simply concat and write to file
-            concat(
-                currentBundle.css,
-                config.destCssDir + currentFilename + '.css'
-            );
+            concat(currentBundle.css).then(function(result) {
+                let minified = new CleanCSS().minify(result);
+                fse.outputFileSync(
+                    config.destCssDir + currentFilename + '.css',
+                    minified.styles
+                );
+            });
         }
     }
 }
@@ -96,14 +100,13 @@ function buildPages(pages) {
         let cssSource = currentPage.cssExampleSrc;
         let jsSource = currentPage.jsExampleSrc;
         let tmpl = fse.readFileSync(currentPage.baseTmpl, 'utf-8');
+        let outputPath = '';
+        let outputHTML = '';
 
         // is there a linked CSS file
         if (cssSource) {
             // inject the link tag into the source
-            tmpl = tmpl.replace(
-                '%example-css-src%',
-                `<link rel="stylesheet" href=" ${cssSource}" />`
-            );
+            tmpl = processInclude('css', tmpl, cssSource);
         } else {
             // clear out the template string
             tmpl = tmpl.replace('%example-css-src%', '');
@@ -112,10 +115,7 @@ function buildPages(pages) {
         // is there a linked JS file
         if (jsSource) {
             // inject the script tag into the source
-            tmpl = tmpl.replace(
-                '%example-js-src%',
-                `<script src=" ${jsSource}" /></script>`
-            );
+            tmpl = processInclude('js', tmpl, jsSource);
         } else {
             // clear out the template string
             tmpl = tmpl.replace('%example-js-src%', '');
@@ -124,15 +124,14 @@ function buildPages(pages) {
         // set main title
         tmpl = setMainTitle(currentPage, tmpl);
 
-        let outputPath =
+        outputPath =
             config.examplesDir + currentPage.type + '/' + currentPage.fileName;
-        fse.outputFileSync(
-            outputPath,
-            tmpl.replace(
-                '%example-code%',
-                fse.readFileSync(currentPage.exampleCode, 'utf-8')
-            )
+        outputHTML = tmpl.replace(
+            '%example-code%',
+            fse.readFileSync(currentPage.exampleCode, 'utf-8')
         );
+
+        fse.outputFileSync(outputPath, outputHTML);
     }
     console.log('Pages built successfully'); // eslint-disable-line no-console
 }
@@ -164,6 +163,39 @@ function copyDirectory(sourceDir, destDir) {
             fse.copySync(files[file], destDir + files[file]);
         }
     });
+}
+
+/**
+ * Loads the CSS or JS file, minifies the source, and writes the minified
+ * code to its destination. Lastly, links JS or CSS file inside the template.
+ * @param {String} type - A value of `js` or `css`
+ * @param {String} tmpl - The template as a string
+ * @param {String} source - The source filepath
+ * @returns tmpl - The modified template string
+ */
+function processInclude(type, tmpl, source) {
+    let sourceFile = fse.readFileSync(source.substr(6), 'utf-8');
+    let minified = '';
+
+    if (type === 'css') {
+        minified = new CleanCSS().minify(sourceFile).styles;
+        // inject the link tag into the source
+        tmpl = tmpl.replace(
+            '%example-css-src%',
+            `<link rel="stylesheet" href="${source}" />`
+        );
+    } else {
+        minified = uglify.minify(sourceFile).code;
+        // inject the script tag into the source
+        tmpl = tmpl.replace(
+            '%example-js-src%',
+            `<script src="${source}"></script>`
+        );
+    }
+
+    fse.outputFileSync(config.baseDir + source.substr(6), minified);
+
+    return tmpl;
 }
 
 /**
@@ -203,8 +235,6 @@ function init() {
 
             // copy assets in `/media`
             copyDirectory(config.mediaRoot, config.baseDir);
-            // copy live examples in `/live-examples`
-            copyDirectory(config.examplesRoot, config.baseDir);
 
             // builds the CSS and JS bundles
             buildBundles(site.bundles);

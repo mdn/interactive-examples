@@ -289,6 +289,55 @@
             "title": "JavaScript Demo: DataView.byteLength",
             "type": "js"
         },
+        "atomicsExchange": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-exchange.html",
+            "fileName": "atomics-exchange.html",
+            "title": "JavaScript Demo: Atomics.exchange()",
+            "type": "js"
+        },
+        "atomicsIsLockFree": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-islockfree.html",
+            "fileName": "atomics-islockfree.html",
+            "title": "JavaScript Demo: Atomics.isLockFree()",
+            "type": "js"
+        },
+        "atomicsLoad": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-load.html",
+            "fileName": "atomics-load.html",
+            "title": "JavaScript Demo: Atomics.load()",
+            "type": "js"
+        },
+        "atomicsOr": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-or.html",
+            "fileName": "atomics-or.html",
+            "title": "JavaScript Demo: Atomics.or()",
+            "type": "js"
+        },
+        "atomicsStore": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-store.html",
+            "fileName": "atomics-store.html",
+            "title": "JavaScript Demo: Atomics.store()",
+            "type": "js"
+        },
+        "atomicsSub": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-sub.html",
+            "fileName": "atomics-sub.html",
+            "title": "JavaScript Demo: Atomics.sub()",
+            "type": "js"
+        },
+        "atomicsXor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-xor.html",
+            "fileName": "atomics-xor.html",
+            "title": "JavaScript Demo: Atomics.xor()",
+            "type": "js"
+        },
         "dataviewByteOffset": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/dataview-byteoffset.html",
@@ -700,6 +749,97 @@
             "exampleCode": "live-examples/js-examples/date-valueof.html",
             "fileName": "date-valueof.html",
             "title": "JavaScript Demo: Date.valueOf())",
+            "type": "js"
+        },
+        "globalpropsDecodeURI": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-decodeuri.html",
+            "fileName": "globalprops-decodeuri.html",
+            "title": "JavaScript Demo: Standard built-in objects - decodeURI()",
+            "type": "js"
+        },
+        "globalpropsDecodeURIComponent": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-decodeuricomponent.html",
+            "fileName": "globalprops-decodeuricomponent.html",
+            "title": "JavaScript Demo: Standard built-in objects - decodeURIComponent()",
+            "type": "js"
+        },
+        "globalpropsEncodeURI": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-encodeuri.html",
+            "fileName": "globalprops-encodeuri.html",
+            "title": "JavaScript Demo: Standard built-in objects - encodeURI()",
+            "type": "js"
+        },
+        "globalpropsEncodeURIComponent": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-encodeuricomponent.html",
+            "fileName": "globalprops-encodeuricomponent.html",
+            "title": "JavaScript Demo: Standard built-in objects - encodeURIComponent()",
+            "type": "js"
+        },
+        "globalpropsEval": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-eval.html",
+            "fileName": "globalprops-eval.html",
+            "title": "JavaScript Demo: Standard built-in objects - eval()",
+            "type": "js"
+        },
+        "globalpropsInfinity": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-infinity.html",
+            "fileName": "globalprops-infinity.html",
+            "title": "JavaScript Demo: Standard built-in objects - infinity",
+            "type": "js"
+        },
+        "globalpropsIsFinite": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-isfinite.html",
+            "fileName": "globalprops-isfinite.html",
+            "title": "JavaScript Demo: Standard built-in objects - isFinite()",
+            "type": "js"
+        },
+        "globalpropsIsNaN": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-isnan.html",
+            "fileName": "globalprops-isnan.html",
+            "title": "JavaScript Demo: Standard built-in objects - isNaN()",
+            "type": "js"
+        },
+        "globalpropsNaN": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-nan.html",
+            "fileName": "globalprops-nan.html",
+            "title": "JavaScript Demo: Standard built-in objects - NaN",
+            "type": "js"
+        },
+        "globalpropsNull": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-null.html",
+            "fileName": "globalprops-null.html",
+            "title": "JavaScript Demo: Standard built-in objects - Null",
+            "type": "js"
+        },
+        "globalpropsParseFloat": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-parsefloat.html",
+            "fileName": "globalprops-parsefloat.html",
+            "title": "JavaScript Demo: Standard built-in objects - parseFloat()",
+            "type": "js"
+        },
+        "globalpropsParseInt": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-parseint.html",
+            "fileName": "globalprops-parseint.html",
+            "title": "JavaScript Demo: Standard built-in objects - parseInt()",
+            "type": "js"
+        },
+        "globalpropsUndefined": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-undefined.html",
+            "fileName": "globalprops-undefined.html",
+            "title": "JavaScript Demo: Standard built-in objects - undefined",
             "type": "js"
         },
         "promiseAll": {
