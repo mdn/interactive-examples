@@ -1,0 +1,21 @@
+<pre>
+<code id="static-js">function resolveAfter2Seconds(x) {
+  return new Promise(resolve => {
+    console.log("waiting...");
+    setTimeout(() => {
+      resolve(x);
+    }, 2000);
+  });
+}
+
+async function add1(x) {
+  var a = await resolveAfter2Seconds(20);
+  return(a + x);
+}
+
+add1(10).then(v => {
+  console.log(v);
+  // expected output: 30
+});
+</code>
+</pre>
