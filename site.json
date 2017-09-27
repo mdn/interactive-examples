@@ -751,6 +751,188 @@
             "title": "JavaScript Demo: Date.valueOf())",
             "type": "js"
         },
+        "expressionsArithmetic": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-arithmetic.html",
+            "fileName": "expressions-arithmetic.html",
+            "title": "JavaScript Demo: Expressions - Arithmetic",
+            "type": "js"
+        },
+        "expressionsAssignment": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-assignment.html",
+            "fileName": "expressions-assignment.html",
+            "title": "JavaScript Demo: Expressions - Assignment",
+            "type": "js"
+        },
+        "expressionsBitwiseOperators": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-bitwiseoperators.html",
+            "fileName": "expressions-bitwiseoperators.html",
+            "title": "JavaScript Demo: Expressions - Bitwise Operators",
+            "type": "js"
+        },
+        "expressionsClassExpression": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-classexpression.html",
+            "fileName": "expressions-classexpression.html",
+            "title": "JavaScript Demo: Expressions - Class Expression",
+            "type": "js"
+        },
+        "expressionsCommaOperators": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-commaoperators.html",
+            "fileName": "expressions-commaoperators.html",
+            "title": "JavaScript Demo: Expressions - Comma Operators",
+            "type": "js"
+        },
+        "expressionsComparisonOperators": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-comparisonoperators.html",
+            "fileName": "expressions-comparisonoperators.html",
+            "title": "JavaScript Demo: Expressions - Comparison Operators",
+            "type": "js"
+        },
+        "expressionsConditionalOperators": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-conditionaloperators.html",
+            "fileName": "expressions-conditionaloperators.html",
+            "title": "JavaScript Demo: Expressions - Conditional Operators",
+            "type": "js"
+        },
+        "expressionsDeleteOperator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-deleteoperator.html",
+            "fileName": "expressions-deleteoperator.html",
+            "title": "JavaScript Demo: Expressions - Delete Operator",
+            "type": "js"
+        },
+        "expressionsDestructuringAssignment": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-destructuringassignment.html",
+            "fileName": "expressions-destructuringassignment.html",
+            "title": "JavaScript Demo: Expressions - Destructuring Assignment",
+            "type": "js"
+        },
+        "expressionsFunctionAsteriskExpression": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-functionasteriskexpression.html",
+            "fileName": "expressions-functionasteriskexpression.html",
+            "title": "JavaScript Demo: Expressions - Function* Expression",
+            "type": "js"
+        },
+        "expressionsFunctionExpression": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-functionexpression.html",
+            "fileName": "expressions-functionexpression.html",
+            "title": "JavaScript Demo: Expressions - Function Expression",
+            "type": "js"
+        },
+        "expressionsGroupingOperator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-groupingoperator.html",
+            "fileName": "expressions-groupingoperator.html",
+            "title": "JavaScript Demo: Expressions - Grouping Operator",
+            "type": "js"
+        },
+        "expressionsInOperator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-inoperator.html",
+            "fileName": "expressions-inoperator.html",
+            "title": "JavaScript Demo: Expressions - In Operator",
+            "type": "js"
+        },
+        "expressionsInstanceof": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-instanceof.html",
+            "fileName": "expressions-instanceof.html",
+            "title": "JavaScript Demo: Expressions - Instanceof",
+            "type": "js"
+        },
+        "expressionsLogicalOperator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-logicaloperator.html",
+            "fileName": "expressions-logicaloperator.html",
+            "title": "JavaScript Demo: Expressions - Logical Operator",
+            "type": "js"
+        },
+        "expressionsNewOperator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-newoperator.html",
+            "fileName": "expressions-newoperator.html",
+            "title": "JavaScript Demo: Expressions - New Operator",
+            "type": "js"
+        },
+        "expressionsNewTarget": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-newtarget.html",
+            "fileName": "expressions-newtarget.html",
+            "title": "JavaScript Demo: Expressions - New Target",
+            "type": "js"
+        },
+        "expressionsObjectInitializer": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-objectinitializer.html",
+            "fileName": "expressions-objectinitializer.html",
+            "title": "JavaScript Demo: Expressions - Object Initializer",
+            "type": "js"
+        },
+        "expressionsOperatorPrecedence": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-operatorprecedence.html",
+            "fileName": "expressions-operatorprecedence.html",
+            "title": "JavaScript Demo: Expressions - Operator Precedence",
+            "type": "js"
+        },
+        "expressionsPropertyAccessors": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-propertyaccessors.html",
+            "fileName": "expressions-propertyaccessors.html",
+            "title": "JavaScript Demo: Expressions - Property Accessors",
+            "type": "js"
+        },
+        "expressionsSpreadSyntax": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-spreadsyntax.html",
+            "fileName": "expressions-spreadsyntax.html",
+            "title": "JavaScript Demo: Expressions - Spread Syntax",
+            "type": "js"
+        },
+        "expressionsThis": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-this.html",
+            "fileName": "expressions-this.html",
+            "title": "JavaScript Demo: Expressions - This",
+            "type": "js"
+        },
+        "expressionsTypeof": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-typeof.html",
+            "fileName": "expressions-typeof.html",
+            "title": "JavaScript Demo: Expressions - Typeof",
+            "type": "js"
+        },
+        "expressionsVoidOperator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-voidoperator.html",
+            "fileName": "expressions-voidoperator.html",
+            "title": "JavaScript Demo: Expressions - Void Operator",
+            "type": "js"
+        },
+        "expressionsYield": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-yield.html",
+            "fileName": "expressions-yield.html",
+            "title": "JavaScript Demo: Expressions - Yield",
+            "type": "js"
+        },
+        "expressionsYieldAsterisk": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-yieldasterisk.html",
+            "fileName": "expressions-yieldasterisk.html",
+            "title": "JavaScript Demo: Expressions - Yield*",
+            "type": "js"
+        },
         "globalpropsDecodeURI": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/globalprops-decodeuri.html",
