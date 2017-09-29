@@ -17,22 +17,54 @@
     };
 
     /**
-     * Formats output to indicate its type:
-     * - quotes around strings
+     * Formats arrays:
+     * - quotes around strings in arrays
      * - square brackets around arrays
+     * - adds commas appropraitely (with spacing)
+     * designed to be used recursively
      * @param {any} input - The output to log.
      * @returns Formatted output as a string.
      */
-    function formatOutput(input) {
-        if (typeof(input) === "string") {
-            return '"' + input + '"';
-        } else if (Array.isArray(input)) {
-          return '[' + input + ']';
-        } else {
-            return input;
+    function formatArray(input) {
+        var output = '';
+        for (var i = 0; i < input.length; i++) {
+            if (typeof(input[i]) === "string") {
+                output += "'" + input[i] + "'";
+            } else if (Array.isArray(input[i])) {
+                output += '[';
+                output += formatArray(input[i]);
+                output += ']';
+            } else {
+              output += input[i];
+            }
+
+            if (i < (input.length - 1)) {
+              output += ', ';
+            }
         }
+        return output;
     }
 
+    /**
+     * Formats output to indicate its type:
+     * - quotes around strings
+     * - square brackets around arrays
+     * (also copes with arrays of arrays)
+     * does NOT detect Int32Array etc
+     * @param {any} input - The output to log.
+     * @returns Formatted output as a string.
+     */
+     function formatOutput(input) {
+         if (typeof(input) === "string") {
+             return "'" + input + "'";
+         } else if (Array.isArray(input)) {
+           // check the contents of the array
+           return '[' + formatArray(input) + ']';
+         } else {
+             return input;
+         }
+     }
+    
     /**
      * Writes the provided content to the editor’s output area
      * @param {String} content - The content to write to output
