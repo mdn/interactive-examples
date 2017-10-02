@@ -1,0 +1,15 @@
+<pre>
+<code id="static-js">var obj1 = {
+  prop1: 42
+};
+
+Object.seal(obj1);
+obj1.prop1 = 33;
+console.log(obj1.prop1);
+// expected output: 33
+
+delete obj1.prop1; // cannot delete when sealed
+console.log(obj1.prop1);
+// expected output: 33
+</code>
+</pre>
