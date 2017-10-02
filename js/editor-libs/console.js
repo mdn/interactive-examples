@@ -29,7 +29,7 @@
         var output = '';
         for (var i = 0; i < input.length; i++) {
             if (typeof(input[i]) === "string") {
-                output += "'" + input[i] + "'";
+                output += '"' + input[i] + '"';
             } else if (Array.isArray(input[i])) {
                 output += '[';
                 output += formatArray(input[i]);
@@ -56,7 +56,7 @@
      */
      function formatOutput(input) {
          if (typeof(input) === "string") {
-             return "'" + input + "'";
+             return '"' + input + '"';
          } else if (Array.isArray(input)) {
            // check the contents of the array
            return '[' + formatArray(input) + ']';
@@ -64,7 +64,7 @@
              return input;
          }
      }
-    
+
     /**
      * Writes the provided content to the editor’s output area
      * @param {String} content - The content to write to output
