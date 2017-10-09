@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">x = 0.2;
+y = 0.3;
+z = 0.1;
+
+var result = Math.abs(x - y + z);
+
+console.log(result);
+// expected output: 2.7755575615628914e-17
+
+console.log(result < Number.EPSILON);
+// expected output: true
+</code>
+</pre>
