@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">function clean(x) {
+	if (x === Number.NaN) { return "Impossible condition" }
+	if (isNaN(x)) { return 0 }
+  	return x;
+}
+
+console.log(clean(1.7976931348623157e+308));
+// expected output: -1.7976931348623157e+308
+
+console.log(clean(Number.NaN));
+// expected output: 0
+</code>
+</pre>
