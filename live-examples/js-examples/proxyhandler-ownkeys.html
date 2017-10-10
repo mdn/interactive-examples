@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var proxy1 = new Proxy({}, {
+  ownKeys: function(target) {
+    console.log('called');
+    // expected output: "called"
+
+    return ['a', 'b', 'c'];
+  }
+});
+
+console.log(Object.getOwnPropertyNames(proxy1));
+// expected output: ["a", "b", "c"]
+</code>
+</pre>

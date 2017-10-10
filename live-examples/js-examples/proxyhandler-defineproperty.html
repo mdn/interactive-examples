@@ -1,0 +1,15 @@
+<pre>
+<code id="static-js">var proxy1 = new Proxy({}, {
+  defineProperty: function(target, prop, descriptor) {
+    console.log('called: ' + prop);
+    // expected output: "called: prop1"
+
+    return true;
+  }
+});
+
+var desc = { configurable: true, enumerable: true, value: 10 };
+Object.defineProperty(proxy1, 'prop1', desc);
+
+</code>
+</pre>

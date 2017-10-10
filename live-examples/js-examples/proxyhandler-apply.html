@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var proxy1 = new Proxy(function() {}, {
+  apply: function(target, thisArg, argumentsList) {
+    console.log('called: ' + argumentsList.join(', '));
+    // expected output: "called: 1, 2, 3"
+
+    return argumentsList[0] + argumentsList[1] + argumentsList[2];
+  }
+});
+
+console.log(proxy1(1, 2, 3));
+// expected output: 6
+</code>
+</pre>

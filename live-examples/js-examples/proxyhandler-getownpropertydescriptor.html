@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var proxy1 = new Proxy({ prop1: 20}, {
+  getOwnPropertyDescriptor: function(target, prop) {
+    console.log('called: ' + prop);
+    // expected output: "called: prop1"
+
+    return { configurable: true, enumerable: true, value: 10 };
+  }
+});
+
+console.log(Object.getOwnPropertyDescriptor(proxy1, 'prop1').value);
+// expected output: 10
+</code>
+</pre>

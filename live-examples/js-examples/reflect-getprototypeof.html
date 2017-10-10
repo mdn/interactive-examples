@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var obj1 = {
+  prop1: 42
+};
+
+var proto1 = Reflect.getPrototypeOf(obj1);
+
+console.log(proto1);
+// expected output: [object Object]
+
+console.log(Reflect.getPrototypeOf(proto1));
+// expected output: null
+</code>
+</pre>

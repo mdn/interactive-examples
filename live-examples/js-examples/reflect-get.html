@@ -1,0 +1,17 @@
+<pre>
+<code id="static-js">var obj1 = {
+  prop1: 42
+};
+
+Reflect.deleteProperty(obj1, 'prop1');
+
+console.log(obj1.prop1);
+// expected output: undefined
+
+var arr = [1, 2, 3, 4, 5];
+Reflect.deleteProperty(arr, '3');
+
+console.log(arr);
+// expected output: [1,2,3,,5]
+</code>
+</pre>

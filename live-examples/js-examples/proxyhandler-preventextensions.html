@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var proxy1 = new Proxy({}, {
+  preventExtensions: function(target) {
+    console.log('called');
+    // expected output: "called"
+
+    Object.preventExtensions(target);
+    return true;
+  }
+});
+
+Object.preventExtensions(proxy1);
+</code>
+</pre>

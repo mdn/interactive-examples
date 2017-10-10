@@ -1,0 +1,15 @@
+<pre>
+<code id="static-js">var obj1 = {
+  prop1: 42
+};
+
+console.log(Reflect.getOwnPropertyDescriptor(obj1, 'prop1').value);
+// expected output: 42
+
+console.log(Reflect.getOwnPropertyDescriptor(obj1, 'prop2'));
+// expected output: undefined
+
+console.log(Reflect.getOwnPropertyDescriptor(obj1, 'prop1').writable);
+// expected output: true
+</code>
+</pre>

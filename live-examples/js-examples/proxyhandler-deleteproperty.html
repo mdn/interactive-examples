@@ -1,0 +1,23 @@
+<pre>
+<code id="static-js">var proxy1 = new Proxy({}, {
+  deleteProperty: function(target, prop) {
+    if (prop in target){
+      delete target[prop];
+
+      console.log('property removed: ' + prop);
+      // expected output: "property removed: prop1"
+    }
+  }
+});
+
+proxy1.prop1 = 10;
+
+console.log('prop1' in proxy1);
+// expected output: true
+
+result = delete proxy1.prop1;
+
+console.log('prop1' in proxy1);
+// expected output: false
+</code>
+</pre>

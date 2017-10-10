@@ -1,0 +1,21 @@
+<pre>
+<code id="static-js">var obj = {};
+var proto = {};
+var handler = {
+  getPrototypeOf(target) {
+    console.log(target === obj);
+    // expected output: true
+
+    console.log(this === handler);
+    // expected output: true
+
+    return proto;
+  }
+};
+
+var p = new Proxy(obj, handler);
+
+console.log(Object.getPrototypeOf(p) === proto);
+// expected output: true
+</code>
+</pre>

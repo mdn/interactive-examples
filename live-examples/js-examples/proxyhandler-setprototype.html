@@ -1,0 +1,16 @@
+<pre>
+<code id="static-js">var handlerReturnsFalse = {
+  setPrototypeOf(target1, proto1) {
+    return false;
+  }
+};
+
+var proto1 = {};
+var target1 = {};
+
+var proxy1 = new Proxy(target1, handlerReturnsFalse);
+//Object.setPrototypeOf(proxy1, proto1); // throws a TypeError
+console.log(Reflect.setPrototypeOf(proxy1, proto1));
+// expected output: false
+</code>
+</pre>

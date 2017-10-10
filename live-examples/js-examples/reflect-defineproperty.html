@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var obj1 = {};
+
+if (Reflect.defineProperty(obj1, 'prop1', {value: 42})) {
+  console.log('prop1 created!');
+  // expected output: "prop1 created!"
+} else {
+  console.log('problem creating prop1');
+}
+
+console.log(obj1.prop1);
+// expected output: 42
+</code>
+</pre>

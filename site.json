@@ -275,20 +275,6 @@
             "title": "JavaScript Demo: Atomics.xor()",
             "type": "js"
         },
-        "dataviewBuffer": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-buffer.html",
-            "fileName": "dataview-buffer.html",
-            "title": "JavaScript Demo: DataView.buffer",
-            "type": "js"
-        },
-        "dataviewByteLength": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-bytelength.html",
-            "fileName": "dataview-bytelength.html",
-            "title": "JavaScript Demo: DataView.byteLength",
-            "type": "js"
-        },
         "atomicsExchange": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/atomics-exchange.html",
@@ -378,6 +364,20 @@
             "exampleCode": "live-examples/js-examples/classes-static.html",
             "fileName": "classes-static.html",
             "title": "JavaScript Demo: Classes Static",
+            "type": "js"
+        },
+        "dataviewBuffer": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-buffer.html",
+            "fileName": "dataview-buffer.html",
+            "title": "JavaScript Demo: DataView.buffer",
+            "type": "js"
+        },
+        "dataviewByteLength": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-bytelength.html",
+            "fileName": "dataview-bytelength.html",
+            "title": "JavaScript Demo: DataView.byteLength",
             "type": "js"
         },
         "dataviewByteOffset": {
@@ -1386,6 +1386,188 @@
             "exampleCode": "live-examples/js-examples/promise-then.html",
             "fileName": "promise-then.html",
             "title": "JavaScript Demo: Promise.then()",
+            "type": "js"
+        },
+        "proxyhandlerApply": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-apply.html",
+            "fileName": "proxyhandler-apply.html",
+            "title": "JavaScript Demo: handler.apply()",
+            "type": "js"
+        },
+        "proxyhandlerConstruct": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-construct.html",
+            "fileName": "proxyhandler-construct.html",
+            "title": "JavaScript Demo: handler.construct()",
+            "type": "js"
+        },
+        "proxyhandlerDefineProperty": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-defineproperty.html",
+            "fileName": "proxyhandler-defineproperty.html",
+            "title": "JavaScript Demo: handler.defineProperty()",
+            "type": "js"
+        },
+        "proxyhandlerDeleteProperty": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-deleteproperty.html",
+            "fileName": "proxyhandler-deleteproperty.html",
+            "title": "JavaScript Demo: handler.deleteProperty()",
+            "type": "js"
+        },
+        "proxyhandlerGet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-get.html",
+            "fileName": "proxyhandler-get.html",
+            "title": "JavaScript Demo: handler.get()",
+            "type": "js"
+        },
+        "proxyhandlerGetOwnPropertyDescriptor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-getownpropertydescriptor.html",
+            "fileName": "proxyhandler-getownpropertydescriptor.html",
+            "title": "JavaScript Demo: handler.getOwnPropertyDescriptor()",
+            "type": "js"
+        },
+        "proxyhandlerGetPrototypeOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-getprototypeof.html",
+            "fileName": "proxyhandler-getprototypeof.html",
+            "title": "JavaScript Demo: handler.getPrototypeOf()",
+            "type": "js"
+        },
+        "proxyhandlerHas": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-has.html",
+            "fileName": "proxyhandler-has.html",
+            "title": "JavaScript Demo: handler.has()",
+            "type": "js"
+        },
+        "proxyhandlerIsExtensible": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-isextensible.html",
+            "fileName": "proxyhandler-isextensible.html",
+            "title": "JavaScript Demo: handler.isExtensible()",
+            "type": "js"
+        },
+        "proxyhandlerOwnKeys": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-ownkeys.html",
+            "fileName": "proxyhandler-ownkeys.html",
+            "title": "JavaScript Demo: handler.ownKeys()",
+            "type": "js"
+        },
+        "proxyhandlerPreventExtensions": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-preventextensions.html",
+            "fileName": "proxyhandler-preventextensions.html",
+            "title": "JavaScript Demo: handler.preventExtensions()",
+            "type": "js"
+        },
+        "proxyhandlerSet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-set.html",
+            "fileName": "proxyhandler-set.html",
+            "title": "JavaScript Demo: handler.set()",
+            "type": "js"
+        },
+        "proxyhandlerSetPrototype": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-setprototype.html",
+            "fileName": "proxyhandler-setprototype.html",
+            "title": "JavaScript Demo: handler.setPrototype()",
+            "type": "js"
+        },
+        "reflectApply": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-apply.html",
+            "fileName": "reflect-apply.html",
+            "title": "JavaScript Demo: reflect.apply()",
+            "type": "js"
+        },
+        "reflectConstruct": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-construct.html",
+            "fileName": "reflect-construct.html",
+            "title": "JavaScript Demo: reflect.construct()",
+            "type": "js"
+        },
+        "reflectDefineProperty": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-defineproperty.html",
+            "fileName": "reflect-defineproperty.html",
+            "title": "JavaScript Demo: reflect.defineProperty()",
+            "type": "js"
+        },
+        "reflectDeleteProperty": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-deleteproperty.html",
+            "fileName": "reflect-deleteproperty.html",
+            "title": "JavaScript Demo: reflect.deleteProperty()",
+            "type": "js"
+        },
+        "reflectGet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-get.html",
+            "fileName": "reflect-get.html",
+            "title": "JavaScript Demo: reflect.get()",
+            "type": "js"
+        },
+        "reflectGetOwnPropertyDescriptor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-getownpropertydescriptor.html",
+            "fileName": "reflect-getownpropertydescriptor.html",
+            "title": "JavaScript Demo: reflect.getOwnPropertyDescriptor()",
+            "type": "js"
+        },
+        "reflectGetPrototypeOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-getprototypeof.html",
+            "fileName": "reflect-getprototypeof.html",
+            "title": "JavaScript Demo: reflect.getPrototypeOf()",
+            "type": "js"
+        },
+        "reflectHas": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-has.html",
+            "fileName": "reflect-has.html",
+            "title": "JavaScript Demo: reflect.has()",
+            "type": "js"
+        },
+        "reflectIsExtensible": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-isextensible.html",
+            "fileName": "reflect-isextensible.html",
+            "title": "JavaScript Demo: reflect.isExtensible()",
+            "type": "js"
+        },
+        "reflectOwnKeys": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-ownkeys.html",
+            "fileName": "reflect-ownkeys.html",
+            "title": "JavaScript Demo: reflect.ownKeys()",
+            "type": "js"
+        },
+        "reflectPreventExtensions": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-preventextensions.html",
+            "fileName": "reflect-preventextensions.html",
+            "title": "JavaScript Demo: reflect.preventExtensions()",
+            "type": "js"
+        },
+        "reflectSet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-set.html",
+            "fileName": "reflect-set.html",
+            "title": "JavaScript Demo: reflect.set()",
+            "type": "js"
+        },
+        "reflectSetPrototype": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-setprototype.html",
+            "fileName": "reflect-setprototype.html",
+            "title": "JavaScript Demo: reflect.setPrototype()",
             "type": "js"
         },
         "sharedarraybufferByteLength": {

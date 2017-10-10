@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var proxy1 = new Proxy({}, {
+  isExtensible: function(target) {
+    console.log('called');
+    // expected output: "called"
+
+    return true;
+  }
+});
+
+console.log(Object.isExtensible(proxy1));
+// expected output: true
+</code>
+</pre>

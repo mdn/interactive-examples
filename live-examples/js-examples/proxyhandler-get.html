@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var proxy1 = new Proxy({}, {
+  get: function(target, prop, receiver) {
+    console.log('called: ' + prop);
+    // expected output: "called: prop1"
+    
+    return 10;
+  }
+});
+
+console.log(proxy1.prop1);
+// expected output: 10
+</code>
+</pre>

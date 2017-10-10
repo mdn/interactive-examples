@@ -1,0 +1,18 @@
+<pre>
+<code id="static-js">var proxy1 = new Proxy({}, {
+  set: function(target, prop, value, receiver) {
+    target[prop] = value;
+    
+    console.log('property set: ' + prop + ' = ' + value);
+    // expected output: "property set: prop1 = 42"
+
+    return true;
+  }
+})
+
+console.log('prop1' in proxy1);
+// expected output: false
+
+proxy1.prop1 = 42;
+</code>
+</pre>
