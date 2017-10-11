@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var weakmap1 = new WeakMap();
+var object1 = new Object();
+var object2 = new Object();
+
+weakmap1.set(object1, 'foo').set(object2, 'bar');
+
+console.log(weakmap1.get(object1));
+//expected output: "foo"
+
+console.log(weakmap1.get(object2));
+//expected output: "bar"
+</code>
+</pre>
