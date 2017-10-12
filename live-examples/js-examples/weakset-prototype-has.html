@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var weakset1 = new WeakSet();
+var object1 = new Object();
+var object2 = new Object();
+
+weakset1.add(object1);
+
+console.log(weakset1.has(object1));
+// expected output: true
+
+console.log(weakset1.has(object2));
+// expected output: false
+</code>
+</pre>

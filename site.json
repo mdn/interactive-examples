@@ -1388,6 +1388,76 @@
             "title": "JavaScript Demo: Promise.then()",
             "type": "js"
         },
+        "setPrototype@@Iterator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/set-prototype-@@iterator.html",
+            "fileName": "set-prototype-@@iterator.html",
+            "title": "JavaScript Demo: Set.prototype[@@iterator]()",
+            "type": "js"
+        },
+        "setPrototypeAdd": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/set-prototype-add.html",
+            "fileName": "set-prototype-add.html",
+            "title": "JavaScript Demo: Set.prototype.add()",
+            "type": "js"
+        },
+        "setPrototypeClear": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/set-prototype-clear.html",
+            "fileName": "set-prototype-clear.html",
+            "title": "JavaScript Demo: Set.prototype.clear()",
+            "type": "js"
+        },
+        "setPrototypeConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/set-prototype-constructor.html",
+            "fileName": "set-prototype-constructor.html",
+            "title": "JavaScript Demo: Set.prototype Constructor",
+            "type": "js"
+        },
+        "setPrototypeDelete": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/set-prototype-delete.html",
+            "fileName": "set-prototype-delete.html",
+            "title": "JavaScript Demo: Set.prototype.delete()",
+            "type": "js"
+        },
+        "setPrototypeEntries": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/set-prototype-entries.html",
+            "fileName": "set-prototype-entries.html",
+            "title": "JavaScript Demo: Set.prototype.entries()",
+            "type": "js"
+        },
+        "setPrototypeForEach": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/set-prototype-foreach.html",
+            "fileName": "set-prototype-foreach.html",
+            "title": "JavaScript Demo: Set.prototype.foreach()",
+            "type": "js"
+        },
+        "setPrototypeHas": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/set-prototype-has.html",
+            "fileName": "set-prototype-has.html",
+            "title": "JavaScript Demo: Set.prototype.has()",
+            "type": "js"
+        },
+        "setPrototypeSize": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/set-prototype-size.html",
+            "fileName": "set-prototype-size.html",
+            "title": "JavaScript Demo: Set.prototype.size",
+            "type": "js"
+        },
+        "setPrototypeValues": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/set-prototype-values.html",
+            "fileName": "set-prototype-values.html",
+            "title": "JavaScript Demo: Set.prototype.values",
+            "type": "js"
+        },
         "sharedarraybufferByteLength": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/sharedarraybuffer-bytelength.html",
@@ -1617,6 +1687,27 @@
           "exampleCode": "live-examples/js-examples/typedarray-values.html",
           "fileName": "typedarray-values.html",
           "title": "JavaScript Demo: TypedArray.values()",
+          "type": "js"
+        },
+        "weaksetPrototypeAdd": {
+          "baseTmpl": "tmpl/live-js-tmpl.html",
+          "exampleCode": "live-examples/js-examples/weakset-prototype-add.html",
+          "fileName": "weakset-prototype-add.html",
+          "title": "JavaScript Demo: WeakSet.Prototype.add()",
+          "type": "js"
+        },
+        "weaksetPrototypeDelete": {
+          "baseTmpl": "tmpl/live-js-tmpl.html",
+          "exampleCode": "live-examples/js-examples/weakset-prototype-delete.html",
+          "fileName": "weakset-prototype-delete.html",
+          "title": "JavaScript Demo: WeakSet.Prototype.delete()",
+          "type": "js"
+        },
+        "weaksetPrototypeHas": {
+          "baseTmpl": "tmpl/live-js-tmpl.html",
+          "exampleCode": "live-examples/js-examples/weakset-prototype-has.html",
+          "fileName": "weakset-prototype-has.html",
+          "title": "JavaScript Demo: WeakSet.Prototype.has()",
           "type": "js"
         },
         "animation": {
