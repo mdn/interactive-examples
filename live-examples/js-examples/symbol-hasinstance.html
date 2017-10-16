@@ -1,0 +1,11 @@
+<pre>
+<code id="static-js">class array1 {
+  static [Symbol.hasInstance](instance) {
+    return Array.isArray(instance);
+  }
+}
+
+console.log([] instanceof array1);
+// expected output: true
+</code>
+</pre>

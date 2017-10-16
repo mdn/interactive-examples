@@ -1,0 +1,15 @@
+<pre>
+<code id="static-js">var re = /foo/;
+// console.log('/foo/'.startsWith(re));
+// expected output: (Chrome) Error: First argument to String.prototype.startsWith must not be a regular expression
+// expected output: (Firefox) Error: Invalid type: first can't be a Regular Expression
+
+re[Symbol.match] = false;
+
+console.log('/foo/'.startsWith(re));
+// expected output: true
+
+console.log('/baz/'.endsWith(re));
+// expected output: false
+</code>
+</pre>
