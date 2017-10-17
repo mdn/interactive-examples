@@ -126,9 +126,9 @@ your CSS goes here</code></pre>
 </div>
 ```
 
-This is the base starting point for all CSS examples. Your next step is to fill in the example element. For `border-radius` it makes sense to have a simple `&lt;div&gt;` element with a solid background color. The already present `example-element` `&lt;div&gt;` will do, however we do need to give it some basic styling, and perhaps add the text "Style Me".
+This is the base starting point for all CSS examples. Your next step is to fill in the example element. For `border-radius` it makes sense to have a simple `<div>` element with a solid background color. The already present `example-element` `<div>` will do, however we do need to give it some basic styling, and perhaps add the text "Style Me".
 
-First then, inside the `example-element` `&lt;div&gt;' add the text "Style Me", like so:
+First then, inside the `example-element` `<div>` add the text "Style Me", like so:
 
 ```
 <div id="output" class="output">
@@ -148,7 +148,7 @@ Next, create a new CSS file inside `live-examples\css-examples\css\`. Call this 
 }
 ```
 
-Next we need to add some different examples of using `border-radius`. In the `&lt;pre&gt;` element we first saw above, you will see there is a nested `&lt;div&gt;` with a class of `example-choice`. For each example you wish to add, you will add one of these with the CSS declaration to apply as its content, for example:
+Next we need to add some different examples of using `border-radius`. In the `<pre>` element we first saw above, you will see there is a nested `<div>` with a class of `example-choice`. For each example you wish to add, you will add one of these with the CSS declaration to apply as its content, for example:
 
 ```
 <section id="example-choice-list" class="example-choice-list">
@@ -235,7 +235,7 @@ console.log(result);
 
 That is all for the live example piece. All that remains is to tell the page generator about our new example. To do this, open up `site.json` at the root of the project folder. Under `pages`, find an existing entry with a `type` of `js`.
 
-Copy and paste the example then update it to apply to your new example, noting that pages are grouped by `type`, and then alphabetically for each `type`.
+Copy and paste the example then update it to your new example, noting that pages are grouped by `type`, and then alphabetically for each `type`.
 
 You entry will look something like the following when edited:
 
