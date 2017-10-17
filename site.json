@@ -205,6 +205,76 @@
             "title": "JavaScript Demo: ArrayBuffer.slice()",
             "type": "js"
         },
+        "atomicsAdd": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-add.html",
+            "fileName": "atomics-add.html",
+            "title": "JavaScript Demo: Atomics.add()",
+            "type": "js"
+        },
+        "atomicsAnd": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-and.html",
+            "fileName": "atomics-and.html",
+            "title": "JavaScript Demo: Atomics.and()",
+            "type": "js"
+        },
+        "atomicsCompareExchange": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-compareexchange.html",
+            "fileName": "atomics-compareexchange.html",
+            "title": "JavaScript Demo: Atomics.compareExchange()",
+            "type": "js"
+        },
+        "atomicsExchange": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-exchange.html",
+            "fileName": "atomics-exchange.html",
+            "title": "JavaScript Demo: Atomics.exchange()",
+            "type": "js"
+        },
+        "atomicsIsLockFree": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-islockfree.html",
+            "fileName": "atomics-islockfree.html",
+            "title": "JavaScript Demo: Atomics.isLockFree()",
+            "type": "js"
+        },
+        "atomicsLoad": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-load.html",
+            "fileName": "atomics-load.html",
+            "title": "JavaScript Demo: Atomics.load()",
+            "type": "js"
+        },
+        "atomicsOr": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-or.html",
+            "fileName": "atomics-or.html",
+            "title": "JavaScript Demo: Atomics.or()",
+            "type": "js"
+        },
+        "atomicsStore": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-store.html",
+            "fileName": "atomics-store.html",
+            "title": "JavaScript Demo: Atomics.store()",
+            "type": "js"
+        },
+        "atomicsSub": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-sub.html",
+            "fileName": "atomics-sub.html",
+            "title": "JavaScript Demo: Atomics.sub()",
+            "type": "js"
+        },
+        "atomicsXor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-xor.html",
+            "fileName": "atomics-xor.html",
+            "title": "JavaScript Demo: Atomics.xor()",
+            "type": "js"
+        },
         "dataviewBuffer": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/dataview-buffer.html",
@@ -217,6 +287,97 @@
             "exampleCode": "live-examples/js-examples/dataview-bytelength.html",
             "fileName": "dataview-bytelength.html",
             "title": "JavaScript Demo: DataView.byteLength",
+            "type": "js"
+        },
+        "atomicsExchange": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-exchange.html",
+            "fileName": "atomics-exchange.html",
+            "title": "JavaScript Demo: Atomics.exchange()",
+            "type": "js"
+        },
+        "atomicsIsLockFree": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-islockfree.html",
+            "fileName": "atomics-islockfree.html",
+            "title": "JavaScript Demo: Atomics.isLockFree()",
+            "type": "js"
+        },
+        "atomicsLoad": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-load.html",
+            "fileName": "atomics-load.html",
+            "title": "JavaScript Demo: Atomics.load()",
+            "type": "js"
+        },
+        "atomicsOr": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-or.html",
+            "fileName": "atomics-or.html",
+            "title": "JavaScript Demo: Atomics.or()",
+            "type": "js"
+        },
+        "atomicsStore": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-store.html",
+            "fileName": "atomics-store.html",
+            "title": "JavaScript Demo: Atomics.store()",
+            "type": "js"
+        },
+        "atomicsSub": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-sub.html",
+            "fileName": "atomics-sub.html",
+            "title": "JavaScript Demo: Atomics.sub()",
+            "type": "js"
+        },
+        "atomicsXor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/atomics-xor.html",
+            "fileName": "atomics-xor.html",
+            "title": "JavaScript Demo: Atomics.xor()",
+            "type": "js"
+        },
+        "booleanConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/boolean-constructor.html",
+            "fileName": "boolean-constructor.html",
+            "title": "JavaScript Demo: Boolean Constructor",
+            "type": "js"
+        },
+        "booleanToString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/boolean-tostring.html",
+            "fileName": "boolean-tostring.html",
+            "title": "JavaScript Demo: Boolean.toString()",
+            "type": "js"
+        },
+        "booleanValueOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/boolean-valueof.html",
+            "fileName": "boolean-valueof.html",
+            "title": "JavaScript Demo: Boolean.valueOf()",
+            "type": "js"
+        },
+        "classesConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/classes-constructor.html",
+            "fileName": "classes-constructor.html",
+            "title": "JavaScript Demo: Classes Constructor",
+            "type": "js"
+        },
+        "classesExtends": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/classes-extends.html",
+            "fileName": "classes-extends.html",
+            "title": "JavaScript Demo: Classes Extends",
+            "type": "js"
+        },
+        "classesStatic": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/classes-static.html",
+            "fileName": "classes-static.html",
+            "title": "JavaScript Demo: Classes Static",
             "type": "js"
         },
         "dataviewByteOffset": {
@@ -343,6 +504,678 @@
             "exampleCode": "live-examples/js-examples/dataview-setuint32.html",
             "fileName": "dataview-setuint32.html",
             "title": "JavaScript Demo: DataView.setUint32()",
+            "type": "js"
+        },
+        "dateConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-constructor.html",
+            "fileName": "date-constructor.html",
+            "title": "JavaScript Demo: Date Constructor",
+            "type": "js"
+        },
+        "dateGetDate": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-getdate.html",
+            "fileName": "date-getdate.html",
+            "title": "JavaScript Demo: Date.getDate()",
+            "type": "js"
+        },
+        "dateGetDay": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-getday.html",
+            "fileName": "date-getday.html",
+            "title": "JavaScript Demo: Date.getDay()",
+            "type": "js"
+        },
+        "dateGetFullYear": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-getfullyear.html",
+            "fileName": "date-getfullyear.html",
+            "title": "JavaScript Demo: Date.getFullYear()",
+            "type": "js"
+        },
+        "dateGetHours": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-gethours.html",
+            "fileName": "date-gethours.html",
+            "title": "JavaScript Demo: Date.getHours()",
+            "type": "js"
+        },
+        "dateGetMilliseconds": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-getmilliseconds.html",
+            "fileName": "date-getmilliseconds.html",
+            "title": "JavaScript Demo: Date.getMilliseconds()",
+            "type": "js"
+        },
+        "dateGetMinutes": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-getminutes.html",
+            "fileName": "date-getminutes.html",
+            "title": "JavaScript Demo: Date.getMinutes()",
+            "type": "js"
+        },
+        "dateGetMonth": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-getmonth.html",
+            "fileName": "date-getmonth.html",
+            "title": "JavaScript Demo: Date.getMonth()",
+            "type": "js"
+        },
+        "dateGetSeconds": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-getseconds.html",
+            "fileName": "date-getseconds.html",
+            "title": "JavaScript Demo: Date.getSeconds()",
+            "type": "js"
+        },
+        "dateGetTime": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-gettime.html",
+            "fileName": "date-gettime.html",
+            "title": "JavaScript Demo: Date.getTime()",
+            "type": "js"
+        },
+        "dateGetTimezoneOffset": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-gettimezoneoffset.html",
+            "fileName": "date-gettimezoneoffset.html",
+            "title": "JavaScript Demo: Date.getTimezoneOffset()",
+            "type": "js"
+        },
+        "dateGetUTCDate": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-getutcdate.html",
+            "fileName": "date-getutcdate.html",
+            "title": "JavaScript Demo: Date.getUTCDate()",
+            "type": "js"
+        },
+        "dateGetUTCDay": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-getutcday.html",
+            "fileName": "date-getutcday.html",
+            "title": "JavaScript Demo: Date.getUTCDay()",
+            "type": "js"
+        },
+        "dateGetUTCFullYear": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-getutcfullyear.html",
+            "fileName": "date-getutcfullyear.html",
+            "title": "JavaScript Demo: Date.getUTCFullYear()",
+            "type": "js"
+        },
+        "dateGetUTCHours": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-getutchours.html",
+            "fileName": "date-getutchours.html",
+            "title": "JavaScript Demo: Date.getUTCHours()",
+            "type": "js"
+        },
+        "dateGetUTCMonth": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-getutcmonth.html",
+            "fileName": "date-getutcmonth.html",
+            "title": "JavaScript Demo: Date.getUTCMonth()",
+            "type": "js"
+        },
+        "dateNow": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-now.html",
+            "fileName": "date-now.html",
+            "title": "JavaScript Demo: Date.now()",
+            "type": "js"
+        },
+        "dateParse": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-parse.html",
+            "fileName": "date-parse.html",
+            "title": "JavaScript Demo: Date.parse()",
+            "type": "js"
+        },
+        "dateSetDate": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-setdate.html",
+            "fileName": "date-setdate.html",
+            "title": "JavaScript Demo: Date.setDate()",
+            "type": "js"
+        },
+        "dateSetFullYear": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-setfullyear.html",
+            "fileName": "date-setfullyear.html",
+            "title": "JavaScript Demo: Date.setFullYear()",
+            "type": "js"
+        },
+        "dateSetHours": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-sethours.html",
+            "fileName": "date-sethours.html",
+            "title": "JavaScript Demo: Date.setHours()",
+            "type": "js"
+        },
+        "dateSetMilliseconds": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-setmilliseconds.html",
+            "fileName": "date-setmilliseconds.html",
+            "title": "JavaScript Demo: Date.setMilliseconds()",
+            "type": "js"
+        },
+        "dateSetMinutes": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-setminutes.html",
+            "fileName": "date-setminutes.html",
+            "title": "JavaScript Demo: Date.setMinutes()",
+            "type": "js"
+        },
+        "dateSetMonth": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-setmonth.html",
+            "fileName": "date-setmonth.html",
+            "title": "JavaScript Demo: Date.setMonth()",
+            "type": "js"
+        },
+        "dateSetSeconds": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-setseconds.html",
+            "fileName": "date-setseconds.html",
+            "title": "JavaScript Demo: Date.setSeconds()",
+            "type": "js"
+        },
+        "dateSetTime": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-settime.html",
+            "fileName": "date-settime.html",
+            "title": "JavaScript Demo: Date.setTime()",
+            "type": "js"
+        },
+        "dateSetUTCDate": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-setutcdate.html",
+            "fileName": "date-setutcdate.html",
+            "title": "JavaScript Demo: Date.setUTCDate()",
+            "type": "js"
+        },
+        "dateSetUTCFullYear": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-setutcfullyear.html",
+            "fileName": "date-setutcfullyear.html",
+            "title": "JavaScript Demo: Date.setUTCFullYear()",
+            "type": "js"
+        },
+        "dateSetUTCHours": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-setutchours.html",
+            "fileName": "date-setutchours.html",
+            "title": "JavaScript Demo: Date.setUTCHours()",
+            "type": "js"
+        },
+        "dateSetUTCMonth": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-setutcmonth.html",
+            "fileName": "date-setutcmonth.html",
+            "title": "JavaScript Demo: Date.setUTCMonth()",
+            "type": "js"
+        },
+        "dateToDateString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-todatestring.html",
+            "fileName": "date-todatestring.html",
+            "title": "JavaScript Demo: Date.toDateString()",
+            "type": "js"
+        },
+        "dateToISOString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-toisostring.html",
+            "fileName": "date-toisostring.html",
+            "title": "JavaScript Demo: Date.toISOString()",
+            "type": "js"
+        },
+        "dateToJSON": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-tojson.html",
+            "fileName": "date-tojson.html",
+            "title": "JavaScript Demo: Date.toJSON()",
+            "type": "js"
+        },
+        "dateToLocaleDateString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-tolocaledatestring.html",
+            "fileName": "date-tolocaledatestring.html",
+            "title": "JavaScript Demo: Date.toLocaleDateString()",
+            "type": "js"
+        },
+        "dateToLocaleString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-tolocalestring.html",
+            "fileName": "date-tolocalestring.html",
+            "title": "JavaScript Demo: Date.toLocaleString()",
+            "type": "js"
+        },
+        "dateToLocaleTimeString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-tolocaletimestring.html",
+            "fileName": "date-tolocaletimestring.html",
+            "title": "JavaScript Demo: Date.toLocaleTimeString()",
+            "type": "js"
+        },
+        "dateToString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-tostring.html",
+            "fileName": "date-tostring.html",
+            "title": "JavaScript Demo: Date.toString())",
+            "type": "js"
+        },
+        "dateToTimeString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-totimestring.html",
+            "fileName": "date-totimestring.html",
+            "title": "JavaScript Demo: Date.toTimeString())",
+            "type": "js"
+        },
+        "dateToUTCString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-toutcstring.html",
+            "fileName": "date-toutcstring.html",
+            "title": "JavaScript Demo: Date.toUTCString())",
+            "type": "js"
+        },
+        "dateUTC": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-utc.html",
+            "fileName": "date-utc.html",
+            "title": "JavaScript Demo: Date.UTC())",
+            "type": "js"
+        },
+        "dateValueOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-valueof.html",
+            "fileName": "date-valueof.html",
+            "title": "JavaScript Demo: Date.valueOf())",
+            "type": "js"
+        },
+        "expressionsArithmetic": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-arithmetic.html",
+            "fileName": "expressions-arithmetic.html",
+            "title": "JavaScript Demo: Expressions - Arithmetic",
+            "type": "js"
+        },
+        "expressionsAssignment": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-assignment.html",
+            "fileName": "expressions-assignment.html",
+            "title": "JavaScript Demo: Expressions - Assignment",
+            "type": "js"
+        },
+        "expressionsBitwiseOperators": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-bitwiseoperators.html",
+            "fileName": "expressions-bitwiseoperators.html",
+            "title": "JavaScript Demo: Expressions - Bitwise Operators",
+            "type": "js"
+        },
+        "expressionsClassExpression": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-classexpression.html",
+            "fileName": "expressions-classexpression.html",
+            "title": "JavaScript Demo: Expressions - Class Expression",
+            "type": "js"
+        },
+        "expressionsCommaOperators": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-commaoperators.html",
+            "fileName": "expressions-commaoperators.html",
+            "title": "JavaScript Demo: Expressions - Comma Operators",
+            "type": "js"
+        },
+        "expressionsComparisonOperators": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-comparisonoperators.html",
+            "fileName": "expressions-comparisonoperators.html",
+            "title": "JavaScript Demo: Expressions - Comparison Operators",
+            "type": "js"
+        },
+        "expressionsConditionalOperators": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-conditionaloperators.html",
+            "fileName": "expressions-conditionaloperators.html",
+            "title": "JavaScript Demo: Expressions - Conditional Operators",
+            "type": "js"
+        },
+        "expressionsDeleteOperator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-deleteoperator.html",
+            "fileName": "expressions-deleteoperator.html",
+            "title": "JavaScript Demo: Expressions - Delete Operator",
+            "type": "js"
+        },
+        "expressionsDestructuringAssignment": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-destructuringassignment.html",
+            "fileName": "expressions-destructuringassignment.html",
+            "title": "JavaScript Demo: Expressions - Destructuring Assignment",
+            "type": "js"
+        },
+        "expressionsFunctionAsteriskExpression": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-functionasteriskexpression.html",
+            "fileName": "expressions-functionasteriskexpression.html",
+            "title": "JavaScript Demo: Expressions - Function* Expression",
+            "type": "js"
+        },
+        "expressionsFunctionExpression": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-functionexpression.html",
+            "fileName": "expressions-functionexpression.html",
+            "title": "JavaScript Demo: Expressions - Function Expression",
+            "type": "js"
+        },
+        "expressionsGroupingOperator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-groupingoperator.html",
+            "fileName": "expressions-groupingoperator.html",
+            "title": "JavaScript Demo: Expressions - Grouping Operator",
+            "type": "js"
+        },
+        "expressionsInOperator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-inoperator.html",
+            "fileName": "expressions-inoperator.html",
+            "title": "JavaScript Demo: Expressions - In Operator",
+            "type": "js"
+        },
+        "expressionsInstanceof": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-instanceof.html",
+            "fileName": "expressions-instanceof.html",
+            "title": "JavaScript Demo: Expressions - Instanceof",
+            "type": "js"
+        },
+        "expressionsLogicalOperator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-logicaloperator.html",
+            "fileName": "expressions-logicaloperator.html",
+            "title": "JavaScript Demo: Expressions - Logical Operator",
+            "type": "js"
+        },
+        "expressionsNewOperator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-newoperator.html",
+            "fileName": "expressions-newoperator.html",
+            "title": "JavaScript Demo: Expressions - New Operator",
+            "type": "js"
+        },
+        "expressionsNewTarget": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-newtarget.html",
+            "fileName": "expressions-newtarget.html",
+            "title": "JavaScript Demo: Expressions - New Target",
+            "type": "js"
+        },
+        "expressionsObjectInitializer": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-objectinitializer.html",
+            "fileName": "expressions-objectinitializer.html",
+            "title": "JavaScript Demo: Expressions - Object Initializer",
+            "type": "js"
+        },
+        "expressionsOperatorPrecedence": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-operatorprecedence.html",
+            "fileName": "expressions-operatorprecedence.html",
+            "title": "JavaScript Demo: Expressions - Operator Precedence",
+            "type": "js"
+        },
+        "expressionsPropertyAccessors": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-propertyaccessors.html",
+            "fileName": "expressions-propertyaccessors.html",
+            "title": "JavaScript Demo: Expressions - Property Accessors",
+            "type": "js"
+        },
+        "expressionsSpreadSyntax": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-spreadsyntax.html",
+            "fileName": "expressions-spreadsyntax.html",
+            "title": "JavaScript Demo: Expressions - Spread Syntax",
+            "type": "js"
+        },
+        "expressionsThis": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-this.html",
+            "fileName": "expressions-this.html",
+            "title": "JavaScript Demo: Expressions - This",
+            "type": "js"
+        },
+        "expressionsTypeof": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-typeof.html",
+            "fileName": "expressions-typeof.html",
+            "title": "JavaScript Demo: Expressions - Typeof",
+            "type": "js"
+        },
+        "expressionsVoidOperator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-voidoperator.html",
+            "fileName": "expressions-voidoperator.html",
+            "title": "JavaScript Demo: Expressions - Void Operator",
+            "type": "js"
+        },
+        "expressionsYield": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-yield.html",
+            "fileName": "expressions-yield.html",
+            "title": "JavaScript Demo: Expressions - Yield",
+            "type": "js"
+        },
+        "expressionsYieldAsterisk": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/expressions-yieldasterisk.html",
+            "fileName": "expressions-yieldasterisk.html",
+            "title": "JavaScript Demo: Expressions - Yield*",
+            "type": "js"
+        },
+        "functionApply": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/function-apply.html",
+            "fileName": "function-apply.html",
+            "title": "JavaScript Demo: Function - Apply()",
+            "type": "js"
+        },
+        "functionBind": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/function-bind.html",
+            "fileName": "function-bind.html",
+            "title": "JavaScript Demo: Function - Bind()",
+            "type": "js"
+        },
+        "functionCall": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/function-call.html",
+            "fileName": "function-call.html",
+            "title": "JavaScript Demo: Function - Call()",
+            "type": "js"
+        },
+        "functionConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/function-constructor.html",
+            "fileName": "function-constructor.html",
+            "title": "JavaScript Demo: Function - Constructor",
+            "type": "js"
+        },
+        "functionLength": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/function-length.html",
+            "fileName": "function-length.html",
+            "title": "JavaScript Demo: Function.length",
+            "type": "js"
+        },
+        "functionName": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/function-name.html",
+            "fileName": "function-name.html",
+            "title": "JavaScript Demo: Function.name",
+            "type": "js"
+        },
+        "functionToString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/function-tostring.html",
+            "fileName": "function-tostring.html",
+            "title": "JavaScript Demo: Function.toString()",
+            "type": "js"
+        },
+        "functionsArguments": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/functions-arguments.html",
+            "fileName": "functions-arguments.html",
+            "title": "JavaScript Demo: Functions Arguments",
+            "type": "js"
+        },
+        "functionsArrow": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/functions-arrow.html",
+            "fileName": "functions-arrow.html",
+            "title": "JavaScript Demo: Functions =>",
+            "type": "js"
+        },
+        "functionsDefault": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/functions-default.html",
+            "fileName": "functions-default.html",
+            "title": "JavaScript Demo: Functions Default",
+            "type": "js"
+        },
+        "functionsDefinitions": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/functions-definitions.html",
+            "fileName": "functions-definitions.html",
+            "title": "JavaScript Demo: Functions Definitions",
+            "type": "js"
+        },
+        "functionsGetter": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/functions-getter.html",
+            "fileName": "functions-getter.html",
+            "title": "JavaScript Demo: Functions Getter",
+            "type": "js"
+        },
+        "functionsRestParameters": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/functions-restparameters.html",
+            "fileName": "functions-restparameters.html",
+            "title": "JavaScript Demo: Functions Rest Parameters",
+            "type": "js"
+        },
+        "functionsSetter": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/functions-setter.html",
+            "fileName": "functions-setter.html",
+            "title": "JavaScript Demo: Functions Setter",
+            "type": "js"
+        },
+        "globalpropsDecodeURI": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-decodeuri.html",
+            "fileName": "globalprops-decodeuri.html",
+            "title": "JavaScript Demo: Standard built-in objects - decodeURI()",
+            "type": "js"
+        },
+        "globalpropsDecodeURIComponent": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-decodeuricomponent.html",
+            "fileName": "globalprops-decodeuricomponent.html",
+            "title": "JavaScript Demo: Standard built-in objects - decodeURIComponent()",
+            "type": "js"
+        },
+        "globalpropsEncodeURI": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-encodeuri.html",
+            "fileName": "globalprops-encodeuri.html",
+            "title": "JavaScript Demo: Standard built-in objects - encodeURI()",
+            "type": "js"
+        },
+        "globalpropsEncodeURIComponent": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-encodeuricomponent.html",
+            "fileName": "globalprops-encodeuricomponent.html",
+            "title": "JavaScript Demo: Standard built-in objects - encodeURIComponent()",
+            "type": "js"
+        },
+        "globalpropsEval": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-eval.html",
+            "fileName": "globalprops-eval.html",
+            "title": "JavaScript Demo: Standard built-in objects - eval()",
+            "type": "js"
+        },
+        "globalpropsInfinity": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-infinity.html",
+            "fileName": "globalprops-infinity.html",
+            "title": "JavaScript Demo: Standard built-in objects - infinity",
+            "type": "js"
+        },
+        "globalpropsIsFinite": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-isfinite.html",
+            "fileName": "globalprops-isfinite.html",
+            "title": "JavaScript Demo: Standard built-in objects - isFinite()",
+            "type": "js"
+        },
+        "globalpropsIsNaN": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-isnan.html",
+            "fileName": "globalprops-isnan.html",
+            "title": "JavaScript Demo: Standard built-in objects - isNaN()",
+            "type": "js"
+        },
+        "globalpropsNaN": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-nan.html",
+            "fileName": "globalprops-nan.html",
+            "title": "JavaScript Demo: Standard built-in objects - NaN",
+            "type": "js"
+        },
+        "globalpropsNull": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-null.html",
+            "fileName": "globalprops-null.html",
+            "title": "JavaScript Demo: Standard built-in objects - Null",
+            "type": "js"
+        },
+        "globalpropsParseFloat": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-parsefloat.html",
+            "fileName": "globalprops-parsefloat.html",
+            "title": "JavaScript Demo: Standard built-in objects - parseFloat()",
+            "type": "js"
+        },
+        "globalpropsParseInt": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-parseint.html",
+            "fileName": "globalprops-parseint.html",
+            "title": "JavaScript Demo: Standard built-in objects - parseInt()",
+            "type": "js"
+        },
+        "globalpropsUndefined": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/globalprops-undefined.html",
+            "fileName": "globalprops-undefined.html",
+            "title": "JavaScript Demo: Standard built-in objects - undefined",
+            "type": "js"
+        },
+        "jsonParse": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/json-parse.html",
+            "fileName": "json-parse.html",
+            "title": "JavaScript Demo: JSON.parse()",
+            "type": "js"
+        },
+        "jsonStringify": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/json-stringify.html",
+            "fileName": "json-stringify.html",
+            "title": "JavaScript Demo: JSON.stringify()",
             "type": "js"
         },
         "numberEpsilon": {
@@ -485,6 +1318,167 @@
             "title": "JavaScript Demo: Number.valueof()",
             "type": "js"
         },
+        "objectAssign": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-assign.html",
+            "fileName": "object-assign.html",
+            "title": "JavaScript Demo: Object.assign()",
+            "type": "js"
+        },
+        "objectCreate": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-create.html",
+            "fileName": "object-create.html",
+            "title": "JavaScript Demo: Object.create()",
+            "type": "js"
+        },
+        "objectDefineProperties": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-defineproperties.html",
+            "fileName": "object-defineproperties.html",
+            "title": "JavaScript Demo: Object.defineProperties()",
+            "type": "js"
+        },
+        "objectDefineProperty": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-defineproperty.html",
+            "fileName": "object-defineproperty.html",
+            "title": "JavaScript Demo: Object.defineProperty()",
+            "type": "js"
+        },
+        "objectEntries": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-entries.html",
+            "fileName": "object-entries.html",
+            "title": "JavaScript Demo: Object.entries()",
+            "type": "js"
+        },
+        "objectFreeze": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-freeze.html",
+            "fileName": "object-freeze.html",
+            "title": "JavaScript Demo: Object.freeze()",
+            "type": "js"
+        },
+        "objectGetOwnPropertyDescriptor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-getownpropertydescriptor.html",
+            "fileName": "object-getownpropertydescriptor.html",
+            "title": "JavaScript Demo: Object.getOwnPropertyDescriptor()",
+            "type": "js"
+        },
+        "objectGetOwnPropertyDescriptors": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-getownpropertydescriptors.html",
+            "fileName": "object-getownpropertydescriptors.html",
+            "title": "JavaScript Demo: Object.getOwnPropertyDescriptors()",
+            "type": "js"
+        },
+        "objectGetOwnPropertyNames": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-getownpropertynames.html",
+            "fileName": "object-getownpropertynames.html",
+            "title": "JavaScript Demo: Object.getOwnPropertyNames()",
+            "type": "js"
+        },
+        "objectGetOwnPropertySymbols": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-getownpropertysymbols.html",
+            "fileName": "object-getownpropertysymbols.html",
+            "title": "JavaScript Demo: Object.getOwnPropertySymbols()",
+            "type": "js"
+        },
+        "objectGetProtoypeOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-getprototypeof.html",
+            "fileName": "object-getprototypeof.html",
+            "title": "JavaScript Demo: Object.getPrototypeOf()",
+            "type": "js"
+        },
+        "objectIsExtensible": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-isextensible.html",
+            "fileName": "object-isextensible.html",
+            "title": "JavaScript Demo: Object.isExtensible()",
+            "type": "js"
+        },
+        "objectIsFrozen": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-isfrozen.html",
+            "fileName": "object-isfrozen.html",
+            "title": "JavaScript Demo: Object.isFrozen()",
+            "type": "js"
+        },
+        "objectIsSealed": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-issealed.html",
+            "fileName": "object-issealed.html",
+            "title": "JavaScript Demo: Object.isSealed()",
+            "type": "js"
+        },
+        "objectPreventExtensions": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-preventextensions.html",
+            "fileName": "object-preventextensions.html",
+            "title": "JavaScript Demo: Object.preventExtensions()",
+            "type": "js"
+        },
+        "objectPrototypeHasOwnProperty": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-prototype-hasownproperty.html",
+            "fileName": "object-prototype-hasownproperty.html",
+            "title": "JavaScript Demo: Object.prototype.hasOwnProperty()",
+            "type": "js"
+        },
+        "objectIsPrototypePrototypeOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-prototype-isprototypeof.html",
+            "fileName": "object-prototype-isprototypeof.html",
+            "title": "JavaScript Demo: Object.prototype.isPrototypeOf()",
+            "type": "js"
+        },
+        "objectPrototypePropertyIsEnumerable": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-prototype-propertyisenumerable.html",
+            "fileName": "object-prototype-propertyisenumberable.html",
+            "title": "JavaScript Demo: Object.prototype.propertyIsEnumberable()",
+            "type": "js"
+        },
+        "objectPrototypeSeal": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-prototype-seal.html",
+            "fileName": "object-prototype-seal.html",
+            "title": "JavaScript Demo: Object.prototype.seal()",
+            "type": "js"
+        },
+        "objectPrototypeToLocaleString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-prototype-tolocalestring.html",
+            "fileName": "object-prototype-tolocalestring.html",
+            "title": "JavaScript Demo: Object.prototype.tolocalestring()",
+            "type": "js"
+        },
+        "objectPrototypeToString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-prototype-tostring.html",
+            "fileName": "object-prototype-tostring.html",
+            "title": "JavaScript Demo: Object.prototype.tostring()",
+            "type": "js"
+        },
+        "objectPrototypeValueOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-prototype-valueof.html",
+            "fileName": "object-prototype-valueof.html",
+            "title": "JavaScript Demo: Object.prototype.valueof()",
+            "type": "js"
+        },
+        "objectValues": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/object-values.html",
+            "fileName": "object-values.html",
+            "title": "JavaScript Demo: Object.values()",
+            "type": "js"
+        },
         "promiseAll": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/promise-all.html",
@@ -534,76 +1528,6 @@
             "title": "JavaScript Demo: Promise.then()",
             "type": "js"
         },
-        "atomicsAdd": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics-add.html",
-            "fileName": "atomics-add.html",
-            "title": "JavaScript Demo: Atomics.add()",
-            "type": "js"
-        },
-        "atomicsAnd": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics-and.html",
-            "fileName": "atomics-and.html",
-            "title": "JavaScript Demo: Atomics.and()",
-            "type": "js"
-        },
-        "atomicsCompareExchange": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics-compareexchange.html",
-            "fileName": "atomics-compareexchange.html",
-            "title": "JavaScript Demo: Atomics.compareExchange()",
-            "type": "js"
-        },
-        "atomicsExchange": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics-exchange.html",
-            "fileName": "atomics-exchange.html",
-            "title": "JavaScript Demo: Atomics.exchange()",
-            "type": "js"
-        },
-        "atomicsIsLockFree": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics-islockfree.html",
-            "fileName": "atomics-islockfree.html",
-            "title": "JavaScript Demo: Atomics.isLockFree()",
-            "type": "js"
-        },
-        "atomicsLoad": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics-load.html",
-            "fileName": "atomics-load.html",
-            "title": "JavaScript Demo: Atomics.load()",
-            "type": "js"
-        },
-        "atomicsOr": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics-or.html",
-            "fileName": "atomics-or.html",
-            "title": "JavaScript Demo: Atomics.or()",
-            "type": "js"
-        },
-        "atomicsStore": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics-store.html",
-            "fileName": "atomics-store.html",
-            "title": "JavaScript Demo: Atomics.store()",
-            "type": "js"
-        },
-        "atomicsSub": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics-sub.html",
-            "fileName": "atomics-sub.html",
-            "title": "JavaScript Demo: Atomics.sub()",
-            "type": "js"
-        },
-        "atomicsXor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics-xor.html",
-            "fileName": "atomics-xor.html",
-            "title": "JavaScript Demo: Atomics.xor()",
-            "type": "js"
-        },
         "sharedarraybufferByteLength": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/sharedarraybuffer-bytelength.html",
@@ -623,6 +1547,167 @@
             "exampleCode": "live-examples/js-examples/sharedarraybuffer-slice.html",
             "fileName": "sharedarraybuffer-slice.html",
             "title": "JavaScript Demo: SharedArrayBuffer.slice()",
+            "type": "js"
+        },
+        "statementAsync": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-async.html",
+            "fileName": "statement-async.html",
+            "title": "JavaScript Demo: Statement - Async",
+            "type": "js"
+        },
+        "statementBlock": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-block.html",
+            "fileName": "statement-block.html",
+            "title": "JavaScript Demo: Statement - Block",
+            "type": "js"
+        },
+        "statementBreak": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-break.html",
+            "fileName": "statement-break.html",
+            "title": "JavaScript Demo: Statement - Break",
+            "type": "js"
+        },
+        "statementClass": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-class.html",
+            "fileName": "statement-class.html",
+            "title": "JavaScript Demo: Statement - Class",
+            "type": "js"
+        },
+        "statementConst": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-const.html",
+            "fileName": "statement-const.html",
+            "title": "JavaScript Demo: Statement - Const",
+            "type": "js"
+        },
+        "statementContinue": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-continue.html",
+            "fileName": "statement-continue.html",
+            "title": "JavaScript Demo: Statement - Continue",
+            "type": "js"
+        },
+        "statementDefault": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-default.html",
+            "fileName": "statement-default.html",
+            "title": "JavaScript Demo: Statement - Default",
+            "type": "js"
+        },
+        "statementDoWhile": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-dowhile.html",
+            "fileName": "statement-dowhile.html",
+            "title": "JavaScript Demo: Statement - Do...While",
+            "type": "js"
+        },
+        "statementEmpty": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-empty.html",
+            "fileName": "statement-empty.html",
+            "title": "JavaScript Demo: Statement - Empty",
+            "type": "js"
+        },
+        "statementFor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-for.html",
+            "fileName": "statement-for.html",
+            "title": "JavaScript Demo: Statement - For",
+            "type": "js"
+        },
+        "statementForIn": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-forin.html",
+            "fileName": "statement-forin.html",
+            "title": "JavaScript Demo: Statement - For...In",
+            "type": "js"
+        },
+        "statementForOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-forof.html",
+            "fileName": "statement-forof.html",
+            "title": "JavaScript Demo: Statement - For...Of",
+            "type": "js"
+        },
+        "statementFunction": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-function.html",
+            "fileName": "statement-function.html",
+            "title": "JavaScript Demo: Statement - Function",
+            "type": "js"
+        },
+        "statementFunctionAsterisk": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-functionasterisk.html",
+            "fileName": "statement-functionasterisk.html",
+            "title": "JavaScript Demo: Statement - Function*",
+            "type": "js"
+        },
+        "statementIfElse": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-ifelse.html",
+            "fileName": "statement-ifelse.html",
+            "title": "JavaScript Demo: Statement - If...Else",
+            "type": "js"
+        },
+        "statementLabel": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-label.html",
+            "fileName": "statement-label.html",
+            "title": "JavaScript Demo: Statement - Label",
+            "type": "js"
+        },
+        "statementLet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-let.html",
+            "fileName": "statement-let.html",
+            "title": "JavaScript Demo: Statement - Let",
+            "type": "js"
+        },
+        "statementReturn": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-return.html",
+            "fileName": "statement-return.html",
+            "title": "JavaScript Demo: Statement - Return",
+            "type": "js"
+        },
+        "statementSwitch": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-switch.html",
+            "fileName": "statement-switch.html",
+            "title": "JavaScript Demo: Statement - Switch",
+            "type": "js"
+        },
+        "statementThrow": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-throw.html",
+            "fileName": "statement-throw.html",
+            "title": "JavaScript Demo: Statement - Throw",
+            "type": "js"
+        },
+        "statementTryCatch": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-trycatch.html",
+            "fileName": "statement-trycatch.html",
+            "title": "JavaScript Demo: Statement - Try...Catch",
+            "type": "js"
+        },
+        "statementVar": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-var.html",
+            "fileName": "statement-var.html",
+            "title": "JavaScript Demo: Statement - Var",
+            "type": "js"
+        },
+        "statementWhile": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/statement-while.html",
+            "fileName": "statement-while.html",
+            "title": "JavaScript Demo: Statement - While",
             "type": "js"
         },
         "typedarrayBuffer": {
