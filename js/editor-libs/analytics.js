@@ -18,7 +18,7 @@
          */
         trackCSSExampleSelection: function() {
             this.trackEvent({
-                category: 'css',
+                category: 'Interactive Example - CSS',
                 action: 'New CSS example selected',
                 label: 'Interaction Events'
             });
@@ -30,7 +30,7 @@
          */
         trackFirstEdit: function(exampleType) {
             this.trackEvent({
-                category: exampleType,
+                category: 'Interactive Example - ' + exampleType,
                 action: 'First edit',
                 label: 'Keyboard Interaction Events'
             });
@@ -48,7 +48,7 @@
          */
         trackFrameLoadTime: function(exampleType, duration) {
             this.trackEvent({
-                category: exampleType,
+                category: 'Interactive Example - ' + exampleType,
                 action: 'Load time in ms: ' + duration,
                 label: 'Performance'
             });
@@ -59,7 +59,7 @@
          */
         trackRunClicks: function() {
             this.trackEvent({
-                category: 'js',
+                category: 'Interactive Example - JS',
                 action: 'Clicked run',
                 label: 'Interaction Events'
             });
