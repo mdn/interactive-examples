@@ -149,7 +149,7 @@
         ].join(' - ');
 
         mceAnalytics.trackEvent({
-            category: 'JavaScript Errors',
+            category: 'Interactive Example - JavaScript Errors',
             action: errorDetails,
             label: msg
         });
