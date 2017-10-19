@@ -20,14 +20,14 @@
      * Formats arrays:
      * - quotes around strings in arrays
      * - square brackets around arrays
-     * - adds commas appropraitely (with spacing)
+     * - adds commas appropriately (with spacing)
      * designed to be used recursively
      * @param {any} input - The output to log.
      * @returns Formatted output as a string.
      */
     function formatArray(input) {
         var output = '';
-        for (var i = 0; i < input.length; i++) {
+        for (var i = 0, l = input.length; i < l; i++) {
             if (typeof(input[i]) === "string") {
                 output += '"' + input[i] + '"';
             } else if (Array.isArray(input[i])) {
@@ -35,11 +35,11 @@
                 output += formatArray(input[i]);
                 output += ']';
             } else {
-              output += input[i];
+                output += input[i];
             }
 
             if (i < (input.length - 1)) {
-              output += ', ';
+                output += ', ';
             }
         }
         return output;
@@ -58,8 +58,8 @@
          if (typeof(input) === "string") {
              return '"' + input + '"';
          } else if (Array.isArray(input)) {
-           // check the contents of the array
-           return '[' + formatArray(input) + ']';
+             // check the contents of the array
+             return '[' + formatArray(input) + ']';
          } else {
              return input;
          }
