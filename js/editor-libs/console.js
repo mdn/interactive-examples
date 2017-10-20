@@ -35,7 +35,7 @@
                 output += formatArray(input[i]);
                 output += ']';
             } else {
-                output += input[i];
+                output += formatObject(input[i]);
             }
 
             if (i < input.length - 1) {
@@ -46,24 +46,59 @@
     }
 
     /**
+     * Formats objects:
+     * ArrayBuffer, DataView, SharedArrayBuffer,
+     * Int8Array, Int16Array, Int32Array,
+     * Uint8Array, Uint16Array, Uint32Array,
+     * Uint8ClampedArray, Float32Array, Float64Array
+     * @param {any} input - The output to log.
+     * @returns Formatted output as a string.
+     */
+    function formatObject(input) {
+        var objectName = input.constructor.name;
+
+        // Re Regexp below - ^ (match at the beginning of input) and $ (match at the end of input)
+
+        if (objectName.match(/^(ArrayBuffer|SharedArrayBuffer|DataView)$/)) {
+            return objectName + '(' + input.byteLength + ') {}';
+        }
+
+        if (objectName.match(/^(Int8Array|Int16Array|Int32Array|Uint8Array|Uint16Array|Uint32Array|Uint8ClampedArray|Float32Array|Float64Array)$/)) {
+            var arrayLength = input.length;
+
+            if (arrayLength > 0) {
+                return objectName + '(' + arrayLength + ')' + ' [' + input + ']';
+            } else {
+                return objectName + ' []';
+            }
+        }
+
+        if (objectName === "Symbol") {
+            return input.toString();
+        }
+
+        return input;
+    }
+
+    /**
      * Formats output to indicate its type:
      * - quotes around strings
      * - square brackets around arrays
      * (also copes with arrays of arrays)
-     * does NOT detect Int32Array etc
+     * will cope with Int32Array etc also within arrays
      * @param {any} input - The output to log.
      * @returns Formatted output as a string.
      */
-    function formatOutput(input) {
-        if (typeof input === 'string') {
-            return '"' + input + '"';
-        } else if (Array.isArray(input)) {
-            // check the contents of the array
-            return '[' + formatArray(input) + ']';
-        } else {
-            return input;
-        }
-    }
+     function formatOutput(input) {
+         if (typeof(input) === "string") {
+             return '"' + input + '"';
+         } else if (Array.isArray(input)) {
+             // check the contents of the array
+             return '[' + formatArray(input) + ']';
+         } else {
+             return formatObject(input);
+         }
+     }
 
     /**
      * Writes the provided content to the editor’s output area
