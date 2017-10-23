@@ -5,10 +5,10 @@ set1.add('forty two');
 
 var iterator1 = set1.entries();
 
-console.log(iterator1.next().value);
-// expected output: [42, 42]
-
-console.log(iterator1.next().value);
-// expected output: ["forty two", "forty two"]
+for (let entry of iterator1) {
+  console.log(entry);
+  // expected output: [42, 42]
+  // expected output: ["forty two", "forty two"]
+}
 </code>
 </pre>
