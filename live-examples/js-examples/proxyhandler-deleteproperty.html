@@ -1,5 +1,5 @@
 <pre>
-<code id="static-js">var proxy1 = new Proxy({}, {
+<code id="static-js">var handler1 = {
   deleteProperty: function(target, prop) {
     if (prop in target){
       delete target[prop];
@@ -8,7 +8,9 @@
       // expected output: "property removed: prop1"
     }
   }
-});
+}
+
+var proxy1 = new Proxy({}, handler1);
 
 proxy1.prop1 = 10;
 

@@ -1,14 +1,20 @@
 <pre>
-<code id="static-js">var proxy1 = new Proxy(function() {}, {
+<code id="static-js">function sum(a, b) {
+  return a + b;
+}
+
+var handler = {
   apply: function(target, thisArg, argumentsList) {
-    console.log('called: ' + argumentsList.join(', '));
-    // expected output: "called: 1, 2, 3"
+    console.log(`Calculate sum: ${argumentsList}`);
+    // expected output: "Calculate sum: 1,2"
 
-    return argumentsList[0] + argumentsList[1] + argumentsList[2];
+    return argumentsList[0] + argumentsList[1];
   }
-});
+};
 
-console.log(proxy1(1, 2, 3));
-// expected output: 6
+var proxy1 = new Proxy(sum, handler);
+
+console.log(proxy1(1, 2));
+// expected output: 3
 </code>
 </pre>
