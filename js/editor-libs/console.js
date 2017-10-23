@@ -28,7 +28,7 @@
     function formatArray(input) {
         var output = '';
         for (var i = 0, l = input.length; i < l; i++) {
-            if (typeof(input[i]) === "string") {
+            if (typeof input[i] === 'string') {
                 output += '"' + input[i] + '"';
             } else if (Array.isArray(input[i])) {
                 output += '[';
@@ -38,7 +38,7 @@
                 output += input[i];
             }
 
-            if (i < (input.length - 1)) {
+            if (i < input.length - 1) {
                 output += ', ';
             }
         }
@@ -54,16 +54,16 @@
      * @param {any} input - The output to log.
      * @returns Formatted output as a string.
      */
-     function formatOutput(input) {
-         if (typeof(input) === "string") {
-             return '"' + input + '"';
-         } else if (Array.isArray(input)) {
-             // check the contents of the array
-             return '[' + formatArray(input) + ']';
-         } else {
-             return input;
-         }
-     }
+    function formatOutput(input) {
+        if (typeof input === 'string') {
+            return '"' + input + '"';
+        } else if (Array.isArray(input)) {
+            // check the contents of the array
+            return '[' + formatArray(input) + ']';
+        } else {
+            return input;
+        }
+    }
 
     /**
      * Writes the provided content to the editor’s output area
