@@ -1,14 +1,14 @@
 <pre>
 <code id="static-js">var weakmap1 = new WeakMap();
-var object1 = new Object();
-var object2 = new Object();
+var object1 = {};
+var object2 = {};
 
-weakmap1.set(object1, 42);
+weakmap1.set(object1, 'foo');
 
-console.log(weakmap1.get(object1));
-// expected output: 42
+console.log(weakmap1.has(object1));
+// expected output: true
 
-console.log(weakmap1.get(object2));
-// expected output: undefined
+console.log(weakmap1.has(object2));
+// expected output: false
 </code>
 </pre>

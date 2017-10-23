@@ -6,10 +6,10 @@ map1.set(1, 'bar');
 
 var iterator1 = map1[Symbol.iterator]();
 
-console.log(iterator1.next().value);
-// expected output: ["0", "foo"]
-
-console.log(iterator1.next().value);
-// expected output: [1, "bar"]
+for (let item of iterator1) {
+  console.log(item);
+  // expected output: ["0", "foo"]
+  // expected output: [1, "bar"]
+}
 </code>
 </pre>
