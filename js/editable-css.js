@@ -100,6 +100,9 @@
 
         clippy.addClippy();
 
+        // register events handlers
+        mceEvents.register();
+
         handleResetEvents();
     }
 
