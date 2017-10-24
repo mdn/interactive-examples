@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var obj1 = new Object();
+obj1.prop1 = 42;
+
+console.log(obj1.hasOwnProperty('prop1'));
+// expected output: true
+
+console.log(obj1.hasOwnProperty('toString'));
+// expected output: false
+
+console.log(obj1.hasOwnProperty('hasOwnProperty'));
+// expected output: false
+</code>
+</pre>

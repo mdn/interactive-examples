@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">function sum(x, y, z) {
+  return x + y + z;
+}
+
+var nums = [1, 2, 3];
+
+console.log(sum(...nums));
+// expected output: 6
+
+console.log(sum.apply(null, nums));
+// expected output: 6
+</code>
+</pre>

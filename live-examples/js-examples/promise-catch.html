@@ -1,0 +1,11 @@
+<pre>
+<code id="static-js">var promise1 = new Promise(function(resolve, reject) {
+  throw 'Uh-oh!';
+});
+
+promise1.catch(function(error) {
+  console.log(error);
+});
+// expected output: Uh-oh!
+</code>
+</pre>

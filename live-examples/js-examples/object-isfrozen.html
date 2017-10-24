@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var obj1 = {
+  prop1: 42
+};
+
+console.log(Object.isFrozen(obj1));
+// expected output: false
+
+Object.freeze(obj1);
+
+console.log(Object.isFrozen(obj1));
+// expected output: true
+</code>
+</pre>

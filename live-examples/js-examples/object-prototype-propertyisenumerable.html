@@ -1,0 +1,16 @@
+<pre>
+<code id="static-js">var obj1 = {};
+var arr1 = [];
+obj1.prop1 = 42;
+arr1[0] = 42;
+
+console.log(obj1.propertyIsEnumerable('prop1'));
+// expected output: true
+
+console.log(arr1.propertyIsEnumerable(0));
+// expected output: true
+
+console.log(arr1.propertyIsEnumerable('length'));
+// expected output: false
+</code>
+</pre>

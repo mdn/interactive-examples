@@ -1,83 +1,72 @@
 (function() {
     'use strict';
 
-    var cmEditor = undefined;
-    var cmInitContent = '';
-    var cmSelectChStart = 0;
-    var cmSelectLine = 0;
+    var exampleFeature = document.getElementById('static-js').dataset[
+        'feature'
+    ];
     var execute = document.getElementById('execute');
     var liveContainer = '';
     var reset = document.getElementById('reset');
+    var staticContainer;
 
+    /**
+     * Reads the textContent from the interactiveCodeBlock, sends the
+     * textContent to executeLiveExample, and logs the output to the
+     * output container
+     */
     function applyCode() {
-        var code = cmEditor.doc.getValue();
-        var result = '';
+        var codeMirrorDoc = codeMirror.getDoc();
+        updateOutput(codeMirrorDoc.getValue());
+    }
+
+    function initInteractiveEditor() {
+        staticContainer = document.getElementById('static');
+        staticContainer.classList.add('hidden');
+
+        liveContainer = document.getElementById('live');
+        liveContainer.classList.remove('hidden');
+
+        mceEvents.register();
+    }
+
+    /**
+     * Executes the provided code snippet and logs the result
+     * to the output container.
+     * @param {String} exampleCode - The code to execute
+     */
+    function updateOutput(exampleCode) {
         var output = document.querySelector('#output code');
 
-        try {
-            result = executeLiveExample(code);
-        } catch (e) {
-            result = 'Error: ' + e.message;
-        }
-
         output.classList.add('fade-in');
-        output.textContent = result;
+
+        try {
+            // Create a new Function from the code, and immediately execute it.
+            new Function(exampleCode)();
+        } catch (event) {
+            output.textContent = 'Error: ' + event.message;
+        }
 
         output.addEventListener('animationend', function() {
             output.classList.remove('fade-in');
         });
     }
 
-    function enableLiveEditor() {
-        var staticContainer = document.getElementById('static');
-        var codeBlock = staticContainer.querySelector('#static-js');
+    /* only execute JS in supported browsers. As `document.all`
+    is a non standard object available only in IE10 and older,
+    this will stop JS from executing in those versions. */
+    if (!document.all && featureDetector.isDefined(exampleFeature)) {
+        document.documentElement.classList.add('js');
 
-        liveContainer = document.getElementById('live');
+        initInteractiveEditor();
 
-        cmInitContent = codeBlock.textContent;
-        cmSelectChStart = codeBlock.dataset['char'];
-        cmSelectLine = codeBlock.dataset['line'];
+        execute.addEventListener('click', function() {
+            editorConsole.clearOutput();
+            applyCode();
+            mceAnalytics.trackRunClicks();
+        });
 
-        staticContainer.classList.add('hidden');
-        liveContainer.classList.remove('hidden');
-
-        cmEditor = codemirrorUtils.initCodeMirror({
-            cmInitContent: cmInitContent,
-            cmSelectLine: cmSelectLine,
-            cmSelectChStart: cmSelectChStart
+        reset.addEventListener('click', function() {
+            window.location.reload();
         });
     }
-
-    /**
-     * Creates a new Function from the live example, and immediately executes it.
-     * The result of the function execution is returned.
-     * @param {string} body - The live example string to parse into a Function
-     */
-    function executeLiveExample(body) {
-        new Function(body)();
-        return window.liveExResult;
-    }
-
-    execute.addEventListener('click', function() {
-        applyCode();
-    });
-
-    reset.addEventListener('click', function() {
-        var editorContentOptions = {
-            cmInitContent: cmInitContent,
-            cmSelectLine: cmSelectLine,
-            cmSelectChStart: cmSelectChStart
-        };
-
-        codemirrorUtils.setEditorContent(editorContentOptions);
-
-        mceUtils.toggleReset(liveContainer);
-
-        applyCode();
-    });
-
-    window.addEventListener('load', function() {
-        enableLiveEditor();
-        applyCode();
-    });
 })();

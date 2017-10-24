@@ -6,7 +6,7 @@
          * Calculates the perceived load time of the iframe using
          * the Navigation Timing API
          */
-        calculateFrameLoadTime() {
+        calculateFrameLoadTime: function() {
             var loadTime = 'Not supported';
             var now = new Date().getTime();
 
@@ -15,6 +15,24 @@
             }
 
             return loadTime;
+        },
+        /**
+         * Find and return the `example-choice` parent of the provided element
+         * @param {Object} element - The child element for which to find the
+         * `example-choice` parent
+         *
+         * @return The parent `example-choice` element
+         */
+        findParentChoiceElem: function(element) {
+            var parent = element.parentElement;
+            var parentClassList = parent.classList;
+            while (parent && !parentClassList.contains('example-choice')) {
+                // get the next parent
+                parent = parent.parentElement;
+                // get the new parent's `classList`
+                parentClassList = parent.classList;
+            }
+            return parent;
         },
         /**
          * Creates a temporary element and tests whether the passed
@@ -36,28 +54,6 @@
 
             customBlock.classList.remove('hidden');
             customBlock.setAttribute('aria-hidden', false);
-        },
-        /**
-         * Show or hide the reset button
-         * @param {Object} container - The element containing the reset element
-         */
-        toggleReset: function(container) {
-            var resetButton = container.querySelector('.reset');
-
-            if (resetButton.classList.contains('hidden')) {
-                resetButton.classList.remove('hidden', 'fade-out');
-                resetButton.classList.add('fade-in');
-                resetButton.setAttribute('aria-hidden', false);
-            } else {
-                resetButton.classList.remove('fade-in');
-                resetButton.classList.add('fade-out');
-
-                resetButton.addEventListener('animationend', function hide() {
-                    resetButton.classList.add('hidden');
-                    resetButton.setAttribute('aria-hidden', true);
-                    resetButton.removeEventListener('animationend', hide);
-                });
-            }
         }
     };
 

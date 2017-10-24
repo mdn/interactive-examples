@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var obj1 = {
+  prop1: 42
+};
+
+var obj2 = Object.freeze(obj1);
+
+obj2.prop1 = 33;
+// Throws an error in strict mode
+
+console.log(obj2.prop1);
+// expected output: 42
+</code>
+</pre>

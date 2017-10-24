@@ -1,4 +1,4 @@
-# Logs
+# Log files
 logs
 *.log
 npm-debug.log*
@@ -37,3 +37,4 @@ jspm_packages
 .node_repl_history
 
 docs
+tests/*
