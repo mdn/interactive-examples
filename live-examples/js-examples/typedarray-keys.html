@@ -1,0 +1,12 @@
+<pre>
+<code id="static-js" class="language-js">var uint8 = new Uint8Array([10, 20, 30, 40, 50]);
+var keys = uint8.keys();
+
+// iterate a couple of times
+keys.next();
+keys.next();
+
+console.log(keys.next().value); // 3rd iteration
+// expected output: 2
+</code>
+</pre>

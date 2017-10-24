@@ -1,0 +1,15 @@
+<pre>
+<code id="static-js">var obj1 = {};
+
+Object.defineProperty(obj1, "prop1", {
+  value: 42,
+  writable: false
+});
+
+obj1.prop1 = 77;
+// throws an error in strict mode
+
+console.log(obj1.prop1);
+// expected output: 42
+</code>
+</pre>

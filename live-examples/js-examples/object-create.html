@@ -1,0 +1,16 @@
+<pre>
+<code id="static-js">function Shape() {
+  this.name = "Shape 1";
+}
+
+function Rectangle() {
+  Shape.call(this);
+}
+
+Rectangle.prototype = Object.create(Shape.prototype);
+var rect = new Rectangle();
+
+console.log(rect.name);
+// expected output: "Shape 1"
+</code>
+</pre>

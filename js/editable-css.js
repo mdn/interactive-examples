@@ -1,4 +1,7 @@
 (function(global) {
+    'use strict';
+
+    var editTimer = undefined;
     var exampleChoiceList = document.getElementById('example-choice-list');
     var exampleChoices = exampleChoiceList.querySelectorAll('.example-choice');
     var header = document.querySelector('header');
@@ -18,39 +21,61 @@
 
             element.style.cssText = code;
 
-            if (!element.style.cssText) {
-                choice.classList.add('invalid');
-            } else {
-                choice.classList.remove('invalid');
+            // clear any existing timer
+            clearTimeout(editTimer);
+            /* Start a new timer. This will ensure that the state is
+            not marked as invalid, until the user has stopped typing
+            for 500ms */
+            editTimer = setTimeout(function() {
+                if (!element.style.cssText) {
+                    choice.classList.add('invalid');
+                } else {
+                    choice.classList.remove('invalid');
+                }
+            }, 500);
+        },
+        /**
+         * Called when a new `example-choice` has been selected.
+         * @param {Object} choice - The selected `example-choice` element
+         */
+        onChoose: function(choice) {
+            var selected = document.querySelector('.selected');
+
+            // highlght the code we are leaving
+            if (selected && !choice.classList.contains('selected')) {
+                var highlighted = Prism.highlight(
+                    selected.firstChild.textContent,
+                    Prism.languages.css
+                );
+                selected.firstChild.innerHTML = highlighted;
+
+                mceAnalytics.trackCSSExampleSelection();
+
+                resetDefault();
             }
+
+            choose(choice);
+
+            clippy.toggleClippy(choice);
         }
     };
 
+    /**
+     * Sets the choice to selected, changes the nested code element to be editable,
+     * turns of spellchecking, and moves focus to the code. Lastly, it applies
+     * the code to the example element by calling applyCode.
+     * @param {Object} choice - The selected `example-choice` element
+     */
     function choose(choice) {
-        var codeBlock = choice.querySelector('pre');
-        choice.classList.add('selected');
+        var codeBlock = choice.querySelector('code');
 
-        /* If the newly chosen example is in an invalid state,
-           ensure that the reset buttton is visible */
-        if (choice.classList.contains('invalid')) {
-            window.mceUtils.showReset(choice);
-        }
+        choice.classList.add('selected');
 
         codeBlock.setAttribute('contentEditable', true);
         codeBlock.setAttribute('spellcheck', false);
         codeBlock.focus();
 
         CSSEditorUtils.applyCode(choice.textContent, choice);
-    }
-
-    function copyTextOnly(e) {
-        var selection = window.getSelection();
-        var range = selection.getRangeAt(0);
-
-        e.clipboardData.setData('text/plain', range.toString());
-        e.clipboardData.setData('text/html', range.toString());
-        e.preventDefault();
-        e.stopPropagation();
     }
 
     /**
@@ -61,11 +86,8 @@
         exampleChoiceList.classList.add('live');
         output.classList.remove('hidden');
 
-        document.addEventListener('cut', copyTextOnly);
-        document.addEventListener('copy', copyTextOnly);
-
-        for (var exampleChoice of exampleChoices) {
-            var resetButton = exampleChoice.querySelector('.reset');
+        for (var i = 0, l = exampleChoices.length; i < l; i++) {
+            var exampleChoice = exampleChoices[i];
 
             originalChoices.push(
                 exampleChoice.querySelector('code').textContent
@@ -74,24 +96,42 @@
             if (exampleChoice.getAttribute('initial-choice')) {
                 initialChoice = indexOf(exampleChoices, exampleChoice);
             }
-
-            exampleChoice.addEventListener('click', onChoose);
-            exampleChoice.addEventListener('keyup', onEdit);
-
-            // not all examples have a reset button
-            if (resetButton) {
-                resetButton.addEventListener('click', function(e) {
-                    var choice = e.target.parentNode;
-                    var replacementText =
-                        originalChoices[indexOf(exampleChoices, choice)];
-                    var highlighted = Prism.highlight(
-                        replacementText,
-                        Prism.languages.css
-                    );
-                    choice.querySelector('pre').innerHTML = highlighted;
-                });
-            }
         }
+
+        clippy.addClippy();
+
+        // register events handlers
+        mceEvents.register();
+
+        handleResetEvents();
+    }
+
+    /**
+     * Attached an event handler on the reset button, and handles
+     * reset all the CSS examples to their original state
+     */
+    function handleResetEvents() {
+        var resetButton = document.getElementById('reset');
+
+        resetButton.addEventListener('click', function() {
+            for (var i = 0, l = exampleChoices.length; i < l; i++) {
+                var highlighted = Prism.highlight(
+                    originalChoices[i],
+                    Prism.languages.css
+                );
+                // IE11 does not support multiple selectors in `remove`
+                exampleChoices[i].classList.remove('invalid');
+                exampleChoices[i].classList.remove('selected');
+                exampleChoices[i].querySelector('code').innerHTML = highlighted;
+            }
+
+            // if there is an initial choice set, set it as selected
+            if (initialChoice) {
+                CSSEditorUtils.onChoose(exampleChoices[initialChoice]);
+            } else {
+                CSSEditorUtils.onChoose(exampleChoices[0]);
+            }
+        });
     }
 
     function indexOf(exampleChoices, choice) {
@@ -103,27 +143,6 @@
         return -1;
     }
 
-    function onChoose(e) {
-        var selected = document.querySelector('.selected');
-
-        // highlght the code we are leaving
-        if (selected && e.currentTarget !== selected) {
-            var highlighted = Prism.highlight(
-                selected.firstChild.textContent,
-                Prism.languages.css
-            );
-            selected.firstChild.innerHTML = highlighted;
-        }
-
-        resetDefault();
-
-        choose(e.currentTarget);
-    }
-
-    function onEdit(e) {
-        CSSEditorUtils.applyCode(e.currentTarget.textContent, e.currentTarget);
-    }
-
     /**
      * Resets the default example to visible but, only if it is currently hidden
      */
@@ -131,7 +150,7 @@
         var defaultExample = document.getElementById('default-example');
 
         // only reset to default if the default example is hidden
-        if (defaultExample.classList.value.indexOf('hidden') > -1) {
+        if (defaultExample.classList.contains('hidden')) {
             var sections = output.querySelectorAll('section');
             // loop over all sections and set to hidden
             for (var i = 0, l = sections.length; i < l; i++) {
@@ -147,26 +166,25 @@
     }
 
     /**
-     * Resets the UI state by deselcting all example choice, and
-     * hiding all reset buttons.
+     * Resets the UI state by deselcting all example choice
      */
     function resetUIState() {
-        var resetButtons = exampleChoiceList.querySelectorAll('.reset');
-
-        for (var resetButton of resetButtons) {
-            resetButton.classList.add('hidden');
-            resetButton.setAttribute('aria-hidden', true);
-        }
-
-        for (var exampleChoice of exampleChoices) {
-            exampleChoice.classList.remove('selected');
+        for (var i = 0, l = exampleChoices.length; i < l; i++) {
+            exampleChoices[i].classList.remove('selected');
         }
     }
 
-    // only show the live code view if JS is enabled and the property is supported
-    if (mceUtils.isPropertySupported(exampleChoiceList.dataset['property'])) {
+    /* only show the live code view if JS is enabled and the property is supported.
+    Also, only execute JS in our supported browsers. As `document.all`
+    is a non standard object available only in IE10 and older,
+    this will stop JS from executing in those versions. */
+    if (
+        typeof exampleChoiceList.dataset !== 'undefined' &&
+        mceUtils.isPropertySupported(exampleChoiceList.dataset['property']) &&
+        !document.all
+    ) {
         enableLiveEditor();
-        choose(exampleChoices[initialChoice]);
+        CSSEditorUtils.onChoose(exampleChoices[initialChoice]);
     }
 
     global.cssEditorUtils = CSSEditorUtils;

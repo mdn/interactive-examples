@@ -28,11 +28,15 @@ module.exports = {
         'new-cap': 2
     },
     globals: {
-        CodeMirror: true,
-        codemirrorUtils: true,
+        Clipboard: true,
+        clippy: true,
+        codeMirror: true,
         console: true,
         cssEditorUtils: true,
+        editorConsole: true,
+        featureDetector: true,
         mceAnalytics: true,
+        mceEvents: true,
         mceUtils: true,
         Prism: true,
         require: true

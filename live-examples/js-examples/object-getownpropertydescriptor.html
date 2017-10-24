@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var obj1 = {
+  prop1: 42
+}
+
+var descriptor1 = Object.getOwnPropertyDescriptor(obj1, "prop1");
+
+console.log(descriptor1.configurable);
+// expected output: true
+
+console.log(descriptor1.value);
+// expected output: 42
+</code>
+</pre>
