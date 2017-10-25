@@ -51,6 +51,7 @@
      * Int8Array, Int16Array, Int32Array,
      * Uint8Array, Uint16Array, Uint32Array,
      * Uint8ClampedArray, Float32Array, Float64Array
+     * Symbol
      * @param {any} input - The output to log.
      * @returns Formatted output as a string.
      */
@@ -58,7 +59,6 @@
         var objectName = input.constructor.name;
 
         // Re Regexp below - ^ (match at the beginning of input) and $ (match at the end of input)
-
         if (objectName.match(/^(ArrayBuffer|SharedArrayBuffer|DataView)$/)) {
             return objectName + '(' + input.byteLength + ') {}';
         }
@@ -73,7 +73,7 @@
             }
         }
 
-        if (objectName === "Symbol") {
+        if (objectName === 'Symbol') {
             return input.toString();
         }
 
@@ -85,7 +85,7 @@
      * - quotes around strings
      * - square brackets around arrays
      * (also copes with arrays of arrays)
-     * will cope with Int32Array etc also within arrays
+     * will cope with Int32Array etc. also within arrays
      * @param {any} input - The output to log.
      * @returns Formatted output as a string.
      */
