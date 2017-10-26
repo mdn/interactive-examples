@@ -3,6 +3,10 @@
     font-size: 14px;
 }
 
+.js .editor {
+    min-height: 280px;
+}
+
 .editor {
     position: relative;
     margin-bottom: 1em;

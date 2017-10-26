@@ -23,7 +23,7 @@
                 event.clearSelection();
 
                 mceAnalytics.trackEvent({
-                    category: 'css',
+                    category: 'Interactive Example - CSS',
                     action: 'Copy to clipboard clicked',
                     label: 'Interaction Events'
                 });

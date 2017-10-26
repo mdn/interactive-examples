@@ -30,12 +30,13 @@ module.exports = {
     globals: {
         Clipboard: true,
         clippy: true,
-        CodeMirror: true,
+        codeMirror: true,
         console: true,
         cssEditorUtils: true,
         editorConsole: true,
         featureDetector: true,
         mceAnalytics: true,
+        mceEvents: true,
         mceUtils: true,
         Prism: true,
         require: true

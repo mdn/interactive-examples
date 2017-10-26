@@ -1,0 +1,15 @@
+<pre>
+<code id="static-js">function obj1() {}
+function obj2() {}
+
+obj1.prototype = Object.create(obj2.prototype);
+
+var obj3 = new obj1();
+
+console.log(obj1.prototype.isPrototypeOf(obj3));
+// expected output: true
+
+console.log(obj2.prototype.isPrototypeOf(obj3));
+// expected output: true
+</code>
+</pre>
