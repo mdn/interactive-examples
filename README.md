@@ -2,18 +2,18 @@
 
 [![Build Status](https://travis-ci.org/mdn/interactive-examples.svg?branch=master)](https://travis-ci.org/mdn/interactive-examples)
 
-Home of the [MDN](https://developer.mozilla.org/) live code interactive examples.
+Home of the [MDN](https://developer.mozilla.org/) live interactive code examples.
 
 
 ## Folder Structure
 
-* [css] - This contains CSS used by the base templates
-* [js] - This contains the JS used by the base templates
-* [live-examples] - This contains the live example CSS and JS fragments
-* [media] - The contains images used by the live examples and templates
-* [tmpl] - The base templates
+* [css] - This contains the CSS used by the base templates.
+* [js] - This contains the JS used by the base templates.
+* [live-examples] - This contains the live example CSS and JS fragments.
+* [media] - The contains images used by the live examples and templates.
+* [tmpl] - The base templates.
 
-The dynamically generated pages, their dependecies and assets are generated to the `gh-pages` branch.
+The dynamically generated pages, their dependencies, and assets are generated to the `gh-pages` branch.
 
 ## site.json
 
@@ -21,7 +21,7 @@ This describes the pages and bundles that make up the live examples.
 
 ### Bundles
 
-Bundles are mainly used by the base templates, and look as follows:
+Bundles are mainly used by the base templates, and look like so:
 
 ```
 "cssExamplesBase": {
@@ -32,8 +32,8 @@ Bundles are mainly used by the base templates, and look as follows:
 ```
 
 * `javascript` - This is an array of JS files that will be concatenated and Uglified.
-* `css` - This is an array of CSS files that will be concatenated
-* `destFileName` - The file name to use for the generated bundle, .css or .js will be appended as appropriate
+* `css` - This is an array of CSS files that will be concatenated.
+* `destFileName` - The file name to use for the generated bundle; `.css` or `.js` will be appended as appropriate.
 
 ### Pages
 
@@ -50,34 +50,34 @@ This section is used to describe live example pages that will be generated. The 
 },
 ```
 
-* `baseTmpl` - The base template to use for this example
-* `cssExampleSrc` - File location that will be used as the value for the `href` attribute for a `link` tag.
-* `jsExampleSrc` - File location that will be used as the value for the `src` attribute for a `script` tag.
-* `exampleCode` - This is currently only used by the CSS examples, and points to the file location of the relevant live example HTML.
-* `fileName` - This is the file name that will be used for the generated live example page
-* `type` - Whether this is a JavaScript or CSS live example page.
+* `baseTmpl` - The base template to use for this example.
+* `cssExampleSrc` - The file location that will be used as the value for the `href` attribute of a `link` tag.
+* `jsExampleSrc` - The file location that will be used as the value for the `src` attribute of a `script` tag.
+* `exampleCode` - This is currently only used by the CSS examples, and points to the location of the relevant live example HTML file.
+* `fileName` - This is the file name that will be used for the generated live example page.
+* `type` - The type of example; currently the only available types are js (JavaScript) or css.
 
 ## Browser Support Baseline
 
-The following is the list of browser/version combination that's supported by the interactive editors. For browsers that do not meet the crediteria, we will degrade gracefully to displaying static examples.
+The following is a list of browser/version combinations that are supported by the interactive editor. In browsers that do not meet the criteria, the editor degrades gracefully to displaying static examples.
 
-* Firefox - Latest three release versions
-* Chrome - Latest three release versions
-* Opera - Latest two release versions
-* Safari - Latest two release versions
-* Internet Explorer - version 11
-* Edge - Latest released version
+* Firefox - Latest three release versions.
+* Chrome - Latest three release versions.
+* Opera - Latest two release versions.
+* Safari - Latest two release versions.
+* Internet Explorer - version 11.
+* Edge - Latest release version.
 
 
 ## Contributing Live Code Examples
 
-### Get set-up to contribute
+### Get setup to contribute
 
-To contribute live examples all you need is a text editor, git, a Github account, and Nodejs.
+To contribute live examples all you need is a text editor, git, a GitHub account, and Nodejs.
 
-As far as a text/code editor goes, there are more editors than you can shake a stick at so, it's down to personal preference. [Atom](https://atom.io/) is a great, open source editor we can definately recommend.
+As far as text/code editors go, there are more editors than you can shake a stick at, so it's down to personal preference. [Atom](https://atom.io/) is a great, open source editor we can definitely recommend.
 
-For more information on setting up Git on your machine, [read the following article](https://help.github.com/articles/set-up-git/).
+For more information on setting up Git on your machine, [read this article](https://help.github.com/articles/set-up-git/).
 
 With the above dependencies satisfied, [create your new account on Github](https://github.com/join).
 
@@ -85,7 +85,7 @@ Lastly, [install Nodejs for your operating system](https://nodejs.org/).
 
 ### Fork and Clone
 
-Next up, forking and cloning. To contribute to the main repository, you will need to have your own fork of the repository. You can [learn about forking on Github](https://help.github.com/articles/fork-a-repo). Once you have you own fork, [clone it to your local machine](https://help.github.com/articles/cloning-a-repository/).
+Next up, you need to fork and clone the repo to be able to contribute to it. You can [learn about forking on Github](https://help.github.com/articles/fork-a-repo). Once you have you own fork, [clone it to your local machine](https://help.github.com/articles/cloning-a-repository/).
 
 Finally, change into the new directory created by the clone and run the following command:
 
@@ -97,15 +97,17 @@ This will ensure that you have all the required development modules installed to
 
 ### Publishing to production (`interactive-examples.mdn.mozilla.net`)
 
-1. Push to the `prod` branch on GitHub, e.g. `git push origin master:prod` (this will push your local `master` branch to the remote `prod` branch)
+Push to the `prod` branch on GitHub, e.g. `git push origin master:prod`. This will push your local `master` branch to the remote `prod` branch.
 
 ### General
 
-There are two types of live examples we currently support. Those are JavaScript and Cascasing Style Sheets. The process of contributing either is essentially the same but, there are slight differences you need to be aware of.
+There are two types of live examples we currently support: JavaScript and CSS. The process of contributing to either is essentially the same, but there are slight differences you need to be aware of.
 
-### Contributing A CSS Example
+### Contributing a CSS example
 
-With a CSS example, you start of by creating a new HTML fragment inside `live-examples\css-examples\`. The name of this file should clearly match the example you are adding. For example, if you are adding samples for `border-radius`, you would call the file `border-radius.html`
+Here we walk you through adding a new CSS example
+
+You start off by creating a new HTML fragment inside `live-examples\css-examples\`. The name of this file should clearly match the example you are adding. For example, if you are adding samples for `border-radius` you would call the file `border-radius.html`.
 
 Inside this newly created file, copy and paste the following code.
 
@@ -124,9 +126,9 @@ your CSS goes here</code></pre>
 </div>
 ```
 
-This is base starting point for all CSS examples. Your next step is to fill in the example element. For `border-raius` it makes sense to have a simple div element with a solid background color. For this example then, the already present `example-element` div will do, however we do need to give it some basic styling, and perhaps add the text "Style Me".
+This is the base starting point for all CSS examples. Your next step is to fill in the example element. For `border-radius` it makes sense to have a simple `<div>` element with a solid background color. The already present `example-element` `<div>` will do, however we do need to give it some basic styling, and perhaps add the text "Style Me".
 
-First then, inside the `example-element` div add the text "Style Me".
+First then, inside the `example-element` `<div>` add the text "Style Me", like so:
 
 ```
 <div id="output" class="output">
@@ -136,7 +138,7 @@ First then, inside the `example-element` div add the text "Style Me".
 </div>
 ```
 
-Next, create a new CSS file inside `live-examples\css-examples\css\`. Call this CSS file the same as the HTML file i.e. `border-raius.css`. Add the following code to it:
+Next, create a new CSS file inside `live-examples\css-examples\css\`. Call this CSS file the same as the HTML file i.e. `border-radius.css`. Add the following code to it:
 
 ```
 #example-element {
@@ -146,7 +148,7 @@ Next, create a new CSS file inside `live-examples\css-examples\css\`. Call this 
 }
 ```
 
-Next we need to add some different examples of using `border-radius`. In the `pre` tab from before, you will see there is a nested `example-choice` element. For each example you wish to add, you will add one of these with the CSS style rule to applied, as is content, for example:
+Next we need to add some different examples of using `border-radius`. In the `<pre>` element we first saw above, you will see there is a nested `<div>` with a class of `example-choice`. For each example you wish to add, you will add one of these with the CSS declaration to apply as its content, for example:
 
 ```
 <section id="example-choice-list" class="example-choice-list">
@@ -166,16 +168,16 @@ Next we need to add some different examples of using `border-radius`. In the `pr
 
 #### Comments
 
-As with the JavaScript examples below, you can add comments to the examples you add. However, when adding comments, please follow these guidelines:
+You can add comments to the examples you add. However, when adding comments, please follow these guidelines:
 
-* Add comments when absolutely required
-* Wrap comments in the standard CSS comments i.e. `/* */`
-* A comment should never span more than one line
-* Aim to limit the number of chracters to around 80
+* Add comments only when absolutely required.
+* Wrap comments in the standard CSS comment delimiters, i.e. `/* */`.
+* A comment should never span more than one line.
+* Aim to limit the number of characters to around 80.
 
-With this, the example work is complete, and all you need to do, is tell the page generator about your new page and its dependecies. To do this, open up `site.json` at the root of the project folder. Under `pages`, find an exising entry with the `type` of `css`.
+With this, the example work is complete, and all you need to do is tell the page generator about your new page and its dependencies. To do this, open up the `site.json` file in the root of the project folder. Under `pages`, find an existing entry with a `type` of `css`.
 
-Copy and paste an example, noting that pages are grouped by `type`, and then alphabetically for each `type`. You entry will look as follows when edited:
+Copy and paste the example then update it to apply to your new example, noting that pages are grouped by `type`, and then alphabetically for each `type`. You entry will look something like this when edited:
 
 ```
 "borderRadius": {
@@ -187,7 +189,7 @@ Copy and paste an example, noting that pages are grouped by `type`, and then alp
 },
 ```
 
-You're done. All that remain is testing that your page generates and displayes as intended, and opening your pull request for review.
+You're done. All that remain is to test that your page generates and displays as intended, then open a pull request for review.
 
 From your command line run:
 
@@ -201,15 +203,15 @@ Once this completes run:
 npm start
 ```
 
-Point your browser to:
-
-[localhost:8080/pages/css/border-radius.html](http://localhost:8000/pages/css/border-radius.html)
+Now point your browser to [localhost:8080/pages/css/border-radius.html](http://localhost:8000/pages/css/border-radius.html).
 
 Once satisfied with the example, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
 
 ### Contributing A JavaScript Example
 
-With a JavaScript example you start by creating a new `.html` file in `live-examples\css-examples\js\`. The same naming convention applies here as it does for CSS. In this example we are going to contribute an exmaple demonstrating the use of `Array.from` so, create a new file called `array-from.html`. Paste the following code into this new file(this will be the same for all JavaScript examples you add):
+With a JavaScript example you start by creating a new `.html` file in `live-examples/js-examples`. The same naming convention applies here as it does for CSS. In this example we are going to contribute an example demonstrating the use of `Array.from` so, we'll create a new file called `array-from.html`.
+
+Next, you need to paste the following code into this new file (this will be the same for all JavaScript examples you add):
 
 ```
 <pre>
@@ -231,13 +233,11 @@ console.log(result);
 </pre>
 ```
 
-That is all for the live example piece. All that remains is to tell the page generator about our new example. To do this, open up `site.json` at the root of the project folder. Under `pages`, find an exising entry with the `type` of `js`.
+That is all for the live example piece. All that remains is to tell the page generator about our new example. To do this, open up `site.json` at the root of the project folder. Under `pages`, find an existing entry with a `type` of `js`.
 
-Copy and paste an example.
+Copy and paste the example then update it to your new example, noting that pages are grouped by `type`, and then alphabetically for each `type`.
 
-> The file is ordered by `type`, and then alphabetically for each `type`.
-
-You entry will look as follows when edited:
+You entry will look something like the following when edited:
 
 ```
 "arrayFrom": {
@@ -248,7 +248,7 @@ You entry will look as follows when edited:
 },
 ```
 
-You're done. All that remain is testing that your page generates and displayes as intended.
+You're done. All that remains is testing that your page generates and displays as intended, then submitting a pull request.
 
 From your command line run:
 
@@ -267,5 +267,7 @@ Point your browser to:
 [localhost:8080/pages/js/array-from.html](http://localhost:8000/pages/js/array-from.html)
 
 Once satisfied with the example, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
+
+## Thank you!
 
 Thank you for your contribution ~ o/\o
