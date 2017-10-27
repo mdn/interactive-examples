@@ -25,7 +25,7 @@ Bundles are mainly used by the base templates, and look like so:
 
 ```
 "cssExamplesBase": {
-    "javascript": ["js/libs/prism.js", "js/editable-css.js"],
+    "javascript": ["js/lib/prism.js", "js/editable-css.js"],
     "css": ["css/editable-css.css", "css/libs/prism.css"],
     "destFileName": "css-examples-base"
 },
