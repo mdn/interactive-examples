@@ -1,7 +1,7 @@
 {
     "bundles": {
         "codeMirror": {
-            "javascript": ["js/libs/codemirror.js"],
+            "javascript": ["js/lib/codemirror.js"],
             "css": [
                 "css/libs/codemirror.css",
                 "css/editor-libs/codemirror-override.css"
@@ -22,8 +22,8 @@
                 "js/editor-libs/analytics.js",
                 "js/editor-libs/events.js",
                 "js/editor-libs/clippy.js",
-                "js/libs/prism.js",
-                "js/libs/clipboard.js",
+                "js/lib/prism.js",
+                "js/lib/clipboard.js",
                 "js/editable-css.js"
             ],
             "css": [

@@ -1,4 +1,4 @@
-require(['libs/codemirror'], function(CodeMirror) {
+require(['lib/codemirror', 'mode/javascript/javascript'], function(CodeMirror) {
     var codeBlock = document.getElementById('static-js');
     var editorContainer = document.getElementById('editor');
     // eslint-disable-next-line new-cap
