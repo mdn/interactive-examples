@@ -31,7 +31,7 @@
             if (typeof(input[i]) === "string") {
                 output += '"' + input[i] + '"';
             } else if (Array.isArray(input[i])) {
-                output += '[';
+                output += 'Array [';
                 output += formatArray(input[i]);
                 output += ']';
             } else {
@@ -60,14 +60,14 @@
 
         // Re Regexp below - ^ (match at the beginning of input) and $ (match at the end of input)
         if (objectName.match(/^(ArrayBuffer|SharedArrayBuffer|DataView)$/)) {
-            return objectName + '(' + input.byteLength + ') {}';
+            return objectName + ' {}';
         }
 
         if (objectName.match(/^(Int8Array|Int16Array|Int32Array|Uint8Array|Uint16Array|Uint32Array|Uint8ClampedArray|Float32Array|Float64Array)$/)) {
             var arrayLength = input.length;
 
             if (arrayLength > 0) {
-                return objectName + '(' + arrayLength + ')' + ' [' + input + ']';
+                return objectName + ' [' + formatArray(input) + ']';
             } else {
                 return objectName + ' []';
             }
@@ -94,7 +94,7 @@
              return '"' + input + '"';
          } else if (Array.isArray(input)) {
              // check the contents of the array
-             return '[' + formatArray(input) + ']';
+             return 'Array [' + formatArray(input) + ']';
          } else {
              return formatObject(input);
          }
