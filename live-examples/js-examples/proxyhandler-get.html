@@ -1,14 +1,26 @@
 <pre>
-<code id="static-js">var proxy1 = new Proxy({}, {
-  get: function(target, prop, receiver) {
-    console.log('called: ' + prop);
-    // expected output: "called: prop1"
-    
-    return 10;
-  }
-});
+<code id="static-js">function Monster() {
+  this.secret = 'I am scared';
+  this.eyeCount = 4;
+}
 
-console.log(proxy1.prop1);
-// expected output: 10
+var handler1 = {
+  get: function(target, prop, receiver) {
+    if (prop === 'secret') {
+      return `${target.secret.substr(0, 4)} ... shhhh!`;
+    } else {
+      return Reflect.get(...arguments);
+    }
+  }
+};
+
+var monster1 = new Monster();
+var proxy1 = new Proxy(monster1, handler1);
+
+console.log(proxy1.eyeCount);
+// expected output: 4
+
+console.log(proxy1.secret);
+// expected output: "I am ... shhhh!"
 </code>
 </pre>

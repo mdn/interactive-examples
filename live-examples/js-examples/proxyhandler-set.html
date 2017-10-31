@@ -1,18 +1,24 @@
 <pre>
-<code id="static-js">var proxy1 = new Proxy({}, {
-  set: function(target, prop, value, receiver) {
-    target[prop] = value;
-    
-    console.log('property set: ' + prop + ' = ' + value);
-    // expected output: "property set: prop1 = 42"
+<code id="static-js">function Monster() {
+  this.eyeCount = 4;
+}
 
-    return true;
+var handler1 = {
+  set: function(obj, prop, value) {
+    if ((prop === 'eyeCount') && ((value % 2) !== 0)) {
+      console.log('Monsters must have an even number of eyes');
+    } else {
+      return Reflect.set(...arguments);
+    }
   }
-})
+};
 
-console.log('prop1' in proxy1);
-// expected output: false
+var monster1 = new Monster();
+var proxy1 = new Proxy(monster1, handler1);
+proxy1.eyeCount = 1;
+// expected output: "Monsters must have an even number of eyes"
 
-proxy1.prop1 = 42;
+console.log(proxy1.eyeCount);
+// expected output: 4
 </code>
 </pre>

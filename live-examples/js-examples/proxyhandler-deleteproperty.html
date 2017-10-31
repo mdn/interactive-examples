@@ -1,25 +1,27 @@
 <pre>
-<code id="static-js">var handler1 = {
-  deleteProperty: function(target, prop) {
-    if (prop in target){
-      delete target[prop];
+<code id="static-js">function Monster() {
+  this.texture = "scaly";
+}
 
+var handler1 = {
+  deleteProperty: function(target, prop) {
+    if (prop in target) {
+      delete target[prop];
       console.log('property removed: ' + prop);
-      // expected output: "property removed: prop1"
+      // expected output: "property removed: texture"
     }
   }
 }
 
-var proxy1 = new Proxy({}, handler1);
+var monster1 = new Monster();
 
-proxy1.prop1 = 10;
+console.log(monster1.texture);
+// expected output: "scaly"
 
-console.log('prop1' in proxy1);
-// expected output: true
+var proxy1 = new Proxy(monster1, handler1);
+delete proxy1.texture;
 
-result = delete proxy1.prop1;
-
-console.log('prop1' in proxy1);
-// expected output: false
+console.log(monster1.texture);
+// expected output: undefined
 </code>
 </pre>

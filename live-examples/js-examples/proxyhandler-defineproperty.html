@@ -1,19 +1,21 @@
 <pre>
-<code id="static-js">function setProp1() {
-	var desc = { configurable: true, enumerable: true, value: 10 };
-	Object.defineProperty(proxy1, 'prop1', desc);
-}
-
-var handler1 = {
-  defineProperty: function(target, prop, descriptor) {
-    console.log(`called: ${prop}`);
-    // expected output: "called: prop1"
-
+<code id="static-js">var handler1 = {
+  defineProperty(target, key, descriptor) {
+    invariant(key, 'define');
     return true;
+  }
+};
+
+function invariant(key, action) {
+  if (key[0] === '_') {
+    throw new Error(`Invalid attempt to ${action} private "${key}" property`);
   }
 }
 
-var proxy1 = new Proxy(setProp1, handler1);
-new proxy1();
+var target1 = {};
+var proxy1 = new Proxy(target1, handler1);
+
+console.log(proxy1._foo = 'bar');
+// expected output: Error: Invalid attempt to define private "_foo" property
 </code>
 </pre>
