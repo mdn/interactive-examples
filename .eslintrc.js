@@ -29,16 +29,13 @@ module.exports = {
     },
     globals: {
         Clipboard: true,
-        clippy: true,
         codeMirror: true,
         console: true,
-        cssEditorUtils: true,
-        editorConsole: true,
-        featureDetector: true,
-        mceAnalytics: true,
-        mceEvents: true,
-        mceUtils: true,
+        expect: true,
+        exports: true,
+        module: true,
         Prism: true,
-        require: true
+        require: true,
+        test: true
     }
 };
