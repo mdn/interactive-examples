@@ -1,11 +1,16 @@
 (function() {
     'use strict';
 
+    var featureDetector = require('./editor-libs/feature-detector.js');
+    var mceConsole = require('./editor-libs/console');
+    var mceEvents = require('./editor-libs/events.js');
+
     var exampleFeature = document.getElementById('static-js').dataset[
         'feature'
     ];
     var execute = document.getElementById('execute');
     var liveContainer = '';
+    var output = document.querySelector('#output code');
     var reset = document.getElementById('reset');
     var staticContainer;
 
@@ -26,6 +31,7 @@
         liveContainer = document.getElementById('live');
         liveContainer.classList.remove('hidden');
 
+        mceConsole();
         mceEvents.register();
     }
 
@@ -35,8 +41,6 @@
      * @param {String} exampleCode - The code to execute
      */
     function updateOutput(exampleCode) {
-        var output = document.querySelector('#output code');
-
         output.classList.add('fade-in');
 
         try {
@@ -60,9 +64,8 @@
         initInteractiveEditor();
 
         execute.addEventListener('click', function() {
-            editorConsole.clearOutput();
+            output.textContent = '';
             applyCode();
-            mceAnalytics.trackRunClicks();
         });
 
         reset.addEventListener('click', function() {

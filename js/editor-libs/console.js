@@ -1,49 +1,10 @@
 // Thanks in part to https://stackoverflow.com/questions/11403107/capturing-javascript-console-log
-(function(global) {
+module.exports = function() {
     'use strict';
 
+    var consoleUtils = require('./console-utils');
     var originalConsoleLogger = console.log; // eslint-disable-line no-console
     var originalConsoleError = console.error;
-    var outputContainer = document.getElementById('output');
-    var output = outputContainer.querySelector('code');
-
-    var EditorConsole = {
-        /**
-         * Clears the output code block
-         */
-        clearOutput: function() {
-            output.textContent = '';
-        }
-    };
-
-    /**
-     * Formats arrays:
-     * - quotes around strings in arrays
-     * - square brackets around arrays
-     * - adds commas appropriately (with spacing)
-     * designed to be used recursively
-     * @param {any} input - The output to log.
-     * @returns Formatted output as a string.
-     */
-    function formatArray(input) {
-        var output = '';
-        for (var i = 0, l = input.length; i < l; i++) {
-            if (typeof input[i] === 'string') {
-                output += '"' + input[i] + '"';
-            } else if (Array.isArray(input[i])) {
-                output += 'Array [';
-                output += formatArray(input[i]);
-                output += ']';
-            } else {
-                output += formatObject(input[i]);
-            }
-
-            if (i < input.length - 1) {
-                output += ', ';
-            }
-        }
-        return output;
-    }
 
     /**
      * Formats objects:
@@ -100,28 +61,16 @@
          }
      }
 
-    /**
-     * Writes the provided content to the editor’s output area
-     * @param {String} content - The content to write to output
-     */
-    function writeOutput(content) {
-        var outputContent = output.textContent;
-        var newLogItem = '> ' + content + '\n';
-        output.textContent = outputContent + newLogItem;
-    }
-
     console.error = function(loggedItem) {
-        writeOutput(loggedItem);
+        consoleUtils.writeOutput(loggedItem);
         // do not swallow console.error
         originalConsoleError.apply(console, arguments);
     };
 
     // eslint-disable-next-line no-console
     console.log = function(loggedItem) {
-        writeOutput(formatOutput(loggedItem));
+        consoleUtils.writeOutput(consoleUtils.formatOutput(loggedItem));
         // do not swallow console.log
         originalConsoleLogger.apply(console, arguments);
     };
-
-    global.editorConsole = EditorConsole;
-})(window);
+};

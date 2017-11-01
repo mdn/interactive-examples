@@ -18,13 +18,9 @@
         },
         "cssExamplesBase": {
             "javascript": [
-                "js/editor-libs/mce-utils.js",
-                "js/editor-libs/analytics.js",
-                "js/editor-libs/events.js",
-                "js/editor-libs/clippy.js",
                 "js/lib/prism.js",
                 "js/lib/clipboard.js",
-                "js/editable-css.js"
+                "js/editor-css-bundle.js"
             ],
             "css": [
                 "css/libs/prism.css",
@@ -35,14 +31,7 @@
             "destFileName": "css-examples-base"
         },
         "editorJS": {
-            "javascript": [
-                "js/editor-libs/mce-utils.js",
-                "js/editor-libs/analytics.js",
-                "js/editor-libs/events.js",
-                "js/editor-libs/console.js",
-                "js/editor-libs/feature-detector.js",
-                "js/editable-js.js"
-            ],
+            "javascript": ["js/editor-js-bundle.js"],
             "css": ["css/editor-libs/common.css", "css/editable-js.css"],
             "destFileName": "editor-js"
         }
@@ -1238,14 +1227,16 @@
         },
         "mapPrototype@@Iterator": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/map-prototype-@@iterator.html",
+            "exampleCode":
+                "live-examples/js-examples/map-prototype-@@iterator.html",
             "fileName": "map-prototype-@@iterator.html",
             "title": "JavaScript Demo: map.prototype[@@iterator]()",
             "type": "js"
         },
         "mapPrototype@@ToStringTag": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/map-prototype-@@tostringtag.html",
+            "exampleCode":
+                "live-examples/js-examples/map-prototype-@@tostringtag.html",
             "fileName": "map-prototype-@@tostringtag.html",
             "title": "JavaScript Demo: map.prototype[@@toStringTag]",
             "type": "js"
@@ -1259,21 +1250,24 @@
         },
         "mapPrototypeDelete": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/map-prototype-delete.html",
+            "exampleCode":
+                "live-examples/js-examples/map-prototype-delete.html",
             "fileName": "map-prototype-delete.html",
             "title": "JavaScript Demo: map.prototype.delete()",
             "type": "js"
         },
         "mapPrototypeEntries": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/map-prototype-entries.html",
+            "exampleCode":
+                "live-examples/js-examples/map-prototype-entries.html",
             "fileName": "map-prototype-entries.html",
             "title": "JavaScript Demo: map.prototype.entries()",
             "type": "js"
         },
         "mapPrototypeForEach": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/map-prototype-foreach.html",
+            "exampleCode":
+                "live-examples/js-examples/map-prototype-foreach.html",
             "fileName": "map-prototype-foreach.html",
             "title": "JavaScript Demo: map.prototype.foreach()",
             "type": "js"
@@ -1315,7 +1309,8 @@
         },
         "mapPrototypeValues": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/map-prototype-values.html",
+            "exampleCode":
+                "live-examples/js-examples/map-prototype-values.html",
             "fileName": "map-prototype-values.html",
             "title": "JavaScript Demo: map.prototype.values",
             "type": "js"
@@ -1996,7 +1991,8 @@
         },
         "setPrototype@@Iterator": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/set-prototype-@@iterator.html",
+            "exampleCode":
+                "live-examples/js-examples/set-prototype-@@iterator.html",
             "fileName": "set-prototype-@@iterator.html",
             "title": "JavaScript Demo: Set.prototype[@@iterator]()",
             "type": "js"
@@ -2017,28 +2013,32 @@
         },
         "setPrototypeConstructor": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/set-prototype-constructor.html",
+            "exampleCode":
+                "live-examples/js-examples/set-prototype-constructor.html",
             "fileName": "set-prototype-constructor.html",
             "title": "JavaScript Demo: Set.prototype Constructor",
             "type": "js"
         },
         "setPrototypeDelete": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/set-prototype-delete.html",
+            "exampleCode":
+                "live-examples/js-examples/set-prototype-delete.html",
             "fileName": "set-prototype-delete.html",
             "title": "JavaScript Demo: Set.prototype.delete()",
             "type": "js"
         },
         "setPrototypeEntries": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/set-prototype-entries.html",
+            "exampleCode":
+                "live-examples/js-examples/set-prototype-entries.html",
             "fileName": "set-prototype-entries.html",
             "title": "JavaScript Demo: Set.prototype.entries()",
             "type": "js"
         },
         "setPrototypeForEach": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/set-prototype-foreach.html",
+            "exampleCode":
+                "live-examples/js-examples/set-prototype-foreach.html",
             "fileName": "set-prototype-foreach.html",
             "title": "JavaScript Demo: Set.prototype.foreach()",
             "type": "js"
@@ -2059,7 +2059,8 @@
         },
         "setPrototypeValues": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/set-prototype-values.html",
+            "exampleCode":
+                "live-examples/js-examples/set-prototype-values.html",
             "fileName": "set-prototype-values.html",
             "title": "JavaScript Demo: Set.prototype.values",
             "type": "js"
@@ -2467,53 +2468,60 @@
             "type": "js"
         },
         "weaksetPrototypeAdd": {
-          "baseTmpl": "tmpl/live-js-tmpl.html",
-          "exampleCode": "live-examples/js-examples/weakset-prototype-add.html",
-          "fileName": "weakset-prototype-add.html",
-          "title": "JavaScript Demo: WeakSet.Prototype.add()",
-          "type": "js"
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakset-prototype-add.html",
+            "fileName": "weakset-prototype-add.html",
+            "title": "JavaScript Demo: WeakSet.Prototype.add()",
+            "type": "js"
         },
         "weaksetPrototypeDelete": {
-          "baseTmpl": "tmpl/live-js-tmpl.html",
-          "exampleCode": "live-examples/js-examples/weakset-prototype-delete.html",
-          "fileName": "weakset-prototype-delete.html",
-          "title": "JavaScript Demo: WeakSet.Prototype.delete()",
-          "type": "js"
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakset-prototype-delete.html",
+            "fileName": "weakset-prototype-delete.html",
+            "title": "JavaScript Demo: WeakSet.Prototype.delete()",
+            "type": "js"
         },
         "weaksetPrototypeHas": {
-          "baseTmpl": "tmpl/live-js-tmpl.html",
-          "exampleCode": "live-examples/js-examples/weakset-prototype-has.html",
-          "fileName": "weakset-prototype-has.html",
-          "title": "JavaScript Demo: WeakSet.Prototype.has()",
-          "type": "js"
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakset-prototype-has.html",
+            "fileName": "weakset-prototype-has.html",
+            "title": "JavaScript Demo: WeakSet.Prototype.has()",
+            "type": "js"
         },
         "weakMapPrototypeDelete": {
-          "baseTmpl": "tmpl/live-js-tmpl.html",
-          "exampleCode": "live-examples/js-examples/weakmap-prototype-delete.html",
-          "fileName": "weakmap-prototype-delete.html",
-          "title": "JavaScript Demo: WeakMap.prototype.delete()",
-          "type": "js"
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakmap-prototype-delete.html",
+            "fileName": "weakmap-prototype-delete.html",
+            "title": "JavaScript Demo: WeakMap.prototype.delete()",
+            "type": "js"
         },
         "weakMapPrototypeGet": {
-          "baseTmpl": "tmpl/live-js-tmpl.html",
-          "exampleCode": "live-examples/js-examples/weakmap-prototype-get.html",
-          "fileName": "weakmap-prototype-get.html",
-          "title": "JavaScript Demo: WeakMap.prototype.get()",
-          "type": "js"
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakmap-prototype-get.html",
+            "fileName": "weakmap-prototype-get.html",
+            "title": "JavaScript Demo: WeakMap.prototype.get()",
+            "type": "js"
         },
         "weakMapPrototypeHas": {
-          "baseTmpl": "tmpl/live-js-tmpl.html",
-          "exampleCode": "live-examples/js-examples/weakmap-prototype-has.html",
-          "fileName": "weakmap-prototype-has.html",
-          "title": "JavaScript Demo: WeakMap.prototype.has()",
-          "type": "js"
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakmap-prototype-has.html",
+            "fileName": "weakmap-prototype-has.html",
+            "title": "JavaScript Demo: WeakMap.prototype.has()",
+            "type": "js"
         },
         "weakMapPrototypeSet": {
-          "baseTmpl": "tmpl/live-js-tmpl.html",
-          "exampleCode": "live-examples/js-examples/weakmap-prototype-set.html",
-          "fileName": "weakmap-prototype-set.html",
-          "title": "JavaScript Demo: WeakMap.prototype.set()",
-          "type": "js"
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakmap-prototype-set.html",
+            "fileName": "weakmap-prototype-set.html",
+            "title": "JavaScript Demo: WeakMap.prototype.set()",
+            "type": "js"
         },
         "animation": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
