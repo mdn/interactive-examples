@@ -29,6 +29,41 @@ module.exports = {
         return output;
     },
     /**
+     * Formats objects:
+     * ArrayBuffer, DataView, SharedArrayBuffer,
+     * Int8Array, Int16Array, Int32Array,
+     * Uint8Array, Uint16Array, Uint32Array,
+     * Uint8ClampedArray, Float32Array, Float64Array
+     * Symbol
+     * @param {any} input - The output to log.
+     * @returns Formatted output as a string.
+     */
+    formatObject: function(input) {
+        var bufferDataViewRegExp = /^(ArrayBuffer|SharedArrayBuffer|DataView)$/;
+        var complexArrayRegExp = /^(Int8Array|Int16Array|Int32Array|Uint8Array|Uint16Array|Uint32Array|Uint8ClampedArray|Float32Array|Float64Array)$/;
+        var objectName = input.constructor.name;
+
+        if (objectName.match(bufferDataViewRegExp)) {
+            return objectName + ' {}';
+        }
+
+        if (objectName.match(complexArrayRegExp)) {
+            var arrayLength = input.length;
+
+            if (arrayLength > 0) {
+                return objectName + ' [' + this.formatArray(input) + ']';
+            } else {
+                return objectName + ' []';
+            }
+        }
+
+        if (objectName === 'Symbol') {
+            return input.toString();
+        }
+
+        return input;
+    },
+    /**
      * Formats output to indicate its type:
      * - quotes around strings
      * - square brackets around arrays
@@ -45,7 +80,7 @@ module.exports = {
             // check the contents of the array
             return '[' + this.formatArray(input) + ']';
         } else {
-            return input;
+            return this.formatObject(input);
         }
     },
     /**
