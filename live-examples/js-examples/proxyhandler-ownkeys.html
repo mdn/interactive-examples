@@ -1,14 +1,22 @@
 <pre>
-<code id="static-js">var proxy1 = new Proxy({}, {
-  ownKeys: function(target) {
-    console.log('called');
-    // expected output: "called"
+<code id="static-js">var monster1 = {
+  _age: 111,
+  [Symbol('secret')]: 'I am scared!',
+  eyeCount: 4
+}
 
-    return ['a', 'b', 'c'];
+var handler1 = {
+  ownKeys (target) {
+    return Reflect.ownKeys(target)
   }
-});
+}
 
-console.log(Object.getOwnPropertyNames(proxy1));
-// expected output: ["a", "b", "c"]
+var proxy1 = new Proxy(monster1, handler1);
+
+for (let key of Object.keys(proxy1)) {
+  console.log(key);
+  // expected output: "_age"
+  // expected output: "eyeCount"
+}
 </code>
 </pre>

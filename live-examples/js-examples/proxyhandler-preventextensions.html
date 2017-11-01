@@ -1,14 +1,24 @@
 <pre>
-<code id="static-js">var proxy1 = new Proxy({}, {
-  preventExtensions: function(target) {
-    console.log('called');
-    // expected output: "called"
+<code id="static-js">var monster1 = {
+  canEvolve: true
+};
 
+var handler1 = {
+  preventExtensions: function(target) {
+    target.canEvolve = false;
     Object.preventExtensions(target);
     return true;
   }
-});
+};
+
+var proxy1 = new Proxy(monster1, handler1);
+
+console.log(monster1.canEvolve);
+// expected output: true
 
 Object.preventExtensions(proxy1);
+
+console.log(monster1.canEvolve);
+// expected output: false
 </code>
 </pre>

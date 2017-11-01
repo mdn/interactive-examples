@@ -1,14 +1,32 @@
 <pre>
-<code id="static-js">var proxy1 = new Proxy({}, {
-  get: function(target, prop, receiver) {
-    console.log('called: ' + prop);
-    // expected output: "called: prop1"
-    
-    return 10;
+<code id="static-js">var handler1 = {
+  has (target, key) {
+    if (key[0] === '_') {
+      return false;
+    }
+    return key in target;
   }
-});
+}
 
-console.log(proxy1.prop1);
-// expected output: 10
+function invariant (key, action) {
+  if (key[0] === '_') {
+    throw new Error(`Invalid attempt to ${action} private "${key}" property`);
+  }
+}
+
+var monster1 = {
+  _secret: 'I am scared!',
+  eyeCount: 4
+};
+
+var proxy1 = new Proxy(monster1, handler1)
+console.log('eyeCount' in proxy1)
+// expected output: true
+
+console.log('_secret' in proxy1)
+// expected output: false
+
+console.log('_secret' in monster1)
+// expected output: true
 </code>
 </pre>
