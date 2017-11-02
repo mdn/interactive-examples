@@ -13,18 +13,39 @@
     },
     "homepage": "https://github.com/mozilla/interactive-examples#readme",
     "main": "index.js",
+    "bundlesize": [
+        {
+            "path": "./docs/css/css-examples-base.css",
+            "maxSize": "4 kB"
+        },
+        {
+            "path": "./docs/css/editor-js.css",
+            "maxSize": "1 kB"
+        },
+        {
+            "path": "./docs/js/codemirrorLoader.js",
+            "maxSize": "1 kB"
+        },
+        {
+            "path": "./docs/js/css-examples-base.js",
+            "maxSize": "11 kB"
+        },
+        {
+            "path": "./docs/js/editor-js.js",
+            "maxSize": "4 kB"
+        }
+    ],
     "scripts": {
-        "build-css-bundle":
-            "browserify js/editable-css.js -o js/editor-css-bundle.js",
-        "build-js-bundle":
-            "browserify js/editable-js.js -o js/editor-js-bundle.js",
+        "build-css-bundle": "browserify js/editable-css.js -o js/editor-css-bundle.js",
+        "build-js-bundle": "browserify js/editable-js.js -o js/editor-js-bundle.js",
         "build-pages": "node index.js",
         "build": "npm-run-all build-css-bundle build-js-bundle build-pages",
         "start-server": "http-server ./docs",
-        "start-watch":
-            "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*-bundle.js' -c 'npm run build' --initial --silent",
+        "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*-bundle.js' -c 'npm run build' --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
-        "test": "jest"
+        "perf": "bundlesize",
+        "unit-tests": "jest",
+        "test": "npm-run-all unit-tests build perf"
     },
     "keywords": [
         "javascript",
@@ -36,6 +57,7 @@
     ],
     "devDependencies": {
         "browserify": "^14.5.0",
+        "bundlesize": "^0.15.3",
         "chokidar-cli": "^1.2.0",
         "clean-css": "^4.1.8",
         "concat": "^1.0.3",
