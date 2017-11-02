@@ -1,7 +1,7 @@
 <pre>
-<code id="static-js">function Monster() {
-  this.secret = 'I am scared';
-  this.eyeCount = 4;
+<code id="static-js">var monster1 = {
+  secret: 'easily scared',
+  eyeCount: 4
 }
 
 var handler1 = {
@@ -14,13 +14,12 @@ var handler1 = {
   }
 };
 
-var monster1 = new Monster();
 var proxy1 = new Proxy(monster1, handler1);
 
 console.log(proxy1.eyeCount);
 // expected output: 4
 
 console.log(proxy1.secret);
-// expected output: "I am ... shhhh!"
+// expected output: "easi ... shhhh!"
 </code>
 </pre>

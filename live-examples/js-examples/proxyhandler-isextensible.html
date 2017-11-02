@@ -19,11 +19,12 @@ console.log(Object.isExtensible(proxy1));
 // expected output: true
 
 console.log(monster1.canEvolve);
+// expected output: true
 
 Object.preventExtensions(proxy1);
 
 console.log(Object.isExtensible(proxy1));
-// expected output: true
+// expected output: false
 
 console.log(monster1.canEvolve);
 // expected output: false

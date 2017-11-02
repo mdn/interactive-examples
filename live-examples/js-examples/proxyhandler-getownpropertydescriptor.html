@@ -1,6 +1,6 @@
 <pre>
-<code id="static-js">function Monster() {
-  this.eyeCount = 4;
+<code id="static-js">var monster1 = {
+  eyeCount: 4
 }
 
 var handler1 = {
@@ -12,7 +12,6 @@ var handler1 = {
   }
 };
 
-var monster1 = new Monster();
 var proxy1 = new Proxy(monster1, handler1);
 
 console.log(Object.getOwnPropertyDescriptor(proxy1, 'eyeCount').value);

@@ -12,10 +12,10 @@ function invariant(key, action) {
   }
 }
 
-var target1 = {};
-var proxy1 = new Proxy(target1, handler1);
+var monster1 = {};
+var proxy1 = new Proxy(monster1, handler1);
 
-console.log(proxy1._foo = 'bar');
-// expected output: Error: Invalid attempt to define private "_foo" property
+console.log(proxy1._secret = 'easily scared');
+// expected output: Error: Invalid attempt to define private "_secret" property
 </code>
 </pre>
