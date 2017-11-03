@@ -15,11 +15,11 @@ module.exports = {
             if (typeof input[i] === 'string') {
                 output += '"' + input[i] + '"';
             } else if (Array.isArray(input[i])) {
-                output += '[';
+                output += 'Array [';
                 output += this.formatArray(input[i]);
                 output += ']';
             } else {
-                output += input[i];
+                output += this.formatObject(input[i]);
             }
 
             if (i < input.length - 1) {
@@ -78,7 +78,7 @@ module.exports = {
             return '"' + input + '"';
         } else if (Array.isArray(input)) {
             // check the contents of the array
-            return '[' + this.formatArray(input) + ']';
+            return 'Array [' + this.formatArray(input) + ']';
         } else {
             return this.formatObject(input);
         }
