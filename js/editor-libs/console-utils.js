@@ -57,7 +57,7 @@ module.exports = {
             }
         }
 
-        if (objectName === 'Symbol') {
+        if (objectName === 'Symbol' && (typeof input != 'undefined')) {
             return input.toString();
         }
 
@@ -74,7 +74,9 @@ module.exports = {
      */
     formatOutput: function(input) {
         'use strict';
-        if (typeof input === 'string') {
+        if (typeof input === 'undefined') {
+            return input;
+        } else if (typeof input === 'string') {
             return '"' + input + '"';
         } else if (Array.isArray(input)) {
             // check the contents of the array
