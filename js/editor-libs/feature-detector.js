@@ -1,38 +1,34 @@
-(function() {
+/**
+ * Returns the Object definition that matches the string value
+ * @param {String} feature - The string value to match against
+ * @returns The matched feature as an Object
+ */
+function getFeatureObject(feature) {
     'use strict';
+    var featureObj = undefined;
 
-    /**
-     * Returns the Object definition that matches the string value
-     * @param {String} feature - The string value to match against
-     * @returns The matched feature as an Object
-     */
-    function getFeatureObject(feature) {
-        var featureObj = undefined;
-
-        switch (feature) {
-        case 'array-entries':
-            featureObj = Array.prototype.entries;
-            break;
-        }
-
-        return featureObj;
+    switch (feature) {
+    case 'array-entries':
+        featureObj = Array.prototype.entries;
+        break;
     }
 
-    var FeatureDetector = {
-        /**
-         * Tests whether the provided feature is supported. It
-         * does this by checking the `typeof` the feature.
-         * @param {String} feature - The feature to test ex. 'array-entries'
-         */
-        isDefined: function(feature) {
-            // if the feature parameter is undefined, return true
-            if (feature === undefined) {
-                return true;
-            }
+    return featureObj;
+}
 
-            return getFeatureObject(feature) !== undefined;
+module.exports = {
+    /**
+     * Tests whether the provided feature is supported. It
+     * does this by checking the `typeof` the feature.
+     * @param {String} feature - The feature to test ex. 'array-entries'
+     */
+    isDefined: function(feature) {
+        'use strict';
+        // if the feature parameter is undefined, return true
+        if (feature === undefined) {
+            return true;
         }
-    };
 
-    window.featureDetector = FeatureDetector;
-})();
+        return getFeatureObject(feature) !== undefined;
+    }
+};

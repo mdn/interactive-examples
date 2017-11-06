@@ -1,7 +1,7 @@
 {
     "bundles": {
         "codeMirror": {
-            "javascript": ["js/libs/codemirror.js"],
+            "javascript": ["js/lib/codemirror.js"],
             "css": [
                 "css/libs/codemirror.css",
                 "css/editor-libs/codemirror-override.css"
@@ -18,13 +18,9 @@
         },
         "cssExamplesBase": {
             "javascript": [
-                "js/editor-libs/mce-utils.js",
-                "js/editor-libs/analytics.js",
-                "js/editor-libs/events.js",
-                "js/editor-libs/clippy.js",
-                "js/libs/prism.js",
-                "js/libs/clipboard.js",
-                "js/editable-css.js"
+                "js/lib/prism.js",
+                "js/lib/clipboard.js",
+                "js/editor-css-bundle.js"
             ],
             "css": [
                 "css/libs/prism.css",
@@ -35,14 +31,7 @@
             "destFileName": "css-examples-base"
         },
         "editorJS": {
-            "javascript": [
-                "js/editor-libs/mce-utils.js",
-                "js/editor-libs/analytics.js",
-                "js/editor-libs/events.js",
-                "js/editor-libs/console.js",
-                "js/editor-libs/feature-detector.js",
-                "js/editable-js.js"
-            ],
+            "javascript": ["js/editor-js-bundle.js"],
             "css": ["css/editor-libs/common.css", "css/editable-js.css"],
             "destFileName": "editor-js"
         }
@@ -1236,6 +1225,397 @@
             "title": "JavaScript Demo: JSON.stringify()",
             "type": "js"
         },
+        "mapPrototype@@Iterator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/map-prototype-@@iterator.html",
+            "fileName": "map-prototype-@@iterator.html",
+            "title": "JavaScript Demo: map.prototype[@@iterator]()",
+            "type": "js"
+        },
+        "mapPrototype@@ToStringTag": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/map-prototype-@@tostringtag.html",
+            "fileName": "map-prototype-@@tostringtag.html",
+            "title": "JavaScript Demo: map.prototype[@@toStringTag]",
+            "type": "js"
+        },
+        "mapPrototypeClear": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/map-prototype-clear.html",
+            "fileName": "map-prototype-clear.html",
+            "title": "JavaScript Demo: map.prototype.clear()",
+            "type": "js"
+        },
+        "mapPrototypeDelete": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/map-prototype-delete.html",
+            "fileName": "map-prototype-delete.html",
+            "title": "JavaScript Demo: map.prototype.delete()",
+            "type": "js"
+        },
+        "mapPrototypeEntries": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/map-prototype-entries.html",
+            "fileName": "map-prototype-entries.html",
+            "title": "JavaScript Demo: map.prototype.entries()",
+            "type": "js"
+        },
+        "mapPrototypeForEach": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/map-prototype-foreach.html",
+            "fileName": "map-prototype-foreach.html",
+            "title": "JavaScript Demo: map.prototype.foreach()",
+            "type": "js"
+        },
+        "mapPrototypeGet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/map-prototype-get.html",
+            "fileName": "map-prototype-get.html",
+            "title": "JavaScript Demo: map.prototype.get()",
+            "type": "js"
+        },
+        "mapPrototypeHas": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/map-prototype-has.html",
+            "fileName": "map-prototype-has.html",
+            "title": "JavaScript Demo: map.prototype.has()",
+            "type": "js"
+        },
+        "mapPrototypeKeys": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/map-prototype-keys.html",
+            "fileName": "map-prototype-keys.html",
+            "title": "JavaScript Demo: map.prototype.keys()",
+            "type": "js"
+        },
+        "mapPrototypeSet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/map-prototype-set.html",
+            "fileName": "map-prototype-set.html",
+            "title": "JavaScript Demo: map.prototype.set()",
+            "type": "js"
+        },
+        "mapPrototypeSize": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/map-prototype-size.html",
+            "fileName": "map-prototype-size.html",
+            "title": "JavaScript Demo: map.prototype.size",
+            "type": "js"
+        },
+        "mapPrototypeValues": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/map-prototype-values.html",
+            "fileName": "map-prototype-values.html",
+            "title": "JavaScript Demo: map.prototype.values",
+            "type": "js"
+        },
+        "mathAbs": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-abs.html",
+            "fileName": "math-abs.html",
+            "title": "JavaScript Demo: Math.abs()",
+            "type": "js"
+        },
+        "mathAcos": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-acos.html",
+            "fileName": "math-acos.html",
+            "title": "JavaScript Demo: Math.acos()",
+            "type": "js"
+        },
+        "mathAcosh": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-acosh.html",
+            "fileName": "math-acosh.html",
+            "title": "JavaScript Demo: Math.acosh()",
+            "type": "js"
+        },
+        "mathAsin": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-asin.html",
+            "fileName": "math-asin.html",
+            "title": "JavaScript Demo: Math.asin()",
+            "type": "js"
+        },
+        "mathAsinh": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-asinh.html",
+            "fileName": "math-asinh.html",
+            "title": "JavaScript Demo: Math.asinh()",
+            "type": "js"
+        },
+        "mathAtan": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-atan.html",
+            "fileName": "math-atan.html",
+            "title": "JavaScript Demo: Math.atan()",
+            "type": "js"
+        },
+        "mathAtan2": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-atan2.html",
+            "fileName": "math-atan2.html",
+            "title": "JavaScript Demo: Math.atan2()",
+            "type": "js"
+        },
+        "mathAtanh": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-atanh.html",
+            "fileName": "math-atanh.html",
+            "title": "JavaScript Demo: Math.atanh()",
+            "type": "js"
+        },
+        "mathCbrt": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-cbrt.html",
+            "fileName": "math-cbrt.html",
+            "title": "JavaScript Demo: Math.cbrt()",
+            "type": "js"
+        },
+        "mathCeil": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-ceil.html",
+            "fileName": "math-ceil.html",
+            "title": "JavaScript Demo: Math.ceil()",
+            "type": "js"
+        },
+        "mathClz32": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-clz32.html",
+            "fileName": "math-clz32.html",
+            "title": "JavaScript Demo: Math.clz32()",
+            "type": "js"
+        },
+        "mathCos": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-cos.html",
+            "fileName": "math-cos.html",
+            "title": "JavaScript Demo: Math.cos()",
+            "type": "js"
+        },
+        "mathCosh": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-cosh.html",
+            "fileName": "math-cosh.html",
+            "title": "JavaScript Demo: Math.cosh()",
+            "type": "js"
+        },
+        "mathE": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-e.html",
+            "fileName": "math-e.html",
+            "title": "JavaScript Demo: Math.E",
+            "type": "js"
+        },
+        "mathExp": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-exp.html",
+            "fileName": "math-exp.html",
+            "title": "JavaScript Demo: Math.exp()",
+            "type": "js"
+        },
+        "mathExpm1": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-expm1.html",
+            "fileName": "math-expm1.html",
+            "title": "JavaScript Demo: Math.expm1()",
+            "type": "js"
+        },
+        "mathFloor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-floor.html",
+            "fileName": "math-floor.html",
+            "title": "JavaScript Demo: Math.floor()",
+            "type": "js"
+        },
+        "mathFround": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-fround.html",
+            "fileName": "math-fround.html",
+            "title": "JavaScript Demo: Math.fround()",
+            "type": "js"
+        },
+        "mathHypot": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-hypot.html",
+            "fileName": "math-hypot.html",
+            "title": "JavaScript Demo: Math.hypot()",
+            "type": "js"
+        },
+        "mathImul": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-imul.html",
+            "fileName": "math-imul.html",
+            "title": "JavaScript Demo: Math.imul()",
+            "type": "js"
+        },
+        "mathLn2": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-ln2.html",
+            "fileName": "math-ln2.html",
+            "title": "JavaScript Demo: Math.LN2",
+            "type": "js"
+        },
+        "mathLn10": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-ln10.html",
+            "fileName": "math-ln10.html",
+            "title": "JavaScript Demo: Math.LN10",
+            "type": "js"
+        },
+        "mathLog": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-log.html",
+            "fileName": "math-log.html",
+            "title": "JavaScript Demo: Math.log()",
+            "type": "js"
+        },
+        "mathLog1p": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-log1p.html",
+            "fileName": "math-log1p.html",
+            "title": "JavaScript Demo: Math.log1p()",
+            "type": "js"
+        },
+        "mathLog2": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-log2.html",
+            "fileName": "math-log2.html",
+            "title": "JavaScript Demo: Math.log2()",
+            "type": "js"
+        },
+        "mathLog2e": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-log2e.html",
+            "fileName": "math-log2e.html",
+            "title": "JavaScript Demo: Math.log2e()",
+            "type": "js"
+        },
+        "mathLog10": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-log10.html",
+            "fileName": "math-log10.html",
+            "title": "JavaScript Demo: Math.log10()",
+            "type": "js"
+        },
+        "mathLog10e": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-log10e.html",
+            "fileName": "math-log10e.html",
+            "title": "JavaScript Demo: Math.log10e()",
+            "type": "js"
+        },
+        "mathMax": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-max.html",
+            "fileName": "math-max.html",
+            "title": "JavaScript Demo: Math.max()",
+            "type": "js"
+        },
+        "mathMin": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-min.html",
+            "fileName": "math-min.html",
+            "title": "JavaScript Demo: Math.min()",
+            "type": "js"
+        },
+        "mathPi": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-pi.html",
+            "fileName": "math-pi.html",
+            "title": "JavaScript Demo: Math.PI",
+            "type": "js"
+        },
+        "mathPow": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-pow.html",
+            "fileName": "math-pow.html",
+            "title": "JavaScript Demo: Math.pow()",
+            "type": "js"
+        },
+        "mathRandom": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-random.html",
+            "fileName": "math-random.html",
+            "title": "JavaScript Demo: Math.random()",
+            "type": "js"
+        },
+        "mathRound": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-round.html",
+            "fileName": "math-round.html",
+            "title": "JavaScript Demo: Math.round()",
+            "type": "js"
+        },
+        "mathSign": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-sign.html",
+            "fileName": "math-sign.html",
+            "title": "JavaScript Demo: Math.sign()",
+            "type": "js"
+        },
+        "mathSin": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-sin.html",
+            "fileName": "math-sin.html",
+            "title": "JavaScript Demo: Math.sin()",
+            "type": "js"
+        },
+        "mathSinh": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-sinh.html",
+            "fileName": "math-sinh.html",
+            "title": "JavaScript Demo: Math.sinh()",
+            "type": "js"
+        },
+        "mathSqrt": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-sqrt.html",
+            "fileName": "math-sqrt.html",
+            "title": "JavaScript Demo: Math.sqrt()",
+            "type": "js"
+        },
+        "mathSqrt1_2": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-sqrt1_2.html",
+            "fileName": "math-sqrt1_2.html",
+            "title": "JavaScript Demo: Math.SQRT1_2",
+            "type": "js"
+        },
+        "mathSqrt2": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-sqrt2.html",
+            "fileName": "math-sqrt2.html",
+            "title": "JavaScript Demo: Math.SQRT2",
+            "type": "js"
+        },
+        "mathTan": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-tan.html",
+            "fileName": "math-tan.html",
+            "title": "JavaScript Demo: Math.tan()",
+            "type": "js"
+        },
+        "mathTanh": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-tanh.html",
+            "fileName": "math-tanh.html",
+            "title": "JavaScript Demo: Math.tanh()",
+            "type": "js"
+        },
+        "mathTrunc": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/math-trunc.html",
+            "fileName": "math-trunc.html",
+            "title": "JavaScript Demo: Math.trunc()",
+            "type": "js"
+        },
         "numberEpsilon": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/number-epsilon.html",
@@ -1611,7 +1991,8 @@
         },
         "setPrototype@@Iterator": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/set-prototype-@@iterator.html",
+            "exampleCode":
+                "live-examples/js-examples/set-prototype-@@iterator.html",
             "fileName": "set-prototype-@@iterator.html",
             "title": "JavaScript Demo: Set.prototype[@@iterator]()",
             "type": "js"
@@ -1632,28 +2013,32 @@
         },
         "setPrototypeConstructor": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/set-prototype-constructor.html",
+            "exampleCode":
+                "live-examples/js-examples/set-prototype-constructor.html",
             "fileName": "set-prototype-constructor.html",
             "title": "JavaScript Demo: Set.prototype Constructor",
             "type": "js"
         },
         "setPrototypeDelete": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/set-prototype-delete.html",
+            "exampleCode":
+                "live-examples/js-examples/set-prototype-delete.html",
             "fileName": "set-prototype-delete.html",
             "title": "JavaScript Demo: Set.prototype.delete()",
             "type": "js"
         },
         "setPrototypeEntries": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/set-prototype-entries.html",
+            "exampleCode":
+                "live-examples/js-examples/set-prototype-entries.html",
             "fileName": "set-prototype-entries.html",
             "title": "JavaScript Demo: Set.prototype.entries()",
             "type": "js"
         },
         "setPrototypeForEach": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/set-prototype-foreach.html",
+            "exampleCode":
+                "live-examples/js-examples/set-prototype-foreach.html",
             "fileName": "set-prototype-foreach.html",
             "title": "JavaScript Demo: Set.prototype.foreach()",
             "type": "js"
@@ -1674,7 +2059,8 @@
         },
         "setPrototypeValues": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/set-prototype-values.html",
+            "exampleCode":
+                "live-examples/js-examples/set-prototype-values.html",
             "fileName": "set-prototype-values.html",
             "title": "JavaScript Demo: Set.prototype.values",
             "type": "js"
@@ -2082,25 +2468,60 @@
             "type": "js"
         },
         "weaksetPrototypeAdd": {
-          "baseTmpl": "tmpl/live-js-tmpl.html",
-          "exampleCode": "live-examples/js-examples/weakset-prototype-add.html",
-          "fileName": "weakset-prototype-add.html",
-          "title": "JavaScript Demo: WeakSet.Prototype.add()",
-          "type": "js"
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakset-prototype-add.html",
+            "fileName": "weakset-prototype-add.html",
+            "title": "JavaScript Demo: WeakSet.Prototype.add()",
+            "type": "js"
         },
         "weaksetPrototypeDelete": {
-          "baseTmpl": "tmpl/live-js-tmpl.html",
-          "exampleCode": "live-examples/js-examples/weakset-prototype-delete.html",
-          "fileName": "weakset-prototype-delete.html",
-          "title": "JavaScript Demo: WeakSet.Prototype.delete()",
-          "type": "js"
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakset-prototype-delete.html",
+            "fileName": "weakset-prototype-delete.html",
+            "title": "JavaScript Demo: WeakSet.Prototype.delete()",
+            "type": "js"
         },
         "weaksetPrototypeHas": {
-          "baseTmpl": "tmpl/live-js-tmpl.html",
-          "exampleCode": "live-examples/js-examples/weakset-prototype-has.html",
-          "fileName": "weakset-prototype-has.html",
-          "title": "JavaScript Demo: WeakSet.Prototype.has()",
-          "type": "js"
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakset-prototype-has.html",
+            "fileName": "weakset-prototype-has.html",
+            "title": "JavaScript Demo: WeakSet.Prototype.has()",
+            "type": "js"
+        },
+        "weakMapPrototypeDelete": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakmap-prototype-delete.html",
+            "fileName": "weakmap-prototype-delete.html",
+            "title": "JavaScript Demo: WeakMap.prototype.delete()",
+            "type": "js"
+        },
+        "weakMapPrototypeGet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakmap-prototype-get.html",
+            "fileName": "weakmap-prototype-get.html",
+            "title": "JavaScript Demo: WeakMap.prototype.get()",
+            "type": "js"
+        },
+        "weakMapPrototypeHas": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakmap-prototype-has.html",
+            "fileName": "weakmap-prototype-has.html",
+            "title": "JavaScript Demo: WeakMap.prototype.has()",
+            "type": "js"
+        },
+        "weakMapPrototypeSet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/weakmap-prototype-set.html",
+            "fileName": "weakmap-prototype-set.html",
+            "title": "JavaScript Demo: WeakMap.prototype.set()",
+            "type": "js"
         },
         "animation": {
             "baseTmpl": "tmpl/live-css-tmpl.html",

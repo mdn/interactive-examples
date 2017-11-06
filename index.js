@@ -8,7 +8,7 @@ const uglify = require('uglify-es');
 
 const config = {
     baseDir: './docs/',
-    codeMirrorModes: 'js/libs/mode',
+    codeMirrorModes: 'js/mode',
     destCssDir: './docs/css/',
     destJsDir: './docs/js/',
     examplesDir: './docs/pages/',
@@ -38,7 +38,7 @@ function ensureDir(dir) {
  * Example object:
  *
  * "cssExamplesBase": {
- *     "javascript": ["js/libs/prism.js", "js/editable-css.js"],
+ *     "javascript": ["js/lib/prism.js", "js/editable-css.js"],
  *     "css": ["css/editable-css.css", "css/libs/prism.css"],
  *     "destFileName": "css-examples-base"
  * },
@@ -58,7 +58,7 @@ function buildBundles(bundles) {
             if (bundle === 'codeMirror') {
                 // use a different output directory
                 outputFileName =
-                    config.destJsDir + 'libs/' + currentFilename + '.js';
+                    config.destJsDir + 'lib/' + currentFilename + '.js';
             }
 
             // concatenate, uglify, and write the result to file
@@ -235,6 +235,20 @@ function setMainTitle(currentPage, tmpl) {
 }
 
 /**
+ * As a last step, this deletes the two JS bundles that was
+ * built earlier in the build process.
+ */
+function removeJSBundles() {
+    let bundlesArray = ['js/editor-css-bundle.js', 'js/editor-js-bundle.js'];
+
+    for (let bundle in bundlesArray) {
+        fse.pathExists(bundlesArray[bundle]).then(function() {
+            fse.removeSync(bundlesArray[bundle]);
+        });
+    }
+}
+
+/**
  * Initialization of the module. This loads `site.json` at the root of the
  * project and calls the follow on functions to generate the pages.
  */
@@ -253,13 +267,14 @@ function init() {
 
             // copy assets in `/media`
             copyDirectory(config.mediaRoot, config.baseDir);
-
+            // copy CodeMirror modes - Currently only javascript.js
             copyDirectory(config.codeMirrorModes, config.baseDir);
-
             // builds the CSS and JS bundles
             buildBundles(site.bundles);
             // generates the pages
             buildPages(site.pages);
+            // clean up
+            removeJSBundles();
         })
         .catch(function(err) {
             console.error('Error thrown while loading JSON', err);
