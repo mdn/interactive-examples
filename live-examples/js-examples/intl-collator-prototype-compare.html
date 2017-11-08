@@ -1,0 +1,16 @@
+<pre>
+<code id="static-js">var words = ['Bären', 'Baren', 'Vögel', 'Vogel'];
+var collatorDe = new Intl.Collator('de', { usage: 'search', sensitivity: 'base' });
+var collatorFr = new Intl.Collator('fr', { usage: 'search', sensitivity: 'base' });
+var searchTerm = 'Bären';
+var matchesDe = words.filter(v => collatorDe.compare(v, searchTerm) === 0);
+var matchesFr = words.filter(v => collatorFr.compare(v, searchTerm) === 0);
+
+console.log(matchesDe);
+// expected output (Chrome / Firefox): Array ["Bären"]
+// expected output (Safari): Array ["Bären", "Baren"]
+
+console.log(matchesFr);
+// expected output: Array ["Bären", "Baren"]
+</code>
+</pre>

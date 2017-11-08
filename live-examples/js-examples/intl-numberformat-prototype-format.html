@@ -1,0 +1,15 @@
+<pre>
+<code id="static-js">var options1 = { style: 'currency', currency: 'RUB' };
+var numberFormat1 = new Intl.NumberFormat('ru-RU', options1);
+
+console.log(numberFormat1.format(654321.987));
+// expected output: "654 321,99 ₽"
+
+var numbers2 = [123456.789, 987654.321, 456789.123];
+var numberFormat2 = new Intl.NumberFormat('es-ES');
+var formatted2 = numbers2.map(numberFormat2.format);
+
+console.log(numbers2.map(numberFormat2.format));
+// expected output: Array ["123.456,789", "987.654,321", "456.789,123"]
+</code>
+</pre>
