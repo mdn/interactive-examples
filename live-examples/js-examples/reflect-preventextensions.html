@@ -1,0 +1,12 @@
+<pre>
+<code id="static-js">var obj1 = {};
+
+console.log(Reflect.isExtensible(obj1));
+// expected output: true
+
+Reflect.preventExtensions(obj1);
+
+console.log(Reflect.isExtensible(obj1));
+// expected output: false
+</code>
+</pre>

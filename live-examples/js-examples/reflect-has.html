@@ -1,0 +1,15 @@
+<pre>
+<code id="static-js">var obj1 = {
+  prop1: 42
+};
+
+console.log(Reflect.has(obj1, 'prop1'));
+// expected output: true
+
+console.log(Reflect.has(obj1, 'prop2'));
+// expected output: false
+
+console.log(Reflect.has(obj1, 'toString'));
+// expected output: true
+</code>
+</pre>
