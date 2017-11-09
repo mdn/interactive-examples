@@ -1,0 +1,15 @@
+<pre>
+<code id="static-js">var obj = {
+  prop1: 42
+};
+
+obj[Symbol.unscopables] = {
+  prop1: true
+};
+
+with (obj) {
+  console.log(prop1);
+  // expected output: Error: prop1 is not defined
+}
+</code>
+</pre>

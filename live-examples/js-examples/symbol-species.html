@@ -1,0 +1,15 @@
+<pre>
+<code id="static-js">class array1 extends Array {
+  static get [Symbol.species]() { return Array; }
+}
+
+var a = new array1(1, 2, 3);
+var mapped = a.map(x => x * x);
+
+console.log(mapped instanceof array1);
+// expected output: false
+
+console.log(mapped instanceof Array);
+// expected output: true
+</code>
+</pre>
