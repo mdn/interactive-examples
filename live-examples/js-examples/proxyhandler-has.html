@@ -8,12 +8,6 @@
   }
 }
 
-function invariant (key, action) {
-  if (key[0] === '_') {
-    throw new Error(`Invalid attempt to ${action} private "${key}" property`);
-  }
-}
-
 var monster1 = {
   _secret: 'easily scared',
   eyeCount: 4
