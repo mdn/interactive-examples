@@ -1,13 +1,18 @@
 (function() {
     'use strict';
 
-    var editorContainer = document.getElementById('editor');
+    var featureDetector = require('./editor-libs/feature-detector.js');
+    var mceConsole = require('./editor-libs/console');
+    var mceEvents = require('./editor-libs/events.js');
+
+    var exampleFeature = document.getElementById('static-js').dataset[
+        'feature'
+    ];
     var execute = document.getElementById('execute');
     var liveContainer = '';
+    var output = document.querySelector('#output code');
     var reset = document.getElementById('reset');
-    var codeMirror = undefined;
     var staticContainer;
-    var codeBlock;
 
     /**
      * Reads the textContent from the interactiveCodeBlock, sends the
@@ -23,21 +28,11 @@
         staticContainer = document.getElementById('static');
         staticContainer.classList.add('hidden');
 
-        codeBlock = staticContainer.querySelector('#static-js');
-
         liveContainer = document.getElementById('live');
         liveContainer.classList.remove('hidden');
 
-        // eslint-disable-next-line new-cap
-        codeMirror = CodeMirror(editorContainer, {
-            autofocus: true,
-            inputStyle: 'contenteditable',
-            lineNumbers: true,
-            mode: 'javascript',
-            undoDepth: 50,
-            tabindex: 0,
-            value: codeBlock.textContent
-        });
+        mceConsole();
+        mceEvents.register();
     }
 
     /**
@@ -46,8 +41,6 @@
      * @param {String} exampleCode - The code to execute
      */
     function updateOutput(exampleCode) {
-        var output = document.querySelector('#output code');
-
         output.classList.add('fade-in');
 
         try {
@@ -62,25 +55,21 @@
         });
     }
 
-    execute.addEventListener('click', function() {
-        editorConsole.clearOutput();
-        applyCode();
-    });
+    /* only execute JS in supported browsers. As `document.all`
+    is a non standard object available only in IE10 and older,
+    this will stop JS from executing in those versions. */
+    if (!document.all && featureDetector.isDefined(exampleFeature)) {
+        document.documentElement.classList.add('js');
 
-    reset.addEventListener('click', function() {
-        window.location.reload();
-    });
+        initInteractiveEditor();
 
-    window.addEventListener('load', function() {
-        var exampleFeature = document.getElementById('static-js').dataset[
-            'feature'
-        ];
+        execute.addEventListener('click', function() {
+            output.textContent = '';
+            applyCode();
+        });
 
-        /* only execute JS in supported browsers. As `document.all`
-        is a non standard object available only in IE10 and older,
-        this will stop JS from executing in those versions. */
-        if (!document.all && featureDetector.isDefined(exampleFeature)) {
-            initInteractiveEditor();
-        }
-    });
+        reset.addEventListener('click', function() {
+            window.location.reload();
+        });
+    }
 })();

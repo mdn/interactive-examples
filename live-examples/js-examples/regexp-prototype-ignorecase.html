@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">var regex1 = new RegExp('foo');
+var regex2 = new RegExp('foo', 'i');
+
+console.log(regex1.test('Football'));
+// expected output: false
+
+console.log(regex2.ignoreCase);
+// expected output: true
+
+console.log(regex2.test('Football'));
+// expected output: true
+</code>
+</pre>

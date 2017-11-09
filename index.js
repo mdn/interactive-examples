@@ -8,6 +8,7 @@ const uglify = require('uglify-es');
 
 const config = {
     baseDir: './docs/',
+    codeMirrorModes: 'js/mode',
     destCssDir: './docs/css/',
     destJsDir: './docs/js/',
     examplesDir: './docs/pages/',
@@ -37,7 +38,7 @@ function ensureDir(dir) {
  * Example object:
  *
  * "cssExamplesBase": {
- *     "javascript": ["js/libs/prism.js", "js/editable-css.js"],
+ *     "javascript": ["js/lib/prism.js", "js/editable-css.js"],
  *     "css": ["css/editable-css.css", "css/libs/prism.css"],
  *     "destFileName": "css-examples-base"
  * },
@@ -49,16 +50,21 @@ function buildBundles(bundles) {
         let currentFilename = currentBundle.destFileName;
 
         if (currentBundle.javascript) {
+            let outputFileName = config.destJsDir + currentFilename + '.js';
+
             // ensure the target dir exists
             ensureDir(config.destJsDir);
+
+            if (bundle === 'codeMirror') {
+                // use a different output directory
+                outputFileName =
+                    config.destJsDir + 'lib/' + currentFilename + '.js';
+            }
 
             // concatenate, uglify, and write the result to file
             concat(currentBundle.javascript).then(function(result) {
                 let uglified = uglify.minify(result);
-                fse.outputFileSync(
-                    config.destJsDir + currentFilename + '.js',
-                    uglified.code
-                );
+                fse.outputFileSync(outputFileName, uglified.code);
             });
         }
 
@@ -160,7 +166,19 @@ function copyDirectory(sourceDir, destDir) {
 
         // copy all examples to target directory
         for (let file in files) {
-            fse.copySync(files[file], destDir + files[file]);
+            let currentFile = files[file];
+
+            // if it is the javascript mode file
+            if (currentFile.includes('javascript.js')) {
+                // we need to read the contents in
+                let fileContents = fse.readFileSync(currentFile, 'utf-8');
+                // minify the contents
+                let uglified = uglify.minify(fileContents);
+                // then only write the result out
+                fse.outputFileSync(destDir + files[file], uglified.code);
+            } else {
+                fse.copySync(files[file], destDir + files[file]);
+            }
         }
     });
 }
@@ -217,6 +235,20 @@ function setMainTitle(currentPage, tmpl) {
 }
 
 /**
+ * As a last step, this deletes the two JS bundles that was
+ * built earlier in the build process.
+ */
+function removeJSBundles() {
+    let bundlesArray = ['js/editor-css-bundle.js', 'js/editor-js-bundle.js'];
+
+    for (let bundle in bundlesArray) {
+        fse.pathExists(bundlesArray[bundle]).then(function() {
+            fse.removeSync(bundlesArray[bundle]);
+        });
+    }
+}
+
+/**
  * Initialization of the module. This loads `site.json` at the root of the
  * project and calls the follow on functions to generate the pages.
  */
@@ -235,11 +267,14 @@ function init() {
 
             // copy assets in `/media`
             copyDirectory(config.mediaRoot, config.baseDir);
-
+            // copy CodeMirror modes - Currently only javascript.js
+            copyDirectory(config.codeMirrorModes, config.baseDir);
             // builds the CSS and JS bundles
             buildBundles(site.bundles);
             // generates the pages
             buildPages(site.pages);
+            // clean up
+            removeJSBundles();
         })
         .catch(function(err) {
             console.error('Error thrown while loading JSON', err);

@@ -1,0 +1,13 @@
+<pre>
+<code id="static-js">function precisionRound(number, precision) {
+  var factor = Math.pow(10, precision);
+  return Math.round(number * factor) / factor;
+}
+
+console.log(precisionRound(1234.5678, 1));
+// expected output: 1234.6
+
+console.log(precisionRound(1234.5678, -1));
+// expected output: 1230
+</code>
+</pre>
