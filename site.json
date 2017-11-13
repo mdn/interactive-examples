@@ -8,14 +8,6 @@
             ],
             "destFileName": "codemirror"
         },
-        "require": {
-            "javascript": ["js/require.js"],
-            "destFileName": "require"
-        },
-        "codemirrorLoader": {
-            "javascript": ["js/editor-libs/codemirrorLoader.js"],
-            "destFileName": "codemirrorLoader"
-        },
         "cssExamplesBase": {
             "javascript": [
                 "js/lib/prism.js",
