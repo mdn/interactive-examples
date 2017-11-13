@@ -95,6 +95,7 @@ function addJSErrorListener() {
 
 /**
  * Adds postMessage listener for communication from the parent page.
+ * Currently only used by the CSS editor.
  */
 function addPostMessageListener() {
     'use strict';
@@ -212,11 +213,11 @@ module.exports = {
         var exampleChoiceList = document.getElementById('example-choice-list');
         var liveEditor = document.getElementById('editor');
 
-        addPostMessageListener();
         addJSErrorListener();
 
         // only bind events if the `exampleChoiceList` container exist
         if (exampleChoiceList) {
+            addPostMessageListener();
             sendPerformanceMetric('css');
             addCSSEditorEventListeners(exampleChoiceList);
         }
