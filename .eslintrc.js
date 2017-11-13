@@ -29,7 +29,7 @@ module.exports = {
     },
     globals: {
         Clipboard: true,
-        codeMirror: true,
+        CodeMirror: true,
         console: true,
         expect: true,
         exports: true,
