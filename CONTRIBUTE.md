@@ -1,8 +1,12 @@
-#Naming Things
+# JavaScript Interactive Examples Contributing Guide
+
+A guide for people wanting to contribute interactive JavaScript examples.
+
+## Naming Things
 
 It probably makes sense to name things in a consistent way throughout all examples.  Where possible the naming should ‘reflect’ the type of that object or variable.
 
-##Numerical Suffixes
+### Numerical Suffixes
 
 One way we could maintain a certain consistency is to use the type of the object with a numerical suffix.
 
@@ -42,12 +46,12 @@ var collatorDe = new Intl.Collator('de', { usage: 'search', sensitivity: 'base' 
 var collatorFr = new Intl.Collator('fr', { usage: 'search', sensitivity: 'base' });
 ```
 
-##Indicating console.log output
+### Indicating console.log output
 
 To indicate the ouput we expect, we place a comment `// expected output:` on the line below each `console.log`.
 
 
-##Representing Browser Differences
+### Representing Browser Differences
 
 Occasionally browsers will produce different results, in these cases we can denote the varying output like so:
 
@@ -57,7 +61,7 @@ console.log(matchesDe);
 // expected output (Safari): Array ["Bären", "Baren"]
 ```
 
-#Language Choice
+## Language Choice
 
 For more established example content (such as arrays) it is recommended that we stick to ES5, where examples are required for APIs standardised after ES6 it is felt that we can use ES6 to illustrate the examples.
 
@@ -68,38 +72,38 @@ ES6 examples should use:
 - Template literals (``string text ${expression} string text``)
 - Spread syntax (`myFunction(...iterableObj);`)
 
-#Providing Context
+## Providing Context
 
 Where possible it may be useful to provide examples showing how a method could be used in the context of a function or class. It may not always be possible to provide a succinct example and a series of `console.log`s can also be a valid way of illustrating an example.
 
-#Tangible examples
+## Tangible examples
 
 It's nice to be able to illustrate a programming concept using real or imaginary world examples, if possible using the same theme throughout a specific topic.
 
 For example:
 
 ```
-function monster1(disposition) {
+function 1(disposition) {
   this.disposition = disposition;
 }
 
 var handler1 = {
   construct: function(target, args) {
-    console.log("monster1 constructor called");
-    // expected output: "monster constructor called"
+    console.log("1 constructor called");
+    // expected output: " constructor called"
 
     return new target(...args);
   }
 };
 
-var proxy1 = new Proxy(monster1, handler1);
+var proxy1 = new Proxy(1, handler1);
 
 console.log(new proxy1("fierce").disposition);
 // expected output: "fierce"
 ```
 
 
-#Dealing with Errors
+## Dealing with Errors
 
 Writing code that will throw an error can be useful way to illustrate an example. However an uncaught error will halt execution immediately and will not display the results of any `console.log` statements in the example.
 
@@ -114,15 +118,15 @@ try {
 }
 ```
 
-#Format
+## Format
 
 The aim is to try and fit examples into 12 lines of code, if it's not possible to create a useful example in 12 lines, it's fine to use more lines. We currently have examples of up to 25 lines.
 
-##Semi-colons
+### Semi-colons
 
 There are valid arguments for and against using semi-colons. We use them.
 
-##Line Spacing
+### Line Spacing
 
 To fit the space available we try and keep examples as compact as possible, using blank lines sparingly to increase readability.  
 
@@ -132,8 +136,8 @@ For example:
 
 ```
 construct: function(target, args) {
-  console.log("monster1 constructor called");
-  // expected output: "monster constructor called"
+  console.log("1 constructor called");
+  // expected output: " constructor called"
 
   return new target(...args);
 }
@@ -141,17 +145,17 @@ construct: function(target, args) {
 and
 
 ```
-var proxy1 = new Proxy(monster1, handler1);
+var proxy1 = new Proxy(1, handler1);
 
 console.log(new proxy1("fierce").disposition);
 // expected output: "fierce"
 ```
 
-##Indentation
+### Indentation
 
 In order to keep things as concise as reasonably possible we indent with two spaces.
 
-##Instantiating an Object
+### Instantiating an Object
 
 Most objects are instantiated in the normal way, for example:
 ```
@@ -164,7 +168,7 @@ The exception being `Object` in which case we instantiate like so:
 var object1 = {};
 ```
 
-##Instantiating an Array
+### Instantiating an Array
 
 We instantiate arrays in the following way:
 
@@ -174,7 +178,7 @@ var array1 = [2, 5, 7, 9];
 
 Note the spacing after the commas.
 
-##Passing parameters
+### Passing parameters
 
 We space after commas when passing parameters to a function, but no space padding of parenthesis:
 
@@ -182,7 +186,7 @@ We space after commas when passing parameters to a function, but no space paddin
 calcAngle(8, 10);
 ```
 
-##Single Quotes
+### Single Quotes
 
 We use Single quotes to denote strings:
 
@@ -190,7 +194,7 @@ We use Single quotes to denote strings:
 setTimeout(resolve, 100, 'foo');
 ```
 
-##Property Definition
+### Property Definition
 
 We chose clarity over brevity when defining object properties, for example:
 
@@ -203,7 +207,7 @@ var object1 = {
 
 Note the space after the colon.
 
-##Spaces between Operators
+### Spaces between Operators
 
 For example:
 
@@ -215,7 +219,7 @@ if (a > b) {
 }
 ```
 
-##Function Definition
+### Function Definition
 
 Generally functions are defined with the `function` keyword at the beginning:
 
@@ -227,7 +231,7 @@ function sum(a, b) {
 
 Note the space before the opening curly bracket.
 
-##Anonymous Function Definition
+### Anonymous Function Definition
 
 Where ES6 predates the method or object we're illustrating we use the arrow function:
 
@@ -243,7 +247,7 @@ var sum = array1.reduce(function(a, b) {
 });
 ```
 
-##Function Definition
+### Function Definition
 
 Named functions are defined like so:
 
@@ -255,7 +259,7 @@ function sum(a, b) {
 
 Note the function name starts with a lowercase letter and can be camelCased.
 
-##Class Definition
+### Class Definition
 
 As classes came in with ES6 we can use other ES6 concepts when defining them such as `const`. We also need to be aware of the changing scope of `this`.
 
@@ -274,7 +278,7 @@ class Employee {
 }
 ```
 
-##Return early from If statements
+### Return early from If statements
 
 Only use an `else` if the preceding `if` clause doesn't return.
 
@@ -297,7 +301,7 @@ if (a > b) {
 }
 ```
 
-##Formatting Switch statements
+### Formatting Switch statements
 
 ```
 var expr = 'Pears';
@@ -314,7 +318,7 @@ switch (expr) {
 }
 ```
 
-##Testing for Equality
+### Testing for Equality
 
 When testing for equality use Strict Equality Comparison, for example:
 
