@@ -1,26 +1,29 @@
 {
     "bundles": {
         "codeMirror": {
-            "javascript": ["js/lib/codemirror.js"],
+            "javascript": [
+                "js/lib/codemirror.js",
+                "js/mode/javascript/javascript.js"
+            ],
             "css": [
                 "css/libs/codemirror.css",
                 "css/editor-libs/codemirror-override.css"
             ],
-            "destFileName": "codemirror"
+            "destFileName": "codemirror-5-31-0"
+        },
+        "cssExampleLibs": {
+            "javascript": ["js/lib/prism.js", "js/lib/clipboard.js"],
+            "css": ["css/libs/prism.css"],
+            "destFileName": "css-examples-libs-1-8-4"
         },
         "cssExamplesBase": {
-            "javascript": [
-                "js/lib/prism.js",
-                "js/lib/clipboard.js",
-                "js/editor-css-bundle.js"
-            ],
+            "javascript": ["js/editor-css-bundle.js"],
             "css": [
-                "css/libs/prism.css",
                 "css/editor-libs/common.css",
                 "css/editor-libs/prism-override.css",
                 "css/editable-css.css"
             ],
-            "destFileName": "css-examples-base"
+            "destFileName": "editor-css"
         },
         "editorJS": {
             "javascript": ["js/editor-js-bundle.js"],
@@ -1990,21 +1993,24 @@
         },
         "proxyhandlerConstruct": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/proxyhandler-construct.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-construct.html",
             "fileName": "proxyhandler-construct.html",
             "title": "JavaScript Demo: handler.construct()",
             "type": "js"
         },
         "proxyhandlerDefineProperty": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/proxyhandler-defineproperty.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-defineproperty.html",
             "fileName": "proxyhandler-defineproperty.html",
             "title": "JavaScript Demo: handler.defineProperty()",
             "type": "js"
         },
         "proxyhandlerDeleteProperty": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/proxyhandler-deleteproperty.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-deleteproperty.html",
             "fileName": "proxyhandler-deleteproperty.html",
             "title": "JavaScript Demo: handler.deleteProperty()",
             "type": "js"
@@ -2018,14 +2024,16 @@
         },
         "proxyhandlerGetOwnPropertyDescriptor": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/proxyhandler-getownpropertydescriptor.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-getownpropertydescriptor.html",
             "fileName": "proxyhandler-getownpropertydescriptor.html",
             "title": "JavaScript Demo: handler.getOwnPropertyDescriptor()",
             "type": "js"
         },
         "proxyhandlerGetPrototypeOf": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/proxyhandler-getprototypeof.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-getprototypeof.html",
             "fileName": "proxyhandler-getprototypeof.html",
             "title": "JavaScript Demo: handler.getPrototypeOf()",
             "type": "js"
@@ -2039,21 +2047,24 @@
         },
         "proxyhandlerIsExtensible": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/proxyhandler-isextensible.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-isextensible.html",
             "fileName": "proxyhandler-isextensible.html",
             "title": "JavaScript Demo: handler.isExtensible()",
             "type": "js"
         },
         "proxyhandlerOwnKeys": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/proxyhandler-ownkeys.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-ownkeys.html",
             "fileName": "proxyhandler-ownkeys.html",
             "title": "JavaScript Demo: handler.ownKeys()",
             "type": "js"
         },
         "proxyhandlerPreventExtensions": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/proxyhandler-preventextensions.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-preventextensions.html",
             "fileName": "proxyhandler-preventextensions.html",
             "title": "JavaScript Demo: handler.preventExtensions()",
             "type": "js"
@@ -2067,7 +2078,8 @@
         },
         "proxyhandlerSetPrototype": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/proxyhandler-setprototype.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-setprototype.html",
             "fileName": "proxyhandler-setprototype.html",
             "title": "JavaScript Demo: handler.setPrototype()",
             "type": "js"
@@ -2088,14 +2100,16 @@
         },
         "reflectDefineProperty": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/reflect-defineproperty.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-defineproperty.html",
             "fileName": "reflect-defineproperty.html",
             "title": "JavaScript Demo: reflect.defineProperty()",
             "type": "js"
         },
         "reflectDeleteProperty": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/reflect-deleteproperty.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-deleteproperty.html",
             "fileName": "reflect-deleteproperty.html",
             "title": "JavaScript Demo: reflect.deleteProperty()",
             "type": "js"
@@ -2109,14 +2123,16 @@
         },
         "reflectGetOwnPropertyDescriptor": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/reflect-getownpropertydescriptor.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-getownpropertydescriptor.html",
             "fileName": "reflect-getownpropertydescriptor.html",
             "title": "JavaScript Demo: reflect.getOwnPropertyDescriptor()",
             "type": "js"
         },
         "reflectGetPrototypeOf": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/reflect-getprototypeof.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-getprototypeof.html",
             "fileName": "reflect-getprototypeof.html",
             "title": "JavaScript Demo: reflect.getPrototypeOf()",
             "type": "js"
@@ -2130,7 +2146,8 @@
         },
         "reflectIsExtensible": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/reflect-isextensible.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-isextensible.html",
             "fileName": "reflect-isextensible.html",
             "title": "JavaScript Demo: reflect.isExtensible()",
             "type": "js"
@@ -2144,7 +2161,8 @@
         },
         "reflectPreventExtensions": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/reflect-preventextensions.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-preventextensions.html",
             "fileName": "reflect-preventextensions.html",
             "title": "JavaScript Demo: reflect.preventExtensions()",
             "type": "js"
@@ -2158,7 +2176,8 @@
         },
         "reflectSetPrototype": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/reflect-setprototype.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-setprototype.html",
             "fileName": "reflect-setprototype.html",
             "title": "JavaScript Demo: reflect.setPrototype()",
             "type": "js"
@@ -2172,7 +2191,8 @@
         },
         "regexpGetRegExp@@Species": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-getregexp-@@species.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-getregexp-@@species.html",
             "fileName": "regexp-getregexp-@@species.html",
             "title": "JavaScript Demo: RegExp.getRegExp[@@species]",
             "type": "js"
@@ -2186,98 +2206,112 @@
         },
         "regexpPrototype@@Match": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-@@match.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-@@match.html",
             "fileName": "regexp-prototype-@@match.html",
             "title": "JavaScript Demo: RegExp.prototype[@@match]",
             "type": "js"
         },
         "regexpPrototype@@Replace": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-@@replace.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-@@replace.html",
             "fileName": "regexp-prototype-@@replace.html",
             "title": "JavaScript Demo: RegExp.prototype[@@replace]",
             "type": "js"
         },
         "regexpPrototype@@Search": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-@@search.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-@@search.html",
             "fileName": "regexp-prototype-@@search.html",
             "title": "JavaScript Demo: RegExp.prototype[@@search]",
             "type": "js"
         },
         "regexpPrototype@@Split": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-@@split.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-@@split.html",
             "fileName": "regexp-prototype-@@split.html",
             "title": "JavaScript Demo: RegExp.prototype[@@split]",
             "type": "js"
         },
         "regexpPrototypeExec": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-exec.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-exec.html",
             "fileName": "regexp-prototype-exec.html",
             "title": "JavaScript Demo: RegExp.prototype.exec()",
             "type": "js"
         },
         "regexpPrototypeFlags": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-flags.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-flags.html",
             "fileName": "regexp-prototype-flags.html",
             "title": "JavaScript Demo: RegExp.prototype.flags",
             "type": "js"
         },
         "regexpPrototypeGlobal": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-global.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-global.html",
             "fileName": "regexp-prototype-global.html",
             "title": "JavaScript Demo: RegExp.prototype.global",
             "type": "js"
         },
         "regexpPrototypeIgnoreCase": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-ignorecase.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-ignorecase.html",
             "fileName": "regexp-prototype-ignorecase.html",
             "title": "JavaScript Demo: RegExp.prototype.ignoreCase",
             "type": "js"
         },
         "regexpPrototypeMultiLine": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-multiline.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-multiline.html",
             "fileName": "regexp-prototype-multiline.html",
             "title": "JavaScript Demo: RegExp.prototype.multiline",
             "type": "js"
         },
         "regexpPrototypeSource": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-source.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-source.html",
             "fileName": "regexp-prototype-source.html",
             "title": "JavaScript Demo: RegExp.prototype.source",
             "type": "js"
         },
         "regexpPrototypeSticky": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-sticky.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-sticky.html",
             "fileName": "regexp-prototype-sticky.html",
             "title": "JavaScript Demo: RegExp.prototype.sticky",
             "type": "js"
         },
         "regexpPrototypeTest": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-test.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-test.html",
             "fileName": "regexp-prototype-test.html",
             "title": "JavaScript Demo: RegExp.prototype.test",
             "type": "js"
         },
         "regexpPrototypeToString": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-tostring.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-tostring.html",
             "fileName": "regexp-prototype-tostring.html",
             "title": "JavaScript Demo: RegExp.prototype.toString()",
             "type": "js"
         },
         "regexpPrototypeUnicode": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/regexp-prototype-unicode.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-unicode.html",
             "fileName": "regexp-prototype-unicode.html",
             "title": "JavaScript Demo: RegExp.prototype.unicode",
             "type": "js"
@@ -2567,7 +2601,8 @@
         },
         "symbolIsConcatSpreadable": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/symbol-isconcatspreadable.html",
+            "exampleCode":
+                "live-examples/js-examples/symbol-isconcatspreadable.html",
             "fileName": "symbol-isconcatspreadable.html",
             "title": "JavaScript Demo: Symbol.isConcatSpreadable",
             "type": "js"
@@ -2595,7 +2630,8 @@
         },
         "symbolPrototypeToString": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/symbol-prototype-tostring.html",
+            "exampleCode":
+                "live-examples/js-examples/symbol-prototype-tostring.html",
             "fileName": "symbol-prototype-tostring.html",
             "title": "JavaScript Demo: Symbol.prototype.toString()",
             "type": "js"

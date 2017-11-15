@@ -55,12 +55,6 @@ function buildBundles(bundles) {
             // ensure the target dir exists
             ensureDir(config.destJsDir);
 
-            if (bundle === 'codeMirror') {
-                // use a different output directory
-                outputFileName =
-                    config.destJsDir + 'lib/' + currentFilename + '.js';
-            }
-
             // concatenate, uglify, and write the result to file
             concat(currentBundle.javascript).then(function(result) {
                 let uglified = uglify.minify(result);
@@ -166,19 +160,7 @@ function copyDirectory(sourceDir, destDir) {
 
         // copy all examples to target directory
         for (let file in files) {
-            let currentFile = files[file];
-
-            // if it is the javascript mode file
-            if (currentFile.includes('javascript.js')) {
-                // we need to read the contents in
-                let fileContents = fse.readFileSync(currentFile, 'utf-8');
-                // minify the contents
-                let uglified = uglify.minify(fileContents);
-                // then only write the result out
-                fse.outputFileSync(destDir + files[file], uglified.code);
-            } else {
-                fse.copySync(files[file], destDir + files[file]);
-            }
+            fse.copySync(files[file], destDir + files[file]);
         }
     });
 }
@@ -267,8 +249,6 @@ function init() {
 
             // copy assets in `/media`
             copyDirectory(config.mediaRoot, config.baseDir);
-            // copy CodeMirror modes - Currently only javascript.js
-            copyDirectory(config.codeMirrorModes, config.baseDir);
             // builds the CSS and JS bundles
             buildBundles(site.bundles);
             // generates the pages

@@ -7,6 +7,12 @@ pre[class*='language-'] {
     overflow: auto;
 }
 
+pre[class*='language-'] > code {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
 pre[class*='language-']:before,
 pre[class*='language-']:after {
     width: 0;
