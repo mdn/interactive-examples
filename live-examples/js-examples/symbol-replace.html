@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">class replace1 {
+  constructor(value) {
+    this.value = value;
+  }
+  [Symbol.replace](string) {
+    return `s/${string}/${this.value}/g`;
+  }
+}
+
+console.log('foo'.replace(new replace1('bar')));
+// expected output: "s/foo/bar/g"
+</code>
+</pre>

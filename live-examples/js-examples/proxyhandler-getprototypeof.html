@@ -1,0 +1,24 @@
+<pre>
+<code id="static-js">var monster1 = {
+  eyeCount: 4
+}
+
+var monsterPrototype = {
+  eyeCount : 2
+};
+
+var handler = {
+  getPrototypeOf(target) {
+    return monsterPrototype;
+  }
+};
+
+var proxy1 = new Proxy(monster1, handler);
+
+console.log(Object.getPrototypeOf(proxy1) === monsterPrototype);
+// expected output: true
+
+console.log(Object.getPrototypeOf(proxy1).eyeCount);
+// expected output: 2
+</code>
+</pre>

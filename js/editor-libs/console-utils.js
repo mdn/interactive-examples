@@ -39,6 +39,7 @@ module.exports = {
      * @returns Formatted output as a string.
      */
     formatObject: function(input) {
+        'use strict';
         var bufferDataViewRegExp = /^(ArrayBuffer|SharedArrayBuffer|DataView)$/;
         var complexArrayRegExp = /^(Int8Array|Int16Array|Int32Array|Uint8Array|Uint16Array|Uint32Array|Uint8ClampedArray|Float32Array|Float64Array)$/;
         var objectName = input.constructor.name;
@@ -57,7 +58,7 @@ module.exports = {
             }
         }
 
-        if (objectName === 'Symbol') {
+        if (objectName === 'Symbol' && (input !== undefined)) {
             return input.toString();
         }
 
@@ -74,7 +75,9 @@ module.exports = {
      */
     formatOutput: function(input) {
         'use strict';
-        if (typeof input === 'string') {
+        if (input === undefined) {
+            return input;
+        } else if (typeof input === 'string') {
             return '"' + input + '"';
         } else if (Array.isArray(input)) {
             // check the contents of the array

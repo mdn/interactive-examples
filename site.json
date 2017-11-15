@@ -1,34 +1,29 @@
 {
     "bundles": {
         "codeMirror": {
-            "javascript": ["js/lib/codemirror.js"],
+            "javascript": [
+                "js/lib/codemirror.js",
+                "js/mode/javascript/javascript.js"
+            ],
             "css": [
                 "css/libs/codemirror.css",
                 "css/editor-libs/codemirror-override.css"
             ],
-            "destFileName": "codemirror"
+            "destFileName": "codemirror-5-31-0"
         },
-        "require": {
-            "javascript": ["js/require.js"],
-            "destFileName": "require"
-        },
-        "codemirrorLoader": {
-            "javascript": ["js/editor-libs/codemirrorLoader.js"],
-            "destFileName": "codemirrorLoader"
+        "cssExampleLibs": {
+            "javascript": ["js/lib/prism.js", "js/lib/clipboard.js"],
+            "css": ["css/libs/prism.css"],
+            "destFileName": "css-examples-libs-1-8-4"
         },
         "cssExamplesBase": {
-            "javascript": [
-                "js/lib/prism.js",
-                "js/lib/clipboard.js",
-                "js/editor-css-bundle.js"
-            ],
+            "javascript": ["js/editor-css-bundle.js"],
             "css": [
-                "css/libs/prism.css",
                 "css/editor-libs/common.css",
                 "css/editor-libs/prism-override.css",
                 "css/editable-css.css"
             ],
-            "destFileName": "css-examples-base"
+            "destFileName": "editor-css"
         },
         "editorJS": {
             "javascript": ["js/editor-js-bundle.js"],
@@ -278,20 +273,6 @@
             "title": "JavaScript Demo: Atomics.xor()",
             "type": "js"
         },
-        "dataviewBuffer": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-buffer.html",
-            "fileName": "dataview-buffer.html",
-            "title": "JavaScript Demo: DataView.buffer",
-            "type": "js"
-        },
-        "dataviewByteLength": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/dataview-bytelength.html",
-            "fileName": "dataview-bytelength.html",
-            "title": "JavaScript Demo: DataView.byteLength",
-            "type": "js"
-        },
         "atomicsExchange": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/atomics-exchange.html",
@@ -381,6 +362,20 @@
             "exampleCode": "live-examples/js-examples/classes-static.html",
             "fileName": "classes-static.html",
             "title": "JavaScript Demo: Classes Static",
+            "type": "js"
+        },
+        "dataviewBuffer": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-buffer.html",
+            "fileName": "dataview-buffer.html",
+            "title": "JavaScript Demo: DataView.buffer",
+            "type": "js"
+        },
+        "dataviewByteLength": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/dataview-bytelength.html",
+            "fileName": "dataview-bytelength.html",
+            "title": "JavaScript Demo: DataView.byteLength",
             "type": "js"
         },
         "dataviewByteOffset": {
@@ -1989,6 +1984,338 @@
             "title": "JavaScript Demo: Promise.then()",
             "type": "js"
         },
+        "proxyhandlerApply": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-apply.html",
+            "fileName": "proxyhandler-apply.html",
+            "title": "JavaScript Demo: handler.apply()",
+            "type": "js"
+        },
+        "proxyhandlerConstruct": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-construct.html",
+            "fileName": "proxyhandler-construct.html",
+            "title": "JavaScript Demo: handler.construct()",
+            "type": "js"
+        },
+        "proxyhandlerDefineProperty": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-defineproperty.html",
+            "fileName": "proxyhandler-defineproperty.html",
+            "title": "JavaScript Demo: handler.defineProperty()",
+            "type": "js"
+        },
+        "proxyhandlerDeleteProperty": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-deleteproperty.html",
+            "fileName": "proxyhandler-deleteproperty.html",
+            "title": "JavaScript Demo: handler.deleteProperty()",
+            "type": "js"
+        },
+        "proxyhandlerGet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-get.html",
+            "fileName": "proxyhandler-get.html",
+            "title": "JavaScript Demo: handler.get()",
+            "type": "js"
+        },
+        "proxyhandlerGetOwnPropertyDescriptor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-getownpropertydescriptor.html",
+            "fileName": "proxyhandler-getownpropertydescriptor.html",
+            "title": "JavaScript Demo: handler.getOwnPropertyDescriptor()",
+            "type": "js"
+        },
+        "proxyhandlerGetPrototypeOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-getprototypeof.html",
+            "fileName": "proxyhandler-getprototypeof.html",
+            "title": "JavaScript Demo: handler.getPrototypeOf()",
+            "type": "js"
+        },
+        "proxyhandlerHas": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-has.html",
+            "fileName": "proxyhandler-has.html",
+            "title": "JavaScript Demo: handler.has()",
+            "type": "js"
+        },
+        "proxyhandlerIsExtensible": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-isextensible.html",
+            "fileName": "proxyhandler-isextensible.html",
+            "title": "JavaScript Demo: handler.isExtensible()",
+            "type": "js"
+        },
+        "proxyhandlerOwnKeys": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-ownkeys.html",
+            "fileName": "proxyhandler-ownkeys.html",
+            "title": "JavaScript Demo: handler.ownKeys()",
+            "type": "js"
+        },
+        "proxyhandlerPreventExtensions": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-preventextensions.html",
+            "fileName": "proxyhandler-preventextensions.html",
+            "title": "JavaScript Demo: handler.preventExtensions()",
+            "type": "js"
+        },
+        "proxyhandlerSet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/proxyhandler-set.html",
+            "fileName": "proxyhandler-set.html",
+            "title": "JavaScript Demo: handler.set()",
+            "type": "js"
+        },
+        "proxyhandlerSetPrototype": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/proxyhandler-setprototype.html",
+            "fileName": "proxyhandler-setprototype.html",
+            "title": "JavaScript Demo: handler.setPrototype()",
+            "type": "js"
+        },
+        "reflectApply": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-apply.html",
+            "fileName": "reflect-apply.html",
+            "title": "JavaScript Demo: reflect.apply()",
+            "type": "js"
+        },
+        "reflectConstruct": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-construct.html",
+            "fileName": "reflect-construct.html",
+            "title": "JavaScript Demo: reflect.construct()",
+            "type": "js"
+        },
+        "reflectDefineProperty": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-defineproperty.html",
+            "fileName": "reflect-defineproperty.html",
+            "title": "JavaScript Demo: reflect.defineProperty()",
+            "type": "js"
+        },
+        "reflectDeleteProperty": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-deleteproperty.html",
+            "fileName": "reflect-deleteproperty.html",
+            "title": "JavaScript Demo: reflect.deleteProperty()",
+            "type": "js"
+        },
+        "reflectGet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-get.html",
+            "fileName": "reflect-get.html",
+            "title": "JavaScript Demo: reflect.get()",
+            "type": "js"
+        },
+        "reflectGetOwnPropertyDescriptor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-getownpropertydescriptor.html",
+            "fileName": "reflect-getownpropertydescriptor.html",
+            "title": "JavaScript Demo: reflect.getOwnPropertyDescriptor()",
+            "type": "js"
+        },
+        "reflectGetPrototypeOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-getprototypeof.html",
+            "fileName": "reflect-getprototypeof.html",
+            "title": "JavaScript Demo: reflect.getPrototypeOf()",
+            "type": "js"
+        },
+        "reflectHas": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-has.html",
+            "fileName": "reflect-has.html",
+            "title": "JavaScript Demo: reflect.has()",
+            "type": "js"
+        },
+        "reflectIsExtensible": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-isextensible.html",
+            "fileName": "reflect-isextensible.html",
+            "title": "JavaScript Demo: reflect.isExtensible()",
+            "type": "js"
+        },
+        "reflectOwnKeys": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-ownkeys.html",
+            "fileName": "reflect-ownkeys.html",
+            "title": "JavaScript Demo: reflect.ownKeys()",
+            "type": "js"
+        },
+        "reflectPreventExtensions": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-preventextensions.html",
+            "fileName": "reflect-preventextensions.html",
+            "title": "JavaScript Demo: reflect.preventExtensions()",
+            "type": "js"
+        },
+        "reflectSet": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/reflect-set.html",
+            "fileName": "reflect-set.html",
+            "title": "JavaScript Demo: reflect.set()",
+            "type": "js"
+        },
+        "reflectSetPrototype": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/reflect-setprototype.html",
+            "fileName": "reflect-setprototype.html",
+            "title": "JavaScript Demo: reflect.setPrototype()",
+            "type": "js"
+        },
+        "regexpConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/regexp-constructor.html",
+            "fileName": "regexp-constructor.html",
+            "title": "JavaScript Demo: RegExp Constructor",
+            "type": "js"
+        },
+        "regexpGetRegExp@@Species": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-getregexp-@@species.html",
+            "fileName": "regexp-getregexp-@@species.html",
+            "title": "JavaScript Demo: RegExp.getRegExp[@@species]",
+            "type": "js"
+        },
+        "regexpLastIndex": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/regexp-lastindex.html",
+            "fileName": "regexp-lastindex.html",
+            "title": "JavaScript Demo: RegExp.lastIndex",
+            "type": "js"
+        },
+        "regexpPrototype@@Match": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-@@match.html",
+            "fileName": "regexp-prototype-@@match.html",
+            "title": "JavaScript Demo: RegExp.prototype[@@match]",
+            "type": "js"
+        },
+        "regexpPrototype@@Replace": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-@@replace.html",
+            "fileName": "regexp-prototype-@@replace.html",
+            "title": "JavaScript Demo: RegExp.prototype[@@replace]",
+            "type": "js"
+        },
+        "regexpPrototype@@Search": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-@@search.html",
+            "fileName": "regexp-prototype-@@search.html",
+            "title": "JavaScript Demo: RegExp.prototype[@@search]",
+            "type": "js"
+        },
+        "regexpPrototype@@Split": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-@@split.html",
+            "fileName": "regexp-prototype-@@split.html",
+            "title": "JavaScript Demo: RegExp.prototype[@@split]",
+            "type": "js"
+        },
+        "regexpPrototypeExec": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-exec.html",
+            "fileName": "regexp-prototype-exec.html",
+            "title": "JavaScript Demo: RegExp.prototype.exec()",
+            "type": "js"
+        },
+        "regexpPrototypeFlags": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-flags.html",
+            "fileName": "regexp-prototype-flags.html",
+            "title": "JavaScript Demo: RegExp.prototype.flags",
+            "type": "js"
+        },
+        "regexpPrototypeGlobal": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-global.html",
+            "fileName": "regexp-prototype-global.html",
+            "title": "JavaScript Demo: RegExp.prototype.global",
+            "type": "js"
+        },
+        "regexpPrototypeIgnoreCase": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-ignorecase.html",
+            "fileName": "regexp-prototype-ignorecase.html",
+            "title": "JavaScript Demo: RegExp.prototype.ignoreCase",
+            "type": "js"
+        },
+        "regexpPrototypeMultiLine": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-multiline.html",
+            "fileName": "regexp-prototype-multiline.html",
+            "title": "JavaScript Demo: RegExp.prototype.multiline",
+            "type": "js"
+        },
+        "regexpPrototypeSource": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-source.html",
+            "fileName": "regexp-prototype-source.html",
+            "title": "JavaScript Demo: RegExp.prototype.source",
+            "type": "js"
+        },
+        "regexpPrototypeSticky": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-sticky.html",
+            "fileName": "regexp-prototype-sticky.html",
+            "title": "JavaScript Demo: RegExp.prototype.sticky",
+            "type": "js"
+        },
+        "regexpPrototypeTest": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-test.html",
+            "fileName": "regexp-prototype-test.html",
+            "title": "JavaScript Demo: RegExp.prototype.test",
+            "type": "js"
+        },
+        "regexpPrototypeToString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-tostring.html",
+            "fileName": "regexp-prototype-tostring.html",
+            "title": "JavaScript Demo: RegExp.prototype.toString()",
+            "type": "js"
+        },
+        "regexpPrototypeUnicode": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/regexp-prototype-unicode.html",
+            "fileName": "regexp-prototype-unicode.html",
+            "title": "JavaScript Demo: RegExp.prototype.unicode",
+            "type": "js"
+        },
         "setPrototype@@Iterator": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode":
@@ -2249,6 +2576,120 @@
             "exampleCode": "live-examples/js-examples/statement-while.html",
             "fileName": "statement-while.html",
             "title": "JavaScript Demo: Statement - While",
+            "type": "js"
+        },
+        "symbolConstructor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-constructor.html",
+            "fileName": "symbol-constructor.html",
+            "title": "JavaScript Demo: Symbol - Constructor",
+            "type": "js"
+        },
+        "symbolFor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-for.html",
+            "fileName": "symbol-for.html",
+            "title": "JavaScript Demo: Symbol.for()",
+            "type": "js"
+        },
+        "symbolHasInstance": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-hasinstance.html",
+            "fileName": "symbol-hasinstance.html",
+            "title": "JavaScript Demo: Symbol.hasInstance",
+            "type": "js"
+        },
+        "symbolIsConcatSpreadable": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/symbol-isconcatspreadable.html",
+            "fileName": "symbol-isconcatspreadable.html",
+            "title": "JavaScript Demo: Symbol.isConcatSpreadable",
+            "type": "js"
+        },
+        "symbolIterator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-iterator.html",
+            "fileName": "symbol-iterator.html",
+            "title": "JavaScript Demo: Symbol.iterator",
+            "type": "js"
+        },
+        "symbolKeyFor": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-keyfor.html",
+            "fileName": "symbol-keyfor.html",
+            "title": "JavaScript Demo: Symbol.keyfor()",
+            "type": "js"
+        },
+        "symbolMatch": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-match.html",
+            "fileName": "symbol-match.html",
+            "title": "JavaScript Demo: Symbol.match",
+            "type": "js"
+        },
+        "symbolPrototypeToString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode":
+                "live-examples/js-examples/symbol-prototype-tostring.html",
+            "fileName": "symbol-prototype-tostring.html",
+            "title": "JavaScript Demo: Symbol.prototype.toString()",
+            "type": "js"
+        },
+        "symbolPrototype": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-prototype.html",
+            "fileName": "symbol-prototype.html",
+            "title": "JavaScript Demo: Symbol.prototype",
+            "type": "js"
+        },
+        "symbolReplace": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-replace.html",
+            "fileName": "symbol-replace.html",
+            "title": "JavaScript Demo: Symbol.replace",
+            "type": "js"
+        },
+        "symbolSearch": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-search.html",
+            "fileName": "symbol-search.html",
+            "title": "JavaScript Demo: Symbol.search",
+            "type": "js"
+        },
+        "symbolSpecies": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-species.html",
+            "fileName": "symbol-species.html",
+            "title": "JavaScript Demo: Symbol.species",
+            "type": "js"
+        },
+        "symbolSplit": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-split.html",
+            "fileName": "symbol-split.html",
+            "title": "JavaScript Demo: Symbol.split",
+            "type": "js"
+        },
+        "symbolToPrimitive": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-toprimitive.html",
+            "fileName": "symbol-toprimitive.html",
+            "title": "JavaScript Demo: Symbol.toPrimitive",
+            "type": "js"
+        },
+        "symbolToStringTag": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-tostringtag.html",
+            "fileName": "symbol-tostringtag.html",
+            "title": "JavaScript Demo: Symbol.toStringTag",
+            "type": "js"
+        },
+        "symbolUnscopables": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/symbol-unscopables.html",
+            "fileName": "symbol-unscopables.html",
+            "title": "JavaScript Demo: Symbol.unscopables",
             "type": "js"
         },
         "typedarrayBuffer": {

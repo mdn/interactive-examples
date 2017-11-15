@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js">class search1 {
+  constructor(value) {
+    this.value = value;
+  }
+  [Symbol.search](string) {
+    return string.indexOf(this.value);
+  }
+}
+
+console.log('foobar'.search(new search1('bar')));
+// expected output: 3
+</code>
+</pre>

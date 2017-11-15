@@ -1,0 +1,25 @@
+<pre>
+<code id="static-js">var monster1 = {
+  texture: 'scaly'
+}
+
+var handler1 = {
+  deleteProperty: function(target, prop) {
+    if (prop in target) {
+      delete target[prop];
+      console.log('property removed: ' + prop);
+      // expected output: "property removed: texture"
+    }
+  }
+}
+
+console.log(monster1.texture);
+// expected output: "scaly"
+
+var proxy1 = new Proxy(monster1, handler1);
+delete proxy1.texture;
+
+console.log(monster1.texture);
+// expected output: undefined
+</code>
+</pre>

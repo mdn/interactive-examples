@@ -1,0 +1,16 @@
+<pre>
+<code id="static-js">function func1(a, b, c) {
+  this.sum = a + b + c;
+}
+
+var args = [1, 2, 3];
+var obj1 = new func1(...args);
+var obj2 = Reflect.construct(func1, args);
+
+console.log(obj2.sum);
+// expected output: 6
+
+console.log(obj1.sum);
+// expected output: 6
+</code>
+</pre>

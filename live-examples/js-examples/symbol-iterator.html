@@ -1,0 +1,13 @@
+<pre>
+<code id="static-js">var iterable1 = new Object();
+
+iterable1[Symbol.iterator] = function* () {
+  yield 1;
+  yield 2;
+  yield 3;
+};
+
+console.log([...iterable1]);
+// expected output: [1, 2, 3]
+</code>
+</pre>

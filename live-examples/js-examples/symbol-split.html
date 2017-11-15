@@ -1,0 +1,16 @@
+<pre>
+<code id="static-js">class split1 {
+  constructor(value) {
+    this.value = value;
+  }
+  [Symbol.split](string) {
+    var index = string.indexOf(this.value);
+    return this.value + string.substr(0, index) + "/"
+      + string.substr(index + this.value.length);
+  }
+}
+
+console.log('foobar'.split(new split1('foo')));
+// expected output: "foo/bar"
+</code>
+</pre>

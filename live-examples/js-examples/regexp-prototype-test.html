@@ -1,0 +1,18 @@
+<pre>
+<code id="static-js">var regex1 = RegExp('foo*');
+var regex2 = RegExp('foo*','g');
+var str1 = 'table football';
+
+console.log(regex1.test(str1));
+// expected output: true
+
+console.log(regex1.test(str1));
+// expected output: true
+
+console.log(regex2.test(str1));
+// expected output: true
+
+console.log(regex2.test(str1));
+// expected output: false
+</code>
+</pre>

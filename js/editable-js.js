@@ -5,13 +5,14 @@
     var mceConsole = require('./editor-libs/console');
     var mceEvents = require('./editor-libs/events.js');
 
-    var exampleFeature = document.getElementById('static-js').dataset[
-        'feature'
-    ];
+    var codeBlock = document.getElementById('static-js');
+    var exampleFeature = codeBlock.dataset['feature'];
     var execute = document.getElementById('execute');
     var liveContainer = '';
     var output = document.querySelector('#output code');
     var reset = document.getElementById('reset');
+
+    var codeMirror;
     var staticContainer;
 
     /**
@@ -24,6 +25,26 @@
         updateOutput(codeMirrorDoc.getValue());
     }
 
+    /**
+     * Initialize CodeMirror
+     */
+    function initCodeMirror() {
+        var editorContainer = document.getElementById('editor');
+        // eslint-disable-next-line new-cap
+        codeMirror = CodeMirror(editorContainer, {
+            autofocus: true,
+            inputStyle: 'contenteditable',
+            lineNumbers: true,
+            mode: 'javascript',
+            undoDepth: 5,
+            tabindex: 0,
+            value: codeBlock.textContent
+        });
+    }
+
+    /**
+     * Initialize the interactive editor
+     */
     function initInteractiveEditor() {
         staticContainer = document.getElementById('static');
         staticContainer.classList.add('hidden');
@@ -33,6 +54,8 @@
 
         mceConsole();
         mceEvents.register();
+
+        initCodeMirror();
     }
 
     /**
