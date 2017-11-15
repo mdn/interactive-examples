@@ -15,7 +15,7 @@
     "main": "index.js",
     "bundlesize": [
         {
-            "path": "./docs/css/css-examples-lib-1-8-4.css",
+            "path": "./docs/css/css-examples-libs-1-8-4.css",
             "maxSize": "4 kB"
         },
         {
