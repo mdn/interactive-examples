@@ -43,6 +43,7 @@
             "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*-bundle.js' -c 'npm run build' --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
         "perf": "bundlesize",
+        "precommit": "npm run perf",
         "unit-tests": "jest",
         "test": "npm-run-all unit-tests build perf",
         "test:watch": "jest --watch"
@@ -63,6 +64,7 @@
         "concat": "^1.0.3",
         "fs-extra": "^3.0.1",
         "http-server": "^0.10.0",
+        "husky": "^0.14.3",
         "jest": "^21.2.1",
         "node-dir": "^0.1.16",
         "npm-run-all": "^4.0.2",
