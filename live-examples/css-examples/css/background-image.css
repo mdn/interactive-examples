@@ -1,9 +1,3 @@
-#default-example {
-    background-image: url('https://placekitten.com/g/40/40');
-}
-
 #example-element {
-    background-color: transparent;
-    padding: 0 40px;
-    min-height: 200px;
+    min-height: 100%;
 }
