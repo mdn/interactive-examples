@@ -1,15 +1,11 @@
 <pre>
-<code id="static-js">var numberFormat1 = new Intl.NumberFormat('de-DE');
-var options1 = numberFormat1.resolvedOptions();
+<code id="static-js">var numberDe = new Intl.NumberFormat('de-DE');
+var numberAr = new Intl.NumberFormat('ar');
 
-console.log(options1.locale);
-// expected output (Firefox / Safari): "de-DE"
-// expected output (Chrome): "de"
-
-console.log(options1.numberingSystem);
+console.log(numberDe.resolvedOptions().numberingSystem);
 // expected output: "latn"
 
-console.log(options1.style);
-// "decimal"
+console.log(numberAr.resolvedOptions().numberingSystem);
+// expected output: "arab"
 </code>
 </pre>

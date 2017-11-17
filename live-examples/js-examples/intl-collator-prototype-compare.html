@@ -1,16 +1,15 @@
 <pre>
-<code id="static-js">var words = ['Bären', 'Baren', 'Vögel', 'Vogel'];
-var collatorDe = new Intl.Collator('de', { usage: 'search', sensitivity: 'base' });
-var collatorFr = new Intl.Collator('fr', { usage: 'search', sensitivity: 'base' });
-var searchTerm = 'Bären';
-var matchesDe = words.filter(v => collatorDe.compare(v, searchTerm) === 0);
-var matchesFr = words.filter(v => collatorFr.compare(v, searchTerm) === 0);
+<code id="static-js">function firstAlphabetical(locale, letter1, letter2) {
+  if (new Intl.Collator(locale).compare(letter1, letter2) > 0) {
+    return letter1;
+  }
+  return letter2;
+}
 
-console.log(matchesDe);
-// expected output (Chrome / Firefox): Array ["Bären"]
-// expected output (Safari): Array ["Bären", "Baren"]
+console.log(firstAlphabetical('de', 'z', 'ä'));
+// expected output: "z"
 
-console.log(matchesFr);
-// expected output: Array ["Bären", "Baren"]
+console.log(firstAlphabetical('sv', 'z', 'ä'));
+// expected output: "ä"
 </code>
 </pre>
