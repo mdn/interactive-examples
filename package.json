@@ -43,10 +43,10 @@
             "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*-bundle.js' -c 'npm run build' --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
         "perf": "bundlesize",
-        "precommit": "npm run perf",
         "unit-tests": "jest",
         "test": "npm-run-all unit-tests build perf",
-        "test:watch": "jest --watch"
+        "test:watch": "jest --watch",
+        "precommit": "npm run test"
     },
     "keywords": [
         "javascript",
