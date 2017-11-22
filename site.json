@@ -3196,6 +3196,15 @@
             "title": "CSS Demo: Font Weight",
             "type": "css"
         },
+        "objectFit": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/object-fit.css",
+            "exampleCode": "live-examples/css-examples/object-fit.html",
+            "fileName": "object-fit.html",
+            "title": "CSS Demo: Object Fit",
+            "type": "css"
+        },
         "position": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
