@@ -3155,6 +3155,15 @@
             "title": "CSS Demo: Box Shadow",
             "type": "css"
         },
+        "boxSizing": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/box-sizing.css",
+            "exampleCode": "live-examples/css-examples/box-sizing.html",
+            "fileName": "box-sizing.html",
+            "title": "CSS Demo: Box Sizing",
+            "type": "css"
+        },
         "color": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc": "../../live-examples/css-examples/css/color.css",
