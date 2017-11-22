@@ -1,12 +1,13 @@
 <pre>
-<code id="static-js">// create an array
-var a = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+<code id="static-js">var array1 = ['ant', 'bison', 'camel', 'duck', 'elephant'];
 
-// call slice(), passing start and end indexes
-var sliced = a.slice(2, 4);
+console.log(array1.slice(2, 4));
+// expected output: Array ["camel", "duck"]
 
-// log the result
-console.log(sliced);
-// expected output: camel,duck
+console.log(array1.slice(1, 5));
+// expected output: Array ["bison", "camel", "duck", "elephant"]
+
+console.log(array1.slice(0, 99));
+// expected output: Array ["ant", "bison", "camel", "duck", "elephant"]
 </code>
 </pre>

@@ -1,11 +1,12 @@
 <pre>
-<code id="static-js" data-feature="array-entries">// create an array
-var arr1 = ['a', 'b', 'c'];
-// create an iterator by calling entries on the array
-var iterator = arr1.entries();
+<code id="static-js" data-feature="array-entries">var array1 = ['a', 'b', 'c'];
 
-// log the results, which prints the next Array index, value on each call
-console.log(iterator.next().value);
-// expected output: 0,a
+var iterator1 = array1.entries();
+
+console.log(iterator1.next().value);
+// expected output: Array [0, "a"]
+
+console.log(iterator1.next().value);
+// expected output: Array [1, "b"]
 </code>
 </pre>

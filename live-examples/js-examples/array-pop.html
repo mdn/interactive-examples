@@ -1,12 +1,15 @@
 <pre>
-<code id="static-js">// create an array
-var brassicaOleracea = ['brocolli', 'cauliflower', 'cabbage', 'kale', 'tomato']
+<code id="static-js">var array1 = ['brocolli', 'cauliflower', 'cabbage', 'kale', 'tomato']
 
-// call pop(), to pop the last element
-brassicaOleracea.pop();
+console.log(array1.pop());
+// expected output: "tomato"
 
-// log the result
-console.log(brassicaOleracea);
-// expected output: brocolli,cauliflower,cabbage,kale
+console.log(array1);
+// expected output: Array ["brocolli", "cauliflower", "cabbage", "kale"]
+
+array1.pop();
+
+console.log(array1);
+// expected output: Array ["brocolli", "cauliflower", "cabbage"]
 </code>
 </pre>

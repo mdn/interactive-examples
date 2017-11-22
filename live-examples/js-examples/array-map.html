@@ -1,12 +1,12 @@
 <pre>
-<code id="static-js">// create an array
-var numbers = [1, 4, 9, 16];
+<code id="static-js">var array1 = [1, 4, 9, 16];
 
-// call map(), passing a function
-var mapped = numbers.map(function(x) { return x * 2 });
+// pass a function to map
+var map1 = array1.map(function(x) {
+  return x * 2;
+});
 
-// log the result
-console.log(mapped);
-// expected output: 2,8,18,32
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
 </code>
 </pre>
