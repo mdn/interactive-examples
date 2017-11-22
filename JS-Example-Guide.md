@@ -2,11 +2,13 @@
 
 A guide for people wanting to contribute interactive JavaScript examples.
 
-## Naming Things
+## General Guidelines
 
-It probably makes sense to name things in a consistent way throughout all examples.  Where possible the naming should ‘reflect’ the type of that object or variable.
+### Variable Naming
 
-### Numerical Suffixes
+With regards to all aspects of the examples, we aim for consistency. A good starting point for this guide then, is to explain our naming conventions.
+
+#### Numerical Suffixes
 
 One way we could maintain a certain consistency is to use the type of the object with a numerical suffix.
 
@@ -19,9 +21,9 @@ var array1 = ['a', 'b', 'c'];
 var array2 = [1, 2, 3];
 ```
 
-Note it is suggested that even if there is only one instance of that object then it should be suffixed with a `1`.
+Note that even if there is only one instance of that object, it should be suffixed with a `1`.
 
-Note also although we could use the same name for multiple instances, it's suggested that we use a progressive numbering system to minimise confusion should the reader want to experiment with the example code.
+Also note that, although we could use the same name for multiple instances, it's suggested that we use a progressive numbering system. This aims to minimize confusion should the reader want to experiment with the example code.
 
 For example:
 
@@ -37,6 +39,8 @@ console.log(array2);
 // expected output: Array [1, 2, 3]
 ```
 
+#### Descriptive Suffixes
+
 An alternative to using numerical suffixes could be to use more descriptive suffixes, such as `arrayLetters` and `arrayNumbers` in the above examples.
 
 This may make more sense in the context of the following example:
@@ -46,10 +50,45 @@ var collatorDe = new Intl.Collator('de', { usage: 'search', sensitivity: 'base' 
 var collatorFr = new Intl.Collator('fr', { usage: 'search', sensitivity: 'base' });
 ```
 
-### Indicating console.log output
+### Example Size
+
+The aim is to try and fit examples into 12 lines of code, only if it's not possible to create a useful example in 12 should we write longer examples.
+
+
+### Tangible Examples
+
+When illustrating a programming concept, it is beneficial to mimic real world examples as much as possible. Once you have chosen your real world theme, stick to the theme throughout the specific example.
+
+For example:
+
+```
+function monster1(disposition) {
+  this.disposition = disposition;
+}
+
+var handler1 = {
+  construct: function(target, args) {
+    console.log('monster1 constructor called');
+    // expected output: "monster1 constructor called"
+
+    return new target(...args);
+  }
+};
+
+var proxy1 = new Proxy(monster1, handler1);
+
+console.log(new proxy1('fierce').disposition);
+// expected output: "fierce"
+```
+
+
+### Providing Context
+
+Where possible, it is useful to provide examples showing how a method could be used in the context of a function or class. In instances where a succinct example is not possible, a series of `console.log` statements can also be a valid way of illustrating an example.
+
+### Indicating console.log Output
 
 To indicate the ouput we expect, we place a comment `// expected output:` on the line below each `console.log`.
-
 
 ### Representing Browser Differences
 
@@ -61,53 +100,11 @@ console.log(matchesDe);
 // expected output (Safari): Array ["Bären", "Baren"]
 ```
 
-## Language Choice
+### Dealing with Errors
 
-For more established example content (such as arrays) it is recommended that we stick to ES5, where examples are required for APIs standardised after ES6 it is felt that we can use ES6 to illustrate the examples.
+Writing code that will throw an error can be useful way to illustrate an example. However, an uncaught error will halt execution immediately and will not display the results of any `console.log` statements in the example.
 
-ES6 examples should use:
-
-- `let` and `const` instead of `var`
-- Arrow functions (`=>`) for Anonymous Functions (see below)
-- Template literals (``string text ${expression} string text``)
-- Spread syntax (`myFunction(...iterableObj);`)
-
-## Providing Context
-
-Where possible it may be useful to provide examples showing how a method could be used in the context of a function or class. It may not always be possible to provide a succinct example and a series of `console.log`s can also be a valid way of illustrating an example.
-
-## Tangible examples
-
-It's nice to be able to illustrate a programming concept using real or imaginary world examples, if possible using the same theme throughout a specific topic.
-
-For example:
-
-```
-function 1(disposition) {
-  this.disposition = disposition;
-}
-
-var handler1 = {
-  construct: function(target, args) {
-    console.log("1 constructor called");
-    // expected output: " constructor called"
-
-    return new target(...args);
-  }
-};
-
-var proxy1 = new Proxy(1, handler1);
-
-console.log(new proxy1("fierce").disposition);
-// expected output: "fierce"
-```
-
-
-## Dealing with Errors
-
-Writing code that will throw an error can be useful way to illustrate an example. However an uncaught error will halt execution immediately and will not display the results of any `console.log` statements in the example.
-
-If you wish to use an error to illustrate a method you could wrap it in a `try` `catch` clause, for example:
+If you wish to use an error to illustrate a method, wrap it in a `try/catch` block for example:
 
 ```
 try {
@@ -118,9 +115,18 @@ try {
 }
 ```
 
-## Format
+## JavaScript Coding Style
 
-The aim is to try and fit examples into 12 lines of code, if it's not possible to create a useful example in 12 lines, it's fine to use more lines. We currently have examples of up to 25 lines.
+### Language Choice (ES5/ES6)
+
+For more established example content, such as Arrays, it is recommended that we stick with ES5. Where examples are required for APIs standardized after ES6, aim to use ES6 to illustrate these examples.
+
+ES6 examples should use:
+
+- `let` and `const` instead of `var`
+- Arrow functions (`=>`) for Anonymous Functions (see below)
+- Template literals (``string text ${expression} string text``)
+- Spread syntax (`myFunction(...iterableObj);`)
 
 ### Semi-colons
 
@@ -136,7 +142,7 @@ For example:
 
 ```
 construct: function(target, args) {
-  console.log("1 constructor called");
+  console.log('monster1 constructor called');
   // expected output: " constructor called"
 
   return new target(...args);
@@ -145,9 +151,9 @@ construct: function(target, args) {
 and
 
 ```
-var proxy1 = new Proxy(1, handler1);
+var proxy1 = new Proxy(monster1, handler1);
 
-console.log(new proxy1("fierce").disposition);
+console.log(new proxy1('fierce').disposition);
 // expected output: "fierce"
 ```
 
@@ -180,7 +186,7 @@ Note the spacing after the commas.
 
 ### Passing parameters
 
-We space after commas when passing parameters to a function, but no space padding of parenthesis:
+We use a space after commas when passing parameters to a function, but do not pad the parenthesis: i.e.
 
 ```
 calcAngle(8, 10);
@@ -205,7 +211,13 @@ var object1 = {
 };
 ```
 
-Note the space after the colon.
+(Note the space after the colon.)
+
+Please do NOT put the definition on one single line:
+
+```
+var object1 = {property1: 42, property2: 'foo'};
+```
 
 ### Spaces between Operators
 
@@ -221,7 +233,7 @@ if (a > b) {
 
 ### Function Definition
 
-Generally functions are defined with the `function` keyword at the beginning:
+Generally functions are defined with the `function` keyword at the beginning and the function name starts with a lowercase letter and can be camelCased:
 
 ```
 function sum(a, b) {
@@ -229,7 +241,7 @@ function sum(a, b) {
 }
 ```
 
-Note the space before the opening curly bracket.
+Note the space before the opening curly brace.
 
 ### Anonymous Function Definition
 
@@ -247,21 +259,9 @@ var sum = array1.reduce(function(a, b) {
 });
 ```
 
-### Function Definition
-
-Named functions are defined like so:
-
-```
-function sum(a, b) {
-  return a + b;
-}
-```
-
-Note the function name starts with a lowercase letter and can be camelCased.
-
 ### Class Definition
 
-As classes came in with ES6 we can use other ES6 concepts when defining them such as `const`. We also need to be aware of the changing scope of `this`.
+As classes were introduced with ES6, we can use other ES6 concepts when defining them such as `const`. We also need to be aware of the changing scope of `this`.
 
 Class names should be capitalised and camelCased, for example:
 
