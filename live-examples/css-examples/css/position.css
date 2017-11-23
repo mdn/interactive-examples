@@ -1,75 +1,31 @@
-.output.large {
-    overflow: scroll;
+
+#example-element-container {
+  position: relative;
+  overflow: scroll;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  transform: rotate(0);
 }
 
-.output section.default-example {
-    position: relative;
-    margin: 50px auto;
-    width: 80%;
-}
-
-.box,
 #example-element {
-    display: inline-block;
-    background-color: #1766aa;
-    padding: 20px;
-    border: 3px solid #fff;
-    color: #fff;
-    width: 100px;
-    height: 100px;
-    text-align: center;
+ background-color: yellow;
+ border: 3px solid red;
 }
 
-/*
---------------------------------------
-Fixed Example CSS
---------------------------------------
-*/
-.fixed-example {
-    padding-left: 120px;
-    width: 100%;
-    /* forces example-element to use this as it's container */
-    transform: rotate(0);
+#example-element-original {
+ position: absolute;
+ top: 0;
+ left: calc(50% - 50px);
+ background-color: transparent;
+ border: 3px dotted red;
 }
 
-.fixed-example.hidden .box {
-    display: none;
-}
-
-/*
---------------------------------------
-Sticky Example CSS
---------------------------------------
-*/
-.sticky-example dl {
-    margin: 0;
-}
-
-.sticky-example dl > div {
-    padding: 0;
-    font: bold 20px/45px Helvetica, Arial, sans-serif;
-}
-
-.sticky-example dt {
-    background-color: #b8c1c8;
-    color: #fff;
-    margin: 0;
-    padding: 2px 0 0 12px;
-    border-bottom: 1px solid #989ea4;
-    border-top: 1px solid #717d85;
-    font-size: 21px;
-    line-height: 18px;
-}
-
-.sticky-example dd {
-    margin: 0;
-    padding: 0;
-    padding-left: 12px;
-    font-size: 20px;
-    line-height: 45px;
-    white-space: nowrap;
-}
-
-.sticky-example dd + dd {
-    border-top: 1px solid #ccc;
+.box {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  margin: 0 10px;
+  background-color: rgba(0, 0, 255, 0.2);
+  border: 3px solid blue;
 }
