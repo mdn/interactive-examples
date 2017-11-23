@@ -7,7 +7,7 @@
 </button>
 </div>
 
-<div class="example-choice">
+<div class="example-choice" initial-choice="true">
 <pre><code id="example_two" class="language-css">position: relative;
 top: 80px; left: 80px;</code></pre>
 <button type="button" class="copy hidden" aria-hidden="true" data-clipboard-target="#example_one">
@@ -35,11 +35,12 @@ top: 0;</code></pre>
 <div id="output" class="output large hidden">
     <section id="default-example" class="default-example">
       <div id="example-element-container">
-        <div class="box"></div><div class="box" id="example-element-original"></div><div class="box" id="example-element"></div><div class="box"></div>
-<p>To see the effect of sticky positioning, select the <code>sticky</code> option and scroll this text.</p>
-<p>The major problem—one of the major problems, for there are several—one of the many major problems with governing people is that of whom you get to do it; or rather of who manages to get people to let them do it to them.</p>
-<p>To summarize: it is a well-known fact that those people who must want to rule people are, ipso facto, those least suited to do it.</p>
-<p>To summarize the summary: anyone who is capable of getting themselves made President should on no account be allowed to do the job.</p>
+        <div class="box"></div><div class="box" id="example-element-placeholder"></div><div class="box transition-all" id="example-element"></div><div class="box"></div>
+<p>To see the effect of <code>position: sticky</code>, select the <code>position: sticky</code> option and scroll this container.</p>
+<p>The element will scroll along with its container, until it is at the top of the container (or reaches the offset specified in <code>top</code>), and will then stop scrolling, so it stays visible.</p>
+<p>The rest of this text is only supplied to make sure the container overflows, so as to enable you to scroll it and see the effect.</p>
+<hr/>
+<p>Far out in the uncharted backwaters of the unfashionable end of the western spiral arm of the Galaxy lies a small unregarded yellow sun. Orbiting this at a distance of roughly ninety-two million miles is an utterly insignificant little blue green planet whose ape-descended life forms are so amazingly primitive that they still think digital watches are a pretty neat idea.</p> 
       </div>
     </section>
 
