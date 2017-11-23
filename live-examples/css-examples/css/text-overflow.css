@@ -1,12 +1,12 @@
 #example-element-container {
-  width: 70%;
+    width: 70%;
 }
 
 #example-element {
-  line-height: 50px;
-  background-color: #E5E8FC;
-  overflow: hidden;
-  white-space: nowrap;
-  font-family: sans-serif;
-  padding: 0 0.5em;
+    line-height: 50px;
+    background-color: #E5E8FC;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    padding: 0 0.5em;
 }
