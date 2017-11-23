@@ -1,12 +1,13 @@
 <pre>
-<code id="static-js">// create an array
-var elements = ['Fire', 'Wind', 'Rain'];
+<code id="static-js">var elements = ['Fire', 'Wind', 'Rain'];
 
-// call join(), passing an optional separator
-var result = elements.join('-');
+console.log(elements.join());
+// expected output: Fire,Wind,Rain
 
-// log the result
-console.log(result);
+console.log(elements.join(''));
+// expected output: FireWindRain
+
+console.log(elements.join('-'));
 // expected output: Fire-Wind-Rain
 </code>
 </pre>

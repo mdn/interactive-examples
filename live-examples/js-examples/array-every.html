@@ -1,14 +1,11 @@
 <pre>
-<code id="static-js">// create the callback function
-function isBelowThreshold(currentValue) {
-    return currentValue <= 40;
+<code id="static-js">function isBelowThreshold(currentValue) {
+  return currentValue < 40;
 }
 
-// run function against array values
-var result = [1, 30, 40, 29, 10, 13].every(isBelowThreshold);
+var array1 = [1, 30, 39, 29, 10, 13];
 
-// log the result
-console.log(result);
+console.log(array1.every(isBelowThreshold));
 // expected output: true
 </code>
 </pre>
