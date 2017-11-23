@@ -1,9 +1,7 @@
 <pre>
 <code id="static-js">var array1 = [0, 1, 2, 3];
 
-var result = array1.reduce(function(accumulator, currentValue) {
-  return accumulator + currentValue;
-});
+const result = array1.reduce((accumulator, currentValue) => accumulator + currentValue);
 
 console.log(result);
 // expected output: 6
