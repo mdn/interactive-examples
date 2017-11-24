@@ -50,6 +50,12 @@ var collatorDe = new Intl.Collator('de', { usage: 'search', sensitivity: 'base' 
 var collatorFr = new Intl.Collator('fr', { usage: 'search', sensitivity: 'base' });
 ```
 
+We can also use content-descriptive variable names that don't mention the type of object that they represent, for example:
+
+```
+var beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
+```
+
 ### Example Size
 
 The aim is to try and fit examples into 12 lines of code, only if it's not possible to create a useful example in 12 should we write longer examples.
