@@ -1,13 +1,9 @@
 <pre>
-<code id="static-js">/* Calls reduceRight() on a multi dimensional array, passing a callback function that converts it into a flattened array. */
-var flattenedArray = [[0, 1], [2, 3], [4, 5]].reduceRight(
-    function(previousValue, currentValue) {
-        return previousValue.concat(currentValue);
-    }
+<code id="static-js">const array1 = [[0, 1], [2, 3], [4, 5]].reduceRight(
+  (previousValue, currentValue) => previousValue.concat(currentValue)
 );
 
-// log the result
-console.log(flattenedArray);
-// expected output: 4,5,2,3,0,1
+console.log(array1);
+// expected output: Array [4, 5, 2, 3, 0, 1]
 </code>
 </pre>

@@ -1,12 +1,15 @@
 <pre>
-<code id="static-js">// create an array
-var exampleArray = ['pigs', 'goats', 'sheep'];
+<code id="static-js">var animals = ['pigs', 'goats', 'sheep'];
 
-// add one or more elements
-exampleArray.push('cows');
+console.log(animals.push('cows'));
+// expected output: 4
 
-// log the result
-console.log(exampleArray);
-// expected output: pigs,goats,sheep,cows
+console.log(animals);
+// expected output: Array ["pigs", "goats", "sheep", "cows"]
+
+animals.push('chickens');
+
+console.log(animals);
+// expected output: Array ["pigs", "goats", "sheep", "cows", "chickens"]
 </code>
 </pre>

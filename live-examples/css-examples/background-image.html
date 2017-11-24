@@ -1,35 +1,30 @@
 <section id="example-choice-list" class="example-choice-list large" data-property="backgroundImage">
 <div class="example-choice">
-<pre><code id="example_one" class="language-css">background-image: url("https://placekitten.com/g/200/200");</code></pre>
+<pre><code id="example_one" class="language-css">background-image: url("../../media/examples/lizard.png");</code></pre>
 <button type="button" class="copy hidden" aria-hidden="true" data-clipboard-target="#example_one">
     <span class="visually-hidden">Copy to Clipboard</span>
 </button>
 </div>
 
 <div class="example-choice">
-<pre><code id="example_two" class="language-css">background-image: inherit;</code></pre>
+<pre><code id="example_two" class="language-css">background-image: url("../../media/examples/lizard.png"),
+                  url("../../media/examples/star.png");</code></pre>
 <button type="button" class="copy hidden" aria-hidden="true" data-clipboard-target="#example_two">
     <span class="visually-hidden">Copy to Clipboard</span>
 </button>
 </div>
 
 <div class="example-choice">
-<pre><code id="example_three" class="language-css">background-image: none;</code></pre>
+<pre><code id="example_three" class="language-css">background-image: url("../../media/examples/star.png"),
+                  url("../../media/examples/lizard.png");</code></pre>
 <button type="button" class="copy hidden" aria-hidden="true" data-clipboard-target="#example_three">
     <span class="visually-hidden">Copy to Clipboard</span>
 </button>
 </div>
 
-<div class="example-choice">
-<pre>
-<code id="example_four" class="language-css">/* Note: When using multiple background images,
-you should also use background-repeat: no-repeat;, or else only the top
-most(first in specified order) image will be seen. */
-background-repeat: no-repeat;
-background-image: url("https://placehold.it/100/edecec.png"),
-                  url("https://placehold.it/200/999.png"),
-                  url("https://placehold.it/300/333.png");</code>
-</pre>
+<div class="example-choice" initial-choice="true">
+<pre><code id="example_four" class="language-css">background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("../../media/examples/lizard.png");</code></pre>
 <button type="button" class="copy hidden" aria-hidden="true" data-clipboard-target="#example_four">
     <span class="visually-hidden">Copy to Clipboard</span>
 </button>

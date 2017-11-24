@@ -1206,6 +1206,97 @@
             "title": "JavaScript Demo: Standard built-in objects - undefined",
             "type": "js"
         },
+        "intlCollatorPrototypeCompare": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/intl-collator-prototype-compare.html",
+            "fileName": "intl-collator-prototype-compare.html",
+            "title": "JavaScript Demo: Intl.Collator.prototype.compare",
+            "type": "js"
+        },
+        "intlCollatorPrototypeResolvedOptions": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/intl-collator-prototype-resolvedoptions.html",
+            "fileName": "intl-collator-prototype-resolvedoptions.html",
+            "title": "JavaScript Demo: Intl.Collator.prototype.resolvedOptions",
+            "type": "js"
+        },
+        "intlCollatorSupportedLocalesOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/intl-collator-supportedlocalesof.html",
+            "fileName": "intl-collator-prototype-supportedlocalesof.html",
+            "title": "JavaScript Demo: Intl.Collator.prototype.supportedLocalesOf",
+            "type": "js"
+        },
+        "intlCollator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/intl-collator.html",
+            "fileName": "intl-collator.html",
+            "title": "JavaScript Demo: Intl.Collator",
+            "type": "js"
+        },
+        "intlDateTimeFormatPrototypeFormat": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/intl-datetimeformat-prototype-format.html",
+            "fileName": "intl-datetimeformat-prototype-format.html",
+            "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.format",
+            "type": "js"
+        },
+        "intlDateTimeFormatPrototypeResolvedOptions": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/intl-datetimeformat-prototype-resolvedoptions.html",
+            "fileName": "intl-datetimeformat-prototype-resolvedoptions.html",
+            "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.resolvedOptions",
+            "type": "js"
+        },
+        "intlDateTimeFormatSupportedLocalesOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/intl-datetimeformat-supportedlocalesof.html",
+            "fileName": "intl-datetimeformat-prototype-supportedlocalesof.html",
+            "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.supportedLocalesOf",
+            "type": "js"
+        },
+        "intlDateTimeFormat": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/intl-datetimeformat.html",
+            "fileName": "intl-datetimeformat.html",
+            "title": "JavaScript Demo: Intl.DateTimeFormat",
+            "type": "js"
+        },
+        "intlGetCanonicalLocales": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/intl-getcanonicallocales.html",
+            "fileName": "intl-getcanonicallocales.html",
+            "title": "JavaScript Demo: Intl.GetCanonicalLocales",
+            "type": "js"
+        },
+        "intlNumberFormatPrototypeFormat": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/intl-numberformat-prototype-format.html",
+            "fileName": "intl-numberformat-prototype-format.html",
+            "title": "JavaScript Demo: Intl.NumberFormat.prototype.format",
+            "type": "js"
+        },
+        "intlNumberFormatPrototypeResolvedOptions": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/intl-numberformat-prototype-resolvedoptions.html",
+            "fileName": "intl-numberformat-prototype-resolvedoptions.html",
+            "title": "JavaScript Demo: Intl.NumberFormat.prototype.resolvedOptions",
+            "type": "js"
+        },
+        "intlNumberFormatSupportedLocalesOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/intl-numberformat-supportedlocalesof.html",
+            "fileName": "intl-numberformat-prototype-supportedlocalesof.html",
+            "title": "JavaScript Demo: Intl.NumberFormat.prototype.supportedLocalesOf",
+            "type": "js"
+        },
+        "intlNumberFormat": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/intl-numberformat.html",
+            "fileName": "intl-numberformat.html",
+            "title": "JavaScript Demo: Intl.NumberFormat",
+            "type": "js"
+        },
         "jsonParse": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/json-parse.html",
@@ -3064,6 +3155,15 @@
             "title": "CSS Demo: Box Shadow",
             "type": "css"
         },
+        "boxSizing": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/box-sizing.css",
+            "exampleCode": "live-examples/css-examples/box-sizing.html",
+            "fileName": "box-sizing.html",
+            "title": "CSS Demo: Box Sizing",
+            "type": "css"
+        },
         "color": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc": "../../live-examples/css-examples/css/color.css",
@@ -3105,6 +3205,15 @@
             "title": "CSS Demo: Font Weight",
             "type": "css"
         },
+        "objectFit": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/object-fit.css",
+            "exampleCode": "live-examples/css-examples/object-fit.html",
+            "fileName": "object-fit.html",
+            "title": "CSS Demo: Object Fit",
+            "type": "css"
+        },
         "position": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
@@ -3122,6 +3231,15 @@
             "exampleCode": "live-examples/css-examples/text-align.html",
             "fileName": "text-align.html",
             "title": "CSS Demo: Text Align",
+            "type": "css"
+        },
+        "textOverflow": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/text-overflow.css",
+            "exampleCode": "live-examples/css-examples/text-overflow.html",
+            "fileName": "text-overflow.html",
+            "title": "CSS Demo: Text Overflow",
             "type": "css"
         },
         "transform": {

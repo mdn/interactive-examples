@@ -1,12 +1,14 @@
 <pre>
-<code id="static-js">// create an array
-var beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
+<code id="static-js">var beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 
-// call indexOf(), passing a value and optional start index
-var index = beasts.indexOf('bison');
-
-// log the result
-console.log(index);
+console.log(beasts.indexOf('bison'));
 // expected output: 1
+
+// start from index 2
+console.log(beasts.indexOf('bison', 2));
+// expected output: 4
+
+console.log(beasts.indexOf('giraffe'));
+// expected output: -1
 </code>
 </pre>
