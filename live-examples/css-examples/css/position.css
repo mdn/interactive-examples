@@ -9,9 +9,9 @@
 
 .box {
     display: inline-block;
-    height: 80px;
-    width: 80px;
-    margin: 0 10px;
+    height: 65px;
+    width: 65px;
+    margin: 10px;
     background-color: rgba(0, 0, 255, 0.2);
     border: 3px solid blue;
 }
@@ -23,12 +23,7 @@
 
 #example-element-placeholder {
     position: absolute;
-    top: 0;
-    left: 100px;
+    left: 85px;
     background-color: transparent;
     border: 3px dotted red;
-}
-
-#example-element-container p:first-of-type {
-    margin-top: 80px;
 }
