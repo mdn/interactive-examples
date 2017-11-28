@@ -1,14 +1,14 @@
 <pre>
-<code id="static-js">var obj1 = {
-  prop1: 42
+<code id="static-js">const object1 = {
+  property1: 42
 };
 
-console.log(Object.isSealed(obj1));
+console.log(Object.isSealed(object1));
 // expected output: false
 
-Object.seal(obj1);
+Object.seal(object1);
 
-console.log(Object.isSealed(obj1));
+console.log(Object.isSealed(object1));
 // expected output: true
 </code>
 </pre>

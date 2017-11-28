@@ -1,17 +1,17 @@
 <pre>
-<code id="static-js">var handler1 = {
+<code id="static-js">const handler1 = {
   setPrototypeOf(monster1, monsterProto) {
     monster1.geneticallyModified = true;
     return false;
   }
 };
 
-var monsterProto = {};
-var monster1 = {
+const monsterProto = {};
+const monster1 = {
   geneticallyModified : false
 };
 
-var proxy1 = new Proxy(monster1, handler1);
+const proxy1 = new Proxy(monster1, handler1);
 // Object.setPrototypeOf(proxy1, monsterProto); // throws a TypeError
 
 console.log(Reflect.setPrototypeOf(proxy1, monsterProto));

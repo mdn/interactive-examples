@@ -1,18 +1,18 @@
 <pre>
-<code id="static-js">var monster1 = {
+<code id="static-js">const monster1 = {
   eyeCount: 4
-}
+};
 
-var handler1 = {
-  getOwnPropertyDescriptor: function(target, prop) {
-    console.log('called: ' + prop);
+const handler1 = {
+  getOwnPropertyDescriptor(target, prop) {
+    console.log(`called: ${prop}`);
     // expected output: "called: eyeCount"
 
     return { configurable: true, enumerable: true, value: 5 };
   }
 };
 
-var proxy1 = new Proxy(monster1, handler1);
+const proxy1 = new Proxy(monster1, handler1);
 
 console.log(Object.getOwnPropertyDescriptor(proxy1, 'eyeCount').value);
 // expected output: 5

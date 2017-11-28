@@ -1,12 +1,11 @@
 <pre>
-<code id="static-js" class="language-js">var uint8 = new Uint8Array([ 10, 20, 30, 40, 50]);
-eArr = uint8.values();
+<code id="static-js">const uint8 = new Uint8Array([ 10, 20, 30, 40, 50]);
+const array1 = uint8.values();
 
-// iterate a couple of times
-eArr.next();
-eArr.next();
+array1.next();
+array1.next();
 
-console.log(eArr.next().value); // 3rd iteration
+console.log(array1.next().value); 
 // expected output: 30
 </code>
 </pre>

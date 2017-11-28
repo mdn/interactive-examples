@@ -1,10 +1,10 @@
 <pre>
-<code id="static-js">var globalSym = Symbol.for('foo'); // global symbol
+<code id="static-js">const globalSym = Symbol.for('foo'); // global symbol
 
 console.log(Symbol.keyFor(globalSym));
 // expected output: "foo"
 
-var localSym = Symbol(); // local symbol
+const localSym = Symbol(); // local symbol
 
 console.log(Symbol.keyFor(localSym));
 // expected output: undefined

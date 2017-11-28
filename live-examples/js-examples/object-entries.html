@@ -1,14 +1,14 @@
 <pre>
-<code id="static-js">var obj1 = { foo: 'bar', baz: 42 };
-console.log(Object.entries(obj1)[1]);
-// expected output: ["baz", 42]
+<code id="static-js">const object1 = { foo: 'bar', baz: 42 };
+console.log(Object.entries(object1)[1]);
+// expected output: Array ["baz", 42]
 
-var obj2 = { 0: 'a', 1: 'b', 2: 'c' };
-console.log(Object.entries(obj2)[2]);
-// expected output: ["2", "c"]
+const object2 = { 0: 'a', 1: 'b', 2: 'c' };
+console.log(Object.entries(object2)[2]);
+// expected output: Array ["2", "c"]
 
-var obj3 = { 100: 'a', 2: 'b', 7: 'c' };
-console.log(Object.entries(obj3)[0]);
-// expected output: ["2", "b"]
+const object3 = { 100: 'a', 2: 'b', 7: 'c' };
+console.log(Object.entries(object3)[0]);
+// expected output: Array ["2", "b"]
 </code>
 </pre>

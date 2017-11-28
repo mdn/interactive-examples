@@ -1,15 +1,15 @@
 <pre>
-<code id="static-js">var obj1 = {};
+<code id="static-js">const object1 = {};
 
-console.log(Reflect.setPrototypeOf(obj1, Object.prototype));
+console.log(Reflect.setPrototypeOf(object1, Object.prototype));
 // expected output: true
 
-console.log(Reflect.setPrototypeOf(obj1, null));
+console.log(Reflect.setPrototypeOf(object1, null));
 // expected output: true
 
-var obj2 = {};
+const object2 = {};
 
-console.log(Reflect.setPrototypeOf(Object.freeze(obj2), null));
+console.log(Reflect.setPrototypeOf(Object.freeze(object2), null));
 // expected output: false
 </code>
 </pre>

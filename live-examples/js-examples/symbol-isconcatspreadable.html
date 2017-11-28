@@ -1,15 +1,15 @@
 <pre>
-<code id="static-js">var alpha = ['a', 'b', 'c'];
-var numeric = [1, 2, 3];
-var alphaNumeric = alpha.concat(numeric);
+<code id="static-js">const alpha = ['a', 'b', 'c'];
+const numeric = [1, 2, 3];
+let alphaNumeric = alpha.concat(numeric);
 
 console.log(alphaNumeric);
-// expected output: ["a", "b", "c", 1, 2, 3]
+// expected output: Array ["a", "b", "c", 1, 2, 3]
 
 numeric[Symbol.isConcatSpreadable] = false;
-var alphaNumeric = alpha.concat(numeric);
+alphaNumeric = alpha.concat(numeric);
 
 console.log(alphaNumeric);
-// expected output: ["a", "b", "c", [1, 2, 3]]
+// expected output: Array ["a", "b", "c", Array [1, 2, 3]]
 </code>
 </pre>

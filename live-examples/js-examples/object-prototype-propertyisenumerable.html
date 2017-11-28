@@ -1,16 +1,16 @@
 <pre>
-<code id="static-js">var obj1 = {};
-var arr1 = [];
-obj1.prop1 = 42;
-arr1[0] = 42;
+<code id="static-js">const object1 = {};
+const array1 = [];
+object1.property1 = 42;
+array1[0] = 42;
 
-console.log(obj1.propertyIsEnumerable('prop1'));
+console.log(object1.propertyIsEnumerable('property1'));
 // expected output: true
 
-console.log(arr1.propertyIsEnumerable(0));
+console.log(array1.propertyIsEnumerable(0));
 // expected output: true
 
-console.log(arr1.propertyIsEnumerable('length'));
+console.log(array1.propertyIsEnumerable('length'));
 // expected output: false
 </code>
 </pre>
