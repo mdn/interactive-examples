@@ -7,7 +7,7 @@ function* func2() {
   yield* func1();
 }
 
-var iterator = func2();
+const iterator = func2();
 
 console.log(iterator.next().value);
 // expected output: 42

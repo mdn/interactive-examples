@@ -3,14 +3,14 @@
   this.sum = a + b + c;
 }
 
-var args = [1, 2, 3];
-var obj1 = new func1(...args);
-var obj2 = Reflect.construct(func1, args);
+const args = [1, 2, 3];
+const object1 = new func1(...args);
+const object2 = Reflect.construct(func1, args);
 
-console.log(obj2.sum);
+console.log(object2.sum);
 // expected output: 6
 
-console.log(obj1.sum);
+console.log(object1.sum);
 // expected output: 6
 </code>
 </pre>

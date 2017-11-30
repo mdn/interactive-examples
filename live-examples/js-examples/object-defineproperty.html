@@ -1,15 +1,15 @@
 <pre>
-<code id="static-js">var obj1 = {};
+<code id="static-js">const object1 = {};
 
-Object.defineProperty(obj1, "prop1", {
+Object.defineProperty(object1, 'property1', {
   value: 42,
   writable: false
 });
 
-obj1.prop1 = 77;
+object1.property1 = 77;
 // throws an error in strict mode
 
-console.log(obj1.prop1);
+console.log(object1.property1);
 // expected output: 42
 </code>
 </pre>

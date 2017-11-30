@@ -1,14 +1,14 @@
 <pre>
-<code id="static-js">var obj1 = {};
-Reflect.set(obj1, 'prop1', 42);
+<code id="static-js">const object1 = {};
+Reflect.set(object1, 'property1', 42);
 
-console.log(obj1.prop1);
+console.log(object1.property1);
 // expected output: 42
 
-var arr1 = ['duck', 'duck', 'duck'];
-Reflect.set(arr1, 2, 'goose');
+const array1 = ['duck', 'duck', 'duck'];
+Reflect.set(array1, 2, 'goose');
 
-console.log(arr1[2]);
+console.log(array1[2]);
 // expected output: "goose"
 </code>
 </pre>

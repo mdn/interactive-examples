@@ -1,15 +1,15 @@
 <pre>
-<code id="static-js">const NUM = 42;
+<code id="static-js">const number = 42;
 
 try {
-  NUM = 99;
+  number = 99;
 } catch(err) {
   console.log(err);
-  // expected output: TypeError: invalid assignment to const `NUM'
+  // expected output: TypeError: invalid assignment to const `number'
   // Note - error messages will vary depending on browser
 }
 
-console.log(NUM);
+console.log(number);
 // expected output: 42
 </code>
 </pre>

@@ -1,15 +1,15 @@
 <pre>
-<code id="static-js">var obj = {
-  prop1: 42
+<code id="static-js">const object1 = {
+  property1: 42
 };
 
-obj[Symbol.unscopables] = {
-  prop1: true
+object1[Symbol.unscopables] = {
+  property1: true
 };
 
-with (obj) {
-  console.log(prop1);
-  // expected output: Error: prop1 is not defined
+with (object1) {
+  console.log(property1);
+  // expected output: Error: property1 is not defined
 }
 </code>
 </pre>

@@ -1,19 +1,19 @@
 <pre>
-<code id="static-js">var monster1 = {
+<code id="static-js">const monster1 = {
   canEvolve: true
 };
 
-var handler1 = {
-  isExtensible: function(target) {
+const handler1 = {
+  isExtensible(target) {
     return Reflect.isExtensible(target);
   },
-  preventExtensions: function(target) {
+  preventExtensions(target) {
     target.canEvolve = false;
     return Reflect.preventExtensions(target);
   }
-}
+};
 
-var proxy1 = new Proxy(monster1, handler1);
+const proxy1 = new Proxy(monster1, handler1);
 
 console.log(Object.isExtensible(proxy1));
 // expected output: true

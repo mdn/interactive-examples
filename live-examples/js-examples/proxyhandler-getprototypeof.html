@@ -1,19 +1,19 @@
 <pre>
-<code id="static-js">var monster1 = {
+<code id="static-js">const monster1 = {
   eyeCount: 4
-}
+};
 
-var monsterPrototype = {
+const monsterPrototype = {
   eyeCount : 2
 };
 
-var handler = {
+const handler = {
   getPrototypeOf(target) {
     return monsterPrototype;
   }
 };
 
-var proxy1 = new Proxy(monster1, handler);
+const proxy1 = new Proxy(monster1, handler);
 
 console.log(Object.getPrototypeOf(proxy1) === monsterPrototype);
 // expected output: true

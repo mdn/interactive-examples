@@ -1,13 +1,13 @@
 <pre>
 <code id="static-js">// create a SharedArrayBuffer with a size in bytes
-var buffer = new SharedArrayBuffer(16);
-var int32View = new Int32Array(buffer); // create the view
+const buffer = new SharedArrayBuffer(16);
+const int32View = new Int32Array(buffer); // create the view
 // produces Int32Array [0, 0, 0, 0]
 
 int32View[1] = 42;
-var sliced = new Int32Array(buffer.slice(4,12));
+const sliced = new Int32Array(buffer.slice(4,12));
 
 console.log(sliced);
-// expected output: 42,0
+// expected output: Int32Array [42, 0]
 </code>
 </pre>

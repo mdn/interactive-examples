@@ -1,14 +1,14 @@
 <pre>
-<code id="static-js">var obj1 = {};
+<code id="static-js">const object1 = {};
 
-if (Reflect.defineProperty(obj1, 'prop1', {value: 42})) {
-  console.log('prop1 created!');
-  // expected output: "prop1 created!"
+if (Reflect.defineProperty(object1, 'property1', {value: 42})) {
+  console.log('property1 created!');
+  // expected output: "property1 created!"
 } else {
-  console.log('problem creating prop1');
+  console.log('problem creating property1');
 }
 
-console.log(obj1.prop1);
+console.log(object1.property1);
 // expected output: 42
 </code>
 </pre>

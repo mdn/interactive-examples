@@ -1,8 +1,10 @@
 <pre>
-<code id="static-js" class="language-js">var uint8 = new Uint8Array([ 10, 20, 30, 40, 50]);
-var sub = uint8.subarray(1, 3); // (start position, end position)
+<code id="static-js">const uint8 = new Uint8Array([10, 20, 30, 40, 50]);
 
-console.log(sub);
-// expected output: 20,30
+console.log(uint8.subarray(1, 3));
+// expected output: Uint8Array [20, 30]
+
+console.log(uint8.subarray(1));
+// expected output: Uint8Array [20, 30, 40, 50]
 </code>
 </pre>
