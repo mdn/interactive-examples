@@ -10,13 +10,13 @@ LONG_CACHE="--cache-control max-age=2629800" # 1 month
 ARGS="--acl public-read --delete --profile mdninteractive"
 cd docs
 
-for path in "pages live-examples"; do
+for path in pages live-examples; do
     aws s3 sync $path s3://$1/$path ${SHORT_CACHE} ${ARGS}
 done
 
-for path in "css js"; do
+for path in css js; do
     aws s3 sync $path s3://$1/$path --exclude '*' --include 'editor-*' ${SHORT_CACHE} ${ARGS}
     aws s3 sync $path s3://$1/$path --exclude 'editor-*' ${LONG_CACHE} ${ARGS}
 done
 
-aws s3 sync media s3://$1/media ${LONG_CACHE} ${ARGS}
+aws s3 sync media s3://$1 ${LONG_CACHE} ${ARGS}
