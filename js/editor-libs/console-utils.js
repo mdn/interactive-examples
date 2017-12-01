@@ -19,7 +19,9 @@ module.exports = {
                 output += this.formatArray(input[i]);
                 output += ']';
             } else {
-                output += this.formatObject(input[i]);
+              if (input[i] !== undefined) {
+                  output += this.formatObject(input[i]);
+              }
             }
 
             if (i < input.length - 1) {
@@ -75,7 +77,8 @@ module.exports = {
      */
     formatOutput: function(input) {
         'use strict';
-        if (input === undefined) {
+
+        if (input === undefined || input === null) {
             return input;
         } else if (typeof input === 'string') {
             return '"' + input + '"';
