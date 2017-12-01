@@ -1,19 +1,19 @@
 <pre>
-<code id="static-js">var handler1 = {
+<code id="static-js">const handler1 = {
   has (target, key) {
     if (key[0] === '_') {
       return false;
     }
     return key in target;
   }
-}
+};
 
-var monster1 = {
+const monster1 = {
   _secret: 'easily scared',
   eyeCount: 4
 };
 
-var proxy1 = new Proxy(monster1, handler1);
+const proxy1 = new Proxy(monster1, handler1);
 console.log('eyeCount' in proxy1);
 // expected output: true
 

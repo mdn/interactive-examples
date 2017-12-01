@@ -1,22 +1,22 @@
 <pre>
-<code id="static-js">var monster1 = {
+<code id="static-js">const monster1 = {
   texture: 'scaly'
-}
+};
 
-var handler1 = {
-  deleteProperty: function(target, prop) {
+const handler1 = {
+  deleteProperty(target, prop) {
     if (prop in target) {
       delete target[prop];
-      console.log('property removed: ' + prop);
+      console.log(`property removed: ${prop}`);
       // expected output: "property removed: texture"
     }
   }
-}
+};
 
 console.log(monster1.texture);
 // expected output: "scaly"
 
-var proxy1 = new Proxy(monster1, handler1);
+const proxy1 = new Proxy(monster1, handler1);
 delete proxy1.texture;
 
 console.log(monster1.texture);

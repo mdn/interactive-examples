@@ -3,8 +3,8 @@
   this.eyeCount = 4;
 }
 
-var handler1 = {
-  set: function(obj, prop, value) {
+const handler1 = {
+  set(obj, prop, value) {
     if ((prop === 'eyeCount') && ((value % 2) !== 0)) {
       console.log('Monsters must have an even number of eyes');
     } else {
@@ -13,8 +13,8 @@ var handler1 = {
   }
 };
 
-var monster1 = new Monster();
-var proxy1 = new Proxy(monster1, handler1);
+const monster1 = new Monster();
+const proxy1 = new Proxy(monster1, handler1);
 proxy1.eyeCount = 1;
 // expected output: "Monsters must have an even number of eyes"
 

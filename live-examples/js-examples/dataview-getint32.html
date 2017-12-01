@@ -1,8 +1,7 @@
 <pre>
-<code id="static-js">//create an ArrayBuffer
+<code id="static-js">// create an ArrayBuffer with a size in bytes
 var buffer = new ArrayBuffer(16);
 
-// Create a view
 var view = new DataView(buffer);
 view.setInt32(1, 2147483647); // (max signed 32-bit integer)
 

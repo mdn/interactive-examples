@@ -1,17 +1,17 @@
 <pre>
-<code id="static-js">var monster1 = {
+<code id="static-js">const monster1 = {
   canEvolve: true
 };
 
-var handler1 = {
-  preventExtensions: function(target) {
+const handler1 = {
+  preventExtensions(target) {
     target.canEvolve = false;
     Object.preventExtensions(target);
     return true;
   }
 };
 
-var proxy1 = new Proxy(monster1, handler1);
+const proxy1 = new Proxy(monster1, handler1);
 
 console.log(monster1.canEvolve);
 // expected output: true

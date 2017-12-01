@@ -3,18 +3,18 @@
   this.disposition = disposition;
 }
 
-var handler1 = {
-  construct: function(target, args) {
-    console.log("monster1 constructor called");
-    // expected output: "monster constructor called"
+const handler1 = {
+  construct(target, args) {
+    console.log('monster1 constructor called');
+    // expected output: "monster1 constructor called"
 
     return new target(...args);
   }
 };
 
-var proxy1 = new Proxy(monster1, handler1);
+const proxy1 = new Proxy(monster1, handler1);
 
-console.log(new proxy1("fierce").disposition);
+console.log(new proxy1('fierce').disposition);
 // expected output: "fierce"
 </code>
 </pre>

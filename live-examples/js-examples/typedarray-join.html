@@ -1,7 +1,13 @@
 <pre>
-<code id="static-js" class="language-js">var uint8 = new Uint8Array([10, 20, 30, 40, 50]);
+<code id="static-js">const uint8 = new Uint8Array([10, 20, 30, 40, 50]);
+
+console.log(uint8.join());
+// expected output: "10,20,30,40,50"
+
+console.log(uint8.join(''));
+// expected output: "1020304050"
 
 console.log(uint8.join('-'));
-// expected output: 10-20-30-40-50
+// expected output: "10-20-30-40-50"
 </code>
 </pre>

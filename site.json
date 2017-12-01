@@ -3220,7 +3220,6 @@
                 "../../live-examples/css-examples/css/position.css",
             "exampleCode": "live-examples/css-examples/position.html",
             "fileName": "position.html",
-            "jsExampleSrc": "../../live-examples/css-examples/js/position.js",
             "title": "CSS Demo: Position",
             "type": "css"
         },
@@ -3231,6 +3230,15 @@
             "exampleCode": "live-examples/css-examples/text-align.html",
             "fileName": "text-align.html",
             "title": "CSS Demo: Text Align",
+            "type": "css"
+        },
+        "textDecoration": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/text-decoration.css",
+            "exampleCode": "live-examples/css-examples/text-decoration.html",
+            "fileName": "text-decoration.html",
+            "title": "CSS Demo: Text Decoration",
             "type": "css"
         },
         "textOverflow": {
