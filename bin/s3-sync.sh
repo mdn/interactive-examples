@@ -5,8 +5,8 @@ if [[ -z "$1" ]]; then
     exit 1
 fi
 
-SHORT_CACHE="--cache-control max-age=60" # 1 minute
-LONG_CACHE="--cache-control max-age=604800" # 1 week
+SHORT_CACHE="--cache-control max-age=1800" # 30 minutes
+LONG_CACHE="--cache-control max-age=2629800" # 1 month
 ARGS="--acl public-read --delete --profile mdninteractive"
 cd ../docs
 
