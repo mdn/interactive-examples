@@ -14,7 +14,7 @@ def buildSite() {
 def syncS3(String bucket) {
     stage ('s3 sync') {
         try {
-          sh "cd docs && aws s3 sync . s3://" + bucket +" --acl public-read --delete --profile mdninteractive --cache-control max-age=900"
+          sh "bin/s3-sync.sh " + bucket
         } catch(err) {
           sh "bin/irc-notify.sh --stage 's3 sync " + env.BRANCH_NAME + "' --status 'failed'"
           throw err
