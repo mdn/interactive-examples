@@ -24,7 +24,7 @@ This is the recommended style for most examples.
 
 If the set of CSS choices overflows its container vertically, then the set's container gets a vertical scrollbar, and overflowed choices are not visible without scrolling. We want to avoid this if possible, because users will often not notice the overflowed choices.
 
-To avoid vertical scrollbars, you have space for 6 one-line choices. If the property can take more than 6 forms (for example, for all the different [`filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) functions) then it is best to choose 6 that are illustrative. It's *not* essential to have an example for every form.
+To avoid vertical scrollbars, you have space for 6 one-line choices. If the property can take more than 6 forms (for example, for all the different [`filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) functions then it is best to choose 6 that are illustrative. It's *not* essential to have an example for every form.
 
 If the property takes fewer than 6 forms, it's fine to show fewer. For example: [`text-overflow`](https://interactive-examples.mdn.mozilla.net/pages/css/text-overflow.html).
 
@@ -36,11 +36,11 @@ So try to be concise in the syntax you use, but not at the expense of making the
 
 ### Multiple declarations
 
-Sometimes you'll want to show extra CSS declarations, in addition to the one for the property you are illustrating. This is slightly unusual, though, and should be used only where the extra properties are closely related to the property being illustrated.
+Sometimes you'll want to show extra CSS declarations, in addition to the one for the property you are illustrating. This is slightly unusual though, and should be used only where the extra properties are closely related to the property being illustrated.
 
 For example, in the example for [`position`](https://interactive-examples.mdn.mozilla.net/pages/css/position.html) we show `top` and `left` for forms like `position: relative;`, because they're needed to understand the effect of these declarations, and because we want to invite people to play around with those values.
 
-But be restrained with this: including unrelated declarations makes it harder to see what a specific example is intended to illustrate.
+But be restrained with this. Including unrelated declarations makes it harder to see what a specific example is intended to illustrate.
 
 If you have multiple declarations, each one should occupy its own line. Note that [`position`](https://interactive-examples.mdn.mozilla.net/pages/css/position.html) breaks this rule, because otherwise it would be impossible to fit relevant forms without having a vertical scrollbar. This is quite unsatisfactory though, and is only acceptable here because `top` and `left` are closely related to each other, and are only there in a "supporting" role: they are not the property being illustrated.
 
@@ -60,5 +60,5 @@ By default, the first choice will be selected. You can override this by adding `
 
 Sometimes you'll want to include images with the example. If you do:
 
-* make sure their license allows you to use them
+* make sure their license allows you to use them. It's difficult for us to satisfy an attribution requirement with the editor, so try to use images that have a very permissive license such as [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
 * run them through https://tinypng.com or https://imageoptim.com, to reduce the page weight of the examples.
