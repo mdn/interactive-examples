@@ -39,9 +39,9 @@ npm install
 
 This will ensure that you have all the required development modules installed to build and test your contributions. You are now ready to contribute. Thank you o/\o
 
-### Contributing a CSS example
+## Contributing a CSS example
 
-#### Writing the example
+### Writing the example
 You start off by creating a new file inside `live-examples\css-examples\`. The name of this file should match the example you are adding. For example, if you are adding examples for [`border-radius`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius) you would call the file `border-radius.html`.
 
 Inside this newly created file, copy and paste the following code:
@@ -155,7 +155,7 @@ Now we've finished writing the HTML for the example. The final version of `borde
 
 When you're writing examples, please make sure that they conform to the [CSS Example Style Guide](CSS-Example-Style-Guide.md).
 
-#### Styling the example
+### Styling the example
 Next, let's provide some extra styling for the example element. Create a new CSS file inside `live-examples\css-examples\css\`. Call this CSS file the same as the HTML file i.e. `border-radius.css`. Add the following code to it:
 
 ```
@@ -166,7 +166,7 @@ Next, let's provide some extra styling for the example element. Create a new CSS
 }
 ```
 
-#### Updating the metadata
+### Updating the metadata
 Next, you need to tell the page generator about your new page and its dependencies. To do this, open up the `site.json` file in the root of the project folder. Under `pages`, find an existing entry with a `type` of `css`.
 
 Copy and paste the example then update it to apply to your new example, noting that pages are grouped by `type`, and then alphabetically for each `type`. You entry will look something like this when edited:
@@ -181,7 +181,7 @@ Copy and paste the example then update it to apply to your new example, noting t
 },
 ```
 
-#### Testing
+### Testing
 All that remains is to test that your page generates and displays as intended, then open a pull request for review.
 
 From your command line run:
@@ -200,9 +200,9 @@ Now point your browser to [localhost:8080/pages/css/border-radius.html](http://l
 
 Once satisfied with the example, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
 
-### Contributing a JavaScript example
+## Contributing a JavaScript example
 
-#### Writing the exaple
+### Writing the exaple
 With a JavaScript example you start by creating a new `.html` file in `live-examples/js-examples`. The same naming convention applies here as it does for CSS. In this example we are going to contribute an example demonstrating the use of `Array.from` so, we'll create a new file called `array-from.html`.
 
 Next, you need to paste the following code into this new file (this will be the same for all JavaScript examples you add):
@@ -229,7 +229,7 @@ console.log(result);
 
 Please make sure the example conforms to the [JS Example Style Guide](JS-Example-Style-Guide.md).
 
-#### Updating the metadata
+### Updating the metadata
 All that remains is to tell the page generator about our new example. To do this, open up `site.json` at the root of the project folder. Under `pages`, find an existing entry with a `type` of `js`.
 
 Copy and paste the example then update it to your new example, noting that pages are grouped by `type`, and then alphabetically for each `type`.
@@ -246,7 +246,7 @@ You entry will look something like the following when edited:
 },
 ```
 
-#### Testing
+### Testing
 From your command line run:
 
 ```
