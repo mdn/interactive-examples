@@ -153,7 +153,7 @@ Now we've finished writing the HTML for the example. The final version of `borde
 </div>
 ```
 
-When you're writing examples, please make sure that they conform to the [CSS Example Style Guide](https://github.com/mdn/interactive-examples/blob/master/CSS-Example-Style-Guide.md).
+When you're writing examples, please make sure that they conform to the [CSS Example Style Guide](CSS-Example-Style-Guide.md).
 
 #### Styling the example
 Next, let's provide some extra styling for the example element. Create a new CSS file inside `live-examples\css-examples\css\`. Call this CSS file the same as the HTML file i.e. `border-radius.css`. Add the following code to it:
@@ -227,7 +227,7 @@ console.log(result);
 </pre>
 ```
 
-Please make sure the example conforms to the [JS Example Style Guide](https://github.com/mdn/interactive-examples/blob/master/JS-Example-Style-Guide.md).
+Please make sure the example conforms to the [JS Example Style Guide](JS-Example-Style-Guide.md).
 
 #### Updating the metadata
 All that remains is to tell the page generator about our new example. To do this, open up `site.json` at the root of the project folder. Under `pages`, find an existing entry with a `type` of `js`.

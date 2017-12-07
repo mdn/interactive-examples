@@ -69,4 +69,4 @@ The following is a list of browser/version combinations that are supported by th
 
 ## Contributing
 
-If you're interested in contributing to this project, great! Please see the [CONTRIBUTING](https://github.com/mdn/interactive-examples/blob/master/README.md) document.
+If you're interested in contributing to this project, great! Please see the [CONTRIBUTING](CONTRIBUTING.md) document.
