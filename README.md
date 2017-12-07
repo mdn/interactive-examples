@@ -4,7 +4,7 @@
 
 Home of the [MDN](https://developer.mozilla.org/) interactive code examples.
 
-## Folder Structure
+## Folder structure
 
 * [css] - This contains the CSS used by the base templates.
 * [js] - This contains the JS used by the base templates.
@@ -56,7 +56,7 @@ This section is used to describe live example pages that will be generated. The 
 * `fileName` - This is the file name that will be used for the generated live example page.
 * `type` - The type of example; currently the only available types are js (JavaScript) or css.
 
-## Browser Support Baseline
+## Browser support baseline
 
 The following is a list of browser/version combinations that are supported by the interactive editor. In browsers that do not meet the criteria, the editor degrades gracefully to displaying static examples.
 

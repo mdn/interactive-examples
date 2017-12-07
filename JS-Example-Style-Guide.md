@@ -1,14 +1,14 @@
-# JavaScript Examples Style Guide
+# JavaScript examples style guide
 
 A guide for people wanting to contribute interactive JavaScript examples.
 
-## General Guidelines
+## General guidelines
 
-### Variable Naming
+### Variable naming
 
 With regards to all aspects of the examples, we aim for consistency. A good starting point for this guide then, is to explain our naming conventions.
 
-#### Numerical Suffixes
+#### Numerical suffixes
 
 One way we could maintain a certain consistency is to use the type of the object with a numerical suffix.
 
@@ -39,7 +39,7 @@ console.log(array2);
 // expected output: Array [1, 2, 3]
 ```
 
-#### Descriptive Suffixes
+#### Descriptive suffixes
 
 An alternative to using numerical suffixes could be to use more descriptive suffixes, such as `arrayLetters` and `arrayNumbers` in the above examples.
 
@@ -56,12 +56,12 @@ We can also use content-descriptive variable names that don't mention the type o
 var beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 ```
 
-### Example Size
+### Example size
 
 The aim is to try and fit examples into 12 lines of code, only if it's not possible to create a useful example in 12 should we write longer examples.
 
 
-### Tangible Examples
+### Tangible examples
 
 When illustrating a programming concept, it is beneficial to mimic real world examples as much as possible. Once you have chosen your real world theme, stick to the theme throughout the specific example.
 
@@ -88,15 +88,15 @@ console.log(new proxy1('fierce').disposition);
 ```
 
 
-### Providing Context
+### Providing context
 
 Where possible, it is useful to provide examples showing how a method could be used in the context of a function or class. In instances where a succinct example is not possible, a series of `console.log` statements can also be a valid way of illustrating an example.
 
-### Indicating console.log Output
+### Indicating console.log output
 
 To indicate the ouput we expect, we place a comment `// expected output:` on the line below each `console.log`.
 
-### Representing Browser Differences
+### Representing browser differences
 
 Occasionally browsers will produce different results, in these cases we can denote the varying output like so:
 
@@ -106,7 +106,7 @@ console.log(matchesDe);
 // expected output (Safari): Array ["Bären", "Baren"]
 ```
 
-### Dealing with Errors
+### Dealing with errors
 
 Writing code that will throw an error can be useful way to illustrate an example. However, an uncaught error will halt execution immediately and will not display the results of any `console.log` statements in the example.
 
@@ -121,9 +121,9 @@ try {
 }
 ```
 
-## JavaScript Coding Style
+## JavaScript coding style
 
-### Language Choice (ES5/ES6)
+### Language choice (ES5/ES6)
 
 For more established example content, such as Arrays, it is recommended that we stick with ES5. Where examples are required for APIs standardized after ES6, aim to use ES6 to illustrate these examples.
 
@@ -138,7 +138,7 @@ ES6 examples should use:
 
 There are valid arguments for and against using semi-colons. We use them.
 
-### Line Spacing
+### Line spacing
 
 To fit the space available we try and keep examples as compact as possible, using blank lines sparingly to increase readability.  
 
@@ -167,7 +167,7 @@ console.log(new proxy1('fierce').disposition);
 
 In order to keep things as concise as reasonably possible we indent with two spaces.
 
-### Instantiating an Object
+### Instantiating an object
 
 Most objects are instantiated in the normal way, for example:
 ```
@@ -180,7 +180,7 @@ The exception being `Object` in which case we instantiate like so:
 var object1 = {};
 ```
 
-### Instantiating an Array
+### Instantiating an array
 
 We instantiate arrays in the following way:
 
@@ -198,7 +198,7 @@ We use a space after commas when passing parameters to a function, but do not pa
 calcAngle(8, 10);
 ```
 
-### Single Quotes
+### Single quotes
 
 We use Single quotes to denote strings:
 
@@ -206,7 +206,7 @@ We use Single quotes to denote strings:
 setTimeout(resolve, 100, 'foo');
 ```
 
-### Property Definition
+### Property definition
 
 We chose clarity over brevity when defining object properties, for example:
 
@@ -225,7 +225,7 @@ Please do NOT put the definition on one single line:
 var object1 = {property1: 42, property2: 'foo'};
 ```
 
-### Spaces between Operators
+### Spaces between operators
 
 For example:
 
@@ -237,7 +237,7 @@ if (a > b) {
 }
 ```
 
-### Function Definition
+### Function definition
 
 Generally functions are defined with the `function` keyword at the beginning and the function name starts with a lowercase letter and can be camelCased:
 
@@ -249,7 +249,7 @@ function sum(a, b) {
 
 Note the space before the opening curly brace.
 
-### Anonymous Function Definition
+### Anonymous function definition
 
 Where ES6 predates the method or object we're illustrating we use the arrow function:
 
@@ -265,7 +265,7 @@ var sum = array1.reduce(function(a, b) {
 });
 ```
 
-### Class Definition
+### Class definition
 
 As classes were introduced with ES6, we can use other ES6 concepts when defining them such as `const`. We also need to be aware of the changing scope of `this`.
 
@@ -284,7 +284,7 @@ class Employee {
 }
 ```
 
-### Return early from If statements
+### Return early from if statements
 
 Only use an `else` if the preceding `if` clause doesn't return.
 
@@ -307,7 +307,7 @@ if (a > b) {
 }
 ```
 
-### Formatting Switch statements
+### Formatting switch statements
 
 ```
 var expr = 'Pears';
@@ -324,7 +324,7 @@ switch (expr) {
 }
 ```
 
-### Testing for Equality
+### Testing for equality
 
 When testing for equality use Strict Equality Comparison, for example:
 
