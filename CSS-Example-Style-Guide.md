@@ -1,3 +1,5 @@
+# CSS examples style guide
+
 A style guide for people contributing interactive CSS examples. To learn the mechanics of contributing, see the [project README](https://github.com/mdn/interactive-examples/blob/master/README.md). This article describes the characteristics that make a good example.
 
 CSS examples consist of:

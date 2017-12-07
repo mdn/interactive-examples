@@ -1,4 +1,4 @@
-# JavaScript Interactive Examples Contributing Guide
+# JavaScript Examples Style Guide
 
 A guide for people wanting to contribute interactive JavaScript examples.
 

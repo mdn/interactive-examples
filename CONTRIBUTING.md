@@ -1,3 +1,5 @@
+# Contribution guide
+
 The "interactive-examples" repository provides interactive examples for [MDN Web Docs](https://developer.mozilla.org).
 
 If you're interested in contributing to this project, great! This file should help you get started.
