@@ -1,0 +1,81 @@
+{
+    "projectName": "interactive-examples",
+    "projectOwner": "mdn",
+    "files": ["README.md"],
+    "imageSize": 100,
+    "commit": true,
+    "contributors": [
+        {
+            "login": "schalkneethling",
+            "name": "Schalk Neethling",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/10350960?s=460&v=4",
+            "profile": "https://github.com/schalkneethling",
+            "contributions": ["code", "doc", "test"]
+        },
+        {
+            "login": "maboa",
+            "name": "Mark Boas",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/208756?s=460&v=4",
+            "profile": "https://github.com/maboa",
+            "contributions": ["code", "doc"]
+        },
+        {
+            "login": "wbamberg",
+            "name": "William Bamberg",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/432915?s=460&v=4",
+            "profile": "https://github.com/wbamberg",
+            "contributions": ["code", "doc"]
+        },
+        {
+            "login": "stephaniehobson",
+            "name": "Stephanie Hobson",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/854701?s=460&v=4",
+            "profile": "https://github.com/stephaniehobson",
+            "contributions": ["code"]
+        },
+        {
+            "login": "jgmize",
+            "name": "Josh Mize",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/161718?s=460&v=4",
+            "profile": "https://github.com/jgmize",
+            "contributions": ["code"]
+        },
+        {
+            "login": "chrisdavidmills",
+            "name": "Chris Mills",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/47647?s=460&v=4",
+            "profile": "https://github.com/chrisdavidmills",
+            "contributions": ["doc"]
+        },
+        {
+            "login": "metadave",
+            "name": "Dave Parfitt",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/58244?s=460&v=4",
+            "profile": "https://github.com/metadave",
+            "contributions": ["code"]
+        },
+        {
+            "login": "normalhuman",
+            "name": "Normal Human",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/13082030?s=460&v=4",
+            "profile": "https://github.com/normalhuman",
+            "contributions": ["doc"]
+        },
+        {
+            "login": "galman33",
+            "name": "Gal Pasternak",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/1783036?s=460&v=4",
+            "profile": "https://github.com/galman33",
+            "contributions": ["doc"]
+        }
+    ]
+}

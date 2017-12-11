@@ -6,12 +6,12 @@
     "license": "MPL-2.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mozilla/interactive-examples.git"
+        "url": "git+https://github.com/mdn/interactive-examples.git"
     },
     "bugs": {
-        "url": "https://github.com/mozilla/interactive-examples/issues"
+        "url": "https://github.com/mdn/interactive-examples/issues"
     },
-    "homepage": "https://github.com/mozilla/interactive-examples#readme",
+    "homepage": "https://github.com/mdn/interactive-examples#readme",
     "main": "index.js",
     "bundlesize": [
         {
@@ -36,6 +36,8 @@
         "build-js-bundle": "browserify js/editable-js.js -o js/editor-js-bundle.js",
         "build-pages": "node index.js",
         "build": "npm-run-all build-css-bundle build-js-bundle build-pages",
+        "contributors:add": "all-contributors add",
+        "contributors:generate": "all-contributors generate",
         "start-server": "http-server ./docs",
         "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*-bundle.js' -c 'npm run build' --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
@@ -54,6 +56,7 @@
         "mozilla"
     ],
     "devDependencies": {
+        "all-contributors-cli": "^4.10.0",
         "browserify": "^14.5.0",
         "bundlesize": "^0.15.3",
         "chokidar-cli": "^1.2.0",
