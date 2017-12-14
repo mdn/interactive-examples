@@ -118,7 +118,7 @@ Next, let's add the example CSS choices. Think of a few different ways that `bor
 </section>
 ```
 
-This will give us three different choices. Note that each choice gets its own ID: `example_one`, `example_two`, `example_three` and so on.
+This will give us three different choices. Note that each choice gets its own ID: `example_one`, `example_two`, `example_three` and so on. You can choose which option will be shown at first by setting the `initial-choice` attribute to `true` (only one choice should have this).
 
 Now we've finished writing the HTML for the example. The final version of `border-radius.html` should look like this:
 
