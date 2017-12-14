@@ -3266,6 +3266,15 @@
             "title": "CSS Demo: Transform",
             "type": "css"
         },
+        "word-break": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/word-break.css",
+            "exampleCode": "live-examples/css-examples/word-break.html",
+            "fileName": "word-break.html",
+            "title": "CSS Demo: Word Break",
+            "type": "css"
+        },
         "zIndex": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc": "../../live-examples/css-examples/css/z-index.css",
