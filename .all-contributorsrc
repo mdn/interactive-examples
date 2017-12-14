@@ -76,6 +76,14 @@
                 "https://avatars3.githubusercontent.com/u/1783036?s=460&v=4",
             "profile": "https://github.com/galman33",
             "contributions": ["doc"]
+        },
+        {
+            "login": "SphinxKnight",
+            "name": "SphinxKnight",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/2413436?s=460&v=4",
+            "profile": "https://github.com/SphinxKnight",
+            "contributions": ["code"]
         }
     ]
 }
