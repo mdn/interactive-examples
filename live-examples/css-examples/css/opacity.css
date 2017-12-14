@@ -1,8 +1,4 @@
-#example-element-container {
-    border: 2px solid;
-    border-image: linear-gradient(90deg, white, turquoise) 1;
-}
-
 #example-element {
     background-color: turquoise;
+    padding: 1em;
 }
