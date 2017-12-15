@@ -1,4 +1,4 @@
 #example-element {
-    background-image: url("../../../media/examples/hand.jpg");
+    background-image: url('/media/examples/hand.jpg');
     height: 100%;
 }
