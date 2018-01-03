@@ -3259,6 +3259,15 @@
             "title": "CSS Demo: Text Overflow",
             "type": "css"
         },
+        "textShadow": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/text-shadow.css",
+            "exampleCode": "live-examples/css-examples/text-shadow.html",
+            "fileName": "text-shadow.html",
+            "title": "CSS Demo: Text Shadow",
+            "type": "css"
+        },
         "transform": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "exampleCode": "live-examples/css-examples/transform.html",
