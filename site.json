@@ -3231,6 +3231,15 @@
             "title": "CSS Demo: Opacity",
             "type": "css"
         },
+        "padding": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/padding.css",
+            "exampleCode": "live-examples/css-examples/padding.html",
+            "fileName": "padding.html",
+            "title": "CSS Demo: Padding",
+            "type": "css"
+        },
         "position": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":

@@ -1,0 +1,6 @@
+#example-element {
+    border: solid 10px #FFC129;
+    font-family: Georgia, sans-serif;
+    overflow: hidden;
+    text-align: left;
+}
