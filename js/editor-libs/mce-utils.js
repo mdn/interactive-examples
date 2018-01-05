@@ -41,13 +41,13 @@ module.exports = {
     isPropertySupported: function(dataset) {
         'use strict';
 
-        /* If there is no dataset, there is nothing to
-           test so, simply return true */
-        if (dataset === undefined) {
+        var property = dataset['property'];
+        /* If there are no 'property' attributes,
+           there is nothing to test, so return true. */
+        if (property === undefined) {
             return true;
         }
 
-        var property = dataset['property'];
         var tmpElem = document.createElement('div');
 
         return tmpElem.style[property] !== undefined;
