@@ -1839,14 +1839,14 @@
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/number-tostring.html",
             "fileName": "number-tostring.html",
-            "title": "JavaScript Demo: Number.tostring()",
+            "title": "JavaScript Demo: Number.toString()",
             "type": "js"
         },
         "numberValueof": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/number-valueof.html",
             "fileName": "number-valueof.html",
-            "title": "JavaScript Demo: Number.valueof()",
+            "title": "JavaScript Demo: Number.valueOf()",
             "type": "js"
         },
         "objectAssign": {
