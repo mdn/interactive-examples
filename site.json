@@ -2008,7 +2008,7 @@
             "exampleCode":
                 "live-examples/js-examples/object-prototype-tostring.html",
             "fileName": "object-prototype-tostring.html",
-            "title": "JavaScript Demo: Object.prototype.tostring()",
+            "title": "JavaScript Demo: Object.prototype.toString()",
             "type": "js"
         },
         "objectPrototypeValueOf": {
@@ -2016,7 +2016,7 @@
             "exampleCode":
                 "live-examples/js-examples/object-prototype-valueof.html",
             "fileName": "object-prototype-valueof.html",
-            "title": "JavaScript Demo: Object.prototype.valueof()",
+            "title": "JavaScript Demo: Object.prototype.valueOf()",
             "type": "js"
         },
         "objectValues": {
