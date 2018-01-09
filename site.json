@@ -766,35 +766,35 @@
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-tostring.html",
             "fileName": "date-tostring.html",
-            "title": "JavaScript Demo: Date.toString())",
+            "title": "JavaScript Demo: Date.toString()",
             "type": "js"
         },
         "dateToTimeString": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-totimestring.html",
             "fileName": "date-totimestring.html",
-            "title": "JavaScript Demo: Date.toTimeString())",
+            "title": "JavaScript Demo: Date.toTimeString()",
             "type": "js"
         },
         "dateToUTCString": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-toutcstring.html",
             "fileName": "date-toutcstring.html",
-            "title": "JavaScript Demo: Date.toUTCString())",
+            "title": "JavaScript Demo: Date.toUTCString()",
             "type": "js"
         },
         "dateUTC": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-utc.html",
             "fileName": "date-utc.html",
-            "title": "JavaScript Demo: Date.UTC())",
+            "title": "JavaScript Demo: Date.UTC()",
             "type": "js"
         },
         "dateValueOf": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-valueof.html",
             "fileName": "date-valueof.html",
-            "title": "JavaScript Demo: Date.valueOf())",
+            "title": "JavaScript Demo: Date.valueOf()",
             "type": "js"
         },
         "expressionsArithmetic": {
