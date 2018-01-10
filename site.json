@@ -2167,26 +2167,26 @@
             "title": "JavaScript Demo: handler.set()",
             "type": "js"
         },
-        "proxyhandlerSetPrototype": {
+        "proxyhandlerSetPrototypeOf": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode":
-                "live-examples/js-examples/proxyhandler-setprototype.html",
-            "fileName": "proxyhandler-setprototype.html",
-            "title": "JavaScript Demo: handler.setPrototype()",
+                "live-examples/js-examples/proxyhandler-setprototypeof.html",
+            "fileName": "proxyhandler-setprototypeof.html",
+            "title": "JavaScript Demo: handler.setPrototypeOf()",
             "type": "js"
         },
         "reflectApply": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/reflect-apply.html",
             "fileName": "reflect-apply.html",
-            "title": "JavaScript Demo: reflect.apply()",
+            "title": "JavaScript Demo: Reflect.apply()",
             "type": "js"
         },
         "reflectConstruct": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/reflect-construct.html",
             "fileName": "reflect-construct.html",
-            "title": "JavaScript Demo: reflect.construct()",
+            "title": "JavaScript Demo: Reflect.construct()",
             "type": "js"
         },
         "reflectDefineProperty": {
@@ -2194,7 +2194,7 @@
             "exampleCode":
                 "live-examples/js-examples/reflect-defineproperty.html",
             "fileName": "reflect-defineproperty.html",
-            "title": "JavaScript Demo: reflect.defineProperty()",
+            "title": "JavaScript Demo: Reflect.defineProperty()",
             "type": "js"
         },
         "reflectDeleteProperty": {
@@ -2202,14 +2202,14 @@
             "exampleCode":
                 "live-examples/js-examples/reflect-deleteproperty.html",
             "fileName": "reflect-deleteproperty.html",
-            "title": "JavaScript Demo: reflect.deleteProperty()",
+            "title": "JavaScript Demo: Reflect.deleteProperty()",
             "type": "js"
         },
         "reflectGet": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/reflect-get.html",
             "fileName": "reflect-get.html",
-            "title": "JavaScript Demo: reflect.get()",
+            "title": "JavaScript Demo: Reflect.get()",
             "type": "js"
         },
         "reflectGetOwnPropertyDescriptor": {
@@ -2217,7 +2217,7 @@
             "exampleCode":
                 "live-examples/js-examples/reflect-getownpropertydescriptor.html",
             "fileName": "reflect-getownpropertydescriptor.html",
-            "title": "JavaScript Demo: reflect.getOwnPropertyDescriptor()",
+            "title": "JavaScript Demo: Reflect.getOwnPropertyDescriptor()",
             "type": "js"
         },
         "reflectGetPrototypeOf": {
@@ -2225,14 +2225,14 @@
             "exampleCode":
                 "live-examples/js-examples/reflect-getprototypeof.html",
             "fileName": "reflect-getprototypeof.html",
-            "title": "JavaScript Demo: reflect.getPrototypeOf()",
+            "title": "JavaScript Demo: Reflect.getPrototypeOf()",
             "type": "js"
         },
         "reflectHas": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/reflect-has.html",
             "fileName": "reflect-has.html",
-            "title": "JavaScript Demo: reflect.has()",
+            "title": "JavaScript Demo: Reflect.has()",
             "type": "js"
         },
         "reflectIsExtensible": {
@@ -2240,14 +2240,14 @@
             "exampleCode":
                 "live-examples/js-examples/reflect-isextensible.html",
             "fileName": "reflect-isextensible.html",
-            "title": "JavaScript Demo: reflect.isExtensible()",
+            "title": "JavaScript Demo: Reflect.isExtensible()",
             "type": "js"
         },
         "reflectOwnKeys": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/reflect-ownkeys.html",
             "fileName": "reflect-ownkeys.html",
-            "title": "JavaScript Demo: reflect.ownKeys()",
+            "title": "JavaScript Demo: Reflect.ownKeys()",
             "type": "js"
         },
         "reflectPreventExtensions": {
@@ -2255,22 +2255,22 @@
             "exampleCode":
                 "live-examples/js-examples/reflect-preventextensions.html",
             "fileName": "reflect-preventextensions.html",
-            "title": "JavaScript Demo: reflect.preventExtensions()",
+            "title": "JavaScript Demo: Reflect.preventExtensions()",
             "type": "js"
         },
         "reflectSet": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/reflect-set.html",
             "fileName": "reflect-set.html",
-            "title": "JavaScript Demo: reflect.set()",
+            "title": "JavaScript Demo: Reflect.set()",
             "type": "js"
         },
-        "reflectSetPrototype": {
+        "reflectSetPrototypeOf": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode":
-                "live-examples/js-examples/reflect-setprototype.html",
-            "fileName": "reflect-setprototype.html",
-            "title": "JavaScript Demo: reflect.setPrototype()",
+                "live-examples/js-examples/reflect-setprototypeof.html",
+            "fileName": "reflect-setprototypeof.html",
+            "title": "JavaScript Demo: Reflect.setPrototypeOf()",
             "type": "js"
         },
         "regexpConstructor": {
