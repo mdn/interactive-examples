@@ -3,10 +3,6 @@
     font-size: 14px;
 }
 
-.js .editor {
-    min-height: 280px;
-}
-
 .editor {
     position: relative;
     margin-bottom: 1em;
@@ -63,9 +59,17 @@
     color: #fff;
 }
 
-/* CodeMirror overrides */
+.js .editor {
+    min-height: 280px;
+}
+
 .CodeMirror {
     height: 280px;
+}
+
+.js .editor.taller,
+.js .editor.taller .CodeMirror {
+    height: 375px;
 }
 
 @supports (display: flex) {
