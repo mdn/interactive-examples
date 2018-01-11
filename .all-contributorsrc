@@ -92,6 +92,13 @@
                 "https://avatars3.githubusercontent.com/u/33892472?s=460&v=4",
             "profile": "https://github.com/7ayushgupta",
             "contributions": ["code"]
+        },
+        {
+            "login": "jwhitlock",
+            "name": "John Whitlock",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/286017?s=460&v=4",
+            "profile": "https://github.com/jwhitlock",
+            "contributions": ["code", "infra"]
         }
     ]
 }
