@@ -2989,7 +2989,7 @@
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/typedarray-tostring.html",
             "fileName": "typedarray-tostring.html",
-            "title": "JavaScript Demo: TypedArray.tostring()",
+            "title": "JavaScript Demo: TypedArray.toString()",
             "type": "js"
         },
         "typedarrayValues": {
