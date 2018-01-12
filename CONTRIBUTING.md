@@ -240,7 +240,7 @@ Please make sure the example conforms to the [JS Example Style Guide](JS-Example
 
 > NOTE: Should your example [exceed the ideal of 12 lines of code](JS-Example-Style-Guide.md#example-size),
 > you should set the following `data` attribute on the `code` element. This will ensure the editor height
-> is taller, allowing you up to 17 total lines of example code.
+> is taller, allowing you up to 23 total lines of example code.
 
 ```
 <pre>

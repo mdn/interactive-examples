@@ -6,8 +6,6 @@
 .editor {
     position: relative;
     margin-bottom: 1em;
-    border: 1px solid #3f87a6;
-    border-left: 5px solid #3f87a6;
 }
 
 .output {
@@ -64,12 +62,14 @@
 }
 
 .CodeMirror {
+    border: 1px solid #3f87a6;
+    border-left: 5px solid #3f87a6;
     height: 280px;
 }
 
 .js .editor.taller,
 .js .editor.taller .CodeMirror {
-    height: 375px;
+    height: 490px;
 }
 
 @supports (display: flex) {
