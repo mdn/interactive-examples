@@ -206,7 +206,7 @@ Once satisfied with the example, [submit your pull request](https://help.github.
 
 ## Contributing a JavaScript example
 
-### Writing the exaple
+### Writing the example
 With a JavaScript example you start by creating a new `.html` file in `live-examples/js-examples`. The same naming convention applies here as it does for CSS. In this example we are going to contribute an example demonstrating the use of `Array.from` so, we'll create a new file called `array-from.html`.
 
 Next, you need to paste the following code into this new file (this will be the same for all JavaScript examples you add):
