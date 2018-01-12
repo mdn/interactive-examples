@@ -99,6 +99,13 @@
             "avatar_url": "https://avatars2.githubusercontent.com/u/286017?s=460&v=4",
             "profile": "https://github.com/jwhitlock",
             "contributions": ["code", "infra"]
+        },
+        {
+            "login": "mfluehr",
+            "name": "mfluehr",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/7999073?s=460&v=4",
+            "profile": "https://github.com/mfluehr",
+            "contributions": ["doc"]
         }
     ]
 }
