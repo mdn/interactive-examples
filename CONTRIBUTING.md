@@ -181,9 +181,12 @@ Copy and paste the example then update it to apply to your new example, noting t
     "cssExampleSrc": "../../live-examples/css-examples/css/border-radius.css",
     "exampleCode": "live-examples/css-examples/border-radius.html",
     "fileName": "border-radius.html",
+    "title": "CSS Demo: border-radius"
     "type": "css"
 },
 ```
+
+The `title` property is displayed above the editor, and should be of the form: "CSS Demo: {item}", where {item} is the name of the item that the example is for. If you're not sure what to use for {item}, use the title of the page.
 
 ### Testing
 All that remains is to test that your page generates and displays as intended, then open a pull request for review.
@@ -249,6 +252,8 @@ You entry will look something like the following when edited:
     "type": "js"
 },
 ```
+
+The `title` property is displayed above the editor, and should be of the form: "JavaScript Demo: {item}", where {item} is the name of the item that the example is for. If you're not sure what to use for {item}, use the title of the page.
 
 ### Testing
 From your command line run:
