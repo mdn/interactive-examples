@@ -172,6 +172,20 @@
             "title": "JavaScript Demo: Array.slice()",
             "type": "js"
         },
+        "arrayToString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/array-tostring.html",
+            "fileName": "array-tostring.html",
+            "title": "JavaScript Demo: Array.toString()",
+            "type": "js"
+        },
+        "arrayUnshift": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/array-unshift.html",
+            "fileName": "array-unshift.html",
+            "title": "JavaScript Demo: Array.unshift()",
+            "type": "js"
+        },
         "arraybufferConstructor": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode":
