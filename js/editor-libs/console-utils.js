@@ -87,20 +87,6 @@ module.exports = {
         }
     },
     /**
-     * Concatenate the output of each argument with a blank space.
-     * @param args - Arguments of console.log
-     * @returns {*} Concatenated output as a string.
-     */
-    concatOutput: function(args) {
-        'use strict';
-        var output = '';
-        output = output + this.formatOutput(args[0]);
-        for (var i = 1, l = args.length; i < l; i++) {
-            output = output + ' ' + this.formatOutput(args[i]);
-        }
-        return output;
-    },
-    /**
      * Writes the provided content to the editor’s output area
      * @param {String} content - The content to write to output
      */

@@ -14,7 +14,13 @@ module.exports = function() {
 
     // eslint-disable-next-line no-console
     console.log = function() {
-        consoleUtils.writeOutput(consoleUtils.concatOutput(arguments));
+        var formattedList = [];
+        for (var i = 0, l = arguments.length; i < l; i++) {
+            var formatted = consoleUtils.formatOutput(arguments[i]);
+            formattedList.push(formatted);
+        }
+        var output = formattedList.join(' ');
+        consoleUtils.writeOutput(output);
         // do not swallow console.log
         originalConsoleLogger.apply(console, arguments);
     };
