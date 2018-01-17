@@ -13,8 +13,8 @@ module.exports = function() {
     };
 
     // eslint-disable-next-line no-console
-    console.log = function(loggedItem) {
-        consoleUtils.writeOutput(consoleUtils.formatOutput(loggedItem));
+    console.log = function() {
+        consoleUtils.writeOutput(consoleUtils.concatOutput(arguments));
         // do not swallow console.log
         originalConsoleLogger.apply(console, arguments);
     };
