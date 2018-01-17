@@ -3272,6 +3272,13 @@
             "title": "CSS Demo: Position",
             "type": "css"
         },
+        "sepia": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode": "live-examples/css-examples/sepia.html",
+            "fileName": "sepia.html",
+            "title": "CSS Demo: sepia()",
+            "type": "css"
+        },
         "textAlign": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
