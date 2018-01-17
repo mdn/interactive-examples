@@ -106,6 +106,13 @@
             "avatar_url": "https://avatars2.githubusercontent.com/u/7999073?s=460&v=4",
             "profile": "https://github.com/mfluehr",
             "contributions": ["doc"]
+        },
+        {
+            "login": "paulirish",
+            "name": "Paul Irish",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/39191?s=460&v=4",
+            "profile": "https://github.com/paulirish",
+            "contributions": ["code"]
         }
     ]
 }

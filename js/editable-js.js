@@ -46,6 +46,13 @@
      * Initialize the interactive editor
      */
     function initInteractiveEditor() {
+        /* If the `data-height` attribute is defined on the `codeBlock`, set
+           the value of this attribute as a class on the editor element. */
+        if (codeBlock.dataset['height']) {
+            var editor = document.getElementById('editor');
+            editor.classList.add(codeBlock.dataset['height']);
+        }
+
         staticContainer = document.getElementById('static');
         staticContainer.classList.add('hidden');
 

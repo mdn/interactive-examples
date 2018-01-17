@@ -172,6 +172,7 @@
             "title": "JavaScript Demo: Array.slice()",
             "type": "js"
         },
+<<<<<<< HEAD
         "arrayToLocaleString": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/array-tolocalestring.html",
@@ -179,6 +180,8 @@
             "title": "JavaScript Demo: Array.toLocaleString()",
             "type": "js"
         },
+=======
+>>>>>>> 35bec1fb853b01ac54012e7732b34d8dadc91169
         "arrayToString": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/array-tostring.html",
@@ -839,7 +842,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-bitwiseoperators.html",
             "fileName": "expressions-bitwiseoperators.html",
-            "title": "JavaScript Demo: Expressions - Bitwise Operators",
+            "title": "JavaScript Demo: Expressions - Bitwise operators",
             "type": "js"
         },
         "expressionsClassExpression": {
@@ -847,7 +850,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-classexpression.html",
             "fileName": "expressions-classexpression.html",
-            "title": "JavaScript Demo: Expressions - Class Expression",
+            "title": "JavaScript Demo: Expressions - class expression",
             "type": "js"
         },
         "expressionsCommaOperators": {
@@ -855,7 +858,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-commaoperators.html",
             "fileName": "expressions-commaoperators.html",
-            "title": "JavaScript Demo: Expressions - Comma Operators",
+            "title": "JavaScript Demo: Expressions - Comma operator",
             "type": "js"
         },
         "expressionsComparisonOperators": {
@@ -863,7 +866,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-comparisonoperators.html",
             "fileName": "expressions-comparisonoperators.html",
-            "title": "JavaScript Demo: Expressions - Comparison Operators",
+            "title": "JavaScript Demo: Expressions - Comparison operators",
             "type": "js"
         },
         "expressionsConditionalOperators": {
@@ -871,7 +874,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-conditionaloperators.html",
             "fileName": "expressions-conditionaloperators.html",
-            "title": "JavaScript Demo: Expressions - Conditional Operators",
+            "title": "JavaScript Demo: Expressions - Conditional operator",
             "type": "js"
         },
         "expressionsDeleteOperator": {
@@ -879,7 +882,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-deleteoperator.html",
             "fileName": "expressions-deleteoperator.html",
-            "title": "JavaScript Demo: Expressions - Delete Operator",
+            "title": "JavaScript Demo: Expressions - delete operator",
             "type": "js"
         },
         "expressionsDestructuringAssignment": {
@@ -887,7 +890,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-destructuringassignment.html",
             "fileName": "expressions-destructuringassignment.html",
-            "title": "JavaScript Demo: Expressions - Destructuring Assignment",
+            "title": "JavaScript Demo: Expressions - Destructuring assignment",
             "type": "js"
         },
         "expressionsFunctionAsteriskExpression": {
@@ -895,7 +898,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-functionasteriskexpression.html",
             "fileName": "expressions-functionasteriskexpression.html",
-            "title": "JavaScript Demo: Expressions - Function* Expression",
+            "title": "JavaScript Demo: Expressions - function* expression",
             "type": "js"
         },
         "expressionsFunctionExpression": {
@@ -903,7 +906,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-functionexpression.html",
             "fileName": "expressions-functionexpression.html",
-            "title": "JavaScript Demo: Expressions - Function Expression",
+            "title": "JavaScript Demo: Expressions - function expression",
             "type": "js"
         },
         "expressionsGroupingOperator": {
@@ -911,7 +914,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-groupingoperator.html",
             "fileName": "expressions-groupingoperator.html",
-            "title": "JavaScript Demo: Expressions - Grouping Operator",
+            "title": "JavaScript Demo: Expressions - Grouping operator",
             "type": "js"
         },
         "expressionsInOperator": {
@@ -919,7 +922,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-inoperator.html",
             "fileName": "expressions-inoperator.html",
-            "title": "JavaScript Demo: Expressions - In Operator",
+            "title": "JavaScript Demo: Expressions - in operator",
             "type": "js"
         },
         "expressionsInstanceof": {
@@ -927,7 +930,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-instanceof.html",
             "fileName": "expressions-instanceof.html",
-            "title": "JavaScript Demo: Expressions - Instanceof",
+            "title": "JavaScript Demo: Expressions - instanceof",
             "type": "js"
         },
         "expressionsLogicalOperator": {
@@ -935,7 +938,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-logicaloperator.html",
             "fileName": "expressions-logicaloperator.html",
-            "title": "JavaScript Demo: Expressions - Logical Operator",
+            "title": "JavaScript Demo: Expressions - Logical operator",
             "type": "js"
         },
         "expressionsNewOperator": {
@@ -943,7 +946,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-newoperator.html",
             "fileName": "expressions-newoperator.html",
-            "title": "JavaScript Demo: Expressions - New Operator",
+            "title": "JavaScript Demo: Expressions - new operator",
             "type": "js"
         },
         "expressionsNewTarget": {
@@ -951,7 +954,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-newtarget.html",
             "fileName": "expressions-newtarget.html",
-            "title": "JavaScript Demo: Expressions - New Target",
+            "title": "JavaScript Demo: Expressions - new.target",
             "type": "js"
         },
         "expressionsObjectInitializer": {
@@ -959,7 +962,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-objectinitializer.html",
             "fileName": "expressions-objectinitializer.html",
-            "title": "JavaScript Demo: Expressions - Object Initializer",
+            "title": "JavaScript Demo: Expressions - Object initializer",
             "type": "js"
         },
         "expressionsOperatorPrecedence": {
@@ -967,7 +970,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-operatorprecedence.html",
             "fileName": "expressions-operatorprecedence.html",
-            "title": "JavaScript Demo: Expressions - Operator Precedence",
+            "title": "JavaScript Demo: Expressions - Operator precedence",
             "type": "js"
         },
         "expressionsPropertyAccessors": {
@@ -975,7 +978,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-propertyaccessors.html",
             "fileName": "expressions-propertyaccessors.html",
-            "title": "JavaScript Demo: Expressions - Property Accessors",
+            "title": "JavaScript Demo: Expressions - Property accessors",
             "type": "js"
         },
         "expressionsSpreadSyntax": {
@@ -983,21 +986,21 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-spreadsyntax.html",
             "fileName": "expressions-spreadsyntax.html",
-            "title": "JavaScript Demo: Expressions - Spread Syntax",
+            "title": "JavaScript Demo: Expressions - Spread syntax",
             "type": "js"
         },
         "expressionsThis": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/expressions-this.html",
             "fileName": "expressions-this.html",
-            "title": "JavaScript Demo: Expressions - This",
+            "title": "JavaScript Demo: Expressions - this",
             "type": "js"
         },
         "expressionsTypeof": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/expressions-typeof.html",
             "fileName": "expressions-typeof.html",
-            "title": "JavaScript Demo: Expressions - Typeof",
+            "title": "JavaScript Demo: Expressions - typeof",
             "type": "js"
         },
         "expressionsVoidOperator": {
@@ -1005,14 +1008,14 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-voidoperator.html",
             "fileName": "expressions-voidoperator.html",
-            "title": "JavaScript Demo: Expressions - Void Operator",
+            "title": "JavaScript Demo: Expressions - void operator",
             "type": "js"
         },
         "expressionsYield": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/expressions-yield.html",
             "fileName": "expressions-yield.html",
-            "title": "JavaScript Demo: Expressions - Yield",
+            "title": "JavaScript Demo: Expressions - yield",
             "type": "js"
         },
         "expressionsYieldAsterisk": {
@@ -1020,7 +1023,7 @@
             "exampleCode":
                 "live-examples/js-examples/expressions-yieldasterisk.html",
             "fileName": "expressions-yieldasterisk.html",
-            "title": "JavaScript Demo: Expressions - Yield*",
+            "title": "JavaScript Demo: Expressions - yield*",
             "type": "js"
         },
         "functionApply": {
