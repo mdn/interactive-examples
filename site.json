@@ -3075,7 +3075,7 @@
                 "../../live-examples/css-examples/css/animation.css",
             "exampleCode": "live-examples/css-examples/animation.html",
             "fileName": "animation.html",
-            "title": "CSS Demo: Animation",
+            "title": "CSS Demo: animation",
             "type": "css"
         },
         "backgroundClip": {
@@ -3084,7 +3084,7 @@
                 "../../live-examples/css-examples/css/background-clip.css",
             "exampleCode": "live-examples/css-examples/background-clip.html",
             "fileName": "background-clip.html",
-            "title": "CSS Demo: Background Clip",
+            "title": "CSS Demo: background-clip",
             "type": "css"
         },
         "backgroundColor": {
@@ -3093,7 +3093,7 @@
                 "../../live-examples/css-examples/css/background-color.css",
             "exampleCode": "live-examples/css-examples/background-color.html",
             "fileName": "background-color.html",
-            "title": "CSS Demo: Background Color",
+            "title": "CSS Demo: background-color",
             "type": "css"
         },
         "backgroundImage": {
@@ -3102,7 +3102,7 @@
                 "../../live-examples/css-examples/css/background-image.css",
             "exampleCode": "live-examples/css-examples/background-image.html",
             "fileName": "background-image.html",
-            "title": "CSS Demo: Background Image",
+            "title": "CSS Demo: background-image",
             "type": "css"
         },
         "backgroundPosition": {
@@ -3112,7 +3112,7 @@
             "exampleCode":
                 "live-examples/css-examples/background-position.html",
             "fileName": "background-position.html",
-            "title": "CSS Demo: Background Position",
+            "title": "CSS Demo: background-position",
             "type": "css"
         },
         "backgroundRepeat": {
@@ -3121,7 +3121,7 @@
                 "../../live-examples/css-examples/css/background-repeat.css",
             "exampleCode": "live-examples/css-examples/background-repeat.html",
             "fileName": "background-repeat.html",
-            "title": "CSS Demo: Background Repeat",
+            "title": "CSS Demo: background-repeat",
             "type": "css"
         },
         "backgroundSize": {
@@ -3130,7 +3130,7 @@
                 "../../live-examples/css-examples/css/background-size.css",
             "exampleCode": "live-examples/css-examples/background-size.html",
             "fileName": "background-size.html",
-            "title": "CSS Demo: Background Size",
+            "title": "CSS Demo: background-size",
             "type": "css"
         },
         "borderImage": {
@@ -3139,7 +3139,7 @@
                 "../../live-examples/css-examples/css/border-image.css",
             "exampleCode": "live-examples/css-examples/border-image.html",
             "fileName": "border-image.html",
-            "title": "CSS Demo: Background Image",
+            "title": "CSS Demo: border-image",
             "type": "css"
         },
         "borderStyle": {
@@ -3148,7 +3148,7 @@
                 "../../live-examples/css-examples/css/border-style.css",
             "exampleCode": "live-examples/css-examples/border-style.html",
             "fileName": "border-style.html",
-            "title": "CSS Demo: Border Style",
+            "title": "CSS Demo: border-style",
             "type": "css"
         },
         "borderTopColor": {
@@ -3157,7 +3157,7 @@
                 "../../live-examples/css-examples/css/border-top-color.css",
             "exampleCode": "live-examples/css-examples/border-top-color.html",
             "fileName": "border-top-color.html",
-            "title": "CSS Demo: Border Top Color",
+            "title": "CSS Demo: border-top-color",
             "type": "css"
         },
         "boxShadow": {
@@ -3166,7 +3166,7 @@
                 "../../live-examples/css-examples/css/box-shadow.css",
             "exampleCode": "live-examples/css-examples/box-shadow.html",
             "fileName": "box-shadow.html",
-            "title": "CSS Demo: Box Shadow",
+            "title": "CSS Demo: box-shadow",
             "type": "css"
         },
         "boxSizing": {
@@ -3175,7 +3175,7 @@
                 "../../live-examples/css-examples/css/box-sizing.css",
             "exampleCode": "live-examples/css-examples/box-sizing.html",
             "fileName": "box-sizing.html",
-            "title": "CSS Demo: Box Sizing",
+            "title": "CSS Demo: box-sizing",
             "type": "css"
         },
         "color": {
@@ -3183,14 +3183,14 @@
             "cssExampleSrc": "../../live-examples/css-examples/css/color.css",
             "exampleCode": "live-examples/css-examples/color.html",
             "fileName": "color.html",
-            "title": "CSS Demo: Color",
+            "title": "CSS Demo: color",
             "type": "css"
         },
         "filter": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "exampleCode": "live-examples/css-examples/filter.html",
             "fileName": "filter.html",
-            "title": "CSS Demo: Filter",
+            "title": "CSS Demo: filter",
             "type": "css"
         },
         "font": {
@@ -3198,7 +3198,7 @@
             "cssExampleSrc": "../../live-examples/css-examples/css/font.css",
             "exampleCode": "live-examples/css-examples/font.html",
             "fileName": "font.html",
-            "title": "CSS Demo: Font",
+            "title": "CSS Demo: font",
             "type": "css"
         },
         "fontFamily": {
@@ -3206,7 +3206,7 @@
             "cssExampleSrc": "../../live-examples/css-examples/css/font-family.css",
             "exampleCode": "live-examples/css-examples/font-family.html",
             "fileName": "font-family.html",
-            "title": "CSS Demo: Font Family",
+            "title": "CSS Demo: font-family",
             "type": "css"
         },
         "fontStyle": {
@@ -3215,7 +3215,7 @@
                 "../../live-examples/css-examples/css/font-style.css",
             "exampleCode": "live-examples/css-examples/font-style.html",
             "fileName": "font-style.html",
-            "title": "CSS Demo: Font Style",
+            "title": "CSS Demo: font-style",
             "type": "css"
         },
         "fontWeight": {
@@ -3224,7 +3224,7 @@
                 "../../live-examples/css-examples/css/font-weight.css",
             "exampleCode": "live-examples/css-examples/font-weight.html",
             "fileName": "font-weight.html",
-            "title": "CSS Demo: Font Weight",
+            "title": "CSS Demo: font-weight",
             "type": "css"
         },
         "margin": {
@@ -3233,7 +3233,7 @@
                 "../../live-examples/css-examples/css/margin.css",
             "exampleCode": "live-examples/css-examples/margin.html",
             "fileName": "margin.html",
-            "title": "CSS Demo: Margin",
+            "title": "CSS Demo: margin",
             "type": "css"
         },
         "objectFit": {
@@ -3242,7 +3242,7 @@
                 "../../live-examples/css-examples/css/object-fit.css",
             "exampleCode": "live-examples/css-examples/object-fit.html",
             "fileName": "object-fit.html",
-            "title": "CSS Demo: Object Fit",
+            "title": "CSS Demo: object-fit",
             "type": "css"
         },
         "opacity": {
@@ -3251,7 +3251,7 @@
                 "../../live-examples/css-examples/css/opacity.css",
             "exampleCode": "live-examples/css-examples/opacity.html",
             "fileName": "opacity.html",
-            "title": "CSS Demo: Opacity",
+            "title": "CSS Demo: opacity",
             "type": "css"
         },
         "padding": {
@@ -3260,7 +3260,7 @@
                 "../../live-examples/css-examples/css/padding.css",
             "exampleCode": "live-examples/css-examples/padding.html",
             "fileName": "padding.html",
-            "title": "CSS Demo: Padding",
+            "title": "CSS Demo: padding",
             "type": "css"
         },
         "position": {
@@ -3269,7 +3269,7 @@
                 "../../live-examples/css-examples/css/position.css",
             "exampleCode": "live-examples/css-examples/position.html",
             "fileName": "position.html",
-            "title": "CSS Demo: Position",
+            "title": "CSS Demo: position",
             "type": "css"
         },
         "sepia": {
@@ -3285,7 +3285,7 @@
                 "../../live-examples/css-examples/css/fonts-base.css",
             "exampleCode": "live-examples/css-examples/text-align.html",
             "fileName": "text-align.html",
-            "title": "CSS Demo: Text Align",
+            "title": "CSS Demo: text-align",
             "type": "css"
         },
         "textDecoration": {
@@ -3294,7 +3294,7 @@
                 "../../live-examples/css-examples/css/text-decoration.css",
             "exampleCode": "live-examples/css-examples/text-decoration.html",
             "fileName": "text-decoration.html",
-            "title": "CSS Demo: Text Decoration",
+            "title": "CSS Demo: text-decoration",
             "type": "css"
         },
         "textDecorationSkipInk": {
@@ -3303,7 +3303,7 @@
                 "../../live-examples/css-examples/css/text-decoration-skip-ink.css",
             "exampleCode": "live-examples/css-examples/text-decoration-skip-ink.html",
             "fileName": "text-decoration-skip-ink.html",
-            "title": "CSS Demo: Text Decoration Skip Ink",
+            "title": "CSS Demo: text-decoration-skip-ink",
             "type": "css"
         },
         "textOverflow": {
@@ -3312,7 +3312,7 @@
                 "../../live-examples/css-examples/css/text-overflow.css",
             "exampleCode": "live-examples/css-examples/text-overflow.html",
             "fileName": "text-overflow.html",
-            "title": "CSS Demo: Text Overflow",
+            "title": "CSS Demo: text-overflow",
             "type": "css"
         },
         "textShadow": {
@@ -3321,14 +3321,14 @@
                 "../../live-examples/css-examples/css/text-shadow.css",
             "exampleCode": "live-examples/css-examples/text-shadow.html",
             "fileName": "text-shadow.html",
-            "title": "CSS Demo: Text Shadow",
+            "title": "CSS Demo: text-shadow",
             "type": "css"
         },
         "transform": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "exampleCode": "live-examples/css-examples/transform.html",
             "fileName": "transform.html",
-            "title": "CSS Demo: Transform",
+            "title": "CSS Demo: transform",
             "type": "css"
         },
         "word-break": {
@@ -3337,7 +3337,7 @@
                 "../../live-examples/css-examples/css/word-break.css",
             "exampleCode": "live-examples/css-examples/word-break.html",
             "fileName": "word-break.html",
-            "title": "CSS Demo: Word Break",
+            "title": "CSS Demo: word-break",
             "type": "css"
         },
         "zIndex": {
@@ -3345,7 +3345,7 @@
             "cssExampleSrc": "../../live-examples/css-examples/css/z-index.css",
             "exampleCode": "live-examples/css-examples/z-index.html",
             "fileName": "z-index.html",
-            "title": "CSS Demo: Z-Index",
+            "title": "CSS Demo: z-index",
             "type": "css"
         }
     }
