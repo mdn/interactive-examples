@@ -95,7 +95,7 @@ module.exports = {
         'use strict';
         var output = '';
         output = output + this.formatOutput(args[0]);
-        for (var i=1; i<args.length; i++) {
+        for (var i = 1, l = args.length; i < l; i++) {
             output = output + ' ' + this.formatOutput(args[i]);
         }
         return output;
