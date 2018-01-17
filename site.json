@@ -172,6 +172,16 @@
             "title": "JavaScript Demo: Array.slice()",
             "type": "js"
         },
+<<<<<<< HEAD
+        "arrayToLocaleString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/array-tolocalestring.html",
+            "fileName": "array-tolocalestring.html",
+            "title": "JavaScript Demo: Array.toLocaleString()",
+            "type": "js"
+        },
+=======
+>>>>>>> 35bec1fb853b01ac54012e7732b34d8dadc91169
         "arrayToString": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/array-tostring.html",
