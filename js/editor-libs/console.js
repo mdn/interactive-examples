@@ -17,6 +17,7 @@ module.exports = function() {
         var formattedList = [];
         for (var i = 0, l = arguments.length; i < l; i++) {
             var formatted = consoleUtils.formatOutput(arguments[i]);
+            formatted = String(formatted);
             formattedList.push(formatted);
         }
         var output = formattedList.join(' ');
