@@ -172,6 +172,13 @@
             "title": "JavaScript Demo: Array.slice()",
             "type": "js"
         },
+        "arraySome": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/array-some.html",
+            "fileName": "array-some.html",
+            "title": "JavaScript Demo: Array.some()",
+            "type": "js"
+        },
         "arraySort": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/array-sort.html",
