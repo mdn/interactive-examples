@@ -11,6 +11,8 @@ function getFeatureObject(feature) {
     case 'array-entries':
         featureObj = Array.prototype.entries;
         break;
+    case 'shared-array-buffer':
+        featureObj = window.SharedArrayBuffer;
     }
 
     return featureObj;
