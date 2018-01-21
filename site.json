@@ -172,7 +172,6 @@
             "title": "JavaScript Demo: Array.slice()",
             "type": "js"
         },
-<<<<<<< HEAD
         "arraySome": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/array-some.html",
@@ -180,8 +179,6 @@
             "title": "JavaScript Demo: Array.some()",
             "type": "js"
         },
-=======
->>>>>>> 98feadcdbc3d0d05cebfb44d155bfed0c6b1dcc9
         "arraySort": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/array-sort.html",
