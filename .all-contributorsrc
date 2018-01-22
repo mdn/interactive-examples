@@ -113,6 +113,13 @@
             "avatar_url": "https://avatars2.githubusercontent.com/u/39191?s=460&v=4",
             "profile": "https://github.com/paulirish",
             "contributions": ["code"]
+        },
+        {
+            "login": "maddhruv",
+            "name": "Dhruv Jain",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/18121502?s=460&v=4",
+            "profile": "https://github.com/maddhruv",
+            "contributions": ["code"]
         }
     ]
 }
