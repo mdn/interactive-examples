@@ -184,7 +184,7 @@ Copy and paste the example then update it to apply to your new example, noting t
     "cssExampleSrc": "../../live-examples/css-examples/css/border-radius.css",
     "exampleCode": "live-examples/css-examples/border-radius.html",
     "fileName": "border-radius.html",
-    "title": "CSS Demo: border-radius"
+    "title": "CSS Demo: border-radius",
     "type": "css"
 },
 ```
