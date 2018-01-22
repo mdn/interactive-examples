@@ -3146,6 +3146,15 @@
             "title": "CSS Demo: Border Top Color",
             "type": "css"
         },
+        "borderWidth": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/border-width.css",
+            "exampleCode": "live-examples/css-examples/border-width.html",
+            "fileName": "border-width.html",
+            "title": "CSS Demo: border-width",
+            "type": "css"
+        },
         "boxShadow": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
