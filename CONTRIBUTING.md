@@ -104,14 +104,14 @@ Next, let's add the example CSS choices. Think of a few different ways that `bor
 
     <div class="example-choice">
         <pre><code id="example_two" class="language-css">border-radius: 10px 50%;</code></pre>
-        <button type="button" class="copy hidden" aria-hidden="true" data-clipboard-target="#example_one">
+        <button type="button" class="copy hidden" aria-hidden="true" data-clipboard-target="#example_two">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
     </div>
 
     <div class="example-choice">
         <pre><code id="example_three" class="language-css">border-radius: 10px 5px 6em / 20px 25px 30%;</code></pre>
-        <button type="button" class="copy hidden" aria-hidden="true" data-clipboard-target="#example_one">
+        <button type="button" class="copy hidden" aria-hidden="true" data-clipboard-target="#example_three">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
     </div>
@@ -137,14 +137,14 @@ Now we've finished writing the HTML for the example. The final version of `borde
 
     <div class="example-choice">
         <pre><code id="example_two" class="language-css">border-radius: 10px 50%;</code></pre>
-        <button type="button" class="copy hidden" aria-hidden="true" data-clipboard-target="#example_one">
+        <button type="button" class="copy hidden" aria-hidden="true" data-clipboard-target="#example_two">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
     </div>
 
     <div class="example-choice">
         <pre><code id="example_three" class="language-css">border-radius: 10px 5px 6em / 20px 25px 30%;</code></pre>
-        <button type="button" class="copy hidden" aria-hidden="true" data-clipboard-target="#example_one">
+        <button type="button" class="copy hidden" aria-hidden="true" data-clipboard-target="#example_three">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
     </div>
