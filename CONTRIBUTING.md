@@ -184,7 +184,7 @@ Copy and paste the example then update it to apply to your new example, noting t
     "cssExampleSrc": "../../live-examples/css-examples/css/border-radius.css",
     "exampleCode": "live-examples/css-examples/border-radius.html",
     "fileName": "border-radius.html",
-    "title": "CSS Demo: border-radius"
+    "title": "CSS Demo: border-radius",
     "type": "css"
 },
 ```
@@ -207,7 +207,7 @@ Once this completes run:
 npm start
 ```
 
-Now point your browser to [localhost:8080/pages/css/border-radius.html](http://localhost:8000/pages/css/border-radius.html).
+Now point your browser to [localhost:8080/pages/css/border-radius.html](http://localhost:8080/pages/css/border-radius.html).
 
 Once satisfied with the example, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
 
