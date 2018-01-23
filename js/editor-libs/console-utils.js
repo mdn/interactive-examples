@@ -62,6 +62,26 @@ module.exports = {
             return input.toString();
         }
 
+        if (objectName === "Object") {
+            var formattedChild = "";
+            var start = true;
+            for (var key in input) {
+                if (input.hasOwnProperty(key)) {
+                    if (start) {
+                        start = false;
+                    } else {
+                        formattedChild = formattedChild + ", ";
+                    }
+                    formattedChild =
+                        formattedChild +
+                        key +
+                        ": " +
+                        this.formatOutput(input[key]);
+                }
+            }
+            return objectName + " { " + formattedChild + " }";
+        }
+
         return input;
     },
     /**
@@ -75,7 +95,12 @@ module.exports = {
      */
     formatOutput: function(input) {
         'use strict';
-        if (input === undefined) {
+        if (
+            input === undefined ||
+            input === null ||
+            typeof input === "number" ||
+            typeof input === "boolean"
+        ) {
             return String(input);
         } else if (typeof input === 'string') {
             return '"' + input + '"';
