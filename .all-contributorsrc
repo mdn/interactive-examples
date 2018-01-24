@@ -127,6 +127,13 @@
             "avatar_url": "https://avatars2.githubusercontent.com/u/7613160?s=460&v=4",
             "profile": "https://github.com/qwIvan",
             "contributions": ["code"]
+        },
+        {
+            "login": "CShepartd",
+            "name": "CShepartd",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/24432753?s=460&v=4",
+            "profile": "https://github.com/CShepartd",
+            "contributions": ["code"]
         }
     ]
 }
