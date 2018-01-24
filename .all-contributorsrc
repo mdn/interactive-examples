@@ -134,6 +134,14 @@
             "avatar_url": "https://avatars2.githubusercontent.com/u/24432753?s=460&v=4",
             "profile": "https://github.com/CShepartd",
             "contributions": ["code"]
+        },
+        {
+            "login": "kenrick95",
+            "name": "Kenrick",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/3090380?s=460&v=4",
+            "profile": "https://github.com/kenrick95",
+            "contributions": ["code", "test"]
         }
     ]
 }
