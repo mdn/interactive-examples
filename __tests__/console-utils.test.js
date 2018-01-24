@@ -13,25 +13,25 @@ test('Object formatting', function() {
         'DataView {}'
     );
 
-    expect(consoleUtils.formatObject({})).toBe("Object {  }");
+    expect(consoleUtils.formatObject({})).toBe('Object {  }');
 
     expect(consoleUtils.formatObject({ a: 1, b: 2, c: 3 })).toBe(
-        "Object { a: 1, b: 2, c: 3 }"
+        'Object { a: 1, b: 2, c: 3 }'
     );
 
-    expect(consoleUtils.formatObject({ a: 1, b: "something", c: 3 })).toBe(
+    expect(consoleUtils.formatObject({ a: 1, b: 'something', c: 3 })).toBe(
         'Object { a: 1, b: "something", c: 3 }'
     );
 
     expect(consoleUtils.formatObject({ a: 1, b: { d: 2, e: 4 }, c: 3 })).toBe(
-        "Object { a: 1, b: Object { d: 2, e: 4 }, c: 3 }"
+        'Object { a: 1, b: Object { d: 2, e: 4 }, c: 3 }'
     );
 
     expect(consoleUtils.formatObject({ a: 1, b: [1, 2, 3], c: 3 })).toBe(
-        "Object { a: 1, b: Array [1, 2, 3], c: 3 }"
+        'Object { a: 1, b: Array [1, 2, 3], c: 3 }'
     );
 
     expect(consoleUtils.formatObject({ a: 1, b: null, c: 3 })).toBe(
-        "Object { a: 1, b: null, c: 3 }"
+        'Object { a: 1, b: null, c: 3 }'
     );
 });

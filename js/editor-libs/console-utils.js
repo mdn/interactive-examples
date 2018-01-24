@@ -58,28 +58,28 @@ module.exports = {
             }
         }
 
-        if (objectName === 'Symbol' && (input !== undefined)) {
+        if (objectName === 'Symbol' && input !== undefined) {
             return input.toString();
         }
 
-        if (objectName === "Object") {
-            var formattedChild = "";
+        if (objectName === 'Object') {
+            var formattedChild = '';
             var start = true;
             for (var key in input) {
                 if (input.hasOwnProperty(key)) {
                     if (start) {
                         start = false;
                     } else {
-                        formattedChild = formattedChild + ", ";
+                        formattedChild = formattedChild + ', ';
                     }
                     formattedChild =
                         formattedChild +
                         key +
-                        ": " +
+                        ': ' +
                         this.formatOutput(input[key]);
                 }
             }
-            return objectName + " { " + formattedChild + " }";
+            return objectName + ' { ' + formattedChild + ' }';
         }
 
         return input;
@@ -98,8 +98,8 @@ module.exports = {
         if (
             input === undefined ||
             input === null ||
-            typeof input === "number" ||
-            typeof input === "boolean"
+            typeof input === 'number' ||
+            typeof input === 'boolean'
         ) {
             return String(input);
         } else if (typeof input === 'string') {
