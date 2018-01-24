@@ -120,6 +120,13 @@
             "avatar_url": "https://avatars2.githubusercontent.com/u/18121502?s=460&v=4",
             "profile": "https://github.com/maddhruv",
             "contributions": ["code"]
+        },
+        {
+            "login": "qwIvan",
+            "name": "Ivan Ng",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/7613160?s=460&v=4",
+            "profile": "https://github.com/qwIvan",
+            "contributions": ["code"]
         }
     ]
 }
