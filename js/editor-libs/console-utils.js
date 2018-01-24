@@ -76,7 +76,7 @@ module.exports = {
     formatOutput: function(input) {
         'use strict';
         if (input === undefined) {
-            return input;
+            return String(input);
         } else if (typeof input === 'string') {
             return '"' + input + '"';
         } else if (Array.isArray(input)) {
