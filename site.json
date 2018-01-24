@@ -165,6 +165,13 @@
             "title": "JavaScript Demo: Array.reduce()",
             "type": "js"
         },
+        "arrayReverse": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/array-reverse.html",
+            "fileName": "array-reverse.html",
+            "title": "JavaScript Demo: Array.prototype.reverse()",
+            "type": "js"
+        },
         "arrayShift": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/array-shift.html",
