@@ -682,6 +682,13 @@
             "title": "JavaScript Demo: Date.getUTCMinutes()",
             "type": "js"
         },
+        "dateGetUTCSeconds": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-getutcseconds.html",
+            "fileName": "date-getutcseconds.html",
+            "title": "JavaScript Demo: Date.getUTCSeconds()",
+            "type": "js"
+        },
         "dateNow": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-now.html",
