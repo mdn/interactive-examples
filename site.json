@@ -116,6 +116,13 @@
             "title": "JavaScript Demo: Array.join()",
             "type": "js"
         },
+        "arrayKeys": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/array-keys.html",
+            "fileName": "array-keys.html",
+            "title": "JavaScript Demo: Array.keys()",
+            "type": "js"
+        },
         "arrayLastIndexOf": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/array-lastindexof.html",
