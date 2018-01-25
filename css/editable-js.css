@@ -72,6 +72,12 @@
     height: 490px;
 }
 
+.js .editor.smaller,
+.js .editor.smaller .CodeMirror {
+    height: 158px;
+    min-height: 158px;
+}
+
 @supports (display: flex) {
     .buttons-container {
         align-self: flex-start;
