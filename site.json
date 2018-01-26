@@ -3145,7 +3145,7 @@
                 "../../live-examples/css-examples/css/angle.css",
             "exampleCode": "live-examples/css-examples/angle.html",
             "fileName": "angle.html",
-            "title": "CSS Demo: <angle>",
+            "title": "CSS Demo: &lt;angle&gt;",
             "type": "css"
         },
         "animation": {
