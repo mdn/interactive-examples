@@ -1,11 +1,7 @@
 #example-element {
-    background-color: #edecec;
-    color: #000;
-    margin: 40px auto 0;
-    padding: 25px 0;
-    border-width: 5px;
-    border-style: solid;
+    background-color: #eee;
+    border: .75em solid;
+    padding: .75em;
     width: 80%;
-    height: 20%;
-    text-align: center;
+    height: 100px;
 }
