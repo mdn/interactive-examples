@@ -3342,6 +3342,15 @@
             "title": "CSS Demo: opacity",
             "type": "css"
         },
+        "overflow-wrap": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/overflow-wrap.css",
+            "exampleCode": "live-examples/css-examples/overflow-wrap.html",
+            "fileName": "overflow-wrap.html",
+            "title": "CSS Demo: overflow-wrap",
+            "type": "css"
+        },
         "padding": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
