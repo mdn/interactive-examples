@@ -72,10 +72,10 @@
     height: 490px;
 }
 
-.js .editor.smaller,
-.js .editor.smaller .CodeMirror {
-    height: 158px;
-    min-height: 158px;
+.js .editor.shorter,
+.js .editor.shorter .CodeMirror {
+    height: 200px;
+    min-height: 200px;
 }
 
 @supports (display: flex) {
