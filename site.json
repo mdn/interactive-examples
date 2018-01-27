@@ -3324,6 +3324,15 @@
             "title": "CSS Demo: font-weight",
             "type": "css"
         },
+		"lineHeight": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/line-height.css",
+            "exampleCode": "live-examples/css-examples/line-height.html",
+            "fileName": "line-height.html",
+            "title": "CSS Demo: line-height",
+            "type": "css"
+        },
         "margin": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
