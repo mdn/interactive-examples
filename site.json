@@ -802,11 +802,32 @@
             "title": "JavaScript Demo: Date.setUTCHours()",
             "type": "js"
         },
+        "dateSetUTCMilliseconds": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-setutcmilliseconds.html",
+            "fileName": "date-setutcmilliseconds.html",
+            "title": "JavaScript Demo: Date.setUTCMilliseconds()",
+            "type": "js"
+        },
+        "dateSetUTCMinutes": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-setutcminutes.html",
+            "fileName": "date-setutcminutes.html",
+            "title": "JavaScript Demo: Date.setUTCMinutes()",
+            "type": "js"
+        },
         "dateSetUTCMonth": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/date-setutcmonth.html",
             "fileName": "date-setutcmonth.html",
             "title": "JavaScript Demo: Date.setUTCMonth()",
+            "type": "js"
+        },
+        "dateSetUTCSeconds": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/date-setutcseconds.html",
+            "fileName": "date-setutcseconds.html",
+            "title": "JavaScript Demo: Date.setUTCSeconds()",
             "type": "js"
         },
         "dateToDateString": {
