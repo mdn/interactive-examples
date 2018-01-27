@@ -3403,6 +3403,15 @@
             "title": "CSS Demo: text-decoration",
             "type": "css"
         },
+        "textDecorationLine": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/text-decoration-line.css",
+            "exampleCode": "live-examples/css-examples/text-decoration-line.html",
+            "fileName": "text-decoration-line.html",
+            "title": "CSS Demo: text-decoration-line",
+            "type": "css"
+        },
         "textDecorationSkipInk": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
