@@ -5,6 +5,7 @@ const concat = require('concat');
 const dir = require('node-dir');
 const fse = require('fs-extra');
 const uglify = require('uglify-es');
+const glob = require('glob');
 
 const config = {
     baseDir: './docs/',
@@ -253,6 +254,14 @@ function init() {
             buildBundles(site.bundles);
             // generates the pages
             buildPages(site.pages);
+            // generated pages using glob.
+            const metaJsons = glob.sync('live-examples/**/meta.json', {});
+            for (const metaJson of metaJsons) {
+                const file = fse.readJsonSync(metaJson);
+                buildPages(file.pages);
+            }
+            
+
             // clean up
             removeJSBundles();
         })
