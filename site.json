@@ -3240,6 +3240,15 @@
             "title": "CSS Demo: background-size",
             "type": "css"
         },
+        "borderBottomWidth": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/border-width.css",
+            "exampleCode": "live-examples/css-examples/border-bottom-width.html",
+            "fileName": "border-bottom-width.html",
+            "title": "CSS Demo: border-bottom-width",
+            "type": "css"
+        },
         "borderColor": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
@@ -3258,6 +3267,24 @@
             "title": "CSS Demo: border-image",
             "type": "css"
         },
+        "borderLeftWidth": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/border-width.css",
+            "exampleCode": "live-examples/css-examples/border-left-width.html",
+            "fileName": "border-left-width.html",
+            "title": "CSS Demo: border-left-width",
+            "type": "css"
+        },
+        "borderRightWidth": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/border-width.css",
+            "exampleCode": "live-examples/css-examples/border-right-width.html",
+            "fileName": "border-right-width.html",
+            "title": "CSS Demo: border-right-width",
+            "type": "css"
+        },
         "borderStyle": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
@@ -3274,6 +3301,15 @@
             "exampleCode": "live-examples/css-examples/border-top-color.html",
             "fileName": "border-top-color.html",
             "title": "CSS Demo: border-top-color",
+            "type": "css"
+        },
+        "borderTopWidth": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/border-width.css",
+            "exampleCode": "live-examples/css-examples/border-top-width.html",
+            "fileName": "border-top-width.html",
+            "title": "CSS Demo: border-top-width",
             "type": "css"
         },
         "borderWidth": {
