@@ -72,6 +72,12 @@
     height: 490px;
 }
 
+.js .editor.shorter,
+.js .editor.shorter .CodeMirror {
+    height: 200px;
+    min-height: 200px;
+}
+
 @supports (display: flex) {
     .buttons-container {
         align-self: flex-start;
