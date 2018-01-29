@@ -150,6 +150,14 @@
                 "https://avatars3.githubusercontent.com/u/468752?s=460&v=4",
             "profile": "https://github.com/diablero13",
             "contributions": ["code"]
+        },
+        {
+            "login": "danielhickman",
+            "name": "Daniel Hickman",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/5341898?s=460&v=4",
+            "profile": "https://github.com/danielhickman",
+            "contributions": ["code"]
         }
     ]
 }
