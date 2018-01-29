@@ -3246,7 +3246,7 @@
                 "../../live-examples/css-examples/css/border-color.css",
             "exampleCode": "live-examples/css-examples/border-bottom-color.html",
             "fileName": "border-bottom-color.html",
-            "title": "CSS Demo: border-bottom-color"
+            "title": "CSS Demo: border-bottom-color",
             "type": "css"
         },
         "borderBottomWidth": {
