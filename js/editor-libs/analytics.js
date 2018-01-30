@@ -34,11 +34,19 @@ module.exports = {
             action: 'First edit',
             label: 'Keyboard Interaction Events'
         });
-        // store a flag that first edit has been recorded
-        localStorage.setItem(
-            'first' + exampleType.toUpperCase() + 'EditRecorded',
-            true
-        );
+
+        try {
+            // store a flag that first edit has been recorded
+            localStorage.setItem(
+                'first' + exampleType.toUpperCase() + 'EditRecorded',
+                true
+            );
+        } catch (error) {
+            console.error(
+                'Error while setting trackFirstEdit in localStorage',
+                error
+            );
+        }
     },
     /**
      * Sends the duration from `navigationStart` until `onload` to GA
