@@ -134,7 +134,6 @@ function buildPages(pages) {
 
         fse.outputFileSync(outputPath, outputHTML);
     }
-    console.log('Pages built successfully'); // eslint-disable-line no-console
 }
 
 /**
@@ -255,12 +254,12 @@ function init() {
             // generates the pages
             buildPages(site.pages);
             // generated pages using glob.
-            const metaJsons = glob.sync('live-examples/**/meta.json', {});
-            for (const metaJson of metaJsons) {
+            const metaJSONArray = glob.sync('live-examples/**/meta.json', {});
+            for (const metaJson of metaJSONArray) {
                 const file = fse.readJsonSync(metaJson);
                 buildPages(file.pages);
             }
-            
+            console.log('Pages built successfully'); // eslint-disable-line no-console
 
             // clean up
             removeJSBundles();
