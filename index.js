@@ -251,8 +251,7 @@ function init() {
             copyDirectory(config.mediaRoot, config.baseDir);
             // builds the CSS and JS bundles
             buildBundles(site.bundles);
-            // generates the pages
-            buildPages(site.pages);
+
             // generated pages using glob.
             const metaJSONArray = glob.sync('live-examples/**/meta.json', {});
             for (const metaJson of metaJSONArray) {

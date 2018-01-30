@@ -1,0 +1,21 @@
+{
+    "pages": {
+        "color": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/color/color.css",
+            "exampleCode": "live-examples/css-examples/color/color.html",
+            "fileName": "color.html",
+            "title": "CSS Demo: color",
+            "type": "css"
+        },
+        "opacity": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/color/opacity.css",
+            "exampleCode": "live-examples/css-examples/color/opacity.html",
+            "fileName": "opacity.html",
+            "title": "CSS Demo: opacity",
+            "type": "css"
+        }
+    }
+}
