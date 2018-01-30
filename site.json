@@ -3415,7 +3415,7 @@
             "title": "CSS Demo: font-weight",
             "type": "css"
         },
-		"lineHeight": {
+        "lineHeight": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
                 "../../live-examples/css-examples/css/line-height.css",
@@ -3449,6 +3449,33 @@
             "exampleCode": "live-examples/css-examples/opacity.html",
             "fileName": "opacity.html",
             "title": "CSS Demo: opacity",
+            "type": "css"
+        },
+        "overflow": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/overflow.css",
+            "exampleCode": "live-examples/css-examples/overflow.html",
+            "fileName": "overflow.html",
+            "title": "CSS Demo: overflow",
+            "type": "css"
+        },
+        "overflowX": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/overflow.css",
+            "exampleCode": "live-examples/css-examples/overflow-x.html",
+            "fileName": "overflow-x.html",
+            "title": "CSS Demo: overflow-x",
+            "type": "css"
+        },
+        "overflowY": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/overflow.css",
+            "exampleCode": "live-examples/css-examples/overflow-y.html",
+            "fileName": "overflow-y.html",
+            "title": "CSS Demo: overflow-y",
             "type": "css"
         },
         "overflow-wrap": {
