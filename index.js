@@ -5,6 +5,7 @@ const concat = require('concat');
 const dir = require('node-dir');
 const fse = require('fs-extra');
 const uglify = require('uglify-es');
+const glob = require('glob');
 
 const config = {
     baseDir: './docs/',
@@ -133,7 +134,6 @@ function buildPages(pages) {
 
         fse.outputFileSync(outputPath, outputHTML);
     }
-    console.log('Pages built successfully'); // eslint-disable-line no-console
 }
 
 /**
@@ -251,8 +251,15 @@ function init() {
             copyDirectory(config.mediaRoot, config.baseDir);
             // builds the CSS and JS bundles
             buildBundles(site.bundles);
-            // generates the pages
-            buildPages(site.pages);
+
+            // generated pages using glob.
+            const metaJSONArray = glob.sync('live-examples/**/meta.json', {});
+            for (const metaJson of metaJSONArray) {
+                const file = fse.readJsonSync(metaJson);
+                buildPages(file.pages);
+            }
+            console.log('Pages built successfully'); // eslint-disable-line no-console
+
             // clean up
             removeJSBundles();
         })

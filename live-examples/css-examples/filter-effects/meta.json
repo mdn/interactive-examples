@@ -1,0 +1,20 @@
+{
+    "pages": {
+        "filter": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/filter-effects/filter.html",
+            "fileName": "filter.html",
+            "title": "CSS Demo: filter",
+            "type": "css"
+        },
+        "sepia": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/filter-effects/sepia.html",
+            "fileName": "sepia.html",
+            "title": "CSS Demo: sepia()",
+            "type": "css"
+        }
+    }
+}

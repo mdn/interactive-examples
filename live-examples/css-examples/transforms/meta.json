@@ -1,0 +1,12 @@
+{
+    "pages": {
+        "transform": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/transforms/transform.html",
+            "fileName": "transform.html",
+            "title": "CSS Demo: transform",
+            "type": "css"
+        }
+    }
+}
