@@ -7,28 +7,29 @@
 
     var exampleChoiceList = document.getElementById('example-choice-list');
     var exampleChoices = exampleChoiceList.querySelectorAll('.example-choice');
-    var header = document.querySelector('header');
     var initialChoice = 0;
     var originalChoices = [];
-    var output = document.getElementById('output');
 
     /**
      * Enables and initializes the live code editor
      */
     function enableLiveEditor() {
+        var header = document.querySelector('header'),
+            output = document.getElementById('output');
+
         header.classList.remove('hidden');
         exampleChoiceList.classList.add('live');
         output.classList.remove('hidden');
 
-        for (var i = 0, l = exampleChoices.length; i < l; i++) {
-            var exampleChoice = exampleChoices[i];
+        for (var i = 0, choiceContainer, choiceCode; i < exampleChoices.length; i++) {
+            choiceContainer = exampleChoices[i];
+            choiceCode = choiceContainer.querySelector('code');
 
-            originalChoices.push(
-                exampleChoice.querySelector('code').textContent
-            );
+            choiceCode.tabIndex = -1;
+            originalChoices.push(choiceCode.textContent);
 
-            if (exampleChoice.getAttribute('initial-choice')) {
-                initialChoice = indexOf(exampleChoices, exampleChoice);
+            if (choiceContainer.getAttribute('initial-choice')) {
+                initialChoice = indexOf(exampleChoices, choiceContainer);
             }
         }
 
