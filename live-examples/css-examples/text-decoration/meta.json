@@ -10,6 +10,16 @@
             "title": "CSS Demo: text-decoration",
             "type": "css"
         },
+        "textDecorationColor": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/text-decoration/text-decoration-color.css",
+            "exampleCode":
+                "live-examples/css-examples/text-decoration/text-decoration-color.html",
+            "fileName": "text-decoration-color.html",
+            "title": "CSS Demo: text-decoration-color",
+            "type": "css"
+        },
         "textDecorationLine": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
