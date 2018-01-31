@@ -3216,10 +3216,27 @@
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
                 "../../live-examples/css-examples/css/background-position.css",
-            "exampleCode":
-                "live-examples/css-examples/background-position.html",
+            "exampleCode": "live-examples/css-examples/background-position.html",
             "fileName": "background-position.html",
             "title": "CSS Demo: background-position",
+            "type": "css"
+        },
+        "backgroundPositionX": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/background-position.css",
+            "exampleCode": "live-examples/css-examples/background-position-y.html",
+            "fileName": "background-position-y.html",
+            "title": "CSS Demo: background-position-y",
+            "type": "css"
+        },
+        "backgroundPositionY": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/css/background-position.css",
+            "exampleCode": "live-examples/css-examples/background-position-x.html",
+            "fileName": "background-position-x.html",
+            "title": "CSS Demo: background-position-x",
             "type": "css"
         },
         "backgroundRepeat": {
