@@ -45,7 +45,7 @@ This will ensure that you have all the required development modules installed to
 
 ### Writing the example
 
-You start off by creating a new file inside subfolder in `live-examples\css-examples\`. The name of this file should match the example you are adding. For example, if you are adding examples for [`border-radius`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius) you would call the file `border-radius.html`. On the other hand, the folder name should match the name of CSS Specification where the example belongs to. For example, `border-radius` is defined at "CSS Backgrounds and Borders Level 3", hence the example should be put at "backgrounds-and-borders" folder. This information is available at "[Specifications](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius#Specifications)" section of the MDN article.
+You start off by creating a new file inside the subfolder `live-examples\css-examples\`. The name of this file should match the example you are adding. For example, if you are adding examples for [`border-radius`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius) you would call this file `border-radius.html`. On the other hand, the folder name should match the name of the CSS Specification to which the example belongs. For example, `border-radius` is part of "CSS Backgrounds and Borders Level 3", hence the example should be created in the "backgrounds-and-borders" folder. This information is available in the specifications section of the documentation on MDN. For example, for border-radius this can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius#Specifications).
 
 Inside this newly created file, copy and paste the following code:
 
@@ -174,7 +174,7 @@ Next, let's provide some extra styling for the example element. Create a new CSS
 
 ### Updating the metadata
 
-Next, you need to tell the page generator about your new page and its dependencies. To do this, open up the  To do this, open up `meta.json` at current folder (i.e. at "live-examples/css-examples/backgrounds-and-borders/meta.json").
+Next, you need to tell the page generator about your new page and its dependencies. To do this, open up the `meta.json` file in the current folder (i.e. "live-examples/css-examples/backgrounds-and-borders/meta.json").
 
 Under `pages`, copy and paste the example then update it to apply to your new example, noting that pages are sorted alphabetically. You entry will look something like this when edited:
 
@@ -215,7 +215,7 @@ Once satisfied with the example, [submit your pull request](https://help.github.
 
 ### Writing the exaple
 
-With a JavaScript example you start by creating a new `.html` file in subfolders of `live-examples/js-examples`. In this example we are going to contribute an example demonstrating the use of `Array.from` so, we'll create a new file called `array-from.html`. Since it is part of array, we're going to put it inside "array" folder.
+With a JavaScript example you start by creating a new `.html` file in a subfolder of `live-examples/js-examples`. In this example we are going to contribute an example demonstrating the use of `Array.from` so, we'll create a new file called `array-from.html`. Since it is part of the `Array` object, we're going to put it inside the "array" subfolder.
 
 Next, you need to paste the following code into this new file (this will be the same for all JavaScript examples you add):
 
@@ -253,7 +253,7 @@ Please make sure the example conforms to the [JS Example Style Guide](JS-Example
 
 ### Updating the metadata
 
-All that remains is to tell the page generator about our new example. To do this, open up `meta.json` at current folder (i.e. at "live-examples/js-examples/array/meta.json").
+All that remains is to tell the page generator about our new example. To do this, open up `meta.json` in the current folder (i.e. at "live-examples/js-examples/array/meta.json").
 
 Under `pages`, copy and paste the example then update it to your new example, noting that pages are sorted alphabetically.
 
