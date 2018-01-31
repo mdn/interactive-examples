@@ -44,6 +44,11 @@ module.exports = {
         var complexArrayRegExp = /^(Int8Array|Int16Array|Int32Array|Uint8Array|Uint16Array|Uint32Array|Uint8ClampedArray|Float32Array|Float64Array)$/;
         var objectName = input.constructor.name;
 
+        if (objectName === 'String') {
+            // String object
+            return `String { "${input.valueOf()}" }`;
+        }
+
         if (objectName.match(bufferDataViewRegExp)) {
             return objectName + ' {}';
         }
@@ -103,6 +108,7 @@ module.exports = {
         ) {
             return String(input);
         } else if (typeof input === 'string') {
+            // string literal
             return '"' + input + '"';
         } else if (Array.isArray(input)) {
             // check the contents of the array
