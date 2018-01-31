@@ -1,0 +1,8 @@
+#example-element {
+    background-image: url('/media/examples/hand.jpg');
+    color: #fff;
+    padding: 20px;
+    border: 10px dashed #333;
+    font-size: 2em;
+    font-weight: bold;
+}

@@ -1,3 +1,5 @@
+var mceUtils = require('./mce-utils');
+
 /**
  * Positions the copy to clipboard success message based on the
  * position of the button that triggered the copy event.
@@ -26,7 +28,21 @@ module.exports = {
      */
     addClippy: function() {
         'use strict';
-        var clipboard = new Clipboard('.copy');
+        var clipboard = new Clipboard('.copy', {
+            target: function(clippyButton) {
+                var targetAttr = clippyButton.dataset.clipboardTarget;
+                if (targetAttr) {
+                    // The attribute will override the automated target selection
+                    return document.querySelector(targetAttr);
+                } else {
+                    // Get its parent until it finds an example choice
+                    var choiceElem = mceUtils.findParentChoiceElem(clippyButton);
+                    // Use the first code element to prevent extra text
+                    var firstCodeElem = choiceElem.getElementsByTagName('code')[0];
+                    return firstCodeElem;
+                }
+            }
+        });
 
         clipboard.on('success', function(event) {
             var msgContainer = document.getElementById('user-message');
