@@ -21,8 +21,15 @@ function addCSSEditorEventListeners(exampleChoiceList) {
             exampleChoiceParent
         );
 
-        if (!localStorage.getItem('firstCSSEditRecorded')) {
-            mceAnalytics.trackFirstEdit('css');
+        try {
+            if (!localStorage.getItem('firstCSSEditRecorded')) {
+                mceAnalytics.trackFirstEdit('css');
+            }
+        } catch (error) {
+            console.error(
+                'Error while getting firstCSSEditRecorded from localStorage',
+                error
+            );
         }
     });
 
@@ -62,8 +69,15 @@ function addJSEditorEventListeners(liveEditor) {
     });
 
     liveEditor.addEventListener('keyup', function() {
-        if (!localStorage.getItem('firstJSEditRecorded')) {
-            mceAnalytics.trackFirstEdit('js');
+        try {
+            if (!localStorage.getItem('firstJSEditRecorded')) {
+                mceAnalytics.trackFirstEdit('js');
+            }
+        } catch (error) {
+            console.error(
+                'Error while getting firstJSEditRecorded from localStorage',
+                error
+            );
         }
     });
 }
