@@ -1,0 +1,39 @@
+{
+    "pages": {
+        "font": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/fonts/font.css",
+            "exampleCode": "live-examples/css-examples/fonts/font.html",
+            "fileName": "font.html",
+            "title": "CSS Demo: font",
+            "type": "css"
+        },
+        "fontFamily": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/fonts/font-family.css",
+            "exampleCode": "live-examples/css-examples/fonts/font-family.html",
+            "fileName": "font-family.html",
+            "title": "CSS Demo: font-family",
+            "type": "css"
+        },
+        "fontStyle": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/fonts/font-style.css",
+            "exampleCode": "live-examples/css-examples/fonts/font-style.html",
+            "fileName": "font-style.html",
+            "title": "CSS Demo: font-style",
+            "type": "css"
+        },
+        "fontWeight": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/fonts/font-weight.css",
+            "exampleCode": "live-examples/css-examples/fonts/font-weight.html",
+            "fileName": "font-weight.html",
+            "title": "CSS Demo: font-weight",
+            "type": "css"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "pages": {
+        "textDecoration": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/text-decoration/text-decoration.css",
+            "exampleCode":
+                "live-examples/css-examples/text-decoration/text-decoration.html",
+            "fileName": "text-decoration.html",
+            "title": "CSS Demo: text-decoration",
+            "type": "css"
+        },
+        "textDecorationLine": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/text-decoration/text-decoration-line.css",
+            "exampleCode":
+                "live-examples/css-examples/text-decoration/text-decoration-line.html",
+            "fileName": "text-decoration-line.html",
+            "title": "CSS Demo: text-decoration-line",
+            "type": "css"
+        },
+        "textDecorationSkipInk": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/text-decoration/text-decoration-skip-ink.css",
+            "exampleCode":
+                "live-examples/css-examples/text-decoration/text-decoration-skip-ink.html",
+            "fileName": "text-decoration-skip-ink.html",
+            "title": "CSS Demo: text-decoration-skip-ink",
+            "type": "css"
+        },
+        "textDecorationStyle": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/text-decoration/text-decoration-style.css",
+            "exampleCode":
+                "live-examples/css-examples/text-decoration/text-decoration-style.html",
+            "fileName": "text-decoration-style.html",
+            "title": "CSS Demo: text-decoration-style",
+            "type": "css"
+        },
+        "textShadow": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/text-decoration/text-shadow.css",
+            "exampleCode":
+                "live-examples/css-examples/text-decoration/text-shadow.html",
+            "fileName": "text-shadow.html",
+            "title": "CSS Demo: text-shadow",
+            "type": "css"
+        }
+    }
+}
