@@ -1,0 +1,9 @@
+#example-element {
+  width: 16rem;
+}
+
+#example-element p {
+  background-color: #eee;
+  padding: .75rem;
+  text-align: left;
+}
