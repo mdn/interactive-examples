@@ -1,0 +1,44 @@
+#default-example {
+    background: linear-gradient(skyblue, khaki);
+}
+
+#example-element {
+    width: 100px;
+    height: 100px;
+    perspective: 550px;
+    perspective-origin: 220% 220%;
+    transform-style: preserve-3d;
+}
+
+.face {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: inherit;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 60px;
+    color: white;
+}
+
+.front {
+    transform: translateZ(50px);
+}
+
+.back {
+    background: rgb(230, 0, 0);
+    color: black;
+    transform: rotateY(180deg) translateZ(50px);
+}
+
+.right {
+    background: rgba(0, 0, 0, 0.6);
+    transform: rotateY(90deg) translateZ(50px);
+}
+
+.bottom {
+    background: rgba(0, 0, 0, 0.6);
+    transform: rotateX(-90deg) translateZ(50px);
+}
