@@ -24,21 +24,21 @@
 }
 
 .front {
-  transform: translateZ(50px);
+    transform: translateZ(50px);
 }
 
 .back {
-  background: rgb(230, 0, 0);
-  color: black;
-  transform: rotateY(180deg) translateZ(50px);
+    background: rgb(230, 0, 0);
+    color: black;
+    transform: rotateY(180deg) translateZ(50px);
 }
 
 .right {
-  background: rgba(0, 0, 0, 0.6);
-  transform: rotateY(90deg) translateZ(50px);
+    background: rgba(0, 0, 0, 0.6);
+    transform: rotateY(90deg) translateZ(50px);
 }
 
 .bottom {
-  background: rgba(0, 0, 0, 0.6);
-  transform: rotateX(-90deg) translateZ(50px);
+    background: rgba(0, 0, 0, 0.6);
+    transform: rotateX(-90deg) translateZ(50px);
 }
