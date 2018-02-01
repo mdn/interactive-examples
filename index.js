@@ -127,10 +127,10 @@ function buildPages(pages) {
             config.examplesDir + currentPage.type + '/' + currentPage.fileName;
         const exampleCode = fse.readFileSync(currentPage.exampleCode, 'utf-8');
 
-        // Note: Using String.prototype.replace's replacement function instead of
-        //       replacement string at 2nd argument
-        //       because replacement string has weird behavior to $ (dollar sign).
-        // More info: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Specifying_a_string_as_a_parameter
+        /* Note: Using String.prototype.replace's replacement function instead of
+                 replacement string at 2nd argument
+                 because replacement string has weird behavior to $ (dollar sign).
+                 More info: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Specifying_a_string_as_a_parameter */
         const outputHTML = tmpl.replace('%example-code%', () => exampleCode);
 
         fse.outputFileSync(outputPath, outputHTML);
