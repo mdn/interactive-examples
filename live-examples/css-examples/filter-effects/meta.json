@@ -1,11 +1,83 @@
 {
     "pages": {
+        "blur": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/filter-effects/blur.html",
+            "fileName": "blur.html",
+            "title": "CSS Demo: blur()",
+            "type": "css"
+        },
+        "brightness": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/filter-effects/brightness.html",
+            "fileName": "brightness.html",
+            "title": "CSS Demo: brightness()",
+            "type": "css"
+        },
+        "contrast": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/filter-effects/contrast.html",
+            "fileName": "contrast.html",
+            "title": "CSS Demo: contrast()",
+            "type": "css"
+        },
+        "dropShadow": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/filter-effects/drop-shadow.html",
+            "fileName": "drop-shadow.html",
+            "title": "CSS Demo: drop-shadow()",
+            "type": "css"
+        },
         "filter": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "exampleCode":
                 "live-examples/css-examples/filter-effects/filter.html",
             "fileName": "filter.html",
             "title": "CSS Demo: filter",
+            "type": "css"
+        },
+        "grayscale": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/filter-effects/grayscale.html",
+            "fileName": "grayscale.html",
+            "title": "CSS Demo: grayscale()",
+            "type": "css"
+        },
+        "hueRotate": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/filter-effects/hue-rotate.html",
+            "fileName": "hue-rotate.html",
+            "title": "CSS Demo: hue-rotate()",
+            "type": "css"
+        },
+        "invert": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/filter-effects/invert.html",
+            "fileName": "invert.html",
+            "title": "CSS Demo: invert()",
+            "type": "css"
+        },
+        "opacity": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/filter-effects/opacity.html",
+            "fileName": "opacity.html",
+            "title": "CSS Demo: opacity()",
+            "type": "css"
+        },
+        "saturate": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/filter-effects/saturate.html",
+            "fileName": "saturate.html",
+            "title": "CSS Demo: saturate()",
             "type": "css"
         },
         "sepia": {
