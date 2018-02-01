@@ -1,0 +1,14 @@
+{
+    "pages": {
+        "flexWrap": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/flexbox/flex-wrap.css",
+            "exampleCode":
+                "live-examples/css-examples/flexbox/flex-wrap.html",
+            "fileName": "flex-wrap.html",
+            "title": "CSS Demo: flex-wrap",
+            "type": "css"
+        }
+    }
+}
