@@ -1,13 +1,5 @@
 {
     "pages": {
-        "filter": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/filter-effects/filter.html",
-            "fileName": "filter.html",
-            "title": "CSS Demo: filter",
-            "type": "css"
-        },
         "blur": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "exampleCode":
@@ -38,6 +30,14 @@
                 "live-examples/css-examples/filter-effects/drop-shadow.html",
             "fileName": "drop-shadow.html",
             "title": "CSS Demo: drop-shadow()",
+            "type": "css"
+        },
+        "filter": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/filter-effects/filter.html",
+            "fileName": "filter.html",
+            "title": "CSS Demo: filter",
             "type": "css"
         },
         "grayscale": {
