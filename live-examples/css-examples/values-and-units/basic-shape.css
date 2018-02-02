@@ -1,0 +1,9 @@
+#default-example {
+    background: #fe9;
+}
+
+#example-element {
+    background: linear-gradient(to bottom right, #f52,#05f);
+    width: 100%;
+    height: 100%;
+}
