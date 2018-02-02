@@ -1,0 +1,45 @@
+.output-header {
+    margin: 0;
+    padding: 0 0 .5em 0;
+}
+
+.editor-container {
+    font-size: .9rem;
+}
+
+.editor-wrapper,
+.output {
+    display: inline-block;
+    vertical-align: top;
+    max-height: 300px;
+    overflow: scroll;
+}
+
+.editor-wrapper,
+.output {
+    border: 2px solid #d6dee0;
+    border-left: 5px solid #3f87a6;
+}
+
+.output {
+    border-left: 0;
+}
+
+.CodeMirror {
+    height: auto;
+}
+
+@supports (display: flex) {
+    .editor-container {
+        display: flex;
+    }
+
+    .editor-wrapper {
+        flex-basis: 60%;
+        flex-grow: 1;
+    }
+
+    .output {
+        flex-basis: 40%;
+    }
+}

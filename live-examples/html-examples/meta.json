@@ -1,0 +1,18 @@
+{
+    "pages": {
+        "table": {
+            "baseTmpl": "tmpl/live-html-tmpl.html",
+            "exampleCode": "live-examples/html-examples/table.html",
+            "fileName": "table.html",
+            "title": "HTML Demo: table",
+            "type": "html"
+        },
+        "blockquote": {
+            "baseTmpl": "tmpl/live-html-tmpl.html",
+            "exampleCode": "live-examples/html-examples/blockquote.html",
+            "fileName": "blockquote.html",
+            "title": "HTML Demo: blockquote",
+            "type": "html"
+        }
+    }
+}
