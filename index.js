@@ -101,8 +101,6 @@ function buildPages(pages) {
         let cssSource = currentPage.cssExampleSrc;
         let jsSource = currentPage.jsExampleSrc;
         let tmpl = fse.readFileSync(currentPage.baseTmpl, 'utf-8');
-        let outputPath = '';
-        let outputHTML = '';
 
         // is there a linked CSS file
         if (cssSource) {
@@ -125,12 +123,15 @@ function buildPages(pages) {
         // set main title
         tmpl = setMainTitle(currentPage, tmpl);
 
-        outputPath =
+        const outputPath =
             config.examplesDir + currentPage.type + '/' + currentPage.fileName;
-        outputHTML = tmpl.replace(
-            '%example-code%',
-            fse.readFileSync(currentPage.exampleCode, 'utf-8')
-        );
+        const exampleCode = fse.readFileSync(currentPage.exampleCode, 'utf-8');
+
+        /* Note: Using String.prototype.replace's replacement function instead of
+                 replacement string at 2nd argument
+                 because replacement string has weird behavior to $ (dollar sign).
+                 More info: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Specifying_a_string_as_a_parameter */
+        const outputHTML = tmpl.replace('%example-code%', () => exampleCode);
 
         fse.outputFileSync(outputPath, outputHTML);
     }
