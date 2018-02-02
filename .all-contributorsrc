@@ -158,6 +158,14 @@
                 "https://avatars3.githubusercontent.com/u/5341898?s=460&v=4",
             "profile": "https://github.com/danielhickman",
             "contributions": ["code"]
+        },
+        {
+            "login": "rachelandrew",
+            "name": "Rachel Andrew",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/2764898?s=460&v=4",
+            "profile": "https://github.com/rachelandrew",
+            "contributions": ["code"]
         }
     ]
 }
