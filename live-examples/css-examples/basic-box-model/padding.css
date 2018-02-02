@@ -1,6 +1,11 @@
 #example-element {
-    border: solid 10px #FFC129;
+    background: #ffc129;
+    border: dashed 1px;
     font-family: Georgia, sans-serif;
     overflow: hidden;
     text-align: left;
+}
+
+.box {
+    background: white;
 }
