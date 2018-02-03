@@ -172,6 +172,16 @@ Next, let's provide some extra styling for the example element. Create a new CSS
 }
 ```
 
+### Including media
+
+Some examples will need to reference media, such as images, from the CSS. Make sure that the license terms for any images are acceptable.
+
+Media files should be stored in the [/media/examples](https://github.com/mdn/interactive-examples/tree/master/media/examples) directory, and can be referenced using a path like `"/media/examples/my-file"`:
+
+```
+background-image: url("/media/examples/lizard.png");
+```
+
 ### Updating the metadata
 
 Next, you need to tell the page generator about your new page and its dependencies. To do this, open up the `meta.json` file in the current folder (i.e. "live-examples/css-examples/backgrounds-and-borders/meta.json").
