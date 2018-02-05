@@ -5,6 +5,7 @@
     border-radius: .5rem;
     font: 1em monospace;
     width: 100%;
+    transition: margin-right 2s;
 }
 
 #default-example:hover>#example-element {
