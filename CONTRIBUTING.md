@@ -223,7 +223,7 @@ Once satisfied with the example, [submit your pull request](https://help.github.
 
 ## Contributing a JavaScript example
 
-### Writing the exaple
+### Writing the example
 
 With a JavaScript example you start by creating a new `.html` file in a subfolder of `live-examples/js-examples`. In this example we are going to contribute an example demonstrating the use of `Array.from` so, we'll create a new file called `array-from.html`. Since it is part of the `Array` object, we're going to put it inside the "array" subfolder.
 
