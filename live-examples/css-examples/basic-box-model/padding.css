@@ -1,5 +1,5 @@
 #example-element {
-    background: #ffc129;
+    border: 10px solid #ffc129;
     overflow: hidden;
     text-align: left;
 }
