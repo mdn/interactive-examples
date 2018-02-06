@@ -1,5 +1,5 @@
 #example-element {
-    background-color: #E4F0F5;
+    background-color: #e4f0f5;
     color: #000;
     padding: 1rem;
     border-radius: .5rem;
@@ -9,7 +9,7 @@
 }
 
 #default-example:hover>#example-element {
-    background-color: #990099;
-    color: #FFF;
+    background-color: #909;
+    color: #fff;
     margin-right: 40%;
 ;
