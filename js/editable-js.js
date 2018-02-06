@@ -4,6 +4,7 @@
     var featureDetector = require('./editor-libs/feature-detector.js');
     var mceConsole = require('./editor-libs/console');
     var mceEvents = require('./editor-libs/events.js');
+    const EditorResizeHandler = require('./editor-libs/editor-resize-handler');
 
     var codeBlock = document.getElementById('static-js');
     var exampleFeature = codeBlock.dataset['feature'];
@@ -14,6 +15,7 @@
 
     var codeMirror;
     var staticContainer;
+    let editorResizeHandler;
 
     /**
      * Reads the textContent from the interactiveCodeBlock, sends the
@@ -42,6 +44,7 @@
         });
     }
 
+
     /**
      * Initialize the interactive editor
      */
@@ -63,6 +66,7 @@
         mceEvents.register();
 
         initCodeMirror();
+        editorResizeHandler = new EditorResizeHandler(codeMirror);
     }
 
     /**
@@ -99,6 +103,7 @@
         });
 
         reset.addEventListener('click', function() {
+            editorResizeHandler.destroy();
             window.location.reload();
         });
     }
