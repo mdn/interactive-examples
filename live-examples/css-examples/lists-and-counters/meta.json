@@ -1,0 +1,12 @@
+{
+    "pages": {
+        "listStyle": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode": 
+                "live-examples/css-examples/lists-and-counters/list-style.html",
+            "fileName": "list-style.html",
+            "title": "CSS Demo: list-style",
+            "type": "css"
+        }
+    }
+}
