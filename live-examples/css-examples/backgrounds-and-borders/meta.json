@@ -189,7 +189,7 @@
             "fileName": "border-left-width.html",
             "title": "CSS Demo: border-left-width",
             "type": "css"
-				},
+	    },
         "borderRadius": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
