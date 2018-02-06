@@ -1,0 +1,6 @@
+#example-element {
+    width: 100%;
+    height: 90%;
+    columns: 3;
+    text-align: left;
+}
