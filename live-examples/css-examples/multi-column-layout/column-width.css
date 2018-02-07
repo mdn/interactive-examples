@@ -1,4 +1,5 @@
 #example-element {
-    min-width: 21rem;
+    width: 100%;
+    columns: auto;
     text-align: left;
 }
