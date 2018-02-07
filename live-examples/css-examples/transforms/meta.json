@@ -15,8 +15,8 @@
             "cssExampleSrc":
                 "../../live-examples/css-examples/transforms/transform3d.css",
             "exampleCode":
-                "live-examples/css-examples/transforms/perspective.html",
-            "fileName": "perspective.html",
+                "live-examples/css-examples/transforms/transform-perspective.html",
+            "fileName": "transform-perspective.html",
             "title": "CSS Demo: perspective",
             "type": "css"
         },
@@ -25,8 +25,8 @@
             "cssExampleSrc":
                 "../../live-examples/css-examples/transforms/transform3d.css",
             "exampleCode":
-                "live-examples/css-examples/transforms/perspective-function.html",
-            "fileName": "perspective-function.html",
+                "live-examples/css-examples/transforms/transform-perspective-function.html",
+            "fileName": "transform-perspective-function.html",
             "title": "CSS Demo: perspective()",
             "type": "css"
         },
