@@ -166,6 +166,14 @@
                 "https://avatars3.githubusercontent.com/u/2764898?s=460&v=4",
             "profile": "https://github.com/rachelandrew",
             "contributions": ["code"]
+        },
+        {
+            "login": "helmutgranda",
+            "name": "Helmut Granda",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/82293?s=460&v=4",
+            "profile": "https://github.com/helmutgranda",
+            "contributions": ["code"]
         }
     ]
 }
