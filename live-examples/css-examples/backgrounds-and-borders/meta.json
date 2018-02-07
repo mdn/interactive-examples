@@ -189,7 +189,47 @@
             "fileName": "border-left-width.html",
             "title": "CSS Demo: border-left-width",
             "type": "css"
-	    },
+        },
+        "borderBottomLeftRadius": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/backgrounds-and-borders/border-radius-corner.css",
+            "exampleCode":
+                "live-examples/css-examples/backgrounds-and-borders/border-bottom-left-radius.html",
+            "fileName": "border-bottom-left-radius.html",
+            "title": "CSS Demo: border-bottom-left-radius",
+            "type": "css"
+        },
+        "borderBottomRightRadius": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/backgrounds-and-borders/border-radius-corner.css",
+            "exampleCode":
+                "live-examples/css-examples/backgrounds-and-borders/border-bottom-right-radius.html",
+            "fileName": "border-bottom-right-radius.html",
+            "title": "CSS Demo: border-bottom-right-radius",
+            "type": "css"
+        },
+        "borderTopLeftRadius": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/backgrounds-and-borders/border-radius-corner.css",
+            "exampleCode":
+                "live-examples/css-examples/backgrounds-and-borders/border-top-left-radius.html",
+            "fileName": "border-top-left-radius.html",
+            "title": "CSS Demo: border-top-left-radius",
+            "type": "css"
+        },
+        "borderTopRightRadius": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/backgrounds-and-borders/border-radius-corner.css",
+            "exampleCode":
+                "live-examples/css-examples/backgrounds-and-borders/border-top-right-radius.html",
+            "fileName": "border-top-right-radius.html",
+            "title": "CSS Demo: border-top-right-radius",
+            "type": "css"
+        },
         "borderRadius": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
