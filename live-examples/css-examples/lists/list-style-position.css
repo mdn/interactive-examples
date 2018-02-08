@@ -1,0 +1,6 @@
+#example-element {
+    text-align: left;
+}
+#example-element .bordered {
+    border: 1px solid #1b76c4;
+}
