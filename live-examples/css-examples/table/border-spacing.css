@@ -1,0 +1,10 @@
+table {
+    width: 15rem;
+    table-layout: fixed;
+}
+
+td {
+    border: 5px solid;
+    border-color: crimson dodgerblue;
+    padding: .75rem;
+}

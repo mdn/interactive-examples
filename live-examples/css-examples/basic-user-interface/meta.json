@@ -10,6 +10,56 @@
             "title": "CSS Demo: box-sizing",
             "type": "css"
         },
+        "outline": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-user-interface/outline.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-user-interface/outline.html",
+            "fileName": "outline.html",
+            "title": "CSS Demo: outline",
+            "type": "css"
+        },
+        "outlineColor": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-user-interface/outline-color.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-user-interface/outline-color.html",
+            "fileName": "outline-color.html",
+            "title": "CSS Demo: outline-color",
+            "type": "css"
+        },
+        "outlineOffset": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-user-interface/outline-offset.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-user-interface/outline-offset.html",
+            "fileName": "outline-offset.html",
+            "title": "CSS Demo: outline-offset",
+            "type": "css"
+        },
+        "outlineStyle": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-user-interface/outline-style.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-user-interface/outline-style.html",
+            "fileName": "outline-style.html",
+            "title": "CSS Demo: outline-style",
+            "type": "css"
+        },
+        "outlineWidth": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-user-interface/outline-width.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-user-interface/outline-width.html",
+            "fileName": "outline-width.html",
+            "title": "CSS Demo: outline-width",
+            "type": "css"
+        },
         "textOverflow": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":

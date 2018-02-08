@@ -1,0 +1,15 @@
+#example-element {
+    background-color: #e4f0f5;
+    color: #000;
+    padding: 1rem;
+    border-radius: .5rem;
+    font: 1em monospace;
+    width: 100%;
+    transition: margin-right 2s;
+}
+
+#default-example:hover>#example-element {
+    background-color: #909;
+    color: #fff;
+    margin-right: 40%;
+;

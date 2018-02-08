@@ -41,12 +41,7 @@ module.exports = {
                 'first' + exampleType.toUpperCase() + 'EditRecorded',
                 true
             );
-        } catch (error) {
-            console.error(
-                'Error while setting trackFirstEdit in localStorage',
-                error
-            );
-        }
+        } catch (e) {} // eslint-disable-line no-empty
     },
     /**
      * Sends the duration from `navigationStart` until `onload` to GA

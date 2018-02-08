@@ -11,6 +11,19 @@
             ],
             "destFileName": "codemirror-5-31-0"
         },
+        "codeMirrorTabbed": {
+            "javascript": [
+                "js/lib/codemirror.js",
+                "js/mode/javascript/javascript.js",
+                "js/mode/xml/xml.js",
+                "js/mode/htmlmixed/htmlmixed.js"
+            ],
+            "css": [
+                "css/libs/codemirror.css",
+                "css/editor-libs/codemirror-override.css"
+            ],
+            "destFileName": "codemirror-tabbed-5-31-0"
+        },
         "cssExampleLibs": {
             "javascript": ["js/lib/prism.js", "js/lib/clipboard.js"],
             "css": ["css/libs/prism.css"],
@@ -29,6 +42,15 @@
             "javascript": ["js/editor-js-bundle.js"],
             "css": ["css/editor-libs/common.css", "css/editable-js.css"],
             "destFileName": "editor-js"
+        },
+        "tabbedEditor": {
+            "javascript": ["js/editor-bundle.js"],
+            "css": [
+                "css/editor-libs/common.css",
+                "css/editor-libs/tabbed-editor-common.css",
+                "css/tabbed-editor.css"
+            ],
+            "destFileName": "tabbed-editor"
         }
     }
 }

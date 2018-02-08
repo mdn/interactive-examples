@@ -25,12 +25,7 @@ function addCSSEditorEventListeners(exampleChoiceList) {
             if (!localStorage.getItem('firstCSSEditRecorded')) {
                 mceAnalytics.trackFirstEdit('css');
             }
-        } catch (error) {
-            console.error(
-                'Error while getting firstCSSEditRecorded from localStorage',
-                error
-            );
-        }
+        } catch (e) {} // eslint-disable-line no-empty
     });
 
     exampleChoiceList.addEventListener('click', function(event) {
@@ -73,12 +68,7 @@ function addJSEditorEventListeners(liveEditor) {
             if (!localStorage.getItem('firstJSEditRecorded')) {
                 mceAnalytics.trackFirstEdit('js');
             }
-        } catch (error) {
-            console.error(
-                'Error while getting firstJSEditRecorded from localStorage',
-                error
-            );
-        }
+        } catch (e) {} // eslint-disable-line no-empty
     });
 }
 

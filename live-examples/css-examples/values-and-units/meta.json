@@ -7,6 +7,14 @@
             "fileName": "angle.html",
             "title": "CSS Demo: &lt;angle&gt;",
             "type": "css"
+        },
+        "basicShape": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/values-and-units/basic-shape.css",
+            "exampleCode": "live-examples/css-examples/values-and-units/basic-shape.html",
+            "fileName": "basic-shape.html",
+            "title": "CSS Demo: &lt;basic-shape&gt;",
+            "type": "css"
         }
     }
 }
