@@ -2,7 +2,6 @@
     width: 250px;
     height: 250px;
     display: flex;
-    text-align: center;
     justify-content: center;
     flex-direction: column;
     background-color: #5b6dcd;
