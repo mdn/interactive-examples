@@ -53,7 +53,7 @@ Inside this newly created file, copy and paste the following code:
 <section id="example-choice-list" class="example-choice-list large" data-property="border-radius">
 
     <div class="example-choice" initial-choice="true">
-        <pre><code id="example_one" class="language-css">Your CSS goes here</code></pre>
+        <pre><code class="language-css">Your CSS goes here</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
@@ -96,21 +96,21 @@ Next, let's add the example CSS choices. Think of a few different ways that `bor
 <section id="example-choice-list" class="example-choice-list large" data-property="border-radius">
 
     <div class="example-choice" initial-choice="true">
-        <pre><code id="example_one" class="language-css">border-radius: 10px;</code></pre>
+        <pre><code class="language-css">border-radius: 10px;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
     </div>
 
     <div class="example-choice">
-        <pre><code id="example_two" class="language-css">border-radius: 10px 50%;</code></pre>
+        <pre><code class="language-css">border-radius: 10px 50%;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
     </div>
 
     <div class="example-choice">
-        <pre><code id="example_three" class="language-css">border-radius: 10px 5px 6em / 20px 25px 30%;</code></pre>
+        <pre><code class="language-css">border-radius: 10px 5px 6em / 20px 25px 30%;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
@@ -121,7 +121,7 @@ Next, let's add the example CSS choices. Think of a few different ways that `bor
 
 The first thing to note is that the `section` element has a `data-property` attribute whose value is the name of the property, `border-radius` in this case. The editor uses this to test whether the user's browser supports the property. If it doesn't, then an interactive example won't work, and we just display the CSS options without their output. If you know that the example property has good cross-browser support, you can omit this attribute (for example, the `border-radius` example could certainly omit it).
 
-Next, we have three `div` elements, one for each example CSS choice. Note that each choice gets its own ID: `example_one`, `example_two`, `example_three` and so on. You can choose which option will be shown at first by setting the `initial-choice` attribute to `true` (only one choice should have this).
+Next, we have three `div` elements, one for each example CSS choice. You can choose which option will be shown at first by setting the `initial-choice` attribute to `true` (only one choice should have this).
 
 Now we've finished writing the HTML for the example. The final version of `border-radius.html` should look like this:
 
@@ -129,21 +129,21 @@ Now we've finished writing the HTML for the example. The final version of `borde
 <section id="example-choice-list" class="example-choice-list large" data-property="border-radius">
 
     <div class="example-choice" initial-choice="true">
-        <pre><code id="example_one" class="language-css">border-radius: 10px;</code></pre>
+        <pre><code class="language-css">border-radius: 10px;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
     </div>
 
     <div class="example-choice">
-        <pre><code id="example_two" class="language-css">border-radius: 10px 50%;</code></pre>
+        <pre><code class="language-css">border-radius: 10px 50%;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
     </div>
 
     <div class="example-choice">
-        <pre><code id="example_three" class="language-css">border-radius: 10px 5px 6em / 20px 25px 30%;</code></pre>
+        <pre><code class="language-css">border-radius: 10px 5px 6em / 20px 25px 30%;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
