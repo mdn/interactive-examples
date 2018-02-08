@@ -1,5 +1,23 @@
 {
     "pages": {
+        "hyphens": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/text/hyphens.css",
+            "exampleCode": "live-examples/css-examples/text/hyphens.html",
+            "fileName": "hyphens.html",
+            "title": "CSS Demo: hyphens",
+            "type": "css"
+        },
+        "letterSpacing": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/fonts/font-style.css",
+            "exampleCode": "live-examples/css-examples/text/letter-spacing.html",
+            "fileName": "letter-spacing.html",
+            "title": "CSS Demo: letter-spacing",
+            "type": "css"
+        },
         "overflow-wrap": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
@@ -44,6 +62,15 @@
             "exampleCode": "live-examples/css-examples/text/word-break.html",
             "fileName": "word-break.html",
             "title": "CSS Demo: word-break",
+            "type": "css"
+        },
+        "wordSpacing": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/fonts/font-style.css",
+            "exampleCode": "live-examples/css-examples/text/word-spacing.html",
+            "fileName": "word-spacing.html",
+            "title": "CSS Demo: word-spacing",
             "type": "css"
         }
     }

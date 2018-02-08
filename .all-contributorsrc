@@ -105,7 +105,7 @@
             "name": "mfluehr",
             "avatar_url": "https://avatars2.githubusercontent.com/u/7999073?s=460&v=4",
             "profile": "https://github.com/mfluehr",
-            "contributions": ["doc"]
+            "contributions": ["code", "doc"]
         },
         {
             "login": "paulirish",
@@ -165,6 +165,14 @@
             "avatar_url":
                 "https://avatars3.githubusercontent.com/u/2764898?s=460&v=4",
             "profile": "https://github.com/rachelandrew",
+            "contributions": ["code"]
+        },
+        {
+            "login": "helmutgranda",
+            "name": "Helmut Granda",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/82293?s=460&v=4",
+            "profile": "https://github.com/helmutgranda",
             "contributions": ["code"]
         }
     ]

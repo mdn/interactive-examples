@@ -1,0 +1,17 @@
+.example-container {
+    background-color: #eee;
+    border: .75em solid;
+    padding: .75em;
+    width: 80%;
+    max-height: 300px;
+    display: flex;
+}
+
+.example-container > div {
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 3px solid blue;
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
