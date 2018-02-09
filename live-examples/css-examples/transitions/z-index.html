@@ -1,7 +1,7 @@
 <section id="example-choice-list" class="example-choice-list large" data-property="zIndex">
 
     <div class="example-choice" initial-choice="true">
-        <pre><code class="language-css">z-index: 1;</code></pre>
+        <pre><code class="language-css">z-index: 1</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
@@ -32,13 +32,22 @@
 
 <div id="output" class="output hidden large">
 
-    <section id="default-example" class="default-example">
+    <section id="default-example" class="default-example container">
         <div id="example-element">Change my z-index</div>
-        <div class="container"></div>
-            <div class="box level2">2</div>
-            <div class="box level4">4</div>
-            <div class="box level6">6</div>
-        </div>
+        <div class="block position1 text-top">z-index: 2</div>
+        <div class="block position2 text-top">z-index: 4</div>
+        <div class="block position3 text-top">z-index: 6</div>
     </section>
 
 </div>
+
+<!-- <div class="container">
+    <div class="block position1 text-top">z-index: auto</div>
+    <div class="block position2 text-top">z-index: auto</div>
+    <div class="block position3 text-top">z-index: auto</div>
+</div>
+<div class="container">
+    <div class="block position1 text-bottom" style="z-index:3">z-index: 3</div>
+    <div class="block position2 text-bottom" style="z-index:2">z-index: 2</div>
+    <div class="block position3 text-bottom" style="z-index:1">z-index: 1</div>
+</div> -->
