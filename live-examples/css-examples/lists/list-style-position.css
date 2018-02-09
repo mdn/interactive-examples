@@ -1,6 +1,15 @@
+.default-example {
+    font-size: 1.3rem;
+}
+
 #example-element {
+    width: 100%;
+}
+
+.output section {
     text-align: left;
 }
-#example-element .bordered {
-    border: 1px solid #1b76c4;
+
+.output section li {
+    background: #f1f8ff;
 }
