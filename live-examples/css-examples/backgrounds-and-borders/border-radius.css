@@ -1,7 +1,10 @@
 #example-element {
     width: 80%;
-    height: 200px;
-    line-height: 200px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: #5b6dcd;
     color: white;
+    padding: 10px;
 }
