@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>%title%</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../../css/codemirror-5-31-0.css" rel="stylesheet" />
-    <link href="../../css/editor-js.css" rel="stylesheet" />
-    %example-css-src%
-  </head>
-  <body>
-      <section id="static">
-          %example-code%
-      </section>
+    <link href="../../css/editor-js.css" rel="stylesheet" /> %example-css-src%
+</head>
 
-      <section id="live" class="live hidden">
-          <header><h4>%title%</h4></header>
-          <div id="editor" class="editor"></div>
+<body>
+    <section id="static">
+        %example-code%
+    </section>
 
-          <div class="output-container">
-              <div class="buttons-container">
-                  <button id="execute" class="button run" type="button">Run &rsaquo;</button>
-                  <button id="reset" type="button" class="button">Reset</button>
-              </div>
-              <div id="output" class="output"><code></code></div>
-          </div>
-      </section>
+    <section id="live" class="live hidden">
+        <header>
+            <h4>%title%</h4>
+        </header>
+        <div id="editor-container" class="editor-container">
+            <div id="editor" class="editor"></div>
+            <div id="editor-resize-gap" class="editor-resize-gap"></div>
+        </div>
+
+        <div class="output-container">
+            <div class="buttons-container">
+                <button id="execute" class="button run" type="button">Run &rsaquo;</button>
+                <button id="reset" type="button" class="button">Reset</button>
+            </div>
+            <div id="output" class="output">
+                <code></code>
+            </div>
+        </div>
+    </section>
 
     %example-js-src%
 
     <script src="../../js/codemirror-5-31-0.js"></script>
     <script src="../../js/editor-js.js"></script>
-  </body>
+</body>
+
 </html>
