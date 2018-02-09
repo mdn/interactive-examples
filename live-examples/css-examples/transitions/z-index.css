@@ -1,17 +1,13 @@
-* {
-    box-sizing: border-box;
-}
-
 #example-element {
-    top: 25px;
-    left: 25px;
-    width: 200px;
-    height: 150px;
+    top: 15px;
+    left: 15px;
+    width: 180px;
+    height: 230px;
     position: absolute;
+    line-height: 215px;
     font-family: monospace;
     background-color: #fcfbe5;
     border: solid 5px #e3e0a1;
-    z-index: auto;
 }
 
 .container {
@@ -22,32 +18,53 @@
 
 .block {
     width: 150px;
-    height: 75px;
+    height: 50px;
     position: absolute;
     font-family: monospace;
+}
+
+.blue {
     background-color: #E5E8FC;
     border: solid 5px #112382;
 }
 
-.position1 {
+.red {
+    background-color: #fce5e7;
+    border: solid 5px #e3a1a7;
+}
+
+.position-1 {
     top: 0;
     left: 0;
-    z-index: 2;
-}
-
-.position2 {
-    top: 50px;
-    left: 50px;
-    z-index: 4;
-
-}
-
-.position3 {
-    top: 100px;
-    left: 100px;
     z-index: 6;
 }
 
-.text-top {
-    padding: 0.5em 0 5em .5em;
+.position-2 {
+    top: 30px;
+    left: 30px;
+    z-index: 4;
+}
+
+.position-3 {
+    top: 60px;
+    left: 60px;
+    z-index: 2;
+}
+
+.position-4 {
+    top: 150px;
+    left: 0;
+    z-index: auto;
+}
+
+.position-5 {
+    top: 180px;
+    left: 30px;
+    z-index: auto;
+}
+
+.position-6 {
+    top: 210px;
+    left: 60px;
+    z-index: auto;
 }
