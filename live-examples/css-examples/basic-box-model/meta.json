@@ -92,8 +92,8 @@
         },
         "width": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/backgrounds-and-borders/width.css",
-            "exampleCode": "live-examples/css-examples/backgrounds-and-borders/width.html",
+            "cssExampleSrc": "../../live-examples/css-examples/basic-box-model/width.css",
+            "exampleCode": "live-examples/css-examples/basic-box-model/width.html",
             "fileName": "width.html",
             "title": "CSS Demo: width",
             "type": "css"
