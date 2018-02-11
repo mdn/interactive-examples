@@ -1,6 +1,8 @@
 #example-element {
-    background-color: #E4F0F5;
+    display: flex;
+    flex-direction: column;
+    background-color: #5b6dcd;
     height: 80%;
     justify-content: center;
-    color: #000000;
+    color: #ffffff;
 }
