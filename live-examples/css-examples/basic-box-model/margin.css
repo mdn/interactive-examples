@@ -8,8 +8,7 @@
 }
 
 .row {
-    width: 100%;
-    height: 33%;
+    height: 33.33%;
     display: inline-block;
     border: solid #5B6DCD 10px;
     background-color: rgba(229, 232, 252, 0.6);
