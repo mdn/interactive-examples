@@ -1,0 +1,78 @@
+<section id="example-choice-list" class="example-choice-list large" data-property="transformOrigin">
+<div class="example-choice">
+<pre><code class="language-css" data-animation="rotate">transform-origin: center;</code></pre>
+<button type="button" class="copy hidden" aria-hidden="true">
+    <span class="visually-hidden">Copy to Clipboard</span>
+</button>
+</div>
+
+<div class="example-choice">
+<pre><code class="language-css" data-animation="rotate">transform-origin: top left;</code></pre>
+<button type="button" class="copy hidden" aria-hidden="true">
+    <span class="visually-hidden">Copy to Clipboard</span>
+</button>
+</div>
+
+<div class="example-choice">
+<pre><code class="language-css" data-animation="rotate">transform-origin: 50px 50px;</code></pre>
+<button type="button" class="copy hidden" aria-hidden="true">
+    <span class="visually-hidden">Copy to Clipboard</span>
+</button>
+</div>
+
+<div class="example-choice">
+<pre><code class="language-css" data-animation="rotate3d">transform-origin: bottom right 60px;</code></pre>
+<button type="button" class="copy hidden" aria-hidden="true">
+    <span class="visually-hidden">Copy to Clipboard</span>
+</button>
+</div>
+</section>
+
+<div id="output" class="output large hidden">
+    <section id="default-example">
+        <div id="example-container">
+            <div id="example-element">Rotate me!</div>
+            <img id="crosshair" src="../../media/examples/crosshair.svg" width="24px" />
+            <div id="static-element"></div>
+        </div>
+    </section>
+</div>
+
+<script>
+    window.addEventListener("load", function () {
+        function update (mutations) {
+            var selected = document.querySelector(".selected code");
+
+            // Restart the animation
+            // See: /en-US/docs/Web/CSS/CSS_Animations/Tips
+            el.className = "";
+            window.requestAnimationFrame(function (time) {
+                window.requestAnimationFrame(function (time) {
+                    console.log(selected.dataset.animation);
+                    el.className = selected.dataset.animation;
+                });
+            });
+
+
+            var transformOrigin = getComputedStyle(el).transformOrigin;
+            var pos = transformOrigin.split(/\s+/);
+            crosshair.style.left = "calc(" + pos[0] + " - 12px)";
+            crosshair.style.top = "calc(" + pos[1] + " - 12px)";
+        }
+
+        var crosshair = document.getElementById("crosshair");
+        var el = document.getElementById("example-element");
+
+        var observer = new MutationObserver(function (mutations) {
+            update(mutations);
+        });
+
+        observer.observe(el, {
+            attributes: true,
+            attributeFilter: ["style"]
+        });
+
+        update();
+        crosshair.style.opacity = "1";
+    });
+</script>
