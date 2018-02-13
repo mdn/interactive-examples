@@ -10,6 +10,46 @@
             "title": "CSS Demo: margin",
             "type": "css"
         },
+        "marginBottom": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-box-model/margin.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-box-model/margin-bottom.html",
+            "fileName": "margin-bottom.html",
+            "title": "CSS Demo: margin-bottom",
+            "type": "css"
+        },
+        "marginLeft": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-box-model/margin-left.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-box-model/margin-left.html",
+            "fileName": "margin-left.html",
+            "title": "CSS Demo: margin-left",
+            "type": "css"
+        },
+        "marginRight": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-box-model/margin-left.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-box-model/margin-right.html",
+            "fileName": "margin-right.html",
+            "title": "CSS Demo: margin-right",
+            "type": "css"
+        },
+        "marginTop": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-box-model/margin.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-box-model/margin-top.html",
+            "fileName": "margin-top.html",
+            "title": "CSS Demo: margin-top",
+            "type": "css"
+        },
         "padding": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
@@ -88,6 +128,14 @@
                 "live-examples/css-examples/basic-box-model/overflow-y.html",
             "fileName": "overflow-y.html",
             "title": "CSS Demo: overflow-y",
+            "type": "css"
+        },
+        "width": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/basic-box-model/width.css",
+            "exampleCode": "live-examples/css-examples/basic-box-model/width.html",
+            "fileName": "width.html",
+            "title": "CSS Demo: width",
             "type": "css"
         }
     }
