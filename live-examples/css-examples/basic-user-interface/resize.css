@@ -1,0 +1,13 @@
+#example-element {
+  background: linear-gradient(135deg, #0ff 0%,#0ff 94%,#fff 95%);
+  border: 3px solid #000;
+  overflow: auto;
+  width: 250px;
+  height: 250px;
+  font-weight: bold;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}

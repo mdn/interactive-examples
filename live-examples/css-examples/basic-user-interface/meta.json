@@ -60,6 +60,14 @@
             "title": "CSS Demo: outline-width",
             "type": "css"
         },
+        "resize": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/basic-user-interface/resize.css",
+            "exampleCode": "live-examples/css-examples/basic-user-interface/resize.html",
+            "fileName": "resize.html",
+            "title": "CSS Demo: resize",
+            "type": "css"
+        },
         "textOverflow": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
