@@ -3,13 +3,11 @@
     height: 200px;
     display: flex;
     align-content: flex-start;
-    flex-direction: column;
     justify-content: flex-start;
 }
 
-.row {
-    height: 33.33%;
-    display: inline-block;
+.col {
+    width: 33.33%;
     border: solid #5B6DCD 10px;
     background-color: rgba(229, 232, 252, 0.6);
     flex-shrink: 0;

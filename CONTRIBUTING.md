@@ -201,6 +201,41 @@ Under `pages`, copy and paste the example then update it to apply to your new ex
 
 The `title` property is displayed above the editor, and should be of the form: "CSS Demo: {item}", where {item} is the name of the item that the example is for. If you're not sure what to use for {item}, use the title of the page.
 
+### Special rules for CSS functions and types
+
+The guidance above assumes you're documenting a CSS property. But you can also write examples for CSS functions, like [`linear-gradient()`](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient), or types, like [`angle`](https://developer.mozilla.org/en-US/docs/Web/CSS/angle). If you do this, there are a couple of special considerations.
+
+* the name of the HTML file you write must be prefixed with `function-` for functions, or `type-` for types.
+* in the meta.json file, the name of the output HTML file must be prefixed in the same way.
+
+So the meta.json entry for a function would look like:
+
+```
+"translateX": {
+    "baseTmpl": "tmpl/live-css-tmpl.html",
+    "cssExampleSrc":
+        "../../live-examples/css-examples/transforms/translate.css",
+    "exampleCode":
+        "live-examples/css-examples/transforms/function-translateX.html",
+    "fileName": "function-translateX.html",
+    "title": "CSS Demo: translateX()",
+    "type": "css"
+}
+```
+
+and the meta.json entry for a type would look like:
+
+```
+"angle": {
+    "baseTmpl": "tmpl/live-css-tmpl.html",
+    "cssExampleSrc": "../../live-examples/css-examples/values-and-units/angle.css",
+    "exampleCode": "live-examples/css-examples/values-and-units/type-angle.html",
+    "fileName": "type-angle.html",
+    "title": "CSS Demo: &lt;angle&gt;",
+    "type": "css"
+}
+```
+
 ### Testing
 
 All that remains is to test that your page generates and displays as intended, then open a pull request for review.

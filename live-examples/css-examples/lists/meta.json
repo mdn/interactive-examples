@@ -1,0 +1,12 @@
+{
+    "pages": {
+        "listStylePosition": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/lists/list-style-position.css",
+            "exampleCode": "live-examples/css-examples/lists/list-style-position.html",
+            "fileName": "list-style-position.html",
+            "title": "CSS Demo: list-style-position",
+            "type": "css"
+        }
+    }
+}
