@@ -190,6 +190,22 @@
                 "https://avatars3.githubusercontent.com/u/9683586?s=460&v=4",
             "profile": "https://github.com/d7ark",
             "contributions": ["code"]
+        },
+        {
+            "login": "bromy",
+            "name": "Ben",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/5430077?s=460&v=4",
+            "profile": "https://github.com/bromy",
+            "contributions": ["code"]
+        },
+        {
+            "login": "benji1304",
+            "name": "Ben Stokes",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/7213889?s=460&v=4",
+            "profile": "https://github.com/benji1304",
+            "contributions": ["code"]
         }
     ]
 }
