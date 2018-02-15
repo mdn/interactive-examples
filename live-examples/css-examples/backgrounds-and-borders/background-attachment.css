@@ -1,5 +1,13 @@
+#output {
+  overflow: scroll;
+}
+
+#default-example {
+  height: 600px;
+}
+
 #example-element {
-    max-width: 30rem;
+    max-width: 20rem;
     height: 100%;
     background: url(/media/examples/lizard.png) right 3rem top 1rem / 15rem no-repeat,
                 url(/media/examples/moon.jpg) center / 10rem;
