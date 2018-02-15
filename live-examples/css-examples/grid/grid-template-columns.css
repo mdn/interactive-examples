@@ -1,0 +1,14 @@
+#example-element {
+    background-color: #eee;
+    border: .75em solid;
+    padding: .75em;
+    display: grid;
+    grid-auto-rows: 40px;
+    grid-gap: 10px;
+    width: 200px;
+}
+
+#example-element > div {
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 3px solid blue;
+}
