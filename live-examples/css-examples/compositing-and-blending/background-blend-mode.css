@@ -1,0 +1,6 @@
+#example-element {
+    background-color: green;
+    background-image: url(/media/examples/balloon.jpg);
+    width: 250px;
+    height: 305px;
+}

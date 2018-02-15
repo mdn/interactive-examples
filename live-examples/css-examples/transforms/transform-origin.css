@@ -1,0 +1,60 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(30deg);
+    }
+}
+
+@keyframes rotate3d {
+    from {
+        transform: rotate3d(0);
+    }
+
+    to {
+        transform: rotate3d(1, 2, 0, 60deg);
+    }
+}
+
+#example-container {
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+#example-element {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background: #e4f0f5;
+    color: #696969;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+#example-element.rotate {
+    animation: rotate 1s forwards;
+}
+
+#example-element.rotate3d {
+    animation: rotate3d 1s forwards;
+}
+
+#crosshair {
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    position: absolute;
+}
+
+#static-element {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: dotted 3px #e66465;
+}

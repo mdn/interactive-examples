@@ -1,0 +1,15 @@
+#example-element {
+    background-color: #eee;
+    border: .75em solid;
+    padding: .75em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 80px;
+    grid-gap: 10px;
+    width: 220px;
+}
+
+#example-element > div {
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 3px solid blue;
+}
