@@ -180,6 +180,56 @@
             "title": "CSS Demo: border-image",
             "type": "css"
         },
+        "borderImageOutset": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/backgrounds-and-borders/border-image.css",
+            "exampleCode":
+                "live-examples/css-examples/backgrounds-and-borders/border-image-outset.html",
+            "fileName": "border-image-outset.html",
+            "title": "CSS Demo: border-image-outset",
+            "type": "css"
+        },
+        "borderImageRepeat": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/backgrounds-and-borders/border-image.css",
+            "exampleCode":
+                "live-examples/css-examples/backgrounds-and-borders/border-image-repeat.html",
+            "fileName": "border-image-repeat.html",
+            "title": "CSS Demo: border-image-repeat",
+            "type": "css"
+        },
+        "borderImageSlice": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/backgrounds-and-borders/border-image.css",
+            "exampleCode":
+                "live-examples/css-examples/backgrounds-and-borders/border-image-slice.html",
+            "fileName": "border-image-slice.html",
+            "title": "CSS Demo: border-image-slice",
+            "type": "css"
+        },
+        "borderImageSource": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/backgrounds-and-borders/border-image.css",
+            "exampleCode":
+                "live-examples/css-examples/backgrounds-and-borders/border-image-source.html",
+            "fileName": "border-image-source.html",
+            "title": "CSS Demo: border-image-source",
+            "type": "css"
+        },
+        "borderImageWidth": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/backgrounds-and-borders/border-image.css",
+            "exampleCode":
+                "live-examples/css-examples/backgrounds-and-borders/border-image-width.html",
+            "fileName": "border-image-width.html",
+            "title": "CSS Demo: border-image-width",
+            "type": "css"
+        },
         "borderLeft": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
