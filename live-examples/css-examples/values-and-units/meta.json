@@ -15,6 +15,15 @@
             "fileName": "type-basic-shape.html",
             "title": "CSS Demo: &lt;basic-shape&gt;",
             "type": "css"
+        },
+        "gradient": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/images/gradient.css",
+            "exampleCode": "live-examples/css-examples/values-and-units/type-gradient.html",
+            "fileName": "type-gradient.html",
+            "title": "CSS Demo: &lt;gradient&gt;",
+            "type": "css"
         }
     }
 }
