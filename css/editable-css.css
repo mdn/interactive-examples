@@ -73,6 +73,10 @@
     padding: 0 10px;
 }
 
+.live .example-choice.selected pre {
+    padding: 0 40px 0 10px;
+}
+
 .live .example-choice code {
     padding: 10px 0;
 }
