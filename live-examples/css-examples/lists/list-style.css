@@ -1,5 +1,5 @@
 .default-example {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 #example-element {
@@ -19,6 +19,10 @@
     background: #f1f8ff;
 }
 
+.output section ul.list-style-type>li {
+    background: white;
+}
+
 .output hr {
     width: 50%;
     color: lightgray;
@@ -30,6 +34,6 @@
 }
 
 @counter-style space-counter {
-    symbols: "\1F680" "\1F6F0" "\1F52D";
+    symbols: "\1F680" "\1F6F8" "\1F6F0" "\1F52D";
     suffix: " "
 }
