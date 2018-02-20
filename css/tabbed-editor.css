@@ -53,11 +53,11 @@
 
 .output-header button.run {
     background-color: rgb(83, 202, 255);
-    margin-right: 10px;
 }
 
 .output-header button.reset {
     background-color: rgba(83, 202, 255, .6);
+    margin-right: 10px;
 }
 
 .output-header button:hover,

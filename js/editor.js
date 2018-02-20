@@ -1,22 +1,22 @@
 (function() {
     'use strict';
 
+    var mceUtils = require('./editor-libs/mce-utils');
+    var tabby = require('./editor-libs/tabby');
+
     var cssEditor = document.getElementById('css-editor');
     var header = document.querySelector('.output-header');
     var htmlEditor = document.getElementById('html-editor');
+    var runButton = document.getElementById('run');
     var staticCSSCode = cssEditor.querySelector('pre');
     var staticHTMLCode = htmlEditor.querySelector('pre');
-    var tabby = require('./editor-libs/tabby.js');
     var output = document.getElementById('output');
 
     header.addEventListener('click', function(event) {
         if (event.target.classList.contains('reset')) {
             window.location.reload();
         } else if (event.target.classList.contains('run')) {
-            var html = tabby.editors.html.editor.getValue();
-            var style =
-                '<style>' + tabby.editors.css.editor.getValue() + '</style>';
-            output.innerHTML = style + html;
+            output.innerHTML = mceUtils.getOutput();
         }
     });
 
@@ -30,4 +30,7 @@
     // initialise the editors
     tabby.initEditor(['html', 'css']);
     tabby.registerEventListeners();
+
+    // apply the current source on load
+    runButton.click();
 })();
