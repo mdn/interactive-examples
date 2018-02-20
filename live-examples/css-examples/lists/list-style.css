@@ -6,22 +6,30 @@
     width: 100%;
 }
 
+.output * {
+    margin: 0 auto 0 auto;
+}
+
 .output section {
     text-align: left;
+    flex-direction: column;
 }
 
 .output section li {
     background: #f1f8ff;
 }
 
+.output hr {
+    width: 50%;
+    color: lightgray;
+    margin: .5em;
+}
+
 .output .note {
-    max-width: 50%;
-    margin: 1em auto auto 1em;
-    font-size: .8rem;
+    font-size: .8rem; */
 }
 
 @counter-style space-counter {
-    system: cyclic;
-    symbols: "\1F680" "\1F6F8" "\1F6F0" "\1F52D";
+    symbols: "\1F680" "\1F6F0" "\1F52D";
     suffix: " "
 }
