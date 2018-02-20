@@ -206,6 +206,14 @@
                 "https://avatars3.githubusercontent.com/u/7213889?s=460&v=4",
             "profile": "https://github.com/benji1304",
             "contributions": ["code"]
+        },
+        {
+            "login": "veekas",
+            "name": "Veekas Shrivastava",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/3917726?s=460&v=4",
+            "profile": "https://github.com/veekas",
+            "contributions": ["code"]
         }
     ]
 }
