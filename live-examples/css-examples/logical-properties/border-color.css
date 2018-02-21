@@ -1,0 +1,8 @@
+#example-element {
+    background-color: #eee;
+    border: .75em solid;
+    padding: .75em;
+    width: 80%;
+    height: 100px;
+    unicode-bidi: bidi-override;
+}
