@@ -1,15 +1,11 @@
-.example-choice-list {
-  height: 500px;
-  width: 250px;
-}
-
-.cursor {
-  display: flex;
-  background-color:#1766aa;
-  color: white;
-  height: 100px;
-  width: 200px;
-  justify-content: center;
-  align-items: center;
-  font-size: 14pt;
+#example-element {
+    display: flex;
+    background-color: #1766aa;
+    color: white;
+    height: 180px;
+    width: 360px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14pt;
+    padding: 5px;
 }
