@@ -1,0 +1,28 @@
+#example-element {
+    background-color: #eee;
+    border: .75em solid;
+    padding: .75em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, minmax(40px, auto));
+    grid-gap: 10px;
+    width: 200px;
+}
+
+#example-element :nth-child(1) {
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 3px solid blue;
+    grid-area: a;
+}
+
+#example-element :nth-child(2) {
+    background-color: rgba(255, 0, 200, 0.2);
+    border: 3px solid rebeccapurple;
+    grid-area: b;
+}
+
+#example-element :nth-child(3) {
+    background-color: rgba(94, 255, 0, 0.2);
+    border: 3px solid green;
+    grid-area: c;
+}

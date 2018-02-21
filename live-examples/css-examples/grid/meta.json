@@ -1,5 +1,25 @@
 {
     "pages": {
+        "grid": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/grid/grid.css",
+            "exampleCode":
+                "live-examples/css-examples/grid/grid.html",
+            "fileName": "grid.html",
+            "title": "CSS Demo: grid",
+            "type": "css"
+        },
+        "gridArea": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/grid/grid-area.css",
+            "exampleCode":
+                "live-examples/css-examples/grid/grid-area.html",
+            "fileName": "grid-area.html",
+            "title": "CSS Demo: grid-area",
+            "type": "css"
+        },
         "gridAutoColumns": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
@@ -118,6 +138,26 @@
                 "live-examples/css-examples/grid/grid-row-start.html",
             "fileName": "grid-row-start.html",
             "title": "CSS Demo: grid-row-start",
+            "type": "css"
+        },
+        "gridTemplate": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/grid/grid-template.css",
+            "exampleCode":
+                "live-examples/css-examples/grid/grid-template.html",
+            "fileName": "grid-template.html",
+            "title": "CSS Demo: grid-template",
+            "type": "css"
+        },
+        "gridTemplateAreas": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/grid/grid-template-areas.css",
+            "exampleCode":
+                "live-examples/css-examples/grid/grid-template-areas.html",
+            "fileName": "grid-template-areas.html",
+            "title": "CSS Demo: grid-template-areas",
             "type": "css"
         },
         "gridTemplateColumns": {

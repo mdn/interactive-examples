@@ -1,9 +1,12 @@
 #example-element {
-    margin: 20px auto;
-    padding: 50px 0;
-    border: 20px solid;
     width: 80%;
     height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background: #fff3d4;
+    border: 30px solid;
+    border-image: url('/media/examples/border-diamonds.png') 30 round;
     font-size: 1.2em;
-    text-align: center;
 }
