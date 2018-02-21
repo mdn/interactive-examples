@@ -214,6 +214,14 @@
                 "https://avatars3.githubusercontent.com/u/3917726?s=460&v=4",
             "profile": "https://github.com/veekas",
             "contributions": ["code"]
+        },
+        {
+            "login": "brianlmacdonald",
+            "name": "Brian Macdonald",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/23248886?s=460&v=4",
+            "profile": "https://github.com/brianlmacdonald",
+            "contributions": ["code"]
         }
     ]
 }
