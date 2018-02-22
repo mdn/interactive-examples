@@ -19,7 +19,7 @@
     background: #f1f8ff;
 }
 
-.output section ul.list-style-type>li {
+.output section ul.unhighlighted >li {
     background: white;
 }
 
