@@ -1,0 +1,18 @@
+#example-element {
+}
+
+.animating {
+    animation: spin 1s ease-in .25s 1;
+}
+
+@-webkit-keyframes spin {
+    to {
+        transform: rotate(.75turn);
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(.75turn);
+    }
+}
