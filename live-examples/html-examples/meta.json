@@ -1,12 +1,11 @@
 {
     "pages": {
         "table": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/table/table.html",
-            "cssExampleSrc": "live-examples/html-examples/table/css/table.css",
+            "baseTmpl": "tmpl/live-html-tmpl.html",
+            "exampleCode": "live-examples/html-examples/table.html",
             "fileName": "table.html",
             "title": "HTML Demo: table",
-            "type": "tabbed"
+            "type": "html"
         },
         "blockquote": {
             "baseTmpl": "tmpl/live-html-tmpl.html",
