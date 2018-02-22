@@ -1,3 +1,5 @@
+var tabby = require('./tabby.js');
+
 module.exports = {
     /**
      * Calculates the perceived load time of the iframe using
@@ -13,6 +15,15 @@ module.exports = {
         }
 
         return loadTime;
+    },
+    /**
+     * Called by the tabbed editor to combine code from all tabs.
+     * @returns Concatenated code from all tabs
+     */
+    getOutput: function() {
+        var html = tabby.editors.html.editor.getValue();
+        var style = '<style>' + tabby.editors.css.editor.getValue() + '</style>';
+        return style + html;
     },
     /**
      * Find and return the `example-choice` parent of the provided element
