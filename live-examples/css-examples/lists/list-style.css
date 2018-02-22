@@ -6,10 +6,6 @@
     width: 100%;
 }
 
-.output * {
-    margin: 0 auto 0 auto;
-}
-
 .output section {
     text-align: left;
     flex-direction: column;
