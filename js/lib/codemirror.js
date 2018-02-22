@@ -3274,10 +3274,8 @@ function updateHeightsInViewport(cm) {
 // Read and store the height of line widgets associated with the
 // given line.
 function updateWidgetHeight(line) {
-  if (line.widgets) { for (var i = 0; i < line.widgets.length; ++i) {
-    var w = line.widgets[i], parent = w.node.parentNode
-    if (parent) { w.height = parent.offsetHeight }
-  } }
+  if (line.widgets) { for (var i = 0; i < line.widgets.length; ++i)
+    { line.widgets[i].height = line.widgets[i].node.parentNode.offsetHeight } }
 }
 
 // Compute the lines that are visible in a given viewport (defaults
@@ -6573,11 +6571,11 @@ function onResize(cm) {
 }
 
 var keyNames = {
-  3: "Pause", 8: "Backspace", 9: "Tab", 13: "Enter", 16: "Shift", 17: "Ctrl", 18: "Alt",
+  3: "Enter", 8: "Backspace", 9: "Tab", 13: "Enter", 16: "Shift", 17: "Ctrl", 18: "Alt",
   19: "Pause", 20: "CapsLock", 27: "Esc", 32: "Space", 33: "PageUp", 34: "PageDown", 35: "End",
   36: "Home", 37: "Left", 38: "Up", 39: "Right", 40: "Down", 44: "PrintScrn", 45: "Insert",
   46: "Delete", 59: ";", 61: "=", 91: "Mod", 92: "Mod", 93: "Mod",
-  106: "*", 107: "=", 109: "-", 110: ".", 111: "/", 127: "Delete", 145: "ScrollLock",
+  106: "*", 107: "=", 109: "-", 110: ".", 111: "/", 127: "Delete",
   173: "-", 186: ";", 187: "=", 188: ",", 189: "-", 190: ".", 191: "/", 192: "`", 219: "[", 220: "\\",
   221: "]", 222: "'", 63232: "Up", 63233: "Down", 63234: "Left", 63235: "Right", 63272: "Delete",
   63273: "Home", 63275: "End", 63276: "PageUp", 63277: "PageDown", 63302: "Insert"
@@ -6724,9 +6722,6 @@ function keyName(event, noShift) {
   if (presto && event.keyCode == 34 && event["char"]) { return false }
   var name = keyNames[event.keyCode]
   if (name == null || event.altGraphKey) { return false }
-  // Ctrl-ScrollLock has keyCode 3, same as Ctrl-Pause,
-  // so we'll use event.code when available (Chrome 48+, FF 38+, Safari 10.1+)
-  if (event.keyCode == 3 && event.code) { name = event.code }
   return addModifierNames(name, event, noShift)
 }
 
@@ -7066,26 +7061,18 @@ function lookupKeyForEditor(cm, name, handle) {
 // for bound mouse clicks.
 
 var stopSeq = new Delayed
-
 function dispatchKey(cm, name, e, handle) {
   var seq = cm.state.keySeq
   if (seq) {
     if (isModifierKey(name)) { return "handled" }
-    if (/\'$/.test(name))
-      { cm.state.keySeq = null }
-    else
-      { stopSeq.set(50, function () {
-        if (cm.state.keySeq == seq) {
-          cm.state.keySeq = null
-          cm.display.input.reset()
-        }
-      }) }
-    if (dispatchKeyInner(cm, seq + " " + name, e, handle)) { return true }
+    stopSeq.set(50, function () {
+      if (cm.state.keySeq == seq) {
+        cm.state.keySeq = null
+        cm.display.input.reset()
+      }
+    })
+    name = seq + " " + name
   }
-  return dispatchKeyInner(cm, name, e, handle)
-}
-
-function dispatchKeyInner(cm, name, e, handle) {
   var result = lookupKeyForEditor(cm, name, handle)
 
   if (result == "multi")
@@ -7098,6 +7085,10 @@ function dispatchKeyInner(cm, name, e, handle) {
     restartBlink(cm)
   }
 
+  if (seq && !result && /\'$/.test(name)) {
+    e_preventDefault(e)
+    return true
+  }
   return !!result
 }
 
@@ -7609,7 +7600,6 @@ function defineOptions(CodeMirror) {
     clearCaches(cm)
     regChange(cm)
   }, true)
-
   option("lineSeparator", null, function (cm, val) {
     cm.doc.lineSep = val
     if (!val) { return }
@@ -8016,7 +8006,7 @@ function applyTextInput(cm, inserted, deleted, sel, origin) {
 
   var paste = cm.state.pasteIncoming || origin == "paste"
   var textLines = splitLinesAuto(inserted), multiPaste = null
-  // When pasting N lines into N selections, insert one line per selection
+  // When pasing N lines into N selections, insert one line per selection
   if (paste && sel.ranges.length > 1) {
     if (lastCopied && lastCopied.text.join("\n") == inserted) {
       if (sel.ranges.length % lastCopied.text.length == 0) {
@@ -9626,7 +9616,7 @@ CodeMirror.inputStyles = {"textarea": TextareaInput, "contenteditable": ContentE
 // Extra arguments are stored as the mode's dependencies, which is
 // used by (legacy) mechanisms like loadmode.js to automatically
 // load a mode. (Preferred mechanism is the require/define calls.)
-CodeMirror.defineMode = function(name/*, mode, …*/) {
+CodeMirror.defineMode = function(name/*, mode, â€¦*/) {
   if (!CodeMirror.defaults.mode && name != "null") { CodeMirror.defaults.mode = name }
   defineMode.apply(this, arguments)
 }
@@ -9650,7 +9640,7 @@ CodeMirror.fromTextArea = fromTextArea
 
 addLegacyProps(CodeMirror)
 
-CodeMirror.version = "5.34.0"
+CodeMirror.version = "5.31.0"
 
 return CodeMirror;
 
