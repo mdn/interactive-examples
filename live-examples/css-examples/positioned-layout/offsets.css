@@ -1,0 +1,16 @@
+.example-container {
+    border: .75em solid;
+    padding: .75em;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+}
+
+#example-element {
+    background-color: yellow;
+    border: 3px solid red;
+    position: absolute;
+    width: 140px;
+    height: 60px;
+}

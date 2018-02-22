@@ -1,5 +1,21 @@
 {
     "pages": {
+        "bottom": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/positioned-layout/offsets.css",
+            "exampleCode": "live-examples/css-examples/positioned-layout/bottom.html",
+            "fileName": "bottom.html",
+            "title": "CSS Demo: bottom",
+            "type": "css"
+        },
+        "left": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/positioned-layout/offsets.css",
+            "exampleCode": "live-examples/css-examples/positioned-layout/left.html",
+            "fileName": "left.html",
+            "title": "CSS Demo: left",
+            "type": "css"
+        },
         "position": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
@@ -8,6 +24,22 @@
                 "live-examples/css-examples/positioned-layout/position.html",
             "fileName": "position.html",
             "title": "CSS Demo: position",
+            "type": "css"
+        },
+        "right": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/positioned-layout/offsets.css",
+            "exampleCode": "live-examples/css-examples/positioned-layout/right.html",
+            "fileName": "right.html",
+            "title": "CSS Demo: right",
+            "type": "css"
+        },
+        "top": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/positioned-layout/offsets.css",
+            "exampleCode": "live-examples/css-examples/positioned-layout/top.html",
+            "fileName": "top.html",
+            "title": "CSS Demo: top",
             "type": "css"
         },
         "zIndex": {

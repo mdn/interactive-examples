@@ -1,28 +1,28 @@
-<section id="example-choice-list" class="example-choice-list large" data-property="width">
+<section id="example-choice-list" class="example-choice-list large" data-property="min-height">
 
     <div class="example-choice" initial-choice="true">
-        <pre><code class="language-css">width: 150px;</code></pre>
+        <pre><code class="language-css">min-height: 150px;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
     </div>
 
     <div class="example-choice">
-        <pre><code class="language-css">width: 20em;</code></pre>
+        <pre><code class="language-css">min-height: 7em;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
     </div>
 
     <div class="example-choice">
-        <pre><code class="language-css">width: 75%;</code></pre>
+        <pre><code class="language-css">min-height: 75%;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
     </div>
 
     <div class="example-choice">
-        <pre><code class="language-css">width: auto;</code></pre>
+        <pre><code class="language-css">min-height: 10px;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
@@ -32,6 +32,8 @@
 
 <div id="output" class="output large hidden">
     <section id="default-example" class="default-example">
-      <div id="example-element" class="transition-all">This is a box where you can change the width.</div>
+      <div id="example-element" class="transition-all">This is a box where you can change the minimum height.
+          <br>If there is more content than the minimum the box will grow to the height needed by the content.
+      </div>
     </section>
 </div>

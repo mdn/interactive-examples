@@ -1,0 +1,14 @@
+.example-container {
+    background-color: #eee;
+    border: .75em solid;
+    padding: .75em;
+    text-align: left;
+    width: 80%;
+}
+
+#example-element {
+    border: solid 10px #FFC129;
+    background-color: rgba(255, 244, 219, 0.6);
+    padding: 1em;
+    width: 40%;
+}
