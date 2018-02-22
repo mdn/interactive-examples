@@ -1,13 +1,24 @@
-.editor-container,
-.output {
-    display: inline-block;
-    vertical-align: top;
-    height: 350px;
-    overflow: hidden;
+.output-header {
+    margin: 0;
+    padding: 0 0 .5em 0;
 }
 
 .editor-container {
-    display: flex;
+    font-size: .9rem;
+}
+
+.editor-wrapper,
+.output {
+    display: inline-block;
+    vertical-align: top;
+    max-height: 300px;
+    overflow: scroll;
+}
+
+.editor-wrapper,
+.output {
+    border: 2px solid #d6dee0;
+    border-left: 5px solid #3f87a6;
 }
 
 .output {
@@ -15,53 +26,20 @@
 }
 
 .CodeMirror {
-    height: 300px;
+    height: auto;
 }
 
-.tabs,
-.output {
-    font-size: .9rem;
-    flex-basis: 50%;
-}
+@supports (display: flex) {
+    .editor-container {
+        display: flex;
+    }
 
-.output {
-    padding: 50px 20px 20px;
-    border-left: 0;
-    flex-shrink: 2;
-}
+    .editor-wrapper {
+        flex-basis: 60%;
+        flex-grow: 1;
+    }
 
-.output-header {
-    margin: 0;
-    padding: 0 0 .5em 0;
-}
-
-.output-header button {
-    float: right;
-    background-color: #53caff;
-    color: #333;
-    margin: 0 0 .5em;
-    padding: .7em .9em;
-    border: none;
-    width: 100px;
-    max-width: 150px;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 1;
-    cursor: pointer;
-    outline: 0;
-}
-
-.output-header button.run {
-    background-color: rgb(83, 202, 255);
-}
-
-.output-header button.reset {
-    background-color: rgba(83, 202, 255, .6);
-    margin-right: 10px;
-}
-
-.output-header button:hover,
-.output-header button:focus {
-    background-color: #333;
-    color: #fff;
+    .output {
+        flex-basis: 40%;
+    }
 }

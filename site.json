@@ -16,7 +16,6 @@
                 "js/lib/codemirror.js",
                 "js/mode/javascript/javascript.js",
                 "js/mode/xml/xml.js",
-                "js/mode/css/css.js",
                 "js/mode/htmlmixed/htmlmixed.js"
             ],
             "css": [
@@ -48,7 +47,7 @@
             "javascript": ["js/editor-bundle.js"],
             "css": [
                 "css/editor-libs/common.css",
-                "css/editor-libs/tabby.css",
+                "css/editor-libs/tabbed-editor-common.css",
                 "css/tabbed-editor.css"
             ],
             "destFileName": "tabbed-editor"
