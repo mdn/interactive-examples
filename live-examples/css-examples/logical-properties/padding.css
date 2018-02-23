@@ -1,0 +1,10 @@
+#example-element {
+    border: 10px solid #ffc129;
+    overflow: hidden;
+    text-align: left;
+}
+
+.box {
+    border: dashed 1px;
+    unicode-bidi: bidi-override;
+}

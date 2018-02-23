@@ -1,0 +1,20 @@
+#container {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.col {
+    width: 33.33%;
+    border: solid #5B6DCD 10px;
+    background-color: rgba(229, 232, 252, .6);
+    flex-shrink: 0;
+}
+
+#example-element {
+    border: solid 10px #FFC129;
+    background-color: rgba(255, 244, 219, .6);
+    unicode-bidi: bidi-override;
+}
