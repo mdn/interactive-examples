@@ -1,0 +1,16 @@
+#default-example {
+    text-align: left;
+    counter-reset: chapter-count;
+}
+
+#example-element {
+    background-color: lightblue;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+h2::before {
+    content: "Chapter " counter(chapter-count) ": ";
+}
