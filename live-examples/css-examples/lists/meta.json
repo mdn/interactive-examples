@@ -10,6 +10,16 @@
             "title": "CSS Demo: counter-increment",
             "type": "css"
         },
+        "counterReset": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/lists/counter-reset.css",
+            "exampleCode":
+                "live-examples/css-examples/lists/counter-reset.html",
+            "fileName": "counter-reset.html",
+            "title": "CSS Demo: counter-reset",
+            "type": "css"
+        },
         "listStyle": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
