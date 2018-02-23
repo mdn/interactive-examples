@@ -220,6 +220,86 @@
             "title": "CSS Demo: margin-inline-start",
             "type": "css"
         },
+        "max-block-size": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/logical-properties/block-size.css",
+            "exampleCode":
+                "live-examples/css-examples/logical-properties/max-block-size.html",
+            "fileName": "max-block-size.html",
+            "title": "CSS Demo: max-block-size",
+            "type": "css"
+        },
+        "max-inline-size": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/logical-properties/inline-size.css",
+            "exampleCode":
+                "live-examples/css-examples/logical-properties/max-inline-size.html",
+            "fileName": "max-inline-size.html",
+            "title": "CSS Demo: max-inline-size",
+            "type": "css"
+        },
+        "min-block-size": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/logical-properties/block-size.css",
+            "exampleCode":
+                "live-examples/css-examples/logical-properties/min-block-size.html",
+            "fileName": "min-block-size.html",
+            "title": "CSS Demo: min-block-size",
+            "type": "css"
+        },
+        "min-inline-size": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/logical-properties/inline-size.css",
+            "exampleCode":
+                "live-examples/css-examples/logical-properties/min-inline-size.html",
+            "fileName": "min-inline-size.html",
+            "title": "CSS Demo: min-inline-size",
+            "type": "css"
+        },
+        "offset-block-end": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/logical-properties/offset-block-end.css",
+            "exampleCode":
+                "live-examples/css-examples/logical-properties/offset-block-end.html",
+            "fileName": "offset-block-end.html",
+            "title": "CSS Demo: offset-block-end",
+            "type": "css"
+        },
+        "offset-block-start": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/logical-properties/offset-block-start.css",
+            "exampleCode":
+                "live-examples/css-examples/logical-properties/offset-block-start.html",
+            "fileName": "offset-block-start.html",
+            "title": "CSS Demo: offset-block-start",
+            "type": "css"
+        },
+        "offset-inline-end": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/logical-properties/offset-inline-end.css",
+            "exampleCode":
+                "live-examples/css-examples/logical-properties/offset-inline-end.html",
+            "fileName": "offset-inline-end.html",
+            "title": "CSS Demo: offset-inline-end",
+            "type": "css"
+        },
+        "offset-inline-start": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/logical-properties/offset-inline-start.css",
+            "exampleCode":
+                "live-examples/css-examples/logical-properties/offset-inline-start.html",
+            "fileName": "offset-inline-start.html",
+            "title": "CSS Demo: offset-inline-start",
+            "type": "css"
+        },
         "paddingBlockEnd": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
