@@ -1,13 +1,31 @@
 <section id="example-choice-list" class="example-choice-list" data-property="animation">
     <div class="example-choice">
-        <pre><code class="language-css">animation-fill-mode: none;</code></pre>
+        <pre><code class="language-css">animation-fill-mode: none;
+animation-delay: 2s;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
     </div>
 
     <div class="example-choice">
-        <pre><code class="language-css">animation-fill-mode: forwards;</code></pre>
+        <pre><code class="language-css">animation-fill-mode: forwards;
+animation-delay: 2s;</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+
+    <div class="example-choice">
+        <pre><code class="language-css">animation-fill-mode: backwards;
+animation-delay: 2s;</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+
+    <div class="example-choice">
+        <pre><code class="language-css">animation-fill-mode: both;
+animation-delay: 2s;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
@@ -16,6 +34,8 @@
 
 <div id="output" class="output hidden">
     <section id="default-example" class="flex-column">
-        <div id="example-element">Select a mode to spin!</div>
+        <div>Animation <span id="playstatus"></span></div>
+
+        <div id="example-element">Select a mode to start!</div>
     </section>
 </div>

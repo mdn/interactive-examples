@@ -1,18 +1,43 @@
 #example-element {
+    background-color: #1766aa;
+    margin: 20px;
+    border: 5px solid #333;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#playstatus {
+    font-weight: bold;
 }
 
 .animating {
-    animation: spin 1s ease-in .25s 1;
+    animation: slide 1s ease-in 1;
 }
 
-@-webkit-keyframes spin {
+@-webkit-keyframes slide {
+    from {
+        background-color: orange;
+        margin-left: 0;
+    }
     to {
-        transform: rotate(.75turn);
+        background-color: orange;
+        margin-left: 80%;
     }
 }
 
-@keyframes spin {
+@keyframes slide {
+    from {
+        background-color: orange;
+        margin-left: 0;
+    }
     to {
-        transform: rotate(.75turn);
+        background-color: orange;
+        margin-left: 80%;
     }
 }

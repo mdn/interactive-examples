@@ -1,7 +1,11 @@
 'use strict';
 
 window.addEventListener('load', function() {
+    var el = document.getElementById('example-element');
+    var status = document.getElementById('playstatus');
+
     function update() {
+        status.textContent = 'delaying';
         el.className = '';
         window.requestAnimationFrame(function() {
             window.requestAnimationFrame(function() {
@@ -10,7 +14,15 @@ window.addEventListener('load', function() {
         });
     }
 
-    var el = document.getElementById('example-element');
+    el.addEventListener('animationstart', function(){
+        console.log('animationstart event');
+        status.textContent = 'playing';
+    });
+
+    el.addEventListener('animationend', function(){
+        console.log('animationend event');
+        status.textContent = 'finished';
+    });
 
     var observer = new MutationObserver(function(mutations) {
         update(mutations);
