@@ -1,5 +1,35 @@
 {
     "pages": {
+        "clear": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-box-model/clear.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-box-model/clear.html",
+            "fileName": "clear.html",
+            "title": "CSS Demo: clear",
+            "type": "css"
+        },
+        "float": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-box-model/float.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-box-model/float.html",
+            "fileName": "float.html",
+            "title": "CSS Demo: float",
+            "type": "css"
+        },
+        "height": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-box-model/height.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-box-model/height.html",
+            "fileName": "height.html",
+            "title": "CSS Demo: height",
+            "type": "css"
+        },
         "margin": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
@@ -48,6 +78,46 @@
                 "live-examples/css-examples/basic-box-model/margin-top.html",
             "fileName": "margin-top.html",
             "title": "CSS Demo: margin-top",
+            "type": "css"
+        },
+        "maxHeight": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-box-model/height.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-box-model/max-height.html",
+            "fileName": "max-height.html",
+            "title": "CSS Demo: max-height",
+            "type": "css"
+        },
+        "maxWidth": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-box-model/width.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-box-model/max-width.html",
+            "fileName": "max-width.html",
+            "title": "CSS Demo: max-width",
+            "type": "css"
+        },
+        "minHeight": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-box-model/height.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-box-model/min-height.html",
+            "fileName": "min-height.html",
+            "title": "CSS Demo: min-height",
+            "type": "css"
+        },
+        "minWidth": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/basic-box-model/width.css",
+            "exampleCode":
+                "live-examples/css-examples/basic-box-model/min-width.html",
+            "fileName": "min-width.html",
+            "title": "CSS Demo: min-width",
             "type": "css"
         },
         "padding": {
