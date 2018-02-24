@@ -12,6 +12,8 @@
 
 .output {
     border-left: 0;
+    background-color: white;
+    margin: 0 1em;
 }
 
 .CodeMirror {
