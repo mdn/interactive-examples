@@ -3,6 +3,7 @@
     border: .75em solid;
     padding: .75em;
     text-align: left;
+    line-height: normal;
 }
 
 .floated-left {
