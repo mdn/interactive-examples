@@ -1,6 +1,7 @@
 #example-element {
     background-color: #1766aa;
-    margin: 20px;
+    margin: auto;
+    margin-left: 0;
     border: 5px solid #333;
     width: 150px;
     height: 150px;
