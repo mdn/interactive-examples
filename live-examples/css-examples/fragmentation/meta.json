@@ -9,6 +9,16 @@
             "fileName": "box-decoration-break.html",
             "title": "CSS Demo: box-decoration-break",
             "type": "css"
+        },
+        "breakAfter": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/fragmentation/break-inside.css",
+            "exampleCode":
+                "live-examples/css-examples/fragmentation/break-inside.html",
+            "fileName": "break-inside.html",
+            "title": "CSS Demo: break-inside",
+            "type": "css"
         }
     }
 }
