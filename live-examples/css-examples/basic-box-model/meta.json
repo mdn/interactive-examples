@@ -200,6 +200,14 @@
             "title": "CSS Demo: overflow-y",
             "type": "css"
         },
+        "visibility": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/basic-box-model/visibility.css",
+            "exampleCode": "live-examples/css-examples/basic-box-model/visibility.html",
+            "fileName": "visibility.html",
+            "title": "CSS Demo: visibility",
+            "type": "css"
+        },
         "width": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc": "../../live-examples/css-examples/basic-box-model/width.css",

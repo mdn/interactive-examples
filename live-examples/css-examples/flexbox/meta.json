@@ -69,6 +69,16 @@
             "fileName": "flex.html",
             "title": "CSS Demo: flex",
             "type": "css"
+        },
+        "order": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/flexbox/order.css",
+            "exampleCode":
+                "live-examples/css-examples/flexbox/order.html",
+            "fileName": "order.html",
+            "title": "CSS Demo: order",
+            "type": "css"
         }
     }
 }
