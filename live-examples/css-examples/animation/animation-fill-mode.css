@@ -1,5 +1,6 @@
 #example-element {
     background-color: #1766aa;
+    color: white;
     margin: auto;
     margin-left: 0;
     border: 5px solid #333;
@@ -24,10 +25,12 @@
 @-webkit-keyframes slide {
     from {
         background-color: orange;
+        color: black;
         margin-left: 0;
     }
     to {
         background-color: orange;
+        color: black;
         margin-left: 80%;
     }
 }
@@ -35,10 +38,12 @@
 @keyframes slide {
     from {
         background-color: orange;
+        color: black;
         margin-left: 0;
     }
     to {
         background-color: orange;
+        color: black;
         margin-left: 80%;
     }
 }
