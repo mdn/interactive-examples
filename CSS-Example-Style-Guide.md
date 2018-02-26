@@ -58,6 +58,12 @@ By default, the first choice will be selected. You can override this by adding `
         ...
     </div>
 
+## Colour
+
+The CSS interactive examples are visual in nature. Because of this, you will often need to make use of shapes, borders, lines etc. as part of your example. To maintain consistency with the [MDN Web Docs](https://developer.mozilla.org) branding, please always refer to the [colour style guide](https://schalkneethling.github.io/mdn-fiori/patterns/scss/variables/) when choosing colours.
+
+We do acknowledge that this specific set of colours might not always work for your intended purpose. The above is therefore a guide, and is not meant to be hard and fast rules. Should you find that these colours cause legibility, and/or contrast problems, feel free to use a suitable substitute and make note of it in your pull request.
+
 ## Specifying images
 
 Sometimes you'll want to include images with the example. If you do:
