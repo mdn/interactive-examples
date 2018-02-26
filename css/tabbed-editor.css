@@ -23,13 +23,13 @@
 .tabs,
 .output {
     font-size: .9rem;
-    flex-basis: 50%;
+    flex: none;
+    width: 50%;
 }
 
 .output {
     padding: 50px 20px 20px;
     border-left: 0;
-    flex-shrink: 2;
 }
 
 .output-header {
