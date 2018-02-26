@@ -36,6 +36,15 @@
             "title": "CSS Demo: text-align",
             "type": "css"
         },
+        "textAlignLast": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/fonts/fonts-base.css",
+            "exampleCode": "live-examples/css-examples/text/text-align-last.html",
+            "fileName": "text-align-last.html",
+            "title": "CSS Demo: text-align-last",
+            "type": "css"
+        },
         "textTransform": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
