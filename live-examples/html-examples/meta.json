@@ -1,9 +1,17 @@
 {
     "pages": {
+        "datalist": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/datalist.html",
+            "cssExampleSrc": "live-examples/html-examples/css/datalist.css",
+            "fileName": "datalist.html",
+            "title": "HTML Demo: datalist",
+            "type": "tabbed"
+        },
         "table": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/table/table.html",
-            "cssExampleSrc": "live-examples/html-examples/table/css/table.css",
+            "exampleCode": "live-examples/html-examples/table.html",
+            "cssExampleSrc": "live-examples/html-examples/css/table.css",
             "fileName": "table.html",
             "title": "HTML Demo: table",
             "type": "tabbed"
