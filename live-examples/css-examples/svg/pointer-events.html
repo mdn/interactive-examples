@@ -1,0 +1,48 @@
+<section id="example-choice-list" class="example-choice-list" data-property="pointer-events">
+    <div class="example-choice">
+        <pre><code class="language-css">pointer-events: auto;</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+
+    <div class="example-choice">
+        <pre><code class="language-css">pointer-events: none;</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+
+    <div class="example-choice">
+        <pre><code class="language-css">pointer-events: stroke; /* SVG-only */</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+
+    <div class="example-choice">
+        <pre><code class="language-css">pointer-events: fill; /* SVG-only */</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+</section>
+
+<div id="output" class="output hidden">
+    <section id="default-example" class="flex-column">
+        <div id="example-element">
+            <p>
+                <a href="#">example link</a>
+            </p>
+
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                    <a xlink:href="#">
+                        <circle cx="50" cy="50" r="40" stroke="orange" stroke-width="5" fill="lightblue"/>
+                        <text x="50" y="55" text-anchor="middle" stroke="black">SVG</text>
+                    </a>
+                </svg>
+            </p>
+        </div>
+    </section>
+</div>
