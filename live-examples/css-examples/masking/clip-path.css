@@ -1,3 +1,7 @@
+.output section {
+    align-items: flex-start;
+}
+
 .example-container {
     text-align: left;
     padding: 20px;
