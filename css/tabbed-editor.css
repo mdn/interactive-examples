@@ -24,7 +24,10 @@
 .output {
     font-size: .9rem;
     flex: none;
-    width: 50%;
+}
+
+.tabs {
+    width: 60%;
 }
 
 .output {
