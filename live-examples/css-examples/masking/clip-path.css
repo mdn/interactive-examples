@@ -1,0 +1,14 @@
+.output section {
+    align-items: flex-start;
+}
+
+.example-container {
+    text-align: left;
+    padding: 20px;
+}
+
+#example-element {
+    float: left;
+    width: 150px;
+    margin: 20px;
+}

@@ -1,0 +1,14 @@
+.example-container {
+    text-align: left;
+    padding: 20px;
+}
+
+#example-element {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    width: 150px;
+    background-image: linear-gradient(50deg, rgb(77, 26, 103), transparent 80%,
+      transparent);
+}
