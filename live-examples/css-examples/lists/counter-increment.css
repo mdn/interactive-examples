@@ -1,0 +1,8 @@
+#default-example {
+    text-align: left;
+    counter-reset: example-counter;
+}
+
+#example-element::after {
+    content: counter(example-counter);
+}
