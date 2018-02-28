@@ -1,16 +1,15 @@
 <pre>
-<code id="static-js">function Shape() {
-  this.name = 'Shape 1';
-}
+<code id="static-js">const person = {
+  isHuman: true,
+  sayName: function () {
+    console.log(`My name is ${this.name}`);
+  }
+};
 
-function Rectangle() {
-  Shape.call(this);
-}
+const me = Object.create(person);
+me.name = "Matthew"; // name is now a property set on the me object, but not on the person object
 
-Rectangle.prototype = Object.create(Shape.prototype);
-const rect = new Rectangle();
-
-console.log(rect.name);
-// expected output: "Shape 1"
+me.isHuman == true;
+me.sayName() // -> "My name is Matthew"
 </code>
 </pre>
