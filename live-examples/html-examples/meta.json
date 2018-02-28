@@ -1,5 +1,13 @@
 {
     "pages": {
+        "audio": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/audio.html",
+            "cssExampleSrc": "live-examples/html-examples/css/audio.css",
+            "fileName": "audio.html",
+            "title": "HTML Demo: audio",
+            "type": "tabbed"
+      },
         "datalist": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/datalist.html",
