@@ -33,6 +33,7 @@
 .output {
     padding: 50px 20px 20px;
     border-left: 0;
+    width: 40%;
 }
 
 .output-header {
