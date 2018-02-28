@@ -8,6 +8,14 @@
             "title": "HTML Demo: datalist",
             "type": "tabbed"
         },
+        "select": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/select.html",
+            "cssExampleSrc": "live-examples/html-examples/css/select.css",
+            "fileName": "select.html",
+            "title": "HTML Demo: select",
+            "type": "tabbed"
+        },
         "table": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/table.html",
