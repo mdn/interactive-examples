@@ -17,7 +17,7 @@
                 "../../live-examples/css-examples/animation/animation-fill-mode.js",
             "exampleCode": "live-examples/css-examples/animation/animation-delay.html",
             "fileName": "animation-delay.html",
-            "title": "CSS Demo: animation",
+            "title": "CSS Demo: animation-delay",
             "type": "css"
         },
         "animationFillMode": {
