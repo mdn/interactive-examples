@@ -1,0 +1,10 @@
+#example-element {
+    width: 80%;
+    text-align: left;
+    column-count: 3;
+}
+
+p {
+    margin: 0 0 1em 0;
+    background-color: #ccc;
+}
