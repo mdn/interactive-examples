@@ -43,6 +43,15 @@
             "title": "CSS Demo: font-variant",
             "type": "css"
         },
+        "fontVariantCaps": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/fonts/font-variant-caps.css",
+            "exampleCode": "live-examples/css-examples/fonts/font-variant-caps.html",
+            "fileName": "font-variant-caps.html",
+            "title": "CSS Demo: font-variant-caps",
+            "type": "css"
+        },
         "fontWeight": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
