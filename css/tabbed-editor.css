@@ -12,7 +12,7 @@
 
 .output {
     border-left: 0;
-    background-color: white;
+    background-color: #fff;
     margin: 0 1em;
 }
 
@@ -57,13 +57,8 @@
     outline: 0;
 }
 
-.output-header button.run {
-    background-color: rgb(83, 202, 255);
-}
-
 .output-header button.reset {
     background-color: rgba(83, 202, 255, .6);
-    margin-right: 10px;
 }
 
 .output-header button:hover,

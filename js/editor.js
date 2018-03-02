@@ -6,10 +6,10 @@
     var cssEditor = document.getElementById('css-editor');
     var header = document.querySelector('.output-header');
     var htmlEditor = document.getElementById('html-editor');
-    var runButton = document.getElementById('run');
     var staticCSSCode = cssEditor.querySelector('pre');
     var staticHTMLCode = htmlEditor.querySelector('pre');
     var output = document.getElementById('output');
+    var timer;
 
     /**
      * Called by the tabbed editor to combine code from all tabs.
@@ -21,12 +21,32 @@
         return style + html;
     }
 
+    /**
+     * Called from the editors on keyup events. Starts a 500 millisecond timer.
+     * If no other keyup events happens before the 500 millisecond have elapsed,
+     * update the output
+     */
+    function autoUpdate() {
+        // clear the existing timer
+        clearTimeout(timer);
+
+        timer = setTimeout(function() {
+            output.innerHTML = getOutput();
+        }, 500);
+    }
+
     header.addEventListener('click', function(event) {
         if (event.target.classList.contains('reset')) {
             window.location.reload();
-        } else if (event.target.classList.contains('run')) {
-            output.innerHTML = getOutput();
         }
+    });
+
+    htmlEditor.addEventListener('keyup', function() {
+        autoUpdate();
+    });
+
+    cssEditor.addEventListener('keyup', function() {
+        autoUpdate();
     });
 
     // hide the static example when JS enabled
@@ -41,5 +61,5 @@
     tabby.registerEventListeners();
 
     // apply the current source on load
-    runButton.click();
+    output.innerHTML = getOutput();
 })();
