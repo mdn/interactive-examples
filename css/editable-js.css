@@ -89,6 +89,10 @@
         align-items: center;
     }
 
+    .run {
+        margin-right: 10px;
+    }
+
     .output {
         display: flex;
         flex: 10 150px;
