@@ -1,0 +1,26 @@
+#example-element {
+    text-align: left;
+    width: 250px;
+    height: 250px;
+    overflow-x: scroll;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+#example-element > div {
+    flex: 0 0 250px;
+    width: 250px;
+    background-color: rebeccapurple;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: center none;
+}
+
+#example-element > div:nth-child(even) {
+    background-color: #fff;
+    color: rebeccapurple;
+}
