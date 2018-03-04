@@ -1,15 +1,17 @@
 <pre>
 <code id="static-js">const person = {
-  isHuman: true,
-  sayName: function () {
-    console.log(`My name is ${this.name}`);
+  isHuman: false,
+  printIntroduction: function () {
+    console.log(`My name is ${this.name}. Am I human? ${this.isHuman}`);
   }
 };
 
 const me = Object.create(person);
-me.name = "Matthew"; // name is now a property set on the me object, but not on the person object
 
-me.isHuman == true;
-me.sayName() // -> "My name is Matthew"
+me.name = "Matthew"; // "name" is a property set on "me", but not on "person"
+me.isHuman = true; // inherited properties can be overwritten
+
+me.printIntroduction();
+// expected output: "My name is Matthew"
 </code>
 </pre>
