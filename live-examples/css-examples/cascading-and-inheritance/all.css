@@ -1,0 +1,8 @@
+#example-element {
+    border: 2px dashed #999;
+    color: red;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: left;
+    width: 100%;
+}

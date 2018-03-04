@@ -1,5 +1,15 @@
 {
     "pages": {
+        "fit-content": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/grid/function-fit-content.css",
+            "exampleCode":
+                "live-examples/css-examples/grid/function-fit-content.html",
+            "fileName": "function-fit-content.html",
+            "title": "CSS Demo: fit-content",
+            "type": "css"
+        },
         "grid": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
@@ -178,6 +188,16 @@
                 "live-examples/css-examples/grid/grid-template-rows.html",
             "fileName": "grid-template-rows.html",
             "title": "CSS Demo: grid-template-rows",
+            "type": "css"
+        },
+        "minmax": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/grid/function-minmax.css",
+            "exampleCode":
+                "live-examples/css-examples/grid/function-minmax.html",
+            "fileName": "function-minmax.html",
+            "title": "CSS Demo: minmax()",
             "type": "css"
         },
         "repeat": {
