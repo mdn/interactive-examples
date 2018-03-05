@@ -49,6 +49,15 @@
             "fileName": "animation-fill-mode.html",
             "title": "CSS Demo: animation-fill-mode",
             "type": "css"
+        },
+        "animationPlayState": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/animation/animation-play-state.css",
+            "exampleCode": "live-examples/css-examples/animation/animation-play-state.html",
+            "fileName": "animation-play-state.html",
+            "title": "CSS Demo: animation-play-state",
+            "type": "css"
         }
     }
 }
