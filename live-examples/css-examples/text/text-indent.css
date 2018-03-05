@@ -1,0 +1,11 @@
+@import '../fonts/fonts.css';
+
+#output section {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+#example-element {
+    text-align: left;
+    margin-left: 3em;
+}
