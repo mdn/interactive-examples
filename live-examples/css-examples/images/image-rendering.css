@@ -1,5 +1,4 @@
 #example-element {
-    height: 500px;
+    height: 480px;
     object-fit: cover;
-    border: 1px solid red;
 }
