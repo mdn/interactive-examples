@@ -39,7 +39,7 @@ module.exports = {
         codeBlock.setAttribute('spellcheck', false);
         codeBlock.focus();
 
-        module.exports.applyCode(choice.textContent, choice);
+        module.exports.applyCode(codeBlock.textContent, choice);
     },
     /**
      * Resets the default example to visible but, only if it is currently hidden
