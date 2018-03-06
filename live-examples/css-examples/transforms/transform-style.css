@@ -1,0 +1,23 @@
+.layer {
+    transform: perspective(200px) rotateY(30deg);
+    background: rgba(0, 0, 255, 0.5);
+    border-radius: 1em;
+    width: 10em;
+    height: 10em;
+}
+
+.numeral {
+    color: black;
+    margin: 1em;
+    font-size: 3rem;
+    animation: slide 1.5s infinite alternate;
+}
+
+@keyframes slide {
+    from {
+        transform: translateZ(-75px) rotate(-15deg);
+    }
+    to {
+        transform: translateZ(75px) rotate(15deg);
+    }
+}
