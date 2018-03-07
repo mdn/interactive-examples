@@ -15,12 +15,10 @@ window.addEventListener('load', function() {
     }
 
     el.addEventListener('animationstart', function(){
-        console.log('animationstart event');
         status.textContent = 'playing';
     });
 
     el.addEventListener('animationend', function(){
-        console.log('animationend event');
         status.textContent = 'finished';
     });
 

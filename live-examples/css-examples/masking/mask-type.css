@@ -1,0 +1,9 @@
+.output section {
+    align-items: flex-start;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    mask: url('#example-element');
+}

@@ -1,0 +1,13 @@
+.output section {
+    align-items: flex-start;
+}
+
+#example-element {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 20px solid blue;
+    margin: 20px;
+    background-color: rebeccapurple;
+    mask-image: url('/media/examples/star.svg');
+}

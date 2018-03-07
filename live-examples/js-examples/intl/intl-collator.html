@@ -1,6 +1,6 @@
 <pre>
 <code id="static-js">function letterSort(lang, letters) {
-  letters.sort((a, b) => new Intl.Collator(lang).compare(a, b));
+  letters.sort(new Intl.Collator(lang).compare);
   return letters;
 }
 
