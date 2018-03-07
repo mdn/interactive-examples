@@ -1,0 +1,17 @@
+.output section {
+    align-items: flex-start;
+}
+
+.example-container {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#example-element {
+    width: 200px;
+    height: 200px;
+    background: rebeccapurple linear-gradient(rgb(255, 0, 191), rebeccapurple);
+    mask-image: url('/media/examples/star.svg');
+    mask-repeat: no-repeat;
+}
