@@ -9,5 +9,5 @@
     border: 20px solid blue;
     margin: 20px;
     background-color: rebeccapurple;
-    mask-image: url(/media/examples/star.svg);
+    mask-image: url('/media/examples/star.svg');
 }
