@@ -1,23 +1,14 @@
 .layer {
+    background: #f69d3c;
+    border-radius: .75rem;
     transform: perspective(200px) rotateY(30deg);
-    background: rgba(0, 0, 255, 0.5);
-    border-radius: 1em;
-    width: 10em;
-    height: 10em;
 }
 
 .numeral {
+    background-color: #e66465;
+    border-radius: .2rem;
     color: black;
-    margin: 1em;
-    font-size: 3rem;
-    animation: slide 1.5s infinite alternate;
-}
-
-@keyframes slide {
-    from {
-        transform: translateZ(-75px) rotate(-15deg);
-    }
-    to {
-        transform: translateZ(75px) rotate(15deg);
-    }
+    margin: 1rem;
+    padding: .2rem;
+    transform: rotate3d(1, 1, 1, 45deg);
 }
