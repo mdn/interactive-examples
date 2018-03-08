@@ -1,19 +1,25 @@
 #example-element {
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-name: slide;
+    animation-play-state: paused;
+    animation-timing-function: ease-in;
     background-color: #1766aa;
-    color: white;
-    margin: auto;
-    margin-left: 0;
-    border: 5px solid #333;
-    width: 150px;
-    height: 150px;
     border-radius: 50%;
+    border: 5px solid #333;
+    color: white;
+    height: 150px;
+    margin-left: 0;
+    margin: auto;
+    width: 150px;
 }
 
-.animating {
-    animation-name: slide;
-    animation-timing-function: ease-in;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+#example-element.running {
+    animation-play-state: running;
+}
+
+#play-pause {
+    font-size: 2rem;
 }
 
 @-webkit-keyframes slide {
