@@ -222,6 +222,22 @@
                 "https://avatars3.githubusercontent.com/u/23248886?s=460&v=4",
             "profile": "https://github.com/brianlmacdonald",
             "contributions": ["code"]
+        },
+        {
+            "login": "tatellos",
+            "name": "Mathias Arens",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/12428444?s=460&v=4",
+            "profile": "https://github.com/tatellos",
+            "contributions": ["code"]
+        },
+        {
+            "login": "yukulele",
+            "name": "Clément P",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/347244?s=460&v=4",
+            "profile": "https://github.com/yukulele",
+            "contributions": ["code"]
         }
     ]
 }
