@@ -7,7 +7,7 @@
             "exampleCode":
                 "live-examples/css-examples/grid/function-fit-content.html",
             "fileName": "function-fit-content.html",
-            "title": "CSS Demo: fit-content",
+            "title": "CSS Demo: fit-content()",
             "type": "css"
         },
         "grid": {
