@@ -1,0 +1,10 @@
+:root {
+    --color-a: pink;
+    --color-b: green;
+    --color-c: rebeccapurple;
+}
+
+#example-element {
+    border: 10px solid #000;
+    padding: 10px;
+}

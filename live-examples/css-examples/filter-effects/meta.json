@@ -1,5 +1,15 @@
 {
     "pages": {
+        "backdropFilter": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/filter-effects/backdrop-filter.css",     
+            "exampleCode":
+                "live-examples/css-examples/filter-effects/backdrop-filter.html",
+            "fileName": "backdrop-filter.html",
+            "title": "CSS Demo: backdrop-filter()",
+            "type": "css"
+        },
         "blur": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "exampleCode":
