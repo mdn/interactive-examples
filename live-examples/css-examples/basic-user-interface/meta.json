@@ -1,5 +1,13 @@
 {
     "pages": {
+        "appearance": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/basic-user-interface/appearance.html",
+            "fileName": "appearance.html",
+            "title": "CSS Demo: appearance",
+            "type": "css"
+        },
         "boxSizing": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
