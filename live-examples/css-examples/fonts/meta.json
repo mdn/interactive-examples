@@ -25,6 +25,14 @@
             "title": "CSS Demo: font-size",
             "type": "css"
         },
+        "fontSizeAdjust": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc": "../../live-examples/css-examples/fonts/font-size-adjust.css",
+            "exampleCode": "live-examples/css-examples/fonts/font-size-adjust.html",
+            "fileName": "font-size-adjust.html",
+            "title": "CSS Demo: font-size-adjust",
+            "type": "css"
+        },
         "fontStyle": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
