@@ -32,20 +32,15 @@
         }
     ],
     "scripts": {
-        "build-css-bundle":
-            "browserify js/editable-css.js -o js/editor-css-bundle.js",
-        "build-js-bundle":
-            "browserify js/editable-js.js -o js/editor-js-bundle.js",
-        "build-tabbed-js-bundle":
-            "browserify js/editor.js -o js/editor-bundle.js",
+        "build-css-bundle": "browserify js/editable-css.js -o js/editor-css-bundle.js",
+        "build-js-bundle": "browserify js/editable-js.js -o js/editor-js-bundle.js",
+        "build-tabbed-js-bundle": "browserify js/editor.js -o js/editor-bundle.js",
         "build-pages": "node index.js",
-        "build":
-            "npm-run-all build-css-bundle build-js-bundle build-tabbed-js-bundle build-pages",
+        "build": "npm-run-all build-css-bundle build-js-bundle build-tabbed-js-bundle build-pages",
         "contributors:add": "all-contributors add",
         "contributors:generate": "all-contributors generate",
         "start-server": "http-server ./docs",
-        "start-watch":
-            "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
+        "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
         "perf": "bundlesize",
         "unit-tests": "jest",
