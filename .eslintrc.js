@@ -5,6 +5,9 @@ module.exports = {
         jest: true,
     },
     extends: 'eslint:recommended',
+    parserOptions: {
+        "ecmaVersion": 8
+    },
     rules: {
         'no-global-assign': 2,
         indent: [2, 4],
@@ -35,6 +38,7 @@ module.exports = {
         expect: true,
         exports: true,
         module: true,
+        page: true,
         Prism: true,
         require: true,
         test: true

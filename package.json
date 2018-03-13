@@ -43,15 +43,18 @@
             "npm-run-all build-css-bundle build-js-bundle build-tabbed-js-bundle build-pages",
         "contributors:add": "all-contributors add",
         "contributors:generate": "all-contributors generate",
-        "start-server": "http-server ./docs",
+        "start-server": "http-server -p 4444 ./docs",
         "start-watch":
-            "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
+            "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
         "perf": "bundlesize",
-        "unit-tests": "jest",
-        "test": "npm-run-all unit-tests build perf",
+        "tests": "jest",
+        "test": "npm-run-all tests perf",
         "test:watch": "jest --watch",
         "precommit": "npm run test"
+    },
+    "jest": {
+        "preset": "jest-puppeteer-preset"
     },
     "keywords": [
         "javascript",
@@ -72,9 +75,11 @@
         "glob": "^7.1.2",
         "http-server": "^0.10.0",
         "husky": "^0.14.3",
-        "jest": "^21.2.1",
+        "jest": "^22.4.0",
+        "jest-puppeteer-preset": "^2.0.1",
         "node-dir": "^0.1.16",
         "npm-run-all": "^4.0.2",
+        "puppeteer": "^1.1.1",
         "uglify-es": "^3.0.3"
     }
 }
