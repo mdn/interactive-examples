@@ -17,6 +17,15 @@
             "title": "CSS Demo: font-family",
             "type": "css"
         },
+        "fontFeatureSettings": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/fonts/font-feature-settings.css",
+            "exampleCode": "live-examples/css-examples/fonts/font-feature-settings.html",
+            "fileName": "font-feature-settings.html",
+            "title": "CSS Demo: font-feature-settings",
+            "type": "css"
+        },
         "fontSize": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc": "../../live-examples/css-examples/fonts/font-size.css",
