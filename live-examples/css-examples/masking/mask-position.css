@@ -12,6 +12,6 @@
     width: 200px;
     height: 200px;
     background: rebeccapurple linear-gradient(rgb(255, 0, 191), rebeccapurple);
-    mask-image: url(/media/examples/star.svg);
+    mask-image: url('/media/examples/star.svg');
     mask-repeat: no-repeat;
 }

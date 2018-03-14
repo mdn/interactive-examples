@@ -1,0 +1,14 @@
+.background-container {
+    background-color: #f4f460;
+    width: 250px;
+}
+
+#example-element {
+    border: 1px solid black;
+    margin: 2em;
+}
+
+#example-element * {
+    mix-blend-mode: multiply;
+    color: #8245a3;
+}

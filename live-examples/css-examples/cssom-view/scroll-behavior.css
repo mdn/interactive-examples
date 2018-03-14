@@ -1,0 +1,19 @@
+.container {
+    flex-direction: column;
+}
+
+scroll-container {
+    border: 1px solid black;
+    display: block;
+    height: 200px;
+    overflow-y: scroll;
+    width: 200px;
+}
+
+scroll-page {
+    align-items: center;
+    display: flex;
+    font-size: 5em;
+    height: 100%;
+    justify-content: center;
+}

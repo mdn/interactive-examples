@@ -1,16 +1,17 @@
 <pre>
-<code id="static-js">function Shape() {
-  this.name = 'Shape 1';
-}
+<code id="static-js">const person = {
+  isHuman: false,
+  printIntroduction: function () {
+    console.log(`My name is ${this.name}. Am I human? ${this.isHuman}`);
+  }
+};
 
-function Rectangle() {
-  Shape.call(this);
-}
+const me = Object.create(person);
 
-Rectangle.prototype = Object.create(Shape.prototype);
-const rect = new Rectangle();
+me.name = "Matthew"; // "name" is a property set on "me", but not on "person"
+me.isHuman = true; // inherited properties can be overwritten
 
-console.log(rect.name);
-// expected output: "Shape 1"
+me.printIntroduction();
+// expected output: "My name is Matthew. Am I human? true"
 </code>
 </pre>

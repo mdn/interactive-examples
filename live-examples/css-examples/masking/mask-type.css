@@ -5,5 +5,5 @@
 .box {
     height: 150px;
     width: 150px;
-    mask: url("#example-element");
+    mask: url('#example-element');
 }

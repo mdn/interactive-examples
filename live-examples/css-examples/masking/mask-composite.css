@@ -6,6 +6,6 @@
     width: 200px;
     height: 200px;
     background-color: rebeccapurple;
-    mask-image: url(/media/examples/mdn.svg), url(/media/examples/star.svg);
+    mask-image: url('/media/examples/mdn.svg'), url('/media/examples/star.svg');
     mask-size: 100% 100%;
 }

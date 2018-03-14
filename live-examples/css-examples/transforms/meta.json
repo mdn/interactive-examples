@@ -169,6 +169,16 @@
             "title": "CSS Demo: transform-origin",
             "type": "css"
         },
+        "transformStyle": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/transforms/transform-style.css",
+            "exampleCode":
+                "live-examples/css-examples/transforms/transform-style.html",
+            "fileName": "transform-style.html",
+            "title": "CSS Demo: transform-style",
+            "type": "css"
+        },
         "translate": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
