@@ -1,0 +1,50 @@
+#example-element {
+    align-items: center;
+    background-color: #1766aa;
+    border-radius: 50%;
+    border: 5px solid #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+    margin-left: 0;
+    margin: auto;
+    width: 150px;
+}
+
+#playstatus {
+    font-weight: bold;
+}
+
+.animating {
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-color: orange;
+        color: black;
+        margin-left: 0;
+    }
+    to {
+        background-color: orange;
+        color: black;
+        margin-left: 80%;
+    }
+}
+
+@keyframes slide {
+    from {
+        background-color: orange;
+        color: black;
+        margin-left: 0;
+    }
+    to {
+        background-color: orange;
+        color: black;
+        margin-left: 80%;
+    }
+}
