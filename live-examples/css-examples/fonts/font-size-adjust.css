@@ -1,0 +1,15 @@
+#output section {
+    flex-direction: column;
+}
+
+#output section p {
+    font-size: 10px;
+}
+
+.verdana {
+    font-family: Verdana, sans-serif;
+}
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+}
