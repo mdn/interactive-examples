@@ -86,6 +86,15 @@
             "title": "CSS Demo: font-variant-caps",
             "type": "css"
         },
+        "fontVariantLigatures": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/fonts/font-variant-ligatures.css",
+            "exampleCode": "live-examples/css-examples/fonts/font-variant-ligatures.html",
+            "fileName": "font-variant-ligatures.html",
+            "title": "CSS Demo: font-variant-ligatures",
+            "type": "css"
+        },
         "fontWeight": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
