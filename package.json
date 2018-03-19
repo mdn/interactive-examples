@@ -32,20 +32,26 @@
         }
     ],
     "scripts": {
-        "build-css-bundle": "browserify js/editable-css.js -o js/editor-css-bundle.js",
-        "build-js-bundle": "browserify js/editable-js.js -o js/editor-js-bundle.js",
-        "build-tabbed-js-bundle": "browserify js/editor.js -o js/editor-bundle.js",
+        "build-css-bundle":
+            "browserify js/editable-css.js -o js/editor-css-bundle.js",
+        "build-js-bundle":
+            "browserify js/editable-js.js -o js/editor-js-bundle.js",
+        "build-tabbed-js-bundle":
+            "browserify js/editor.js -o js/editor-bundle.js",
         "build-pages": "node index.js",
-        "build": "npm-run-all build-css-bundle build-js-bundle build-tabbed-js-bundle build-pages",
+        "build":
+            "npm-run-all build-css-bundle build-js-bundle build-tabbed-js-bundle build-pages",
         "contributors:add": "all-contributors add",
         "contributors:generate": "all-contributors generate",
         "lint-css": "stylelint css/*.css",
+        "lint-js": "eslint js/",
         "start-server": "http-server -p 4444 ./docs",
-        "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
+        "start-watch":
+            "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
         "perf": "bundlesize",
         "tests": "jest",
-        "test": "npm-run-all lint-css tests perf",
+        "test": "npm-run-all lint-css lint-js tests perf",
         "test:watch": "jest --watch",
         "precommit": "npm test"
     },
@@ -67,6 +73,7 @@
         "chokidar-cli": "^1.2.0",
         "clean-css": "^4.1.8",
         "concat": "^1.0.3",
+        "eslint": "^4.19.0",
         "fs-extra": "^3.0.1",
         "glob": "^7.1.2",
         "http-server": "^0.10.0",
