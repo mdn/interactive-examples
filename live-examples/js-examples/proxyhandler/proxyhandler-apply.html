@@ -8,13 +8,15 @@ const handler = {
     console.log(`Calculate sum: ${argumentsList}`);
     // expected output: "Calculate sum: 1,2"
 
-    return argumentsList[0] + argumentsList[1];
+    return target(argumentsList[0], argumentsList[1]) * 10;
   }
 };
 
 var proxy1 = new Proxy(sum, handler);
 
-console.log(proxy1(1, 2));
+console.log(sum(1, 2)); 
 // expected output: 3
+console.log(proxy1(1, 2));
+// expected output: 30
 </code>
 </pre>
