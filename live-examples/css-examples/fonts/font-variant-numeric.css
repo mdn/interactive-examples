@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('FiraSans-Regular'),
+         url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#output section {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+#example-element table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabular {
+    border: 1px solid black;
+}
