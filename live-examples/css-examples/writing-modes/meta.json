@@ -10,6 +10,14 @@
             "title": "CSS Demo: direction",
             "type": "css"
         },
+        "text-orientation": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "exampleCode":
+                "live-examples/css-examples/writing-modes/text-orientation.html",
+            "fileName": "text-orientation.html",
+            "title": "CSS Demo: text-orientation",
+            "type": "css"
+        },
         "writing-mode": {
             "baseTmpl": "tmpl/live-css-tmpl.html",
             "cssExampleSrc":
