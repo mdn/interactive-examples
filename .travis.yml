@@ -4,6 +4,9 @@ node_js:
 branches:
   only:
   - master
+before_script:
+  - npm run build
+  - sleep 3 # give build some time to complete
 deploy:
   provider: script
   script: ./travis-deploy-pages
