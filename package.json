@@ -54,7 +54,7 @@
         "precommit": "npm run test"
     },
     "jest": {
-        "preset": "jest-puppeteer-preset"
+        "preset": "jest-puppeteer"
     },
     "keywords": [
         "javascript",
@@ -76,7 +76,7 @@
         "http-server": "^0.10.0",
         "husky": "^0.14.3",
         "jest": "^22.4.0",
-        "jest-puppeteer-preset": "^2.0.1",
+        "jest-puppeteer": "^2.2.0",
         "node-dir": "^0.1.16",
         "npm-run-all": "^4.0.2",
         "puppeteer": "^1.1.1",
