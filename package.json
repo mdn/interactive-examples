@@ -43,15 +43,16 @@
             "npm-run-all build-css-bundle build-js-bundle build-tabbed-js-bundle build-pages",
         "contributors:add": "all-contributors add",
         "contributors:generate": "all-contributors generate",
+        "lint-css": "stylelint css/*.css",
         "start-server": "http-server -p 4444 ./docs",
         "start-watch":
             "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
         "perf": "bundlesize",
         "tests": "jest",
-        "test": "npm-run-all tests perf",
+        "test": "npm-run-all lint-css tests perf",
         "test:watch": "jest --watch",
-        "precommit": "npm run test"
+        "precommit": "npm test"
     },
     "jest": {
         "preset": "jest-puppeteer-preset"
@@ -80,6 +81,7 @@
         "node-dir": "^0.1.16",
         "npm-run-all": "^4.0.2",
         "puppeteer": "^1.1.1",
+        "stylelint": "^9.1.3",
         "uglify-es": "^3.0.3"
     }
 }
