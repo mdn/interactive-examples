@@ -262,6 +262,14 @@
                 "https://avatars3.githubusercontent.com/u/2294248?s=460&v=4",
             "profile": "https://github.com/iansan5653",
             "contributions": ["code"]
+        },
+        {
+            "login": "npuzyrev",
+            "name": "Nikolay Puzyrev",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/18094289?s=460&v=4",
+            "profile": "https://github.com/npuzyrev",
+            "contributions": ["code"]
         }
     ]
 }
