@@ -8,12 +8,12 @@ If you're interested in contributing to this project, great! This file should he
 
 There are many ways you can help improve this repository! For example:
 
-* **Write a brand-new example:** for example, you might notice that there are no
-  examples for a particular [CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference).
-* **Improve an existing example:** for example,
-  you might notice a problem with an existing example, or some way it could be made more helpful.
-* **Fix a bug:** we have a list of [issues](https://github.com/mdn/interactive-examples/issues),
-  or maybe you found your own.
+*   **Write a brand-new example:** for example, you might notice that there are no
+    examples for a particular [CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference).
+*   **Improve an existing example:** for example,
+    you might notice a problem with an existing example, or some way it could be made more helpful.
+*   **Fix a bug:** we have a list of [issues](https://github.com/mdn/interactive-examples/issues),
+    or maybe you found your own.
 
 This guide focuses on contributing examples, although we welcome contributions to the editor and infrastructure code as well.
 
@@ -72,9 +72,9 @@ This is the base starting point for all CSS examples.
 
 It consists of two main pieces:
 
-* **The example CSS**: the `section#example-choice-list` contains one or more `div.example-choice` elements. These are the choices that will be presented to the user on the left-hand side of the editor. Each choice contains some CSS declarations that will be applied to the example element when the user selects that choice.
+*   **The example CSS**: the `section#example-choice-list` contains one or more `div.example-choice` elements. These are the choices that will be presented to the user on the left-hand side of the editor. Each choice contains some CSS declarations that will be applied to the example element when the user selects that choice.
 
-* **The example element**: the `section#default-example` contains all the markup for the editor's output pane. At a minimum this will contain a node with `id="example-element"`: this is the element that the chosen example CSS will be applied to.
+*   **The example element**: the `section#default-example` contains all the markup for the editor's output pane. At a minimum this will contain a node with `id="example-element"`: this is the element that the chosen example CSS will be applied to.
 
 Let's fill this in for `border-radius`.
 
@@ -205,8 +205,8 @@ The `title` property is displayed above the editor, and should be of the form: "
 
 The guidance above assumes you're documenting a CSS property. But you can also write examples for CSS functions, like [`linear-gradient()`](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient), or types, like [`angle`](https://developer.mozilla.org/en-US/docs/Web/CSS/angle). If you do this, there are a couple of special considerations.
 
-* the name of the HTML file you write must be prefixed with `function-` for functions, or `type-` for types.
-* in the meta.json file, the name of the output HTML file must be prefixed in the same way.
+*   the name of the HTML file you write must be prefixed with `function-` for functions, or `type-` for types.
+*   in the meta.json file, the name of the output HTML file must be prefixed in the same way.
 
 So the meta.json entry for a function would look like:
 
@@ -252,7 +252,7 @@ Once this completes run:
 npm start
 ```
 
-Now point your browser to [localhost:8080/pages/css/border-radius.html](http://localhost:8080/pages/css/border-radius.html).
+Now point your browser to [localhost:4444/pages/css/border-radius.html](http://localhost:4444/pages/css/border-radius.html).
 
 Once satisfied with the example, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
 
@@ -332,7 +332,7 @@ npm start
 
 Point your browser to:
 
-[localhost:8080/pages/js/array-from.html](http://localhost:8000/pages/js/array-from.html)
+[localhost:4444/pages/js/array-from.html](http://localhost:8000/pages/js/array-from.html)
 
 Once satisfied with the example, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
 
@@ -347,7 +347,6 @@ After your pull request is reviewed and merged, you can publish your example on 
 ```
 
 where `TYPE` is the kind of example (such as `js`, `css`, or `html`) and `FILENAME` is the name of the file that contains the example (like `margin.html` or `date-constructor.html`).
-
 
 ## Thank you!
 
