@@ -13,7 +13,7 @@
             "exampleCode":
                 "live-examples/js-examples/arraybuffer/arraybuffer-bytelength.html",
             "fileName": "arraybuffer-bytelength.html",
-            "title": "JavaScript Demo: ArrayBuffer.byteLength()",
+            "title": "JavaScript Demo: ArrayBuffer.byteLength",
             "type": "js"
         },
         "arraybufferIsView": {
