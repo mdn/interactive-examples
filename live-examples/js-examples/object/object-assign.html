@@ -5,9 +5,9 @@
   c: 3
 };
 
-const object2 = Object.assign({}, object1);
+const object2 = Object.assign({c: 4, d: 5}, object1);
 
-console.log(object2.c);
-// expected output: 3
+console.log(object2.c, object2.d);
+// expected output: 3 5
 </code>
 </pre>
