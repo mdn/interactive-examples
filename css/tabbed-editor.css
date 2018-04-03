@@ -36,6 +36,19 @@
     width: 40%;
 }
 
+.output-label {
+    position: absolute;
+    background-color: #333;
+    color: #83d0f2;
+    right: 0;
+    margin: 0;
+    padding: 3px 10px;
+    width: 70px;
+    height: 25px;
+    font-size: .9rem;
+    letter-spacing: .035rem;
+}
+
 .output-header {
     margin: 0;
     padding: 0 0 .5em 0;
