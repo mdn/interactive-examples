@@ -6,8 +6,12 @@
 };
 
 const object2 = Object.assign({c: 4, d: 5}, object1);
+const object3 = Object.assign(object1, {c: 4, d: 5});
 
 console.log(object2.c, object2.d);
 // expected output: 3 5
+
+console.log(object3.c, object3.d);
+// expected output: 4 5
 </code>
 </pre>
