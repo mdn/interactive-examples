@@ -407,7 +407,7 @@ Once you've finished writing the example, see the [Testing](#testing) section fo
 
 The final example should look something like this:
 
-![Final example](https://screenshotscdn.firefoxusercontent.com/images/9380c6d6-f1c5-426f-9bd2-a733fa89c485.png)
+![Final example](https://screenshotscdn.firefoxusercontent.com/images/9e834e75-98a7-4c57-be32-455138aa8c69.png)
 
 ## Testing
 
