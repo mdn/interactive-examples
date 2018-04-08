@@ -323,7 +323,7 @@ cd live-examples/html-examples/
 touch td.html
 ```
 
-In this file we'll add the HTML fragment that will be displayed in the HTML editor. The fragment will need to include all the extra HTML needed to render the example, and should use good practices as far as possible. For example, in this case we'll include a complete `<table` element. The example should also try to show some important attributes. Try to keep the example to under 20 lines.
+In this file we'll add the HTML fragment that will be displayed in the HTML editor. The fragment will need to include all the extra HTML needed to render the example, and should use good practices as far as possible. For example, in this case we'll include a complete `<table>` element. The example should also try to show some important attributes. Try to keep the example to under 20 lines.
 
 An example for `<td>` could look something like this:
 
@@ -394,10 +394,10 @@ Add a property under `pages` describing your example. The example for `<td>` cou
 }
 ```
 
-* `"baseTmpl"` describes the basic template to use. All HTMl examples use the "tmpl/live-tabbed-tmpl.html" template, which gives you the tabbed interface. JS and CSS examples use different templates.
+* `"baseTmpl"` describes the basic template to use. All HTML examples use the "tmpl/live-tabbed-tmpl.html" template, which gives you the tabbed interface. JS and CSS examples use different templates.
 * `"exampleCode"` is the path to the file containing the example HTML.
 * `"cssExampleSrc"` is the path to the file containing the CSS for the example.
-* `"fileName"` is the name of the file containing the example HTML.
+* `"fileName"` is the filename of the final (output) page that will contain this HTML example.
 * `"title"` is the title to show in the example. For HTML element examples it should be `"HTML Demo: <{name}>"` where `{name}` is the name of the element.
 * `"type"` describes the type of example to create. All HTML examples should put "tabbed" here.
 
