@@ -5,7 +5,7 @@
             "exampleCode": "live-examples/html-examples/address.html",
             "cssExampleSrc": "live-examples/html-examples/css/address.css",
             "fileName": "address.html",
-            "title": "HTML Demo: <address>",
+            "title": "HTML Demo: &lt;address&gt;",
             "type": "tabbed"
         },
         "audio": {
