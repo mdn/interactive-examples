@@ -48,6 +48,14 @@
             "title": "HTML Demo: select",
             "type": "tabbed"
         },
+        "strong": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/strong.html",
+            "cssExampleSrc": "live-examples/html-examples/css/strong.css",
+            "fileName": "strong.html",
+            "title": "HTML Demo: &lt;strong&gt;",
+            "type": "tabbed"
+        },
         "table": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/table.html",
