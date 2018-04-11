@@ -1,5 +1,13 @@
 {
     "pages": {
+        "address": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/address.html",
+            "cssExampleSrc": "live-examples/html-examples/css/address.css",
+            "fileName": "address.html",
+            "title": "HTML Demo: <address>",
+            "type": "tabbed"
+        },
         "audio": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/audio.html",
@@ -7,7 +15,7 @@
             "fileName": "audio.html",
             "title": "HTML Demo: audio",
             "type": "tabbed"
-      },
+        },
         "datalist": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/datalist.html",
