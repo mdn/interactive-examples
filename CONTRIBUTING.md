@@ -389,7 +389,7 @@ Add a property under `pages` describing your example. The example for `<td>` cou
     "exampleCode": "live-examples/html-examples/td.html",
     "cssExampleSrc": "live-examples/html-examples/css/td.css",
     "fileName": "td.html",
-    "title": "HTML Demo: <td>",
+    "title": "HTML Demo: &lt;td&gt;",
     "type": "tabbed"
 }
 ```
