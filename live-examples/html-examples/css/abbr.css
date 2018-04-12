@@ -1,3 +1,8 @@
+p {
+    font-size: 1.3rem;
+}
+
 abbr {
-    font-variant: all-small-caps;
+    font-style: italic;
+    font-weight: 100;
 }
