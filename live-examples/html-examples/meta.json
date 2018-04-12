@@ -16,6 +16,14 @@
             "title": "HTML Demo: datalist",
             "type": "tabbed"
         },
+        "pre": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/pre.html",
+            "cssExampleSrc": "live-examples/html-examples/css/pre.css",
+            "fileName": "pre.html",
+            "title": "HTML Demo: &lt;pre&gt;",
+            "type": "tabbed"
+        },
         "select": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/select.html",
