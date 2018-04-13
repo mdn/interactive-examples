@@ -1,5 +1,13 @@
 {
     "pages": {
+        "address": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/address.html",
+            "cssExampleSrc": "live-examples/html-examples/css/address.css",
+            "fileName": "address.html",
+            "title": "HTML Demo: &lt;address&gt;",
+            "type": "tabbed"
+        },
         "abbr": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/abbr.html",
