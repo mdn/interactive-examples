@@ -1,19 +1,19 @@
 {
     "pages": {
-        "address": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/address.html",
-            "cssExampleSrc": "live-examples/html-examples/css/address.css",
-            "fileName": "address.html",
-            "title": "HTML Demo: &lt;address&gt;",
-            "type": "tabbed"
-        },
         "abbr": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/abbr.html",
             "cssExampleSrc": "live-examples/html-examples/css/abbr.css",
             "fileName": "abbr.html",
             "title": "HTML Demo: &lt;abbr&gt;",
+            "type": "tabbed"
+        },
+        "address": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/address.html",
+            "cssExampleSrc": "live-examples/html-examples/css/address.css",
+            "fileName": "address.html",
+            "title": "HTML Demo: &lt;address&gt;",
             "type": "tabbed"
         },
         "audio": {
@@ -24,6 +24,13 @@
             "title": "HTML Demo: audio",
             "type": "tabbed"
         },
+        "blockquote": {
+            "baseTmpl": "tmpl/live-html-tmpl.html",
+            "exampleCode": "live-examples/html-examples/blockquote.html",
+            "fileName": "blockquote.html",
+            "title": "HTML Demo: blockquote",
+            "type": "html"
+        },
         "datalist": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/datalist.html",
@@ -32,20 +39,20 @@
             "title": "HTML Demo: datalist",
             "type": "tabbed"
         },
-        "pre": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/pre.html",
-            "cssExampleSrc": "live-examples/html-examples/css/pre.css",
-            "fileName": "pre.html",
-            "title": "HTML Demo: &lt;pre&gt;",
-            "type": "tabbed"
-        },
         "ol": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/ol.html",
             "cssExampleSrc": "live-examples/html-examples/css/ol.css",
             "fileName": "ol.html",
             "title": "HTML Demo: &lt;ol&gt;",
+            "type": "tabbed"
+        },
+        "pre": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/pre.html",
+            "cssExampleSrc": "live-examples/html-examples/css/pre.css",
+            "fileName": "pre.html",
+            "title": "HTML Demo: &lt;pre&gt;",
             "type": "tabbed"
         },
         "select": {
@@ -71,13 +78,6 @@
             "fileName": "table.html",
             "title": "HTML Demo: table",
             "type": "tabbed"
-        },
-        "blockquote": {
-            "baseTmpl": "tmpl/live-html-tmpl.html",
-            "exampleCode": "live-examples/html-examples/blockquote.html",
-            "fileName": "blockquote.html",
-            "title": "HTML Demo: blockquote",
-            "type": "html"
         }
     }
 }
