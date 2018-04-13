@@ -8,6 +8,14 @@
             "title": "HTML Demo: &lt;address&gt;",
             "type": "tabbed"
         },
+        "abbr": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/abbr.html",
+            "cssExampleSrc": "live-examples/html-examples/css/abbr.css",
+            "fileName": "abbr.html",
+            "title": "HTML Demo: &lt;abbr&gt;",
+            "type": "tabbed"
+        },
         "audio": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/audio.html",
@@ -22,6 +30,22 @@
             "cssExampleSrc": "live-examples/html-examples/css/datalist.css",
             "fileName": "datalist.html",
             "title": "HTML Demo: datalist",
+            "type": "tabbed"
+        },
+        "pre": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/pre.html",
+            "cssExampleSrc": "live-examples/html-examples/css/pre.css",
+            "fileName": "pre.html",
+            "title": "HTML Demo: &lt;pre&gt;",
+            "type": "tabbed"
+        },
+        "ol": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/ol.html",
+            "cssExampleSrc": "live-examples/html-examples/css/ol.css",
+            "fileName": "ol.html",
+            "title": "HTML Demo: &lt;ol&gt;",
             "type": "tabbed"
         },
         "select": {
