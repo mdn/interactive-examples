@@ -16,6 +16,14 @@
             "title": "HTML Demo: datalist",
             "type": "tabbed"
         },
+        "optgroup": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/optgroup.html",
+            "cssExampleSrc": "live-examples/html-examples/css/optgroup.css",
+            "fileName": "optgroup.html",
+            "title": "HTML Demo: &lt;optgroup&gt;",
+            "type": "tabbed"
+        },
         "select": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/select.html",
