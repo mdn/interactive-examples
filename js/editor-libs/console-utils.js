@@ -19,7 +19,7 @@ module.exports = {
                 output += this.formatArray(input[i]);
                 output += ']';
             } else {
-                output += this.formatObject(input[i]);
+                output += this.formatOutput(input[i]);
             }
 
             if (i < input.length - 1) {
