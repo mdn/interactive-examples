@@ -1,4 +1,4 @@
 .output {
-  background: center/cover no-repeat url("/media/examples/dino.png");
-  font-weight: bold;
+    background: center/cover no-repeat url("/media/examples/dino.png");
+    font-weight: bold;
 }
