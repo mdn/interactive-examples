@@ -20,6 +20,13 @@ describe('console utils', () => {
                 '1, 2, 3, 4'
             );
         });
+        test('Mixed array', function() {
+            expect(
+                consoleUtils.formatArray(
+                    new Array(1, 'a', { x: 2 }, null, undefined)
+                )
+            ).toBe('1, "a", Object { x: 2 }, null, undefined');
+        });
     });
 
     describe('formatObject', () => {
