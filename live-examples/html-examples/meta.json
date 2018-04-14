@@ -16,6 +16,14 @@
             "title": "HTML Demo: &lt;address&gt;",
             "type": "tabbed"
         },
+        "article": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/article.html",
+            "cssExampleSrc": "live-examples/html-examples/css/article.css",
+            "fileName": "article.html",
+            "title": "HTML Demo: &lt;article&gt;",
+            "type": "tabbed"
+        },
         "audio": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/audio.html",
