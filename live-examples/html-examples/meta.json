@@ -55,6 +55,14 @@
             "title": "HTML Demo: &lt;datalist&gt;",
             "type": "tabbed"
         },
+        "fieldset": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/fieldset.html",
+            "cssExampleSrc": "live-examples/html-examples/css/fieldset.css",
+            "fileName": "fieldset.html",
+            "title": "HTML Demo: &lt;fieldset&gt;",
+            "type": "tabbed"
+        },
         "ol": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/ol.html",
