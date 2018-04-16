@@ -286,6 +286,14 @@
                 "https://avatars3.githubusercontent.com/u/8886118?s=460&v=4",
             "profile": "https://github.com/rudzboy",
             "contributions": ["code"]
+        },
+        {
+            "login": "SWW13",
+            "name": "Simon Wörner",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/1280142?s=460&v=4",
+            "profile": "https://github.com/SWW13",
+            "contributions": ["code"]
         }
     ]
 }
