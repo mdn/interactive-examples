@@ -294,6 +294,14 @@
                 "https://avatars3.githubusercontent.com/u/1280142?s=460&v=4",
             "profile": "https://github.com/SWW13",
             "contributions": ["code"]
+        },
+        {
+            "login": "martijnthe",
+            "name": "Martijn Thé",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/193881?s=460&v=4",
+            "profile": "https://github.com/martijnthe",
+            "contributions": ["code"]
         }
     ]
 }
