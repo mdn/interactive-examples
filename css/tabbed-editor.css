@@ -32,7 +32,6 @@
     width: 40%;
     height: 302px;
     box-shadow: inset 1px 1px 5px #cccaca, inset 0 -1px 5px #969595;
-    overflow: scroll;
 }
 
 .output-label {
