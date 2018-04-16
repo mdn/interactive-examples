@@ -1,8 +1,11 @@
-label,
-input {
-    font-size: 1.0rem;
+.output {
+    background: top/cover no-repeat url("/media/examples/ice-cream.jpg");
+    position: relative;
 }
 
-input {
-    width: 10rem;
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
