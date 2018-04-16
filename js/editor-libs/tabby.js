@@ -80,6 +80,7 @@ module.exports = {
             code: htmlEditor,
             config: {
                 lineNumbers: true,
+                lineWrapping: true,
                 mode: 'htmlmixed',
                 value: staticHTMLCode.querySelector('code').textContent
             }
