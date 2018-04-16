@@ -286,6 +286,38 @@
                 "https://avatars3.githubusercontent.com/u/8886118?s=460&v=4",
             "profile": "https://github.com/rudzboy",
             "contributions": ["code"]
+        },
+        {
+            "login": "SWW13",
+            "name": "Simon Wörner",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/1280142?s=460&v=4",
+            "profile": "https://github.com/SWW13",
+            "contributions": ["code"]
+        },
+        {
+            "login": "martijnthe",
+            "name": "Martijn Thé",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/193881?s=460&v=4",
+            "profile": "https://github.com/martijnthe",
+            "contributions": ["code"]
+        },
+        {
+            "login": "Abhicoding",
+            "name": "Abhishek",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/20806640?s=460&v=4",
+            "profile": "https://github.com/Abhicoding",
+            "contributions": ["code"]
+        },
+        {
+            "login": "huijing",
+            "name": "Chen Hui Jing",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/1461498?s=460&v=4",
+            "profile": "https://github.com/huijing",
+            "contributions": ["code"]
         }
     ]
 }
