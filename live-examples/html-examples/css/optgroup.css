@@ -1,10 +1,11 @@
 .output {
-    background: top/cover no-repeat url("/media/examples/dino2.jpg");
+    background: top/cover no-repeat url('/media/examples/dino.jpg');
     position: relative;
 }
 
 footer {
     font-size: .8rem;
     position: absolute;
-    bottom: 10px; left: 10px;
+    bottom: 10px;
+    left: 10px;
 }
