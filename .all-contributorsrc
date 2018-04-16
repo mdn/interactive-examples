@@ -310,6 +310,14 @@
                 "https://avatars3.githubusercontent.com/u/20806640?s=460&v=4",
             "profile": "https://github.com/Abhicoding",
             "contributions": ["code"]
+        },
+        {
+            "login": "huijing",
+            "name": "Chen Hui Jing",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/1461498?s=460&v=4",
+            "profile": "https://github.com/huijing",
+            "contributions": ["code"]
         }
     ]
 }
