@@ -1,19 +1,19 @@
 {
     "pages": {
-        "address": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/address.html",
-            "cssExampleSrc": "live-examples/html-examples/css/address.css",
-            "fileName": "address.html",
-            "title": "HTML Demo: &lt;address&gt;",
-            "type": "tabbed"
-        },
         "abbr": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/abbr.html",
             "cssExampleSrc": "live-examples/html-examples/css/abbr.css",
             "fileName": "abbr.html",
             "title": "HTML Demo: &lt;abbr&gt;",
+            "type": "tabbed"
+        },
+        "address": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/address.html",
+            "cssExampleSrc": "live-examples/html-examples/css/address.css",
+            "fileName": "address.html",
+            "title": "HTML Demo: &lt;address&gt;",
             "type": "tabbed"
         },
         "aside": {
@@ -23,29 +23,28 @@
             "fileName": "aside.html",
             "title": "HTML Demo: &lt;aside&gt;",
             "type": "tabbed"
-        },
+        },            
         "audio": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/audio.html",
             "cssExampleSrc": "live-examples/html-examples/css/audio.css",
             "fileName": "audio.html",
-            "title": "HTML Demo: audio",
+            "title": "HTML Demo: &lt;audio&gt;",
             "type": "tabbed"
+        },
+        "blockquote": {
+            "baseTmpl": "tmpl/live-html-tmpl.html",
+            "exampleCode": "live-examples/html-examples/blockquote.html",
+            "fileName": "blockquote.html",
+            "title": "HTML Demo: &lt;blockquote&gt;",
+            "type": "html"
         },
         "datalist": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/datalist.html",
             "cssExampleSrc": "live-examples/html-examples/css/datalist.css",
             "fileName": "datalist.html",
-            "title": "HTML Demo: datalist",
-            "type": "tabbed"
-        },
-        "pre": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/pre.html",
-            "cssExampleSrc": "live-examples/html-examples/css/pre.css",
-            "fileName": "pre.html",
-            "title": "HTML Demo: &lt;pre&gt;",
+            "title": "HTML Demo: &lt;datalist&gt;",
             "type": "tabbed"
         },
         "ol": {
@@ -56,12 +55,28 @@
             "title": "HTML Demo: &lt;ol&gt;",
             "type": "tabbed"
         },
+        "optgroup": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/optgroup.html",
+            "cssExampleSrc": "live-examples/html-examples/css/optgroup.css",
+            "fileName": "optgroup.html",
+            "title": "HTML Demo: &lt;optgroup&gt;",
+            "type": "tabbed"
+        },
+        "pre": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/pre.html",
+            "cssExampleSrc": "live-examples/html-examples/css/pre.css",
+            "fileName": "pre.html",
+            "title": "HTML Demo: &lt;pre&gt;",
+            "type": "tabbed"
+        },
         "select": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/select.html",
             "cssExampleSrc": "live-examples/html-examples/css/select.css",
             "fileName": "select.html",
-            "title": "HTML Demo: select",
+            "title": "HTML Demo: &lt;select&gt;",
             "type": "tabbed"
         },
         "strong": {
@@ -77,15 +92,8 @@
             "exampleCode": "live-examples/html-examples/table.html",
             "cssExampleSrc": "live-examples/html-examples/css/table.css",
             "fileName": "table.html",
-            "title": "HTML Demo: table",
+            "title": "HTML Demo: &lt;table&gt;",
             "type": "tabbed"
-        },
-        "blockquote": {
-            "baseTmpl": "tmpl/live-html-tmpl.html",
-            "exampleCode": "live-examples/html-examples/blockquote.html",
-            "fileName": "blockquote.html",
-            "title": "HTML Demo: blockquote",
-            "type": "html"
         }
     }
 }
