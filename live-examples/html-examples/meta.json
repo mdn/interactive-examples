@@ -47,6 +47,14 @@
             "title": "HTML Demo: &lt;ol&gt;",
             "type": "tabbed"
         },
+        "optgroup": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/optgroup.html",
+            "cssExampleSrc": "live-examples/html-examples/css/optgroup.css",
+            "fileName": "optgroup.html",
+            "title": "HTML Demo: &lt;optgroup&gt;",
+            "type": "tabbed"
+        },
         "pre": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/pre.html",
