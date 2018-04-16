@@ -24,6 +24,14 @@
             "title": "HTML Demo: &lt;article&gt;",
             "type": "tabbed"
         },
+        "aside": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/aside.html",
+            "cssExampleSrc": "live-examples/html-examples/css/aside.css",
+            "fileName": "aside.html",
+            "title": "HTML Demo: &lt;aside&gt;",
+            "type": "tabbed"
+        },            
         "audio": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/audio.html",
@@ -53,6 +61,14 @@
             "cssExampleSrc": "live-examples/html-examples/css/ol.css",
             "fileName": "ol.html",
             "title": "HTML Demo: &lt;ol&gt;",
+            "type": "tabbed"
+        },
+        "optgroup": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/optgroup.html",
+            "cssExampleSrc": "live-examples/html-examples/css/optgroup.css",
+            "fileName": "optgroup.html",
+            "title": "HTML Demo: &lt;optgroup&gt;",
             "type": "tabbed"
         },
         "pre": {
