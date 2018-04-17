@@ -318,6 +318,14 @@
                 "https://avatars3.githubusercontent.com/u/1461498?s=460&v=4",
             "profile": "https://github.com/huijing",
             "contributions": ["code"]
+        },
+        {
+            "login": "MatsPalmgren",
+            "name": "Mats Palmgren",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/4010828?s=460&v=4",
+            "profile": "https://github.com/MatsPalmgren",
+            "contributions": ["code"]
         }
     ]
 }
