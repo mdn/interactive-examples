@@ -21,7 +21,17 @@ cd live-examples/html-examples/
 touch td.html
 ```
 
-In this file we'll add the HTML fragment that will be displayed in the HTML editor. The fragment will need to include all the extra HTML needed to render the example, and should use good practices as far as possible. For example, in this case we'll include a complete `<table>` element. The example should also try to show some important attributes. Try to keep the example to under 20 lines.
+In this file we'll add the HTML fragment that will be displayed in the HTML editor. The fragment will need to include all the extra HTML needed to render the example, and should use good practices as far as possible. For example, in this case we'll include a complete `<table>` element.
+
+Some general guidelines for writing a good example:
+* Try to make the example engaging, good-looking, and interesting (the example presented here doesn't really manage this). The [datalist](https://developer.mozilla.org/en-US/docs/User:wbamberg/HTML_editor_user_test_pages/datalist) one is prettier.
+* Try to show some important attributes
+* Try to keep the HTML fragment to under 20 lines. If you have to go over, that's fine, but *really* try to keep it under 30.
+* Try to keep HTML fragment line length to under 64 characters. If you have to go over, that's fine, but the line will probably then wrap for most screen widths (be aware that the example gets less width when embedded in an MDN page than it does standalone)
+
+In general, keep in mind that (hopefully) a lot of people will use the example for a long time. It's worth spending a bit of time getting it the way you want.
+
+We don't have codified formatting guidelines for HTML, but use 4-space indentation, anyway.
 
 An example for `<td>` could look something like this:
 
@@ -72,6 +82,8 @@ thead {
     color: #fff;
 }
 ```
+
+Follow the [mdn-fiori CSS formatting guidelines](https://mdn.github.io/mdn-fiori/patterns/css/formatting/).
 
 ## Updating the metadata
 
