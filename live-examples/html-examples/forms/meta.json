@@ -1,0 +1,36 @@
+{
+    "pages": {
+        "datalist": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/datalist.html",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/datalist.css",
+            "fileName": "datalist.html",
+            "title": "HTML Demo: &lt;datalist&gt;",
+            "type": "tabbed"
+        },
+        "fieldset": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/fieldset.html",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/fieldset.css",
+            "fileName": "fieldset.html",
+            "title": "HTML Demo: &lt;fieldset&gt;",
+            "type": "tabbed"
+        },
+        "optgroup": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/optgroup.html",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/optgroup.css",
+            "fileName": "optgroup.html",
+            "title": "HTML Demo: &lt;optgroup&gt;",
+            "type": "tabbed"
+        },
+        "select": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/select.html",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/select.css",
+            "fileName": "select.html",
+            "title": "HTML Demo: &lt;select&gt;",
+            "type": "tabbed"
+        }
+    }
+}

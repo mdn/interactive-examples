@@ -12,19 +12,41 @@ To write an interactive HTML example, you need to write the HTML and, if you nee
 
 In this section we'll walk through creating an example for the  [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td) element.
 
+## Example structure
+
+HTML examples are all stored under "live-examples/html-examples". Under there, they are grouped into directories according the the categorization in the [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element):
+
+* main-root
+* document-metadata
+* sectioning-root
+* content-sectioning
+* text-content
+* ...and so on
+
+Each of these directories contains:
+* a file called "meta.json", which is a kind of manifest for all the examples in that directory.
+* an HTML file for each example, whose name is the name of the element, for example "td.html"
+* a directory called "css" that contains CSS files for each example,  whose name is the name of the element, for example "td.css".
+
 ## Writing the example
 
-Create a new file under "live-examples/html-examples". Name it after the name of the element or attribute you are demonstrating, and give it an "html" suffix:
+The `<td>` element is in the ["Table content"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Table_content) category. So let's navigate to "live-examples/html-examples/table-content". If "table-content" doesn't exist, create it.
 
 ```
-cd live-examples/html-examples/
+mkdir live-examples/html-examples/table-content
+cd live-examples/html-examples/table-content
+```
+
+Create a new file whose name is the name of the element or attribute you are demonstrating, and give it an "html" suffix:
+
+```
 touch td.html
 ```
 
 In this file we'll add the HTML fragment that will be displayed in the HTML editor. The fragment will need to include all the extra HTML needed to render the example, and should use good practices as far as possible. For example, in this case we'll include a complete `<table>` element.
 
 Some general guidelines for writing a good example:
-* Try to make the example engaging, good-looking, and interesting (the example presented here doesn't really manage this). The [datalist](https://developer.mozilla.org/en-US/docs/User:wbamberg/HTML_editor_user_test_pages/datalist) one is prettier.
+* Try to make the example engaging, good-looking, and interesting (the example presented here doesn't really manage this. The [datalist](https://developer.mozilla.org/en-US/docs/User:wbamberg/HTML_editor_user_test_pages/datalist) one is prettier).
 * Try to show some important attributes
 * Try to keep the HTML fragment to under 20 lines. If you have to go over, that's fine, but *really* try to keep it under 30.
 * Try to keep HTML fragment line length to under 64 characters. If you have to go over, that's fine, but the line will probably then wrap for most screen widths (be aware that the example gets less width when embedded in an MDN page than it does standalone)
@@ -59,10 +81,10 @@ An example for `<td>` could look something like this:
 
 Often the example will want some CSS. In this case, the table will be much easier to read if it's given some basic styling.
 
-To add CSS, create a new file under "live-examples/html-examples/css". Give it the same name as the HTML file, but with a ".css" prefix.
+To add CSS, create a new file under "live-examples/html-examples/table-content/css". Give it the same name as the HTML file, but with a ".css" prefix.
 
 ```
-cd live-examples/html-examples/css
+cd live-examples/html-examples/table-content/css
 touch td.css
 ```
 
@@ -87,17 +109,32 @@ Follow the [mdn-fiori CSS formatting guidelines](https://mdn.github.io/mdn-fiori
 
 ## Updating the metadata
 
-In "live-examples/html-examples/" there's a file called "meta.json". This tells the site builder about the examples inside the directory.
+In "live-examples/html-examples/table-content/" you'll need a file called "meta.json". This tells the site builder about the examples inside the directory. If it doesn't exist, create it. If it does, open it,
 
-Open this file. It contains a JSON object whose most interesting property is an object called `pages`. Each property of `pages` is a page we want the site builder to build.
+It contains a JSON object whose most interesting property is an object called `pages`. Each property of `pages` is a page we want the site builder to build:
+
+```
+{
+    "pages": {
+        "table": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/table-content/table.html",
+            "cssExampleSrc": "live-examples/html-examples/table-content/css/table.css",
+            "fileName": "table.html",
+            "title": "HTML Demo: &lt;table&gt;",
+            "type": "tabbed"
+        }
+    }
+}
+```
 
 Add a property under `pages` describing your example. The example for `<td>` could look like this:
 
 ```
 "td": {
     "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-    "exampleCode": "live-examples/html-examples/td.html",
-    "cssExampleSrc": "live-examples/html-examples/css/td.css",
+    "exampleCode": "live-examples/html-examples/table-content/td.html",
+    "cssExampleSrc": "live-examples/html-examples/table-content/css/td.css",
     "fileName": "td.html",
     "title": "HTML Demo: &lt;td&gt;",
     "type": "tabbed"
