@@ -1,0 +1,28 @@
+{
+    "pages": {
+        "address": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/content-sectioning/address.html",
+            "cssExampleSrc": "live-examples/html-examples/content-sectioning/css/address.css",
+            "fileName": "address.html",
+            "title": "HTML Demo: &lt;address&gt;",
+            "type": "tabbed"
+        },
+        "article": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/content-sectioning/article.html",
+            "cssExampleSrc": "live-examples/html-examples/content-sectioning/css/article.css",
+            "fileName": "article.html",
+            "title": "HTML Demo: &lt;article&gt;",
+            "type": "tabbed"
+        },
+        "aside": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/content-sectioning/aside.html",
+            "cssExampleSrc": "live-examples/html-examples/content-sectioning/css/aside.css",
+            "fileName": "aside.html",
+            "title": "HTML Demo: &lt;aside&gt;",
+            "type": "tabbed"
+        }
+    }
+}

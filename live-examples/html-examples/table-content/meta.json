@@ -1,0 +1,12 @@
+{
+    "pages": {
+        "table": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/table-content/table.html",
+            "cssExampleSrc": "live-examples/html-examples/table-content/css/table.css",
+            "fileName": "table.html",
+            "title": "HTML Demo: &lt;table&gt;",
+            "type": "tabbed"
+        }
+    }
+}

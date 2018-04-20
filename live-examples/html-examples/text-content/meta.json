@@ -1,0 +1,27 @@
+{
+    "pages": {
+        "blockquote": {
+            "baseTmpl": "tmpl/live-html-tmpl.html",
+            "exampleCode": "live-examples/html-examples/text-content/blockquote.html",
+            "fileName": "blockquote.html",
+            "title": "HTML Demo: &lt;blockquote&gt;",
+            "type": "html"
+        },
+        "ol": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/text-content/ol.html",
+            "cssExampleSrc": "live-examples/html-examples/text-content/css/ol.css",
+            "fileName": "ol.html",
+            "title": "HTML Demo: &lt;ol&gt;",
+            "type": "tabbed"
+        },
+        "pre": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/text-content/pre.html",
+            "cssExampleSrc": "live-examples/html-examples/text-content/css/pre.css",
+            "fileName": "pre.html",
+            "title": "HTML Demo: &lt;pre&gt;",
+            "type": "tabbed"
+        }
+    }
+}
