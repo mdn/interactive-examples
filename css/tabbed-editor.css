@@ -2,7 +2,7 @@
 .output {
     display: inline-block;
     vertical-align: top;
-    height: 350px;
+    height: 370px;
     overflow: hidden;
 }
 
@@ -11,6 +11,9 @@
 }
 
 .CodeMirror {
+    border: 3px solid #3f87a6;
+    border-right: none;
+    border-left: 5px solid #3f87a6;
     height: 300px;
 }
 
@@ -26,12 +29,12 @@
 
 .output {
     background-color: #fff;
-    margin: 44px 1em 0 0;
+    margin: 24px 1em 0 0;
     padding: 30px;
-    border-left: 5px solid #333;
+    border: 15px solid #eee;
     width: 40%;
-    height: 302px;
-    box-shadow: inset 1px 1px 5px #cccaca, inset 0 -1px 5px #969595;
+    height: 342px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3), inset -5px -5px 10px rgba(0, 0, 0, .2);
     overflow: scroll;
 }
 
@@ -39,8 +42,8 @@
     position: absolute;
     background-color: #333;
     color: #83d0f2;
-    top: 98px;
-    right: 0;
+    top: 92px;
+    right: 15px;
     margin: 0;
     padding: 3px 10px;
     width: 70px;
