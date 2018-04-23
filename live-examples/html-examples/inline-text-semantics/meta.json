@@ -2,18 +2,22 @@
     "pages": {
         "abbr": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/inline-text-semantics/abbr.html",
-            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/abbr.css",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/abbr.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/abbr.css",
             "fileName": "abbr.html",
-            "title": "HTML Demo: &lt;abbr&gt;",
+            "title": "HTML Demo: <abbr>",
             "type": "tabbed"
         },
         "strong": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/inline-text-semantics/strong.html",
-            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/strong.css",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/strong.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/strong.css",
             "fileName": "strong.html",
-            "title": "HTML Demo: &lt;strong&gt;",
+            "title": "HTML Demo: <strong>",
             "type": "tabbed"
         }
     }

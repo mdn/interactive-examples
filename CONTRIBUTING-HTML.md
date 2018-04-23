@@ -10,23 +10,24 @@ The right-hand side contains the rendered HTML, styled according to any CSS that
 
 To write an interactive HTML example, you need to write the HTML and, if you need it, the CSS. You then need to update some metadata to tell the site builder about the new example.
 
-In this section we'll walk through creating an example for the  [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td) element.
+In this section we'll walk through creating an example for the [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td) element.
 
 ## Example structure
 
 HTML examples are all stored under "live-examples/html-examples". Under there, they are grouped into directories according the the categorization in the [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element):
 
-* main-root
-* document-metadata
-* sectioning-root
-* content-sectioning
-* text-content
-* ...and so on
+*   main-root
+*   document-metadata
+*   sectioning-root
+*   content-sectioning
+*   text-content
+*   ...and so on
 
 Each of these directories contains:
-* a file called "meta.json", which is a kind of manifest for all the examples in that directory.
-* an HTML file for each example, whose name is the name of the element, for example "td.html"
-* a directory called "css" that contains CSS files for each example,  whose name is the name of the element, for example "td.css".
+
+*   a file called "meta.json", which is a kind of manifest for all the examples in that directory.
+*   an HTML file for each example, whose name is the name of the element, for example "td.html"
+*   a directory called "css" that contains CSS files for each example, whose name is the name of the element, for example "td.css".
 
 ## Writing the example
 
@@ -46,10 +47,11 @@ touch td.html
 In this file we'll add the HTML fragment that will be displayed in the HTML editor. The fragment will need to include all the extra HTML needed to render the example, and should use good practices as far as possible. For example, in this case we'll include a complete `<table>` element.
 
 Some general guidelines for writing a good example:
-* Try to make the example engaging, good-looking, and interesting (the example presented here doesn't really manage this. The [datalist](https://developer.mozilla.org/en-US/docs/User:wbamberg/HTML_editor_user_test_pages/datalist) one is prettier).
-* Try to show some important attributes
-* Try to keep the HTML fragment to under 20 lines. If you have to go over, that's fine, but *really* try to keep it under 30.
-* Try to keep HTML fragment line length to under 64 characters. If you have to go over, that's fine, but the line will probably then wrap for most screen widths (be aware that the example gets less width when embedded in an MDN page than it does standalone)
+
+*   Try to make the example engaging, good-looking, and interesting (the example presented here doesn't really manage this. The [datalist](https://developer.mozilla.org/en-US/docs/User:wbamberg/HTML_editor_user_test_pages/datalist) one is prettier).
+*   Try to show some important attributes
+*   Try to keep the HTML fragment to under 20 lines. If you have to go over, that's fine, but _really_ try to keep it under 30.
+*   Try to keep HTML fragment line length to under 64 characters. If you have to go over, that's fine, but the line will probably then wrap for most screen widths (be aware that the example gets less width when embedded in an MDN page than it does standalone)
 
 In general, keep in mind that (hopefully) a lot of people will use the example for a long time. It's worth spending a bit of time getting it the way you want.
 
@@ -121,7 +123,7 @@ It contains a JSON object whose most interesting property is an object called `p
             "exampleCode": "live-examples/html-examples/table-content/table.html",
             "cssExampleSrc": "live-examples/html-examples/table-content/css/table.css",
             "fileName": "table.html",
-            "title": "HTML Demo: &lt;table&gt;",
+            "title": "HTML Demo: <table>",
             "type": "tabbed"
         }
     }
@@ -136,17 +138,17 @@ Add a property under `pages` describing your example. The example for `<td>` cou
     "exampleCode": "live-examples/html-examples/table-content/td.html",
     "cssExampleSrc": "live-examples/html-examples/table-content/css/td.css",
     "fileName": "td.html",
-    "title": "HTML Demo: &lt;td&gt;",
+    "title": "HTML Demo: <td>",
     "type": "tabbed"
 }
 ```
 
-* `"baseTmpl"` describes the basic template to use. All HTML examples use the "tmpl/live-tabbed-tmpl.html" template, which gives you the tabbed interface. JS and CSS examples use different templates.
-* `"exampleCode"` is the path to the file containing the example HTML.
-* `"cssExampleSrc"` is the path to the file containing the CSS for the example.
-* `"fileName"` is the filename of the final (output) page that will contain this HTML example.
-* `"title"` is the title to show in the example. For HTML element examples it should be `"HTML Demo: <{name}>"` where `{name}` is the name of the element.
-* `"type"` describes the type of example to create. All HTML examples should put "tabbed" here.
+*   `"baseTmpl"` describes the basic template to use. All HTML examples use the "tmpl/live-tabbed-tmpl.html" template, which gives you the tabbed interface. JS and CSS examples use different templates.
+*   `"exampleCode"` is the path to the file containing the example HTML.
+*   `"cssExampleSrc"` is the path to the file containing the CSS for the example.
+*   `"fileName"` is the filename of the final (output) page that will contain this HTML example.
+*   `"title"` is the title to show in the example. For HTML element examples it should be `"HTML Demo: <{name}>"` where `{name}` is the name of the element.
+*   `"type"` describes the type of example to create. All HTML examples should put "tabbed" here.
 
 Note that entries in `pages` are in alphabetical order, please preserve that when adding your page.
 
