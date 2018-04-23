@@ -10,6 +10,14 @@
             "title": "HTML Demo: <abbr>",
             "type": "tabbed"
         },
+        "kbd": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/inline-text-semantics/kbd.html",
+            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/kbd.css",
+            "fileName": "kbd.html",
+            "title": "HTML Demo: &lt;kbd&gt;",
+            "type": "tabbed"
+        },
         "strong": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
