@@ -3,25 +3,28 @@
         "datalist": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/datalist.html",
-            "cssExampleSrc": "live-examples/html-examples/forms/css/datalist.css",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/datalist.css",
             "fileName": "datalist.html",
-            "title": "HTML Demo: &lt;datalist&gt;",
+            "title": "HTML Demo: <datalist>",
             "type": "tabbed"
         },
         "fieldset": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/fieldset.html",
-            "cssExampleSrc": "live-examples/html-examples/forms/css/fieldset.css",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/fieldset.css",
             "fileName": "fieldset.html",
-            "title": "HTML Demo: &lt;fieldset&gt;",
+            "title": "HTML Demo: <fieldset>",
             "type": "tabbed"
         },
         "optgroup": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/optgroup.html",
-            "cssExampleSrc": "live-examples/html-examples/forms/css/optgroup.css",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/optgroup.css",
             "fileName": "optgroup.html",
-            "title": "HTML Demo: &lt;optgroup&gt;",
+            "title": "HTML Demo: <optgroup>",
             "type": "tabbed"
         },
         "select": {
@@ -29,7 +32,7 @@
             "exampleCode": "live-examples/html-examples/forms/select.html",
             "cssExampleSrc": "live-examples/html-examples/forms/css/select.css",
             "fileName": "select.html",
-            "title": "HTML Demo: &lt;select&gt;",
+            "title": "HTML Demo: <select>",
             "type": "tabbed"
         }
     }
