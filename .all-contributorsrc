@@ -326,6 +326,14 @@
                 "https://avatars3.githubusercontent.com/u/4010828?s=460&v=4",
             "profile": "https://github.com/MatsPalmgren",
             "contributions": ["code"]
+        },
+        {
+            "login": "Elchi3",
+            "name": "Florian Scholz",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/349114?s=460&v=4",
+            "profile": "https://github.com/Elchi3",
+            "contributions": ["code"]
         }
     ]
 }
