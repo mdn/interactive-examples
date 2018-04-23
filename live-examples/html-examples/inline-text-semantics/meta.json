@@ -15,7 +15,7 @@
             "exampleCode": "live-examples/html-examples/inline-text-semantics/kbd.html",
             "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/kbd.css",
             "fileName": "kbd.html",
-            "title": "HTML Demo: &lt;kbd&gt;",
+            "title": "HTML Demo: <kbd>",
             "type": "tabbed"
         },
         "strong": {
