@@ -23,6 +23,14 @@
             "fileName": "aside.html",
             "title": "HTML Demo: &lt;aside&gt;",
             "type": "tabbed"
+        },
+        "header": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/content-sectioning/header.html",
+            "cssExampleSrc": "live-examples/html-examples/content-sectioning/css/header.css",
+            "fileName": "header.html",
+            "title": "HTML Demo: &lt;header&gt;",
+            "type": "tabbed"
         }
     }
 }

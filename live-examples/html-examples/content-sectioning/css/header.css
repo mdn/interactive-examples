@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+header.pageHeader {
+  background-color: rgb(200,245,190);
+  border-bottom: 2px solid rgb(90, 150, 90);
+  margin: 0;
+  height: 120px;
+}
+
+header.pageHeader > img {
+  height: 120px;
+  float: left;
+  margin-right: 20px;
+}
+
+header.pageHeader > h1 {
+  font: bold 42px "Dancing Script", cursive;
+  margin: 0;
+}
+
+main > article > header > h2 {
+  font: bold 30px "Dancing Script", cursive;
+  margin-bottom: 0;
+}
+
+main > article {
+  font: 16px "Lucida Grande", "Arial", "Helvetica", non-serif;
+}
+
+main > article > p:first-of-type {
+  margin-top: 0;
+}
