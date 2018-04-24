@@ -18,6 +18,14 @@
             "title": "HTML Demo: <kbd>",
             "type": "tabbed"
         },
+        "mark": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/inline-text-semantics/mark.html",
+            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/mark.css",
+            "fileName": "mark.html",
+            "title": "HTML Demo: <mark>",
+            "type": "tabbed"
+        },
         "strong": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
