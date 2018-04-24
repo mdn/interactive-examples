@@ -18,6 +18,15 @@
             "title": "HTML Demo: <fieldset>",
             "type": "tabbed"
         },
+        "meter": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/meter.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/meter.css",
+            "fileName": "meter.html",
+            "title": "HTML Demo: <meter>",
+            "type": "tabbed"
+        },
         "optgroup": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/optgroup.html",
