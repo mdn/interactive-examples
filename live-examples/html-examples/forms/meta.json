@@ -18,6 +18,15 @@
             "title": "HTML Demo: <fieldset>",
             "type": "tabbed"
         },
+        "label": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/label.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/label.css",
+            "fileName": "label.html",
+            "title": "HTML Demo: <label>",
+            "type": "tabbed"
+        },
         "optgroup": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/optgroup.html",
