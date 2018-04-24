@@ -10,6 +10,16 @@
             "title": "HTML Demo: <abbr>",
             "type": "tabbed"
         },
+        "br": {
+                "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+                "exampleCode":
+                    "live-examples/html-examples/inline-text-semantics/br.html",
+                "cssExampleSrc":
+                    "live-examples/html-examples/inline-text-semantics/css/br.css",
+                "fileName": "br.html",
+                "title": "HTML Demo: <br>",
+                "type": "tabbed"
+            },
         "kbd": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/inline-text-semantics/kbd.html",
