@@ -27,6 +27,16 @@
             "fileName": "strong.html",
             "title": "HTML Demo: <strong>",
             "type": "tabbed"
+        },
+        "sup": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/sup.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/sup.css",
+            "fileName": "sup.html",
+            "title": "HTML Demo: <sup>",
+            "type": "tabbed"
         }
     }
 }
