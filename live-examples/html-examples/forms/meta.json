@@ -27,6 +27,15 @@
             "title": "HTML Demo: <optgroup>",
             "type": "tabbed"
         },
+        "option": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/option.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/option.css",
+            "fileName": "option.html",
+            "title": "HTML Demo: <option>",
+            "type": "tabbed"
+        },
         "select": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/select.html",
