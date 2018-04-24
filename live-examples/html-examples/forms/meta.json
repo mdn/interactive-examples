@@ -5,7 +5,7 @@
             "exampleCode": "live-examples/html-examples/forms/button.html",
             "cssExampleSrc": "live-examples/html-examples/forms/css/button.css",
             "fileName": "button.html",
-            "title": "HTML Demo: &lt;button&gt;",
+            "title": "HTML Demo: <button>",
             "type": "tabbed"
         },
         "datalist": {
