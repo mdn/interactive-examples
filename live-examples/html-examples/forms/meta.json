@@ -21,7 +21,7 @@
             "exampleCode": "live-examples/html-examples/forms/form.html",
             "cssExampleSrc": "live-examples/html-examples/forms/css/form.css",
             "fileName": "form.html",
-            "title": "HTML Demo: <form>",
+            "title": "HTML Demo: &lt;form&gt;",
             "type": "tabbed"
         },
         "optgroup": {
