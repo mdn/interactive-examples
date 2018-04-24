@@ -89,6 +89,14 @@
             "fileName": "u.html",
             "title": "HTML Demo: <u>",
             "type": "tabbed"
+        },
+        "q": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/inline-text-semantics/q.html",
+            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/q.css",
+            "fileName": "q.html",
+            "title": "HTML Demo: <q>",
+            "type": "tabbed"
         }
     }
 }
