@@ -10,6 +10,14 @@
             "title": "HTML Demo: <abbr>",
             "type": "tabbed"
         },
+        "dfn": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/inline-text-semantics/dfn.html",
+            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/dfn.css",
+            "fileName": "dfn.html",
+            "title": "HTML Demo: <dfn>",
+            "type": "tabbed"
+        },
         "kbd": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/inline-text-semantics/kbd.html",
