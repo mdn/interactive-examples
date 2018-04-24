@@ -16,6 +16,14 @@
             "title": "HTML Demo: &lt;fieldset&gt;",
             "type": "tabbed"
         },
+        "form": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/form.html",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/form.css",
+            "fileName": "form.html",
+            "title": "HTML Demo: <form>",
+            "type": "tabbed"
+        },
         "optgroup": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/optgroup.html",
