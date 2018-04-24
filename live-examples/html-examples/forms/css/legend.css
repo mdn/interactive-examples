@@ -1,0 +1,19 @@
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('FiraSans-Regular'),
+    url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
+}
+
+input {
+    margin: .4rem;
+}
+
+legend {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 3px 6px;
+}

@@ -18,6 +18,15 @@
             "title": "HTML Demo: <fieldset>",
             "type": "tabbed"
         },
+        "legend": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/legend.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/legend.css",
+            "fileName": "legend.html",
+            "title": "HTML Demo: <legend>",
+            "type": "tabbed"
+        },
         "optgroup": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/optgroup.html",
