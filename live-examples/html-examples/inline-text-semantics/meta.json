@@ -50,6 +50,16 @@
             "title": "HTML Demo: <mark>",
             "type": "tabbed"
         },
+        "s": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/s.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/s.css",
+            "fileName": "s.html",
+            "title": "HTML Demo: <s>",
+            "type": "tabbed"
+        },
         "strong": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
