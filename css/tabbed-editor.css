@@ -34,6 +34,7 @@
     border: 15px solid #eee;
     width: 40%;
     height: 342px;
+    line-height: 1.5;
     box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3), inset -5px -5px 10px rgba(0, 0, 0, .2);
     overflow: scroll;
 }
