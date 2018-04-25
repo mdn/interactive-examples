@@ -1,0 +1,15 @@
+.label-example {
+    font-family: sans-serif;
+}
+
+p {
+    font-size: .8rem;
+}
+
+input + span {
+    visibility: hidden;
+}
+
+input:checked + span {
+    visibility: visible;
+}

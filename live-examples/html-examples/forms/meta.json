@@ -1,5 +1,13 @@
 {
     "pages": {
+        "button": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/button.html",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/button.css",
+            "fileName": "button.html",
+            "title": "HTML Demo: <button>",
+            "type": "tabbed"
+        },
         "datalist": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/datalist.html",
@@ -16,6 +24,33 @@
                 "live-examples/html-examples/forms/css/fieldset.css",
             "fileName": "fieldset.html",
             "title": "HTML Demo: <fieldset>",
+            "type": "tabbed"
+        },
+        "form": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/form.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/form.css",
+            "fileName": "form.html",
+            "title": "HTML Demo: <form>",
+            "type": "tabbed"
+        },
+        "label": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/label.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/label.css",
+            "fileName": "label.html",
+            "title": "HTML Demo: <label>",
+            "type": "tabbed"
+        },
+        "legend": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/legend.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/legend.css",
+            "fileName": "legend.html",
+            "title": "HTML Demo: <legend>",
             "type": "tabbed"
         },
         "meter": {
