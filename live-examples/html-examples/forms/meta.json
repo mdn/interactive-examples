@@ -1,5 +1,13 @@
 {
     "pages": {
+        "button": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/button.html",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/button.css",
+            "fileName": "button.html",
+            "title": "HTML Demo: <button>",
+            "type": "tabbed"
+        },
         "datalist": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/datalist.html",
@@ -21,9 +29,37 @@
         "form": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/form.html",
-            "cssExampleSrc": "live-examples/html-examples/forms/css/form.css",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/form.css",
             "fileName": "form.html",
-            "title": "HTML Demo: &lt;form&gt;",
+            "title": "HTML Demo: <form>",
+            "type": "tabbed"
+        },
+        "label": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/label.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/label.css",
+            "fileName": "label.html",
+            "title": "HTML Demo: <label>",
+            "type": "tabbed"
+        },
+        "legend": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/legend.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/legend.css",
+            "fileName": "legend.html",
+            "title": "HTML Demo: <legend>",
+            "type": "tabbed"
+        },
+        "meter": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/meter.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/meter.css",
+            "fileName": "meter.html",
+            "title": "HTML Demo: <meter>",
             "type": "tabbed"
         },
         "optgroup": {
@@ -33,6 +69,24 @@
                 "live-examples/html-examples/forms/css/optgroup.css",
             "fileName": "optgroup.html",
             "title": "HTML Demo: <optgroup>",
+            "type": "tabbed"
+        },
+        "option": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/option.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/option.css",
+            "fileName": "option.html",
+            "title": "HTML Demo: <option>",
+            "type": "tabbed"
+        },
+        "progress": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/progress.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/progress.css",
+            "fileName": "progress.html",
+            "title": "HTML Demo: <progress>",
             "type": "tabbed"
         },
         "select": {
