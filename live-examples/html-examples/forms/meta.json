@@ -34,6 +34,14 @@
             "fileName": "select.html",
             "title": "HTML Demo: <select>",
             "type": "tabbed"
+        },
+        "textarea": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/textarea.html",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/textarea.css",
+            "fileName": "textarea.html",
+            "title": "HTML Demo: <textarea>",
+            "type": "tabbed"
         }
     }
 }
