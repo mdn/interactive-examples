@@ -4,14 +4,11 @@
 
 h1 {
     font-size: 1.5rem;
-    margin-bottom: 10px;
 }
 
 footer {
     display: flex;
     padding: 10px 5px;
-    margin: 18px 0 0;
-    font-family: sans-serif;
     background-color: #45a1ff;
     color: #fff;
 }
@@ -28,14 +25,3 @@ footer ul {
     margin: 0;
     list-style: none;
 }
-
-footer a {
-    text-decoration: none;
-    padding: 2px;
-}
-
-footer a:link,
-footer a:visited{
-    color: #fff;
-}
-
