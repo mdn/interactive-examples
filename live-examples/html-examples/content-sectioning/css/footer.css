@@ -3,15 +3,14 @@
 }
 
 h1 {
-    font-size: 1.8em;
-    margin-bottom: 0.5em;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 footer {
     display: flex;
-    padding: 1em .5em;
-    margin: 1.5em 0 0;
-    font-size: 0.9em;
+    padding: 10px 5px;
+    margin: 18px 0 0;
     font-family: sans-serif;
     background-color: #45a1ff;
     color: #fff;
