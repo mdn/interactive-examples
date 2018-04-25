@@ -30,6 +30,16 @@
             "title": "HTML Demo: <dfn>",
             "type": "tabbed"
         },
+        "i": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/i.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/i.css",
+            "fileName": "i.html",
+            "title": "HTML Demo: <i>",
+            "type": "tabbed"
+        },
         "kbd": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
