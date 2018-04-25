@@ -80,6 +80,15 @@
             "title": "HTML Demo: <option>",
             "type": "tabbed"
         },
+        "progress": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/progress.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/progress.css",
+            "fileName": "progress.html",
+            "title": "HTML Demo: <progress>",
+            "type": "tabbed"
+        },
         "select": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/select.html",
