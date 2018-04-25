@@ -7,19 +7,19 @@ header.page-header {
     background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);
     height: 120px;
     width: 100%;
-  	min-width: 380px;
+    min-width: 380px;
     color: #fff;
     text-shadow: #000 0 0 0.2em;
-  	position: relative;
+    position: relative;
 }
 
 header.page-header > h1 {
     font: bold 3em "Dancing Script", cursive, fantasy;
     position: absolute;
-  	width: 100%;
+    width: 100%;
     text-align: center;
     margin: 0;
-  	bottom: calc(60px - 0.7em);
+    bottom: calc(60px - 0.7em);
 }
 
 main {
