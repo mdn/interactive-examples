@@ -1,5 +1,13 @@
 {
     "pages": {
+        "button": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/button.html",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/button.css",
+            "fileName": "button.html",
+            "title": "HTML Demo: <button>",
+            "type": "tabbed"
+        },
         "datalist": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/datalist.html",
