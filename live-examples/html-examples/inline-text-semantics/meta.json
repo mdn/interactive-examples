@@ -51,6 +51,16 @@
             "fileName": "strong.html",
             "title": "HTML Demo: <strong>",
             "type": "tabbed"
+        },
+        "sub": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/sub.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/sub.css",
+            "fileName": "sub.html",
+            "title": "HTML Demo: <sub>",
+            "type": "tabbed"
         }
     }
 }
