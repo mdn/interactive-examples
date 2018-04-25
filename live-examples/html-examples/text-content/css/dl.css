@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Fira Sans";
+    src: local("FiraSans-Regular"),
+    url("/media/fonts/FiraSans-Regular.woff2") format("woff2");
+}
+
+p, dl {
+    font: 1rem "Fira Sans", sans-serif;
+}
+
+dl > dt {
+    font-weight: bold;
+    text-decoration: underline;
+}
