@@ -98,6 +98,16 @@
             "title": "HTML Demo: <s>",
             "type": "tabbed"
         },
+        "small": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/small.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/small.css",
+            "fileName": "small.html",
+            "title": "HTML Demo: <small>",
+            "type": "tabbed"
+        },
         "strong": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
