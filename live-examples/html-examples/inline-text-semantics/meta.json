@@ -52,6 +52,15 @@
             "title": "HTML Demo: <strong>",
             "type": "tabbed"
         },
+        "u": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/u.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/u.css",
+            "fileName": "u.html",
+            "title": "HTML Demo: <u>",
+        },
         "sub": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
