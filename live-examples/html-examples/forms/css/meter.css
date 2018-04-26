@@ -1,0 +1,17 @@
+.meter-example {
+    display: table;
+}
+
+.meter-example div {
+    display: table-row;
+}
+
+label,
+meter {
+    display: table-cell;
+}
+
+label {
+    padding-right: 10px;
+    text-align: right;
+}
