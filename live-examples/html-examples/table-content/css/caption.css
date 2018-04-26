@@ -13,7 +13,7 @@ table {
 
 td, th {
     border: 1px solid rgb(190, 190, 190);
-    padding: 10px 15px;
+    padding: 7px 15px;
 }
 
 th {
@@ -42,18 +42,14 @@ tr:nth-child(odd) td {
     src: url('/media/fonts/rapscall.woff2') format('woff2');
 }
 
-.heman, .skeletor {
-    font-size: 1.8rem;
-}
-
 .heman {
-    font-family: molot;
+    font: 1.4rem molot;
     text-shadow: 1px 1px 1px #fff,
                  2px 2px 1px #000;
 }
 
 .skeletor {
-  font-family: rapscallion;
+  font: 1.7rem rapscallion;
   letter-spacing: 3px;
   text-shadow: 1px 1px 0px #fff,
                0 0 9px #000;
