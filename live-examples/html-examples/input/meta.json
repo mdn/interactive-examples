@@ -1,0 +1,12 @@
+{
+    "pages": {
+        "checkbox": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/checkbox.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/checkbox.css",
+            "fileName": "input-checkbox.html",
+            "title": "HTML Demo: <input type=\"checkbox\">",
+            "type": "tabbed"
+        }
+    }
+}
