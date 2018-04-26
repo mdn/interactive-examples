@@ -1,0 +1,12 @@
+{
+    "pages": {
+        "color": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/color.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/color.css",
+            "fileName": "input-color.html",
+            "title": "HTML Demo: <input type=\"color\">",
+            "type": "tabbed"
+        }
+    }
+}
