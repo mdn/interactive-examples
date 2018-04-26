@@ -334,6 +334,14 @@
                 "https://avatars3.githubusercontent.com/u/349114?s=460&v=4",
             "profile": "https://github.com/Elchi3",
             "contributions": ["code"]
+        },
+        {
+            "login": "2alin",
+            "name": "Adilson Sandoval",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/4089035?s=460&v=4",
+            "profile": "https://github.com/2alin",
+            "contributions": ["code"]
         }
     ]
 }
