@@ -39,6 +39,14 @@
             "fileName": "footer.html",
             "title": "HTML Demo: <footer>",
             "type": "tabbed"
+        },
+        "header": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/content-sectioning/header.html",
+            "cssExampleSrc": "live-examples/html-examples/content-sectioning/css/header.css",
+            "fileName": "header.html",
+            "title": "HTML Demo: <header>",
+            "type": "tabbed"
         }
     }
 }
