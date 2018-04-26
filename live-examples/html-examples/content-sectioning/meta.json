@@ -29,7 +29,7 @@
             "exampleCode": "live-examples/html-examples/content-sectioning/header.html",
             "cssExampleSrc": "live-examples/html-examples/content-sectioning/css/header.css",
             "fileName": "header.html",
-            "title": "HTML Demo: &lt;header&gt;",
+            "title": "HTML Demo: <header>",
             "type": "tabbed"
         }
     }
