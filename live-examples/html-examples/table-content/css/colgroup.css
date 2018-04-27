@@ -1,13 +1,13 @@
 .batman {
-    background-color: magenta;
+    background-color: #d7d9f2;
 }
 
 .flash {
-    background-color: red;
+    background-color: #ffe8d4;
 }
 
 caption {
-    padding: 10px;
+    padding: 8px;
     caption-side: bottom;
 }
 
