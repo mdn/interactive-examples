@@ -1,0 +1,12 @@
+{
+    "pages": {
+        "date": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/date.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/date.css",
+            "fileName": "input-date.html",
+            "title": "HTML Demo: <input type=\"date\">",
+            "type": "tabbed"
+        }
+    }
+}
