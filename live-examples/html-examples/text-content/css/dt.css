@@ -12,7 +12,8 @@
          url('/media/fonts/FiraSans-SemiBoldItalic.woff2')
 }
 
-p, dl {
+p,
+dl {
     font: 1rem 'Fira Sans', sans-serif;
 }
 
