@@ -18,6 +18,16 @@
             "title": "HTML Demo: <dl>",
             "type": "tabbed"
         },
+        "dd": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/text-content/dd.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/dd.css",
+            "fileName": "dd.html",
+            "title": "HTML Demo: <dd>",
+            "type": "tabbed"
+        },
         "ol": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/text-content/ol.html",
