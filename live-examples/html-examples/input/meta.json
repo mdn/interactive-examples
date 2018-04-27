@@ -23,6 +23,14 @@
             "fileName": "input-date.html",
             "title": "HTML Demo: <input type=\"date\">",
             "type": "tabbed"
+        },
+        "email": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/email.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/email.css",
+            "fileName": "input-email.html",
+            "title": "HTML Demo: <input type=\"email\">",
+            "type": "tabbed"
         }
     }
 }
