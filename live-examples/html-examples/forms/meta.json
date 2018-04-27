@@ -29,7 +29,8 @@
         "form": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/form.html",
-            "cssExampleSrc": "live-examples/html-examples/forms/css/form.css",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/form.css",
             "fileName": "form.html",
             "title": "HTML Demo: <form>",
             "type": "tabbed"
@@ -43,6 +44,24 @@
             "title": "HTML Demo: <label>",
             "type": "tabbed"
         },
+        "legend": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/legend.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/legend.css",
+            "fileName": "legend.html",
+            "title": "HTML Demo: <legend>",
+            "type": "tabbed"
+        },
+        "meter": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/meter.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/meter.css",
+            "fileName": "meter.html",
+            "title": "HTML Demo: <meter>",
+            "type": "tabbed"
+        },
         "optgroup": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/optgroup.html",
@@ -52,12 +71,38 @@
             "title": "HTML Demo: <optgroup>",
             "type": "tabbed"
         },
+        "option": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/option.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/option.css",
+            "fileName": "option.html",
+            "title": "HTML Demo: <option>",
+            "type": "tabbed"
+        },
+        "progress": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/progress.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/progress.css",
+            "fileName": "progress.html",
+            "title": "HTML Demo: <progress>",
+            "type": "tabbed"
+        },
         "select": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/select.html",
             "cssExampleSrc": "live-examples/html-examples/forms/css/select.css",
             "fileName": "select.html",
             "title": "HTML Demo: <select>",
+            "type": "tabbed"
+        },
+        "textarea": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/forms/textarea.html",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/textarea.css",
+            "fileName": "textarea.html",
+            "title": "HTML Demo: <textarea>",
             "type": "tabbed"
         }
     }

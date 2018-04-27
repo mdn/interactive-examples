@@ -46,6 +46,8 @@ touch td.html
 
 In this file we'll add the HTML fragment that will be displayed in the HTML editor. The fragment will need to include all the extra HTML needed to render the example, and should use good practices as far as possible. For example, in this case we'll include a complete `<table>` element.
 
+### Example guidelines
+
 Some general guidelines for writing a good example:
 
 *   Try to make the example engaging, good-looking, and interesting (the example presented here doesn't really manage this. The [datalist](https://developer.mozilla.org/en-US/docs/User:wbamberg/HTML_editor_user_test_pages/datalist) one is prettier).
@@ -53,9 +55,17 @@ Some general guidelines for writing a good example:
 *   Try to keep the HTML fragment to under 20 lines. If you have to go over, that's fine, but _really_ try to keep it under 30.
 *   Try to keep HTML fragment line length to under 64 characters. If you have to go over, that's fine, but the line will probably then wrap for most screen widths (be aware that the example gets less width when embedded in an MDN page than it does standalone)
 
+Pay attention to how the example will look at narrower widths. When you test the example locally, it gets to occupy the whole browser window. But when embedded in an MDN page the example has to share space with other page elements.
+
+As a rough guide: https://developer.mozilla.org/en-US/docs/User:wbamberg/HTML_editor_user_test_pages/datalist shows what the editor will look like in an MDN page. In that page, with a browser window width of 1440 px, the entire editor gets about 1000px of width, and the output pane gets about 375px. So examples really need to work well at this width.
+
+Of course it's possible that people will have a narrower browser window, and ideally the example should still work with that, too. The [interactive examples for CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/filter)  switch mode from side-by-side to top-and-bottom with the editor at about 730px, which would give the HTML output window only about 260px. So we can take 260px as the minimum width we can expect to support - there's no point worrying about accommodating narrower widths than this. Having the layout work at 260px is potentially quite hard to achieve, and if it's not practical then that's OK, but you should consider it.
+
 In general, keep in mind that (hopefully) a lot of people will use the example for a long time. It's worth spending a bit of time getting it the way you want.
 
 We don't have codified formatting guidelines for HTML, but use 4-space indentation, anyway.
+
+### Example example
 
 An example for `<td>` could look something like this:
 

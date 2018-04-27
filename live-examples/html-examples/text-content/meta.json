@@ -8,6 +8,16 @@
             "title": "HTML Demo: <blockquote>",
             "type": "html"
         },
+        "dl": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/text-content/dl.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/dl.css",
+            "fileName": "dl.html",
+            "title": "HTML Demo: <dl>",
+            "type": "tabbed"
+        },
         "ol": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/text-content/ol.html",
