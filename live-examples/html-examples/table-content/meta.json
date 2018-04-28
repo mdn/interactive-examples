@@ -1,13 +1,23 @@
 {
     "pages": {
-        "caption": {
+        "col": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
-                "live-examples/html-examples/table-content/caption.html",
+                "live-examples/html-examples/table-content/col.html",
             "cssExampleSrc":
-                "live-examples/html-examples/table-content/css/caption.css",
-            "fileName": "caption.html",
-            "title": "HTML Demo: <caption>",
+                "live-examples/html-examples/table-content/css/col.css",
+            "fileName": "col.html",
+            "title": "HTML Demo: <col>",
+            "type": "tabbed"
+        },
+        "colgroup": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/table-content/colgroup.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/table-content/css/colgroup.css",
+            "fileName": "colgroup.html",
+            "title": "HTML Demo: <colgroup>",
             "type": "tabbed"
         },
         "table": {
