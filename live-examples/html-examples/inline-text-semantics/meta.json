@@ -10,6 +10,24 @@
             "title": "HTML Demo: <abbr>",
             "type": "tabbed"
         },
+        "cite": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/inline-text-semantics/cite.html",
+            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/cite.css",
+            "fileName": "cite.html",
+            "title": "HTML Demo: <cite>",
+            "type": "tabbed"
+        },
+        "code": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/code.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/code.css",
+            "fileName": "code.html",
+            "title": "HTML Demo: <code>",
+            "type": "tabbed"
+        },
         "data": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
@@ -28,6 +46,16 @@
                 "live-examples/html-examples/inline-text-semantics/css/dfn.css",
             "fileName": "dfn.html",
             "title": "HTML Demo: <dfn>",
+            "type": "tabbed"
+        },
+        "em": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/em.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/em.css",
+            "fileName": "em.html",
+            "title": "HTML Demo: <em>",
             "type": "tabbed"
         },
         "i": {
@@ -58,6 +86,36 @@
                 "live-examples/html-examples/inline-text-semantics/css/mark.css",
             "fileName": "mark.html",
             "title": "HTML Demo: <mark>",
+            "type": "tabbed"
+        },
+        "s": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/s.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/s.css",
+            "fileName": "s.html",
+            "title": "HTML Demo: <s>",
+            "type": "tabbed"
+        },
+        "samp": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/samp.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/samp.css",
+            "fileName": "samp.html",
+            "title": "HTML Demo: <samp>",
+            "type": "tabbed"
+        },
+        "small": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/small.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/small.css",
+            "fileName": "small.html",
+            "title": "HTML Demo: <small>",
             "type": "tabbed"
         },
         "strong": {
@@ -98,6 +156,14 @@
                 "live-examples/html-examples/inline-text-semantics/css/u.css",
             "fileName": "u.html",
             "title": "HTML Demo: <u>",
+            "type": "tabbed"
+        },
+        "q": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/inline-text-semantics/q.html",
+            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/q.css",
+            "fileName": "q.html",
+            "title": "HTML Demo: <q>",
             "type": "tabbed"
         }
     }
