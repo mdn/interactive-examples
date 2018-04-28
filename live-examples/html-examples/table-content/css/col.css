@@ -19,7 +19,8 @@ table {
     font-size: .7rem;
 }
 
-td, th {
+td,
+th {
     border: 1px solid rgb(100, 100, 100);
     padding: 10px 10px;
 }
