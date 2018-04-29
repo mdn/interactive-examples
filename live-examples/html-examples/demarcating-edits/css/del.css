@@ -12,5 +12,5 @@ ins {
 blockquote {
     padding-left: 15px;
     border-left: 3px solid #d7d7db;
-    line-height: 1.5;
+    font-size: 1rem;
 }
