@@ -21,7 +21,7 @@ p {
     font-size: 0.95rem;
 }
 
-p::first-letter{
+p::first-letter {
     font-size: 3.2rem;
     float: left;
     padding-right: 8px;
