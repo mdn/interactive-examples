@@ -1,11 +1,11 @@
-p {
-    padding: 10px;
-    line-height: 1.5;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 .output {
     background: #eee;
+    position: relative;
 }
