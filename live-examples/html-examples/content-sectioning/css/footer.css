@@ -19,5 +19,6 @@ footer ul {
     display: flex;
     justify-content: space-around;
     margin: 0;
+    padding-left: 0;
     list-style: none;
 }
