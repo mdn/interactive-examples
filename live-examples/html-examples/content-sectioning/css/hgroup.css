@@ -23,6 +23,7 @@ p {
 
 p::first-letter {
     font-size: 3.2rem;
+    line-height: .7;
     float: left;
     padding-right: 8px;
     padding-top: 4px;
