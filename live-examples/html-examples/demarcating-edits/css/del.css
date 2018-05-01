@@ -1,0 +1,16 @@
+del {
+    text-decoration: line-through;
+    background-color: #fbb;
+    color: #555;
+}
+
+ins {
+    text-decoration: none;
+    background-color: #d4fcbc;
+}
+
+blockquote {
+    padding-left: 15px;
+    border-left: 3px solid #d7d7db;
+    font-size: 1rem;
+}

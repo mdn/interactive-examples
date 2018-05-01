@@ -24,6 +24,14 @@
             "title": "HTML Demo: <input type=\"date\">",
             "type": "tabbed"
         },
+        "datetime-local": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/datetime-local.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/datetime-local.css",
+            "fileName": "input-datetime-local.html",
+            "title": "HTML Demo: <input type=\"datetime-local\">",
+            "type": "tabbed"
+        },
         "file": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/input/file.html",
