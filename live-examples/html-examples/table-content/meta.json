@@ -1,5 +1,15 @@
 {
     "pages": {
+        "caption": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+              "live-examples/html-examples/table-content/caption.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/table-content/css/caption.css",
+            "fileName": "caption.html",
+            "title": "HTML Demo: <caption>",
+            "type": "tabbed"
+        },
         "col": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
