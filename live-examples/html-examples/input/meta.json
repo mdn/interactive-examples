@@ -47,6 +47,14 @@
             "fileName": "input-file.html",
             "title": "HTML Demo: <input type=\"file\">",
             "type": "tabbed"
+        },
+        "image": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/image.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/image.css",
+            "fileName": "input-image.html",
+            "title": "HTML Demo: <input type=\"image\">",
+            "type": "tabbed"
         }
     }
 }
