@@ -3,11 +3,31 @@
         "caption": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
-                "live-examples/html-examples/table-content/caption.html",
+              "live-examples/html-examples/table-content/caption.html",
             "cssExampleSrc":
                 "live-examples/html-examples/table-content/css/caption.css",
             "fileName": "caption.html",
             "title": "HTML Demo: <caption>",
+            "type": "tabbed"
+        },
+        "col": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/table-content/col.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/table-content/css/col.css",
+            "fileName": "col.html",
+            "title": "HTML Demo: <col>",
+            "type": "tabbed"
+        },
+        "colgroup": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/table-content/colgroup.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/table-content/css/colgroup.css",
+            "fileName": "colgroup.html",
+            "title": "HTML Demo: <colgroup>",
             "type": "tabbed"
         },
         "table": {
@@ -18,6 +38,36 @@
                 "live-examples/html-examples/table-content/css/table.css",
             "fileName": "table.html",
             "title": "HTML Demo: <table>",
+            "type": "tabbed"
+        },
+        "td": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/table-content/td.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/table-content/css/td.css",
+            "fileName": "td.html",
+            "title": "HTML Demo: <td>",
+            "type": "tabbed"
+        },
+        "th": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/table-content/th.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/table-content/css/th.css",
+            "fileName": "th.html",
+            "title": "HTML Demo: <th>",
+            "type": "tabbed"
+        },
+        "tr": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/table-content/tr.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/table-content/css/tr.css",
+            "fileName": "tr.html",
+            "title": "HTML Demo: <tr>",
             "type": "tabbed"
         }
     }

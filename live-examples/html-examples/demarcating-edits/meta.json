@@ -1,0 +1,14 @@
+{
+    "pages": {
+        "del": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/demarcating-edits/del.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/demarcating-edits/css/del.css",
+            "fileName": "del.html",
+            "title": "HTML Demo: <del>",
+            "type": "tabbed"
+        }
+    }
+}

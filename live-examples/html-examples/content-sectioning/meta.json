@@ -47,6 +47,14 @@
             "fileName": "header.html",
             "title": "HTML Demo: <header>",
             "type": "tabbed"
+        },
+        "hgroup": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/content-sectioning/hgroup.html",
+            "cssExampleSrc": "live-examples/html-examples/content-sectioning/css/hgroup.css",
+            "fileName": "hgroup.html",
+            "title": "HTML Demo: <hgroup>",
+            "type": "tabbed"
         }
     }
 }
