@@ -16,11 +16,8 @@ legend {
 
 label {
     font-size: .8rem;
-}
-
-legend,
-input {
-    margin-bottom: 1rem;
+    display: block;
+    margin: 1rem 0 .2rem 0;
 }
 
 input:invalid:not(:focus) {
