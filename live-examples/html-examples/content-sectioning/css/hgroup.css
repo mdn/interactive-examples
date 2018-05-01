@@ -1,0 +1,30 @@
+hgroup {
+    text-align: right;
+    font-family: Verdana, sans-serif;
+    padding-right: 16px;
+    border-right: 10px solid #00c8d7;
+}
+
+h1 {
+    font-size: 1.93rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.16rem;
+    margin-top: 0;
+}
+
+p {
+    text-align: justify;
+    font-family: Georgia, serif;
+    font-size: .95rem;
+}
+
+p::first-letter {
+    font-size: 3.2rem;
+    line-height: .7;
+    float: left;
+    padding-right: 8px;
+    padding-top: 4px;
+}
