@@ -23,6 +23,30 @@
             "fileName": "input-date.html",
             "title": "HTML Demo: <input type=\"date\">",
             "type": "tabbed"
+        },
+        "datetime-local": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/datetime-local.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/datetime-local.css",
+            "fileName": "input-datetime-local.html",
+            "title": "HTML Demo: <input type=\"datetime-local\">",
+            "type": "tabbed"
+        },
+        "email": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/email.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/email.css",
+            "fileName": "input-email.html",
+            "title": "HTML Demo: <input type=\"email\">",
+            "type": "tabbed"
+        },
+        "file": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/file.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/file.css",
+            "fileName": "input-file.html",
+            "title": "HTML Demo: <input type=\"file\">",
+            "type": "tabbed"
         }
     }
 }
