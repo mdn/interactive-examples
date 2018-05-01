@@ -32,6 +32,14 @@
             "title": "HTML Demo: <input type=\"datetime-local\">",
             "type": "tabbed"
         },
+        "email": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/email.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/email.css",
+            "fileName": "input-email.html",
+            "title": "HTML Demo: <input type=\"email\">",
+            "type": "tabbed"
+        },
         "file": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/input/file.html",
