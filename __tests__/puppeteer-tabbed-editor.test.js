@@ -1,6 +1,6 @@
 describe('Tabbed Editor', () => {
     beforeAll(async () => {
-        await page.goto('http://127.0.0.1:4444/pages/tabbed/table.html');
+        await page.goto('http://127.0.0.1:9000/pages/tabbed/table.html');
     });
 
     it('loads the expected HTML into the output element', async () => {
