@@ -16,16 +16,16 @@ legend {
 
 input,
 label {
-    width: 40%;
+    width: 43%;
 }
 
 input {
-    margin: .4rem;
+    margin: 1rem 0;
 }
 
 label {
     display: inline-block;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 input:invalid + span:after {
