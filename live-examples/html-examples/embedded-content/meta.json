@@ -1,5 +1,13 @@
 {
     "pages": {
+        "iframe": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/embedded-content/iframe.html",
+            "cssExampleSrc": "live-examples/html-examples/embedded-content/css/iframe.css",
+            "fileName": "iframe.html",
+            "title": "HTML Demo: <iframe>",
+            "type": "tabbed"
+        },
         "picture": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/embedded-content/picture.html",
