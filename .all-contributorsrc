@@ -350,6 +350,14 @@
                 "https://avatars3.githubusercontent.com/u/1641439?s=460&v=4",
             "profile": "https://github.com/a2sheppy",
             "contributions": ["code"]
+        },
+        {
+            "login": "sheeeng",
+            "name": "Leonard Lee",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/305414?s=460&v=4",
+            "profile": "https://github.com/sheeeng",
+            "contributions": ["code"]
         }
     ]
 }
