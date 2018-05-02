@@ -183,6 +183,14 @@
             "fileName": "var.html",
             "title": "HTML Demo: <var>",
             "type": "tabbed"
+        },
+        "wbr": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/inline-text-semantics/wbr.html",
+            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/wbr.css",
+            "fileName": "wbr.html",
+            "title": "HTML Demo: <wbr>",
+            "type": "tabbed"
         }
     }
 }
