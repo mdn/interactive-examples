@@ -47,6 +47,14 @@
             "fileName": "input-file.html",
             "title": "HTML Demo: <input type=\"file\">",
             "type": "tabbed"
+        },
+        "password": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/password.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/password.css",
+            "fileName": "input-password.html",
+            "title": "HTML Demo: <input type=\"password\">",
+            "type": "tabbed"
         }
     }
 }
