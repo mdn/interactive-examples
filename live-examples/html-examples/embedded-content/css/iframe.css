@@ -1,15 +1,8 @@
-footer {
-    font-size: .8rem;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-}
-
 iframe {
     border: 1px solid black;
+    width: 100%;
 }
 
 .output {
     background: #eee;
-    position: relative;
 }
