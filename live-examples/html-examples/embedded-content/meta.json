@@ -7,6 +7,14 @@
             "fileName": "picture.html",
             "title": "HTML Demo: <picture>",
             "type": "tabbed"
+        },
+        "source": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/embedded-content/source.html",
+            "cssExampleSrc": "live-examples/html-examples/embedded-content/css/source.css",
+            "fileName": "source.html",
+            "title": "HTML Demo: <source>",
+            "type": "tabbed"
         }
     }
 }
