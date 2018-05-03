@@ -9,6 +9,16 @@
             "fileName": "del.html",
             "title": "HTML Demo: <del>",
             "type": "tabbed"
+        },
+        "ins": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/demarcating-edits/ins.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/demarcating-edits/css/ins.css",
+            "fileName": "ins.html",
+            "title": "HTML Demo: <ins>",
+            "type": "tabbed"
         }
     }
 }

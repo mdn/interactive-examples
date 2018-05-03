@@ -42,9 +42,10 @@ npm install
 This will ensure that you have all the required development modules installed to build and test your contributions. You are now ready to contribute.
 
 We've written separate guides to contributing each type of example:
-* [Contributing a CSS example](CONTRIBUTING-CSS.md)
-* [Contributing an HTML example](CONTRIBUTING-HTML.md)
-* [Contributing a JavaScript example](CONTRIBUTING-JavaScript.md)
+
+*   [Contributing a CSS example](CONTRIBUTING-CSS.md)
+*   [Contributing an HTML example](CONTRIBUTING-HTML.md)
+*   [Contributing a JavaScript example](CONTRIBUTING-JavaScript.md)
 
 ## Testing
 
@@ -67,15 +68,15 @@ This should give you some output including lines like:
 ```
 Starting up http-server, serving ./docs
 Available on:
-  http://127.0.0.1:4444
-  http://192.168.1.68:4444
+  http://127.0.0.1:9090
+  http://192.168.1.68:9090
 ```
 
 Point your browser to either of those URLs, then click on the `pages` link. In the page that appears:
 
-* CSS examples are under `css`
-* JavaScript examples are under `js`
-* HTML examples are under `tabbed`
+*   CSS examples are under `css`
+*   JavaScript examples are under `js`
+*   HTML examples are under `tabbed`
 
 Find your example and try it out. Once you're satisfied, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
 
