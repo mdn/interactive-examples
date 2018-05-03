@@ -48,14 +48,22 @@
             "title": "HTML Demo: <input type=\"file\">",
             "type": "tabbed"
         },
-       "month": {
+        "image": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/image.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/image.css",
+            "fileName": "input-image.html",
+            "title": "HTML Demo: <input type=\"image\">",
+            "type": "tabbed"
+        },
+        "month": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/input/month.html",
             "cssExampleSrc": "live-examples/html-examples/input/css/month.css",
             "fileName": "input-month.html",
             "title": "HTML Demo: <input type=\"month\">",
             "type": "tabbed"
-       },
+        },
         "radio": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/input/radio.html",
