@@ -1,6 +1,6 @@
 module.exports = {
     server: {
-        command: 'npm run start-server',
-        port: 4444
+        command: 'npm run start-testing-server',
+        port: 9000
     }
 };
