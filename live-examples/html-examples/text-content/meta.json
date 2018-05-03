@@ -38,6 +38,16 @@
             "title": "HTML Demo: <dt>",
             "type": "tabbed"
         },
+        "hr": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/text-content/hr.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/hr.css",
+            "fileName": "hr.html",
+            "title": "HTML Demo: <hr>",
+            "type": "tabbed"
+        },
         "ol": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/text-content/ol.html",
