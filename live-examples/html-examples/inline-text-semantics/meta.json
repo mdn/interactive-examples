@@ -175,6 +175,14 @@
             "fileName": "q.html",
             "title": "HTML Demo: <q>",
             "type": "tabbed"
+        },
+        "var": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/inline-text-semantics/var.html",
+            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/var.css",
+            "fileName": "var.html",
+            "title": "HTML Demo: <var>",
+            "type": "tabbed"
         }
     }
 }
