@@ -71,6 +71,14 @@
             "fileName": "input-radio.html",
             "title": "HTML Demo: <input type=\"radio\">",
             "type": "tabbed"
+        },
+        "range": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/range.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/range.css",
+            "fileName": "input-range.html",
+            "title": "HTML Demo: <input type=\"range\">",
+            "type": "tabbed"
         }
     }
 }
