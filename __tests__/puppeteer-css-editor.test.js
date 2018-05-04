@@ -1,6 +1,6 @@
 describe('CSS Editor', () => {
     beforeAll(async () => {
-        await page.goto('http://127.0.0.1:4444/pages/css/animation.html');
+        await page.goto('http://127.0.0.1:9000/pages/css/animation.html');
     });
 
     it('sets the example-element\'s style attribute to the correct value', async () => {

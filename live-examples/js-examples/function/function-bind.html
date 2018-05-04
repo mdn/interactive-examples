@@ -6,11 +6,11 @@
   }
 }
 
-var retrieveX = module.getX;
-console.log(retrieveX()); // The function gets invoked at the global scope
+var unboundGetX = module.getX;
+console.log(unboundGetX()); // The function gets invoked at the global scope
 // expected output: undefined
 
-var boundGetX = retrieveX.bind(module);
+var boundGetX = unboundGetX.bind(module);
 console.log(boundGetX());
 // expected output: 42
 </code>

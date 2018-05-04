@@ -47,6 +47,46 @@
             "fileName": "input-file.html",
             "title": "HTML Demo: <input type=\"file\">",
             "type": "tabbed"
+        },
+        "image": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/image.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/image.css",
+            "fileName": "input-image.html",
+            "title": "HTML Demo: <input type=\"image\">",
+            "type": "tabbed"
+        },
+        "month": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/month.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/month.css",
+            "fileName": "input-month.html",
+            "title": "HTML Demo: <input type=\"month\">",
+            "type": "tabbed"
+        },
+        "number": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/number.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/number.css",
+            "fileName": "input-number.html",
+            "title": "HTML Demo: <input type=\"number\">",
+            "type": "tabbed"
+        },
+        "radio": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/radio.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/radio.css",
+            "fileName": "input-radio.html",
+            "title": "HTML Demo: <input type=\"radio\">",
+            "type": "tabbed"
+        },
+        "range": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/range.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/range.css",
+            "fileName": "input-range.html",
+            "title": "HTML Demo: <input type=\"range\">",
+            "type": "tabbed"
         }
     }
 }
