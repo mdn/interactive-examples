@@ -64,6 +64,14 @@
             "title": "HTML Demo: <input type=\"month\">",
             "type": "tabbed"
         },
+        "number": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/number.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/number.css",
+            "fileName": "input-number.html",
+            "title": "HTML Demo: <input type=\"number\">",
+            "type": "tabbed"
+        },
         "radio": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/input/radio.html",
