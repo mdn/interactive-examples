@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('FiraSans-Regular'),
+    url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
+}
+
+legend {
+    background-color: #000;
+    color: #ffffff;
+    padding: 3px 6px;
+}
+
+.btn {
+    font: 1rem 'Fira Sans', sans-serif;
+    padding: 1rem;
+    background: #86d1f0;
+    border: none;
+    border-radius: 4px;
+    margin: 4px;
+    outline: none;
+}
