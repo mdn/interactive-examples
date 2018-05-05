@@ -56,6 +56,14 @@
             "title": "HTML Demo: <input type=\"image\">",
             "type": "tabbed"
         },
+        "input": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/input.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/input.css",
+            "fileName": "input-input.html",
+            "title": "HTML Demo: <input type=\"input\">",
+            "type": "tabbed"
+        },
         "month": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/input/month.html",

@@ -1,0 +1,24 @@
+<fieldset>
+    <legend>Input</legend>
+    <form>
+        <label for="display-name"> Name:
+            <span class="warning">*(Allows only alphabets.)</span> 
+        </label>
+        <input type="text" name="display-name" 
+               pattern="[A-Za-z\s]+"
+               maxlength="5" minlength="2" value="Aa" required>
+        <span class="validity"></span>
+
+        <label for="readonly-ip">ReadOnly:</label>
+        <input type="text" name="readonly-ip"
+               placeholder="I'm read only." readonly />
+
+        <label for="disabled-ip">Disabled:</label>
+        <input type="text"
+               name="disabled-ip"
+               value="I am disabled"
+               disabled />
+        <br/>
+        <input type="submit" class="submit" value="Submit"/>
+    </form>
+</fieldset>
