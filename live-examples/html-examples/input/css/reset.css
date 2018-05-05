@@ -8,7 +8,6 @@ legend {
     background-color: #000;
     color: #fff;
     padding: 3px 6px;
-    margin-bottom: .7rem;
 }
 
 .output {
@@ -16,6 +15,7 @@ legend {
 }
 
 fieldset {
+    padding-top: 1rem;
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr / 1fr 2fr;
     gap: .7rem;
