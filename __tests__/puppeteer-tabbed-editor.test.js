@@ -8,7 +8,7 @@ describe('Tabbed Editor', () => {
             '<style>table,' +
             'td { border: 1px solid #333;}' +
             'thead,tfoot { background-color: #333; color: #fff;}' +
-            '</style><table> <thead> <tr> ' +
+            '</style><div><table> <thead> <tr> ' +
             '<th colspan="2">The table header</th> </tr> </thead> ' +
             '<tbody> <tr> ' +
             '<td>The table body</td> ' +
@@ -17,14 +17,16 @@ describe('Tabbed Editor', () => {
             '<tfoot> ' +
             '<tr> ' +
             '<td colspan="2">The table footer</td> ' +
-            '</tr> </tfoot></table>';
+            '</tr> </tfoot></table></div>';
 
         await page.waitForSelector('#output');
 
-        let outputContent = await page.$eval('#output', elem =>
+        let outputContent = await page.$eval('#output shadow-output', elem =>
             /* trim new lines, then trim matches of two or more consecutive
-               whitespace characters with a    single whitespace character */
-            elem.innerHTML.replace(/\r?\n|\r/g, '').replace(/\s{2,}/g, ' ')
+               whitespace characters with a single whitespace character */
+            elem.shadowRoot.innerHTML
+                .replace(/\r?\n|\r/g, '')
+                .replace(/\s{2,}/g, ' ')
         );
         await expect(outputContent).toBe(expectedOutput);
     });

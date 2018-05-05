@@ -1,6 +1,7 @@
 (function() {
     'use strict';
 
+    var shadowOutput = require('./editor-libs/shadow-output');
     var tabby = require('./editor-libs/tabby');
 
     var cssEditor = document.getElementById('css-editor');
@@ -8,7 +9,6 @@
     var htmlEditor = document.getElementById('html-editor');
     var staticCSSCode = cssEditor.querySelector('pre');
     var staticHTMLCode = htmlEditor.querySelector('pre');
-    var output = document.getElementById('output');
     var timer;
 
     /**
@@ -16,9 +16,12 @@
      * @returns Concatenated code from all tabs
      */
     function getOutput() {
-        var html = tabby.editors.html.editor.getValue();
-        var style = '<style>' + tabby.editors.css.editor.getValue() + '</style>';
-        return style + html;
+        var htmlContent = tabby.editors.html.editor.getValue();
+        var cssContent = tabby.editors.css.editor.getValue();
+        return {
+            cssContent,
+            htmlContent
+        };
     }
 
     /**
@@ -31,7 +34,7 @@
         clearTimeout(timer);
 
         timer = setTimeout(function() {
-            output.innerHTML = getOutput();
+            shadowOutput.render(getOutput());
         }, 500);
     }
 
@@ -60,6 +63,7 @@
     tabby.initEditor(['html', 'css']);
     tabby.registerEventListeners();
 
-    // apply the current source on load
-    output.innerHTML = getOutput();
+    // register the custom output element
+    customElements.define('shadow-output', shadowOutput);
+    shadowOutput.render(getOutput());
 })();
