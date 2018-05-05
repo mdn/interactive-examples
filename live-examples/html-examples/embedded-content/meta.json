@@ -24,14 +24,6 @@
             "title": "HTML Demo: <object>",
             "type": "tabbed"
         },
-        "param": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/embedded-content/param.html",
-            "cssExampleSrc": "live-examples/html-examples/embedded-content/css/param.css",
-            "fileName": "param.html",
-            "title": "HTML Demo: <param>",
-            "type": "tabbed"
-        },
         "picture": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/embedded-content/picture.html",
