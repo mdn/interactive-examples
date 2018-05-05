@@ -87,6 +87,14 @@
             "fileName": "input-range.html",
             "title": "HTML Demo: <input type=\"range\">",
             "type": "tabbed"
+        },
+        "reset": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/reset.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/reset.css",
+            "fileName": "input-reset.html",
+            "title": "HTML Demo: <input type=\"reset\">",
+            "type": "tabbed"
         }
     }
 }

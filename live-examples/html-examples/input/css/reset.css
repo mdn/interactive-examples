@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('FiraSans-Regular'),
+    url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+    margin-bottom: .7rem;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+fieldset {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 2fr;
+    gap: .7rem;
+}
+
+label {
+    font-size: .8rem;
+    justify-self: end;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    width: 5rem;
+    justify-self: end;
+}
+
+input[type="reset"] {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+input[type="submit"] {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
