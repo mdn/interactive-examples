@@ -48,6 +48,16 @@
             "title": "HTML Demo: <hr>",
             "type": "tabbed"
         },
+        "li": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/text-content/li.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/li.css",
+            "fileName": "li.html",
+            "title": "HTML Demo: <li>",
+            "type": "tabbed"
+        },
         "ol": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/text-content/ol.html",
