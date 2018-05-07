@@ -47,6 +47,15 @@
             "title": "HTML Demo: <ol>",
             "type": "tabbed"
         },
+        "p": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/text-content/p.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/p.css",
+            "fileName": "p.html",
+            "title": "HTML Demo: <p>",
+            "type": "tabbed"
+        },
         "pre": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/text-content/pre.html",
