@@ -2,11 +2,11 @@ module.exports = {
     env: {
         browser: true,
         es6: true,
-        jest: true,
+        jest: true
     },
     extends: 'eslint:recommended',
     parserOptions: {
-        "ecmaVersion": 8
+        ecmaVersion: 8
     },
     rules: {
         'no-global-assign': 2,
@@ -41,6 +41,7 @@ module.exports = {
         page: true,
         Prism: true,
         require: true,
+        ShadyCSS: true,
         test: true
     }
 };

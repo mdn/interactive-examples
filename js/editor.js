@@ -12,8 +12,14 @@
     var timer;
 
     /**
-     * Called by the tabbed editor to combine code from all tabs.
-     * @returns Concatenated code from all tabs
+     * Called by the tabbed editor to combine code from all tabs in an Object
+     * @returns Object with code from each tab panel
+     * Example
+     * --------
+     * {
+     *     cssContent: 'h1 { background-color: #333; }',
+     *     htmlContent: '<h1>Title</h1>'
+     * }
      */
     function getOutput() {
         var htmlContent = tabby.editors.html.editor.getValue();
