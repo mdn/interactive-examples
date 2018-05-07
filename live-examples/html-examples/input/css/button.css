@@ -6,16 +6,15 @@
 
 legend {
     background-color: #000;
-    color: #ffffff;
+    color: #fff;
     padding: 3px 6px;
 }
 
 .btn {
     font: 1rem 'Fira Sans', sans-serif;
-    padding: 1rem;
+    padding: 0.5rem;
     background: #86d1f0;
     border: none;
     border-radius: 4px;
     margin: 4px;
-    outline: none;
 }
