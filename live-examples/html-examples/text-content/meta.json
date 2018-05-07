@@ -38,6 +38,16 @@
             "title": "HTML Demo: <dt>",
             "type": "tabbed"
         },
+        "hr": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/text-content/hr.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/hr.css",
+            "fileName": "hr.html",
+            "title": "HTML Demo: <hr>",
+            "type": "tabbed"
+        },
         "ol": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/text-content/ol.html",
@@ -45,6 +55,15 @@
                 "live-examples/html-examples/text-content/css/ol.css",
             "fileName": "ol.html",
             "title": "HTML Demo: <ol>",
+            "type": "tabbed"
+        },
+        "p": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/text-content/p.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/p.css",
+            "fileName": "p.html",
+            "title": "HTML Demo: <p>",
             "type": "tabbed"
         },
         "pre": {
