@@ -95,6 +95,14 @@
             "fileName": "input-range.html",
             "title": "HTML Demo: <input type=\"range\">",
             "type": "tabbed"
+        },
+        "url": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/url.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/url.css",
+            "fileName": "input-url.html",
+            "title": "HTML Demo: <input type=\"url\">",
+            "type": "tabbed"
         }
     }
 }
