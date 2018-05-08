@@ -178,6 +178,16 @@
             "title": "HTML Demo: <sup>",
             "type": "tabbed"
         },
+        "time": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/time.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/time.css",
+            "fileName": "time.html",
+            "title": "HTML Demo: <time>",
+            "type": "tabbed"
+        },
         "u": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
