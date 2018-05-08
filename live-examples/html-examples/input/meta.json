@@ -1,0 +1,100 @@
+{
+    "pages": {
+        "checkbox": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/checkbox.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/checkbox.css",
+            "fileName": "input-checkbox.html",
+            "title": "HTML Demo: <input type=\"checkbox\">",
+            "type": "tabbed"
+        },
+        "color": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/color.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/color.css",
+            "fileName": "input-color.html",
+            "title": "HTML Demo: <input type=\"color\">",
+            "type": "tabbed"
+        },
+        "date": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/date.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/date.css",
+            "fileName": "input-date.html",
+            "title": "HTML Demo: <input type=\"date\">",
+            "type": "tabbed"
+        },
+        "datetime-local": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/datetime-local.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/datetime-local.css",
+            "fileName": "input-datetime-local.html",
+            "title": "HTML Demo: <input type=\"datetime-local\">",
+            "type": "tabbed"
+        },
+        "email": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/email.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/email.css",
+            "fileName": "input-email.html",
+            "title": "HTML Demo: <input type=\"email\">",
+            "type": "tabbed"
+        },
+        "file": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/file.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/file.css",
+            "fileName": "input-file.html",
+            "title": "HTML Demo: <input type=\"file\">",
+            "type": "tabbed"
+        },
+        "image": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/image.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/image.css",
+            "fileName": "input-image.html",
+            "title": "HTML Demo: <input type=\"image\">",
+            "type": "tabbed"
+        },
+        "month": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/month.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/month.css",
+            "fileName": "input-month.html",
+            "title": "HTML Demo: <input type=\"month\">",
+            "type": "tabbed"
+        },
+        "number": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/number.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/number.css",
+            "fileName": "input-number.html",
+            "title": "HTML Demo: <input type=\"number\">",
+            "type": "tabbed"
+        },
+        "password": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/password.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/password.css",
+            "fileName": "input-password.html",
+            "title": "HTML Demo: <input type=\"password\">",
+            "type": "tabbed"
+        },
+        "radio": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/radio.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/radio.css",
+            "fileName": "input-radio.html",
+            "title": "HTML Demo: <input type=\"radio\">",
+            "type": "tabbed"
+        },
+        "range": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/range.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/range.css",
+            "fileName": "input-range.html",
+            "title": "HTML Demo: <input type=\"range\">",
+            "type": "tabbed"
+        }
+    }
+}

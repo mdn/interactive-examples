@@ -342,6 +342,30 @@
                 "https://avatars3.githubusercontent.com/u/4089035?s=460&v=4",
             "profile": "https://github.com/2alin",
             "contributions": ["code"]
+        },
+        {
+            "login": "a2sheppy",
+            "name": "Eric Shepherd",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/1641439?s=460&v=4",
+            "profile": "https://github.com/a2sheppy",
+            "contributions": ["code"]
+        },
+        {
+            "login": "sheeeng",
+            "name": "Leonard Lee",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/305414?s=460&v=4",
+            "profile": "https://github.com/sheeeng",
+            "contributions": ["code"]
+        },
+        {
+            "login": "tbazin",
+            "name": "Théis Bazin",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/9104039?s=460&v=4",
+            "profile": "https://github.com/tbazin",
+            "contributions": ["code"]
         }
     ]
 }
