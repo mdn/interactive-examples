@@ -1,0 +1,12 @@
+blockquote {
+  background: #eee;
+  border-radius: 5px;
+}
+blockquote p {
+	padding: 15px;
+}
+
+blockquote p::before,
+blockquote p::after {
+	content: '\201C';
+}
