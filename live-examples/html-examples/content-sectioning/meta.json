@@ -56,6 +56,14 @@
             "title": "HTML Demo: <hgroup>",
             "type": "tabbed"
         },
+        "nav": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/content-sectioning/nav.html",
+            "cssExampleSrc": "live-examples/html-examples/content-sectioning/css/nav.css",
+            "fileName": "nav.html",
+            "title": "HTML Demo: <nav>",
+            "type": "tabbed"
+        },
         "section": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/content-sectioning/section.html",
