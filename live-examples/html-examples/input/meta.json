@@ -111,6 +111,14 @@
             "fileName": "input-reset.html",
             "title": "HTML Demo: <input type=\"reset\">",
             "type": "tabbed"
+        },
+        "tel": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/tel.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/tel.css",
+            "fileName": "input-tel.html",
+            "title": "HTML Demo: <input type=\"tel\">",
+            "type": "tabbed"
         }
     }
 }
