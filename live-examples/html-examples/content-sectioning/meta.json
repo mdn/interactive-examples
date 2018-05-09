@@ -40,6 +40,14 @@
             "title": "HTML Demo: <footer>",
             "type": "tabbed"
         },
+        "h1": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/content-sectioning/h1-h6.html",
+            "cssExampleSrc": "live-examples/html-examples/content-sectioning/css/h1-h6.css",
+            "fileName": "h1-h6.html",
+            "title": "HTML Demo: <h1> - <h6>",
+            "type": "tabbed"
+        },
         "header": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/content-sectioning/header.html",
