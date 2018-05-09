@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'Fira Sans';
-  src: local('FiraSans-Regular'),
-  url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
+    font-family: 'Fira Sans';
+    src: local('FiraSans-Regular'),
+    url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
 }
 
 legend {
-  background-color: #000;
-  color: #ffffff;
-  padding: 3px 6px;
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
 }
 
 input,
@@ -16,11 +16,10 @@ label {
 }
 
 input {
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-  border-radius: 4px;
-  border: 1px solid #ddd;
-  outline: none;
+    margin: .5rem 0;
+    padding: .5rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
 }
 
 label {
@@ -29,24 +28,24 @@ label {
 }
 
 input:invalid + span:after {
-  content: '✖';
-  color: red;
-  padding-left: 5px;
+    content: '✖';
+    color: red;
+    padding-left: 5px;
 }
 
 input:valid + span:after {
-  content: '✓';
-  color: green;
-  padding-left: 5px;
+    content: '✓';
+    color: green;
+    padding-left: 5px;
 }
 
 .warning {
-  font-size: 0.65rem;
-  color: #e67d09;
+    font-size: .65rem;
+    color: #e67d09;
 }
 
 .submit {
-  width: 92%;
-  margin: 0 auto;
+    width: 92%;
+    margin: 0 auto;
 }
 
