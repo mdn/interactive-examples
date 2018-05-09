@@ -127,6 +127,14 @@
             "fileName": "input-text.html",
             "title": "HTML Demo: <input type=\"text\">",
             "type": "tabbed"
+        },
+        "time": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/time.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/time.css",
+            "fileName": "input-time.html",
+            "title": "HTML Demo: <input type=\"time\">",
+            "type": "tabbed"
         }
     }
 }
