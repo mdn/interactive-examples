@@ -1,5 +1,13 @@
 {
     "pages": {
+        "button": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/button.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/button.css",
+            "fileName": "input-button.html",
+            "title": "HTML Demo: <input type=\"button\">",
+            "type": "tabbed"
+        },
         "checkbox": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/input/checkbox.html",
@@ -94,6 +102,14 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/range.css",
             "fileName": "input-range.html",
             "title": "HTML Demo: <input type=\"range\">",
+            "type": "tabbed"
+        },
+        "reset": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/reset.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/reset.css",
+            "fileName": "input-reset.html",
+            "title": "HTML Demo: <input type=\"reset\">",
             "type": "tabbed"
         },
         "tel": {
