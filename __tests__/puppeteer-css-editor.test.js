@@ -5,7 +5,7 @@ describe('CSS Editor', () => {
 
     it('sets the example-element\'s style attribute to the correct value', async () => {
         const expectedStyleAttr =
-            'animation: slidein 3s linear 1s infinite running;';
+            'animation: slidein 3s linear 1s infinite normal none running;';
 
         await page.waitForSelector('#example-choice-list');
         await page.click('#example-choice-list .example-choice:nth-child(2)');
