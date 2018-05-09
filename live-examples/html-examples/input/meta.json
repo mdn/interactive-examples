@@ -119,6 +119,14 @@
             "fileName": "input-tel.html",
             "title": "HTML Demo: <input type=\"tel\">",
             "type": "tabbed"
+        },
+        "text": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/text.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/text.css",
+            "fileName": "input-text.html",
+            "title": "HTML Demo: <input type=\"text\">",
+            "type": "tabbed"
         }
     }
 }
