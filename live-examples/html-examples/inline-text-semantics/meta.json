@@ -20,6 +20,16 @@
             "title": "HTML Demo: <b>",
             "type": "tabbed"
         },
+        "br": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/br.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/br.css",
+            "fileName": "br.html",
+            "title": "HTML Demo: <br>",
+            "type": "tabbed"
+        },
         "cite": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/inline-text-semantics/cite.html",
@@ -168,6 +178,16 @@
             "title": "HTML Demo: <sup>",
             "type": "tabbed"
         },
+        "time": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/time.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/time.css",
+            "fileName": "time.html",
+            "title": "HTML Demo: <time>",
+            "type": "tabbed"
+        },
         "u": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
@@ -192,6 +212,14 @@
             "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/var.css",
             "fileName": "var.html",
             "title": "HTML Demo: <var>",
+            "type": "tabbed"
+        },
+        "wbr": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/inline-text-semantics/wbr.html",
+            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/wbr.css",
+            "fileName": "wbr.html",
+            "title": "HTML Demo: <wbr>",
             "type": "tabbed"
         }
     }
