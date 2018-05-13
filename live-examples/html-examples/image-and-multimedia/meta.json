@@ -9,6 +9,16 @@
             "fileName": "audio.html",
             "title": "HTML Demo: <audio>",
             "type": "tabbed"
+        },
+        "area": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/image-and-multimedia/area.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/image-and-multimedia/css/area.css",
+            "fileName": "area.html",
+            "title": "HTML Demo: <area>",
+            "type": "tabbed"
         }
     }
 }
