@@ -7,5 +7,10 @@ var array1 = [1, 30, 39, 29, 10, 13];
 
 console.log(array1.every(isBelowThreshold));
 // expected output: true
+
+var emptyArray = [];
+console.log(emptyArray.every(item => item === 'some value'));
+//Expected output: false; But this returns true as stated in note point above.
+
 </code>
 </pre>
