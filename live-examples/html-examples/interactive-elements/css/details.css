@@ -1,0 +1,41 @@
+details {
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin-left: -.5em;
+    margin-right: -.5em;
+    margin-top: -.5em;
+    padding: .5em;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: '+';
+    margin-right: .25em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    color: #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary::before {
+    content: '–';
+}
+
+code {
+    background-color: #fdf6e3;
+    color: #268bd2;
+}
