@@ -120,6 +120,14 @@
             "title": "HTML Demo: <input type=\"reset\">",
             "type": "tabbed"
         },
+        "search": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/search.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/search.css",
+            "fileName": "input-search.html",
+            "title": "HTML Demo: <input type=\"search\">",
+            "type": "tabbed"
+        },
         "tel": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/input/tel.html",
