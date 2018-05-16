@@ -151,6 +151,14 @@
             "fileName": "input-time.html",
             "title": "HTML Demo: <input type=\"time\">",
             "type": "tabbed"
+        },
+        "url": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/url.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/url.css",
+            "fileName": "input-url.html",
+            "title": "HTML Demo: <input type=\"url\">",
+            "type": "tabbed"
         }
     }
 }
