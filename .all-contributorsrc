@@ -374,6 +374,14 @@
                 "https://avatars3.githubusercontent.com/u/4323265?s=460&v=4",
             "profile": "https://github.com/nnupoor",
             "contributions": ["code"]
+        },
+        {
+            "login": "stephanmax",
+            "name": "Stephan Max",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/334191?s=460&v=4",
+            "profile": "https://github.com/stephanmax",
+            "contributions": ["code"]
         }
     ]
 }
