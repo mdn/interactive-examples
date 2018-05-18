@@ -382,6 +382,14 @@
                 "https://avatars3.githubusercontent.com/u/334191?s=460&v=4",
             "profile": "https://github.com/stephanmax",
             "contributions": ["code"]
+        },
+        {
+            "login": "Regaddi",
+            "name": "Christian Stuff",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/1336590?s=460&v=4",
+            "profile": "https://github.com/Regaddi",
+            "contributions": ["code"]
         }
     ]
 }
