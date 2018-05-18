@@ -120,6 +120,14 @@
             "title": "HTML Demo: <input type=\"reset\">",
             "type": "tabbed"
         },
+        "search": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/search.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/search.css",
+            "fileName": "input-search.html",
+            "title": "HTML Demo: <input type=\"search\">",
+            "type": "tabbed"
+        },
         "tel": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/input/tel.html",
@@ -142,6 +150,22 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/time.css",
             "fileName": "input-time.html",
             "title": "HTML Demo: <input type=\"time\">",
+            "type": "tabbed"
+        },
+        "url": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/url.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/url.css",
+            "fileName": "input-url.html",
+            "title": "HTML Demo: <input type=\"url\">",
+            "type": "tabbed"
+        },
+        "week": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/week.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/week.css",
+            "fileName": "input-week.html",
+            "title": "HTML Demo: <input type=\"week\">",
             "type": "tabbed"
         }
     }

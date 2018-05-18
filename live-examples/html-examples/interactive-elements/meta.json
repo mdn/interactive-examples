@@ -1,5 +1,13 @@
 {
     "pages": {
+        "details": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/interactive-elements/details.html",
+            "cssExampleSrc": "live-examples/html-examples/interactive-elements/css/details.css",
+            "fileName": "details.html",
+            "title": "HTML Demo: <details>",
+            "type": "tabbed"
+        },
         "summary": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/interactive-elements/summary.html",

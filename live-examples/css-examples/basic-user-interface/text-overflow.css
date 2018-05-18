@@ -1,5 +1,6 @@
 #example-element-container {
-    width: 70%;
+    width: 100%;
+    max-width: 18em;
 }
 
 #example-element {
@@ -9,4 +10,5 @@
     white-space: nowrap;
     font-family: sans-serif;
     padding: 0 0.5em;
+    text-align: left;
 }
