@@ -1,5 +1,15 @@
 {
     "pages": {
+        "area": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/image-and-multimedia/area.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/image-and-multimedia/css/area.css",
+            "fileName": "area.html",
+            "title": "HTML Demo: <area>",
+            "type": "tabbed"
+        },
         "audio": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
@@ -18,6 +28,16 @@
                 "live-examples/html-examples/image-and-multimedia/css/img.css",
             "fileName": "img.html",
             "title": "HTML Demo: <img>",
+            "type": "tabbed"
+        },
+        "map": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/image-and-multimedia/map.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/image-and-multimedia/css/map.css",
+            "fileName": "map.html",
+            "title": "HTML Demo: <map>",
             "type": "tabbed"
         }
     }

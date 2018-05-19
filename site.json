@@ -45,7 +45,10 @@
             "destFileName": "editor-js"
         },
         "tabbedEditor": {
-            "javascript": ["js/editor-bundle.js"],
+            "javascript": [
+                "js/lib/webcomponents-hi-sd-ce.js",
+                "js/editor-bundle.js"
+            ],
             "css": [
                 "css/editor-libs/common.css",
                 "css/editor-libs/tabby.css",

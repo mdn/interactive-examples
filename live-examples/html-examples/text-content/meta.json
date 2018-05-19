@@ -1,12 +1,14 @@
 {
     "pages": {
         "blockquote": {
-            "baseTmpl": "tmpl/live-html-tmpl.html",
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
                 "live-examples/html-examples/text-content/blockquote.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/blockquote.css",
             "fileName": "blockquote.html",
             "title": "HTML Demo: <blockquote>",
-            "type": "html"
+            "type": "tabbed"
         },
         "dd": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -38,6 +40,26 @@
             "title": "HTML Demo: <dt>",
             "type": "tabbed"
         },
+        "hr": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/text-content/hr.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/hr.css",
+            "fileName": "hr.html",
+            "title": "HTML Demo: <hr>",
+            "type": "tabbed"
+        },
+        "li": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/text-content/li.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/li.css",
+            "fileName": "li.html",
+            "title": "HTML Demo: <li>",
+            "type": "tabbed"
+        },
         "ol": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/text-content/ol.html",
@@ -47,6 +69,15 @@
             "title": "HTML Demo: <ol>",
             "type": "tabbed"
         },
+        "p": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/text-content/p.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/p.css",
+            "fileName": "p.html",
+            "title": "HTML Demo: <p>",
+            "type": "tabbed"
+        },
         "pre": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/text-content/pre.html",
@@ -54,6 +85,15 @@
                 "live-examples/html-examples/text-content/css/pre.css",
             "fileName": "pre.html",
             "title": "HTML Demo: <pre>",
+            "type": "tabbed"
+        },
+        "ul": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/text-content/ul.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/ul.css",
+            "fileName": "ul.html",
+            "title": "HTML Demo: <ul>",
             "type": "tabbed"
         }
     }

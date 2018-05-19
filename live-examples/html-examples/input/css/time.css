@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('FiraSans-Regular'),
+    url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+.control {
+    margin: 1rem 0;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    font-size: .8rem;
+    width: 20%;
+}
+
+.hours {
+    font-size: .7em;
+    color: #999;
+}

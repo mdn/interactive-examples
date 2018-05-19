@@ -1,9 +1,30 @@
-<label for="t-rex-roar">Listen to the T-Rex:</label>
+<p>
+    <label for="t-rex-roar">
+        What does the <del>fox</del> <ins>T. rex</ins> say?
+    </label>
 
-<br/>
+    <br/>
 
-<audio
-    id="t-rex-roar"
-    controls
-    src="http://soundbible.com/mp3/Tyrannosaurus Rex -SoundBible.com-45786848.mp3">
-</audio>
+    <audio
+        id="t-rex-roar"
+        controls
+        src="http://soundbible.com/mp3/Tyrannosaurus%20Rex%20Roar-SoundBible.com-807702404.mp3">
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+</p>
+
+<p>
+    <label for="t-rex-roar-loop">
+        What’s that?
+    </label>
+
+    <br/>
+
+    <!-- This time we use the source element instead of the src attribute -->
+    <audio id="t-rex-roar-loop" controls loop>
+        <source
+            type="audio/mpeg"
+            src="http://soundbible.com/mp3/Tyrannosaurus%20Rex%20Roar-SoundBible.com-807702404.mp3"/>
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+</p>
