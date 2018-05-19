@@ -39,6 +39,16 @@
             "fileName": "map.html",
             "title": "HTML Demo: <map>",
             "type": "tabbed"
+        },
+        "video": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/image-and-multimedia/video.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/image-and-multimedia/css/video.css",
+            "fileName": "video.html",
+            "title": "HTML Demo: <video>",
+            "type": "tabbed"
         }
     }
 }
