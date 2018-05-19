@@ -1,0 +1,21 @@
+figure {
+    border: thin silver solid;
+    max-height: 240px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    display: block;
+    max-height: 220px;
+}
+
+figcaption {
+    font: italic smaller sans-serif;
+    text-align: center;
+    background: #222;
+    color: #fff;
+    padding: 3px 0;
+}
