@@ -40,6 +40,16 @@
             "title": "HTML Demo: <map>",
             "type": "tabbed"
         },
+        "track": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/image-and-multimedia/track.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/image-and-multimedia/css/track.css",
+            "fileName": "track.html",
+            "title": "HTML Demo: <track>",
+            "type": "tabbed"
+        },
         "video": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
