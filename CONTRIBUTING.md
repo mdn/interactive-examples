@@ -90,7 +90,7 @@ After your pull request is reviewed and merged, you can publish your example on 
 <p class="hidden">The source for this interactive example is stored in a GitHub repository. If you'd like to contribute to the interactive examples project, please clone <a href="https://github.com/mdn/interactive-examples">https://github.com/mdn/interactive-examples</a> and send us a pull request.</p>
 ```
 
-where `TYPE` is the kind of example (such as `js`, `css`, or `html`) and `FILENAME` is the name of the file that contains the example (like `margin.html` or `date-constructor.html`).
+where `TYPE` is the kind of example (such as `js`, `css`, or `tabbed`) and `FILENAME` is the name of the file that contains the example (like `margin.html` or `date-constructor.html`).
 
 ## Thank you!
 
