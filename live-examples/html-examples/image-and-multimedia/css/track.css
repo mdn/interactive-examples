@@ -9,3 +9,7 @@ footer {
     background: #eee;
     position: relative;
 }
+
+video::cue {
+    font-size: 1rem;
+}
