@@ -1,5 +1,13 @@
 {
     "pages": {
+        "button": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/button.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/button.css",
+            "fileName": "input-button.html",
+            "title": "HTML Demo: <input type=\"button\">",
+            "type": "tabbed"
+        },
         "checkbox": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/input/checkbox.html",
@@ -56,6 +64,14 @@
             "title": "HTML Demo: <input type=\"image\">",
             "type": "tabbed"
         },
+        "input": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/input.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/input.css",
+            "fileName": "input-input.html",
+            "title": "HTML Demo: <input type=\"input\">",
+            "type": "tabbed"
+        },
         "month": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/input/month.html",
@@ -94,6 +110,62 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/range.css",
             "fileName": "input-range.html",
             "title": "HTML Demo: <input type=\"range\">",
+            "type": "tabbed"
+        },
+        "reset": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/reset.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/reset.css",
+            "fileName": "input-reset.html",
+            "title": "HTML Demo: <input type=\"reset\">",
+            "type": "tabbed"
+        },
+        "search": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/search.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/search.css",
+            "fileName": "input-search.html",
+            "title": "HTML Demo: <input type=\"search\">",
+            "type": "tabbed"
+        },
+        "tel": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/tel.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/tel.css",
+            "fileName": "input-tel.html",
+            "title": "HTML Demo: <input type=\"tel\">",
+            "type": "tabbed"
+        },
+        "text": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/text.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/text.css",
+            "fileName": "input-text.html",
+            "title": "HTML Demo: <input type=\"text\">",
+            "type": "tabbed"
+        },
+        "time": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/time.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/time.css",
+            "fileName": "input-time.html",
+            "title": "HTML Demo: <input type=\"time\">",
+            "type": "tabbed"
+        },
+        "url": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/url.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/url.css",
+            "fileName": "input-url.html",
+            "title": "HTML Demo: <input type=\"url\">",
+            "type": "tabbed"
+        },
+        "week": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/week.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/week.css",
+            "fileName": "input-week.html",
+            "title": "HTML Demo: <input type=\"week\">",
             "type": "tabbed"
         }
     }

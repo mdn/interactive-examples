@@ -42,6 +42,7 @@ module.exports = {
         Prism: true,
         require: true,
         ShadyCSS: true,
+        ShadyDOM: true,
         test: true
     }
 };

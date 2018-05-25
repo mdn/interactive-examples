@@ -1,12 +1,14 @@
 {
     "pages": {
         "blockquote": {
-            "baseTmpl": "tmpl/live-html-tmpl.html",
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
                 "live-examples/html-examples/text-content/blockquote.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/blockquote.css",
             "fileName": "blockquote.html",
             "title": "HTML Demo: <blockquote>",
-            "type": "html"
+            "type": "tabbed"
         },
         "dd": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
