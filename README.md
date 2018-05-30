@@ -1,10 +1,19 @@
 # interactive-examples
 
 [![Build Status](https://travis-ci.org/mdn/interactive-examples.svg?branch=master)](https://travis-ci.org/mdn/interactive-examples)
-
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 Home of the [MDN](https://developer.mozilla.org/) interactive code examples.
+
+## Project maintainers
+
+Should you have any questions regarding this project, please feel feel to @mention either @wbamberg or @schalkneethling
+
+## Good first issues
+
+Want to contribute to the interactive examples project? Here are a couple of good first issues to get you started. Thanks!
+
+[Good first issues](https://github.com/mdn/interactive-examples/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22example+needed%22+no%3Aassignee)
 
 ## Folder structure
 
@@ -36,6 +45,7 @@ If you're interested in contributing to this project, great! Please see the [CON
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore -->
 | [<img src="https://avatars3.githubusercontent.com/u/10350960?s=460&v=4" width="100px;"/><br /><sub><b>Schalk Neethling</b></sub>](https://github.com/schalkneethling)<br />[💻](https://github.com/mdn/interactive-examples/commits?author=schalkneethling "Code") [📖](https://github.com/mdn/interactive-examples/commits?author=schalkneethling "Documentation") [⚠️](https://github.com/mdn/interactive-examples/commits?author=schalkneethling "Tests") | [<img src="https://avatars3.githubusercontent.com/u/208756?s=460&v=4" width="100px;"/><br /><sub><b>Mark Boas</b></sub>](https://github.com/maboa)<br />[💻](https://github.com/mdn/interactive-examples/commits?author=maboa "Code") [📖](https://github.com/mdn/interactive-examples/commits?author=maboa "Documentation") | [<img src="https://avatars3.githubusercontent.com/u/432915?s=460&v=4" width="100px;"/><br /><sub><b>William Bamberg</b></sub>](https://github.com/wbamberg)<br />[💻](https://github.com/mdn/interactive-examples/commits?author=wbamberg "Code") [📖](https://github.com/mdn/interactive-examples/commits?author=wbamberg "Documentation") | [<img src="https://avatars3.githubusercontent.com/u/854701?s=460&v=4" width="100px;"/><br /><sub><b>Stephanie Hobson</b></sub>](https://github.com/stephaniehobson)<br />[💻](https://github.com/mdn/interactive-examples/commits?author=stephaniehobson "Code") | [<img src="https://avatars3.githubusercontent.com/u/161718?s=460&v=4" width="100px;"/><br /><sub><b>Josh Mize</b></sub>](https://github.com/jgmize)<br />[💻](https://github.com/mdn/interactive-examples/commits?author=jgmize "Code") | [<img src="https://avatars3.githubusercontent.com/u/47647?s=460&v=4" width="100px;"/><br /><sub><b>Chris Mills</b></sub>](https://github.com/chrisdavidmills)<br />[📖](https://github.com/mdn/interactive-examples/commits?author=chrisdavidmills "Documentation") [💻](https://github.com/mdn/interactive-examples/commits?author=chrisdavidmills "Code") | [<img src="https://avatars3.githubusercontent.com/u/58244?s=460&v=4" width="100px;"/><br /><sub><b>Dave Parfitt</b></sub>](https://github.com/metadave)<br />[💻](https://github.com/mdn/interactive-examples/commits?author=metadave "Code") |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
