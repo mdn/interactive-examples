@@ -2,6 +2,7 @@
     'use strict';
 
     var shadowOutput = require('./editor-libs/shadow-output');
+    var templateUtils = require('./editor-libs/template-utils');
     var tabby = require('./editor-libs/tabby');
 
     var cssEditor = document.getElementById('css-editor');
@@ -24,10 +25,31 @@
     function getOutput() {
         var htmlContent = tabby.editors.html.editor.getValue();
         var cssContent = tabby.editors.css.editor.getValue();
+
         return {
             cssContent,
             htmlContent
         };
+    }
+
+    /**
+     * Set or update the CSS and HTML in the output pane.
+     * @param {Object} content - The content of the template element.
+     */
+    function render(content) {
+        let shadow = document.querySelector('shadow-output').shadowRoot;
+        let shadowChildren = shadow.children;
+
+        if (shadowChildren.length) {
+            if (typeof ShadyDOM !== 'undefined' && ShadyDOM.inUse) {
+                shadow.innerHTML = '';
+            } else {
+                shadow.removeChild(shadow.querySelector('style'));
+                shadow.removeChild(shadow.querySelector('div'));
+            }
+        }
+
+        shadow.appendChild(document.importNode(content, true));
     }
 
     /**
@@ -40,7 +62,8 @@
         clearTimeout(timer);
 
         timer = setTimeout(function() {
-            shadowOutput.render(getOutput());
+            templateUtils.createTemplate(getOutput());
+            render(templateUtils.getTemplateOutput());
         }, 500);
     }
 
@@ -71,5 +94,10 @@
 
     // register the custom output element
     customElements.define('shadow-output', shadowOutput);
-    shadowOutput.render(getOutput());
+
+    templateUtils.createTemplate(getOutput());
+
+    document.addEventListener('WebComponentsReady', function() {
+        render(templateUtils.getTemplateOutput());
+    });
 })();
