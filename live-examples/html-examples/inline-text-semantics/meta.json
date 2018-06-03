@@ -118,6 +118,16 @@
             "title": "HTML Demo: <rp>",
             "type": "tabbed"
         },
+        "ruby": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/ruby.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/ruby.css",
+            "fileName": "ruby.html",
+            "title": "HTML Demo: <ruby>",
+            "type": "tabbed"
+        },
         "s": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
