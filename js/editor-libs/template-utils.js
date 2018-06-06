@@ -1,5 +1,12 @@
 module.exports = {
     /**
+     * Return the base style rules for the output class
+     * @returns base style rules for the output class
+     */
+    getOutputBaseStyle: function() {
+        return '.output{background-color:#fff;border:15px solid #eee;box-shadow:inset 5px 5px 10px rgba(0, 0, 0, .3), inset -5px -5px 10px rgba(0, 0, 0, .2);font-size:0.9rem;height:252px;line-height:1.5;margin:24px 1em 0 0;overflow:scroll;padding:30px}';
+    },
+    /**
      * Get the template element and return its content
      * @returns The .content of the template element
      */
@@ -23,6 +30,7 @@ module.exports = {
         var html = document.createElement('div');
         var output = document.getElementById('output');
         var previousTmpl = document.getElementById('code_tmpl');
+        var outputStyleElem = document.createElement('style');
         var styleElem = document.createElement('style');
         var tmpl = document.createElement('template');
 
@@ -36,9 +44,12 @@ module.exports = {
         tmpl.setAttribute('id', 'code_tmpl');
         output.appendChild(tmpl);
 
+        outputStyleElem.textContent = this.getOutputBaseStyle();
         styleElem.textContent = contents.cssContent;
+        html.classList.add('output');
         html.innerHTML = contents.htmlContent;
 
+        tmpl.content.appendChild(outputStyleElem);
         tmpl.content.appendChild(styleElem);
         tmpl.content.appendChild(html);
 
