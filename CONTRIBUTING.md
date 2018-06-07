@@ -17,6 +17,11 @@ There are many ways you can help improve this repository! For example:
 
 This guide focuses on contributing examples, although we welcome contributions to the editor and infrastructure code as well.
 
+## Good first issues
+
+*   [Examples needed](https://github.com/mdn/interactive-examples/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22example+needed%22+no%3Aassignee)
+*   [Help wanted](https://github.com/mdn/interactive-examples/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22help+wanted%22+no%3Aassignee)
+
 ## Setup
 
 To contribute live examples all you need is a text editor, git, a GitHub account, and Nodejs.

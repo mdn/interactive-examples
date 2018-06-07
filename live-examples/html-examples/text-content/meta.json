@@ -40,6 +40,16 @@
             "title": "HTML Demo: <dt>",
             "type": "tabbed"
         },
+        "figcaption": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/text-content/figcaption.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/figcaption.css",
+            "fileName": "figcaption.html",
+            "title": "HTML Demo: <figcaption>",
+            "type": "tabbed"
+        },
         "hr": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":

@@ -108,6 +108,26 @@
             "title": "HTML Demo: <mark>",
             "type": "tabbed"
         },
+        "rp": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/rp.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/rp.css",
+            "fileName": "rp.html",
+            "title": "HTML Demo: <rp>",
+            "type": "tabbed"
+        },
+        "rt": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/rt.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/rt.css",
+            "fileName": "rt.html",
+            "title": "HTML Demo: <rt>",
+            "type": "tabbed"
+        },
         "s": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":

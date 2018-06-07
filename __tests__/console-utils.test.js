@@ -2,6 +2,50 @@ const consoleUtils = require('../js/editor-libs/console-utils');
 
 describe('console utils', () => {
     describe('formatOutput', () => {
+        test('String', function() {
+            expect(consoleUtils.formatOutput('lorem ipsum')).toBe(
+                '"lorem ipsum"'
+            );
+        });
+        test('undefined', function() {
+            expect(consoleUtils.formatOutput(undefined)).toBe('undefined');
+        });
+        test('null', function() {
+            expect(consoleUtils.formatOutput(null)).toBe('null');
+        });
+        test('NaN', function() {
+            expect(consoleUtils.formatOutput(NaN)).toBe('NaN');
+        });
+        test('Boolean: true', function() {
+            expect(consoleUtils.formatOutput(true)).toBe('true');
+        });
+        test('Boolean: false', function() {
+            expect(consoleUtils.formatOutput(false)).toBe('false');
+        });
+        test('Positive integer', function() {
+            expect(consoleUtils.formatOutput(42)).toBe('42');
+        });
+        test('Positive floating point', function() {
+            expect(consoleUtils.formatOutput(4.2)).toBe('4.2');
+        });
+        test('Negative integer', function() {
+            expect(consoleUtils.formatOutput(-42)).toBe('-42');
+        });
+        test('Negative floating point', function() {
+            expect(consoleUtils.formatOutput(-4.2)).toBe('-4.2');
+        });
+        test('Infinity', function() {
+            expect(consoleUtils.formatOutput(Infinity)).toBe('Infinity');
+        });
+        test('Negative Infinity', function() {
+            expect(consoleUtils.formatOutput(-Infinity)).toBe('-Infinity');
+        });
+        test('Positive zero', function() {
+            expect(consoleUtils.formatOutput(0)).toBe('0');
+        });
+        test('Negative zero', function() {
+            expect(consoleUtils.formatOutput(-0)).toBe('-0');
+        });
         test('String object', function() {
             expect(consoleUtils.formatOutput(new String('foo'))).toBe(
                 'String { "foo" }'
