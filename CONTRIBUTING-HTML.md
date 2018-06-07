@@ -65,11 +65,11 @@ Of course it's possible that people will have a narrower browser window, and ide
 
 For the HTML editor there are three CSS classes that can be applied to the editor container element. This allows the editor to by taller or shorter than it’s standard height. The classes are as follows:
 
--   `.tabbed-shorter` - ~11 visible lines of code
--   `.tabbed-standard` - ~14 visible lines of code
--   `.tabbed-taller` - ~23 visible lines of code
+-   `tabbed-shorter` - ~11 visible lines of code
+-   `tabbed-standard` - ~14 visible lines of code
+-   `tabbed-taller` - ~23 visible lines of code
 
-Usage is as follows. When adding the meta information for your example, you define the height using the `height` property, BoB will take care of the rest. For example:
+Usage is as follows. When adding the meta information for your example, set the `height` property to one of the classes specified above, BoB will take care of the rest. For example:
 
 ```
 "abbr": {
@@ -81,7 +81,7 @@ Usage is as follows. When adding the meta information for your example, you defi
     "fileName": "abbr.html",
     "title": "HTML Demo: <abbr>",
     "type": "tabbed",
-    "height": "shorter"
+    "height": "tabbed-shorter"
 }
 ```
 

@@ -2,19 +2,25 @@
     "pages": {
         "details": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/interactive-elements/details.html",
-            "cssExampleSrc": "live-examples/html-examples/interactive-elements/css/details.css",
+            "exampleCode":
+                "live-examples/html-examples/interactive-elements/details.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/interactive-elements/css/details.css",
             "fileName": "details.html",
             "title": "HTML Demo: <details>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "summary": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/interactive-elements/summary.html",
-            "cssExampleSrc": "live-examples/html-examples/interactive-elements/css/summary.css",
+            "exampleCode":
+                "live-examples/html-examples/interactive-elements/summary.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/interactive-elements/css/summary.css",
             "fileName": "summary.html",
             "title": "HTML Demo: <summary>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }
