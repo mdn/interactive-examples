@@ -1,6 +1,7 @@
 (function() {
     'use strict';
 
+    var mceEvents = require('./editor-libs/events.js');
     var shadowOutput = require('./editor-libs/shadow-output');
     var templateUtils = require('./editor-libs/template-utils');
     var tabby = require('./editor-libs/tabby');
@@ -100,4 +101,22 @@
     document.addEventListener('WebComponentsReady', function() {
         render(templateUtils.getTemplateOutput());
     });
+
+    /* Ensure that performance is supported before
+       gathering the performance metric */
+    if (performance !== undefined) {
+        document.addEventListener('readystatechange', function(event) {
+            if (event.target.readyState === 'complete') {
+                /* loadEventEnd happens a split second after we
+                   reached complete. So we wait an additional
+                   100ms before getting it’ value */
+                setTimeout(function() {
+                    mceEvents.trackloadEventEnd(
+                        'Tabbed editor load time',
+                        performance.timing.loadEventEnd
+                    );
+                }, 100);
+            }
+        });
+    }
 })();
