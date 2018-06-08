@@ -1,4 +1,10 @@
+@font-face {
+	  src: url('/media/fonts/AmstelvarAlpha-VF.ttf');
+	  font-family:'Amstelvar';
+	  font-style: normal;
+}
+
 #output section {
     font-size: 1.2em;
-    font-family: Georgia, serif;
+    font-family: Amstelvar;
 }

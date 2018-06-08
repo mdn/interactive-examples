@@ -1,24 +1,63 @@
-.editor-container,
-.output {
+.editor-container {
     display: inline-block;
     vertical-align: top;
-    height: 370px;
     overflow: hidden;
-}
-
-.editor-container {
-    display: flex;
 }
 
 .CodeMirror {
     border: 3px solid #3f87a6;
     border-right: none;
     border-left: 5px solid #3f87a6;
+}
+
+/* sizing utility classes */
+.tabbed-shorter {
     height: 300px;
 }
 
-.tabs,
-.output {
+.tabbed-shorter .CodeMirror {
+    height: 240px;
+}
+
+.tabbed-standard {
+    height: 370px;
+}
+
+.tabbed-standard .CodeMirror {
+    height: 300px;
+}
+
+.tabbed-taller {
+    height: 670px;
+}
+
+.tabbed-taller .CodeMirror {
+    height: 500px;
+}
+
+.shadow-container {
+    width: 40%;
+}
+
+/* For non shadow-dom supporting browsers */
+.output.style-scope {
+    background-color: #fff;
+    border: 15px solid #eee;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3),
+        inset -5px -5px 10px rgba(0, 0, 0, .2);
+    font-size: .9rem;
+    height: 342px;
+    line-height: 1.5;
+    margin: 24px 1em 0 0;
+    overflow: scroll;
+    padding: 30px;
+}
+
+.editor-container {
+    display: flex;
+}
+
+.tabs {
     font-size: .9rem;
     flex: none;
 }
@@ -27,30 +66,19 @@
     width: 60%;
 }
 
-.output {
-    background-color: #fff;
-    margin: 24px 1em 0 0;
-    padding: 30px;
-    border: 15px solid #eee;
-    width: 40%;
-    height: 342px;
-    line-height: 1.5;
-    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3), inset -5px -5px 10px rgba(0, 0, 0, .2);
-    overflow: scroll;
-}
-
 .output-label {
     position: absolute;
     background-color: #333;
     color: #83d0f2;
     top: 92px;
-    right: 15px;
+    right: 29px;
     margin: 0;
     padding: 3px 10px;
     width: 70px;
     height: 25px;
     font-size: .9rem;
     letter-spacing: .035rem;
+    z-index: 2;
 }
 
 .output-header {

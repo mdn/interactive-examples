@@ -5,10 +5,14 @@ describe('Tabbed Editor', () => {
 
     it('loads the expected HTML into the output element', async () => {
         const expectedOutput =
+            '<style>.output{background-color:#fff;border:15px solid #eee;' +
+            'box-shadow:inset 5px 5px 10px rgba(0, 0, 0, .3), inset -5px -5px 10px rgba(0, 0, 0, .2);' +
+            'font-size:0.9rem;line-height:1.5;margin:24px 1em 0 0;overflow:scroll;' +
+            'padding:30px}</style>' +
             '<style>table,' +
             'td { border: 1px solid #333;}' +
             'thead,tfoot { background-color: #333; color: #fff;}' +
-            '</style><div><table> <thead> <tr> ' +
+            '</style><div class="output" style="height: 67%;"><table> <thead> <tr> ' +
             '<th colspan="2">The table header</th> </tr> </thead> ' +
             '<tbody> <tr> ' +
             '<td>The table body</td> ' +
