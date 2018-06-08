@@ -103,9 +103,14 @@ module.exports = {
         if (
             input === undefined ||
             input === null ||
-            typeof input === 'number' ||
             typeof input === 'boolean'
         ) {
+            return String(input);
+        } else if (typeof input === 'number') {
+            // Negative zero
+            if (Object.is(input, -0)) {
+                return '-0';
+            }
             return String(input);
         } else if (typeof input === 'string') {
             // string literal
