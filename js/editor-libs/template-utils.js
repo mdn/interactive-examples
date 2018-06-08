@@ -4,7 +4,7 @@ module.exports = {
      * @returns base style rules for the output class
      */
     getOutputBaseStyle: function() {
-        return '.output{background-color:#fff;border:15px solid #eee;box-shadow:inset 5px 5px 10px rgba(0, 0, 0, .3), inset -5px -5px 10px rgba(0, 0, 0, .2);font-size:0.9rem;height:252px;line-height:1.5;margin:24px 1em 0 0;overflow:scroll;padding:30px}';
+        return '.output{background-color:#fff;border:15px solid #eee;box-shadow:inset 5px 5px 10px rgba(0, 0, 0, .3), inset -5px -5px 10px rgba(0, 0, 0, .2);font-size:0.9rem;line-height:1.5;margin:24px 1em 0 0;overflow:scroll;padding:30px}';
     },
     /**
      * Get the template element and return its content

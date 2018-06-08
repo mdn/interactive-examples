@@ -6,7 +6,8 @@
             "cssExampleSrc": "live-examples/html-examples/forms/css/button.css",
             "fileName": "button.html",
             "title": "HTML Demo: <button>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "datalist": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -15,7 +16,8 @@
                 "live-examples/html-examples/forms/css/datalist.css",
             "fileName": "datalist.html",
             "title": "HTML Demo: <datalist>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "fieldset": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -24,43 +26,44 @@
                 "live-examples/html-examples/forms/css/fieldset.css",
             "fileName": "fieldset.html",
             "title": "HTML Demo: <fieldset>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "form": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/form.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/forms/css/form.css",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/form.css",
             "fileName": "form.html",
             "title": "HTML Demo: <form>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "label": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/label.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/forms/css/label.css",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/label.css",
             "fileName": "label.html",
             "title": "HTML Demo: <label>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "legend": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/legend.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/forms/css/legend.css",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/legend.css",
             "fileName": "legend.html",
             "title": "HTML Demo: <legend>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "meter": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/meter.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/forms/css/meter.css",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/meter.css",
             "fileName": "meter.html",
             "title": "HTML Demo: <meter>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "optgroup": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -69,16 +72,17 @@
                 "live-examples/html-examples/forms/css/optgroup.css",
             "fileName": "optgroup.html",
             "title": "HTML Demo: <optgroup>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "option": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/option.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/forms/css/option.css",
+            "cssExampleSrc": "live-examples/html-examples/forms/css/option.css",
             "fileName": "option.html",
             "title": "HTML Demo: <option>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "progress": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -87,7 +91,8 @@
                 "live-examples/html-examples/forms/css/progress.css",
             "fileName": "progress.html",
             "title": "HTML Demo: <progress>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "select": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -95,15 +100,18 @@
             "cssExampleSrc": "live-examples/html-examples/forms/css/select.css",
             "fileName": "select.html",
             "title": "HTML Demo: <select>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "textarea": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/forms/textarea.html",
-            "cssExampleSrc": "live-examples/html-examples/forms/css/textarea.css",
+            "cssExampleSrc":
+                "live-examples/html-examples/forms/css/textarea.css",
             "fileName": "textarea.html",
             "title": "HTML Demo: <textarea>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }
