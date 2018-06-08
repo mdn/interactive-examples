@@ -33,6 +33,38 @@
     }
 
     /**
+     * Sets the height of the output container inside the shadow dom
+     * based on the class present on the editor container
+     * @param {Object} outputContainer - the output container inside the shadow dom
+     */
+    function setOutputHeight(outputContainer) {
+        var editorContainer = document.getElementById('editor-container');
+
+        // styling for the polyfilled shadow is different
+        if (
+            typeof ShadyDOM !== 'undefined' &&
+            ShadyDOM.inUse &&
+            (editorContainer.classList.contains('tabbed-shorter') ||
+                editorContainer.classList.contains('tabbed-standard'))
+        ) {
+            outputContainer.style.height = '92%';
+        } else if (
+            typeof ShadyDOM !== 'undefined' &&
+            ShadyDOM.inUse &&
+            editorContainer.classList.contains('tabbed-taller')
+        ) {
+            outputContainer.style.height = '80%';
+        } else if (editorContainer.classList.contains('tabbed-shorter')) {
+            outputContainer.style.height = '62%';
+        } else if (
+            editorContainer.classList.contains('tabbed-taller') ||
+            editorContainer.classList.contains('tabbed-standard')
+        ) {
+            outputContainer.style.height = '67%';
+        }
+    }
+
+    /**
      * Set or update the CSS and HTML in the output pane.
      * @param {Object} content - The content of the template element.
      */
@@ -44,12 +76,20 @@
             if (typeof ShadyDOM !== 'undefined' && ShadyDOM.inUse) {
                 shadow.innerHTML = '';
             } else {
-                shadow.removeChild(shadow.querySelector('style'));
+                var styleElements = shadow.querySelectorAll('style');
+
+                for (var styleElement in styleElements) {
+                    if (styleElements.hasOwnProperty(styleElement)) {
+                        shadow.removeChild(styleElements[styleElement]);
+                    }
+                }
+
                 shadow.removeChild(shadow.querySelector('div'));
             }
         }
 
         shadow.appendChild(document.importNode(content, true));
+        setOutputHeight(shadow.querySelector('div'));
     }
 
     /**

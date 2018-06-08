@@ -8,7 +8,8 @@
                 "live-examples/html-examples/demarcating-edits/css/del.css",
             "fileName": "del.html",
             "title": "HTML Demo: <del>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "ins": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -18,7 +19,8 @@
                 "live-examples/html-examples/demarcating-edits/css/ins.css",
             "fileName": "ins.html",
             "title": "HTML Demo: <ins>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }

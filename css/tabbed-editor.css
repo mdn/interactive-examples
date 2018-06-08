@@ -1,8 +1,38 @@
 .editor-container {
     display: inline-block;
     vertical-align: top;
-    height: 370px;
     overflow: hidden;
+}
+
+.CodeMirror {
+    border: 3px solid #3f87a6;
+    border-right: none;
+    border-left: 5px solid #3f87a6;
+}
+
+/* sizing utility classes */
+.tabbed-shorter {
+    height: 300px;
+}
+
+.tabbed-shorter .CodeMirror {
+    height: 240px;
+}
+
+.tabbed-standard {
+    height: 370px;
+}
+
+.tabbed-standard .CodeMirror {
+    height: 300px;
+}
+
+.tabbed-taller {
+    height: 670px;
+}
+
+.tabbed-taller .CodeMirror {
+    height: 500px;
 }
 
 .shadow-container {
@@ -25,13 +55,6 @@
 
 .editor-container {
     display: flex;
-}
-
-.CodeMirror {
-    border: 3px solid #3f87a6;
-    border-right: none;
-    border-left: 5px solid #3f87a6;
-    height: 300px;
 }
 
 .tabs {
