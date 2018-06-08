@@ -65,6 +65,26 @@ In general, keep in mind that (hopefully) a lot of people will use the example f
 
 We don't have codified formatting guidelines for HTML, but use 4-space indentation, anyway.
 
+### Encoding HTML entities
+
+Sometimes your example might want to include [HTML entities](https://developer.mozilla.org/en-US/docs/Glossary/Entity). For example, if you are referring to an HTML tag in the example itself, you might want the example to include something like:
+
+`Use the &lt;ol&gt; element to create an ordered list.`
+
+This won't work, because the browser will replace the entity with the real character when it loads the example source. You must also escape the `&` character, by writing something like:
+
+`Use the &amp;lt;ol&amp;gt; element to create an ordered list.`
+
+This will render in the editor like this:
+
+`Use the &lt;ol&gt; element to create an ordered list.`
+
+...and render in the output pane like this:
+
+`Use the <ol> element to create an ordered list.`
+
+To see this in action, see the example for [`<wbr>`](https://interactive-examples.mdn.mozilla.net/pages/tabbed/wbr.html), which uses this trick to include the soft hyphen `&shy` in the example.
+
 ### Example example
 
 An example for `<td>` could look something like this:
