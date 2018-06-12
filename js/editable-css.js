@@ -89,4 +89,22 @@
         mceEvents.onChoose(exampleChoices[initialChoice]);
         clippy.toggleClippy(exampleChoices[initialChoice]);
     }
+
+    /* Ensure that performance is supported before
+       gathering the performance metric */
+    if (performance !== undefined) {
+        document.addEventListener('readystatechange', function(event) {
+            if (event.target.readyState === 'complete') {
+                /* loadEventEnd happens a split second after we
+                   reached complete. So we wait an additional
+                   100ms before getting it’ value */
+                setTimeout(function() {
+                    mceEvents.trackloadEventEnd(
+                        'CSS editor load time',
+                        performance.timing.loadEventEnd
+                    );
+                }, 100);
+            }
+        });
+    }
 })();
