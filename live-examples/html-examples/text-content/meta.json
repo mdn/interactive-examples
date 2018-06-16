@@ -78,7 +78,8 @@
             "cssExampleSrc": "live-examples/html-examples/text-content/css/main.css",
             "fileName": "main.html",
             "title": "HTML Demo: <main>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "ol": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
