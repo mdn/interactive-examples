@@ -1,7 +1,9 @@
 (function() {
     'use strict';
 
+    var mceEvents = require('./editor-libs/events.js');
     var shadowOutput = require('./editor-libs/shadow-output');
+    var templateUtils = require('./editor-libs/template-utils');
     var tabby = require('./editor-libs/tabby');
 
     var cssEditor = document.getElementById('css-editor');
@@ -24,10 +26,59 @@
     function getOutput() {
         var htmlContent = tabby.editors.html.editor.getValue();
         var cssContent = tabby.editors.css.editor.getValue();
+
         return {
             cssContent,
             htmlContent
         };
+    }
+
+    /**
+     * Sets the height of the output container inside the shadow dom
+     * based on the class present on the editor container
+     * @param {Object} outputContainer - the output container inside the shadow dom
+     */
+    function setOutputHeight(outputContainer) {
+        var editorContainer = document.getElementById('editor-container');
+
+        // styling for the polyfilled shadow is different
+        if (typeof ShadyDOM !== 'undefined' && ShadyDOM.inUse) {
+            outputContainer.style.height = '92%';
+        } else if (editorContainer.classList.contains('tabbed-shorter')) {
+            outputContainer.style.height = '62%';
+        } else if (editorContainer.classList.contains('tabbed-standard')) {
+            outputContainer.style.height = '67%';
+        } else if (editorContainer.classList.contains('tabbed-taller')) {
+            outputContainer.style.height = '76%';
+        }
+    }
+
+    /**
+     * Set or update the CSS and HTML in the output pane.
+     * @param {Object} content - The content of the template element.
+     */
+    function render(content) {
+        let shadow = document.querySelector('shadow-output').shadowRoot;
+        let shadowChildren = shadow.children;
+
+        if (shadowChildren.length) {
+            if (typeof ShadyDOM !== 'undefined' && ShadyDOM.inUse) {
+                shadow.innerHTML = '';
+            } else {
+                var styleElements = shadow.querySelectorAll('style');
+
+                for (var styleElement in styleElements) {
+                    if (styleElements.hasOwnProperty(styleElement)) {
+                        shadow.removeChild(styleElements[styleElement]);
+                    }
+                }
+
+                shadow.removeChild(shadow.querySelector('div'));
+            }
+        }
+
+        shadow.appendChild(document.importNode(content, true));
+        setOutputHeight(shadow.querySelector('div'));
     }
 
     /**
@@ -40,7 +91,8 @@
         clearTimeout(timer);
 
         timer = setTimeout(function() {
-            shadowOutput.render(getOutput());
+            templateUtils.createTemplate(getOutput());
+            render(templateUtils.getTemplateOutput());
         }, 500);
     }
 
@@ -71,5 +123,28 @@
 
     // register the custom output element
     customElements.define('shadow-output', shadowOutput);
-    shadowOutput.render(getOutput());
+
+    templateUtils.createTemplate(getOutput());
+
+    document.addEventListener('WebComponentsReady', function() {
+        render(templateUtils.getTemplateOutput());
+    });
+
+    /* Ensure that performance is supported before
+       gathering the performance metric */
+    if (performance !== undefined) {
+        document.addEventListener('readystatechange', function(event) {
+            if (event.target.readyState === 'complete') {
+                /* loadEventEnd happens a split second after we
+                   reached complete. So we wait an additional
+                   100ms before getting it’ value */
+                setTimeout(function() {
+                    mceEvents.trackloadEventEnd(
+                        'Tabbed editor load time',
+                        performance.timing.loadEventEnd
+                    );
+                }, 100);
+            }
+        });
+    }
 })();

@@ -8,7 +8,8 @@
                 "live-examples/html-examples/content-sectioning/css/address.css",
             "fileName": "address.html",
             "title": "HTML Demo: <address>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "article": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -18,7 +19,8 @@
                 "live-examples/html-examples/content-sectioning/css/article.css",
             "fileName": "article.html",
             "title": "HTML Demo: <article>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "aside": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -28,7 +30,8 @@
                 "live-examples/html-examples/content-sectioning/css/aside.css",
             "fileName": "aside.html",
             "title": "HTML Demo: <aside>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "footer": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -38,31 +41,52 @@
                 "live-examples/html-examples/content-sectioning/css/footer.css",
             "fileName": "footer.html",
             "title": "HTML Demo: <footer>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "header": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/content-sectioning/header.html",
-            "cssExampleSrc": "live-examples/html-examples/content-sectioning/css/header.css",
+            "exampleCode":
+                "live-examples/html-examples/content-sectioning/header.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/content-sectioning/css/header.css",
             "fileName": "header.html",
             "title": "HTML Demo: <header>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "hgroup": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/content-sectioning/hgroup.html",
-            "cssExampleSrc": "live-examples/html-examples/content-sectioning/css/hgroup.css",
+            "exampleCode":
+                "live-examples/html-examples/content-sectioning/hgroup.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/content-sectioning/css/hgroup.css",
             "fileName": "hgroup.html",
             "title": "HTML Demo: <hgroup>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "nav": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/content-sectioning/nav.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/content-sectioning/css/nav.css",
+            "fileName": "nav.html",
+            "title": "HTML Demo: <nav>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "section": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/content-sectioning/section.html",
-            "cssExampleSrc": "live-examples/html-examples/content-sectioning/css/section.css",
+            "exampleCode":
+                "live-examples/html-examples/content-sectioning/section.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/content-sectioning/css/section.css",
             "fileName": "section.html",
             "title": "HTML Demo: <section>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }

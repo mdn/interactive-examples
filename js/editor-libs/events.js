@@ -230,5 +230,19 @@ module.exports = {
             sendPerformanceMetric('js');
             addJSEditorEventListeners(liveEditor);
         }
+    },
+    /**
+     * Calls trackEvent and sends the loadEventEnd time for
+     * the iframe to the parent page via postMessage
+     * @param {String} action - The action that took place
+     * @param {Number} loadTime - The loadEventEnd time in milliseconds
+     */
+    trackloadEventEnd: function(action, loadTime) {
+        mceAnalytics.trackEvent({
+            category: 'Interactive Examples',
+            action: action,
+            label: 'Performance Events',
+            value: loadTime
+        });
     }
 };

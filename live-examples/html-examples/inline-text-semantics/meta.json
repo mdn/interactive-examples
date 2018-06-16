@@ -8,7 +8,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/abbr.css",
             "fileName": "abbr.html",
             "title": "HTML Demo: <abbr>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-shorter"
         },
         "b": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -18,7 +19,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/b.css",
             "fileName": "b.html",
             "title": "HTML Demo: <b>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "br": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -28,15 +30,19 @@
                 "live-examples/html-examples/inline-text-semantics/css/br.css",
             "fileName": "br.html",
             "title": "HTML Demo: <br>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "cite": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/inline-text-semantics/cite.html",
-            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/cite.css",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/cite.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/cite.css",
             "fileName": "cite.html",
             "title": "HTML Demo: <cite>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "code": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -46,7 +52,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/code.css",
             "fileName": "code.html",
             "title": "HTML Demo: <code>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "data": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -56,7 +63,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/data.css",
             "fileName": "data.html",
             "title": "HTML Demo: <data>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "dfn": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -66,7 +74,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/dfn.css",
             "fileName": "dfn.html",
             "title": "HTML Demo: <dfn>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "em": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -76,7 +85,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/em.css",
             "fileName": "em.html",
             "title": "HTML Demo: <em>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "i": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -86,7 +96,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/i.css",
             "fileName": "i.html",
             "title": "HTML Demo: <i>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "kbd": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -96,7 +107,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/kbd.css",
             "fileName": "kbd.html",
             "title": "HTML Demo: <kbd>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "mark": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -106,7 +118,52 @@
                 "live-examples/html-examples/inline-text-semantics/css/mark.css",
             "fileName": "mark.html",
             "title": "HTML Demo: <mark>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "rp": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/rp.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/rp.css",
+            "fileName": "rp.html",
+            "title": "HTML Demo: <rp>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "rt": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/rt.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/rt.css",
+            "fileName": "rt.html",
+            "title": "HTML Demo: <rt>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "rtc": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/rtc.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/rtc.css",
+            "fileName": "rtc.html",
+            "title": "HTML Demo: <rtc>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "ruby": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/ruby.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/ruby.css",
+            "fileName": "ruby.html",
+            "title": "HTML Demo: <ruby>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "s": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -116,7 +173,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/s.css",
             "fileName": "s.html",
             "title": "HTML Demo: <s>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "samp": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -126,7 +184,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/samp.css",
             "fileName": "samp.html",
             "title": "HTML Demo: <samp>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "small": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -136,7 +195,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/small.css",
             "fileName": "small.html",
             "title": "HTML Demo: <small>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "span": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -146,7 +206,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/span.css",
             "fileName": "span.html",
             "title": "HTML Demo: <span>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "strong": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -156,7 +217,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/strong.css",
             "fileName": "strong.html",
             "title": "HTML Demo: <strong>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "sub": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -166,7 +228,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/sub.css",
             "fileName": "sub.html",
             "title": "HTML Demo: <sub>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "sup": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -176,7 +239,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/sup.css",
             "fileName": "sup.html",
             "title": "HTML Demo: <sup>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "time": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -186,7 +250,8 @@
                 "live-examples/html-examples/inline-text-semantics/css/time.css",
             "fileName": "time.html",
             "title": "HTML Demo: <time>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "u": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -196,31 +261,41 @@
                 "live-examples/html-examples/inline-text-semantics/css/u.css",
             "fileName": "u.html",
             "title": "HTML Demo: <u>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "q": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/inline-text-semantics/q.html",
-            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/q.css",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/q.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/q.css",
             "fileName": "q.html",
             "title": "HTML Demo: <q>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "var": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/inline-text-semantics/var.html",
-            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/var.css",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/var.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/var.css",
             "fileName": "var.html",
             "title": "HTML Demo: <var>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "wbr": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/inline-text-semantics/wbr.html",
-            "cssExampleSrc": "live-examples/html-examples/inline-text-semantics/css/wbr.css",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/wbr.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/wbr.css",
             "fileName": "wbr.html",
             "title": "HTML Demo: <wbr>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }

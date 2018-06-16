@@ -8,7 +8,8 @@
                 "live-examples/html-examples/document-metadata/css/style.css",
             "fileName": "style.html",
             "title": "HTML Demo: <style>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }

@@ -6,15 +6,18 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/button.css",
             "fileName": "input-button.html",
             "title": "HTML Demo: <input type=\"button\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "checkbox": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/input/checkbox.html",
-            "cssExampleSrc": "live-examples/html-examples/input/css/checkbox.css",
+            "cssExampleSrc":
+                "live-examples/html-examples/input/css/checkbox.css",
             "fileName": "input-checkbox.html",
             "title": "HTML Demo: <input type=\"checkbox\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "color": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -22,7 +25,8 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/color.css",
             "fileName": "input-color.html",
             "title": "HTML Demo: <input type=\"color\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "date": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -30,15 +34,19 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/date.css",
             "fileName": "input-date.html",
             "title": "HTML Demo: <input type=\"date\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "datetime-local": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/input/datetime-local.html",
-            "cssExampleSrc": "live-examples/html-examples/input/css/datetime-local.css",
+            "exampleCode":
+                "live-examples/html-examples/input/datetime-local.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/input/css/datetime-local.css",
             "fileName": "input-datetime-local.html",
             "title": "HTML Demo: <input type=\"datetime-local\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "email": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -46,7 +54,8 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/email.css",
             "fileName": "input-email.html",
             "title": "HTML Demo: <input type=\"email\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "file": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -54,7 +63,8 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/file.css",
             "fileName": "input-file.html",
             "title": "HTML Demo: <input type=\"file\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "image": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -62,7 +72,8 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/image.css",
             "fileName": "input-image.html",
             "title": "HTML Demo: <input type=\"image\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "input": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -70,7 +81,8 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/input.css",
             "fileName": "input-input.html",
             "title": "HTML Demo: <input type=\"input\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "month": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -78,7 +90,8 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/month.css",
             "fileName": "input-month.html",
             "title": "HTML Demo: <input type=\"month\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "number": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -86,15 +99,18 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/number.css",
             "fileName": "input-number.html",
             "title": "HTML Demo: <input type=\"number\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "password": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/input/password.html",
-            "cssExampleSrc": "live-examples/html-examples/input/css/password.css",
+            "cssExampleSrc":
+                "live-examples/html-examples/input/css/password.css",
             "fileName": "input-password.html",
             "title": "HTML Demo: <input type=\"password\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "radio": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -102,7 +118,8 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/radio.css",
             "fileName": "input-radio.html",
             "title": "HTML Demo: <input type=\"radio\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "range": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -110,7 +127,8 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/range.css",
             "fileName": "input-range.html",
             "title": "HTML Demo: <input type=\"range\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "reset": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -118,7 +136,17 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/reset.css",
             "fileName": "input-reset.html",
             "title": "HTML Demo: <input type=\"reset\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "search": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/search.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/search.css",
+            "fileName": "input-search.html",
+            "title": "HTML Demo: <input type=\"search\">",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "tel": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -126,7 +154,8 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/tel.css",
             "fileName": "input-tel.html",
             "title": "HTML Demo: <input type=\"tel\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "text": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -134,7 +163,8 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/text.css",
             "fileName": "input-text.html",
             "title": "HTML Demo: <input type=\"text\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "time": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
@@ -142,7 +172,26 @@
             "cssExampleSrc": "live-examples/html-examples/input/css/time.css",
             "fileName": "input-time.html",
             "title": "HTML Demo: <input type=\"time\">",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "url": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/url.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/url.css",
+            "fileName": "input-url.html",
+            "title": "HTML Demo: <input type=\"url\">",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "week": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/input/week.html",
+            "cssExampleSrc": "live-examples/html-examples/input/css/week.css",
+            "fileName": "input-week.html",
+            "title": "HTML Demo: <input type=\"week\">",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }

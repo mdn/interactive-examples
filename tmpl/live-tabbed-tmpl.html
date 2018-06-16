@@ -13,7 +13,7 @@
         <h4>%title%</h4>
         <button id="reset" class="reset" type="button">Reset</button>
       </header>
-      <div id="editor-container" class="editor-container">
+      <div id="editor-container" class="editor-container %editor-height%">
           <section id="tab-container" class="tabs">
               <div id="tablist" role="tablist">
                   <button role="tab" aria-selected="true" aria-controls="html-panel" id="html">
@@ -31,7 +31,7 @@
               </section>
           </section>
           <h4 class="output-label">Output</h4>
-          <div id="output" class="output">
+          <div id="output" class="shadow-container">
               <shadow-output></shadow-output>
           </div>
       </div>
