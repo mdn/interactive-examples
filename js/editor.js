@@ -1,6 +1,7 @@
 (function() {
     'use strict';
 
+    var mceEvents = require('./editor-libs/events.js');
     var shadowOutput = require('./editor-libs/shadow-output');
     var templateUtils = require('./editor-libs/template-utils');
     var tabby = require('./editor-libs/tabby');
@@ -41,26 +42,14 @@
         var editorContainer = document.getElementById('editor-container');
 
         // styling for the polyfilled shadow is different
-        if (
-            typeof ShadyDOM !== 'undefined' &&
-            ShadyDOM.inUse &&
-            (editorContainer.classList.contains('tabbed-shorter') ||
-                editorContainer.classList.contains('tabbed-standard'))
-        ) {
+        if (typeof ShadyDOM !== 'undefined' && ShadyDOM.inUse) {
             outputContainer.style.height = '92%';
-        } else if (
-            typeof ShadyDOM !== 'undefined' &&
-            ShadyDOM.inUse &&
-            editorContainer.classList.contains('tabbed-taller')
-        ) {
-            outputContainer.style.height = '80%';
         } else if (editorContainer.classList.contains('tabbed-shorter')) {
             outputContainer.style.height = '62%';
-        } else if (
-            editorContainer.classList.contains('tabbed-taller') ||
-            editorContainer.classList.contains('tabbed-standard')
-        ) {
+        } else if (editorContainer.classList.contains('tabbed-standard')) {
             outputContainer.style.height = '67%';
+        } else if (editorContainer.classList.contains('tabbed-taller')) {
+            outputContainer.style.height = '76%';
         }
     }
 
@@ -140,4 +129,22 @@
     document.addEventListener('WebComponentsReady', function() {
         render(templateUtils.getTemplateOutput());
     });
+
+    /* Ensure that performance is supported before
+       gathering the performance metric */
+    if (performance !== undefined) {
+        document.addEventListener('readystatechange', function(event) {
+            if (event.target.readyState === 'complete') {
+                /* loadEventEnd happens a split second after we
+                   reached complete. So we wait an additional
+                   100ms before getting it’ value */
+                setTimeout(function() {
+                    mceEvents.trackloadEventEnd(
+                        'Tabbed editor load time',
+                        performance.timing.loadEventEnd
+                    );
+                }, 100);
+            }
+        });
+    }
 })();

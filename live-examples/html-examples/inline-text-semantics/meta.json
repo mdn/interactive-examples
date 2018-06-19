@@ -151,7 +151,19 @@
                 "live-examples/html-examples/inline-text-semantics/css/rtc.css",
             "fileName": "rtc.html",
             "title": "HTML Demo: <rtc>",
-            "type": "tabbed"
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "ruby": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/ruby.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/ruby.css",
+            "fileName": "ruby.html",
+            "title": "HTML Demo: <ruby>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "s": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
