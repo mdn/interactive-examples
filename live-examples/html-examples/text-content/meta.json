@@ -52,6 +52,17 @@
             "type": "tabbed",
             "height": "tabbed-standard"
         },
+        "figure": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/text-content/figure.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/figure.css",
+            "fileName": "figure.html",
+            "title": "HTML Demo: <figure>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
         "hr": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/text-content/hr.html",
