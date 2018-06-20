@@ -121,6 +121,17 @@
             "type": "tabbed",
             "height": "tabbed-standard"
         },
+        "q": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/q.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/q.css",
+            "fileName": "q.html",
+            "title": "HTML Demo: <q>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
         "rp": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
@@ -261,17 +272,6 @@
                 "live-examples/html-examples/inline-text-semantics/css/u.css",
             "fileName": "u.html",
             "title": "HTML Demo: <u>",
-            "type": "tabbed",
-            "height": "tabbed-standard"
-        },
-        "q": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode":
-                "live-examples/html-examples/inline-text-semantics/q.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/inline-text-semantics/css/q.css",
-            "fileName": "q.html",
-            "title": "HTML Demo: <q>",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
