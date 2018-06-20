@@ -1,18 +1,32 @@
 .output {
-    position: relative;
     font:  .9rem/1.5 sans-serif;
 }
 
+blockquote {
+    margin: 0;
+}
+
+p {
+    margin: .2rem;
+}
+
 .warning {
-    border: 16px ridge #f00;
-    background-color: yellow;
+    border: 10px ridge #f00;
+    background-color: #ff0;
     padding: .5rem;
-    font:  small-caps bold 1.5rem sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.warning img {
+    width: 100%;
+}
+
+.warning p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
 }
 
 cite {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
     font-size: .8rem;
 }
