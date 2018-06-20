@@ -21,6 +21,17 @@
             "type": "tabbed",
             "height": "tabbed-standard"
         },
+        "div": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/text-content/div.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/div.css",
+            "fileName": "div.html",
+            "title": "HTML Demo: <div>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
         "dl": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/text-content/dl.html",

@@ -1,0 +1,18 @@
+.output {
+    position: relative;
+    font:  .9rem/1.5 sans-serif;
+}
+
+.warning {
+    border: 16px ridge #f00;
+    background-color: yellow;
+    padding: .5rem;
+    font:  small-caps bold 1.5rem sans-serif;
+}
+
+cite {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: .8rem;
+}
