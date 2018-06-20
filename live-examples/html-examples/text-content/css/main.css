@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding: .2rem;
+    font: bold calc(.025 * (100vw)) 'Arial', sans-serif;
+}
+
+header > .logo {
+    height: 2.5rem;
+    padding: .25rem .75rem .25rem 0;
+}
