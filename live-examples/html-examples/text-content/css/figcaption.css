@@ -1,5 +1,5 @@
 figure {
-    border: thin silver solid;
+    border: thin #c0c0c0 solid;
     display: flex;
     flex-flow: column;
     margin: 0;
@@ -12,7 +12,7 @@ img {
 }
 
 figcaption {
-    background: #222;
+    background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
     padding: 3px;
