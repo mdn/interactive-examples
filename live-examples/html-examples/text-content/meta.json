@@ -21,6 +21,17 @@
             "type": "tabbed",
             "height": "tabbed-standard"
         },
+        "div": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/text-content/div.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/text-content/css/div.css",
+            "fileName": "div.html",
+            "title": "HTML Demo: <div>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
         "dl": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode": "live-examples/html-examples/text-content/dl.html",
@@ -69,6 +80,15 @@
                 "live-examples/html-examples/text-content/css/li.css",
             "fileName": "li.html",
             "title": "HTML Demo: <li>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "main": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode": "live-examples/html-examples/text-content/main.html",
+            "cssExampleSrc": "live-examples/html-examples/text-content/css/main.css",
+            "fileName": "main.html",
+            "title": "HTML Demo: <main>",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
