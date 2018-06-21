@@ -116,7 +116,7 @@
                         'JS editor load time',
                         performance.timing.loadEventEnd
                     );
-                }, 100);
+                }, 300);
             }
         });
     }
