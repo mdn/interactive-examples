@@ -134,20 +134,11 @@
        gathering the performance metric */
     if (performance !== undefined) {
         document.addEventListener('readystatechange', function(event) {
-            console.log(
-                'Tabbed editor readystatechange, ',
-                event.target.readyState
-            );
             if (event.target.readyState === 'complete') {
-                console.log('Tabbed editor inside complete');
                 /* loadEventEnd happens a split second after we
                    reached complete. So we wait an additional
                    100ms before getting it’ value */
                 setTimeout(function() {
-                    console.log(
-                        'Tabbed editor 100ms elapsed tracking with ',
-                        performance.timing.loadEventEnd
-                    );
                     mceEvents.trackloadEventEnd(
                         'Tabbed editor load time',
                         performance.timing.loadEventEnd
