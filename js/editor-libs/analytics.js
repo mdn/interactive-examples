@@ -5,7 +5,6 @@ module.exports = {
      */
     trackEvent: function(eventDetails) {
         'use strict';
-        console.log('Posting event, ', eventDetails);
         window.parent.postMessage(
             eventDetails,
             'https://developer.mozilla.org'

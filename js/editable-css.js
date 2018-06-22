@@ -94,20 +94,11 @@
        gathering the performance metric */
     if (performance !== undefined) {
         document.addEventListener('readystatechange', function(event) {
-            console.log(
-                'CSS editor readystatechange, ',
-                event.target.readyState
-            );
             if (event.target.readyState === 'complete') {
-                console.log('CSS editor inside complete');
                 /* loadEventEnd happens a split second after we
                    reached complete. So we wait an additional
                    100ms before getting it’ value */
                 setTimeout(function() {
-                    console.log(
-                        'CSS editor 100ms elapsed tracking with ',
-                        performance.timing.loadEventEnd
-                    );
                     mceEvents.trackloadEventEnd(
                         'CSS editor load time',
                         performance.timing.loadEventEnd

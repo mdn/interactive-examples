@@ -107,20 +107,11 @@
        gathering the performance metric */
     if (performance !== undefined) {
         document.addEventListener('readystatechange', function(event) {
-            console.log(
-                'JS editor readystatechange, ',
-                event.target.readyState
-            );
             if (event.target.readyState === 'complete') {
-                console.log('JS editor inside complete');
                 /* loadEventEnd happens a split second after we
                    reached complete. So we wait an additional
                    100ms before getting it’ value */
                 setTimeout(function() {
-                    console.log(
-                        'JS editor 300ms elapsed tracking with ',
-                        performance.timing.loadEventEnd
-                    );
                     mceEvents.trackloadEventEnd(
                         'JS editor load time',
                         performance.timing.loadEventEnd
