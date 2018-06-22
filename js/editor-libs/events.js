@@ -238,6 +238,7 @@ module.exports = {
      * @param {Number} loadTime - The loadEventEnd time in milliseconds
      */
     trackloadEventEnd: function(action, loadTime) {
+        console.log('Calling trackEvent for, ', action);
         mceAnalytics.trackEvent({
             category: 'Interactive Examples',
             action: action,
