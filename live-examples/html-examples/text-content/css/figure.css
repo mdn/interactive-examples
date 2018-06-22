@@ -6,11 +6,6 @@ figure {
     padding: 5px;
 }
 
-img {
-    max-height: 220px;
-    width: 100%;
-}
-
 figcaption {
     background-color: #222;
     color: #fff;
