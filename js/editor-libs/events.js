@@ -20,12 +20,6 @@ function addCSSEditorEventListeners(exampleChoiceList) {
             exampleChoiceParent.textContent,
             exampleChoiceParent
         );
-
-        try {
-            if (!localStorage.getItem('firstCSSEditRecorded')) {
-                mceAnalytics.trackFirstEdit('css');
-            }
-        } catch (e) {} // eslint-disable-line no-empty
     });
 
     exampleChoiceList.addEventListener('click', function(event) {
@@ -61,14 +55,6 @@ function addJSEditorEventListeners(liveEditor) {
         if (event.target.id === 'execute') {
             mceAnalytics.trackRunClicks();
         }
-    });
-
-    liveEditor.addEventListener('keyup', function() {
-        try {
-            if (!localStorage.getItem('firstJSEditRecorded')) {
-                mceAnalytics.trackFirstEdit('js');
-            }
-        } catch (e) {} // eslint-disable-line no-empty
     });
 }
 
@@ -168,22 +154,6 @@ function handlePasteEvents(event) {
     Prism.highlightElement(parentCodeElem);
 }
 
-/**
- * Binds an event to the `window` object and listens for the onload event.
- * When the event is fired, the iframe load time is calculated, and the result
- * passed on to `trackFrameLoadTime` for performance analytics.
- * @param {String} exampleType - One of js or css
- */
-function sendPerformanceMetric(exampleType) {
-    'use strict';
-    window.onload = function sendLoadTime() {
-        mceAnalytics.trackFrameLoadTime(
-            exampleType,
-            mceUtils.calculateFrameLoadTime()
-        );
-    };
-}
-
 module.exports = {
     /**
      * Called when a new `example-choice` has been selected.
@@ -222,12 +192,10 @@ module.exports = {
         // only bind events if the `exampleChoiceList` container exist
         if (exampleChoiceList) {
             addPostMessageListener();
-            sendPerformanceMetric('css');
             addCSSEditorEventListeners(exampleChoiceList);
         }
 
         if (liveEditor) {
-            sendPerformanceMetric('js');
             addJSEditorEventListeners(liveEditor);
         }
     },

@@ -1,20 +1,5 @@
 module.exports = {
     /**
-     * Calculates the perceived load time of the iframe using
-     * the Navigation Timing API
-     */
-    calculateFrameLoadTime: function() {
-        'use strict';
-        var loadTime = 'Not supported';
-        var now = new Date().getTime();
-
-        if (performance.timing !== undefined) {
-            loadTime = now - performance.timing.navigationStart;
-        }
-
-        return loadTime;
-    },
-    /**
      * Find and return the `example-choice` parent of the provided element
      * @param {Object} element - The child element for which to find the
      * `example-choice` parent
