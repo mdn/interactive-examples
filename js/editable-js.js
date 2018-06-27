@@ -4,6 +4,7 @@
     var featureDetector = require('./editor-libs/feature-detector.js');
     var mceConsole = require('./editor-libs/console');
     var mceEvents = require('./editor-libs/events.js');
+    var mceUtils = require('./editor-libs/mce-utils');
 
     var codeBlock = document.getElementById('static-js');
     var exampleFeature = codeBlock.dataset['feature'];
@@ -116,6 +117,8 @@
                         'JS editor load time',
                         performance.timing.loadEventEnd
                     );
+                    // Posts mark to set on the Kuma side and used in measure
+                    mceUtils.postToKuma({ markName: 'js-ie-load-event-end' });
                 }, 300);
             }
         });

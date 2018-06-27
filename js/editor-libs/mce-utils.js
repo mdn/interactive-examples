@@ -38,6 +38,14 @@ module.exports = {
         return tmpElem.style[property] !== undefined;
     },
     /**
+     * Posts a name to set as a mark to Kuma for
+     * processing and beaconing to GA
+     * @param {Object} perf - The performance object sent to Kuma
+     */
+    postToKuma: function(perf) {
+        window.parent.postMessage(perf, 'https://developer.mozilla.org');
+    },
+    /**
      * Hides the default example and shows the custom block
      * @param {object} customBlock - The HTML section to show
      */

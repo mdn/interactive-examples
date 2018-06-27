@@ -2,6 +2,7 @@
     'use strict';
 
     var mceEvents = require('./editor-libs/events.js');
+    var mceUtils = require('./editor-libs/mce-utils');
     var shadowOutput = require('./editor-libs/shadow-output');
     var templateUtils = require('./editor-libs/template-utils');
     var tabby = require('./editor-libs/tabby');
@@ -143,6 +144,8 @@
                         'Tabbed editor load time',
                         performance.timing.loadEventEnd
                     );
+                    // Posts mark to set on the Kuma side and used in measure
+                    mceUtils.postToKuma({ markName: 'tabbed-ie-load-event-end' });
                 }, 100);
             }
         });

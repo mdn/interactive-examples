@@ -103,6 +103,8 @@
                         'CSS editor load time',
                         performance.timing.loadEventEnd
                     );
+                    // Posts mark to set on the Kuma side and used in measure
+                    mceUtils.postToKuma({ markName: 'css-ie-load-event-end' });
                 }, 100);
             }
         });
