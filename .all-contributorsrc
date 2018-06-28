@@ -398,6 +398,14 @@
                 "https://avatars3.githubusercontent.com/u/16986422?s=460&v=4",
             "profile": "https://github.com/elharony",
             "contributions": ["code"]
+        },
+        {
+            "login": "Arkangus",
+            "name": "Arkangus",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/40596006?s=460&v=4",
+            "profile": "https://github.com/Arkangus",
+            "contributions": ["code"]
         }
     ]
 }
