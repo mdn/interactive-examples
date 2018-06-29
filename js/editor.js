@@ -55,6 +55,20 @@
     }
 
     /**
+     * Interrupts the default click event on external links inside
+     * the shadow dom and opens them in a new tab instead
+     * @param {Array} externalLinks - all external links inside the shadow dom
+     */
+    function openLinksInNewTab(externalLinks) {
+        externalLinks.forEach(function(externalLink) {
+            externalLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                window.open(externalLink.href);
+            });
+        });
+    }
+
+    /**
      * Set or update the CSS and HTML in the output pane.
      * @param {Object} content - The content of the template element.
      */
@@ -80,6 +94,7 @@
 
         shadow.appendChild(document.importNode(content, true));
         setOutputHeight(shadow.querySelector('div'));
+        openLinksInNewTab(shadow.querySelectorAll('a[href^="http"]'));
     }
 
     /**
