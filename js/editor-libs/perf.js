@@ -15,10 +15,11 @@
      * events during document loading. These will then be made
      * available in performance tools, and beaconed to GA
      */
-    postToKuma({ markName: 'interactive-editor-loading' });
-
     document.addEventListener('readystatechange', function(event) {
         switch (event.target.readyState) {
+        case 'loading':
+            postToKuma({ markName: 'interactive-editor-loading' });
+            break;
         case 'interactive':
             postToKuma({
                 markName: 'interactive-editor-interactive',
