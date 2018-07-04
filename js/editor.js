@@ -55,35 +55,6 @@
     }
 
     /**
-     * Interrupts the default click event on external links inside
-     * the shadow dom and opens them in a new tab instead
-     * @param {Array} externalLinks - all external links inside the shadow dom
-     */
-    function openLinksInNewTab(externalLinks) {
-        externalLinks.forEach(function(externalLink) {
-            externalLink.addEventListener('click', function(event) {
-                event.preventDefault();
-                window.open(externalLink.href);
-            });
-        });
-    }
-
-    /**
-     * Interrupts the default click event on relative links inside
-     * the shadow dom and scrolls to the targeted anchor
-     * @param {Object} shadow - the shadow dom root
-     * @param {Array} relativeLinks - all relative links inside the shadow dom
-     */
-    function scrollToAnchors(shadow, relativeLinks) {
-        relativeLinks.forEach(function(relativeLink) {
-            relativeLink.addEventListener('click', function(event) {
-                event.preventDefault();
-                shadow.querySelector(relativeLink.hash).scrollIntoView();
-            });
-        });
-    }
-
-    /**
      * Set or update the CSS and HTML in the output pane.
      * @param {Object} content - The content of the template element.
      */
@@ -109,8 +80,8 @@
 
         shadow.appendChild(document.importNode(content, true));
         setOutputHeight(shadow.querySelector('div'));
-        openLinksInNewTab(shadow.querySelectorAll('a[href^="http"]'));
-        scrollToAnchors(shadow, shadow.querySelectorAll('a[href^="#"]'));
+        mceUtils.openLinksInNewTab(shadow.querySelectorAll('a[href^="http"]'));
+        mceUtils.scrollToAnchors(shadow, shadow.querySelectorAll('a[href^="#"]'));
     }
 
     /**
