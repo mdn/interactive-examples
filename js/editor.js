@@ -80,6 +80,8 @@
 
         shadow.appendChild(document.importNode(content, true));
         setOutputHeight(shadow.querySelector('div'));
+        mceUtils.openLinksInNewTab(shadow.querySelectorAll('a[href^="http"]'));
+        mceUtils.scrollToAnchors(shadow, shadow.querySelectorAll('a[href^="#"]'));
     }
 
     /**
