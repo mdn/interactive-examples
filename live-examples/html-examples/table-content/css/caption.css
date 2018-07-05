@@ -11,7 +11,8 @@ table {
     font-size: .8rem;
 }
 
-td, th {
+td,
+th {
     border: 1px solid rgb(190, 190, 190);
     padding: 7px 15px;
 }
@@ -32,25 +33,13 @@ tr:nth-child(odd) td {
     background-color: rgb(240, 240, 240);
 }
 
-@font-face {
-    font-family: 'molot';
-    src: url('/media/fonts/molot.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'rapscallion';
-    src: url('/media/fonts/rapscall.woff2') format('woff2');
-}
-
 .heman {
     font: 1.4rem molot;
-    text-shadow: 1px 1px 1px #fff,
-                 2px 2px 1px #000;
+    text-shadow: 1px 1px 1px #fff, 2px 2px 1px #000;
 }
 
 .skeletor {
-  font: 1.7rem rapscallion;
-  letter-spacing: 3px;
-  text-shadow: 1px 1px 0px #fff,
-               0 0 9px #000;
+    font: 1.7rem rapscallion;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 0 #fff, 0 0 9px #000;
 }

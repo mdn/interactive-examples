@@ -13,17 +13,12 @@
 }
 
 .day-forecast {
-    background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
+    background: right/contain content-box border-box no-repeat
+        url('/media/examples/rain.svg') white;
 }
 
 .day-forecast > h2,
-.day-forecast>p {
+.day-forecast > p {
     margin: .2rem;
     font-size: 1rem;
-}
-
-@font-face {
-    font-family: 'Fira Sans';
-    src: local('FiraSans-Regular'),
-    url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
 }

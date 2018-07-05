@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'Fira Sans';
-    src: local('FiraSans-Regular'),
-    url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
-}
-
 legend {
     background-color: #000;
     color: #fff;
@@ -20,10 +14,10 @@ label {
 }
 
 label,
-input[type="image"] {
+input[type='image'] {
     margin-top: 1rem;
 }
 
-input[type="image"] {
+input[type='image'] {
     width: 80px;
 }
