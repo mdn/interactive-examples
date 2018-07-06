@@ -414,6 +414,14 @@
                 "https://avatars3.githubusercontent.com/u/840022?s=460&v=4",
             "profile": "https://github.com/ro-ka",
             "contributions": ["code"]
+        },
+        {
+            "login": "arai-a",
+            "name": "arai-a",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/6299746?s=460&v=4",
+            "profile": "https://github.com/arai-a",
+            "contributions": ["code"]
         }
     ]
 }
