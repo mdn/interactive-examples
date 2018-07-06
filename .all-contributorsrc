@@ -406,6 +406,14 @@
                 "https://avatars3.githubusercontent.com/u/40596006?s=460&v=4",
             "profile": "https://github.com/Arkangus",
             "contributions": ["code"]
+        },
+        {
+            "login": "ro-ka",
+            "name": "Robert Katzki",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/840022?s=460&v=4",
+            "profile": "https://github.com/ro-ka",
+            "contributions": ["code"]
         }
     ]
 }
