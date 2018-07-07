@@ -1,5 +1,16 @@
 {
     "pages": {
+        "a": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/a.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/a.css",
+            "fileName": "a.html",
+            "title": "HTML Demo: <a>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
         "abbr": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
