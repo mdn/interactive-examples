@@ -3,11 +3,5 @@ p {
 }
 
 u {
-    text-decoration: red wavy underline;
-}
-
-@font-face {
-    font-family: 'Fira Sans';
-    src: local('FiraSans-Regular'),
-    url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
+    text-decoration: #f00 wavy underline;
 }
