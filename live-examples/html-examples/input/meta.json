@@ -119,7 +119,7 @@
             "fileName": "input-radio.html",
             "title": "HTML Demo: <input type=\"radio\">",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-taller"
         },
         "range": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
