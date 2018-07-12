@@ -11,6 +11,7 @@ newPRWelcomeComment: >
   💖 Thanks for opening this pull request! 💖
 
   Here is a list of things that will help get it across the finish line:
+  
   - If this is a new or updated CSS interactive example, please ensure that you followed the [CSS styleguide](https://github.com/mdn/interactive-examples/blob/master/CSS-Example-Style-Guide.md)
   - If this is a new or updated JavaScript interactive example, please ensure that you followed the [JavaScript styleguide](https://github.com/mdn/interactive-examples/blob/master/JS-Example-Style-Guide.md)
   - If your changes affects any of the steps in our [contribution docs](https://github.com/mdn/interactive-examples/blob/master/CONTRIBUTING.md), please also make the relevant changes there.
