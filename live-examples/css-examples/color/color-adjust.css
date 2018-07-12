@@ -1,0 +1,11 @@
+#example-element {
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 180, .5), rgba(70, 140, 220, .5));
+    color: #333;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

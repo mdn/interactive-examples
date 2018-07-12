@@ -398,6 +398,46 @@
                 "https://avatars3.githubusercontent.com/u/16986422?s=460&v=4",
             "profile": "https://github.com/elharony",
             "contributions": ["code"]
+        },
+        {
+            "login": "Arkangus",
+            "name": "Arkangus",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/40596006?s=460&v=4",
+            "profile": "https://github.com/Arkangus",
+            "contributions": ["code"]
+        },
+        {
+            "login": "ro-ka",
+            "name": "Robert Katzki",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/840022?s=460&v=4",
+            "profile": "https://github.com/ro-ka",
+            "contributions": ["code"]
+        },
+        {
+            "login": "arai-a",
+            "name": "arai-a",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/6299746?s=460&v=4",
+            "profile": "https://github.com/arai-a",
+            "contributions": ["code"]
+        },
+        {
+            "login": "dagolinuxoid",
+            "name": "daGo",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/7243749?s=460&v=4",
+            "profile": "https://github.com/dagolinuxoid",
+            "contributions": ["code"]
+        },
+        {
+            "login": "goodwin64",
+            "name": "Max Donchenko",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/10671879?s=460&v=4",
+            "profile": "https://github.com/goodwin64",
+            "contributions": ["code"]
         }
     ]
 }

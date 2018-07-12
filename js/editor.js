@@ -2,6 +2,7 @@
     'use strict';
 
     var mceEvents = require('./editor-libs/events.js');
+    var mceUtils = require('./editor-libs/mce-utils');
     var shadowOutput = require('./editor-libs/shadow-output');
     var templateUtils = require('./editor-libs/template-utils');
     var tabby = require('./editor-libs/tabby');
@@ -65,6 +66,7 @@
             if (typeof ShadyDOM !== 'undefined' && ShadyDOM.inUse) {
                 shadow.innerHTML = '';
             } else {
+                shadow.removeChild(shadow.querySelector('div'));
                 var styleElements = shadow.querySelectorAll('style');
 
                 for (var styleElement in styleElements) {
@@ -72,13 +74,13 @@
                         shadow.removeChild(styleElements[styleElement]);
                     }
                 }
-
-                shadow.removeChild(shadow.querySelector('div'));
             }
         }
 
         shadow.appendChild(document.importNode(content, true));
         setOutputHeight(shadow.querySelector('div'));
+        mceUtils.openLinksInNewTab(shadow.querySelectorAll('a[href^="http"]'));
+        mceUtils.scrollToAnchors(shadow, shadow.querySelectorAll('a[href^="#"]'));
     }
 
     /**
@@ -143,6 +145,8 @@
                         'Tabbed editor load time',
                         performance.timing.loadEventEnd
                     );
+                    // Posts mark to set on the Kuma side and used in measure
+                    mceUtils.postToKuma({ markName: 'tabbed-ie-load-event-end' });
                 }, 100);
             }
         });

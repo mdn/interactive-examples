@@ -163,6 +163,18 @@ thead {
 
 Follow the [mdn-fiori CSS formatting guidelines](https://mdn.github.io/mdn-fiori/patterns/css/formatting/).
 
+### Fonts
+
+Because the editor uses Shadow DOM to isolate the example, you can't use `@font-face` to include extra fonts in your example. We've included a number of extra fonts in the [shadow-fonts.css](https://github.com/mdn/interactive-examples/blob/master/css/editor-libs/shadow-fonts.css) file, and you can use these with a normal `font-family` declaration:
+
+```
+p {
+    font-family: 'molot';
+}
+```
+
+If you need to include some additional fonts, add them to your pull request and update the "shadow-fonts.css" file to include them.
+
 ## Updating the metadata
 
 In "live-examples/html-examples/table-content/" you'll need a file called "meta.json". This tells the site builder about the examples inside the directory. If it doesn't exist, create it. If it does, open it,

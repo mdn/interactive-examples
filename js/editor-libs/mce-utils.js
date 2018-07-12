@@ -1,20 +1,5 @@
 module.exports = {
     /**
-     * Calculates the perceived load time of the iframe using
-     * the Navigation Timing API
-     */
-    calculateFrameLoadTime: function() {
-        'use strict';
-        var loadTime = 'Not supported';
-        var now = new Date().getTime();
-
-        if (performance.timing !== undefined) {
-            loadTime = now - performance.timing.navigationStart;
-        }
-
-        return loadTime;
-    },
-    /**
      * Find and return the `example-choice` parent of the provided element
      * @param {Object} element - The child element for which to find the
      * `example-choice` parent
@@ -51,6 +36,41 @@ module.exports = {
         var tmpElem = document.createElement('div');
 
         return tmpElem.style[property] !== undefined;
+    },
+    /**
+     * Interrupts the default click event on external links inside
+     * the shadow dom and opens them in a new tab instead
+     * @param {Array} externalLinks - all external links inside the shadow dom
+     */
+    openLinksInNewTab: function(externalLinks) {
+        externalLinks.forEach(function(externalLink) {
+            externalLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                window.open(externalLink.href);
+            });
+        });
+    },
+    /**
+     * Posts a name to set as a mark to Kuma for
+     * processing and beaconing to GA
+     * @param {Object} perf - The performance object sent to Kuma
+     */
+    postToKuma: function(perf) {
+        window.parent.postMessage(perf, 'https://developer.mozilla.org');
+    },
+    /**
+     * Interrupts the default click event on relative links inside
+     * the shadow dom and scrolls to the targeted anchor
+     * @param {Object} shadow - the shadow dom root
+     * @param {Array} relativeLinks - all relative links inside the shadow dom
+     */
+    scrollToAnchors: function(shadow, relativeLinks) {
+        relativeLinks.forEach(function(relativeLink) {
+            relativeLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                shadow.querySelector(relativeLink.hash).scrollIntoView();
+            });
+        });
     },
     /**
      * Hides the default example and shows the custom block

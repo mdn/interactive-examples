@@ -51,6 +51,7 @@
             ],
             "css": [
                 "css/editor-libs/common.css",
+                "css/editor-libs/shadow-fonts.css",
                 "css/editor-libs/tabby.css",
                 "css/tabbed-editor.css"
             ],

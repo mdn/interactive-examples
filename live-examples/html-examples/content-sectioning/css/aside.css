@@ -12,12 +12,6 @@ aside > p {
     margin: .5rem;
 }
 
-@font-face {
-    font-family: 'Fira Sans';
-    src: local('FiraSans-Regular'),
-    url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
-}
-
 p {
     font-family: 'Fira Sans', sans-serif;
 }
