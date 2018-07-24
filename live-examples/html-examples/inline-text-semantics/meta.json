@@ -22,6 +22,26 @@
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
+        "bdi": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/bdi.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/bdi.css",
+            "fileName": "bdi.html",
+            "title": "HTML Demo: <bdi>",
+            "type": "tabbed"
+        },
+        "bdo": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/bdo.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/bdo.css",
+            "fileName": "bdo.html",
+            "title": "HTML Demo: <bdo>",
+            "type": "tabbed"
+        },
         "b": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
