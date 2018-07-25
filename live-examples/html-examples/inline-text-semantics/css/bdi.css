@@ -3,5 +3,9 @@ html {
 }
 
 bdi {
-  
+
+}
+
+.name {
+  color: red;
 }
