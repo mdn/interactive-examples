@@ -10,6 +10,17 @@
             "title": "HTML Demo: class",
             "type": "tabbed",
             "height": "tabbed-standard"
+        },
+        "class": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/class.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/class.css",
+            "fileName": "class.html",
+            "title": "HTML Demo: class",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }
