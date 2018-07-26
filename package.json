@@ -63,7 +63,7 @@
         "mozilla"
     ],
     "devDependencies": {
-        "all-contributors-cli": "5.2.1",
+        "all-contributors-cli": "5.3.0",
         "browserify": "16.2.2",
         "bundlesize": "0.17.0",
         "chokidar-cli": "1.2.0",
