@@ -462,6 +462,14 @@
                 "https://avatars3.githubusercontent.com/u/69888?s=460&v=4",
             "profile": "https://github.com/estelle",
             "contributions": ["code"]
+        },
+        {
+            "login": "Row",
+            "name": "Jon Borglund",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/359525?s=460&v=4",
+            "profile": "https://github.com/Row",
+            "contributions": ["code"]
         }
     ]
 }
