@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('FiraSans-Regular'),
+         url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+blockquote {
+    margin: 16px 0;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p {
+    padding: 15px;
+}
+
+cite {
+    margin: 16px 32px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+[contenteditable="true"] {
+    caret-color: red;
+}

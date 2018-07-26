@@ -1,0 +1,15 @@
+{
+    "pages": {
+        "accesskey": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/contenteditable.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/contenteditable.css",
+            "fileName": "contenteditable.html",
+            "title": "HTML Demo: contenteditable",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        }
+    }
+}
