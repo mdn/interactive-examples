@@ -1,0 +1,19 @@
+.output {
+    font: 0.9rem 'Fira Sans', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+
+div,
+label {
+    letter-spacing: 0.5px;
+}
+
+div:focus {
+    font-weight: bold;
+}

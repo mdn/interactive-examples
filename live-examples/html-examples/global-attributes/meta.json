@@ -32,6 +32,17 @@
             "title": "HTML Demo: dir",
             "type": "tabbed",
             "height": "tabbed-standard"
+        },
+        "tabindex": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/tabindex.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/tabindex.css",
+            "fileName": "tabindex.html",
+            "title": "HTML Demo: tabindex",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }
