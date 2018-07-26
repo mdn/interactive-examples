@@ -32,6 +32,17 @@
             "title": "HTML Demo: dir",
             "type": "tabbed",
             "height": "tabbed-standard"
+        },
+        "hidden": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/hidden.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/hidden.css",
+            "fileName": "hidden.html",
+            "title": "HTML Demo: hidden",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }
