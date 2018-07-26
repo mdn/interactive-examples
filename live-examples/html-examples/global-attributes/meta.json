@@ -3,11 +3,22 @@
         "accesskey": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
-                "live-examples/html-examples/global-attributes/contenteditable.html",
+                "live-examples/html-examples/global-attributes/class.html",
             "cssExampleSrc":
-                "live-examples/html-examples/global-attributes/css/contenteditable.css",
-            "fileName": "contenteditable.html",
-            "title": "HTML Demo: contenteditable",
+                "live-examples/html-examples/global-attributes/css/class.css",
+            "fileName": "class.html",
+            "title": "HTML Demo: class",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "class": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/class.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/class.css",
+            "fileName": "class.html",
+            "title": "HTML Demo: class",
             "type": "tabbed",
             "height": "tabbed-standard"
         }
