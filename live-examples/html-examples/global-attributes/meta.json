@@ -1,0 +1,26 @@
+{
+    "pages": {
+        "accesskey": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/accesskey.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/accesskey.css",
+            "fileName": "accesskey.html",
+            "title": "HTML Demo: accesskey",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "class": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/class.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/class.css",
+            "fileName": "class.html",
+            "title": "HTML Demo: class",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        }
+    }
+}
