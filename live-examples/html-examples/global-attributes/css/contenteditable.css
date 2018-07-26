@@ -32,6 +32,6 @@ blockquote p::after {
     content: '\201D';
 }
 
-[contenteditable="true"] {
+[contenteditable='true'] {
     caret-color: red;
 }
