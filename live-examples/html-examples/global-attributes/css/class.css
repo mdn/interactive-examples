@@ -13,14 +13,13 @@
 .note {
     font-style: italic;
     font-weight: bold;
-    Margin: 0 20px;
 }
 
 .editorial {
-    background: rgb(255,0,0,0.25);
+    background: rgb(255, 0, 0, .25);
     padding: 10px;
 }
 
 .editorial:before {
-    content: "Editor: "
+    content: 'Editor: '
 }
