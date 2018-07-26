@@ -21,6 +21,17 @@
             "title": "HTML Demo: class",
             "type": "tabbed",
             "height": "tabbed-standard"
+        },
+        "dir": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/dir.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/dir.css",
+            "fileName": "dir.html",
+            "title": "HTML Demo: dir",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }
