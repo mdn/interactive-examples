@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('FiraSans-Regular'),
+         url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.note {
+    font-style: italic;
+    font-weight: bold;
+    Margin: 0 20px;
+}
+
+.editorial {
+    background: rgb(255,0,0,0.25);
+    padding: 10px;
+}
+
+.editorial:before {
+    content: "Editor: "
+}
