@@ -2,6 +2,14 @@
     font: 1rem 'Fira Sans', sans-serif;
 }
 
+h1 {
+   margin: 0;
+}
+
+ul {
+   margin: 10px 0 0; 
+}
+
 li {
     position: relative;
     width: 300px;
