@@ -3,6 +3,17 @@
         "accesskey": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
+                "live-examples/html-examples/global-attributes/accesskey.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/accesskey.css",
+            "fileName": "accesskey.html",
+            "title": "HTML Demo: accesskey",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "class": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
                 "live-examples/html-examples/global-attributes/class.html",
             "cssExampleSrc":
                 "live-examples/html-examples/global-attributes/css/class.css",
@@ -19,6 +30,17 @@
                 "live-examples/html-examples/global-attributes/css/data-*.css",
             "fileName": "data-*.html",
             "title": "HTML Demo: data-*",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "dir": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/dir.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/dir.css",
+            "fileName": "dir.html",
+            "title": "HTML Demo: dir",
             "type": "tabbed",
             "height": "tabbed-standard"
         }

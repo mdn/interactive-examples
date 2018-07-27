@@ -1,0 +1,29 @@
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+blockquote {
+    background: #eee;
+    border-radius: 5px;
+    margin: 16px 0;
+}
+
+blockquote p {
+    padding: 15px;
+}
+
+cite {
+    margin: 16px 32px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+[contenteditable='true'] {
+    caret-color: red;
+}
