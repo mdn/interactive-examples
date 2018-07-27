@@ -65,6 +65,17 @@
             "title": "HTML Demo: id",
             "type": "tabbed",
             "height": "tabbed-standard"
+        },
+        "style-attr": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/style-attr.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/style-attr.css",
+            "fileName": "style-attr.html",
+            "title": "HTML Demo: style",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }
