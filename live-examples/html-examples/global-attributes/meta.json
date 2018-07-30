@@ -42,7 +42,7 @@
             "fileName": "title-attr.html",
             "title": "HTML Demo: title",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         }
     }
 }
