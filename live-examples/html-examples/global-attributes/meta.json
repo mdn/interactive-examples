@@ -42,7 +42,7 @@
             "fileName": "spellcheck.html",
             "title": "HTML Demo: spellcheck",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         }
     }
 }
