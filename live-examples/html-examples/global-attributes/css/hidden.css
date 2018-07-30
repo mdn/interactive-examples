@@ -1,0 +1,10 @@
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+p {
+    background: #ffe8d4;
+    border: 1px solid #f69d3c;
+    padding: 5px;
+    border-radius: 5px;
+}
