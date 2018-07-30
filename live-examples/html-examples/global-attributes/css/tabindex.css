@@ -1,5 +1,5 @@
 .output {
-    font: 0.9rem 'Fira Sans', sans-serif;
+    font: .9rem 'Fira Sans', sans-serif;
 }
 
 form {
@@ -11,9 +11,13 @@ form {
 
 div,
 label {
-    letter-spacing: 0.5px;
+    letter-spacing: .5px;
 }
 
 div:focus {
     font-weight: bold;
+}
+
+.instructions {
+    font-style: italic;
 }

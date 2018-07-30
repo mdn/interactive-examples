@@ -42,7 +42,7 @@
             "fileName": "tabindex.html",
             "title": "HTML Demo: tabindex",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         }
     }
 }
