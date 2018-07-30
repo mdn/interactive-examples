@@ -42,7 +42,7 @@
             "fileName": "lang.html",
             "title": "HTML Demo: lang",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         }
     }
 }
