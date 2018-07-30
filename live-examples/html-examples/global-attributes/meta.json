@@ -77,6 +77,17 @@
             "type": "tabbed",
             "height": "tabbed-standard"
         },
+        "spellcheck": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/spellcheck.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/spellcheck.css",
+            "fileName": "spellcheck.html",
+            "title": "HTML Demo: spellcheck",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
         "tabindex": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
