@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('FiraSans-Regular'),
+    url('/media/fonts/FiraSans-Regular.woff2') format('woff2');
+}
+
+h1 {
+    margin-top: 2px;
+    margin-bottom: 3px;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fira Sans', 'Verdana', 'Arial', sans-serif;
+    margin-bottom: 1px;
+}
+
+h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
+    margin-top: 1px;
+}
