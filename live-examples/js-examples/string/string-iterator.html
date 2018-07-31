@@ -1,12 +1,13 @@
 <pre>
-<code id="static-js">var str = "The quick red fox jumped over the lazy dog's back.";
+<code id="static-js">const str = "The quick red fox jumped over the lazy dog's back.";
 
-  var iterator = str[Symbol.iterator]();
+let iterator = str[Symbol.iterator]();
+let theChar = iterator.next();
 
-  do {
-    var theChar = iterator.next();
-    // output each character in the string, one per line
-    console.log(theChar);
-  } while(!theChar.done)  
+while(!theChar.done) {
+  // output each character in the string, one per line
+  console.log(theChar);
+  theChar = iterator.next();
+}  
 </code>
 </pre>
