@@ -1,0 +1,13 @@
+<pre>
+<code id="static-js">var str1 = '5';
+
+console.log(str1.padStart(2, '0'));
+// expected output: '05'
+
+var last4Digits = '2034399002125581'.slice(-4);
+var maskedNumber = last4Digits.padStart(16, '*');
+
+console.log(maskedNumber);
+// expected output: '************5581'
+</code>
+</pre>
