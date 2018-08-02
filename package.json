@@ -67,7 +67,7 @@
         "browserify": "16.2.2",
         "bundlesize": "0.17.0",
         "chokidar-cli": "1.2.0",
-        "clean-css": "4.1.11",
+        "clean-css": "4.2.0",
         "concat": "1.0.3",
         "eslint": "5.2.0",
         "fs-extra": "7.0.0",
