@@ -2,40 +2,35 @@
     "pages": {
         "stringConcat": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/string/string-concat.html",
+            "exampleCode": "live-examples/js-examples/string/string-concat.html",
             "fileName": "string-concat.html",
             "title": "JavaScript Demo: String.concat()",
             "type": "js"
         },
         "stringEndsWith": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/string/string-endswith.html",
+            "exampleCode": "live-examples/js-examples/string/string-endswith.html",
             "fileName": "string-endswith.html",
             "title": "JavaScript Demo: String.endsWith()",
             "type": "js"
         },
         "stringPadEnd": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/string/string-padend.html",
+            "exampleCode": "live-examples/js-examples/string/string-padend.html",
             "fileName": "string-padend.html",
             "title": "JavaScript Demo: String.padEnd()",
             "type": "js"
         },
         "stringPadStart": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/string/string-padstart.html",
+            "exampleCode": "live-examples/js-examples/string/string-padstart.html",
             "fileName": "string-padstart.html",
             "title": "JavaScript Demo: String.padStart()",
             "type": "js"
         },
         "stringStartsWith": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/string/string-startswith.html",
+            "exampleCode": "live-examples/js-examples/string/string-startswith.html",
             "fileName": "string-startswith.html",
             "title": "JavaScript Demo: String.startsWith()",
             "type": "js"
@@ -49,16 +44,14 @@
         },
         "stringTrimEnd": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/string/string-trimend.html",
+            "exampleCode": "live-examples/js-examples/string/string-trimend.html",
             "fileName": "string-trimend.html",
             "title": "JavaScript Demo: String.trimEnd()",
             "type": "js"
         },
         "stringTrimStart": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/string/string-trimstart.html",
+            "exampleCode": "live-examples/js-examples/string/string-trimstart.html",
             "fileName": "string-trimstart.html",
             "title": "JavaScript Demo: String.trimStart()",
             "type": "js"
