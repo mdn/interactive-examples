@@ -1,0 +1,15 @@
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+p::before {
+    padding-right: 5px;
+}
+
+[lang="en-GB"]::before {
+    content: url('/media/examples/british-flag.png');
+}
+
+[lang="fr"]::before {
+    content: url('/media/examples/french-flag.png');
+}
