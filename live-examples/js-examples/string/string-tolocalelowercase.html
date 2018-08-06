@@ -1,7 +1,11 @@
 <pre>
-<code id="static-js">var sentence = "The quick brown fox jumped over the lazy dog.";
+<code id="static-js">var dotted = 'İstanbul';
 
-console.log(sentence.toLocaleLowerCase('en-US'));
-// expected output: "the quick brown fox jumped over the lazy dog."
+console.log('EN-US: ' + dotted.toLocaleLowerCase('en-US'));
+// expected output: "i̇stanbul"
+
+console.log('TR: ' + dotted.toLocaleLowerCase('tr'));
+// expected output: "istanbul"
+
 </code>
 </pre>

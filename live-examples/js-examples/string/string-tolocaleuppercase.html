@@ -1,8 +1,10 @@
 <pre>
-<code id="static-js">var sentence = "The quick brown fox jumped over the lazy dog.";
+<code id="static-js">var cedilla = '\u00E7';
 
+console.log(cedilla.toLocaleUpperCase('en-US'));
+// expected output: "Ç"
 
-console.log(sentence.toLocaleUpperCase('en-US'));
-// expected output: "THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG."
+console.log(cedilla.toLocaleUpperCase('TR'));
+// expected output: "Ç"
 </code>
 </pre>

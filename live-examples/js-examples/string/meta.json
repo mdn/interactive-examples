@@ -1,24 +1,10 @@
 {
     "pages": {
-        "stringTrim": {
+        "stringCharAt": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/string/string-trim.html",
-            "fileName": "string-trim.html",
-            "title": "JavaScript Demo: String.trim()",
-            "type": "js"
-        },
-        "stringTrimEnd": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/string/string-trimend.html",
-            "fileName": "string-trimend.html",
-            "title": "JavaScript Demo: String.trimEnd()",
-            "type": "js"
-        },
-        "stringTrimStart": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/string/string-trimstart.html",
-            "fileName": "string-trimstart.html",
-            "title": "JavaScript Demo: String.trimStart()",
+            "exampleCode": "live-examples/js-examples/string/string-charat.html",
+            "fileName": "string-charat.html",
+            "title": "JavaScript Demo: String.charAt()",
             "type": "js"
         },
         "stringIndexOf": {
@@ -33,13 +19,6 @@
             "exampleCode": "live-examples/js-examples/string/string-lastindexof.html",
             "fileName": "string-lastindexof.html",
             "title": "JavaScript Demo: String.lastIndexOf()",
-            "type": "js"
-        },
-        "stringCharAt": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/string/string-charat.html",
-            "fileName": "string-charat.html",
-            "title": "JavaScript Demo: String.charAt()",
             "type": "js"
         },
         "stringToLocaleLowerCase": {
@@ -68,6 +47,27 @@
             "exampleCode": "live-examples/js-examples/string/string-touppercase.html",
             "fileName": "string-touppercase.html",
             "title": "JavaScript Demo: String.toUpperCase()",
+            "type": "js"
+        },
+        "stringTrim": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-trim.html",
+            "fileName": "string-trim.html",
+            "title": "JavaScript Demo: String.trim()",
+            "type": "js"
+        },
+        "stringTrimEnd": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-trimend.html",
+            "fileName": "string-trimend.html",
+            "title": "JavaScript Demo: String.trimEnd()",
+            "type": "js"
+        },
+        "stringTrimStart": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-trimstart.html",
+            "fileName": "string-trimstart.html",
+            "title": "JavaScript Demo: String.trimStart()",
             "type": "js"
         }
     }
