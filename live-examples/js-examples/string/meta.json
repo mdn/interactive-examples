@@ -7,6 +7,34 @@
             "title": "JavaScript Demo: String.charAt()",
             "type": "js"
         },
+        "stringCharCodeAt": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-charcodeat.html",
+            "fileName": "string-charcodeat.html",
+            "title": "JavaScript Demo: String.charCodeAt()",
+            "type": "js"
+        },
+        "stringCodePointAt": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-codepointat.html",
+            "fileName": "string-codepointat.html",
+            "title": "JavaScript Demo: String.codePointAt()",
+            "type": "js"
+        },
+        "stringFromCharCode": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-fromcharcode.html",
+            "fileName": "string-fromcharcode.html",
+            "title": "JavaScript Demo: String.fromCharCode()",
+            "type": "js"
+        },
+        "stringFromCodePoint": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-fromcodepoint.html",
+            "fileName": "string-fromcodepoint.html",
+            "title": "JavaScript Demo: String.fromCodePoint()",
+            "type": "js"
+        },
         "stringIndexOf": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/string/string-indexof.html",
@@ -19,6 +47,27 @@
             "exampleCode": "live-examples/js-examples/string/string-lastindexof.html",
             "fileName": "string-lastindexof.html",
             "title": "JavaScript Demo: String.lastIndexOf()",
+            "type": "js"
+        },
+        "stringRepeat": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-repeat.html",
+            "fileName": "string-repeat.html",
+            "title": "JavaScript Demo: String.repeat()",
+            "type": "js"
+        },
+        "stringReplace": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-replace.html",
+            "fileName": "string-replace.html",
+            "title": "JavaScript Demo: String.replace()",
+            "type": "js"
+        },
+        "stringSearch": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-search.html",
+            "fileName": "string-search.html",
+            "title": "JavaScript Demo: String.search()",
             "type": "js"
         },
         "stringToLocaleLowerCase": {
