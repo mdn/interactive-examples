@@ -33,6 +33,28 @@
             "type": "tabbed",
             "height": "tabbed-standard"
         },
+        "bdi": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/bdi.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/bdi.css",
+            "fileName": "bdi.html",
+            "title": "HTML Demo: <bdi>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "bdo": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/bdo.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/bdo.css",
+            "fileName": "bdo.html",
+            "title": "HTML Demo: <bdo>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
         "br": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
@@ -140,6 +162,17 @@
                 "live-examples/html-examples/inline-text-semantics/css/q.css",
             "fileName": "q.html",
             "title": "HTML Demo: <q>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "rb": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/inline-text-semantics/rb.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/inline-text-semantics/css/rb.css",
+            "fileName": "rb.html",
+            "title": "HTML Demo: <rb>",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
