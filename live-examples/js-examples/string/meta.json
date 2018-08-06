@@ -49,6 +49,13 @@
             "title": "JavaScript Demo: String.lastIndexOf()",
             "type": "js"
         },
+        "stringMatch": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-match.html",
+            "fileName": "string-match.html",
+            "title": "JavaScript Demo: String.match()",
+            "type": "js"
+        },
         "stringRepeat": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/string/string-repeat.html",
