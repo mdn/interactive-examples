@@ -35,6 +35,13 @@
             "title": "JavaScript Demo: String.fromCodePoint()",
             "type": "js"
         },
+        "stringIncludes": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-includes.html",
+            "fileName": "string-includes.html",
+            "title": "JavaScript Demo: String.includes()",
+            "type": "js"
+        },
         "stringIndexOf": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/string/string-indexof.html",
@@ -47,6 +54,13 @@
             "exampleCode": "live-examples/js-examples/string/string-lastindexof.html",
             "fileName": "string-lastindexof.html",
             "title": "JavaScript Demo: String.lastIndexOf()",
+            "type": "js"
+        },
+        "stringLocaleCompare": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-localecompare.html",
+            "fileName": "string-localecompare.html",
+            "title": "JavaScript Demo: String.localeCompare()",
             "type": "js"
         },
         "stringMatch": {
