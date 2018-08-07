@@ -8,12 +8,12 @@
     doFetch(url)
   ];
 
-  console.log('Regular iterator');
+  console.log('Regular iterator: promise objects are expected.');
   for (const item of arrayOfFetches) {
     console.log(item);
   }
 
-  console.log('Async iterator');
+  console.log('Async iterator: values from resolved promises are expected.');
   for await (const item of arrayOfFetches) {
     console.log(item);
   }
