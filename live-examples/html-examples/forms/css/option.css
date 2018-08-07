@@ -21,6 +21,5 @@ footer {
 }
 
 .output {
-    background: center/cover no-repeat url('/media/examples/hamster.jpg');
     position: relative;
 }
