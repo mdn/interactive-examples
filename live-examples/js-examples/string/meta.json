@@ -2,16 +2,9 @@
     "pages": {
         "stringIterator": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/string/string-iterator.html",
-            "fileName": "string-iterator.html",
-            "title": "JavaScript Demo: String.prototype[@@iterator]()",
-            "type": "js"
-        },
-        "stringTrim": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/string/string-iterator-foreach.html",
-            "fileName": "string-iterator-foreach.html",
-            "title": "JavaScript Demo: String.prototype[@@iterator]()",
+            "exampleCode": "live-examples/js-examples/string/string-length.html",
+            "fileName": "string-length.html",
+            "title": "JavaScript Demo: String.length",
             "type": "js"
         },
         "stringTrim": {
