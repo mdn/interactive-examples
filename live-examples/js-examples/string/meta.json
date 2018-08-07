@@ -7,26 +7,5 @@
             "title": "JavaScript Demo: String.startsWith()",
             "type": "js"
         },
-        "stringTrim": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/string/string-trim.html",
-            "fileName": "string-trim.html",
-            "title": "JavaScript Demo: String.trim()",
-            "type": "js"
-        },
-        "stringTrimEnd": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/string/string-trimend.html",
-            "fileName": "string-trimend.html",
-            "title": "JavaScript Demo: String.trimEnd()",
-            "type": "js"
-        },
-        "stringTrimStart": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/string/string-trimstart.html",
-            "fileName": "string-trimstart.html",
-            "title": "JavaScript Demo: String.trimStart()",
-            "type": "js"
-        }
     }
 }
