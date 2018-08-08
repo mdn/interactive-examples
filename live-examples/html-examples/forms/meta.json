@@ -27,7 +27,7 @@
             "fileName": "fieldset.html",
             "title": "HTML Demo: <fieldset>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-taller"
         },
         "form": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",

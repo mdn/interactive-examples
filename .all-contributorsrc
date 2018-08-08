@@ -438,6 +438,46 @@
                 "https://avatars3.githubusercontent.com/u/10671879?s=460&v=4",
             "profile": "https://github.com/goodwin64",
             "contributions": ["code"]
+        },
+        {
+            "login": "tigt",
+            "name": "Taylor Hunt",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/8072522?s=460&v=4",
+            "profile": "https://github.com/tigt",
+            "contributions": ["code"]
+        },
+        {
+            "login": "enguerran",
+            "name": "Enguerran",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/701648?s=460&v=4",
+            "profile": "https://github.com/enguerran",
+            "contributions": ["code"]
+        },
+        {
+            "login": "estelle",
+            "name": "Estelle Weyl",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/69888?s=460&v=4",
+            "profile": "https://github.com/estelle",
+            "contributions": ["code"]
+        },
+        {
+            "login": "Row",
+            "name": "Jon Borglund",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/359525?s=460&v=4",
+            "profile": "https://github.com/Row",
+            "contributions": ["code"]
+        },
+        {
+            "login": "jpmedley",
+            "name": "Joe Medley",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/8204171?s=460&v=4",
+            "profile": "https://github.com/jpmedley",
+            "contributions": ["code"]
         }
     ]
 }
