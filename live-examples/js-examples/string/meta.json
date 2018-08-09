@@ -1,5 +1,12 @@
 {
     "pages": {
+        "stringCharAt": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-charat.html",
+            "fileName": "string-charat.html",
+            "title": "JavaScript Demo: String.charAt()",
+            "type": "js"
+        },
         "stringConcat": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/string/string-concat.html",
@@ -12,6 +19,20 @@
             "exampleCode": "live-examples/js-examples/string/string-endswith.html",
             "fileName": "string-endswith.html",
             "title": "JavaScript Demo: String.endsWith()",
+            "type": "js"
+        },
+        "stringIndexOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-indexof.html",
+            "fileName": "string-indexof.html",
+            "title": "JavaScript Demo: String.indexOf()",
+            "type": "js"
+        },
+        "stringLastIndexOf": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-lastindexof.html",
+            "fileName": "string-lastindexof.html",
+            "title": "JavaScript Demo: String.lastIndexOf()",
             "type": "js"
         },
         "stringPadEnd": {
@@ -35,6 +56,32 @@
             "title": "JavaScript Demo: String.startsWith()",
             "type": "js"
         },
+        "stringToLocaleLowerCase": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-tolocalelowercase.html",
+            "fileName": "string-tolocalelowercase.html",
+            "title": "JavaScript Demo: String.toLocaleLowerCase()",
+            "type": "js"
+        },
+        "stringToLocaleUpperCase": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-tolocaleuppercase.html",
+            "fileName": "string-tolocaleuppercase.html",
+            "title": "JavaScript Demo: String.toLocaleUpperCase()",
+            "type": "js"
+        },
+        "stringToLowerCase": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-tolowercase.html",
+            "fileName": "string-tolowercase.html",
+            "title": "JavaScript Demo: String.toLowerCase()",
+            "type": "js"
+        },
+        "stringToUpperCase": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-touppercase.html",
+            "fileName": "string-touppercase.html",
+            "title": "JavaScript Demo: String.toUpperCase()",
         "stringTrim": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/string/string-trim.html",
