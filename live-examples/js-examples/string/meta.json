@@ -14,6 +14,13 @@
             "title": "JavaScript Demo: String.endsWith()",
             "type": "js"
         },
+        "stringIterator": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-iterator.html",
+            "fileName": "string-iterator.html",
+            "title": "JavaScript Demo: String.prototype[@@iterator]()",
+            "type": "js"
+        },
         "stringPadEnd": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/string/string-padend.html",
