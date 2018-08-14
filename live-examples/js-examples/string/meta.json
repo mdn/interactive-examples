@@ -140,6 +140,13 @@
             "title": "JavaScript Demo: String.startsWith()",
             "type": "js"
         },
+        "stringSubstr": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-substr.html",
+            "fileName": "string-substr.html",
+            "title": "JavaScript Demo: String.substr()",
+            "type": "js"
+        },
         "stringToLocaleLowerCase": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/string/string-tolocalelowercase.html",
