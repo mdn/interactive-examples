@@ -4,10 +4,10 @@ figure {
     flex-flow: column;
     margin: 0;
     padding: 5px;
+    width: 19em;
 }
 
 img {
-    max-height: 220px;
     width: 100%;
 }
 
