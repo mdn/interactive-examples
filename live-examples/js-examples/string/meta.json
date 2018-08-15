@@ -133,6 +133,13 @@
             "title": "JavaScript Demo: String.search()",
             "type": "js"
         },
+        "stringSlice": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-slice.html",
+            "fileName": "string-slice.html",
+            "title": "JavaScript Demo: String.slice()",
+            "type": "js"
+        },
         "stringSplit": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/string/string-split.html",
