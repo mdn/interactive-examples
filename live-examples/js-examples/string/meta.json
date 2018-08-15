@@ -161,6 +161,13 @@
             "title": "JavaScript Demo: String.substr()",
             "type": "js"
         },
+        "stringSubstring": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-substring.html",
+            "fileName": "string-substring.html",
+            "title": "JavaScript Demo: String.substring()",
+            "type": "js"
+        },
         "stringToLocaleLowerCase": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/string/string-tolocalelowercase.html",
