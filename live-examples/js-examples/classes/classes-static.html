@@ -1,15 +1,12 @@
 <pre>
-<code id="static-js">class StaticMethodCall {
-  constructor() {
-    console.log(StaticMethodCall.staticMethod());
-    // expected output: "static method has been called."
-  }
-
+<code id="static-js">class ClassWithStaticMethod {
   static staticMethod() {
     return 'static method has been called.';
   }
 }
 
-new StaticMethodCall();
+console.log(ClassWithStaticMethod.staticMethod());
+// expected output: "static method has been called."
+
 </code>
 </pre>
