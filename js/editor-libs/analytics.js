@@ -7,7 +7,7 @@ module.exports = {
         'use strict';
         window.parent.postMessage(
             eventDetails,
-            'https://developer.mozilla.org'
+            window.ieConfig && window.ieConfig.origin ? window.ieConfig.origin : 'https://developer.mozilla.org'
         );
     },
     /**
