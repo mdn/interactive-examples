@@ -93,8 +93,9 @@ function addPostMessageListener() {
     window.addEventListener(
         'message',
         function(event) {
+            var expectedOrigin = window.ieConfig && window.ieConfig.origin ? window.ieConfig.origin : 'https://developer.mozilla.org';
             var isExpectedOrigin =
-                event.origin === 'https://developer.mozilla.org';
+                event.origin === expectedOrigin;
 
             /* there may be other post messages so, ensure that the origin is as
             expected and, that `event.data` contains an `smallViewport` property */
