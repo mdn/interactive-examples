@@ -8,7 +8,7 @@
 }
 
 .box {
-    display: inline-block;
+    display: block;
     height: 65px;
     width: 65px;
     margin: 10px;
