@@ -1,13 +1,21 @@
 <pre>
-<code id="static-js">const array1 = [1, 2, 3, 4];
-const reducer = (accumulator, currentValue) => accumulator + currentValue;
+<code id="static-js">console.log("idx  acc  cur  arr");
 
-// 1 + 2 + 3 + 4
-console.log(array1.reduce(reducer));
-// expected output: 10
+const reducer = (acc, cur, idx, src) => {
+    console.log(` ${idx}    ${acc}    ${cur}   [${src.toString()}]`);
+    return acc + cur;
+}
 
-// 5 + 1 + 2 + 3 + 4
-console.log(array1.reduce(reducer, 5));
-// expected output: 15
+var result = [3,3,3].reduce(reducer, 0)
+
+console.log("result: " + result );
+
+// expected output
+// 
+// idx  acc  cur  arr
+//  0    0    3   [3,3,3]
+//  1    3    3   [3,3,3]
+//  2    6    3   [3,3,3]
+// final: 9
 </code>
 </pre>
