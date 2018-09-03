@@ -3,7 +3,14 @@
 
 promise1.then(function(value) {
   console.log(value);
-  // expected output: Array [1, 2, 3]
+  //=> outputs: [1, 2, 3]
 });
+
+// Promise.resolve() returns a new promise. It works like any other promise.
+Promise.resolve(41)
+  .then(function(value) { return 1 + value; })
+  .then(console.log);
+  //=> outputs: 42
+
 </code>
 </pre>
