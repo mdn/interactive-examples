@@ -38,7 +38,7 @@ module.exports = {
         the browser supports this example. */
         var supported = false;
         var tmpElem = document.createElement('div');
-        for (var i = 0; i < properties.length; i++) {
+        for (var i = 0, l = properties.length; i < l; i++) {
             if (tmpElem.style[properties[i]] !== undefined) {
                 supported = true;
             }
