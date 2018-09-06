@@ -1,0 +1,39 @@
+<section id="example-choice-list" class="example-choice-list" data-property="offset-path">
+    <div class="example-choice">
+        <pre><code class="language-css">offset-path: none;</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+
+    <div class="example-choice">
+        <pre><code class="language-css">offset-path: path('M 0,100 Q 100,100 130,40 Q 145,10 200,0 Q 150,50 200,100');</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+
+    <div class="example-choice">
+        <pre><code class="language-css">offset-path: circle(150px at 100px 100px);</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+
+    <div class="example-choice">
+        <pre><code class="language-css">offset-path: margin-box;</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+</section>
+
+<div id="output" class="output hidden">
+    <section id="default-example" class="flex-column">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+            <circle  id="example-element" r="40" cx="45" cy="45" stroke="darkblue" stroke-width="5" fill="lightblue"/>
+            <path d="M 0,100 Q 100,100 130,40 Q 145,10 200,0 Q 150,50 200,100" stroke="rgba(0,0,0,0.1)" fill="none" stroke-width="1"/>
+            <circle r="100px" cx="150px" cy="150px" fill="none" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+        </svg>
+    </section>
+</div>
