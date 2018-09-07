@@ -486,6 +486,14 @@
                 "https://avatars3.githubusercontent.com/u/3743693?s=460&v=4",
             "profile": "https://github.com/escattone",
             "contributions": ["code"]
+        },
+        {
+            "login": "irenesmith",
+            "name": "Irene Smith",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/192346?s=460&v=4",
+            "profile": "https://github.com/irenesmith",
+            "contributions": ["code"]
         }
     ]
 }
