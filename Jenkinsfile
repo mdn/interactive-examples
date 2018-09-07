@@ -11,10 +11,10 @@ def buildSite() {
     }
 }
 
-def syncS3(String bucket) {
+def syncS3(String bucket, String extra_args='') {
     stage ('s3 sync') {
         try {
-            sh "bin/s3-sync.sh " + bucket
+            sh "bin/s3-sync.sh ${bucket} ${extra_args}"
         } catch(err) {
             sh "bin/irc-notify.sh --stage 's3 sync " + env.BRANCH_NAME + "' --status 'failed'"
             throw err
@@ -38,6 +38,11 @@ node {
     }
     if ( env.BRANCH_NAME == 'prod' ) {
         buildSite()
-        syncS3(is_mozmeao_pipeline() ? 'mdninteractive' : 'mdninteractive-b77d14bceaaa9ea4')
+        if (is_mozmeao_pipeline()) {
+            // TODO: After cutover to IT-owned services, remove this branch.
+            syncS3('mdninteractive', '--profile mdninteractive')
+        } else {
+            syncS3('mdninteractive-b77d14bceaaa9ea4')
+        }
     }
 }
