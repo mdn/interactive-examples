@@ -26,16 +26,25 @@ module.exports = {
     isPropertySupported: function(dataset) {
         'use strict';
 
-        var property = dataset['property'];
         /* If there are no 'property' attributes,
            there is nothing to test, so return true. */
-        if (property === undefined) {
+        if (dataset['property'] === undefined) {
             return true;
         }
 
+        /* 'property' may be a space-separated list of properties. */
+        var properties = dataset['property'].split(' ');
+        /* Iterate through properties: if any of them apply,
+        the browser supports this example. */
+        var supported = false;
         var tmpElem = document.createElement('div');
+        for (var i = 0, l = properties.length; i < l; i++) {
+            if (tmpElem.style[properties[i]] !== undefined) {
+                supported = true;
+            }
+        }
 
-        return tmpElem.style[property] !== undefined;
+        return supported;
     },
     /**
      * Interrupts the default click event on external links inside

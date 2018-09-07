@@ -76,7 +76,7 @@ Next, let's add the example CSS choices. Think of a few different ways that `bor
 </section>
 ```
 
-The first thing to note is that the `section` element has a `data-property` attribute whose value is the name of the property, `border-radius` in this case. The editor uses this to test whether the user's browser supports the property. If it doesn't, then an interactive example won't work, and we just display the CSS options without their output. If you know that the example property has good cross-browser support, you can omit this attribute (for example, the `border-radius` example could certainly omit it).
+The first thing to note is that the `section` element has a `data-property` attribute whose value is a space-separated list of CSS properties. Usually you'll just set this to the name of the property, `border-radius` in this case. The editor uses `data-property` to test whether the user's browser supports the property. If it doesn't, then an interactive example won't work, and we just display the CSS options without their output. If you know that the example property has good cross-browser support, you can omit this attribute (for example, the `border-radius` example could certainly omit it). If your example needs to use prefixed properties, you might want to supply multiple properties in `data-property`: see [Supporting prefixed properties](#supporting-prefixed-properties).
 
 Next, we have three `div` elements, one for each example CSS choice. You can choose which option will be shown at first by setting the `initial-choice` attribute to `true` (only one choice should have this).
 
@@ -116,6 +116,33 @@ Now we've finished writing the HTML for the example. The final version of `borde
 ```
 
 When you're writing examples, please make sure that they conform to the [CSS Example Style Guide](CSS-Example-Style-Guide.md).
+
+## Supporting prefixed properties
+
+In general, to add an example for a property, it should be supported by most browser engines. Sometimes browser engines require a vendor prefix for the property, like `-webkit-` or `-moz-`. In this situation, you should:
+
+* supply all relevant variants in the `data-property` attribute
+* include all relevant variants in the example choices.
+
+For example, suppose you want to add an example for [`text-emphasis`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis). This is supported unprefixed by Firefox but requires the `-webkit-` prefix in Chrome. To deal with this you would set `data-property` like this:
+
+```
+data-property="text-emphasis -webkit-text-emphasis">
+```
+
+This means the editor will check both variants when it is testing whether the browser can support the example.
+
+You would then use both variants in the example choices:
+
+```
+<div class="example-choice" initial-choice="true">
+    <pre><code class="language-css">text-emphasis: none;
+-webkit-text-emphasis: none;</code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true">
+        <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+</div>
+```
 
 ## Styling the example
 
