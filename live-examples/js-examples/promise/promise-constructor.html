@@ -2,22 +2,16 @@
 <code id="static-js">var promise1 = new Promise(function(resolve, reject) {
   setTimeout(function() { 
     resolve('foo');
-  }, 100);
+  }, 300);
 });
 
+promise1.then(function(value) { 
+  console.log(value)
+  // expected output: "foo"
+});
 
-// How to show the value of promise1: 
-
-promise1.then(value => console.log(value));
-//=> "foo"
-
-// A Promise's value can ONLY be accessed via a `.then()` callback function:
-// promise1.then(function(value) {/* handle value in function here */})
-
-// The following example **won't work**:
-// Reading Synchronously:
 console.log(promise1);
-//=> [object Promise]
+// expected output: [object Promise]
 
 </code>
 </pre>
