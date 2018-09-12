@@ -3,14 +3,12 @@
 
 promise1.then(function(value) {
   console.log(value);
-  //=> outputs: [1, 2, 3]
+  // expected output: [1, 2, 3]
 });
 
-// Promise.resolve() returns a new promise. It works like any other promise.
-Promise.resolve(41)
-  .then(function(value) { return 1 + value; })
+Promise.resolve(42)
   .then(console.log);
-  //=> outputs: 42
+// expected output: 42
 
 </code>
 </pre>
