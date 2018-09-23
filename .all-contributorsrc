@@ -550,6 +550,14 @@
                 "https://avatars3.githubusercontent.com/u/31631573?s=460&v=4",
             "profile": "https://github.com/eszjay",
             "contributions": ["code"]
+        },
+        {
+            "login": "ollelauribostrom",
+            "name": "Olle Lauri Boström",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/16004130?s=460&v=4",
+            "profile": "https://github.com/ollelauribostrom",
+            "contributions": ["code"]
         }
     ]
 }
