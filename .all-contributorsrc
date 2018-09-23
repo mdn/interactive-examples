@@ -542,6 +542,14 @@
                 "https://avatars3.githubusercontent.com/u/949774?s=460&v=4",
             "profile": "https://github.com/aeinbu",
             "contributions": ["code"]
+        },
+        {
+            "login": "eszjay",
+            "name": "Solomon Jones",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/31631573?s=460&v=4",
+            "profile": "https://github.com/eszjay",
+            "contributions": ["code"]
         }
     ]
 }
