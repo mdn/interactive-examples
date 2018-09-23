@@ -510,6 +510,14 @@
                 "https://avatars3.githubusercontent.com/u/8344688?s=460&v=4",
             "profile": "https://github.com/revelt",
             "contributions": ["code"]
+        },
+        {
+            "login": "Konrud",
+            "name": "Konstantin Rouda",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/7681999?s=460&v=4",
+            "profile": "https://github.com/Konrud",
+            "contributions": ["code"]
         }
     ]
 }
