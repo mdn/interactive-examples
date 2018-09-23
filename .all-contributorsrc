@@ -526,6 +526,14 @@
                 "https://avatars3.githubusercontent.com/u/1134034?s=460&v=4",
             "profile": "https://github.com/gene1wood",
             "contributions": ["code"]
+        },
+        {
+            "login": "justsml",
+            "name": "Dan Levy",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/397632?s=460&v=4",
+            "profile": "https://github.com/justsml",
+            "contributions": ["code"]
         }
     ]
 }
