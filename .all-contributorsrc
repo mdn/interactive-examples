@@ -534,6 +534,14 @@
                 "https://avatars3.githubusercontent.com/u/397632?s=460&v=4",
             "profile": "https://github.com/justsml",
             "contributions": ["code"]
+        },
+        {
+            "login": "aeinbu",
+            "name": "Arjan Einbu",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/949774?s=460&v=4",
+            "profile": "https://github.com/aeinbu",
+            "contributions": ["code"]
         }
     ]
 }
