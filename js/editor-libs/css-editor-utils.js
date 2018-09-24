@@ -26,7 +26,7 @@ module.exports = {
     },
     /**
      * Sets the choice to selected, changes the nested code element to be editable,
-     * turns of spellchecking, and moves focus to the code. Lastly, it applies
+     * turns of spellchecking. Lastly, it applies
      * the code to the example element by calling applyCode.
      * @param {Object} choice - The selected `example-choice` element
      */
@@ -37,7 +37,6 @@ module.exports = {
 
         codeBlock.setAttribute('contentEditable', true);
         codeBlock.setAttribute('spellcheck', false);
-        codeBlock.focus();
 
         module.exports.applyCode(codeBlock.textContent, choice);
     },
