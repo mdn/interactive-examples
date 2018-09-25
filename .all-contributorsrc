@@ -558,6 +558,14 @@
                 "https://avatars3.githubusercontent.com/u/16004130?s=460&v=4",
             "profile": "https://github.com/ollelauribostrom",
             "contributions": ["code"]
+        },
+        {
+            "login": "ninjanails",
+            "name": "Seren D",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/9624541?s=460&v=4",
+            "profile": "https://github.com/ninjanails",
+            "contributions": ["code"]
         }
     ]
 }
