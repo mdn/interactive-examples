@@ -64,7 +64,7 @@
     ],
     "devDependencies": {
         "all-contributors-cli": "5.4.0",
-        "browserify": "16.2.2",
+        "browserify": "16.2.3",
         "bundlesize": "0.17.0",
         "chokidar-cli": "1.2.1",
         "clean-css": "4.2.1",
