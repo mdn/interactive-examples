@@ -1,50 +1,43 @@
 {
     "pages": {
         "lineHeight": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transitions/line-height.css",
-            "exampleCode": "live-examples/css-examples/transitions/line-height.html",
+            "cssExampleSrc": "./live-examples/css-examples/transitions/line-height.css",
+            "exampleCode": "./live-examples/css-examples/transitions/line-height.html",
             "fileName": "line-height.html",
             "title": "CSS Demo: line-height",
             "type": "css"
         },
         "transition": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/transitions/transition.css",
-            "exampleCode": "live-examples/css-examples/transitions/transition.html",
+            "cssExampleSrc": "./live-examples/css-examples/transitions/transition.css",
+            "exampleCode": "./live-examples/css-examples/transitions/transition.html",
             "fileName": "transition.html",
             "title": "CSS Demo: transition",
             "type": "css"
         },
         "transitionDelay": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/transitions/transition.css",
-            "exampleCode": "live-examples/css-examples/transitions/transition-delay.html",
+            "cssExampleSrc": "./live-examples/css-examples/transitions/transition.css",
+            "exampleCode": "./live-examples/css-examples/transitions/transition-delay.html",
             "fileName": "transition-delay.html",
             "title": "CSS Demo: transition-delay",
             "type": "css"
         },
         "transitionDuration": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/transitions/transition.css",
-            "exampleCode": "live-examples/css-examples/transitions/transition-duration.html",
+            "cssExampleSrc": "./live-examples/css-examples/transitions/transition.css",
+            "exampleCode": "./live-examples/css-examples/transitions/transition-duration.html",
             "fileName": "transition-duration.html",
             "title": "CSS Demo: transition-duration",
             "type": "css"
         },
         "transitionProperty": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/transitions/transition.css",
-            "exampleCode": "live-examples/css-examples/transitions/transition-property.html",
+            "cssExampleSrc": "./live-examples/css-examples/transitions/transition.css",
+            "exampleCode": "./live-examples/css-examples/transitions/transition-property.html",
             "fileName": "transition-property.html",
             "title": "CSS Demo: transition-property",
             "type": "css"
         },
         "transitionTimingFunction": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/transitions/transition.css",
-            "exampleCode": "live-examples/css-examples/transitions/transition-timing-function.html",
+            "cssExampleSrc": "./live-examples/css-examples/transitions/transition.css",
+            "exampleCode": "./live-examples/css-examples/transitions/transition-timing-function.html",
             "fileName": "transition-timing-function.html",
             "title": "CSS Demo: transition-timing-function",
             "type": "css"

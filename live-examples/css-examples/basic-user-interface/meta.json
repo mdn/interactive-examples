@@ -1,117 +1,84 @@
 {
     "pages": {
         "appearance": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/basic-user-interface/appearance.html",
+            "exampleCode": "./live-examples/css-examples/basic-user-interface/appearance.html",
             "fileName": "appearance.html",
             "title": "CSS Demo: appearance",
             "type": "css"
         },
         "boxSizing": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/basic-user-interface/box-sizing.css",
-            "exampleCode":
-                "live-examples/css-examples/basic-user-interface/box-sizing.html",
+            "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/box-sizing.css",
+            "exampleCode": "./live-examples/css-examples/basic-user-interface/box-sizing.html",
             "fileName": "box-sizing.html",
             "title": "CSS Demo: box-sizing",
             "type": "css"
         },
         "caretColor": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/basic-user-interface/caret-color.css",
-            "exampleCode":
-                "live-examples/css-examples/basic-user-interface/caret-color.html",
+            "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/caret-color.css",
+            "exampleCode": "./live-examples/css-examples/basic-user-interface/caret-color.html",
             "fileName": "caret-color.html",
             "title": "CSS Demo: caret-color",
             "type": "css"
         },
         "cursor": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/basic-user-interface/cursor.css",
-            "exampleCode":
-                "live-examples/css-examples/basic-user-interface/cursor.html",
+            "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/cursor.css",
+            "exampleCode": "./live-examples/css-examples/basic-user-interface/cursor.html",
             "fileName": "cursor.html",
             "title": "CSS Demo: cursor",
             "type": "css"
         },
         "outline": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/basic-user-interface/outline.css",
-            "exampleCode":
-                "live-examples/css-examples/basic-user-interface/outline.html",
+            "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/outline.css",
+            "exampleCode": "./live-examples/css-examples/basic-user-interface/outline.html",
             "fileName": "outline.html",
             "title": "CSS Demo: outline",
             "type": "css"
         },
         "outlineColor": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/basic-user-interface/outline-color.css",
-            "exampleCode":
-                "live-examples/css-examples/basic-user-interface/outline-color.html",
+            "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/outline-color.css",
+            "exampleCode": "./live-examples/css-examples/basic-user-interface/outline-color.html",
             "fileName": "outline-color.html",
             "title": "CSS Demo: outline-color",
             "type": "css"
         },
         "outlineOffset": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/basic-user-interface/outline-offset.css",
-            "exampleCode":
-                "live-examples/css-examples/basic-user-interface/outline-offset.html",
+            "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/outline-offset.css",
+            "exampleCode": "./live-examples/css-examples/basic-user-interface/outline-offset.html",
             "fileName": "outline-offset.html",
             "title": "CSS Demo: outline-offset",
             "type": "css"
         },
         "outlineStyle": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/basic-user-interface/outline-style.css",
-            "exampleCode":
-                "live-examples/css-examples/basic-user-interface/outline-style.html",
+            "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/outline-style.css",
+            "exampleCode": "./live-examples/css-examples/basic-user-interface/outline-style.html",
             "fileName": "outline-style.html",
             "title": "CSS Demo: outline-style",
             "type": "css"
         },
         "outlineWidth": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/basic-user-interface/outline-width.css",
-            "exampleCode":
-                "live-examples/css-examples/basic-user-interface/outline-width.html",
+            "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/outline-width.css",
+            "exampleCode": "./live-examples/css-examples/basic-user-interface/outline-width.html",
             "fileName": "outline-width.html",
             "title": "CSS Demo: outline-width",
             "type": "css"
         },
         "resize": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/basic-user-interface/resize.css",
-            "exampleCode": "live-examples/css-examples/basic-user-interface/resize.html",
+            "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/resize.css",
+            "exampleCode": "./live-examples/css-examples/basic-user-interface/resize.html",
             "fileName": "resize.html",
             "title": "CSS Demo: resize",
             "type": "css"
         },
         "textOverflow": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/basic-user-interface/text-overflow.css",
-            "exampleCode":
-                "live-examples/css-examples/basic-user-interface/text-overflow.html",
+            "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/text-overflow.css",
+            "exampleCode": "./live-examples/css-examples/basic-user-interface/text-overflow.html",
             "fileName": "text-overflow.html",
             "title": "CSS Demo: text-overflow",
             "type": "css"
         },
         "userSelect": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/basic-user-interface/user-select.css",
-            "exampleCode":
-                "live-examples/css-examples/basic-user-interface/user-select.html",
+            "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/user-select.css",
+            "exampleCode": "./live-examples/css-examples/basic-user-interface/user-select.html",
             "fileName": "user-select.html",
             "title": "CSS Demo: user-select",
             "type": "css"

@@ -1,102 +1,79 @@
 {
     "pages": {
         "reflectApply": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/reflect/reflect-apply.html",
+            "exampleCode": "./live-examples/js-examples/reflect/reflect-apply.html",
             "fileName": "reflect-apply.html",
             "title": "JavaScript Demo: Reflect.apply()",
             "type": "js"
         },
         "reflectConstruct": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/reflect/reflect-construct.html",
+            "exampleCode": "./live-examples/js-examples/reflect/reflect-construct.html",
             "fileName": "reflect-construct.html",
             "title": "JavaScript Demo: Reflect.construct()",
             "type": "js"
         },
         "reflectDefineProperty": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/reflect/reflect-defineproperty.html",
+            "exampleCode": "./live-examples/js-examples/reflect/reflect-defineproperty.html",
             "fileName": "reflect-defineproperty.html",
             "title": "JavaScript Demo: Reflect.defineProperty()",
             "type": "js"
         },
         "reflectDeleteProperty": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/reflect/reflect-deleteproperty.html",
+            "exampleCode": "./live-examples/js-examples/reflect/reflect-deleteproperty.html",
             "fileName": "reflect-deleteproperty.html",
             "title": "JavaScript Demo: Reflect.deleteProperty()",
             "type": "js"
         },
         "reflectGet": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/reflect/reflect-get.html",
+            "exampleCode": "./live-examples/js-examples/reflect/reflect-get.html",
             "fileName": "reflect-get.html",
             "title": "JavaScript Demo: Reflect.get()",
             "type": "js"
         },
         "reflectGetOwnPropertyDescriptor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/reflect/reflect-getownpropertydescriptor.html",
+            "exampleCode": "./live-examples/js-examples/reflect/reflect-getownpropertydescriptor.html",
             "fileName": "reflect-getownpropertydescriptor.html",
             "title": "JavaScript Demo: Reflect.getOwnPropertyDescriptor()",
             "type": "js"
         },
         "reflectGetPrototypeOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/reflect/reflect-getprototypeof.html",
+            "exampleCode": "./live-examples/js-examples/reflect/reflect-getprototypeof.html",
             "fileName": "reflect-getprototypeof.html",
             "title": "JavaScript Demo: Reflect.getPrototypeOf()",
             "type": "js"
         },
         "reflectHas": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/reflect/reflect-has.html",
+            "exampleCode": "./live-examples/js-examples/reflect/reflect-has.html",
             "fileName": "reflect-has.html",
             "title": "JavaScript Demo: Reflect.has()",
             "type": "js"
         },
         "reflectIsExtensible": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/reflect/reflect-isextensible.html",
+            "exampleCode": "./live-examples/js-examples/reflect/reflect-isextensible.html",
             "fileName": "reflect-isextensible.html",
             "title": "JavaScript Demo: Reflect.isExtensible()",
             "type": "js"
         },
         "reflectOwnKeys": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/reflect/reflect-ownkeys.html",
+            "exampleCode": "./live-examples/js-examples/reflect/reflect-ownkeys.html",
             "fileName": "reflect-ownkeys.html",
             "title": "JavaScript Demo: Reflect.ownKeys()",
             "type": "js"
         },
         "reflectPreventExtensions": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/reflect/reflect-preventextensions.html",
+            "exampleCode": "./live-examples/js-examples/reflect/reflect-preventextensions.html",
             "fileName": "reflect-preventextensions.html",
             "title": "JavaScript Demo: Reflect.preventExtensions()",
             "type": "js"
         },
         "reflectSet": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/reflect/reflect-set.html",
+            "exampleCode": "./live-examples/js-examples/reflect/reflect-set.html",
             "fileName": "reflect-set.html",
             "title": "JavaScript Demo: Reflect.set()",
             "type": "js"
         },
         "reflectSetPrototypeOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/reflect/reflect-setprototypeof.html",
+            "exampleCode": "./live-examples/js-examples/reflect/reflect-setprototypeof.html",
             "fileName": "reflect-setprototypeof.html",
             "title": "JavaScript Demo: Reflect.setPrototypeOf()",
             "type": "js"

@@ -1,15 +1,13 @@
 {
     "pages": {
         "jsonParse": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/json/json-parse.html",
+            "exampleCode": "./live-examples/js-examples/json/json-parse.html",
             "fileName": "json-parse.html",
             "title": "JavaScript Demo: JSON.parse()",
             "type": "js"
         },
         "jsonStringify": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/json/json-stringify.html",
+            "exampleCode": "./live-examples/js-examples/json/json-stringify.html",
             "fileName": "json-stringify.html",
             "title": "JavaScript Demo: JSON.stringify()",
             "type": "js"

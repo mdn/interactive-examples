@@ -8,19 +8,19 @@ If you're interested in contributing to this project, great! This file should he
 
 There are many ways you can help improve this repository! For example:
 
-*   **Write a brand-new example:** for example, you might notice that there are no
+-   **Write a brand-new example:** for example, you might notice that there are no
     examples for a particular [CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference).
-*   **Improve an existing example:** for example,
+-   **Improve an existing example:** for example,
     you might notice a problem with an existing example, or some way it could be made more helpful.
-*   **Fix a bug:** we have a list of [issues](https://github.com/mdn/interactive-examples/issues),
+-   **Fix a bug:** we have a list of [issues](https://github.com/mdn/interactive-examples/issues),
     or maybe you found your own.
 
-This guide focuses on contributing examples, although we welcome contributions to the editor and infrastructure code as well.
+This guide focuses on contributing examples, although we welcome contributions to the [editor and infrastructure code as well](https://github.com/mdn/bob).
 
 ## Good first issues
 
-*   [Examples needed](https://github.com/mdn/interactive-examples/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22example+needed%22+no%3Aassignee)
-*   [Help wanted](https://github.com/mdn/interactive-examples/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22help+wanted%22+no%3Aassignee)
+-   [Examples needed](https://github.com/mdn/interactive-examples/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22example+needed%22+no%3Aassignee)
+-   [Help wanted](https://github.com/mdn/interactive-examples/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22help+wanted%22+no%3Aassignee)
 
 ## Setup
 
@@ -48,9 +48,9 @@ This will ensure that you have all the required development modules installed to
 
 We've written separate guides to contributing each type of example:
 
-*   [Contributing a CSS example](CONTRIBUTING-CSS.md)
-*   [Contributing an HTML example](CONTRIBUTING-HTML.md)
-*   [Contributing a JavaScript example](CONTRIBUTING-JavaScript.md)
+-   [Contributing a CSS example](CONTRIBUTING-CSS.md)
+-   [Contributing an HTML example](CONTRIBUTING-HTML.md)
+-   [Contributing a JavaScript example](CONTRIBUTING-JavaScript.md)
 
 ## Testing
 
@@ -79,9 +79,9 @@ Available on:
 
 Point your browser to either of those URLs, then click on the `pages` link. In the page that appears:
 
-*   CSS examples are under `css`
-*   JavaScript examples are under `js`
-*   HTML examples are under `tabbed`
+-   CSS examples are under `css`
+-   JavaScript examples are under `js`
+-   HTML examples are under `tabbed`
 
 Find your example and try it out. Once you're satisfied, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
 

@@ -1,105 +1,79 @@
 {
     "pages": {
         "proxyhandlerApply": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/proxyhandler/proxyhandler-apply.html",
+            "exampleCode": "./live-examples/js-examples/proxyhandler/proxyhandler-apply.html",
             "fileName": "proxyhandler-apply.html",
             "title": "JavaScript Demo: handler.apply()",
             "type": "js"
         },
         "proxyhandlerConstruct": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/proxyhandler/proxyhandler-construct.html",
+            "exampleCode": "./live-examples/js-examples/proxyhandler/proxyhandler-construct.html",
             "fileName": "proxyhandler-construct.html",
             "title": "JavaScript Demo: handler.construct()",
             "type": "js"
         },
         "proxyhandlerDefineProperty": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/proxyhandler/proxyhandler-defineproperty.html",
+            "exampleCode": "./live-examples/js-examples/proxyhandler/proxyhandler-defineproperty.html",
             "fileName": "proxyhandler-defineproperty.html",
             "title": "JavaScript Demo: handler.defineProperty()",
             "type": "js"
         },
         "proxyhandlerDeleteProperty": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/proxyhandler/proxyhandler-deleteproperty.html",
+            "exampleCode": "./live-examples/js-examples/proxyhandler/proxyhandler-deleteproperty.html",
             "fileName": "proxyhandler-deleteproperty.html",
             "title": "JavaScript Demo: handler.deleteProperty()",
             "type": "js"
         },
         "proxyhandlerGet": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/proxyhandler/proxyhandler-get.html",
+            "exampleCode": "./live-examples/js-examples/proxyhandler/proxyhandler-get.html",
             "fileName": "proxyhandler-get.html",
             "title": "JavaScript Demo: handler.get()",
             "type": "js"
         },
         "proxyhandlerGetOwnPropertyDescriptor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/proxyhandler/proxyhandler-getownpropertydescriptor.html",
+            "exampleCode": "./live-examples/js-examples/proxyhandler/proxyhandler-getownpropertydescriptor.html",
             "fileName": "proxyhandler-getownpropertydescriptor.html",
             "title": "JavaScript Demo: handler.getOwnPropertyDescriptor()",
             "type": "js"
         },
         "proxyhandlerGetPrototypeOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/proxyhandler/proxyhandler-getprototypeof.html",
+            "exampleCode": "./live-examples/js-examples/proxyhandler/proxyhandler-getprototypeof.html",
             "fileName": "proxyhandler-getprototypeof.html",
             "title": "JavaScript Demo: handler.getPrototypeOf()",
             "type": "js"
         },
         "proxyhandlerHas": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/proxyhandler/proxyhandler-has.html",
+            "exampleCode": "./live-examples/js-examples/proxyhandler/proxyhandler-has.html",
             "fileName": "proxyhandler-has.html",
             "title": "JavaScript Demo: handler.has()",
             "type": "js"
         },
         "proxyhandlerIsExtensible": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/proxyhandler/proxyhandler-isextensible.html",
+            "exampleCode": "./live-examples/js-examples/proxyhandler/proxyhandler-isextensible.html",
             "fileName": "proxyhandler-isextensible.html",
             "title": "JavaScript Demo: handler.isExtensible()",
             "type": "js"
         },
         "proxyhandlerOwnKeys": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/proxyhandler/proxyhandler-ownkeys.html",
+            "exampleCode": "./live-examples/js-examples/proxyhandler/proxyhandler-ownkeys.html",
             "fileName": "proxyhandler-ownkeys.html",
             "title": "JavaScript Demo: handler.ownKeys()",
             "type": "js"
         },
         "proxyhandlerPreventExtensions": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/proxyhandler/proxyhandler-preventextensions.html",
+            "exampleCode": "./live-examples/js-examples/proxyhandler/proxyhandler-preventextensions.html",
             "fileName": "proxyhandler-preventextensions.html",
             "title": "JavaScript Demo: handler.preventExtensions()",
             "type": "js"
         },
         "proxyhandlerSet": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/proxyhandler/proxyhandler-set.html",
+            "exampleCode": "./live-examples/js-examples/proxyhandler/proxyhandler-set.html",
             "fileName": "proxyhandler-set.html",
             "title": "JavaScript Demo: handler.set()",
             "type": "js"
         },
         "proxyhandlerSetPrototypeOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/proxyhandler/proxyhandler-setprototypeof.html",
+            "exampleCode": "./live-examples/js-examples/proxyhandler/proxyhandler-setprototypeof.html",
             "fileName": "proxyhandler-setprototypeof.html",
             "title": "JavaScript Demo: handler.setPrototypeOf()",
             "type": "js"

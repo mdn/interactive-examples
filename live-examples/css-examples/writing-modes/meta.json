@@ -1,29 +1,21 @@
 {
     "pages": {
         "direction": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/writing-modes/direction.css",
-            "exampleCode":
-                "live-examples/css-examples/writing-modes/direction.html",
+            "cssExampleSrc": "./live-examples/css-examples/writing-modes/direction.css",
+            "exampleCode": "./live-examples/css-examples/writing-modes/direction.html",
             "fileName": "direction.html",
             "title": "CSS Demo: direction",
             "type": "css"
         },
         "text-orientation": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/writing-modes/text-orientation.html",
+            "exampleCode": "./live-examples/css-examples/writing-modes/text-orientation.html",
             "fileName": "text-orientation.html",
             "title": "CSS Demo: text-orientation",
             "type": "css"
         },
         "writing-mode": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/writing-modes/writing-mode.css",
-            "exampleCode":
-                "live-examples/css-examples/writing-modes/writing-mode.html",
+            "cssExampleSrc": "./live-examples/css-examples/writing-modes/writing-mode.css",
+            "exampleCode": "./live-examples/css-examples/writing-modes/writing-mode.html",
             "fileName": "writing-mode.html",
             "title": "CSS Demo: writing-mode",
             "type": "css"

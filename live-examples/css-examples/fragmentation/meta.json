@@ -1,31 +1,22 @@
 {
     "pages": {
         "boxDecorationBreak": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/fragmentation/box-decoration-break.css",
-            "exampleCode":
-                "live-examples/css-examples/fragmentation/box-decoration-break.html",
+            "cssExampleSrc": "./live-examples/css-examples/fragmentation/box-decoration-break.css",
+            "exampleCode": "./live-examples/css-examples/fragmentation/box-decoration-break.html",
             "fileName": "box-decoration-break.html",
             "title": "CSS Demo: box-decoration-break",
             "type": "css"
         },
         "orphans": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/fragmentation/orphans.css",
-            "exampleCode":
-                "live-examples/css-examples/fragmentation/orphans.html",
+            "cssExampleSrc": "./live-examples/css-examples/fragmentation/orphans.css",
+            "exampleCode": "./live-examples/css-examples/fragmentation/orphans.html",
             "fileName": "orphans.html",
             "title": "CSS Demo: orphans",
             "type": "css"
         },
         "widows": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/fragmentation/widows.css",
-            "exampleCode":
-                "live-examples/css-examples/fragmentation/widows.html",
+            "cssExampleSrc": "./live-examples/css-examples/fragmentation/widows.css",
+            "exampleCode": "./live-examples/css-examples/fragmentation/widows.html",
             "fileName": "widows.html",
             "title": "CSS Demo: widows",
             "type": "css"

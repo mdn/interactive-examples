@@ -1,159 +1,121 @@
 {
     "pages": {
         "numberEpsilon": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-epsilon.html",
+            "exampleCode": "./live-examples/js-examples/number/number-epsilon.html",
             "fileName": "number-epsilon.html",
             "title": "JavaScript Demo: Number.EPSILON",
             "type": "js"
         },
         "numberIsFinite": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-isfinite.html",
+            "exampleCode": "./live-examples/js-examples/number/number-isfinite.html",
             "fileName": "number-isfinite.html",
             "title": "JavaScript Demo: Number.isFinite()",
             "type": "js"
         },
         "numberIsInteger": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-isinteger.html",
+            "exampleCode": "./live-examples/js-examples/number/number-isinteger.html",
             "fileName": "number-isinteger.html",
             "title": "JavaScript Demo: Number.isInteger()",
             "type": "js"
         },
         "numberIsNaN": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/number/number-isnan.html",
+            "exampleCode": "./live-examples/js-examples/number/number-isnan.html",
             "fileName": "number-isnan.html",
             "title": "JavaScript Demo: Number.isNaN()",
             "type": "js"
         },
         "numberIsSafeInteger": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-issafeinteger.html",
+            "exampleCode": "./live-examples/js-examples/number/number-issafeinteger.html",
             "fileName": "number-issafeinteger.html",
             "title": "JavaScript Demo: Number.isSafeInteger()",
             "type": "js"
         },
         "numberMaxSafeInteger": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-max-safe-integer.html",
+            "exampleCode": "./live-examples/js-examples/number/number-max-safe-integer.html",
             "fileName": "number-maxsafeinteger.html",
             "title": "JavaScript Demo: Number.MAX_SAFE_INTEGER",
             "type": "js"
         },
         "numberMaxValue": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-max-value.html",
+            "exampleCode": "./live-examples/js-examples/number/number-max-value.html",
             "fileName": "number-maxvalue.html",
             "title": "JavaScript Demo: Number.MAX_VALUE",
             "type": "js"
         },
         "numberMinSafeInteger": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-min-safe-integer.html",
+            "exampleCode": "./live-examples/js-examples/number/number-min-safe-integer.html",
             "fileName": "number-min-safe-integer.html",
             "title": "JavaScript Demo: Number.MIN_SAFE_INTEGER",
             "type": "js"
         },
         "numberMinValue": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-min-value.html",
+            "exampleCode": "./live-examples/js-examples/number/number-min-value.html",
             "fileName": "number-min-value.html",
             "title": "JavaScript Demo: Number.MIN_VALUE",
             "type": "js"
         },
         "numberNaN": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/number/number-nan.html",
+            "exampleCode": "./live-examples/js-examples/number/number-nan.html",
             "fileName": "number-nan.html",
             "title": "JavaScript Demo: Number.NaN",
             "type": "js"
         },
         "numberNegativeInfinity": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-negative-infinity.html",
+            "exampleCode": "./live-examples/js-examples/number/number-negative-infinity.html",
             "fileName": "number-negative-infinity.html",
             "title": "JavaScript Demo: Number.NEGATIVE_INFINITY",
             "type": "js"
         },
         "numberParseFloat": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-parsefloat.html",
+            "exampleCode": "./live-examples/js-examples/number/number-parsefloat.html",
             "fileName": "number-parsefloat.html",
             "title": "JavaScript Demo: Number.parseFloat()",
             "type": "js"
         },
         "numberParseInt": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-parseint.html",
+            "exampleCode": "./live-examples/js-examples/number/number-parseint.html",
             "fileName": "number-parseint.html",
             "title": "JavaScript Demo: Number.parseInt()",
             "type": "js"
         },
         "numberPositiveInfinity": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-positive-infinity.html",
+            "exampleCode": "./live-examples/js-examples/number/number-positive-infinity.html",
             "fileName": "number-positive-infinity.html",
             "title": "JavaScript Demo: Number.POSITIVE_INFINITY",
             "type": "js"
         },
         "numberToExponential": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-toexponential.html",
+            "exampleCode": "./live-examples/js-examples/number/number-toexponential.html",
             "fileName": "number-toexponential.html",
             "title": "JavaScript Demo: Number.toExponential()",
             "type": "js"
         },
         "numberToFixed": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-tofixed.html",
+            "exampleCode": "./live-examples/js-examples/number/number-tofixed.html",
             "fileName": "number-tofixed.html",
             "title": "JavaScript Demo: Number.toFixed()",
             "type": "js"
         },
         "numberToLocaleString": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-tolocalestring.html",
+            "exampleCode": "./live-examples/js-examples/number/number-tolocalestring.html",
             "fileName": "number-tolocalestring.html",
             "title": "JavaScript Demo: Number.toLocaleString()",
             "type": "js"
         },
         "numberToPrecision": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-toprecision.html",
+            "exampleCode": "./live-examples/js-examples/number/number-toprecision.html",
             "fileName": "number-toprecision.html",
             "title": "JavaScript Demo: Number.toPrecision()",
             "type": "js"
         },
         "numberToString": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-tostring.html",
+            "exampleCode": "./live-examples/js-examples/number/number-tostring.html",
             "fileName": "number-tostring.html",
             "title": "JavaScript Demo: Number.toString()",
             "type": "js"
         },
         "numberValueof": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/number/number-valueof.html",
+            "exampleCode": "./live-examples/js-examples/number/number-valueof.html",
             "fileName": "number-valueof.html",
             "title": "JavaScript Demo: Number.valueOf()",
             "type": "js"

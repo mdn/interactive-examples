@@ -1,225 +1,187 @@
 {
     "pages": {
         "arrayConcat": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-concat.html",
+            "exampleCode": "./live-examples/js-examples/array/array-concat.html",
             "fileName": "array-concat.html",
             "title": "JavaScript Demo: Array.concat()",
             "type": "js"
         },
         "arrayCopyWithin": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/array/array-copywithin.html",
+            "exampleCode": "./live-examples/js-examples/array/array-copywithin.html",
             "fileName": "array-copywithin.html",
             "title": "JavaScript Demo: Array.copyWithin()",
             "type": "js"
         },
         "arrayEntries": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-entries.html",
+            "exampleCode": "./live-examples/js-examples/array/array-entries.html",
             "fileName": "array-entries.html",
             "title": "JavaScript Demo: Array.entries()",
             "type": "js"
         },
         "arrayEvery": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-every.html",
+            "exampleCode": "./live-examples/js-examples/array/array-every.html",
             "fileName": "array-every.html",
             "title": "JavaScript Demo: Array.every()",
             "type": "js"
         },
         "arrayFill": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-fill.html",
+            "exampleCode": "./live-examples/js-examples/array/array-fill.html",
             "fileName": "array-fill.html",
             "title": "JavaScript Demo: Array.fill()",
             "type": "js"
         },
         "arrayFilter": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-filter.html",
+            "exampleCode": "./live-examples/js-examples/array/array-filter.html",
             "fileName": "array-filter.html",
             "title": "JavaScript Demo: Array.filter()",
             "type": "js"
         },
         "arrayFind": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-find.html",
+            "exampleCode": "./live-examples/js-examples/array/array-find.html",
             "fileName": "array-find.html",
             "title": "JavaScript Demo: Array.find()",
             "type": "js"
         },
         "arrayFindIndex": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/array/array-findindex.html",
+            "exampleCode": "./live-examples/js-examples/array/array-findindex.html",
             "fileName": "array-findindex.html",
             "title": "JavaScript Demo: Array.findIndex()",
             "type": "js"
         },
         "arrayForEach": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-foreach.html",
+            "exampleCode": "./live-examples/js-examples/array/array-foreach.html",
             "fileName": "array-foreach.html",
             "title": "JavaScript Demo: Array.forEach()",
             "type": "js"
         },
         "arrayFrom": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-from.html",
+            "exampleCode": "./live-examples/js-examples/array/array-from.html",
             "fileName": "array-from.html",
             "title": "JavaScript Demo: Array.from()",
             "type": "js"
         },
         "arrayIncludes": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/array/array-includes.html",
+            "exampleCode": "./live-examples/js-examples/array/array-includes.html",
             "fileName": "array-includes.html",
             "title": "JavaScript Demo: Array.includes()",
             "type": "js"
         },
         "arrayIndexof": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-indexof.html",
+            "exampleCode": "./live-examples/js-examples/array/array-indexof.html",
             "fileName": "array-indexof.html",
             "title": "JavaScript Demo: Array.indexOf()",
             "type": "js"
         },
         "arrayJoin": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-join.html",
+            "exampleCode": "./live-examples/js-examples/array/array-join.html",
             "fileName": "array-join.html",
             "title": "JavaScript Demo: Array.join()",
             "type": "js"
         },
         "arrayKeys": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-keys.html",
+            "exampleCode": "./live-examples/js-examples/array/array-keys.html",
             "fileName": "array-keys.html",
             "title": "JavaScript Demo: Array.keys()",
             "type": "js"
         },
         "arrayLastIndexOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/array/array-lastindexof.html",
+            "exampleCode": "./live-examples/js-examples/array/array-lastindexof.html",
             "fileName": "array-lastindexof.html",
             "title": "JavaScript Demo: Array.lastIndexOf()",
             "type": "js"
         },
         "arrayLength": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-length.html",
+            "exampleCode": "./live-examples/js-examples/array/array-length.html",
             "fileName": "array-length.html",
             "title": "JavaScript Demo: Array.length",
             "type": "js"
         },
         "arrayMap": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-map.html",
+            "exampleCode": "./live-examples/js-examples/array/array-map.html",
             "fileName": "array-map.html",
             "title": "JavaScript Demo: Array.map()",
             "type": "js"
         },
         "arrayPush": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-push.html",
+            "exampleCode": "./live-examples/js-examples/array/array-push.html",
             "fileName": "array-push.html",
             "title": "JavaScript Demo: Array.push()",
             "type": "js"
         },
         "arrayPop": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-pop.html",
+            "exampleCode": "./live-examples/js-examples/array/array-pop.html",
             "fileName": "array-pop.html",
             "title": "JavaScript Demo: Array.pop()",
             "type": "js"
         },
         "arrayReduceRight": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/array/array-reduce-right.html",
+            "exampleCode": "./live-examples/js-examples/array/array-reduce-right.html",
             "fileName": "array-reduce-right.html",
             "title": "JavaScript Demo: Array.reduceRight()",
             "type": "js"
         },
         "arrayReduce": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-reduce.html",
+            "exampleCode": "./live-examples/js-examples/array/array-reduce.html",
             "fileName": "array-reduce.html",
             "title": "JavaScript Demo: Array.reduce()",
             "type": "js"
         },
         "arrayReverse": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-reverse.html",
+            "exampleCode": "./live-examples/js-examples/array/array-reverse.html",
             "fileName": "array-reverse.html",
             "title": "JavaScript Demo: Array.reverse()",
             "type": "js"
         },
         "arrayShift": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-shift.html",
+            "exampleCode": "./live-examples/js-examples/array/array-shift.html",
             "fileName": "array-shift.html",
             "title": "JavaScript Demo: Array.shift()",
             "type": "js"
         },
         "arraySlice": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-slice.html",
+            "exampleCode": "./live-examples/js-examples/array/array-slice.html",
             "fileName": "array-slice.html",
             "title": "JavaScript Demo: Array.slice()",
             "type": "js"
         },
         "arraySome": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-some.html",
+            "exampleCode": "./live-examples/js-examples/array/array-some.html",
             "fileName": "array-some.html",
             "title": "JavaScript Demo: Array.some()",
             "type": "js"
         },
         "arraySort": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-sort.html",
+            "exampleCode": "./live-examples/js-examples/array/array-sort.html",
             "fileName": "array-sort.html",
             "title": "JavaScript Demo: Array.sort()",
             "type": "js"
         },
         "arraySplice": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-splice.html",
+            "exampleCode": "./live-examples/js-examples/array/array-splice.html",
             "fileName": "array-splice.html",
             "title": "JavaScript Demo: Array.splice()",
             "type": "js"
         },
         "arrayToLocaleString": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/array/array-tolocalestring.html",
+            "exampleCode": "./live-examples/js-examples/array/array-tolocalestring.html",
             "fileName": "array-tolocalestring.html",
             "title": "JavaScript Demo: Array.toLocaleString()",
             "type": "js"
         },
         "arrayToString": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/array/array-tostring.html",
+            "exampleCode": "./live-examples/js-examples/array/array-tostring.html",
             "fileName": "array-tostring.html",
             "title": "JavaScript Demo: Array.toString()",
             "type": "js"
         },
         "arrayUnshift": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-unshift.html",
+            "exampleCode": "./live-examples/js-examples/array/array-unshift.html",
             "fileName": "array-unshift.html",
             "title": "JavaScript Demo: Array.unshift()",
             "type": "js"
         },
         "arrayValues": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/array/array-values.html",
+            "exampleCode": "./live-examples/js-examples/array/array-values.html",
             "fileName": "array-values.html",
             "title": "JavaScript Demo: Array.values()",
             "type": "js"

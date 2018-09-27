@@ -1,241 +1,181 @@
 {
     "pages": {
         "typedarrayBuffer": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-buffer.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-buffer.html",
             "fileName": "typedarray-buffer.html",
             "title": "JavaScript Demo: TypedArray.buffer",
             "type": "js"
         },
         "typedarrayByteLength": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-bytelength.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-bytelength.html",
             "fileName": "typedarray-bytelength.html",
             "title": "JavaScript Demo: TypedArray.byteLength",
             "type": "js"
         },
         "typedarrayBytesPerElement": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-bytes-per-element.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-bytes-per-element.html",
             "fileName": "typedarray-bytes-per-element.html",
             "title": "JavaScript Demo: TypedArray.BYTES_PER_ELEMENT",
             "type": "js"
         },
         "typedarrayConstructor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-constructor.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-constructor.html",
             "fileName": "typedarray-constructor.html",
             "title": "JavaScript Demo: TypedArray Constructor",
             "type": "js"
         },
         "typedarrayCopyWithin": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-copywithin.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-copywithin.html",
             "fileName": "typedarray-copywithin.html",
             "title": "JavaScript Demo: TypedArray.copyWithin()",
             "type": "js"
         },
         "typedarrayEntries": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-entries.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-entries.html",
             "fileName": "typedarray-entries.html",
             "title": "JavaScript Demo: TypedArray.entries()",
             "type": "js"
         },
         "typedarrayEvery": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-every.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-every.html",
             "fileName": "typedarray-every.html",
             "title": "JavaScript Demo: TypedArray.every()",
             "type": "js"
         },
         "typedarrayFill": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-fill.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-fill.html",
             "fileName": "typedarray-fill.html",
             "title": "JavaScript Demo: TypedArray.fill()",
             "type": "js"
         },
         "typedarrayFilter": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-filter.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-filter.html",
             "fileName": "typedarray-filter.html",
             "title": "JavaScript Demo: TypedArray.filter()",
             "type": "js"
         },
         "typedarrayFind": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-find.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-find.html",
             "fileName": "typedarray-find.html",
             "title": "JavaScript Demo: TypedArray.find()",
             "type": "js"
         },
         "typedarrayFindIndex": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-findindex.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-findindex.html",
             "fileName": "typedarray-findindex.html",
             "title": "JavaScript Demo: TypedArray.findIndex()",
             "type": "js"
         },
         "typedarrayFrom": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-from.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-from.html",
             "fileName": "typedarray-from.html",
             "title": "JavaScript Demo: TypedArray.from()",
             "type": "js"
         },
         "typedarrayIncludes": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-includes.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-includes.html",
             "fileName": "typedarray-includes.html",
             "title": "JavaScript Demo: TypedArray.includes()",
             "type": "js"
         },
         "typedarrayIndexOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-indexof.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-indexof.html",
             "fileName": "typedarray-indexof.html",
             "title": "JavaScript Demo: TypedArray.indexOf()",
             "type": "js"
         },
         "typedarrayJoin": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-join.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-join.html",
             "fileName": "typedarray-join.html",
             "title": "JavaScript Demo: TypedArray.join()",
             "type": "js"
         },
         "typedarrayKeys": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-keys.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-keys.html",
             "fileName": "typedarray-keys.html",
             "title": "JavaScript Demo: TypedArray.keys()",
             "type": "js"
         },
         "typedarrayLastIndexOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-lastindexof.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-lastindexof.html",
             "fileName": "typedarray-lastindexof.html",
             "title": "JavaScript Demo: TypedArray.lastIndexOf()",
             "type": "js"
         },
         "typedarrayLength": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-length.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-length.html",
             "fileName": "typedarray-length.html",
             "title": "JavaScript Demo: TypedArray.length",
             "type": "js"
         },
         "typedarrayMap": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-map.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-map.html",
             "fileName": "typedarray-map.html",
             "title": "JavaScript Demo: TypedArray.map()",
             "type": "js"
         },
         "typedarrayName": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-name.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-name.html",
             "fileName": "typedarray-name.html",
             "title": "JavaScript Demo: TypedArray.name",
             "type": "js"
         },
         "typedarrayOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-of.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-of.html",
             "fileName": "typedarray-of.html",
             "title": "JavaScript Demo: TypedArray.of()",
             "type": "js"
         },
         "typedarrayReduce": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-reduce.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-reduce.html",
             "fileName": "typedarray-reduce.html",
             "title": "JavaScript Demo: TypedArray.reduce()",
             "type": "js"
         },
         "typedarrayReverse": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-reverse.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-reverse.html",
             "fileName": "typedarray-reverse.html",
             "title": "JavaScript Demo: TypedArray.reverse()",
             "type": "js"
         },
         "typedarraySet": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-set.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-set.html",
             "fileName": "typedarray-set.html",
             "title": "JavaScript Demo: TypedArray.set()",
             "type": "js"
         },
         "typedarraySlice": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-slice.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-slice.html",
             "fileName": "typedarray-slice.html",
             "title": "JavaScript Demo: TypedArray.slice()",
             "type": "js"
         },
         "typedarraySome": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-some.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-some.html",
             "fileName": "typedarray-some.html",
             "title": "JavaScript Demo: TypedArray.some()",
             "type": "js"
         },
         "typedarraySort": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-sort.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-sort.html",
             "fileName": "typedarray-sort.html",
             "title": "JavaScript Demo: TypedArray.sort()",
             "type": "js"
         },
         "typedarraySubarray": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-subarray.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-subarray.html",
             "fileName": "typedarray-subarray.html",
             "title": "JavaScript Demo: TypedArray.subarray()",
             "type": "js"
         },
         "typedarrayToString": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-tostring.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-tostring.html",
             "fileName": "typedarray-tostring.html",
             "title": "JavaScript Demo: TypedArray.toString()",
             "type": "js"
         },
         "typedarrayValues": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/typedarray/typedarray-values.html",
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-values.html",
             "fileName": "typedarray-values.html",
             "title": "JavaScript Demo: TypedArray.values()",
             "type": "js"
