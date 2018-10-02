@@ -1,64 +1,50 @@
 {
     "pages": {
         "imageRendering": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/images/image-rendering.css",
-            "exampleCode": "live-examples/css-examples/images/image-rendering.html",
+            "cssExampleSrc": "./live-examples/css-examples/images/image-rendering.css",
+            "exampleCode": "./live-examples/css-examples/images/image-rendering.html",
             "fileName": "image-rendering.html",
             "title": "CSS Demo: image-rendering",
             "type": "css"
         },
         "linearGradient": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/images/gradient.css",
-            "exampleCode": "live-examples/css-examples/images/function-linear-gradient.html",
+            "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
+            "exampleCode": "./live-examples/css-examples/images/function-linear-gradient.html",
             "fileName": "function-linear-gradient.html",
             "title": "CSS Demo: linear-gradient()",
             "type": "css"
         },
         "radialGradient": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/images/gradient.css",
-            "exampleCode": "live-examples/css-examples/images/function-radial-gradient.html",
+            "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
+            "exampleCode": "./live-examples/css-examples/images/function-radial-gradient.html",
             "fileName": "function-radial-gradient.html",
             "title": "CSS Demo: radial-gradient()",
             "type": "css"
         },
         "repeatingLinearGradient": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/images/gradient.css",
-            "exampleCode": "live-examples/css-examples/images/function-repeating-linear-gradient.html",
+            "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
+            "exampleCode": "./live-examples/css-examples/images/function-repeating-linear-gradient.html",
             "fileName": "function-repeating-linear-gradient.html",
             "title": "CSS Demo: repeating-linear-gradient()",
             "type": "css"
         },
         "repeatingRadialGradient": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/images/gradient.css",
-            "exampleCode": "live-examples/css-examples/images/function-repeating-radial-gradient.html",
+            "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
+            "exampleCode": "./live-examples/css-examples/images/function-repeating-radial-gradient.html",
             "fileName": "function-repeating-radial-gradient.html",
             "title": "CSS Demo: repeating-radial-gradient()",
             "type": "css"
         },
         "objectFit": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/images/object-fit.css",
-            "exampleCode": "live-examples/css-examples/images/object-fit.html",
+            "cssExampleSrc": "./live-examples/css-examples/images/object-fit.css",
+            "exampleCode": "./live-examples/css-examples/images/object-fit.html",
             "fileName": "object-fit.html",
             "title": "CSS Demo: object-fit",
             "type": "css"
         },
         "objectPosition": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/images/object-position.css",
-            "exampleCode": "live-examples/css-examples/images/object-position.html",
+            "cssExampleSrc": "./live-examples/css-examples/images/object-position.css",
+            "exampleCode": "./live-examples/css-examples/images/object-position.html",
             "fileName": "object-position.html",
             "title": "CSS Demo: object-position",
             "type": "css"

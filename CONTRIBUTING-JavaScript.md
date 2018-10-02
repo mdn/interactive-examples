@@ -40,7 +40,7 @@ Please make sure the example conforms to the [JS Example Style Guide](JS-Example
 
 ## Updating the metadata
 
-All that remains is to tell the page generator about our new example. To do this, open up `meta.json` in the current folder (i.e. at "live-examples/js-examples/array/meta.json").
+All that remains is to tell the page generator about our new example. To do this, open up `meta.json` in the current folder (i.e. at "./live-examples/js-examples/array/meta.json").
 
 Under `pages`, copy and paste the example then update it to your new example, noting that pages are sorted alphabetically.
 
@@ -48,8 +48,7 @@ You entry will look something like the following when edited:
 
 ```
 "arrayFrom": {
-    "baseTmpl": "tmpl/live-js-tmpl.html",
-    "exampleCode": "live-examples/js-examples/array/array-from.html",
+    "exampleCode": "./live-examples/js-examples/array/array-from.html",
     "fileName": "array-from.html",
     "title": "JavaScript Demo: Array.from()",
     "type": "js"

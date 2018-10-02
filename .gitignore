@@ -36,5 +36,8 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-docs
+# macOS specific
 .DS_Store
+
+# project specific
+/docs/

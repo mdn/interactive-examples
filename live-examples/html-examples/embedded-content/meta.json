@@ -1,55 +1,40 @@
 {
     "pages": {
         "embed": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode":
-                "live-examples/html-examples/embedded-content/embed.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/embedded-content/css/embed.css",
+            "exampleCode": "./live-examples/html-examples/embedded-content/embed.html",
+            "cssExampleSrc": "./live-examples/html-examples/embedded-content/css/embed.css",
             "fileName": "embed.html",
             "title": "HTML Demo: <embed>",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
         "iframe": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode":
-                "live-examples/html-examples/embedded-content/iframe.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/embedded-content/css/iframe.css",
+            "exampleCode": "./live-examples/html-examples/embedded-content/iframe.html",
+            "cssExampleSrc": "./live-examples/html-examples/embedded-content/css/iframe.css",
             "fileName": "iframe.html",
             "title": "HTML Demo: <iframe>",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
         "object": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode":
-                "live-examples/html-examples/embedded-content/object.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/embedded-content/css/object.css",
+            "exampleCode": "./live-examples/html-examples/embedded-content/object.html",
+            "cssExampleSrc": "./live-examples/html-examples/embedded-content/css/object.css",
             "fileName": "object.html",
             "title": "HTML Demo: <object>",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
         "picture": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode":
-                "live-examples/html-examples/embedded-content/picture.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/embedded-content/css/picture.css",
+            "exampleCode": "./live-examples/html-examples/embedded-content/picture.html",
+            "cssExampleSrc": "./live-examples/html-examples/embedded-content/css/picture.css",
             "fileName": "picture.html",
             "title": "HTML Demo: <picture>",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
         "source": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode":
-                "live-examples/html-examples/embedded-content/source.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/embedded-content/css/source.css",
+            "exampleCode": "./live-examples/html-examples/embedded-content/source.html",
+            "cssExampleSrc": "./live-examples/html-examples/embedded-content/css/source.css",
             "fileName": "source.html",
             "title": "HTML Demo: <source>",
             "type": "tabbed",

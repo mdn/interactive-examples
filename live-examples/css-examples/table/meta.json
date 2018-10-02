@@ -1,51 +1,36 @@
 {
     "pages": {
         "borderCollapse": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/table/border-collapse.css",
-            "exampleCode":
-                "live-examples/css-examples/table/border-collapse.html",
+            "cssExampleSrc": "./live-examples/css-examples/table/border-collapse.css",
+            "exampleCode": "./live-examples/css-examples/table/border-collapse.html",
             "fileName": "border-collapse.html",
             "title": "CSS Demo: border-collapse",
             "type": "css"
         },
         "borderSpacing": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/table/border-spacing.css",
-            "exampleCode":
-                "live-examples/css-examples/table/border-spacing.html",
+            "cssExampleSrc": "./live-examples/css-examples/table/border-spacing.css",
+            "exampleCode": "./live-examples/css-examples/table/border-spacing.html",
             "fileName": "border-spacing.html",
             "title": "CSS Demo: border-spacing",
             "type": "css"
         },
         "captionSide": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/table/caption-side.css",
-            "exampleCode":
-                "live-examples/css-examples/table/caption-side.html",
+            "cssExampleSrc": "./live-examples/css-examples/table/caption-side.css",
+            "exampleCode": "./live-examples/css-examples/table/caption-side.html",
             "fileName": "caption-side.html",
             "title": "CSS Demo: caption-side",
             "type": "css"
         },
         "emptyCells": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/table/empty-cells.css",
-            "exampleCode":
-                "live-examples/css-examples/table/empty-cells.html",
+            "cssExampleSrc": "./live-examples/css-examples/table/empty-cells.css",
+            "exampleCode": "./live-examples/css-examples/table/empty-cells.html",
             "fileName": "empty-cells.html",
             "title": "CSS Demo: empty-cells",
             "type": "css"
         },
         "tableLayout": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/table/table-layout.css",
-            "exampleCode":
-                "live-examples/css-examples/table/table-layout.html",
+            "cssExampleSrc": "./live-examples/css-examples/table/table-layout.css",
+            "exampleCode": "./live-examples/css-examples/table/table-layout.html",
             "fileName": "table-layout.html",
             "title": "CSS Demo: table-layout",
             "type": "css"

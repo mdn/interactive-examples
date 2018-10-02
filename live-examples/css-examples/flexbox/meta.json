@@ -1,81 +1,57 @@
 {
     "pages": {
         "flexWrap": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/flexbox/flex-wrap.css",
-            "exampleCode":
-                "live-examples/css-examples/flexbox/flex-wrap.html",
+            "cssExampleSrc": "./live-examples/css-examples/flexbox/flex-wrap.css",
+            "exampleCode": "./live-examples/css-examples/flexbox/flex-wrap.html",
             "fileName": "flex-wrap.html",
             "title": "CSS Demo: flex-wrap",
             "type": "css"
         },
         "flexDirection": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/flexbox/flex-direction.css",
-            "exampleCode":
-                "live-examples/css-examples/flexbox/flex-direction.html",
+            "cssExampleSrc": "./live-examples/css-examples/flexbox/flex-direction.css",
+            "exampleCode": "./live-examples/css-examples/flexbox/flex-direction.html",
             "fileName": "flex-direction.html",
             "title": "CSS Demo: flex-direction",
             "type": "css"
         },
         "flexFlow": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/flexbox/flex-flow.css",
-            "exampleCode":
-                "live-examples/css-examples/flexbox/flex-flow.html",
+            "cssExampleSrc": "./live-examples/css-examples/flexbox/flex-flow.css",
+            "exampleCode": "./live-examples/css-examples/flexbox/flex-flow.html",
             "fileName": "flex-flow.html",
             "title": "CSS Demo: flex-flow",
             "type": "css"
         },
         "flexBasis": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/flexbox/flex-basis.css",
-            "exampleCode":
-                "live-examples/css-examples/flexbox/flex-basis.html",
+            "cssExampleSrc": "./live-examples/css-examples/flexbox/flex-basis.css",
+            "exampleCode": "./live-examples/css-examples/flexbox/flex-basis.html",
             "fileName": "flex-basis.html",
             "title": "CSS Demo: flex-basis",
             "type": "css"
         },
         "flexGrow": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/flexbox/flex-grow.css",
-            "exampleCode":
-                "live-examples/css-examples/flexbox/flex-grow.html",
+            "cssExampleSrc": "./live-examples/css-examples/flexbox/flex-grow.css",
+            "exampleCode": "./live-examples/css-examples/flexbox/flex-grow.html",
             "fileName": "flex-grow.html",
             "title": "CSS Demo: flex-grow",
             "type": "css"
         },
         "flexShrink": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/flexbox/flex-shrink.css",
-            "exampleCode":
-                "live-examples/css-examples/flexbox/flex-shrink.html",
+            "cssExampleSrc": "./live-examples/css-examples/flexbox/flex-shrink.css",
+            "exampleCode": "./live-examples/css-examples/flexbox/flex-shrink.html",
             "fileName": "flex-shrink.html",
             "title": "CSS Demo: flex-shrink",
             "type": "css"
         },
         "flex": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/flexbox/flex.css",
-            "exampleCode":
-                "live-examples/css-examples/flexbox/flex.html",
+            "cssExampleSrc": "./live-examples/css-examples/flexbox/flex.css",
+            "exampleCode": "./live-examples/css-examples/flexbox/flex.html",
             "fileName": "flex.html",
             "title": "CSS Demo: flex",
             "type": "css"
         },
         "order": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/flexbox/order.css",
-            "exampleCode":
-                "live-examples/css-examples/flexbox/order.html",
+            "cssExampleSrc": "./live-examples/css-examples/flexbox/order.css",
+            "exampleCode": "./live-examples/css-examples/flexbox/order.html",
             "fileName": "order.html",
             "title": "CSS Demo: order",
             "type": "css"

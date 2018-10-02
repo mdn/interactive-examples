@@ -1,10 +1,8 @@
 {
     "pages": {
         "quotes": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/generated-content/quotes.css",
-            "exampleCode": "live-examples/css-examples/generated-content/quotes.html",
+            "cssExampleSrc": "./live-examples/css-examples/generated-content/quotes.css",
+            "exampleCode": "./live-examples/css-examples/generated-content/quotes.html",
             "fileName": "quotes.html",
             "title": "CSS Demo: quotes",
             "type": "css"
