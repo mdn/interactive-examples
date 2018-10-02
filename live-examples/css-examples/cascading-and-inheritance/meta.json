@@ -1,11 +1,8 @@
 {
     "pages": {
         "all": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/cascading-and-inheritance/all.css",
-            "exampleCode":
-                "live-examples/css-examples/cascading-and-inheritance/all.html",
+            "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/all.css",
+            "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/all.html",
             "fileName": "all.html",
             "title": "CSS Demo: all",
             "type": "css"

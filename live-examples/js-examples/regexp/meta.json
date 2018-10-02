@@ -1,137 +1,103 @@
 {
     "pages": {
         "regexpConstructor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-constructor.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-constructor.html",
             "fileName": "regexp-constructor.html",
             "title": "JavaScript Demo: RegExp Constructor",
             "type": "js"
         },
         "regexpGetRegExp@@Species": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-getregexp-@@species.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-getregexp-@@species.html",
             "fileName": "regexp-getregexp-@@species.html",
             "title": "JavaScript Demo: RegExp.getRegExp[@@species]",
             "type": "js"
         },
         "regexpLastIndex": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-lastindex.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-lastindex.html",
             "fileName": "regexp-lastindex.html",
             "title": "JavaScript Demo: RegExp.lastIndex",
             "type": "js"
         },
         "regexpPrototype@@Match": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-@@match.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-@@match.html",
             "fileName": "regexp-prototype-@@match.html",
             "title": "JavaScript Demo: RegExp.prototype[@@match]",
             "type": "js"
         },
         "regexpPrototype@@Replace": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-@@replace.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-@@replace.html",
             "fileName": "regexp-prototype-@@replace.html",
             "title": "JavaScript Demo: RegExp.prototype[@@replace]",
             "type": "js"
         },
         "regexpPrototype@@Search": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-@@search.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-@@search.html",
             "fileName": "regexp-prototype-@@search.html",
             "title": "JavaScript Demo: RegExp.prototype[@@search]",
             "type": "js"
         },
         "regexpPrototype@@Split": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-@@split.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-@@split.html",
             "fileName": "regexp-prototype-@@split.html",
             "title": "JavaScript Demo: RegExp.prototype[@@split]",
             "type": "js"
         },
         "regexpPrototypeExec": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-exec.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-exec.html",
             "fileName": "regexp-prototype-exec.html",
             "title": "JavaScript Demo: RegExp.prototype.exec()",
             "type": "js"
         },
         "regexpPrototypeFlags": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-flags.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-flags.html",
             "fileName": "regexp-prototype-flags.html",
             "title": "JavaScript Demo: RegExp.prototype.flags",
             "type": "js"
         },
         "regexpPrototypeGlobal": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-global.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-global.html",
             "fileName": "regexp-prototype-global.html",
             "title": "JavaScript Demo: RegExp.prototype.global",
             "type": "js"
         },
         "regexpPrototypeIgnoreCase": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-ignorecase.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-ignorecase.html",
             "fileName": "regexp-prototype-ignorecase.html",
             "title": "JavaScript Demo: RegExp.prototype.ignoreCase",
             "type": "js"
         },
         "regexpPrototypeMultiLine": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-multiline.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-multiline.html",
             "fileName": "regexp-prototype-multiline.html",
             "title": "JavaScript Demo: RegExp.prototype.multiline",
             "type": "js"
         },
         "regexpPrototypeSource": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-source.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-source.html",
             "fileName": "regexp-prototype-source.html",
             "title": "JavaScript Demo: RegExp.prototype.source",
             "type": "js"
         },
         "regexpPrototypeSticky": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-sticky.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-sticky.html",
             "fileName": "regexp-prototype-sticky.html",
             "title": "JavaScript Demo: RegExp.prototype.sticky",
             "type": "js"
         },
         "regexpPrototypeTest": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-test.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-test.html",
             "fileName": "regexp-prototype-test.html",
             "title": "JavaScript Demo: RegExp.prototype.test",
             "type": "js"
         },
         "regexpPrototypeToString": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-tostring.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-tostring.html",
             "fileName": "regexp-prototype-tostring.html",
             "title": "JavaScript Demo: RegExp.prototype.toString()",
             "type": "js"
         },
         "regexpPrototypeUnicode": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/regexp/regexp-prototype-unicode.html",
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-unicode.html",
             "fileName": "regexp-prototype-unicode.html",
             "title": "JavaScript Demo: RegExp.prototype.unicode",
             "type": "js"

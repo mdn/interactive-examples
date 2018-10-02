@@ -1,25 +1,19 @@
 {
     "pages": {
         "classesConstructor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/classes/classes-constructor.html",
+            "exampleCode": "./live-examples/js-examples/classes/classes-constructor.html",
             "fileName": "classes-constructor.html",
             "title": "JavaScript Demo: Classes Constructor",
             "type": "js"
         },
         "classesExtends": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/classes/classes-extends.html",
+            "exampleCode": "./live-examples/js-examples/classes/classes-extends.html",
             "fileName": "classes-extends.html",
             "title": "JavaScript Demo: Classes Extends",
             "type": "js"
         },
         "classesStatic": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/classes/classes-static.html",
+            "exampleCode": "./live-examples/js-examples/classes/classes-static.html",
             "fileName": "classes-static.html",
             "title": "JavaScript Demo: Classes Static",
             "type": "js"

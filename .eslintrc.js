@@ -26,7 +26,7 @@ module.exports = {
         'no-console': [
             'error',
             {
-                allow: ['error']
+                allow: ['log', 'error']
             }
         ],
         'one-var-declaration-per-line': [2, 'always'],
@@ -38,6 +38,7 @@ module.exports = {
         console: true,
         expect: true,
         exports: true,
+        getShadowRoot: true,
         module: true,
         page: true,
         Prism: true,

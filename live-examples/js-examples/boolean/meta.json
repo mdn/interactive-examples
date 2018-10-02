@@ -1,25 +1,19 @@
 {
     "pages": {
         "booleanConstructor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/boolean/boolean-constructor.html",
+            "exampleCode": "./live-examples/js-examples/boolean/boolean-constructor.html",
             "fileName": "boolean-constructor.html",
             "title": "JavaScript Demo: Boolean Constructor",
             "type": "js"
         },
         "booleanToString": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/boolean/boolean-tostring.html",
+            "exampleCode": "./live-examples/js-examples/boolean/boolean-tostring.html",
             "fileName": "boolean-tostring.html",
             "title": "JavaScript Demo: Boolean.toString()",
             "type": "js"
         },
         "booleanValueOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/boolean/boolean-valueof.html",
+            "exampleCode": "./live-examples/js-examples/boolean/boolean-valueof.html",
             "fileName": "boolean-valueof.html",
             "title": "JavaScript Demo: Boolean.valueOf()",
             "type": "js"

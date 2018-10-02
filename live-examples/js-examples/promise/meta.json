@@ -1,56 +1,43 @@
 {
     "pages": {
         "promiseAll": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/promise/promise-all.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-all.html",
             "fileName": "promise-all.html",
             "title": "JavaScript Demo: Promise.all()",
             "type": "js"
         },
         "promiseCatch": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/promise/promise-catch.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-catch.html",
             "fileName": "promise-catch.html",
             "title": "JavaScript Demo: Promise.catch()",
             "type": "js"
         },
         "promiseConstructor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/promise/promise-constructor.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-constructor.html",
             "fileName": "promise-constructor.html",
             "title": "JavaScript Demo: Promise Constructor",
             "type": "js"
         },
         "promiseRace": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/promise/promise-race.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-race.html",
             "fileName": "promise-race.html",
             "title": "JavaScript Demo: Promise.race()",
             "type": "js"
         },
         "promiseReject": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/promise/promise-reject.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-reject.html",
             "fileName": "promise-reject.html",
             "title": "JavaScript Demo: Promise.reject()",
             "type": "js"
         },
         "promiseResolve": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/promise/promise-resolve.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-resolve.html",
             "fileName": "promise-resolve.html",
             "title": "JavaScript Demo: Promise.resolve()",
             "type": "js"
         },
         "promiseThen": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/promise/promise-then.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-then.html",
             "fileName": "promise-then.html",
             "title": "JavaScript Demo: Promise.then()",
             "type": "js"

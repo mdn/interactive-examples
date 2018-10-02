@@ -1,91 +1,71 @@
 {
     "pages": {
         "column-count": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/multi-column-layout/column-count.css",
-            "exampleCode": "live-examples/css-examples/multi-column-layout/column-count.html",
+            "cssExampleSrc": "./live-examples/css-examples/multi-column-layout/column-count.css",
+            "exampleCode": "./live-examples/css-examples/multi-column-layout/column-count.html",
             "fileName": "column-count.html",
             "title": "CSS Demo: column-count",
             "type": "css"
         },
         "column-fill": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/multi-column-layout/column-fill.css",
-            "exampleCode": "live-examples/css-examples/multi-column-layout/column-fill.html",
+            "cssExampleSrc": "./live-examples/css-examples/multi-column-layout/column-fill.css",
+            "exampleCode": "./live-examples/css-examples/multi-column-layout/column-fill.html",
             "fileName": "column-fill.html",
             "title": "CSS Demo: column-fill",
             "type": "css"
         },
         "column-gap": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/multi-column-layout/column-gap.css",
-            "exampleCode": "live-examples/css-examples/multi-column-layout/column-gap.html",
+            "cssExampleSrc": "./live-examples/css-examples/multi-column-layout/column-gap.css",
+            "exampleCode": "./live-examples/css-examples/multi-column-layout/column-gap.html",
             "fileName": "column-gap.html",
             "title": "CSS Demo: column-gap",
             "type": "css"
         },
         "column-rule": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/multi-column-layout/column-rule.css",
-            "exampleCode": "live-examples/css-examples/multi-column-layout/column-rule.html",
+            "cssExampleSrc": "./live-examples/css-examples/multi-column-layout/column-rule.css",
+            "exampleCode": "./live-examples/css-examples/multi-column-layout/column-rule.html",
             "fileName": "column-rule.html",
             "title": "CSS Demo: column-rule",
             "type": "css"
         },
         "column-span": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/multi-column-layout/column-span.css",
-            "exampleCode": "live-examples/css-examples/multi-column-layout/column-span.html",
+            "cssExampleSrc": "./live-examples/css-examples/multi-column-layout/column-span.css",
+            "exampleCode": "./live-examples/css-examples/multi-column-layout/column-span.html",
             "fileName": "column-span.html",
             "title": "CSS Demo: column-span",
             "type": "css"
         },
         "column-rule-color": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/multi-column-layout/column-rule.css",
-            "exampleCode": "live-examples/css-examples/multi-column-layout/column-rule-color.html",
+            "cssExampleSrc": "./live-examples/css-examples/multi-column-layout/column-rule.css",
+            "exampleCode": "./live-examples/css-examples/multi-column-layout/column-rule-color.html",
             "fileName": "column-rule-color.html",
             "title": "CSS Demo: column-rule-color",
             "type": "css"
         },
         "column-rule-style": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/multi-column-layout/column-rule.css",
-            "exampleCode": "live-examples/css-examples/multi-column-layout/column-rule-style.html",
+            "cssExampleSrc": "./live-examples/css-examples/multi-column-layout/column-rule.css",
+            "exampleCode": "./live-examples/css-examples/multi-column-layout/column-rule-style.html",
             "fileName": "column-rule-style.html",
             "title": "CSS Demo: column-rule-style",
             "type": "css"
         },
         "column-rule-width": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/multi-column-layout/column-rule.css",
-            "exampleCode": "live-examples/css-examples/multi-column-layout/column-rule-width.html",
+            "cssExampleSrc": "./live-examples/css-examples/multi-column-layout/column-rule.css",
+            "exampleCode": "./live-examples/css-examples/multi-column-layout/column-rule-width.html",
             "fileName": "column-rule-width.html",
             "title": "CSS Demo: column-rule-width",
             "type": "css"
         },
         "column-width": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/multi-column-layout/column-width.css",
-            "exampleCode": "live-examples/css-examples/multi-column-layout/column-width.html",
+            "cssExampleSrc": "./live-examples/css-examples/multi-column-layout/column-width.css",
+            "exampleCode": "./live-examples/css-examples/multi-column-layout/column-width.html",
             "fileName": "column-width.html",
             "title": "CSS Demo: column-width",
             "type": "css"
         },
         "columns": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/multi-column-layout/columns.css",
-            "exampleCode": "live-examples/css-examples/multi-column-layout/columns.html",
+            "cssExampleSrc": "./live-examples/css-examples/multi-column-layout/columns.css",
+            "exampleCode": "./live-examples/css-examples/multi-column-layout/columns.html",
             "fileName": "columns.html",
             "title": "CSS Demo: columns",
             "type": "css"

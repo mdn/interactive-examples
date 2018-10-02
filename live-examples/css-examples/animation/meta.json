@@ -1,96 +1,70 @@
 {
     "pages": {
         "animation": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/animation/animation.css",
-            "exampleCode": "live-examples/css-examples/animation/animation.html",
+            "cssExampleSrc": "./live-examples/css-examples/animation/animation.css",
+            "exampleCode": "./live-examples/css-examples/animation/animation.html",
             "fileName": "animation.html",
             "title": "CSS Demo: animation",
             "type": "css"
         },
         "animationDelay": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/animation/animation-delay.css",
-            "jsExampleSrc":
-                "../../live-examples/css-examples/animation/animation-state.js",
-            "exampleCode": "live-examples/css-examples/animation/animation-delay.html",
+            "cssExampleSrc": "./live-examples/css-examples/animation/animation-delay.css",
+            "jsExampleSrc": "./live-examples/css-examples/animation/animation-state.js",
+            "exampleCode": "./live-examples/css-examples/animation/animation-delay.html",
             "fileName": "animation-delay.html",
             "title": "CSS Demo: animation-delay",
             "type": "css"
         },
         "animationDirection": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/animation/animation-direction.css",
-            "jsExampleSrc":
-                "../../live-examples/css-examples/animation/play-pause.js",
-            "exampleCode": "live-examples/css-examples/animation/animation-direction.html",
+            "cssExampleSrc": "./live-examples/css-examples/animation/animation-direction.css",
+            "jsExampleSrc": "./live-examples/css-examples/animation/play-pause.js",
+            "exampleCode": "./live-examples/css-examples/animation/animation-direction.html",
             "fileName": "animation-direction.html",
             "title": "CSS Demo: animation-direction",
             "type": "css"
         },
         "animationDuration": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/animation/animation-duration.css",
-            "jsExampleSrc":
-                "../../live-examples/css-examples/animation/play-pause.js",
-            "exampleCode": "live-examples/css-examples/animation/animation-duration.html",
+            "cssExampleSrc": "./live-examples/css-examples/animation/animation-duration.css",
+            "jsExampleSrc": "./live-examples/css-examples/animation/play-pause.js",
+            "exampleCode": "./live-examples/css-examples/animation/animation-duration.html",
             "fileName": "animation-duration.html",
             "title": "CSS Demo: animation-duration",
             "type": "css"
         },
         "animationFillMode": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/animation/animation-fill-mode.css",
-            "jsExampleSrc":
-                "../../live-examples/css-examples/animation/animation-state.js",
-            "exampleCode":
-                "live-examples/css-examples/animation/animation-fill-mode.html",
+            "cssExampleSrc": "./live-examples/css-examples/animation/animation-fill-mode.css",
+            "jsExampleSrc": "./live-examples/css-examples/animation/animation-state.js",
+            "exampleCode": "./live-examples/css-examples/animation/animation-fill-mode.html",
             "fileName": "animation-fill-mode.html",
             "title": "CSS Demo: animation-fill-mode",
             "type": "css"
         },
         "animationIterationCount": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/animation/animation-iteration-count.css",
-            "jsExampleSrc":
-                "../../live-examples/css-examples/animation/animation-state.js",
-            "exampleCode": "live-examples/css-examples/animation/animation-iteration-count.html",
+            "cssExampleSrc": "./live-examples/css-examples/animation/animation-iteration-count.css",
+            "jsExampleSrc": "./live-examples/css-examples/animation/animation-state.js",
+            "exampleCode": "./live-examples/css-examples/animation/animation-iteration-count.html",
             "fileName": "animation-iteration-count.html",
             "title": "CSS Demo: animation-iteration-count",
             "type": "css"
         },
         "animationName": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/animation/animation-name.css",
-            "exampleCode":
-                "live-examples/css-examples/animation/animation-name.html",
+            "cssExampleSrc": "./live-examples/css-examples/animation/animation-name.css",
+            "exampleCode": "./live-examples/css-examples/animation/animation-name.html",
             "fileName": "animation-name.html",
             "title": "CSS Demo: animation-name",
             "type": "css"
         },
         "animationPlayState": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/animation/animation-play-state.css",
-            "exampleCode": "live-examples/css-examples/animation/animation-play-state.html",
+            "cssExampleSrc": "./live-examples/css-examples/animation/animation-play-state.css",
+            "exampleCode": "./live-examples/css-examples/animation/animation-play-state.html",
             "fileName": "animation-play-state.html",
             "title": "CSS Demo: animation-play-state",
             "type": "css"
         },
         "animationTimingFunction": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/animation/animation-timing-function.css",
-            "jsExampleSrc":
-                "../../live-examples/css-examples/animation/play-pause.js",
-            "exampleCode": "live-examples/css-examples/animation/animation-timing-function.html",
+            "cssExampleSrc": "./live-examples/css-examples/animation/animation-timing-function.css",
+            "jsExampleSrc": "./live-examples/css-examples/animation/play-pause.js",
+            "exampleCode": "./live-examples/css-examples/animation/animation-timing-function.html",
             "fileName": "animation-timing-function.html",
             "title": "CSS Demo: animation-timing-function",
             "type": "css"
