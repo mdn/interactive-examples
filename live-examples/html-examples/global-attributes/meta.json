@@ -22,6 +22,28 @@
             "type": "tabbed",
             "height": "tabbed-standard"
         },
+        "contenteditable": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/contenteditable.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/contenteditable.css",
+            "fileName": "contenteditable.html",
+            "title": "HTML Demo: contenteditable",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "data-": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/data-.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/data-.css",
+            "fileName": "data-.html",
+            "title": "HTML Demo: data-*",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
         "dir": {
             "baseTmpl": "tmpl/live-tabbed-tmpl.html",
             "exampleCode":
@@ -32,6 +54,83 @@
             "title": "HTML Demo: dir",
             "type": "tabbed",
             "height": "tabbed-standard"
+        },
+        "hidden": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/hidden.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/hidden.css",
+            "fileName": "hidden.html",
+            "title": "HTML Demo: hidden",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "id": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/id.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/id.css",
+            "fileName": "id.html",
+            "title": "HTML Demo: id",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "lang": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/lang.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/lang.css",
+            "fileName": "lang.html",
+            "title": "HTML Demo: lang",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "style-attr": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/style-attr.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/style-attr.css",
+            "fileName": "style-attr.html",
+            "title": "HTML Demo: style",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "spellcheck": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/spellcheck.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/spellcheck.css",
+            "fileName": "spellcheck.html",
+            "title": "HTML Demo: spellcheck",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "tabindex": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/tabindex.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/tabindex.css",
+            "fileName": "tabindex.html",
+            "title": "HTML Demo: tabindex",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "title-attr": {
+            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
+            "exampleCode":
+                "live-examples/html-examples/global-attributes/title-attr.html",
+            "cssExampleSrc":
+                "live-examples/html-examples/global-attributes/css/title-attr.css",
+            "fileName": "title-attr.html",
+            "title": "HTML Demo: title",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
         }
     }
 }

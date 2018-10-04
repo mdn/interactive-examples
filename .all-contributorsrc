@@ -470,6 +470,102 @@
                 "https://avatars3.githubusercontent.com/u/359525?s=460&v=4",
             "profile": "https://github.com/Row",
             "contributions": ["code"]
+        },
+        {
+            "login": "jpmedley",
+            "name": "Joe Medley",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/8204171?s=460&v=4",
+            "profile": "https://github.com/jpmedley",
+            "contributions": ["code"]
+        },
+        {
+            "login": "escattone",
+            "name": "Ryan Johnson",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/3743693?s=460&v=4",
+            "profile": "https://github.com/escattone",
+            "contributions": ["code"]
+        },
+        {
+            "login": "irenesmith",
+            "name": "Irene Smith",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/192346?s=460&v=4",
+            "profile": "https://github.com/irenesmith",
+            "contributions": ["code"]
+        },
+        {
+            "login": "meowwwls",
+            "name": "Melissa",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/16426195?s=460&v=4",
+            "profile": "https://github.com/meowwwls",
+            "contributions": ["code"]
+        },
+        {
+            "login": "revelt",
+            "name": "Roy Revelt",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/8344688?s=460&v=4",
+            "profile": "https://github.com/revelt",
+            "contributions": ["code"]
+        },
+        {
+            "login": "Konrud",
+            "name": "Konstantin Rouda",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/7681999?s=460&v=4",
+            "profile": "https://github.com/Konrud",
+            "contributions": ["code"]
+        },
+        {
+            "login": "gene1wood",
+            "name": "Gene Wood",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/1134034?s=460&v=4",
+            "profile": "https://github.com/gene1wood",
+            "contributions": ["code"]
+        },
+        {
+            "login": "justsml",
+            "name": "Dan Levy",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/397632?s=460&v=4",
+            "profile": "https://github.com/justsml",
+            "contributions": ["code"]
+        },
+        {
+            "login": "aeinbu",
+            "name": "Arjan Einbu",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/949774?s=460&v=4",
+            "profile": "https://github.com/aeinbu",
+            "contributions": ["code"]
+        },
+        {
+            "login": "eszjay",
+            "name": "Solomon Jones",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/31631573?s=460&v=4",
+            "profile": "https://github.com/eszjay",
+            "contributions": ["code"]
+        },
+        {
+            "login": "ollelauribostrom",
+            "name": "Olle Lauri Boström",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/16004130?s=460&v=4",
+            "profile": "https://github.com/ollelauribostrom",
+            "contributions": ["code"]
+        },
+        {
+            "login": "ninjanails",
+            "name": "Seren D",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/9624541?s=460&v=4",
+            "profile": "https://github.com/ninjanails",
+            "contributions": ["code"]
         }
     ]
 }
