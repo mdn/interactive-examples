@@ -77,6 +77,13 @@
             "title": "JavaScript Demo: String.lastIndexOf()",
             "type": "js"
         },
+        "stringLength": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-length.html",
+            "fileName": "string-length.html",
+            "title": "JavaScript Demo: String.length",
+            "type": "js"
+        },
         "stringLocaleCompare": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/string/string-localecompare.html",
