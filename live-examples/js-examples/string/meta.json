@@ -21,10 +21,10 @@
             "title": "JavaScript Demo: String.trimStart()",
             "type": "js"
         },
-        "stringvalueOf": {
+        "stringValueOf": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/string/string-valueOf.html",
-            "fileName": "string-valueOf.html",
+            "exampleCode": "live-examples/js-examples/string/string-valueof.html",
+            "fileName": "string-valueof.html",
             "title": "JavaScript Demo: String.valueOf()",
             "type": "js"
         }
