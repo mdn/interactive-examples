@@ -1,14 +1,15 @@
 <pre>
-<code id="static-js">function sum(...theArgs) {
-  return theArgs.reduce((previous, current) => {
-    return previous + current;
-  });
+<code id="static-js">function myFun(a, b, ...manyMoreArgs) {
+  console.log("a", a);
+  console.log("b", b);
+  console.log("manyMoreArgs", manyMoreArgs);
 }
 
-console.log(sum(1, 2, 3));
-// expected output: 6
+myFun("one", "two", "three", "four", "five", "six");
+// expected output: 
+//    a one
+//    b two
+//    manyMoreArgs Array(4) [ "three", "four", "five", "six" ]
 
-console.log(sum(1, 2, 3, 4));
-// expected output: 10
 </code>
 </pre>
