@@ -203,6 +203,13 @@
             "title": "JavaScript Demo: String.toLowerCase()",
             "type": "js"
         },
+        "stringToString": {
+            "baseTmpl": "tmpl/live-js-tmpl.html",
+            "exampleCode": "live-examples/js-examples/string/string-tostring.html",
+            "fileName": "string-tostring.html",
+            "title": "JavaScript Demo: String.toString()",
+            "type": "js"
+        },
         "stringToUpperCase": {
             "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode": "live-examples/js-examples/string/string-touppercase.html",
