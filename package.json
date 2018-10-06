@@ -82,7 +82,7 @@
         "prettier": "1.14.3",
         "prettier-eslint": "8.8.2",
         "prettier-stylelint": "0.4.2",
-        "puppeteer": "1.8.0",
+        "puppeteer": "1.9.0",
         "stylelint": "9.6.0",
         "uglify-es": "3.3.9"
     },
