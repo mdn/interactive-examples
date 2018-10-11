@@ -34,7 +34,7 @@
         "chokidar-cli": "1.2.1",
         "eslint": "5.6.0",
         "http-server": "0.11.1",
-        "mdn-bob": "^1.1.16",
+        "mdn-bob": "1.1.16",
         "npm-run-all": "4.1.3",
         "prettier": "1.14.3",
         "prettier-eslint": "8.8.2",
