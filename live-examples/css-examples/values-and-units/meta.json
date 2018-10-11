@@ -1,34 +1,29 @@
 {
     "pages": {
         "angle": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/values-and-units/angle.css",
-            "exampleCode": "live-examples/css-examples/values-and-units/type-angle.html",
+            "cssExampleSrc": "./live-examples/css-examples/values-and-units/angle.css",
+            "exampleCode": "./live-examples/css-examples/values-and-units/type-angle.html",
             "fileName": "type-angle.html",
             "title": "CSS Demo: &lt;angle&gt;",
             "type": "css"
         },
         "basicShape": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/values-and-units/basic-shape.css",
-            "exampleCode": "live-examples/css-examples/values-and-units/type-basic-shape.html",
+            "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
+            "exampleCode": "./live-examples/css-examples/values-and-units/type-basic-shape.html",
             "fileName": "type-basic-shape.html",
             "title": "CSS Demo: &lt;basic-shape&gt;",
             "type": "css"
         },
         "calc": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/values-and-units/function-calc.css",
-            "exampleCode": "live-examples/css-examples/values-and-units/function-calc.html",
+            "cssExampleSrc": "./live-examples/css-examples/values-and-units/function-calc.css",
+            "exampleCode": "./live-examples/css-examples/values-and-units/function-calc.html",
             "fileName": "function-calc.html",
             "title": "CSS Demo: calc()",
             "type": "css"
         },
         "gradient": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/images/gradient.css",
-            "exampleCode": "live-examples/css-examples/values-and-units/type-gradient.html",
+            "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
+            "exampleCode": "./live-examples/css-examples/values-and-units/type-gradient.html",
             "fileName": "type-gradient.html",
             "title": "CSS Demo: &lt;gradient&gt;",
             "type": "css"

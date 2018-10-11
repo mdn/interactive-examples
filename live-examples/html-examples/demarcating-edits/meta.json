@@ -1,22 +1,16 @@
 {
     "pages": {
         "del": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode":
-                "live-examples/html-examples/demarcating-edits/del.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/demarcating-edits/css/del.css",
+            "exampleCode": "./live-examples/html-examples/demarcating-edits/del.html",
+            "cssExampleSrc": "./live-examples/html-examples/demarcating-edits/css/del.css",
             "fileName": "del.html",
             "title": "HTML Demo: <del>",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
         "ins": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode":
-                "live-examples/html-examples/demarcating-edits/ins.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/demarcating-edits/css/ins.css",
+            "exampleCode": "./live-examples/html-examples/demarcating-edits/ins.html",
+            "cssExampleSrc": "./live-examples/html-examples/demarcating-edits/css/ins.css",
             "fileName": "ins.html",
             "title": "HTML Demo: <ins>",
             "type": "tabbed",

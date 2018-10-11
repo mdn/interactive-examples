@@ -1,111 +1,78 @@
 {
     "pages": {
         "clipPath": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/masking/clip-path.css",
-            "exampleCode":
-                "live-examples/css-examples/masking/clip-path.html",
+            "cssExampleSrc": "./live-examples/css-examples/masking/clip-path.css",
+            "exampleCode": "./live-examples/css-examples/masking/clip-path.html",
             "fileName": "clip-path.html",
             "title": "CSS Demo: clip-path",
             "type": "css"
         },
         "maskClip": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/masking/mask-clip.css",
-            "exampleCode":
-                "live-examples/css-examples/masking/mask-clip.html",
+            "cssExampleSrc": "./live-examples/css-examples/masking/mask-clip.css",
+            "exampleCode": "./live-examples/css-examples/masking/mask-clip.html",
             "fileName": "mask-clip.html",
             "title": "CSS Demo: mask-clip",
             "type": "css"
         },
         "maskComposite": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/masking/mask-composite.css",
-            "exampleCode":
-                "live-examples/css-examples/masking/mask-composite.html",
+            "cssExampleSrc": "./live-examples/css-examples/masking/mask-composite.css",
+            "exampleCode": "./live-examples/css-examples/masking/mask-composite.html",
             "fileName": "mask-composite.html",
             "title": "CSS Demo: mask-composite",
             "type": "css"
         },
         "maskImage": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/masking/mask-image.css",
-            "exampleCode":
-                "live-examples/css-examples/masking/mask-image.html",
+            "cssExampleSrc": "./live-examples/css-examples/masking/mask-image.css",
+            "exampleCode": "./live-examples/css-examples/masking/mask-image.html",
             "fileName": "mask-image.html",
             "title": "CSS Demo: mask-image",
             "type": "css"
         },
         "maskMode": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/masking/mask-mode.css",
-            "exampleCode":
-                "live-examples/css-examples/masking/mask-mode.html",
+            "cssExampleSrc": "./live-examples/css-examples/masking/mask-mode.css",
+            "exampleCode": "./live-examples/css-examples/masking/mask-mode.html",
             "fileName": "mask-mode.html",
             "title": "CSS Demo: mask-mode",
             "type": "css"
         },
         "maskOrigin": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/masking/mask-origin.css",
-            "exampleCode":
-                "live-examples/css-examples/masking/mask-origin.html",
+            "cssExampleSrc": "./live-examples/css-examples/masking/mask-origin.css",
+            "exampleCode": "./live-examples/css-examples/masking/mask-origin.html",
             "fileName": "mask-origin.html",
             "title": "CSS Demo: mask-origin",
             "type": "css"
         },
         "maskPosition": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/masking/mask-position.css",
-            "exampleCode":
-                "live-examples/css-examples/masking/mask-position.html",
+            "cssExampleSrc": "./live-examples/css-examples/masking/mask-position.css",
+            "exampleCode": "./live-examples/css-examples/masking/mask-position.html",
             "fileName": "mask-position.html",
             "title": "CSS Demo: mask-position",
             "type": "css"
         },
         "maskRepeat": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/masking/mask-repeat.css",
-            "exampleCode":
-                "live-examples/css-examples/masking/mask-repeat.html",
+            "cssExampleSrc": "./live-examples/css-examples/masking/mask-repeat.css",
+            "exampleCode": "./live-examples/css-examples/masking/mask-repeat.html",
             "fileName": "mask-repeat.html",
             "title": "CSS Demo: mask-repeat",
             "type": "css"
         },
         "maskSize": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/masking/mask-size.css",
-            "exampleCode":
-                "live-examples/css-examples/masking/mask-size.html",
+            "cssExampleSrc": "./live-examples/css-examples/masking/mask-size.css",
+            "exampleCode": "./live-examples/css-examples/masking/mask-size.html",
             "fileName": "mask-size.html",
             "title": "CSS Demo: mask-size",
             "type": "css"
         },
         "maskType": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/masking/mask-type.css",
-            "exampleCode":
-                "live-examples/css-examples/masking/mask-type.html",
+            "cssExampleSrc": "./live-examples/css-examples/masking/mask-type.css",
+            "exampleCode": "./live-examples/css-examples/masking/mask-type.html",
             "fileName": "mask-type.html",
             "title": "CSS Demo: mask-type",
             "type": "css"
         },
         "mask": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/masking/mask.css",
-            "exampleCode":
-                "live-examples/css-examples/masking/mask.html",
+            "cssExampleSrc": "./live-examples/css-examples/masking/mask.css",
+            "exampleCode": "./live-examples/css-examples/masking/mask.html",
             "fileName": "mask.html",
             "title": "CSS Demo: mask",
             "type": "css"

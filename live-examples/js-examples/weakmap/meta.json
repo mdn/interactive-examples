@@ -1,33 +1,25 @@
 {
     "pages": {
         "weakMapPrototypeDelete": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/weakmap/weakmap-prototype-delete.html",
+            "exampleCode": "./live-examples/js-examples/weakmap/weakmap-prototype-delete.html",
             "fileName": "weakmap-prototype-delete.html",
             "title": "JavaScript Demo: WeakMap.prototype.delete()",
             "type": "js"
         },
         "weakMapPrototypeGet": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/weakmap/weakmap-prototype-get.html",
+            "exampleCode": "./live-examples/js-examples/weakmap/weakmap-prototype-get.html",
             "fileName": "weakmap-prototype-get.html",
             "title": "JavaScript Demo: WeakMap.prototype.get()",
             "type": "js"
         },
         "weakMapPrototypeHas": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/weakmap/weakmap-prototype-has.html",
+            "exampleCode": "./live-examples/js-examples/weakmap/weakmap-prototype-has.html",
             "fileName": "weakmap-prototype-has.html",
             "title": "JavaScript Demo: WeakMap.prototype.has()",
             "type": "js"
         },
         "weakMapPrototypeSet": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/weakmap/weakmap-prototype-set.html",
+            "exampleCode": "./live-examples/js-examples/weakmap/weakmap-prototype-set.html",
             "fileName": "weakmap-prototype-set.html",
             "title": "JavaScript Demo: WeakMap.prototype.set()",
             "type": "js"

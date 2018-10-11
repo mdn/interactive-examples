@@ -14,7 +14,7 @@ In this section we'll walk through creating an example for the [`<td>`](https://
 
 ## Example structure
 
-HTML examples are all stored under "live-examples/html-examples". Under there, they are grouped into directories according the the categorization in the [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element):
+HTML examples are all stored under "./live-examples/html-examples". Under there, they are grouped into directories according the the categorization in the [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element):
 
 -   main-root
 -   document-metadata
@@ -31,7 +31,7 @@ Each of these directories contains:
 
 ## Writing the example
 
-The `<td>` element is in the ["Table content"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Table_content) category. So let's navigate to "live-examples/html-examples/table-content". If "table-content" doesn't exist, create it.
+The `<td>` element is in the ["Table content"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Table_content) category. So let's navigate to "./live-examples/html-examples/table-content". If "table-content" doesn't exist, create it.
 
 ```
 mkdir live-examples/html-examples/table-content
@@ -73,11 +73,10 @@ Usage is as follows. When adding the meta information for your example, set the 
 
 ```
 "abbr": {
-    "baseTmpl": "tmpl/live-tabbed-tmpl.html",
     "exampleCode":
-        "live-examples/html-examples/inline-text-semantics/abbr.html",
+        "./live-examples/html-examples/inline-text-semantics/abbr.html",
     "cssExampleSrc":
-        "live-examples/html-examples/inline-text-semantics/css/abbr.css",
+        "./live-examples/html-examples/inline-text-semantics/css/abbr.css",
     "fileName": "abbr.html",
     "title": "HTML Demo: <abbr>",
     "type": "tabbed",
@@ -137,7 +136,7 @@ An example for `<td>` could look something like this:
 
 Often the example will want some CSS. In this case, the table will be much easier to read if it's given some basic styling.
 
-To add CSS, create a new file under "live-examples/html-examples/table-content/css". Give it the same name as the HTML file, but with a ".css" prefix.
+To add CSS, create a new file under "./live-examples/html-examples/table-content/css". Give it the same name as the HTML file, but with a ".css" prefix.
 
 ```
 cd live-examples/html-examples/table-content/css
@@ -177,7 +176,7 @@ If you need to include some additional fonts, add them to your pull request and 
 
 ## Updating the metadata
 
-In "live-examples/html-examples/table-content/" you'll need a file called "meta.json". This tells the site builder about the examples inside the directory. If it doesn't exist, create it. If it does, open it,
+In "./live-examples/html-examples/table-content/" you'll need a file called "meta.json". This tells the site builder about the examples inside the directory. If it doesn't exist, create it. If it does, open it,
 
 It contains a JSON object whose most interesting property is an object called `pages`. Each property of `pages` is a page we want the site builder to build:
 
@@ -185,9 +184,8 @@ It contains a JSON object whose most interesting property is an object called `p
 {
     "pages": {
         "table": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode": "live-examples/html-examples/table-content/table.html",
-            "cssExampleSrc": "live-examples/html-examples/table-content/css/table.css",
+            "exampleCode": "./live-examples/html-examples/table-content/table.html",
+            "cssExampleSrc": "./live-examples/html-examples/table-content/css/table.css",
             "fileName": "table.html",
             "title": "HTML Demo: <table>",
             "type": "tabbed"
@@ -200,16 +198,14 @@ Add a property under `pages` describing your example. The example for `<td>` cou
 
 ```
 "td": {
-    "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-    "exampleCode": "live-examples/html-examples/table-content/td.html",
-    "cssExampleSrc": "live-examples/html-examples/table-content/css/td.css",
+    "exampleCode": "./live-examples/html-examples/table-content/td.html",
+    "cssExampleSrc": "./live-examples/html-examples/table-content/css/td.css",
     "fileName": "td.html",
     "title": "HTML Demo: <td>",
     "type": "tabbed"
 }
 ```
 
--   `"baseTmpl"` describes the basic template to use. All HTML examples use the "tmpl/live-tabbed-tmpl.html" template, which gives you the tabbed interface. JS and CSS examples use different templates.
 -   `"exampleCode"` is the path to the file containing the example HTML.
 -   `"cssExampleSrc"` is the path to the file containing the CSS for the example.
 -   `"fileName"` is the filename of the final (output) page that will contain this HTML example.

@@ -1,109 +1,79 @@
 {
     "pages": {
         "intlCollatorPrototypeCompare": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/intl/intl-collator-prototype-compare.html",
+            "exampleCode": "./live-examples/js-examples/intl/intl-collator-prototype-compare.html",
             "fileName": "intl-collator-prototype-compare.html",
             "title": "JavaScript Demo: Intl.Collator.prototype.compare",
             "type": "js"
         },
         "intlCollatorPrototypeResolvedOptions": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/intl/intl-collator-prototype-resolvedoptions.html",
+            "exampleCode": "./live-examples/js-examples/intl/intl-collator-prototype-resolvedoptions.html",
             "fileName": "intl-collator-prototype-resolvedoptions.html",
             "title": "JavaScript Demo: Intl.Collator.prototype.resolvedOptions",
             "type": "js"
         },
         "intlCollatorSupportedLocalesOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/intl/intl-collator-supportedlocalesof.html",
+            "exampleCode": "./live-examples/js-examples/intl/intl-collator-supportedlocalesof.html",
             "fileName": "intl-collator-prototype-supportedlocalesof.html",
-            "title":
-                "JavaScript Demo: Intl.Collator.prototype.supportedLocalesOf",
+            "title": "JavaScript Demo: Intl.Collator.prototype.supportedLocalesOf",
             "type": "js"
         },
         "intlCollator": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/intl/intl-collator.html",
+            "exampleCode": "./live-examples/js-examples/intl/intl-collator.html",
             "fileName": "intl-collator.html",
             "title": "JavaScript Demo: Intl.Collator",
             "type": "js"
         },
         "intlDateTimeFormatPrototypeFormat": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/intl/intl-datetimeformat-prototype-format.html",
+            "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat-prototype-format.html",
             "fileName": "intl-datetimeformat-prototype-format.html",
             "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.format",
             "type": "js"
         },
         "intlDateTimeFormatPrototypeResolvedOptions": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/intl/intl-datetimeformat-prototype-resolvedoptions.html",
+            "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat-prototype-resolvedoptions.html",
             "fileName": "intl-datetimeformat-prototype-resolvedoptions.html",
-            "title":
-                "JavaScript Demo: Intl.DateTimeFormat.prototype.resolvedOptions",
+            "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.resolvedOptions",
             "type": "js"
         },
         "intlDateTimeFormatSupportedLocalesOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/intl/intl-datetimeformat-supportedlocalesof.html",
+            "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat-supportedlocalesof.html",
             "fileName": "intl-datetimeformat-prototype-supportedlocalesof.html",
-            "title":
-                "JavaScript Demo: Intl.DateTimeFormat.prototype.supportedLocalesOf",
+            "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.supportedLocalesOf",
             "type": "js"
         },
         "intlDateTimeFormat": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/intl/intl-datetimeformat.html",
+            "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat.html",
             "fileName": "intl-datetimeformat.html",
             "title": "JavaScript Demo: Intl.DateTimeFormat",
             "type": "js"
         },
         "intlGetCanonicalLocales": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/intl/intl-getcanonicallocales.html",
+            "exampleCode": "./live-examples/js-examples/intl/intl-getcanonicallocales.html",
             "fileName": "intl-getcanonicallocales.html",
             "title": "JavaScript Demo: Intl.GetCanonicalLocales",
             "type": "js"
         },
         "intlNumberFormatPrototypeFormat": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/intl/intl-numberformat-prototype-format.html",
+            "exampleCode": "./live-examples/js-examples/intl/intl-numberformat-prototype-format.html",
             "fileName": "intl-numberformat-prototype-format.html",
             "title": "JavaScript Demo: Intl.NumberFormat.prototype.format",
             "type": "js"
         },
         "intlNumberFormatPrototypeResolvedOptions": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/intl/intl-numberformat-prototype-resolvedoptions.html",
+            "exampleCode": "./live-examples/js-examples/intl/intl-numberformat-prototype-resolvedoptions.html",
             "fileName": "intl-numberformat-prototype-resolvedoptions.html",
-            "title":
-                "JavaScript Demo: Intl.NumberFormat.prototype.resolvedOptions",
+            "title": "JavaScript Demo: Intl.NumberFormat.prototype.resolvedOptions",
             "type": "js"
         },
         "intlNumberFormatSupportedLocalesOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/intl/intl-numberformat-supportedlocalesof.html",
+            "exampleCode": "./live-examples/js-examples/intl/intl-numberformat-supportedlocalesof.html",
             "fileName": "intl-numberformat-prototype-supportedlocalesof.html",
-            "title":
-                "JavaScript Demo: Intl.NumberFormat.prototype.supportedLocalesOf",
+            "title": "JavaScript Demo: Intl.NumberFormat.prototype.supportedLocalesOf",
             "type": "js"
         },
         "intlNumberFormat": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/intl/intl-numberformat.html",
+            "exampleCode": "./live-examples/js-examples/intl/intl-numberformat.html",
             "fileName": "intl-numberformat.html",
             "title": "JavaScript Demo: Intl.NumberFormat",
             "type": "js"

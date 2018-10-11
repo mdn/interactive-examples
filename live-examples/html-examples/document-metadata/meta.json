@@ -1,22 +1,16 @@
 {
     "pages": {
         "link": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode":
-                "live-examples/html-examples/document-metadata/link.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/document-metadata/css/link.css",
+            "exampleCode": "./live-examples/html-examples/document-metadata/link.html",
+            "cssExampleSrc": "./live-examples/html-examples/document-metadata/css/link.css",
             "fileName": "link.html",
             "title": "HTML Demo: <link>",
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
         "style": {
-            "baseTmpl": "tmpl/live-tabbed-tmpl.html",
-            "exampleCode":
-                "live-examples/html-examples/document-metadata/style.html",
-            "cssExampleSrc":
-                "live-examples/html-examples/document-metadata/css/style.css",
+            "exampleCode": "./live-examples/html-examples/document-metadata/style.html",
+            "cssExampleSrc": "./live-examples/html-examples/document-metadata/css/style.css",
             "fileName": "style.html",
             "title": "HTML Demo: <style>",
             "type": "tabbed",

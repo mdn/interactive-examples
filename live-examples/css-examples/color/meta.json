@@ -1,26 +1,22 @@
 {
     "pages": {
         "color": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/color/color.css",
-            "exampleCode": "live-examples/css-examples/color/color.html",
+            "cssExampleSrc": "./live-examples/css-examples/color/color.css",
+            "exampleCode": "./live-examples/css-examples/color/color.html",
             "fileName": "color.html",
             "title": "CSS Demo: color",
             "type": "css"
         },
         "color-adjust": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/color/color-adjust.css",
-            "exampleCode": "live-examples/css-examples/color/color-adjust.html",
+            "cssExampleSrc": "./live-examples/css-examples/color/color-adjust.css",
+            "exampleCode": "./live-examples/css-examples/color/color-adjust.html",
             "fileName": "color-adjust.html",
             "title": "CSS Demo: color-adjust",
             "type": "css"
         },
         "opacity": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/color/opacity.css",
-            "exampleCode": "live-examples/css-examples/color/opacity.html",
+            "cssExampleSrc": "./live-examples/css-examples/color/opacity.css",
+            "exampleCode": "./live-examples/css-examples/color/opacity.html",
             "fileName": "opacity.html",
             "title": "CSS Demo: opacity",
             "type": "css"
