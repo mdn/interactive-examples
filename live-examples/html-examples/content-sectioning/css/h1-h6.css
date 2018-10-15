@@ -1,29 +1,26 @@
+h1,
+h2,
+h3,
+h4 {
+  margin: .1rem 0;
+}
+
 h1 {
-    color: #b32525;
-    font-size: 58px;
+  font-size: 2rem;
 }
 
 h2 {
-    color: #66c5dd;
-    font-size: 40px;
+  font-size: 1.5rem;
+  padding-left: 20px;
 }
 
 h3 {
-    color: #9f79d1;
-    font-size: 36px;
+  font-size: 1.2rem;
+  padding-left: 40px;
 }
 
 h4 {
-    color: #dc9bdd;
-    font-size: 30px;
-}
-
-h5 {
-    color: #66c5dd;
-    font-size: 24px;
-}
-
-h6 {
-    color: #9f79d1;
-    font-size: 16px;
+  font-size: 1rem;
+  font-style: italic;
+  padding-left: 60px
 }
