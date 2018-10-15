@@ -1,9 +1,8 @@
 {
     "pages": {
         "vertical-align": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc": "../../live-examples/css-examples/inline-layout/vertical-align.css",
-            "exampleCode": "live-examples/css-examples/inline-layout/vertical-align.html",
+            "cssExampleSrc": "./live-examples/css-examples/inline-layout/vertical-align.css",
+            "exampleCode": "./live-examples/css-examples/inline-layout/vertical-align.html",
             "fileName": "vertical-align.html",
             "title": "CSS Demo: vertical-align",
             "type": "css"

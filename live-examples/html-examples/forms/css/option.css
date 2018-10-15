@@ -1,9 +1,5 @@
-label,
-footer {
-    font-family: sans-serif;
-}
-
 label {
+    font-family: sans-serif;
     font-size: 1rem;
     padding-right: 10px;
 }
@@ -11,16 +7,4 @@ label {
 select {
     font-size: .9rem;
     padding: 2px 5px;
-}
-
-footer {
-    font-size: .8rem;
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-}
-
-.output {
-    background: center/cover no-repeat url('/media/examples/hamster.jpg');
-    position: relative;
 }

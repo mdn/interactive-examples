@@ -1,0 +1,14 @@
+{
+    "pages": {
+        "querySelector": {
+            "exampleCode": "./live-examples/webapi-examples/document/queryselector/document-queryselector.html",
+            "cssExampleSrc": "./live-examples/webapi-examples/document/queryselector/css/document-queryselector.css",
+            "jsExampleSrc": "./live-examples/webapi-examples/document/queryselector/js/document-queryselector.js",
+            "fileName": "document-queryselector.html",
+            "title": "Web API Demo: document.querySelector()",
+            "height": "tabbed-standard",
+            "type": "webapi-tabbed",
+            "tabs": "html,css,js"
+        }
+    }
+}

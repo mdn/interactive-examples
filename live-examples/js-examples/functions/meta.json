@@ -1,57 +1,43 @@
 {
     "pages": {
         "functionsArguments": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/functions/functions-arguments.html",
+            "exampleCode": "./live-examples/js-examples/functions/functions-arguments.html",
             "fileName": "functions-arguments.html",
             "title": "JavaScript Demo: Functions Arguments",
             "type": "js"
         },
         "functionsArrow": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/functions/functions-arrow.html",
+            "exampleCode": "./live-examples/js-examples/functions/functions-arrow.html",
             "fileName": "functions-arrow.html",
             "title": "JavaScript Demo: Functions =>",
             "type": "js"
         },
         "functionsDefault": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/functions/functions-default.html",
+            "exampleCode": "./live-examples/js-examples/functions/functions-default.html",
             "fileName": "functions-default.html",
             "title": "JavaScript Demo: Functions Default",
             "type": "js"
         },
         "functionsDefinitions": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/functions/functions-definitions.html",
+            "exampleCode": "./live-examples/js-examples/functions/functions-definitions.html",
             "fileName": "functions-definitions.html",
             "title": "JavaScript Demo: Functions Definitions",
             "type": "js"
         },
         "functionsGetter": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/functions/functions-getter.html",
+            "exampleCode": "./live-examples/js-examples/functions/functions-getter.html",
             "fileName": "functions-getter.html",
             "title": "JavaScript Demo: Functions Getter",
             "type": "js"
         },
         "functionsRestParameters": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/functions/functions-restparameters.html",
+            "exampleCode": "./live-examples/js-examples/functions/functions-restparameters.html",
             "fileName": "functions-restparameters.html",
             "title": "JavaScript Demo: Functions Rest Parameters",
             "type": "js"
         },
         "functionsSetter": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/functions/functions-setter.html",
+            "exampleCode": "./live-examples/js-examples/functions/functions-setter.html",
             "fileName": "functions-setter.html",
             "title": "JavaScript Demo: Functions Setter",
             "type": "js"

@@ -1,61 +1,43 @@
 {
     "pages": {
         "counterIncrement": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/lists/counter-increment.css",
-            "exampleCode":
-                "live-examples/css-examples/lists/counter-increment.html",
+            "cssExampleSrc": "./live-examples/css-examples/lists/counter-increment.css",
+            "exampleCode": "./live-examples/css-examples/lists/counter-increment.html",
             "fileName": "counter-increment.html",
             "title": "CSS Demo: counter-increment",
             "type": "css"
         },
         "counterReset": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/lists/counter-reset.css",
-            "exampleCode":
-                "live-examples/css-examples/lists/counter-reset.html",
+            "cssExampleSrc": "./live-examples/css-examples/lists/counter-reset.css",
+            "exampleCode": "./live-examples/css-examples/lists/counter-reset.html",
             "fileName": "counter-reset.html",
             "title": "CSS Demo: counter-reset",
             "type": "css"
         },
         "listStyle": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/lists/list-style.css",
-            "exampleCode":
-                "live-examples/css-examples/lists/list-style.html",
+            "cssExampleSrc": "./live-examples/css-examples/lists/list-style.css",
+            "exampleCode": "./live-examples/css-examples/lists/list-style.html",
             "fileName": "list-style.html",
             "title": "CSS Demo: list-style",
             "type": "css"
         },
         "listStyleImage": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/lists/list-style.css",
-            "exampleCode":
-                "live-examples/css-examples/lists/list-style-image.html",
+            "cssExampleSrc": "./live-examples/css-examples/lists/list-style.css",
+            "exampleCode": "./live-examples/css-examples/lists/list-style-image.html",
             "fileName": "list-style-image.html",
             "title": "CSS Demo: list-style-image",
             "type": "css"
         },
         "listStylePosition": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/lists/list-style.css",
-            "exampleCode":
-                "live-examples/css-examples/lists/list-style-position.html",
+            "cssExampleSrc": "./live-examples/css-examples/lists/list-style.css",
+            "exampleCode": "./live-examples/css-examples/lists/list-style-position.html",
             "fileName": "list-style-position.html",
             "title": "CSS Demo: list-style-position",
             "type": "css"
         },
         "listStyleType": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/lists/list-style.css",
-            "exampleCode":
-                "live-examples/css-examples/lists/list-style-type.html",
+            "cssExampleSrc": "./live-examples/css-examples/lists/list-style.css",
+            "exampleCode": "./live-examples/css-examples/lists/list-style-type.html",
             "fileName": "list-style-type.html",
             "title": "CSS Demo: list-style-type",
             "type": "css"

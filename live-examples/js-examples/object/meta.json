@@ -1,200 +1,152 @@
 {
     "pages": {
         "objectAssign": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-assign.html",
+            "exampleCode": "./live-examples/js-examples/object/object-assign.html",
             "fileName": "object-assign.html",
             "title": "JavaScript Demo: Object.assign()",
             "type": "js"
         },
         "objectCreate": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-create.html",
+            "exampleCode": "./live-examples/js-examples/object/object-create.html",
             "fileName": "object-create.html",
             "title": "JavaScript Demo: Object.create()",
             "type": "js"
         },
         "objectDefineProperties": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-defineproperties.html",
+            "exampleCode": "./live-examples/js-examples/object/object-defineproperties.html",
             "fileName": "object-defineproperties.html",
             "title": "JavaScript Demo: Object.defineProperties()",
             "type": "js"
         },
         "objectDefineProperty": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-defineproperty.html",
+            "exampleCode": "./live-examples/js-examples/object/object-defineproperty.html",
             "fileName": "object-defineproperty.html",
             "title": "JavaScript Demo: Object.defineProperty()",
             "type": "js"
         },
         "objectEntries": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-entries.html",
+            "exampleCode": "./live-examples/js-examples/object/object-entries.html",
             "fileName": "object-entries.html",
             "title": "JavaScript Demo: Object.entries()",
             "type": "js"
         },
         "objectFreeze": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-freeze.html",
+            "exampleCode": "./live-examples/js-examples/object/object-freeze.html",
             "fileName": "object-freeze.html",
             "title": "JavaScript Demo: Object.freeze()",
             "type": "js"
         },
         "objectFromEntries": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
             "exampleCode":
-                "live-examples/js-examples/object/object-fromentries.html",
+                "./live-examples/js-examples/object/object-fromentries.html",
             "fileName": "object-fromentries.html",
             "title": "JavaScript Demo: Object.fromEntries()",
             "type": "js"
         },
         "objectGetOwnPropertyDescriptor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-getownpropertydescriptor.html",
+            "exampleCode": "./live-examples/js-examples/object/object-getownpropertydescriptor.html",
             "fileName": "object-getownpropertydescriptor.html",
             "title": "JavaScript Demo: Object.getOwnPropertyDescriptor()",
             "type": "js"
         },
         "objectGetOwnPropertyDescriptors": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-getownpropertydescriptors.html",
+            "exampleCode": "./live-examples/js-examples/object/object-getownpropertydescriptors.html",
             "fileName": "object-getownpropertydescriptors.html",
             "title": "JavaScript Demo: Object.getOwnPropertyDescriptors()",
             "type": "js"
         },
         "objectGetOwnPropertyNames": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-getownpropertynames.html",
+            "exampleCode": "./live-examples/js-examples/object/object-getownpropertynames.html",
             "fileName": "object-getownpropertynames.html",
             "title": "JavaScript Demo: Object.getOwnPropertyNames()",
             "type": "js"
         },
         "objectGetOwnPropertySymbols": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-getownpropertysymbols.html",
+            "exampleCode": "./live-examples/js-examples/object/object-getownpropertysymbols.html",
             "fileName": "object-getownpropertysymbols.html",
             "title": "JavaScript Demo: Object.getOwnPropertySymbols()",
             "type": "js"
         },
         "objectGetProtoypeOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-getprototypeof.html",
+            "exampleCode": "./live-examples/js-examples/object/object-getprototypeof.html",
             "fileName": "object-getprototypeof.html",
             "title": "JavaScript Demo: Object.getPrototypeOf()",
             "type": "js"
         },
         "objectIsExtensible": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-isextensible.html",
+            "exampleCode": "./live-examples/js-examples/object/object-isextensible.html",
             "fileName": "object-isextensible.html",
             "title": "JavaScript Demo: Object.isExtensible()",
             "type": "js"
         },
         "objectIsFrozen": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-isfrozen.html",
+            "exampleCode": "./live-examples/js-examples/object/object-isfrozen.html",
             "fileName": "object-isfrozen.html",
             "title": "JavaScript Demo: Object.isFrozen()",
             "type": "js"
         },
         "objectIsSealed": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-issealed.html",
+            "exampleCode": "./live-examples/js-examples/object/object-issealed.html",
             "fileName": "object-issealed.html",
             "title": "JavaScript Demo: Object.isSealed()",
             "type": "js"
         },
         "objectKeys": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/object/object-keys.html",
+            "exampleCode": "./live-examples/js-examples/object/object-keys.html",
             "fileName": "object-keys.html",
             "title": "JavaScript Demo: Object.keys()",
             "type": "js"
         },
         "objectPreventExtensions": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-preventextensions.html",
+            "exampleCode": "./live-examples/js-examples/object/object-preventextensions.html",
             "fileName": "object-preventextensions.html",
             "title": "JavaScript Demo: Object.preventExtensions()",
             "type": "js"
         },
         "objectPrototypeHasOwnProperty": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-prototype-hasownproperty.html",
+            "exampleCode": "./live-examples/js-examples/object/object-prototype-hasownproperty.html",
             "fileName": "object-prototype-hasownproperty.html",
             "title": "JavaScript Demo: Object.prototype.hasOwnProperty()",
             "type": "js"
         },
         "objectIsPrototypePrototypeOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-prototype-isprototypeof.html",
+            "exampleCode": "./live-examples/js-examples/object/object-prototype-isprototypeof.html",
             "fileName": "object-prototype-isprototypeof.html",
             "title": "JavaScript Demo: Object.prototype.isPrototypeOf()",
             "type": "js"
         },
         "objectPrototypePropertyIsEnumerable": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-prototype-propertyisenumerable.html",
+            "exampleCode": "./live-examples/js-examples/object/object-prototype-propertyisenumerable.html",
             "fileName": "object-prototype-propertyisenumerable.html",
             "title": "JavaScript Demo: Object.prototype.propertyIsEnumerable()",
             "type": "js"
         },
         "objectPrototypeSeal": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-prototype-seal.html",
+            "exampleCode": "./live-examples/js-examples/object/object-prototype-seal.html",
             "fileName": "object-prototype-seal.html",
             "title": "JavaScript Demo: Object.prototype.seal()",
             "type": "js"
         },
         "objectPrototypeToLocaleString": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-prototype-tolocalestring.html",
+            "exampleCode": "./live-examples/js-examples/object/object-prototype-tolocalestring.html",
             "fileName": "object-prototype-tolocalestring.html",
             "title": "JavaScript Demo: Object.prototype.tolocalestring()",
             "type": "js"
         },
         "objectPrototypeToString": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-prototype-tostring.html",
+            "exampleCode": "./live-examples/js-examples/object/object-prototype-tostring.html",
             "fileName": "object-prototype-tostring.html",
             "title": "JavaScript Demo: Object.prototype.toString()",
             "type": "js"
         },
         "objectPrototypeValueOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-prototype-valueof.html",
+            "exampleCode": "./live-examples/js-examples/object/object-prototype-valueof.html",
             "fileName": "object-prototype-valueof.html",
             "title": "JavaScript Demo: Object.prototype.valueOf()",
             "type": "js"
         },
         "objectValues": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/object/object-values.html",
+            "exampleCode": "./live-examples/js-examples/object/object-values.html",
             "fileName": "object-values.html",
             "title": "JavaScript Demo: Object.values()",
             "type": "js"

@@ -1,108 +1,79 @@
 {
     "pages": {
         "globalpropsDecodeURI": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/globalprops/globalprops-decodeuri.html",
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-decodeuri.html",
             "fileName": "globalprops-decodeuri.html",
             "title": "JavaScript Demo: Standard built-in objects - decodeURI()",
             "type": "js"
         },
         "globalpropsDecodeURIComponent": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/globalprops/globalprops-decodeuricomponent.html",
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-decodeuricomponent.html",
             "fileName": "globalprops-decodeuricomponent.html",
-            "title":
-                "JavaScript Demo: Standard built-in objects - decodeURIComponent()",
+            "title": "JavaScript Demo: Standard built-in objects - decodeURIComponent()",
             "type": "js"
         },
         "globalpropsEncodeURI": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/globalprops/globalprops-encodeuri.html",
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-encodeuri.html",
             "fileName": "globalprops-encodeuri.html",
             "title": "JavaScript Demo: Standard built-in objects - encodeURI()",
             "type": "js"
         },
         "globalpropsEncodeURIComponent": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/globalprops/globalprops-encodeuricomponent.html",
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-encodeuricomponent.html",
             "fileName": "globalprops-encodeuricomponent.html",
-            "title":
-                "JavaScript Demo: Standard built-in objects - encodeURIComponent()",
+            "title": "JavaScript Demo: Standard built-in objects - encodeURIComponent()",
             "type": "js"
         },
         "globalpropsEval": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/globalprops/globalprops-eval.html",
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-eval.html",
             "fileName": "globalprops-eval.html",
             "title": "JavaScript Demo: Standard built-in objects - eval()",
             "type": "js"
         },
         "globalpropsInfinity": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/globalprops/globalprops-infinity.html",
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-infinity.html",
             "fileName": "globalprops-infinity.html",
             "title": "JavaScript Demo: Standard built-in objects - infinity",
             "type": "js"
         },
         "globalpropsIsFinite": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/globalprops/globalprops-isfinite.html",
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-isfinite.html",
             "fileName": "globalprops-isfinite.html",
             "title": "JavaScript Demo: Standard built-in objects - isFinite()",
             "type": "js"
         },
         "globalpropsIsNaN": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/globalprops/globalprops-isnan.html",
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-isnan.html",
             "fileName": "globalprops-isnan.html",
             "title": "JavaScript Demo: Standard built-in objects - isNaN()",
             "type": "js"
         },
         "globalpropsNaN": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/globalprops/globalprops-nan.html",
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-nan.html",
             "fileName": "globalprops-nan.html",
             "title": "JavaScript Demo: Standard built-in objects - NaN",
             "type": "js"
         },
         "globalpropsNull": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/globalprops/globalprops-null.html",
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-null.html",
             "fileName": "globalprops-null.html",
             "title": "JavaScript Demo: Standard built-in objects - Null",
             "type": "js"
         },
         "globalpropsParseFloat": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/globalprops/globalprops-parsefloat.html",
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-parsefloat.html",
             "fileName": "globalprops-parsefloat.html",
-            "title":
-                "JavaScript Demo: Standard built-in objects - parseFloat()",
+            "title": "JavaScript Demo: Standard built-in objects - parseFloat()",
             "type": "js"
         },
         "globalpropsParseInt": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/globalprops/globalprops-parseint.html",
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-parseint.html",
             "fileName": "globalprops-parseint.html",
             "title": "JavaScript Demo: Standard built-in objects - parseInt()",
             "type": "js"
         },
         "globalpropsUndefined": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/globalprops/globalprops-undefined.html",
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-undefined.html",
             "fileName": "globalprops-undefined.html",
             "title": "JavaScript Demo: Standard built-in objects - undefined",
             "type": "js"

@@ -29,9 +29,9 @@ This is the base starting point for all CSS examples.
 
 It consists of two main pieces:
 
-*   **The example CSS**: the `section#example-choice-list` contains one or more `div.example-choice` elements. These are the choices that will be presented to the user on the left-hand side of the editor. Each choice contains some CSS declarations that will be applied to the example element when the user selects that choice.
+-   **The example CSS**: the `section#example-choice-list` contains one or more `div.example-choice` elements. These are the choices that will be presented to the user on the left-hand side of the editor. Each choice contains some CSS declarations that will be applied to the example element when the user selects that choice.
 
-*   **The example element**: the `section#default-example` contains all the markup for the editor's output pane. At a minimum this will contain a node with `id="example-element"`: this is the element that the chosen example CSS will be applied to.
+-   **The example element**: the `section#default-example` contains all the markup for the editor's output pane. At a minimum this will contain a node with `id="example-element"`: this is the element that the chosen example CSS will be applied to.
 
 Let's fill this in for `border-radius`.
 
@@ -121,8 +121,8 @@ When you're writing examples, please make sure that they conform to the [CSS Exa
 
 In general, to add an example for a property, it should be supported by most browser engines. Sometimes browser engines require a vendor prefix for the property, like `-webkit-` or `-moz-`. In this situation, you should:
 
-* supply all relevant variants in the `data-property` attribute
-* include all relevant variants in the example choices.
+-   supply all relevant variants in the `data-property` attribute
+-   include all relevant variants in the example choices.
 
 For example, suppose you want to add an example for [`text-emphasis`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis). This is supported unprefixed by Firefox but requires the `-webkit-` prefix in Chrome. To deal with this you would set `data-property` like this:
 
@@ -168,15 +168,14 @@ background-image: url("/media/examples/lizard.png");
 
 ## Updating the metadata
 
-Next, you need to tell the page generator about your new page and its dependencies. To do this, open up the `meta.json` file in the current folder (i.e. "live-examples/css-examples/backgrounds-and-borders/meta.json").
+Next, you need to tell the page generator about your new page and its dependencies. To do this, open up the `meta.json` file in the current folder (i.e. "./live-examples/css-examples/backgrounds-and-borders/meta.json").
 
 Under `pages`, copy and paste the example then update it to apply to your new example, noting that pages are sorted alphabetically. You entry will look something like this when edited:
 
 ```
 "borderRadius": {
-    "baseTmpl": "tmpl/live-css-tmpl.html",
-    "cssExampleSrc": "../../live-examples/css-examples/backgrounds-and-borders/border-radius.css",
-    "exampleCode": "live-examples/css-examples/backgrounds-and-borders/border-radius.html",
+    "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+    "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-radius.html",
     "fileName": "border-radius.html",
     "title": "CSS Demo: border-radius",
     "type": "css"
@@ -189,18 +188,17 @@ The `title` property is displayed above the editor, and should be of the form: "
 
 The guidance above assumes you're documenting a CSS property. But you can also write examples for CSS functions, like [`linear-gradient()`](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient), or types, like [`angle`](https://developer.mozilla.org/en-US/docs/Web/CSS/angle). If you do this, there are a couple of special considerations.
 
-*   the name of the HTML file you write must be prefixed with `function-` for functions, or `type-` for types.
-*   in the meta.json file, the name of the output HTML file must be prefixed in the same way.
+-   the name of the HTML file you write must be prefixed with `function-` for functions, or `type-` for types.
+-   in the meta.json file, the name of the output HTML file must be prefixed in the same way.
 
 So the meta.json entry for a function would look like:
 
 ```
 "translateX": {
-    "baseTmpl": "tmpl/live-css-tmpl.html",
     "cssExampleSrc":
-        "../../live-examples/css-examples/transforms/translate.css",
+        ./live-examples/css-examples/transforms/translate.css",
     "exampleCode":
-        "live-examples/css-examples/transforms/function-translateX.html",
+        "./live-examples/css-examples/transforms/function-translateX.html",
     "fileName": "function-translateX.html",
     "title": "CSS Demo: translateX()",
     "type": "css"
@@ -211,9 +209,8 @@ and the meta.json entry for a type would look like:
 
 ```
 "angle": {
-    "baseTmpl": "tmpl/live-css-tmpl.html",
-    "cssExampleSrc": "../../live-examples/css-examples/values-and-units/angle.css",
-    "exampleCode": "live-examples/css-examples/values-and-units/type-angle.html",
+    "cssExampleSrc": "./live-examples/css-examples/values-and-units/angle.css",
+    "exampleCode": "./live-examples/css-examples/values-and-units/type-angle.html",
     "fileName": "type-angle.html",
     "title": "CSS Demo: &lt;angle&gt;",
     "type": "css"

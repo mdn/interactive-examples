@@ -1,119 +1,92 @@
 {
     "pages": {
         "hangingPunctuation": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/text/hanging-punctuation.css",
-            "exampleCode": "live-examples/css-examples/text/hanging-punctuation.html",
+            "cssExampleSrc": "./live-examples/css-examples/text/hanging-punctuation.css",
+            "exampleCode": "./live-examples/css-examples/text/hanging-punctuation.html",
             "fileName": "hanging-punctuation.html",
             "title": "CSS Demo: hanging-punctuation",
             "type": "css"
         },
         "hyphens": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/text/hyphens.css",
-            "exampleCode": "live-examples/css-examples/text/hyphens.html",
+            "cssExampleSrc": "./live-examples/css-examples/text/hyphens.css",
+            "exampleCode": "./live-examples/css-examples/text/hyphens.html",
             "fileName": "hyphens.html",
             "title": "CSS Demo: hyphens",
             "type": "css"
         },
         "letterSpacing": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/fonts/font-style.css",
-            "exampleCode": "live-examples/css-examples/text/letter-spacing.html",
+            "cssExampleSrc": "./live-examples/css-examples/fonts/font-style.css",
+            "exampleCode": "./live-examples/css-examples/text/letter-spacing.html",
             "fileName": "letter-spacing.html",
             "title": "CSS Demo: letter-spacing",
             "type": "css"
         },
         "overflow-wrap": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/text/overflow-wrap.css",
-            "exampleCode": "live-examples/css-examples/text/overflow-wrap.html",
+            "cssExampleSrc": "./live-examples/css-examples/text/overflow-wrap.css",
+            "exampleCode": "./live-examples/css-examples/text/overflow-wrap.html",
             "fileName": "overflow-wrap.html",
             "title": "CSS Demo: overflow-wrap",
             "type": "css"
         },
         "tabSize": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/text/tab-size.css",
-            "exampleCode": "live-examples/css-examples/text/tab-size.html",
+            "cssExampleSrc": "./live-examples/css-examples/text/tab-size.css",
+            "exampleCode": "./live-examples/css-examples/text/tab-size.html",
             "fileName": "tab-size.html",
             "title": "CSS Demo: tab-size",
             "type": "css"
         },
         "textAlign": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/fonts/fonts-base.css",
-            "exampleCode": "live-examples/css-examples/text/text-align.html",
+            "cssExampleSrc": "./live-examples/css-examples/fonts/fonts-base.css",
+            "exampleCode": "./live-examples/css-examples/text/text-align.html",
             "fileName": "text-align.html",
             "title": "CSS Demo: text-align",
             "type": "css"
         },
         "textAlignLast": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/fonts/fonts-base.css",
-            "exampleCode": "live-examples/css-examples/text/text-align-last.html",
+            "cssExampleSrc": "./live-examples/css-examples/fonts/fonts-base.css",
+            "exampleCode": "./live-examples/css-examples/text/text-align-last.html",
             "fileName": "text-align-last.html",
             "title": "CSS Demo: text-align-last",
             "type": "css"
         },
         "textIndent": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/text/text-indent.css",
-            "exampleCode": "live-examples/css-examples/text/text-indent.html",
+            "cssExampleSrc": "./live-examples/css-examples/text/text-indent.css",
+            "exampleCode": "./live-examples/css-examples/text/text-indent.html",
             "fileName": "text-indent.html",
             "title": "CSS Demo: text-indent",
             "type": "css"
         },
         "textJustify": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/text/text-justify.css",
-            "exampleCode": "live-examples/css-examples/text/text-justify.html",
+            "cssExampleSrc": "./live-examples/css-examples/text/text-justify.css",
+            "exampleCode": "./live-examples/css-examples/text/text-justify.html",
             "fileName": "text-justify.html",
             "title": "CSS Demo: text-justify",
             "type": "css"
         },
         "textTransform": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/text/text-transform.css",
-            "exampleCode":
-                "live-examples/css-examples/text/text-transform.html",
+            "cssExampleSrc": "./live-examples/css-examples/text/text-transform.css",
+            "exampleCode": "./live-examples/css-examples/text/text-transform.html",
             "fileName": "text-transform.html",
             "title": "CSS Demo: text-transform",
             "type": "css"
         },
         "white-space": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/text/white-space.css",
-            "exampleCode": "live-examples/css-examples/text/white-space.html",
+            "cssExampleSrc": "./live-examples/css-examples/text/white-space.css",
+            "exampleCode": "./live-examples/css-examples/text/white-space.html",
             "fileName": "white-space.html",
             "title": "CSS Demo: white-space",
             "type": "css"
         },
         "word-break": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/text/word-break.css",
-            "exampleCode": "live-examples/css-examples/text/word-break.html",
+            "cssExampleSrc": "./live-examples/css-examples/text/word-break.css",
+            "exampleCode": "./live-examples/css-examples/text/word-break.html",
             "fileName": "word-break.html",
             "title": "CSS Demo: word-break",
             "type": "css"
         },
         "wordSpacing": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/fonts/font-style.css",
-            "exampleCode": "live-examples/css-examples/text/word-spacing.html",
+            "cssExampleSrc": "./live-examples/css-examples/fonts/font-style.css",
+            "exampleCode": "./live-examples/css-examples/text/word-spacing.html",
             "fileName": "word-spacing.html",
             "title": "CSS Demo: word-spacing",
             "type": "css"

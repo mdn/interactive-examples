@@ -1,230 +1,166 @@
 {
     "pages": {
         "backfaceVisibility": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/backface-visibility.css",
-            "exampleCode":
-                "live-examples/css-examples/transforms/backface-visibility.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/backface-visibility.css",
+            "exampleCode": "./live-examples/css-examples/transforms/backface-visibility.html",
             "fileName": "backface-visibility.html",
             "title": "CSS Demo: backface-visibility",
             "type": "css"
         },
         "perspective": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/transform3d.css",
-            "exampleCode":
-                "live-examples/css-examples/transforms/perspective.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/transform3d.css",
+            "exampleCode": "./live-examples/css-examples/transforms/perspective.html",
             "fileName": "perspective.html",
             "title": "CSS Demo: perspective",
             "type": "css"
         },
         "perspectiveFunction": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/transform3d.css",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-perspective.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/transform3d.css",
+            "exampleCode": "./live-examples/css-examples/transforms/function-perspective.html",
             "fileName": "function-perspective.html",
             "title": "CSS Demo: perspective()",
             "type": "css"
         },
         "perspectiveOrigin": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/rotate3d.css",
-            "exampleCode":
-                "live-examples/css-examples/transforms/perspective-origin.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/rotate3d.css",
+            "exampleCode": "./live-examples/css-examples/transforms/perspective-origin.html",
             "fileName": "perspective-origin.html",
             "title": "CSS Demo: perspective-origin",
             "type": "css"
         },
         "rotate": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-rotate.html",
+            "exampleCode": "./live-examples/css-examples/transforms/function-rotate.html",
             "fileName": "function-rotate.html",
             "title": "CSS Demo: rotate()",
             "type": "css"
         },
         "rotate3d": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/rotate3d.css",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-rotate3d.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/rotate3d.css",
+            "exampleCode": "./live-examples/css-examples/transforms/function-rotate3d.html",
             "fileName": "rotate3d.html",
             "title": "CSS Demo: rotate3d()",
             "type": "css"
         },
         "rotateX": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-rotateX.html",
+            "exampleCode": "./live-examples/css-examples/transforms/function-rotateX.html",
             "fileName": "function-rotateX.html",
             "title": "CSS Demo: rotateX()",
             "type": "css"
         },
         "rotateY": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-rotateY.html",
+            "exampleCode": "./live-examples/css-examples/transforms/function-rotateY.html",
             "fileName": "function-rotateY.html",
             "title": "CSS Demo: rotateY()",
             "type": "css"
         },
         "rotateZ": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-rotateZ.html",
+            "exampleCode": "./live-examples/css-examples/transforms/function-rotateZ.html",
             "fileName": "function-rotateZ.html",
             "title": "CSS Demo: rotateZ()",
             "type": "css"
         },
         "scale": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-scale.html",
+            "exampleCode": "./live-examples/css-examples/transforms/function-scale.html",
             "fileName": "function-scale.html",
             "title": "CSS Demo: scale()",
             "type": "css"
         },
         "scale3d": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/transform3d.css",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-scale3d.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/transform3d.css",
+            "exampleCode": "./live-examples/css-examples/transforms/function-scale3d.html",
             "fileName": "function-scale3d.html",
             "title": "CSS Demo: scale3d()",
             "type": "css"
         },
         "scaleX": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-scaleX.html",
+            "exampleCode": "./live-examples/css-examples/transforms/function-scaleX.html",
             "fileName": "function-scaleX.html",
             "title": "CSS Demo: scaleX()",
             "type": "css"
         },
         "scaleY": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-scaleY.html",
+            "exampleCode": "./live-examples/css-examples/transforms/function-scaleY.html",
             "fileName": "function-scaleY.html",
             "title": "CSS Demo: scaleY()",
             "type": "css"
         },
         "scaleZ": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/transform3d.css",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-scaleZ.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/transform3d.css",
+            "exampleCode": "./live-examples/css-examples/transforms/function-scaleZ.html",
             "fileName": "function-scaleZ.html",
             "title": "CSS Demo: scaleZ()",
             "type": "css"
         },
         "skew": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-skew.html",
+            "exampleCode": "./live-examples/css-examples/transforms/function-skew.html",
             "fileName": "function-skew.html",
             "title": "CSS Demo: skew()",
             "type": "css"
         },
         "skewX": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-skewX.html",
+            "exampleCode": "./live-examples/css-examples/transforms/function-skewX.html",
             "fileName": "function-skewX.html",
             "title": "CSS Demo: skewX()",
             "type": "css"
         },
         "skewY": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-skewY.html",
+            "exampleCode": "./live-examples/css-examples/transforms/function-skewY.html",
             "fileName": "function-skewY.html",
             "title": "CSS Demo: skewY()",
             "type": "css"
         },
         "transform": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/transforms/transform.html",
+            "exampleCode": "./live-examples/css-examples/transforms/transform.html",
             "fileName": "transform.html",
             "title": "CSS Demo: transform",
             "type": "css"
         },
         "transformOrigin": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/transform-origin.css",
-            "jsExampleSrc": "../../live-examples/css-examples/transforms/transform-origin.js",
-            "exampleCode":
-                "live-examples/css-examples/transforms/transform-origin.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/transform-origin.css",
+            "jsExampleSrc": "./live-examples/css-examples/transforms/transform-origin.js",
+            "exampleCode": "./live-examples/css-examples/transforms/transform-origin.html",
             "fileName": "transform-origin.html",
             "title": "CSS Demo: transform-origin",
             "type": "css"
         },
         "transformStyle": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/transform-style.css",
-            "exampleCode":
-                "live-examples/css-examples/transforms/transform-style.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/transform-style.css",
+            "exampleCode": "./live-examples/css-examples/transforms/transform-style.html",
             "fileName": "transform-style.html",
             "title": "CSS Demo: transform-style",
             "type": "css"
         },
         "translate": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/translate.css",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-translate.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/translate.css",
+            "exampleCode": "./live-examples/css-examples/transforms/function-translate.html",
             "fileName": "function-translate.html",
             "title": "CSS Demo: translate()",
             "type": "css"
         },
         "translate3d": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/transform3d.css",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-translate3d.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/transform3d.css",
+            "exampleCode": "./live-examples/css-examples/transforms/function-translate3d.html",
             "fileName": "function-translate3d.html",
             "title": "CSS Demo: translate3d()",
             "type": "css"
         },
         "translateX": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/translate.css",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-translateX.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/translate.css",
+            "exampleCode": "./live-examples/css-examples/transforms/function-translateX.html",
             "fileName": "function-translateX.html",
             "title": "CSS Demo: translateX()",
             "type": "css"
         },
         "translateY": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/translate.css",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-translateY.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/translate.css",
+            "exampleCode": "./live-examples/css-examples/transforms/function-translateY.html",
             "fileName": "function-translateY.html",
             "title": "CSS Demo: translateY()",
             "type": "css"
         },
         "translateZ": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/transforms/transform3d.css",
-            "exampleCode":
-                "live-examples/css-examples/transforms/function-translateZ.html",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/transform3d.css",
+            "exampleCode": "./live-examples/css-examples/transforms/function-translateZ.html",
             "fileName": "function-translateZ.html",
             "title": "CSS Demo: translateZ()",
             "type": "css"

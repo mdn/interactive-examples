@@ -1,99 +1,74 @@
 {
     "pages": {
         "backdropFilter": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/filter-effects/backdrop-filter.css",     
-            "exampleCode":
-                "live-examples/css-examples/filter-effects/backdrop-filter.html",
+            "cssExampleSrc": "./live-examples/css-examples/filter-effects/backdrop-filter.css",
+            "exampleCode": "./live-examples/css-examples/filter-effects/backdrop-filter.html",
             "fileName": "backdrop-filter.html",
             "title": "CSS Demo: backdrop-filter()",
             "type": "css"
         },
         "blur": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/filter-effects/function-blur.html",
+            "exampleCode": "./live-examples/css-examples/filter-effects/function-blur.html",
             "fileName": "function-blur.html",
             "title": "CSS Demo: blur()",
             "type": "css"
         },
         "brightness": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/filter-effects/function-brightness.html",
+            "exampleCode": "./live-examples/css-examples/filter-effects/function-brightness.html",
             "fileName": "function-brightness.html",
             "title": "CSS Demo: brightness()",
             "type": "css"
         },
         "contrast": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/filter-effects/function-contrast.html",
+            "exampleCode": "./live-examples/css-examples/filter-effects/function-contrast.html",
             "fileName": "function-contrast.html",
             "title": "CSS Demo: contrast()",
             "type": "css"
         },
         "dropShadow": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/filter-effects/function-drop-shadow.html",
+            "exampleCode": "./live-examples/css-examples/filter-effects/function-drop-shadow.html",
             "fileName": "function-drop-shadow.html",
             "title": "CSS Demo: drop-shadow()",
             "type": "css"
         },
         "filter": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/filter-effects/filter.html",
+            "exampleCode": "./live-examples/css-examples/filter-effects/filter.html",
             "fileName": "filter.html",
             "title": "CSS Demo: filter",
             "type": "css"
         },
         "grayscale": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/filter-effects/function-grayscale.html",
+            "exampleCode": "./live-examples/css-examples/filter-effects/function-grayscale.html",
             "fileName": "function-grayscale.html",
             "title": "CSS Demo: grayscale()",
             "type": "css"
         },
         "hueRotate": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/filter-effects/function-hue-rotate.html",
+            "exampleCode": "./live-examples/css-examples/filter-effects/function-hue-rotate.html",
             "fileName": "function-hue-rotate.html",
             "title": "CSS Demo: hue-rotate()",
             "type": "css"
         },
         "invert": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/filter-effects/function-invert.html",
+            "exampleCode": "./live-examples/css-examples/filter-effects/function-invert.html",
             "fileName": "function-invert.html",
             "title": "CSS Demo: invert()",
             "type": "css"
         },
         "opacity": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/filter-effects/function-opacity.html",
+            "exampleCode": "./live-examples/css-examples/filter-effects/function-opacity.html",
             "fileName": "function-opacity.html",
             "title": "CSS Demo: opacity()",
             "type": "css"
         },
         "saturate": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/filter-effects/function-saturate.html",
+            "exampleCode": "./live-examples/css-examples/filter-effects/function-saturate.html",
             "fileName": "function-saturate.html",
             "title": "CSS Demo: saturate()",
             "type": "css"
         },
         "sepia": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "exampleCode":
-                "live-examples/css-examples/filter-effects/function-sepia.html",
+            "exampleCode": "./live-examples/css-examples/filter-effects/function-sepia.html",
             "fileName": "function-sepia.html",
             "title": "CSS Demo: sepia()",
             "type": "css"

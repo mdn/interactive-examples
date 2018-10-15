@@ -1,76 +1,61 @@
 {
     "pages": {
         "atomicsAdd": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics/atomics-add.html",
+            "exampleCode": "./live-examples/js-examples/atomics/atomics-add.html",
             "fileName": "atomics-add.html",
             "title": "JavaScript Demo: Atomics.add()",
             "type": "js"
         },
         "atomicsAnd": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics/atomics-and.html",
+            "exampleCode": "./live-examples/js-examples/atomics/atomics-and.html",
             "fileName": "atomics-and.html",
             "title": "JavaScript Demo: Atomics.and()",
             "type": "js"
         },
         "atomicsCompareExchange": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/atomics/atomics-compareexchange.html",
+            "exampleCode": "./live-examples/js-examples/atomics/atomics-compareexchange.html",
             "fileName": "atomics-compareexchange.html",
             "title": "JavaScript Demo: Atomics.compareExchange()",
             "type": "js"
         },
         "atomicsExchange": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/atomics/atomics-exchange.html",
+            "exampleCode": "./live-examples/js-examples/atomics/atomics-exchange.html",
             "fileName": "atomics-exchange.html",
             "title": "JavaScript Demo: Atomics.exchange()",
             "type": "js"
         },
         "atomicsIsLockFree": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/atomics/atomics-islockfree.html",
+            "exampleCode": "./live-examples/js-examples/atomics/atomics-islockfree.html",
             "fileName": "atomics-islockfree.html",
             "title": "JavaScript Demo: Atomics.isLockFree()",
             "type": "js"
         },
         "atomicsLoad": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/atomics/atomics-load.html",
+            "exampleCode": "./live-examples/js-examples/atomics/atomics-load.html",
             "fileName": "atomics-load.html",
             "title": "JavaScript Demo: Atomics.load()",
             "type": "js"
         },
         "atomicsOr": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics/atomics-or.html",
+            "exampleCode": "./live-examples/js-examples/atomics/atomics-or.html",
             "fileName": "atomics-or.html",
             "title": "JavaScript Demo: Atomics.or()",
             "type": "js"
         },
         "atomicsStore": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/atomics/atomics-store.html",
+            "exampleCode": "./live-examples/js-examples/atomics/atomics-store.html",
             "fileName": "atomics-store.html",
             "title": "JavaScript Demo: Atomics.store()",
             "type": "js"
         },
         "atomicsSub": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics/atomics-sub.html",
+            "exampleCode": "./live-examples/js-examples/atomics/atomics-sub.html",
             "fileName": "atomics-sub.html",
             "title": "JavaScript Demo: Atomics.sub()",
             "type": "js"
         },
         "atomicsXor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/atomics/atomics-xor.html",
+            "exampleCode": "./live-examples/js-examples/atomics/atomics-xor.html",
             "fileName": "atomics-xor.html",
             "title": "JavaScript Demo: Atomics.xor()",
             "type": "js"
