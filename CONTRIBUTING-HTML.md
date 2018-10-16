@@ -29,7 +29,11 @@ Each of these directories contains:
 -   an HTML file for each example, whose name is the name of the element, for example "td.html"
 -   a directory called "css" that contains CSS files for each example, whose name is the name of the element, for example "td.css".
 
-## Writing the example
+## Example walkthrough
+
+In this section we'll go through the basic steps needed to add an HTML interactive example. We'll use the `<td>` element as an example.
+
+### Writing the example
 
 The `<td>` element is in the ["Table content"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Table_content) category. So let's navigate to "./live-examples/html-examples/table-content". If "table-content" doesn't exist, create it.
 
@@ -44,73 +48,7 @@ Create a new file whose name is the name of the element or attribute you are dem
 touch td.html
 ```
 
-In this file we'll add the HTML fragment that will be displayed in the HTML editor. The fragment will need to include all the extra HTML needed to render the example, and should use good practices as far as possible. For example, in this case we'll include a complete `<table>` element.
-
-### Example guidelines
-
-Some general guidelines for writing a good example:
-
--   Try to make the example engaging, good-looking, and interesting (the example presented here doesn't really manage this. The [datalist](https://developer.mozilla.org/en-US/docs/User:wbamberg/HTML_editor_user_test_pages/datalist) one is prettier).
--   Try to show some important attributes
--   Try to keep the HTML fragment to under 20 lines. If you have to go over, that's fine, but _really_ try to keep it under 30.
--   Try to keep HTML fragment line length to under 64 characters. If you have to go over, that's fine, but the line will probably then wrap for most screen widths (be aware that the example gets less width when embedded in an MDN page than it does standalone)
-
-Pay attention to how the example will look at narrower widths. When you test the example locally, it gets to occupy the whole browser window. But when embedded in an MDN page the example has to share space with other page elements.
-
-As a rough guide: https://developer.mozilla.org/en-US/docs/User:wbamberg/HTML_editor_user_test_pages/datalist shows what the editor will look like in an MDN page. In that page, with a browser window width of 1440 px, the entire editor gets about 1000px of width, and the output pane gets about 375px. So examples really need to work well at this width.
-
-Of course it's possible that people will have a narrower browser window, and ideally the example should still work with that, too. The [interactive examples for CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) switch mode from side-by-side to top-and-bottom with the editor at about 730px, which would give the HTML output window only about 260px. So we can take 260px as the minimum width we can expect to support - there's no point worrying about accommodating narrower widths than this. Having the layout work at 260px is potentially quite hard to achieve, and if it's not practical then that's OK, but you should consider it.
-
-### A note on editor height
-
-For the HTML editor there are three CSS classes that can be applied to the editor container element. This allows the editor to by taller or shorter than it’s standard height. The classes are as follows:
-
--   `tabbed-shorter` - ~11 visible lines of code
--   `tabbed-standard` - ~14 visible lines of code
--   `tabbed-taller` - ~23 visible lines of code
-
-Usage is as follows. When adding the meta information for your example, set the `height` property to one of the classes specified above, BoB will take care of the rest. For example:
-
-```
-"abbr": {
-    "exampleCode":
-        "./live-examples/html-examples/inline-text-semantics/abbr.html",
-    "cssExampleSrc":
-        "./live-examples/html-examples/inline-text-semantics/css/abbr.css",
-    "fileName": "abbr.html",
-    "title": "HTML Demo: <abbr>",
-    "type": "tabbed",
-    "height": "tabbed-shorter"
-}
-```
-
-In general, keep in mind that (hopefully) a lot of people will use the example for a long time. It's worth spending a bit of time getting it the way you want.
-
-We don't have codified formatting guidelines for HTML, but use 4-space indentation, anyway.
-
-### Encoding HTML entities
-
-Sometimes your example might want to include [HTML entities](https://developer.mozilla.org/en-US/docs/Glossary/Entity). For example, if you are referring to an HTML tag in the example itself, you might want the example to include something like:
-
-`Use the &lt;ol&gt; element to create an ordered list.`
-
-This won't work, because the browser will replace the entity with the real character when it loads the example source. You must also escape the `&` character, by writing something like:
-
-`Use the &amp;lt;ol&amp;gt; element to create an ordered list.`
-
-This will render in the editor like this:
-
-`Use the &lt;ol&gt; element to create an ordered list.`
-
-...and render in the output pane like this:
-
-`Use the <ol> element to create an ordered list.`
-
-To see this in action, see the example for [`<wbr>`](https://interactive-examples.mdn.mozilla.net/pages/tabbed/wbr.html), which uses this trick to include the soft hyphen `&shy` in the example.
-
-### Example example
-
-An example for `<td>` could look something like this:
+In this file we'll add the HTML fragment that will be displayed in the HTML editor. The fragment will need to include all the extra HTML needed to render the example, and should use good practices as far as possible. For example, in this case we'll include a complete `<table>` element:
 
 ```
 <table>
@@ -162,17 +100,6 @@ thead {
 
 Follow the [mdn-fiori CSS formatting guidelines](https://mdn.github.io/mdn-fiori/patterns/css/formatting/).
 
-### Fonts
-
-Because the editor uses Shadow DOM to isolate the example, you can't use `@font-face` to include extra fonts in your example. We've included a number of extra fonts in the [shadow-fonts.css](https://github.com/mdn/interactive-examples/blob/master/css/editor-libs/shadow-fonts.css) file, and you can use these with a normal `font-family` declaration:
-
-```
-p {
-    font-family: 'molot';
-}
-```
-
-If you need to include some additional fonts, add them to your pull request and update the "shadow-fonts.css" file to include them.
 
 ## Updating the metadata
 
@@ -219,3 +146,198 @@ Once you've finished writing the example, see the [Testing](CONTRIBUTING.md#test
 The final example should look something like this:
 
 ![Final example](https://screenshotscdn.firefoxusercontent.com/images/9e834e75-98a7-4c57-be32-455138aa8c69.png)
+
+## Guidelines
+
+This section describes some guidelines to follow when writing HTML examples. It's split into two sections:
+
+* **Formal guidelines** cover formal aspects of the example, such as how long it should be.
+* **Content guidelines** cover the actual content of the example: that is, what it should include or exclude.
+
+Sometimes formal and content guidelines are at odds. For example, sometimes writing a useful example means making it longer than the formal guidelines ask. Usually, when this happens, we should prioritize content guidelines.
+
+### Formal guidelines
+
+In general: try out your example using `npm run start` and see what it looks like with a browser window width of 1000px.
+
+* Can the user see the whole example source without having to scroll?
+
+* Is the example source readable?
+
+* Does the source look messed up because of how it's wrapped?
+
+* Does the output fit properly in the output pane?
+
+* Does the layout break at narrower widths?
+
+In particular, see the following guidelines for the HTML source and the output:
+
+#### HTML source formal guidelines
+
+* **Keep the line count short**: a maximum of 13 lines if possible. By default the editor will show 13 lines, so if the example is more than that, the user will need to scroll to see the whole thing, and this isn't ideal. It's not always possible to keep to this: if you have to, you can increase the editor size to 22 lines (see [Changing the editor height](#changing-the-editor-height)), but don't do this unless you have to.
+
+* **Keep line length short**: as a rule of thumb, try to keep lines under 64 characters.
+
+* **Use 4-space indent**
+
+* **Use line breaks for readability**: keep in mind that at different browser widths longer lines will wrap and this can hurt readability. By including line breaks you can make the example more readable at different browser widths. For example, consider an example like this:
+
+```
+<img class="fit-picture" src="/media/cc0-images/Grapefruit_Slice--332x332.jpg" alt="Grapefruit slice atop a pile of other slices"/>
+```
+
+With a browser window width of 1000 pixels, this will wrap like this:
+
+```
+<img class="fit-picture" src="/media/cc0-images
+/Grapefruit_Slice--332x332.jpg" alt="Grapefruit slice atop a pile
+of other slices"/>
+```
+
+If we add line breaks after each attribute, the example is much more readable:
+
+```
+<img class="fit-picture"
+     src="/media/cc0-images/Grapefruit_Slice--332x332.jpg"
+     alt="Grapefruit slice atop a pile of other slices"/>
+```
+
+#### HTML output formal guidelines
+
+By default and with a browser window width of 1000 pixels, the output pane for the HTML examples is 300 pixels high by 350 pixels wide. At those dimensions, does the example look good? If you make the browser window narrower, does the layout of the example still look OK?
+
+### Content guidelines
+
+The basic guideline for the example's content is: as simple as possible while still being illustrative and demonstrating good practice.
+
+#### Illustrate the main concept
+
+Try to make the example engaging, good-looking, and interesting, and to show some important attributes.
+
+However, illustrate the main concept of the item, not every possible usage of it. Remember: the example is not the documentation. It's appearing in a page of documentation that has the space to go into every detail about all the different options that can be used with the item. You don't need to include them all in the example.
+
+For example, here's an example for the `<button>` element:
+
+```
+<p><button>Default button</button></p>
+
+<p><button disabled>Disabled button</button></p>
+
+<p>
+  <button name="submit" type="submit" value="submit-true">
+    Form submit button
+  </button>
+</p>
+
+<p><button accesskey="a">Button with <u>A</u>ccesskey</button></p>
+
+<p><button class="styled">Fancy styled button</button></p>
+```
+
+This includes 5 different button elements. It's too long. The example should include a single element with some common attributes.
+
+Try out your example with `npm run start`. Can you immediately see the point of the example, or is the element buried in a wall of source?
+
+#### Use good practices
+
+Although the example should be simple it should illustrate good practice. For example, it should follow accessibility good practices, use good semantics, and not include anything known to be a bad practice.
+
+For example, `<input>` element examples should include `<label>` elements:
+
+```
+<label for="pet-select">Choose a pet:</label>
+
+<select id="pet-select">
+    <option value="">--Please choose an option--</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Parrot</option>
+    <option value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+</select>
+```
+
+This also applies to semantics: for example, the example for `<aside>` should not just be:
+
+```
+<aside>
+    <p>I'm an aside!.</p>
+</aside>
+```
+
+This doesn't tell the reader anything about how they should use the element. The element should be shown in a context that shows its semantic purpose. For example, one use for `<aside>` is for a pull quote, so we might try this:
+
+```
+<p>When cut in half we see they are filled with a pure white substance,
+like the inside of a young puff-ball. We learn from Professor Peck that
+it is called Calostoma cinnabarinus.</p>
+
+<aside>
+    <p>We are not responsible for the names given to plants, but cannot
+    help wishing that some might be changed or shortened.</p>
+</aside>
+
+<p>Calostoma is a Greek word meaning beautiful mouth, and cinnabarinus
+is taken from cinnabaris, which means dragon’s-blood. We are not
+responsible for the names given to plants, but cannot help wishing that
+some might be changed or shortened.</p>
+```
+
+## Extra features
+
+### Changing the editor height
+
+For the HTML editor there are three CSS classes that can be applied to the editor container element. This allows the editor to by taller or shorter than it’s standard height. The classes are as follows:
+
+-   `tabbed-shorter` - ~11 visible lines of code
+-   `tabbed-standard` - ~14 visible lines of code
+-   `tabbed-taller` - ~23 visible lines of code
+
+Usage is as follows. When adding the meta information for your example, set the `height` property to one of the classes specified above. For example:
+
+```
+"abbr": {
+    "exampleCode":
+        "./live-examples/html-examples/inline-text-semantics/abbr.html",
+    "cssExampleSrc":
+        "./live-examples/html-examples/inline-text-semantics/css/abbr.css",
+    "fileName": "abbr.html",
+    "title": "HTML Demo: <abbr>",
+    "type": "tabbed",
+    "height": "tabbed-shorter"
+}
+```
+
+### Encoding HTML entities
+
+Sometimes your example might want to include [HTML entities](https://developer.mozilla.org/en-US/docs/Glossary/Entity). For example, if you are referring to an HTML tag in the example itself, you might want the example to include something like:
+
+`Use the &lt;ol&gt; element to create an ordered list.`
+
+This won't work, because the browser will replace the entity with the real character when it loads the example source. You must also escape the `&` character, by writing something like:
+
+`Use the &amp;lt;ol&amp;gt; element to create an ordered list.`
+
+This will render in the editor like this:
+
+`Use the &lt;ol&gt; element to create an ordered list.`
+
+...and render in the output pane like this:
+
+`Use the <ol> element to create an ordered list.`
+
+To see this in action, see the example for [`<wbr>`](https://interactive-examples.mdn.mozilla.net/pages/tabbed/wbr.html), which uses this trick to include the soft hyphen `&shy` in the example.
+
+### Fonts
+
+Because the editor uses Shadow DOM to isolate the example, you can't use `@font-face` to include extra fonts in your example. We've included a number of extra fonts in the [shadow-fonts.css](https://github.com/mdn/interactive-examples/blob/master/css/editor-libs/shadow-fonts.css) file, and you can use these with a normal `font-family` declaration:
+
+```
+p {
+    font-family: 'molot';
+}
+```
+
+If you need to include some additional fonts, add them to your pull request and update the "shadow-fonts.css" file to include them.
+
