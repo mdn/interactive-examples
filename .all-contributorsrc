@@ -566,6 +566,14 @@
                 "https://avatars3.githubusercontent.com/u/9624541?s=460&v=4",
             "profile": "https://github.com/ninjanails",
             "contributions": ["code"]
+        },
+        {
+            "login": "TremaineNeethling",
+            "name": "Tremaine Neethling",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/23447760?s=460&v=4",
+            "profile": "https://github.com/TremaineNeethling",
+            "contributions": ["code"]
         }
     ]
 }
