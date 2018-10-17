@@ -174,7 +174,7 @@ In particular, see the following guidelines for the HTML source and the output:
 
 #### HTML source formal guidelines
 
-* **Keep the line count short**: a maximum of 13 lines if possible. By default the editor will show 13 lines, so if the example is more than that, the user will need to scroll to see the whole thing, and this isn't ideal. It's not always possible to keep to this: if you have to, you can increase the editor size to 22 lines (see [Changing the editor height](#changing-the-editor-height)), but don't do this unless you have to.
+* **Keep the line count short**: a maximum of 13 lines if possible. By default the editor will show 13 lines, so if the example is more than that, the user will need to scroll to see the whole thing, and this isn't ideal. It's not always possible to keep to this: if you have to, you can increase the editor height to 22 lines (see [Changing the editor height](#changing-the-editor-height)), but don't do this unless you have to.
 
 * **Keep line length short**: as a rule of thumb, try to keep lines under 64 characters.
 
