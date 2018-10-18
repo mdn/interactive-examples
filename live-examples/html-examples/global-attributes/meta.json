@@ -1,97 +1,97 @@
 {
     "pages": {
         "accesskey": {
-            "exampleCode": "./live-examples/html-examples/global-attributes/accesskey.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/accesskey.css",
-            "fileName": "accesskey.html",
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-accesskey.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-accesskey.css",
+            "fileName": "attribute-accesskey.html",
             "title": "HTML Demo: accesskey",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
         "class": {
-            "exampleCode": "./live-examples/html-examples/global-attributes/class.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/class.css",
-            "fileName": "class.html",
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-class.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-class.css",
+            "fileName": "attribute-class.html",
             "title": "HTML Demo: class",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
         "contenteditable": {
-            "exampleCode": "./live-examples/html-examples/global-attributes/contenteditable.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/contenteditable.css",
-            "fileName": "contenteditable.html",
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-contenteditable.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-contenteditable.css",
+            "fileName": "attribute-contenteditable.html",
             "title": "HTML Demo: contenteditable",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
-        "data-": {
-            "exampleCode": "./live-examples/html-examples/global-attributes/data-.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/data-.css",
-            "fileName": "data-.html",
-            "title": "HTML Demo: data-*",
+        "data": {
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-data.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-data.css",
+            "fileName": "attribute-data.html",
+            "title": "HTML Demo: data*",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
         "dir": {
-            "exampleCode": "./live-examples/html-examples/global-attributes/dir.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/dir.css",
-            "fileName": "dir.html",
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-dir.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-dir.css",
+            "fileName": "attribute-dir.html",
             "title": "HTML Demo: dir",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
         "hidden": {
-            "exampleCode": "./live-examples/html-examples/global-attributes/hidden.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/hidden.css",
-            "fileName": "hidden.html",
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-hidden.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-hidden.css",
+            "fileName": "attribute-hidden.html",
             "title": "HTML Demo: hidden",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
         "id": {
-            "exampleCode": "./live-examples/html-examples/global-attributes/id.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/id.css",
-            "fileName": "id.html",
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-id.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-id.css",
+            "fileName": "attribute-id.html",
             "title": "HTML Demo: id",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
         "lang": {
-            "exampleCode": "./live-examples/html-examples/global-attributes/lang.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/lang.css",
-            "fileName": "lang.html",
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-lang.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-lang.css",
+            "fileName": "attribute-lang.html",
             "title": "HTML Demo: lang",
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
-        "style-attr": {
-            "exampleCode": "./live-examples/html-examples/global-attributes/style-attr.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/style-attr.css",
-            "fileName": "style-attr.html",
+        "style": {
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-style.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-style.css",
+            "fileName": "attribute-style.html",
             "title": "HTML Demo: style",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
         "spellcheck": {
-            "exampleCode": "./live-examples/html-examples/global-attributes/spellcheck.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/spellcheck.css",
-            "fileName": "spellcheck.html",
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-spellcheck.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-spellcheck.css",
+            "fileName": "attribute-spellcheck.html",
             "title": "HTML Demo: spellcheck",
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
         "tabindex": {
-            "exampleCode": "./live-examples/html-examples/global-attributes/tabindex.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/tabindex.css",
-            "fileName": "tabindex.html",
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-tabindex.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-tabindex.css",
+            "fileName": "attribute-tabindex.html",
             "title": "HTML Demo: tabindex",
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
-        "title-attr": {
-            "exampleCode": "./live-examples/html-examples/global-attributes/title-attr.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/title-attr.css",
-            "fileName": "title-attr.html",
+        "title": {
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-title.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-title.css",
+            "fileName": "attribute-title.html",
             "title": "HTML Demo: title",
             "type": "tabbed",
             "height": "tabbed-shorter"
