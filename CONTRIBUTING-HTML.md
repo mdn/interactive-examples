@@ -183,13 +183,13 @@ In particular, see the following guidelines for the HTML source and the output:
 * **Use line breaks for readability**: keep in mind that at different browser widths longer lines will wrap and this can hurt readability. By including line breaks you can make the example more readable at different browser widths. For example, consider an example like this:
 
 ```
-<img class="fit-picture" src="/media/cc0-images/Grapefruit_Slice--332x332.jpg" alt="Grapefruit slice atop a pile of other slices"/>
+<img class="fit-picture" src="/media/examples/Grapefruit_Slice--332x332.jpg" alt="Grapefruit slice atop a pile of other slices"/>
 ```
 
 With a browser window width of 1000 pixels, this will wrap like this:
 
 ```
-<img class="fit-picture" src="/media/cc0-images
+<img class="fit-picture" src="/media/examples
 /Grapefruit_Slice--332x332.jpg" alt="Grapefruit slice atop a pile
 of other slices"/>
 ```
@@ -198,7 +198,7 @@ If we add line breaks after each attribute, the example is much more readable:
 
 ```
 <img class="fit-picture"
-     src="/media/cc0-images/Grapefruit_Slice--332x332.jpg"
+     src="/media/examples/Grapefruit_Slice--332x332.jpg"
      alt="Grapefruit slice atop a pile of other slices"/>
 ```
 
