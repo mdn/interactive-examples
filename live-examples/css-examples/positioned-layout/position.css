@@ -1,29 +1,16 @@
+.output section {
+    align-items: flex-start;
+    overflow: auto;
+}
 
 #example-element-container {
     text-align: left;
-    position: relative;
-    overflow: scroll;
-    height: 100%;
-    width: 100%;
-}
-
-.box {
-    display: inline-block;
-    height: 65px;
-    width: 65px;
-    margin: 10px;
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 3px solid blue;
 }
 
 #example-element {
     background-color: yellow;
     border: 3px solid red;
-}
-
-#example-element-placeholder {
-    position: absolute;
-    left: 85px;
-    background-color: transparent;
-    border: 3px dotted red;
+    display: block;
+    width: 65px;
+    height: 65px;
 }
