@@ -1,0 +1,20 @@
+<pre>
+<code id="static-js">const asyncIterableObj = new Object();
+
+asyncIterableObj[Symbol.asyncIterator] = async function* () {
+  yield 1;
+  yield 2;
+  yield 3;
+};
+
+(async function () {
+  for await (let num of asyncIterableObj) {
+    console.log(num);
+  }
+})();
+// expected output:
+// > 1
+// > 2
+// > 3
+</code>
+</pre>

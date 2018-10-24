@@ -1,5 +1,11 @@
 {
     "pages": {
+        "symbolAsyncIterator": {
+            "exampleCode": "./live-examples/js-examples/symbol/symbol-async-iterator.html",
+            "fileName": "symbol-async-iterator.html",
+            "title": "JavaScript Demo: Symbol.asyncIterator",
+            "type": "js"
+        },
         "symbolConstructor": {
             "exampleCode": "./live-examples/js-examples/symbol/symbol-constructor.html",
             "fileName": "symbol-constructor.html",
