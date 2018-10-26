@@ -7,14 +7,6 @@ const object2 = { 0: 'a', 1: 'b', 2: 'c' };
 console.log(Object.entries(object2)[2]);
 // expected output: Array ["2", "c"]
 
-const object3 = { 100: 'a', 2: 'b', 7: 'c' };
-/* Object.entries() does not guarantee a particular order. If order is important,
-   use in conjunction with the .sort function */
-const result = Object.entries(object3).sort((a,b) => a[0] - b[0]);
-console.log(Object.entries(result));
-// expected output: Array [Array ["2", "b"], Array ["7", "c"], Array ["100", "a"]]
-
-console.log(Object.entries(result)[0]);
 const result = Object.entries(object2).sort((a, b) => a - b);
 console.log(Object.entries(result)[1]);
 // expected output: Array ["1", Array ["1", "b"]]
