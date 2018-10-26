@@ -9,7 +9,7 @@ console.log(Object.entries(object2)[2]);
 
 const object3 = { 100: 'a', 2: 'b', 7: 'c' };
 //Object.entries() may or may not  return the objects in a particular order, Sort is needed
-const result = Object.entries(object3).sort((a,b) => a - b);
+const result = Object.entries(object3).sort((a,b) => a[0] - b[0]);
 console.log(Object.entries(result));
 // expected output: Array [Array ["2", "b"], Array ["7", "c"], Array ["100", "a"]]
 
