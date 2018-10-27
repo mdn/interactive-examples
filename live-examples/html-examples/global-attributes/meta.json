@@ -34,7 +34,7 @@
         },
         "dir": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-dir.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-dir.css",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-data.css",
             "fileName": "attribute-dir.html",
             "title": "HTML Demo: dir",
             "type": "tabbed",
