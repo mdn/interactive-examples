@@ -566,6 +566,30 @@
                 "https://avatars3.githubusercontent.com/u/9624541?s=460&v=4",
             "profile": "https://github.com/ninjanails",
             "contributions": ["code"]
+        },
+        {
+            "login": "TremaineNeethling",
+            "name": "Tremaine Neethling",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/23447760?s=460&v=4",
+            "profile": "https://github.com/TremaineNeethling",
+            "contributions": ["code"]
+        },
+        {
+            "login": "Flying-Toast",
+            "name": "Flying-Toast",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/38232168?s=460&v=4",
+            "profile": "https://github.com/Flying-Toast",
+            "contributions": ["code"]
+        },
+        {
+            "login": "ShadowMitia",
+            "name": "Dimitri Belopopsky",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/3752363?s=460&v=4",
+            "profile": "https://github.com/ShadowMitia",
+            "contributions": ["code"]
         }
     ]
 }
