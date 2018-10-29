@@ -582,6 +582,14 @@
                 "https://avatars3.githubusercontent.com/u/38232168?s=460&v=4",
             "profile": "https://github.com/Flying-Toast",
             "contributions": ["code"]
+        },
+        {
+            "login": "ShadowMitia",
+            "name": "Dimitri Belopopsky",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/3752363?s=460&v=4",
+            "profile": "https://github.com/ShadowMitia",
+            "contributions": ["code"]
         }
     ]
 }
