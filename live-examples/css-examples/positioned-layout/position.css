@@ -30,11 +30,3 @@
     border: 3px solid red;
     z-index: 1;
 }
-
-#example-element-placeholder {
-    background-color: transparent;
-    border: 3px dotted red;
-    position: absolute;
-    top: 56px;
-    left: 65px;
-}
