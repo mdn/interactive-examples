@@ -1,7 +1,7 @@
-address {
-    font-variant-caps: small-caps;
+a[href^="mailto"]::before {
+    content: "📧 ";
 }
 
-a {
-    font-variant: normal;
+a[href^="tel"]::before {
+    content: "📞 ";
 }
