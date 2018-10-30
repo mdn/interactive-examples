@@ -1,48 +1,49 @@
 <section id="example-choice-list" class="example-choice-list large" data-property="position">
+    <div class="example-choice" initial-choice="true">
+        <pre><code class="language-css">position: static;</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
 
-<div class="example-choice" initial-choice="true">
-<pre><code class="language-css">position: static;</code></pre>
-<button type="button" class="copy hidden" aria-hidden="true">
-    <span class="visually-hidden">Copy to Clipboard</span>
-</button>
-</div>
-
-<div class="example-choice">
-<pre><code class="language-css">position: relative;
-top: 65px; left: 65px;</code></pre>
-<button type="button" class="copy hidden" aria-hidden="true">
-    <span class="visually-hidden">Copy to Clipboard</span>
-</button>
-</div>
-
-<div class="example-choice">
-<pre><code class="language-css">position: absolute;
+    <div class="example-choice">
+        <pre><code class="language-css">position: relative;
 top: 40px; left: 40px;</code></pre>
-<button type="button" class="copy hidden" aria-hidden="true">
-    <span class="visually-hidden">Copy to Clipboard</span>
-</button>
-</div>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
 
-<div id="choice-sticky" class="example-choice">
-<pre><code class="language-css">position: sticky;
+    <div class="example-choice">
+        <pre><code class="language-css">position: absolute;
+top: 40px; left: 40px;</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+
+    <div id="choice-sticky" class="example-choice">
+        <pre><code class="language-css">position: sticky;
+position: -webkit-sticky;
 top: 20px;</code></pre>
-<button type="button" class="copy hidden" aria-hidden="true">
-    <span class="visually-hidden">Copy to Clipboard</span>
-</button>
-</div>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
 </section>
 
 <div id="output" class="output large hidden">
     <section id="default-example" class="default-example">
-      <div id="example-element-container">
-<p>In this demo you can control the <code>position</code> property for the yellow box.</p>
-        <div class="box"></div><div class="box" id="example-element-placeholder"></div><div class="box transition-all" id="example-element"></div><div class="box"></div>
-<p>To see the effect of <code>sticky</code> positioning, select the <code>position: sticky</code> option and scroll this container.</p>
-<p>The element will scroll along with its container, until it is at the top of the container (or reaches the offset specified in <code>top</code>), and will then stop scrolling, so it stays visible.</p>
-<p>The rest of this text is only supplied to make sure the container overflows, so as to enable you to scroll it and see the effect.</p>
-<hr/>
-<p>Far out in the uncharted backwaters of the unfashionable end of the western spiral arm of the Galaxy lies a small unregarded yellow sun. Orbiting this at a distance of roughly ninety-two million miles is an utterly insignificant little blue green planet whose ape-descended life forms are so amazingly primitive that they still think digital watches are a pretty neat idea.</p> 
-      </div>
+        <div id="example-element-container">
+            <p>In this demo you can control the <code>position</code> property for the yellow box.</p>
+            <div class="box"></div>
+            <div class="box" id="example-element"></div>
+            <div class="box"></div>
+            <p class="clear">To see the effect of <code>sticky</code> positioning, select the <code>position: sticky</code> option and scroll this container.</p>
+            <p>The element will scroll along with its container, until it is at the top of the container (or reaches the offset specified in <code>top</code>), and will then stop scrolling, so it stays visible.</p>
+            <p>The rest of this text is only supplied to make sure the container overflows, so as to enable you to scroll it and see the effect.</p>
+            <hr/>
+            <p>Far out in the uncharted backwaters of the unfashionable end of the western spiral arm of the Galaxy lies a small unregarded yellow sun. Orbiting this at a distance of roughly ninety-two million miles is an utterly insignificant little blue green planet whose ape-descended life forms are so amazingly primitive that they still think digital watches are a pretty neat idea.</p> 
+        </div>
     </section>
-
 </div>
