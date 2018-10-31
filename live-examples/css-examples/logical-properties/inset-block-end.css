@@ -11,6 +11,7 @@
     background-color: yellow;
     border: 3px solid red;
     position: absolute;
-    offset-block-start: 50px;
+    inset-block-end: 20px;
     inline-size: 140px;
+    min-block-size: 200px;
 }
