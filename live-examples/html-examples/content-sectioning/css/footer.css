@@ -1,24 +1,13 @@
-h1 {
-    font-size: 1.5rem;
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 footer {
     display: flex;
-    padding: 10px 5px;
+    justify-content: center;
+    padding: 5px;
     background-color: #45a1ff;
     color: #fff;
-}
-
-footer p {
-    flex: 1;
-    margin: 0;
-}
-
-footer ul {
-    flex: 1;
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
 }
