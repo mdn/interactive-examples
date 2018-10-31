@@ -1,17 +1,4 @@
-.progress-example {
-    display: table;
-}
-
-.progress-example div {
-    display: table-row;
-}
-
-label,
-progress {
-    display: table-cell;
-}
-
 label {
     padding-right: 10px;
-    text-align: right;
+    font-size: 1rem;
 }

@@ -1,3 +1,8 @@
+label,
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
 textarea {
     padding: 10px;
     line-height: 1.5;
@@ -6,21 +11,7 @@ textarea {
     box-shadow: 1px 1px 1px #999;
 }
 
-.textarea-example {
-    font-family: sans-serif;
-}
-
-.textarea-example div {
-    margin-bottom: 20px;
-}
-
-label,
-textarea {
-    display: block;
-    font-size: 12px;
-    letter-spacing: 1px;
-}
-
 label {
-    margin-bottom: 5px;
+    display: block;
+    margin-bottom: 10px;
 }
