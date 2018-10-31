@@ -6,7 +6,7 @@
             "fileName": "button.html",
             "title": "HTML Demo: <button>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "datalist": {
             "exampleCode": "./live-examples/html-examples/forms/datalist.html",
@@ -22,7 +22,7 @@
             "fileName": "fieldset.html",
             "title": "HTML Demo: <fieldset>",
             "type": "tabbed",
-            "height": "tabbed-taller"
+            "height": "tabbed-standard"
         },
         "form": {
             "exampleCode": "./live-examples/html-examples/forms/form.html",
@@ -38,7 +38,7 @@
             "fileName": "label.html",
             "title": "HTML Demo: <label>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "legend": {
             "exampleCode": "./live-examples/html-examples/forms/legend.html",
@@ -54,7 +54,7 @@
             "fileName": "meter.html",
             "title": "HTML Demo: <meter>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "optgroup": {
             "exampleCode": "./live-examples/html-examples/forms/optgroup.html",
