@@ -6,7 +6,7 @@
             "fileName": "details.html",
             "title": "HTML Demo: <details>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "summary": {
             "exampleCode": "./live-examples/html-examples/interactive-elements/summary.html",
@@ -14,7 +14,7 @@
             "fileName": "summary.html",
             "title": "HTML Demo: <summary>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         }
     }
 }
