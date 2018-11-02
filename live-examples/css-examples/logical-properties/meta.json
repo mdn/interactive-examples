@@ -126,6 +126,34 @@
             "title": "CSS Demo: inline-size",
             "type": "css"
         },
+        "inset-block-end": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/inset-block-end.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/inset-block-end.html",
+            "fileName": "inset-block-end.html",
+            "title": "CSS Demo: inset-block-end",
+            "type": "css"
+        },
+        "inset-block-start": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/inset-block-start.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/inset-block-start.html",
+            "fileName": "inset-block-start.html",
+            "title": "CSS Demo: inset-block-start",
+            "type": "css"
+        },
+        "inset-inline-end": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/inset-inline-end.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/inset-inline-end.html",
+            "fileName": "inset-inline-end.html",
+            "title": "CSS Demo: inset-inline-end",
+            "type": "css"
+        },
+        "inset-inline-start": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/inset-inline-start.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/inset-inline-start.html",
+            "fileName": "inset-inline-start.html",
+            "title": "CSS Demo: inset-inline-start",
+            "type": "css"
+        },
         "marginBlockStart": {
             "cssExampleSrc": "./live-examples/css-examples/logical-properties/margin-block.css",
             "exampleCode": "./live-examples/css-examples/logical-properties/margin-block-start.html",
@@ -180,34 +208,6 @@
             "exampleCode": "./live-examples/css-examples/logical-properties/min-inline-size.html",
             "fileName": "min-inline-size.html",
             "title": "CSS Demo: min-inline-size",
-            "type": "css"
-        },
-        "offset-block-end": {
-            "cssExampleSrc": "./live-examples/css-examples/logical-properties/offset-block-end.css",
-            "exampleCode": "./live-examples/css-examples/logical-properties/offset-block-end.html",
-            "fileName": "offset-block-end.html",
-            "title": "CSS Demo: offset-block-end",
-            "type": "css"
-        },
-        "offset-block-start": {
-            "cssExampleSrc": "./live-examples/css-examples/logical-properties/offset-block-start.css",
-            "exampleCode": "./live-examples/css-examples/logical-properties/offset-block-start.html",
-            "fileName": "offset-block-start.html",
-            "title": "CSS Demo: offset-block-start",
-            "type": "css"
-        },
-        "offset-inline-end": {
-            "cssExampleSrc": "./live-examples/css-examples/logical-properties/offset-inline-end.css",
-            "exampleCode": "./live-examples/css-examples/logical-properties/offset-inline-end.html",
-            "fileName": "offset-inline-end.html",
-            "title": "CSS Demo: offset-inline-end",
-            "type": "css"
-        },
-        "offset-inline-start": {
-            "cssExampleSrc": "./live-examples/css-examples/logical-properties/offset-inline-start.css",
-            "exampleCode": "./live-examples/css-examples/logical-properties/offset-inline-start.html",
-            "fileName": "offset-inline-start.html",
-            "title": "CSS Demo: offset-inline-start",
             "type": "css"
         },
         "paddingBlockEnd": {
