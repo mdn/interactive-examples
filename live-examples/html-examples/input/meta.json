@@ -10,7 +10,7 @@
         },
         "checkbox": {
             "exampleCode": "./live-examples/html-examples/input/checkbox.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/checkbox.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/multiple-input.css",
             "fileName": "input-checkbox.html",
             "title": "HTML Demo: <input type=\"checkbox\">",
             "type": "tabbed",
@@ -18,7 +18,7 @@
         },
         "color": {
             "exampleCode": "./live-examples/html-examples/input/color.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/color.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/multiple-input.css",
             "fileName": "input-color.html",
             "title": "HTML Demo: <input type=\"color\">",
             "type": "tabbed",
@@ -26,7 +26,7 @@
         },
         "date": {
             "exampleCode": "./live-examples/html-examples/input/date.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/date.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
             "fileName": "input-date.html",
             "title": "HTML Demo: <input type=\"date\">",
             "type": "tabbed",
@@ -34,7 +34,7 @@
         },
         "datetime-local": {
             "exampleCode": "./live-examples/html-examples/input/datetime-local.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/datetime-local.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
             "fileName": "input-datetime-local.html",
             "title": "HTML Demo: <input type=\"datetime-local\">",
             "type": "tabbed",
@@ -42,7 +42,7 @@
         },
         "email": {
             "exampleCode": "./live-examples/html-examples/input/email.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/email.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
             "fileName": "input-email.html",
             "title": "HTML Demo: <input type=\"email\">",
             "type": "tabbed",
@@ -50,7 +50,7 @@
         },
         "file": {
             "exampleCode": "./live-examples/html-examples/input/file.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/file.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
             "fileName": "input-file.html",
             "title": "HTML Demo: <input type=\"file\">",
             "type": "tabbed",
@@ -66,7 +66,7 @@
         },
         "month": {
             "exampleCode": "./live-examples/html-examples/input/month.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/month.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
             "fileName": "input-month.html",
             "title": "HTML Demo: <input type=\"month\">",
             "type": "tabbed",
@@ -74,7 +74,7 @@
         },
         "number": {
             "exampleCode": "./live-examples/html-examples/input/number.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/number.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
             "fileName": "input-number.html",
             "title": "HTML Demo: <input type=\"number\">",
             "type": "tabbed",
@@ -90,7 +90,7 @@
         },
         "radio": {
             "exampleCode": "./live-examples/html-examples/input/radio.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/radio.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/multiple-input.css",
             "fileName": "input-radio.html",
             "title": "HTML Demo: <input type=\"radio\">",
             "type": "tabbed",
@@ -98,7 +98,7 @@
         },
         "range": {
             "exampleCode": "./live-examples/html-examples/input/range.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/range.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/multiple-input.css",
             "fileName": "input-range.html",
             "title": "HTML Demo: <input type=\"range\">",
             "type": "tabbed",
@@ -114,7 +114,7 @@
         },
         "search": {
             "exampleCode": "./live-examples/html-examples/input/search.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/search.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
             "fileName": "input-search.html",
             "title": "HTML Demo: <input type=\"search\">",
             "type": "tabbed",
@@ -122,7 +122,7 @@
         },
         "tel": {
             "exampleCode": "./live-examples/html-examples/input/tel.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/tel.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
             "fileName": "input-tel.html",
             "title": "HTML Demo: <input type=\"tel\">",
             "type": "tabbed",
@@ -130,7 +130,7 @@
         },
         "text": {
             "exampleCode": "./live-examples/html-examples/input/text.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/text.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
             "fileName": "input-text.html",
             "title": "HTML Demo: <input type=\"text\">",
             "type": "tabbed",
@@ -138,7 +138,7 @@
         },
         "time": {
             "exampleCode": "./live-examples/html-examples/input/time.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/time.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
             "fileName": "input-time.html",
             "title": "HTML Demo: <input type=\"time\">",
             "type": "tabbed",
@@ -146,7 +146,7 @@
         },
         "url": {
             "exampleCode": "./live-examples/html-examples/input/url.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/url.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
             "fileName": "input-url.html",
             "title": "HTML Demo: <input type=\"url\">",
             "type": "tabbed",
@@ -154,7 +154,7 @@
         },
         "week": {
             "exampleCode": "./live-examples/html-examples/input/week.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/week.css",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
             "fileName": "input-week.html",
             "title": "HTML Demo: <input type=\"week\">",
             "type": "tabbed",
