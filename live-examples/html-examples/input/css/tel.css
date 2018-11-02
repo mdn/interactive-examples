@@ -18,15 +18,3 @@ label {
     font-size: .8rem;
     width: 20%;
 }
-
-input:invalid + span:after {
-    content: '✖';
-    color: #f00;
-    padding-left: 5px;
-}
-
-input:valid + span:after {
-    content: '✓';
-    color: #26b72b;
-    padding-left: 5px;
-}

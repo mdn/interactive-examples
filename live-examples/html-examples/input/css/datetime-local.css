@@ -1,20 +1,10 @@
-legend {
-    background-color: #000;
-    color: #fff;
-    padding: 3px 6px;
-}
+label {
+    display: block;
+    font: .9rem 'Fira Sans', sans-serif;
 
-.output {
-    font: 1rem 'Fira Sans', sans-serif;
 }
 
 input,
-select {
-    margin: .4rem;
-}
-
 label {
-    display: inline-block;
-    text-align: right;
-    width: 30%;
+    margin: .4rem 0;
 }

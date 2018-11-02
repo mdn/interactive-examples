@@ -14,12 +14,11 @@ legend {
 
 label {
     display: inline-block;
-    text-align: right;
     font-size: .8rem;
     width: 20%;
 }
 
 .hours {
+    margin-top: .6rem;
     font-size: .7em;
-    color: #999;
 }

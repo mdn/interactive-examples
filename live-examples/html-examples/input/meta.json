@@ -6,7 +6,7 @@
             "fileName": "input-button.html",
             "title": "HTML Demo: <input type=\"button\">",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "checkbox": {
             "exampleCode": "./live-examples/html-examples/input/checkbox.html",
@@ -64,14 +64,6 @@
             "type": "tabbed",
             "height": "tabbed-standard"
         },
-        "input": {
-            "exampleCode": "./live-examples/html-examples/input/input.html",
-            "cssExampleSrc": "./live-examples/html-examples/input/css/input.css",
-            "fileName": "input-input.html",
-            "title": "HTML Demo: <input type=\"input\">",
-            "type": "tabbed",
-            "height": "tabbed-standard"
-        },
         "month": {
             "exampleCode": "./live-examples/html-examples/input/month.html",
             "cssExampleSrc": "./live-examples/html-examples/input/css/month.css",
@@ -102,7 +94,7 @@
             "fileName": "input-radio.html",
             "title": "HTML Demo: <input type=\"radio\">",
             "type": "tabbed",
-            "height": "tabbed-taller"
+            "height": "tabbed-standard"
         },
         "range": {
             "exampleCode": "./live-examples/html-examples/input/range.html",
@@ -142,7 +134,7 @@
             "fileName": "input-text.html",
             "title": "HTML Demo: <input type=\"text\">",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "time": {
             "exampleCode": "./live-examples/html-examples/input/time.html",
