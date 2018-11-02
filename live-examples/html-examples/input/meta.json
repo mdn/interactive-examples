@@ -30,7 +30,7 @@
             "fileName": "input-date.html",
             "title": "HTML Demo: <input type=\"date\">",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "datetime-local": {
             "exampleCode": "./live-examples/html-examples/input/datetime-local.html",
@@ -38,7 +38,7 @@
             "fileName": "input-datetime-local.html",
             "title": "HTML Demo: <input type=\"datetime-local\">",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "email": {
             "exampleCode": "./live-examples/html-examples/input/email.html",
@@ -46,7 +46,7 @@
             "fileName": "input-email.html",
             "title": "HTML Demo: <input type=\"email\">",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "file": {
             "exampleCode": "./live-examples/html-examples/input/file.html",
@@ -54,7 +54,7 @@
             "fileName": "input-file.html",
             "title": "HTML Demo: <input type=\"file\">",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "image": {
             "exampleCode": "./live-examples/html-examples/input/image.html",
@@ -70,7 +70,7 @@
             "fileName": "input-month.html",
             "title": "HTML Demo: <input type=\"month\">",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "number": {
             "exampleCode": "./live-examples/html-examples/input/number.html",
@@ -78,7 +78,7 @@
             "fileName": "input-number.html",
             "title": "HTML Demo: <input type=\"number\">",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "password": {
             "exampleCode": "./live-examples/html-examples/input/password.html",
@@ -150,7 +150,7 @@
             "fileName": "input-url.html",
             "title": "HTML Demo: <input type=\"url\">",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "week": {
             "exampleCode": "./live-examples/html-examples/input/week.html",
@@ -158,7 +158,7 @@
             "fileName": "input-week.html",
             "title": "HTML Demo: <input type=\"week\">",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         }
     }
 }
