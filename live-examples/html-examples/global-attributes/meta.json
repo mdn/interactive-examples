@@ -6,7 +6,7 @@
             "fileName": "attribute-accesskey.html",
             "title": "HTML Demo: accesskey",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "class": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-class.html",
@@ -22,7 +22,7 @@
             "fileName": "attribute-contenteditable.html",
             "title": "HTML Demo: contenteditable",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "data": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-data.html",
@@ -46,7 +46,7 @@
             "fileName": "attribute-hidden.html",
             "title": "HTML Demo: hidden",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "id": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-id.html",
@@ -54,7 +54,7 @@
             "fileName": "attribute-id.html",
             "title": "HTML Demo: id",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "lang": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-lang.html",
@@ -64,19 +64,19 @@
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
-        "style": {
-            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-style.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-style.css",
-            "fileName": "attribute-style.html",
-            "title": "HTML Demo: style",
-            "type": "tabbed",
-            "height": "tabbed-standard"
-        },
         "spellcheck": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-spellcheck.html",
             "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-spellcheck.css",
             "fileName": "attribute-spellcheck.html",
             "title": "HTML Demo: spellcheck",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "style": {
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-style.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-style.css",
+            "fileName": "attribute-style.html",
+            "title": "HTML Demo: style",
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
@@ -86,7 +86,7 @@
             "fileName": "attribute-tabindex.html",
             "title": "HTML Demo: tabindex",
             "type": "tabbed",
-            "height": "tabbed-shorter"
+            "height": "tabbed-standard"
         },
         "title": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-title.html",

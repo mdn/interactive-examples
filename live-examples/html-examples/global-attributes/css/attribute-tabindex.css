@@ -2,22 +2,17 @@
     font: .9rem 'Fira Sans', sans-serif;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100px;
+p {
+    font-style: italic;
 }
 
 div,
 label {
+    display: block;
     letter-spacing: .5px;
+    margin-bottom: 1rem;
 }
 
 div:focus {
     font-weight: bold;
-}
-
-.instructions {
-    font-style: italic;
 }
