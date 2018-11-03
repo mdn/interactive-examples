@@ -4,6 +4,12 @@ figure {
     flex-flow: column;
     margin: 0;
     padding: 5px;
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
 }
 
 figcaption {

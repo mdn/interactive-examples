@@ -4,7 +4,8 @@ figure {
     flex-flow: column;
     margin: 0;
     padding: 5px;
-    width: 19em;
+    width: 80%;
+    margin: auto;
 }
 
 img {
