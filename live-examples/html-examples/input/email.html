@@ -1,14 +1,4 @@
-<fieldset>
-    <legend>Enter contact email</legend>
+<label for="email">Enter your globex.com email:</label>
 
-    <label for="primary">Primary address:</label>
-    <input type="email" placeholder="drone@globex.com"
-           pattern=".+@globex.com" size="30" required
-           title="Must be a globex.com email address" />
-
-    <label for="secondary">Secondary addresses:</label>
-    <input type="email" placeholder="foo@this.com, bar@that.com"
-           size="35" multiple
-           title="Zero or more addresses, separated with ','" />
-
-</fieldset>
+<input type="email" id="email"
+       pattern=".+@globex.com" size="30" required>

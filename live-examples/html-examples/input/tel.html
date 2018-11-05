@@ -1,11 +1,7 @@
-<fieldset>
-    <legend>Contact information</legend>
+<label for="phone">Enter your phone number:</label>
 
-    <label for="phone">Phone:</label>
-    <input type="tel" id="phone" name="phone"
-           placeholder="123-456-7890"
-           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-           required />
-    <span class="validity"></span>
+<input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
 
-</fieldset>
+<span class="note">Format: 123-456-7890</span>

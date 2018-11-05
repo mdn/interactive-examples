@@ -1,15 +1,8 @@
-legend {
-    background-color: #000;
-    color: #fff;
-    padding: 3px 6px;
-}
-
 .output {
     font: 1rem 'Fira Sans', sans-serif;
 }
 
 label {
-    display: block;
     font-size: .8rem;
 }
 

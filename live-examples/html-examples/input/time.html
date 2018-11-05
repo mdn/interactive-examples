@@ -1,19 +1,6 @@
-<fieldset>
-    <legend>Appointment details</legend>
+<label for="appt">Choose a time for your meeting:</label>
 
-    <div class="control">
-        <label for="appt-time">Time:</label>
-        <input type="time" id="appt-time" name="appt-time"
-               min="9:00" max="18:00" required />
-        <span class="hours">Office hours: 9AM to 6PM</span>
-    </div>
+<input type="time" id="appt" name="appt"
+       min="9:00" max="18:00" required>
 
-    <div class="control">
-        <label for="doctor">Doctor:</label>
-        <select id="doctor">
-            <option value="strangelove">Strangelove</option>
-            <option value="moreau">Moreau</option>
-            <option value="watson">Phibes</option>
-        </select>
-    </div>
-</fieldset>
+<span class="note">Office hours are 9am to 6pm</span>
