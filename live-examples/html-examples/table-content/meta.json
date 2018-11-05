@@ -6,7 +6,7 @@
             "fileName": "caption.html",
             "title": "HTML Demo: <caption>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-taller"
         },
         "col": {
             "exampleCode": "./live-examples/html-examples/table-content/col.html",
@@ -14,7 +14,7 @@
             "fileName": "col.html",
             "title": "HTML Demo: <col>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-taller"
         },
         "colgroup": {
             "exampleCode": "./live-examples/html-examples/table-content/colgroup.html",
@@ -22,7 +22,7 @@
             "fileName": "colgroup.html",
             "title": "HTML Demo: <colgroup>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-taller"
         },
         "table": {
             "exampleCode": "./live-examples/html-examples/table-content/table.html",
@@ -30,7 +30,7 @@
             "fileName": "table.html",
             "title": "HTML Demo: <table>",
             "type": "tabbed",
-            "height": "tabbed-taller"
+            "height": "tabbed-standard"
         },
         "tbody": {
             "exampleCode": "./live-examples/html-examples/table-content/tbody.html",
@@ -38,7 +38,7 @@
             "fileName": "tbody.html",
             "title": "HTML Demo: <tbody>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-taller"
         },
         "td": {
             "exampleCode": "./live-examples/html-examples/table-content/td.html",
@@ -46,7 +46,7 @@
             "fileName": "td.html",
             "title": "HTML Demo: <td>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-taller"
         },
         "tfoot": {
             "exampleCode": "./live-examples/html-examples/table-content/tfoot.html",
@@ -54,7 +54,7 @@
             "fileName": "tfoot.html",
             "title": "HTML Demo: <tfoot>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-taller"
         },
         "th": {
             "exampleCode": "./live-examples/html-examples/table-content/th.html",
@@ -62,7 +62,7 @@
             "fileName": "th.html",
             "title": "HTML Demo: <th>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-taller"
         },
         "thead": {
             "exampleCode": "./live-examples/html-examples/table-content/thead.html",
@@ -70,7 +70,7 @@
             "fileName": "thead.html",
             "title": "HTML Demo: <thead>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-taller"
         },
         "tr": {
             "exampleCode": "./live-examples/html-examples/table-content/tr.html",
@@ -78,7 +78,7 @@
             "fileName": "tr.html",
             "title": "HTML Demo: <tr>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-taller"
         }
     }
 }
