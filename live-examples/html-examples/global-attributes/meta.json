@@ -28,13 +28,13 @@
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-data.html",
             "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-data.css",
             "fileName": "attribute-data.html",
-            "title": "HTML Demo: data*",
+            "title": "HTML Demo: data-*",
             "type": "tabbed",
             "height": "tabbed-standard"
         },
         "dir": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-dir.html",
-            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-data.css",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-dir.css",
             "fileName": "attribute-dir.html",
             "title": "HTML Demo: dir",
             "type": "tabbed",
