@@ -1,9 +1,15 @@
-a[href^="http"]::before {
-  background: url(/media/examples/external-link-alt-solid.svg) no-repeat;
-  content: '';
-  display: inline-block;
-  margin-right: 3px;
-  opacity: .6;
-  width: .9em;
-  height: .8em;
+a[href^="https"]::before {
+  content: "🔗 ";
+}
+
+a[href^="mailto"]::before {
+  content: "📧 ";
+}
+
+a[href^="tel"]::before {
+  content: "📞 ";
+}
+
+li {
+  margin-bottom: .5rem;
 }
