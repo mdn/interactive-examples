@@ -42,11 +42,11 @@
         },
         "figcaption": {
             "exampleCode": "./live-examples/html-examples/text-content/figcaption.html",
-            "cssExampleSrc": "./live-examples/html-examples/text-content/css/figcaption.css",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/figure.css",
             "fileName": "figcaption.html",
             "title": "HTML Demo: <figcaption>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "figure": {
             "exampleCode": "./live-examples/html-examples/text-content/figure.html",
@@ -54,7 +54,7 @@
             "fileName": "figure.html",
             "title": "HTML Demo: <figure>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "hr": {
             "exampleCode": "./live-examples/html-examples/text-content/hr.html",
@@ -62,7 +62,7 @@
             "fileName": "hr.html",
             "title": "HTML Demo: <hr>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "li": {
             "exampleCode": "./live-examples/html-examples/text-content/li.html",
@@ -70,7 +70,7 @@
             "fileName": "li.html",
             "title": "HTML Demo: <li>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "main": {
             "exampleCode": "./live-examples/html-examples/text-content/main.html",
@@ -78,7 +78,7 @@
             "fileName": "main.html",
             "title": "HTML Demo: <main>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "ol": {
             "exampleCode": "./live-examples/html-examples/text-content/ol.html",
@@ -86,7 +86,7 @@
             "fileName": "ol.html",
             "title": "HTML Demo: <ol>",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "p": {
             "exampleCode": "./live-examples/html-examples/text-content/p.html",

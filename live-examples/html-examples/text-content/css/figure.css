@@ -2,8 +2,14 @@ figure {
     border: thin #c0c0c0 solid;
     display: flex;
     flex-flow: column;
-    margin: 0;
     padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
 }
 
 figcaption {

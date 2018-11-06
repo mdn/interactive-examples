@@ -1,9 +1,17 @@
-p,
-dl {
+.output {
     font: 1rem 'Fira Sans', sans-serif;
 }
 
-dl > dt {
+p,
+dt {
     font-weight: bold;
-    text-decoration: underline;
+}
+
+dl,
+dd {
+    font-size: .9rem;
+}
+
+dd {
+    margin-bottom: 1em;
 }

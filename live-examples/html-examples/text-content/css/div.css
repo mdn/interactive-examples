@@ -1,15 +1,3 @@
-.output {
-    font:  .9rem/1.5 sans-serif;
-}
-
-blockquote {
-    margin: 0;
-}
-
-p {
-    margin: .2rem;
-}
-
 .warning {
     border: 10px ridge #f00;
     background-color: #ff0;
@@ -25,8 +13,4 @@ p {
 .warning p {
     font: small-caps bold 1.2rem sans-serif;
     text-align: center;
-}
-
-cite {
-    font-size: .8rem;
 }

@@ -1,7 +1,8 @@
-ol li {
-    font-weight: bold;
+p,
+li {
+    font: 1rem 'Fira Sans', sans-serif;
 }
 
-ul li {
-    font-weight: normal;
+p {
+    font-weight: bold;
 }
