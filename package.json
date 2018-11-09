@@ -32,7 +32,7 @@
         "ajv": "6.5.5",
         "all-contributors-cli": "5.4.1",
         "chokidar-cli": "1.2.1",
-        "eslint": "5.8.0",
+        "eslint": "5.9.0",
         "http-server": "0.11.1",
         "mdn-bob": "1.1.17",
         "npm-run-all": "4.1.3",
