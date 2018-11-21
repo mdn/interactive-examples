@@ -1,14 +1,20 @@
 <pre>
-<code id="static-js">const object1 = { foo: 'bar', baz: 42 };
-console.log(Object.entries(object1)[1]);
-// expected output: Array ["baz", 42]
+<code id="static-js">const object = { 'foo': 'a', 'bar': 2};
+const entries = Object.entries(object);
 
-const object2 = { 0: 'a', 1: 'b', 2: 'c' };
-console.log(Object.entries(object2)[2]);
-// expected output: Array ["2", "c"]
+console.log(entries);
+// expected output: Array [Array ["foo", "a"], Array ["bar", 2]]
+// order is not guaranteed
 
-const result = Object.entries(object2).sort((a, b) => a[0] - b[0]);
-console.log(Object.entries(result)[1]);
-// expected output: Array ["1", Array ["1", "b"]]
+const sorted = [...entries].sort();
+console.log(sorted);
+// expected output: Array [Array ["bar", 2], Array ["foo", "a"]]
+
+for (let [key, value] of sorted) {  
+    console.log(`${key}: ${value}`);
+}
+// expected output:
+// "bar: 2"
+// "foo: a"
 </code>
 </pre>
