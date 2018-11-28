@@ -1,0 +1,19 @@
+<pre>
+<code id="static-js" data-height="taller">var rtf = new Intl.RelativeTimeFormat('en', { numeric: 'auto' });
+
+console.log(rtf.format(-1, 'day'));
+//expected output: "yesterday"
+
+console.log(rtf.format(2.15, 'day'));
+//expected output: "in 2.15 days"
+
+console.log(rtf.format(100, 'day'));
+//expected output: "in 100 days"
+
+console.log(rtf.format(0, 'day'));
+//expected output: "today"
+
+console.log(rtf.format(-0, 'day'));
+//expected output: "today"
+</code>
+</pre>

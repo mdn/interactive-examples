@@ -77,6 +77,12 @@
             "fileName": "intl-numberformat.html",
             "title": "JavaScript Demo: Intl.NumberFormat",
             "type": "js"
+        },
+        "intlRelativeTimeFormat": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-relativetimeformat.html",
+            "fileName": "intl-relativetimeformat.html",
+            "title": "JavaScript Demo: Intl.RelativeTimeFormat",
+            "type": "js"
         }
     }
 }
