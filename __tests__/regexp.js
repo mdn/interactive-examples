@@ -2,8 +2,8 @@
 describe(`Regular expressions are patterns used to match character combinations in strings. `, () => {
     it(`Creating a regular expression`, () => {
         const re = /ab+c/, re1 = new RegExp('ab+c');
-        expect(typeof re).toBe('object')
-        expect(typeof re1).toBe('object')
+        expect(re).toBeInstanceOf(Object)
+        expect(re1).toBeInstanceOf(Object).toBeInstanceOf(RegExp)
 
     });
     it(`Escaping user input that is to be treated as a literal string within a regular expression`, () => {
@@ -17,7 +17,7 @@ describe(`Regular expressions are patterns used to match character combinations 
     it(`uses the exec method to find a match in a string.`, () => {
         var myRe = /d(b+)d/g;
         var obj = myRe.exec('cdbbdbsbz');
-        expect(typeof obj).toBe('object')
+        expect(obj).toBeInstanceOf(Object)
         expect(obj).toContain("dbbd")
         expect(obj).toContain("bb")
         expect(obj.index).toBe(1)
@@ -48,5 +48,5 @@ describe(`Regular expressions are patterns used to match character combinations 
         var myArray = str.match(re);
         expect(myArray).toEqual(['fee ', 'fi ', 'fo ']);
     })
-    
+
 })
