@@ -32,7 +32,7 @@
     "start-server": "http-server -p 9090 ./docs",
     "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
     "start": "npm-run-all --parallel start-watch start-server",
-    "test": "NODE_DEBUG=performance node --inspect=127.0.0.1:7002 ./node_modules/jest/bin/jest.js --runInBand  --watch --env node"
+    "test": "node --inspect ./node_modules/jest/bin/jest.js --watch"
   },
   "keywords": [
     "javascript",

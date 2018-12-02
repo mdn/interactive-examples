@@ -4,7 +4,6 @@ describe(`Regular expressions are patterns used to match character combinations 
         const re = /ab+c/, re1 = new RegExp('ab+c');
         expect(re).toBeInstanceOf(Object)
         expect(re1).toBeInstanceOf(Object).toBeInstanceOf(RegExp)
-
     });
     it(`Escaping user input that is to be treated as a literal string within a regular expression`, () => {
         function escapeRegExp(string) {
