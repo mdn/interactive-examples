@@ -1,0 +1,12 @@
+@import 'fonts.css';
+
+@font-face {
+    src: url('/media/fonts/AmstelvarAlpha-VF.ttf');
+    font-family:'Amstelvar';
+    font-style: normal;
+}
+
+#output p {
+    font-size: 1.5rem;
+    font-family: Amstelvar;
+}

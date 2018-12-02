@@ -1,6 +1,6 @@
 {
     "name": "interactive-examples",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Interactive code exmaples embedded on MDN",
     "author": "Mozilla",
     "license": "MPL-2.0",
@@ -13,41 +13,13 @@
     },
     "homepage": "https://github.com/mdn/interactive-examples#readme",
     "main": "index.js",
-    "bundlesize": [
-        {
-            "path": "./docs/css/css-examples-libs-1-8-4.css",
-            "maxSize": "4 kB"
-        },
-        {
-            "path": "./docs/css/editor-js.css",
-            "maxSize": "1 kB"
-        },
-        {
-            "path": "./docs/js/editor-css.js",
-            "maxSize": "11 kB"
-        },
-        {
-            "path": "./docs/js/editor-js.js",
-            "maxSize": "4 kB"
-        }
-    ],
     "scripts": {
-        "debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
-        "build-css-bundle": "browserify js/editable-css.js -o js/editor-css-bundle.js",
-        "build-js-bundle": "browserify js/editable-js.js -o js/editor-js-bundle.js",
-        "build-tabbed-js-bundle": "browserify js/editor.js -o js/editor-bundle.js",
-        "build-pages": "node index.js",
-        "build": "npm-run-all build-css-bundle build-js-bundle build-tabbed-js-bundle build-pages",
-        "contributors:add": "all-contributors add",
+        "build": "mdn-bob",
         "contributors:generate": "all-contributors generate",
-        "start-server": "http-server ./docs",
-        "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
+        "start-server": "http-server -p 9090 ./docs",
+        "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
-        "perf": "bundlesize",
-        "unit-tests": "jest",
-        "test": "npm-run-all unit-tests build perf",
-        "test:watch": "jest --watch",
-        "precommit": "npm run test"
+        "unit-tests": "jest"
     },
     "keywords": [
         "javascript",
@@ -58,19 +30,19 @@
         "mozilla"
     ],
     "devDependencies": {
-        "all-contributors-cli": "^4.10.0",
-        "browserify": "^14.5.0",
-        "bundlesize": "^0.15.3",
-        "chokidar-cli": "^1.2.0",
-        "clean-css": "^4.1.8",
-        "concat": "^1.0.3",
-        "fs-extra": "^3.0.1",
-        "glob": "^7.1.2",
-        "http-server": "^0.10.0",
-        "husky": "^0.14.3",
-        "jest": "^21.2.1",
-        "node-dir": "^0.1.16",
-        "npm-run-all": "^4.0.2",
-        "uglify-es": "^3.0.3"
+        "ajv": "6.5.5",
+        "all-contributors-cli": "5.4.1",
+        "chokidar-cli": "1.2.1",
+        "eslint": "5.9.0",
+        "http-server": "0.11.1",
+        "mdn-bob": "1.1.20",
+        "npm-run-all": "4.1.5",
+        "prettier": "1.15.2",
+        "prettier-eslint": "8.8.2",
+        "prettier-stylelint": "0.4.2",
+        "stylelint": "9.8.0"
+    },
+    "dependencies": {
+        "npm": "^6.4.1"
     }
 }

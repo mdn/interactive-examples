@@ -1,0 +1,52 @@
+{
+    "pages": {
+        "area": {
+            "exampleCode": "./live-examples/html-examples/image-and-multimedia/area.html",
+            "cssExampleSrc": "./live-examples/html-examples/image-and-multimedia/css/area.css",
+            "fileName": "area.html",
+            "title": "HTML Demo: <area>",
+            "type": "tabbed",
+            "height": "tabbed-taller"
+        },
+        "audio": {
+            "exampleCode": "./live-examples/html-examples/image-and-multimedia/audio.html",
+            "cssExampleSrc": "./live-examples/html-examples/image-and-multimedia/css/audio.css",
+            "fileName": "audio.html",
+            "title": "HTML Demo: <audio>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "img": {
+            "exampleCode": "./live-examples/html-examples/image-and-multimedia/img.html",
+            "cssExampleSrc": "./live-examples/html-examples/image-and-multimedia/css/img.css",
+            "fileName": "img.html",
+            "title": "HTML Demo: <img>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "map": {
+            "exampleCode": "./live-examples/html-examples/image-and-multimedia/map.html",
+            "cssExampleSrc": "./live-examples/html-examples/image-and-multimedia/css/map.css",
+            "fileName": "map.html",
+            "title": "HTML Demo: <map>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "track": {
+            "exampleCode": "./live-examples/html-examples/image-and-multimedia/track.html",
+            "cssExampleSrc": "./live-examples/html-examples/image-and-multimedia/css/track.css",
+            "fileName": "track.html",
+            "title": "HTML Demo: <track>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "video": {
+            "exampleCode": "./live-examples/html-examples/image-and-multimedia/video.html",
+            "cssExampleSrc": "./live-examples/html-examples/image-and-multimedia/css/video.css",
+            "fileName": "video.html",
+            "title": "HTML Demo: <video>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        }
+    }
+}

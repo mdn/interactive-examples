@@ -1,0 +1,44 @@
+#example-element {
+    background-color: #1766aa;
+    color: white;
+    margin: auto;
+    margin-left: 0;
+    border: 5px solid #333;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.animating {
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-color: orange;
+        color: black;
+        margin-left: 0;
+    }
+    to {
+        background-color: orange;
+        color: black;
+        margin-left: 80%;
+    }
+}
+
+@keyframes slide {
+    from {
+        background-color: orange;
+        color: black;
+        margin-left: 0;
+    }
+    to {
+        background-color: orange;
+        color: black;
+        margin-left: 80%;
+    }
+}

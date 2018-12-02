@@ -1,0 +1,20 @@
+{
+    "pages": {
+        "details": {
+            "exampleCode": "./live-examples/html-examples/interactive-elements/details.html",
+            "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/details.css",
+            "fileName": "details.html",
+            "title": "HTML Demo: <details>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "summary": {
+            "exampleCode": "./live-examples/html-examples/interactive-elements/summary.html",
+            "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/summary.css",
+            "fileName": "summary.html",
+            "title": "HTML Demo: <summary>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        }
+    }
+}

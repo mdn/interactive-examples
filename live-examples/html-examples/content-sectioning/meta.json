@@ -1,0 +1,76 @@
+{
+    "pages": {
+        "address": {
+            "exampleCode": "./live-examples/html-examples/content-sectioning/address.html",
+            "cssExampleSrc": "./live-examples/html-examples/content-sectioning/css/address.css",
+            "fileName": "address.html",
+            "title": "HTML Demo: <address>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "article": {
+            "exampleCode": "./live-examples/html-examples/content-sectioning/article.html",
+            "cssExampleSrc": "./live-examples/html-examples/content-sectioning/css/article.css",
+            "fileName": "article.html",
+            "title": "HTML Demo: <article>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "aside": {
+            "exampleCode": "./live-examples/html-examples/content-sectioning/aside.html",
+            "cssExampleSrc": "./live-examples/html-examples/content-sectioning/css/aside.css",
+            "fileName": "aside.html",
+            "title": "HTML Demo: <aside>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "footer": {
+            "exampleCode": "./live-examples/html-examples/content-sectioning/footer.html",
+            "cssExampleSrc": "./live-examples/html-examples/content-sectioning/css/footer.css",
+            "fileName": "footer.html",
+            "title": "HTML Demo: <footer>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "h1-h6": {
+            "exampleCode": "./live-examples/html-examples/content-sectioning/h1-h6.html",
+            "cssExampleSrc": "./live-examples/html-examples/content-sectioning/css/h1-h6.css",
+            "fileName": "h1-h6.html",
+            "title": "HTML Demo: <h1-h6>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "header": {
+            "exampleCode": "./live-examples/html-examples/content-sectioning/header.html",
+            "cssExampleSrc": "./live-examples/html-examples/content-sectioning/css/header.css",
+            "fileName": "header.html",
+            "title": "HTML Demo: <header>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "hgroup": {
+            "exampleCode": "./live-examples/html-examples/content-sectioning/hgroup.html",
+            "cssExampleSrc": "./live-examples/html-examples/content-sectioning/css/hgroup.css",
+            "fileName": "hgroup.html",
+            "title": "HTML Demo: <hgroup>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "nav": {
+            "exampleCode": "./live-examples/html-examples/content-sectioning/nav.html",
+            "cssExampleSrc": "./live-examples/html-examples/content-sectioning/css/nav.css",
+            "fileName": "nav.html",
+            "title": "HTML Demo: <nav>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "section": {
+            "exampleCode": "./live-examples/html-examples/content-sectioning/section.html",
+            "cssExampleSrc": "./live-examples/html-examples/content-sectioning/css/section.css",
+            "fileName": "section.html",
+            "title": "HTML Demo: <section>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        }
+    }
+}

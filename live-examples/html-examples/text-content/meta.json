@@ -1,0 +1,116 @@
+{
+    "pages": {
+        "blockquote": {
+            "exampleCode": "./live-examples/html-examples/text-content/blockquote.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/blockquote.css",
+            "fileName": "blockquote.html",
+            "title": "HTML Demo: <blockquote>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "dd": {
+            "exampleCode": "./live-examples/html-examples/text-content/dd.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/dd.css",
+            "fileName": "dd.html",
+            "title": "HTML Demo: <dd>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "div": {
+            "exampleCode": "./live-examples/html-examples/text-content/div.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/div.css",
+            "fileName": "div.html",
+            "title": "HTML Demo: <div>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "dl": {
+            "exampleCode": "./live-examples/html-examples/text-content/dl.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/dl.css",
+            "fileName": "dl.html",
+            "title": "HTML Demo: <dl>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "dt": {
+            "exampleCode": "./live-examples/html-examples/text-content/dt.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/dt.css",
+            "fileName": "dt.html",
+            "title": "HTML Demo: <dt>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "figcaption": {
+            "exampleCode": "./live-examples/html-examples/text-content/figcaption.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/figure.css",
+            "fileName": "figcaption.html",
+            "title": "HTML Demo: <figcaption>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "figure": {
+            "exampleCode": "./live-examples/html-examples/text-content/figure.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/figure.css",
+            "fileName": "figure.html",
+            "title": "HTML Demo: <figure>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "hr": {
+            "exampleCode": "./live-examples/html-examples/text-content/hr.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/hr.css",
+            "fileName": "hr.html",
+            "title": "HTML Demo: <hr>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "li": {
+            "exampleCode": "./live-examples/html-examples/text-content/li.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/li.css",
+            "fileName": "li.html",
+            "title": "HTML Demo: <li>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "main": {
+            "exampleCode": "./live-examples/html-examples/text-content/main.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/main.css",
+            "fileName": "main.html",
+            "title": "HTML Demo: <main>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "ol": {
+            "exampleCode": "./live-examples/html-examples/text-content/ol.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/ol.css",
+            "fileName": "ol.html",
+            "title": "HTML Demo: <ol>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "p": {
+            "exampleCode": "./live-examples/html-examples/text-content/p.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/p.css",
+            "fileName": "p.html",
+            "title": "HTML Demo: <p>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "pre": {
+            "exampleCode": "./live-examples/html-examples/text-content/pre.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/pre.css",
+            "fileName": "pre.html",
+            "title": "HTML Demo: <pre>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "ul": {
+            "exampleCode": "./live-examples/html-examples/text-content/ul.html",
+            "cssExampleSrc": "./live-examples/html-examples/text-content/css/ul.css",
+            "fileName": "ul.html",
+            "title": "HTML Demo: <ul>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        }
+    }
+}

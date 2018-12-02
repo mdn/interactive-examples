@@ -1,0 +1,13 @@
+p,
+dl {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+dl > dt {
+    font-weight: normal;
+    font-style: oblique;
+}
+
+dd {
+    margin-bottom: 1rem;
+}

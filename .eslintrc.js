@@ -3,8 +3,12 @@ module.exports = {
         browser: true,
         es6: true,
         jest: true,
+        node: true
     },
     extends: 'eslint:recommended',
+    parserOptions: {
+        ecmaVersion: 8
+    },
     rules: {
         'no-global-assign': 2,
         indent: [2, 4],
@@ -22,7 +26,7 @@ module.exports = {
         'no-console': [
             'error',
             {
-                allow: ['error']
+                allow: ['log', 'error']
             }
         ],
         'one-var-declaration-per-line': [2, 'always'],
@@ -34,9 +38,13 @@ module.exports = {
         console: true,
         expect: true,
         exports: true,
+        getShadowRoot: true,
         module: true,
+        page: true,
         Prism: true,
         require: true,
+        ShadyCSS: true,
+        ShadyDOM: true,
         test: true
     }
 };

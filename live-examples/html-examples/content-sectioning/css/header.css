@@ -1,0 +1,19 @@
+header.page-header {
+    background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+}
+
+header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;
+    margin: 2%;
+}
+
+main {
+    font: 1rem 'Fira Sans', sans-serif;
+}

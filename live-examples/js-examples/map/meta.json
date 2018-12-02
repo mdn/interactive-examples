@@ -1,97 +1,73 @@
 {
     "pages": {
         "mapPrototype@@Iterator": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/map/map-prototype-@@iterator.html",
+            "exampleCode": "./live-examples/js-examples/map/map-prototype-@@iterator.html",
             "fileName": "map-prototype-@@iterator.html",
             "title": "JavaScript Demo: Map.prototype[@@iterator]()",
             "type": "js"
         },
         "mapPrototype@@ToStringTag": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/map/map-prototype-@@tostringtag.html",
+            "exampleCode": "./live-examples/js-examples/map/map-prototype-@@tostringtag.html",
             "fileName": "map-prototype-@@tostringtag.html",
             "title": "JavaScript Demo: Map.prototype[@@toStringTag]",
             "type": "js"
         },
         "mapPrototypeClear": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/map/map-prototype-clear.html",
+            "exampleCode": "./live-examples/js-examples/map/map-prototype-clear.html",
             "fileName": "map-prototype-clear.html",
             "title": "JavaScript Demo: Map.prototype.clear()",
             "type": "js"
         },
         "mapPrototypeDelete": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/map/map-prototype-delete.html",
+            "exampleCode": "./live-examples/js-examples/map/map-prototype-delete.html",
             "fileName": "map-prototype-delete.html",
             "title": "JavaScript Demo: Map.prototype.delete()",
             "type": "js"
         },
         "mapPrototypeEntries": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/map/map-prototype-entries.html",
+            "exampleCode": "./live-examples/js-examples/map/map-prototype-entries.html",
             "fileName": "map-prototype-entries.html",
             "title": "JavaScript Demo: Map.prototype.entries()",
             "type": "js"
         },
         "mapPrototypeForEach": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/map/map-prototype-foreach.html",
+            "exampleCode": "./live-examples/js-examples/map/map-prototype-foreach.html",
             "fileName": "map-prototype-foreach.html",
             "title": "JavaScript Demo: Map.prototype.forEach()",
             "type": "js"
         },
         "mapPrototypeGet": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/map/map-prototype-get.html",
+            "exampleCode": "./live-examples/js-examples/map/map-prototype-get.html",
             "fileName": "map-prototype-get.html",
             "title": "JavaScript Demo: Map.prototype.get()",
             "type": "js"
         },
         "mapPrototypeHas": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/map/map-prototype-has.html",
+            "exampleCode": "./live-examples/js-examples/map/map-prototype-has.html",
             "fileName": "map-prototype-has.html",
             "title": "JavaScript Demo: Map.prototype.has()",
             "type": "js"
         },
         "mapPrototypeKeys": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/map/map-prototype-keys.html",
+            "exampleCode": "./live-examples/js-examples/map/map-prototype-keys.html",
             "fileName": "map-prototype-keys.html",
             "title": "JavaScript Demo: Map.prototype.keys()",
             "type": "js"
         },
         "mapPrototypeSet": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/map/map-prototype-set.html",
+            "exampleCode": "./live-examples/js-examples/map/map-prototype-set.html",
             "fileName": "map-prototype-set.html",
             "title": "JavaScript Demo: Map.prototype.set()",
             "type": "js"
         },
         "mapPrototypeSize": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/map/map-prototype-size.html",
+            "exampleCode": "./live-examples/js-examples/map/map-prototype-size.html",
             "fileName": "map-prototype-size.html",
             "title": "JavaScript Demo: Map.prototype.size",
             "type": "js"
         },
         "mapPrototypeValues": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/map/map-prototype-values.html",
+            "exampleCode": "./live-examples/js-examples/map/map-prototype-values.html",
             "fileName": "map-prototype-values.html",
             "title": "JavaScript Demo: Map.prototype.values",
             "type": "js"

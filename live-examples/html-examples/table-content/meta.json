@@ -1,0 +1,84 @@
+{
+    "pages": {
+        "caption": {
+            "exampleCode": "./live-examples/html-examples/table-content/caption.html",
+            "cssExampleSrc": "./live-examples/html-examples/table-content/css/caption.css",
+            "fileName": "caption.html",
+            "title": "HTML Demo: <caption>",
+            "type": "tabbed",
+            "height": "tabbed-taller"
+        },
+        "col": {
+            "exampleCode": "./live-examples/html-examples/table-content/col.html",
+            "cssExampleSrc": "./live-examples/html-examples/table-content/css/col.css",
+            "fileName": "col.html",
+            "title": "HTML Demo: <col>",
+            "type": "tabbed",
+            "height": "tabbed-taller"
+        },
+        "colgroup": {
+            "exampleCode": "./live-examples/html-examples/table-content/colgroup.html",
+            "cssExampleSrc": "./live-examples/html-examples/table-content/css/colgroup.css",
+            "fileName": "colgroup.html",
+            "title": "HTML Demo: <colgroup>",
+            "type": "tabbed",
+            "height": "tabbed-taller"
+        },
+        "table": {
+            "exampleCode": "./live-examples/html-examples/table-content/table.html",
+            "cssExampleSrc": "./live-examples/html-examples/table-content/css/table.css",
+            "fileName": "table.html",
+            "title": "HTML Demo: <table>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "tbody": {
+            "exampleCode": "./live-examples/html-examples/table-content/tbody.html",
+            "cssExampleSrc": "./live-examples/html-examples/table-content/css/tbody.css",
+            "fileName": "tbody.html",
+            "title": "HTML Demo: <tbody>",
+            "type": "tabbed",
+            "height": "tabbed-taller"
+        },
+        "td": {
+            "exampleCode": "./live-examples/html-examples/table-content/td.html",
+            "cssExampleSrc": "./live-examples/html-examples/table-content/css/td.css",
+            "fileName": "td.html",
+            "title": "HTML Demo: <td>",
+            "type": "tabbed",
+            "height": "tabbed-taller"
+        },
+        "tfoot": {
+            "exampleCode": "./live-examples/html-examples/table-content/tfoot.html",
+            "cssExampleSrc": "./live-examples/html-examples/table-content/css/tfoot.css",
+            "fileName": "tfoot.html",
+            "title": "HTML Demo: <tfoot>",
+            "type": "tabbed",
+            "height": "tabbed-taller"
+        },
+        "th": {
+            "exampleCode": "./live-examples/html-examples/table-content/th.html",
+            "cssExampleSrc": "./live-examples/html-examples/table-content/css/th.css",
+            "fileName": "th.html",
+            "title": "HTML Demo: <th>",
+            "type": "tabbed",
+            "height": "tabbed-taller"
+        },
+        "thead": {
+            "exampleCode": "./live-examples/html-examples/table-content/thead.html",
+            "cssExampleSrc": "./live-examples/html-examples/table-content/css/thead.css",
+            "fileName": "thead.html",
+            "title": "HTML Demo: <thead>",
+            "type": "tabbed",
+            "height": "tabbed-taller"
+        },
+        "tr": {
+            "exampleCode": "./live-examples/html-examples/table-content/tr.html",
+            "cssExampleSrc": "./live-examples/html-examples/table-content/css/tr.css",
+            "fileName": "tr.html",
+            "title": "HTML Demo: <tr>",
+            "type": "tabbed",
+            "height": "tabbed-taller"
+        }
+    }
+}

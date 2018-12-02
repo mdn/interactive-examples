@@ -1,0 +1,34 @@
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+ul {
+    margin: 10px 0 0;
+}
+
+li {
+    position: relative;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+li:after {
+    content: 'Data ID: ' attr(data-id);
+    position: absolute;
+    top: -22px;
+    left: 10px;
+    background: black;
+    color: white;
+    padding: 2px;
+    border: 1px solid #eee;
+    opacity: 0;
+    transition: 0.5s opacity;
+}
+
+li:hover:after {
+    opacity: 1;
+}

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('FiraSans-Regular'),
+         url('../../../media/fonts/FiraSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#output section {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+#output code {
+    font-size: .8em;
+}

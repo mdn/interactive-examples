@@ -1,0 +1,252 @@
+{
+    "pages": {
+        "a": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/a.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/a.css",
+            "fileName": "a.html",
+            "title": "HTML Demo: <a>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "abbr": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/abbr.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/abbr.css",
+            "fileName": "abbr.html",
+            "title": "HTML Demo: <abbr>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "b": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/b.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/b.css",
+            "fileName": "b.html",
+            "title": "HTML Demo: <b>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "bdi": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/bdi.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/bdi.css",
+            "fileName": "bdi.html",
+            "title": "HTML Demo: <bdi>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "bdo": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/bdo.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/bdo.css",
+            "fileName": "bdo.html",
+            "title": "HTML Demo: <bdo>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "br": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/br.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/br.css",
+            "fileName": "br.html",
+            "title": "HTML Demo: <br>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "cite": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/cite.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/cite.css",
+            "fileName": "cite.html",
+            "title": "HTML Demo: <cite>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "code": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/code.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/code.css",
+            "fileName": "code.html",
+            "title": "HTML Demo: <code>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "data": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/data.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/data.css",
+            "fileName": "data.html",
+            "title": "HTML Demo: <data>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "dfn": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/dfn.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/dfn.css",
+            "fileName": "dfn.html",
+            "title": "HTML Demo: <dfn>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "em": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/em.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/em.css",
+            "fileName": "em.html",
+            "title": "HTML Demo: <em>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "i": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/i.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/i.css",
+            "fileName": "i.html",
+            "title": "HTML Demo: <i>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "kbd": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/kbd.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/kbd.css",
+            "fileName": "kbd.html",
+            "title": "HTML Demo: <kbd>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "mark": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/mark.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/mark.css",
+            "fileName": "mark.html",
+            "title": "HTML Demo: <mark>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "q": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/q.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/q.css",
+            "fileName": "q.html",
+            "title": "HTML Demo: <q>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "rb": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/rb.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/rb.css",
+            "fileName": "rb.html",
+            "title": "HTML Demo: <rb>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "rp": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/rp.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/rp.css",
+            "fileName": "rp.html",
+            "title": "HTML Demo: <rp>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "rt": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/rt.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/rt.css",
+            "fileName": "rt.html",
+            "title": "HTML Demo: <rt>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "rtc": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/rtc.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/rtc.css",
+            "fileName": "rtc.html",
+            "title": "HTML Demo: <rtc>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "ruby": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/ruby.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/ruby.css",
+            "fileName": "ruby.html",
+            "title": "HTML Demo: <ruby>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "s": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/s.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/s.css",
+            "fileName": "s.html",
+            "title": "HTML Demo: <s>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "samp": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/samp.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/samp.css",
+            "fileName": "samp.html",
+            "title": "HTML Demo: <samp>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "small": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/small.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/small.css",
+            "fileName": "small.html",
+            "title": "HTML Demo: <small>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "span": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/span.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/span.css",
+            "fileName": "span.html",
+            "title": "HTML Demo: <span>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "strong": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/strong.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/strong.css",
+            "fileName": "strong.html",
+            "title": "HTML Demo: <strong>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "sub": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/sub.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/sub.css",
+            "fileName": "sub.html",
+            "title": "HTML Demo: <sub>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "sup": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/sup.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/sup.css",
+            "fileName": "sup.html",
+            "title": "HTML Demo: <sup>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "time": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/time.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/time.css",
+            "fileName": "time.html",
+            "title": "HTML Demo: <time>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "u": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/u.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/u.css",
+            "fileName": "u.html",
+            "title": "HTML Demo: <u>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "var": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/var.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/var.css",
+            "fileName": "var.html",
+            "title": "HTML Demo: <var>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "wbr": {
+            "exampleCode": "./live-examples/html-examples/inline-text-semantics/wbr.html",
+            "cssExampleSrc": "./live-examples/html-examples/inline-text-semantics/css/wbr.css",
+            "fileName": "wbr.html",
+            "title": "HTML Demo: <wbr>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        }
+    }
+}

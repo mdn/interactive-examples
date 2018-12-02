@@ -1,0 +1,18 @@
+.output {
+    font: .9rem 'Fira Sans', sans-serif;
+}
+
+p {
+    font-style: italic;
+}
+
+div,
+label {
+    display: block;
+    letter-spacing: .5px;
+    margin-bottom: 1rem;
+}
+
+div:focus {
+    font-weight: bold;
+}

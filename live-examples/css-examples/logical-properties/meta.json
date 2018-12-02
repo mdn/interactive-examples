@@ -1,341 +1,239 @@
 {
     "pages": {
         "blockSize": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/block-size.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/block-size.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/block-size.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/block-size.html",
             "fileName": "block-size.html",
             "title": "CSS Demo: block-size",
             "type": "css"
         },
         "borderBlockEndColor": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border-color.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-block-end-color.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-color.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-block-end-color.html",
             "fileName": "border-block-end-color.html",
             "title": "CSS Demo: border-block-end-color",
             "type": "css"
         },
         "borderBlockEndStyle": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border-style.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-block-end-style.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-style.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-block-end-style.html",
             "fileName": "border-block-end-style.html",
             "title": "CSS Demo: border-block-end-style",
             "type": "css"
         },
         "borderBlockEndWidth": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border-width.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-block-end-width.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-width.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-block-end-width.html",
             "fileName": "border-block-end-width.html",
             "title": "CSS Demo: border-block-end-width",
             "type": "css"
         },
         "borderBlockEnd": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-block-end.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-block-end.html",
             "fileName": "border-block-end.html",
             "title": "CSS Demo: border-block-end",
             "type": "css"
         },
         "borderBlockStartColor": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border-color.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-block-start-color.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-color.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-block-start-color.html",
             "fileName": "border-block-start-color.html",
             "title": "CSS Demo: border-block-start-color",
             "type": "css"
         },
         "borderBlockStartStyle": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border-style.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-block-start-style.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-style.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-block-start-style.html",
             "fileName": "border-block-start-style.html",
             "title": "CSS Demo: border-block-start-style",
             "type": "css"
         },
         "borderBlockStartWidth": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border-width.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-block-start-width.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-width.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-block-start-width.html",
             "fileName": "border-block-start-width.html",
             "title": "CSS Demo: border-block-start-width",
             "type": "css"
         },
         "borderBlockStart": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-block-start.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-block-start.html",
             "fileName": "border-block-start.html",
             "title": "CSS Demo: border-block-start",
             "type": "css"
         },
         "borderInlineEndColor": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border-color.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-inline-end-color.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-color.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-inline-end-color.html",
             "fileName": "border-inline-end-color.html",
             "title": "CSS Demo: border-inline-end-color",
             "type": "css"
         },
         "borderInlineEndStyle": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border-style.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-inline-end-style.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-style.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-inline-end-style.html",
             "fileName": "border-inline-end-style.html",
             "title": "CSS Demo: border-inline-end-style",
             "type": "css"
         },
         "borderInlineEndWidth": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border-width.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-inline-end-width.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-width.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-inline-end-width.html",
             "fileName": "border-inline-end-width.html",
             "title": "CSS Demo: border-inline-end-width",
             "type": "css"
         },
         "borderInlineEnd": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-inline-end.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-inline-end.html",
             "fileName": "border-inline-end.html",
             "title": "CSS Demo: border-inline-end",
             "type": "css"
         },
         "borderInlineStartColor": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border-color.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-inline-start-color.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-color.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-inline-start-color.html",
             "fileName": "border-inline-start-color.html",
             "title": "CSS Demo: border-inline-start-color",
             "type": "css"
         },
         "borderInlineStartStyle": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border-style.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-inline-start-style.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-style.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-inline-start-style.html",
             "fileName": "border-inline-start-style.html",
             "title": "CSS Demo: border-inline-start-style",
             "type": "css"
         },
         "borderInlineStartWidth": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border-width.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-inline-start-width.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-width.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-inline-start-width.html",
             "fileName": "border-inline-start-width.html",
             "title": "CSS Demo: border-inline-start-width",
             "type": "css"
         },
         "borderInlineStart": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/border.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/border-inline-start.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-inline-start.html",
             "fileName": "border-inline-start.html",
             "title": "CSS Demo: border-inline-start",
             "type": "css"
         },
         "inlineSize": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/inline-size.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/inline-size.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/inline-size.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/inline-size.html",
             "fileName": "inline-size.html",
             "title": "CSS Demo: inline-size",
             "type": "css"
         },
+        "inset-block-end": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/inset-block-end.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/inset-block-end.html",
+            "fileName": "inset-block-end.html",
+            "title": "CSS Demo: inset-block-end",
+            "type": "css"
+        },
+        "inset-block-start": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/inset-block-start.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/inset-block-start.html",
+            "fileName": "inset-block-start.html",
+            "title": "CSS Demo: inset-block-start",
+            "type": "css"
+        },
+        "inset-inline-end": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/inset-inline-end.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/inset-inline-end.html",
+            "fileName": "inset-inline-end.html",
+            "title": "CSS Demo: inset-inline-end",
+            "type": "css"
+        },
+        "inset-inline-start": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/inset-inline-start.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/inset-inline-start.html",
+            "fileName": "inset-inline-start.html",
+            "title": "CSS Demo: inset-inline-start",
+            "type": "css"
+        },
         "marginBlockStart": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/margin-block.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/margin-block-start.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/margin-block.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/margin-block-start.html",
             "fileName": "margin-block-start.html",
             "title": "CSS Demo: margin-block-start",
             "type": "css"
         },
         "marginBlockEnd": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/margin-block.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/margin-block-end.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/margin-block.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/margin-block-end.html",
             "fileName": "margin-block-end.html",
             "title": "CSS Demo: margin-block-end",
             "type": "css"
         },
         "marginInlineEnd": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/margin-inline.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/margin-inline-end.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/margin-inline.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/margin-inline-end.html",
             "fileName": "margin-inline-end.html",
             "title": "CSS Demo: margin-inline-end",
             "type": "css"
         },
         "marginInlineStart": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/margin-inline.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/margin-inline-start.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/margin-inline.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/margin-inline-start.html",
             "fileName": "margin-inline-start.html",
             "title": "CSS Demo: margin-inline-start",
             "type": "css"
         },
         "max-block-size": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/block-size.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/max-block-size.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/block-size.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/max-block-size.html",
             "fileName": "max-block-size.html",
             "title": "CSS Demo: max-block-size",
             "type": "css"
         },
         "max-inline-size": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/inline-size.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/max-inline-size.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/inline-size.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/max-inline-size.html",
             "fileName": "max-inline-size.html",
             "title": "CSS Demo: max-inline-size",
             "type": "css"
         },
         "min-block-size": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/block-size.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/min-block-size.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/block-size.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/min-block-size.html",
             "fileName": "min-block-size.html",
             "title": "CSS Demo: min-block-size",
             "type": "css"
         },
         "min-inline-size": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/inline-size.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/min-inline-size.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/inline-size.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/min-inline-size.html",
             "fileName": "min-inline-size.html",
             "title": "CSS Demo: min-inline-size",
             "type": "css"
         },
-        "offset-block-end": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/offset-block-end.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/offset-block-end.html",
-            "fileName": "offset-block-end.html",
-            "title": "CSS Demo: offset-block-end",
-            "type": "css"
-        },
-        "offset-block-start": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/offset-block-start.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/offset-block-start.html",
-            "fileName": "offset-block-start.html",
-            "title": "CSS Demo: offset-block-start",
-            "type": "css"
-        },
-        "offset-inline-end": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/offset-inline-end.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/offset-inline-end.html",
-            "fileName": "offset-inline-end.html",
-            "title": "CSS Demo: offset-inline-end",
-            "type": "css"
-        },
-        "offset-inline-start": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/offset-inline-start.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/offset-inline-start.html",
-            "fileName": "offset-inline-start.html",
-            "title": "CSS Demo: offset-inline-start",
-            "type": "css"
-        },
         "paddingBlockEnd": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/padding.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/padding-block-end.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/padding.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/padding-block-end.html",
             "fileName": "padding-block-end.html",
             "title": "CSS Demo: padding-block-end",
             "type": "css"
         },
         "paddingBlockStart": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/padding.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/padding-block-start.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/padding.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/padding-block-start.html",
             "fileName": "padding-block-start.html",
             "title": "CSS Demo: padding-block-start",
             "type": "css"
         },
         "paddingInlineEnd": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/padding.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/padding-inline-end.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/padding.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/padding-inline-end.html",
             "fileName": "padding-inline-end.html",
             "title": "CSS Demo: padding-inline-end",
             "type": "css"
         },
         "paddingInlineStart": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/logical-properties/padding.css",
-            "exampleCode":
-                "live-examples/css-examples/logical-properties/padding-inline-start.html",
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/padding.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/padding-inline-start.html",
             "fileName": "padding-inline-start.html",
             "title": "CSS Demo: padding-inline-start",
             "type": "css"

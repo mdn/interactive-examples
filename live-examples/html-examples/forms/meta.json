@@ -1,0 +1,100 @@
+{
+    "pages": {
+        "button": {
+            "exampleCode": "./live-examples/html-examples/forms/button.html",
+            "cssExampleSrc": "./live-examples/html-examples/forms/css/button.css",
+            "fileName": "button.html",
+            "title": "HTML Demo: <button>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "datalist": {
+            "exampleCode": "./live-examples/html-examples/forms/datalist.html",
+            "cssExampleSrc": "./live-examples/html-examples/forms/css/datalist.css",
+            "fileName": "datalist.html",
+            "title": "HTML Demo: <datalist>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "fieldset": {
+            "exampleCode": "./live-examples/html-examples/forms/fieldset.html",
+            "cssExampleSrc": "./live-examples/html-examples/forms/css/fieldset.css",
+            "fileName": "fieldset.html",
+            "title": "HTML Demo: <fieldset>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "form": {
+            "exampleCode": "./live-examples/html-examples/forms/form.html",
+            "cssExampleSrc": "./live-examples/html-examples/forms/css/form.css",
+            "fileName": "form.html",
+            "title": "HTML Demo: <form>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "label": {
+            "exampleCode": "./live-examples/html-examples/forms/label.html",
+            "cssExampleSrc": "./live-examples/html-examples/forms/css/label.css",
+            "fileName": "label.html",
+            "title": "HTML Demo: <label>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "legend": {
+            "exampleCode": "./live-examples/html-examples/forms/legend.html",
+            "cssExampleSrc": "./live-examples/html-examples/forms/css/legend.css",
+            "fileName": "legend.html",
+            "title": "HTML Demo: <legend>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "meter": {
+            "exampleCode": "./live-examples/html-examples/forms/meter.html",
+            "cssExampleSrc": "./live-examples/html-examples/forms/css/meter.css",
+            "fileName": "meter.html",
+            "title": "HTML Demo: <meter>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "optgroup": {
+            "exampleCode": "./live-examples/html-examples/forms/optgroup.html",
+            "cssExampleSrc": "./live-examples/html-examples/forms/css/optgroup.css",
+            "fileName": "optgroup.html",
+            "title": "HTML Demo: <optgroup>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "option": {
+            "exampleCode": "./live-examples/html-examples/forms/option.html",
+            "cssExampleSrc": "./live-examples/html-examples/forms/css/option.css",
+            "fileName": "option.html",
+            "title": "HTML Demo: <option>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "progress": {
+            "exampleCode": "./live-examples/html-examples/forms/progress.html",
+            "cssExampleSrc": "./live-examples/html-examples/forms/css/progress.css",
+            "fileName": "progress.html",
+            "title": "HTML Demo: <progress>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "select": {
+            "exampleCode": "./live-examples/html-examples/forms/select.html",
+            "cssExampleSrc": "./live-examples/html-examples/forms/css/select.css",
+            "fileName": "select.html",
+            "title": "HTML Demo: <select>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "textarea": {
+            "exampleCode": "./live-examples/html-examples/forms/textarea.html",
+            "cssExampleSrc": "./live-examples/html-examples/forms/css/textarea.css",
+            "fileName": "textarea.html",
+            "title": "HTML Demo: <textarea>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        }
+    }
+}

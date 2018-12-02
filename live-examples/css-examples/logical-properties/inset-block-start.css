@@ -1,0 +1,16 @@
+#example-element {
+    border: .75em solid;
+    padding: .75em;
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    unicode-bidi: bidi-override;
+}
+
+#abspos {
+    background-color: yellow;
+    border: 3px solid red;
+    position: absolute;
+    inset-block-start: 50px;
+    inline-size: 140px;
+}

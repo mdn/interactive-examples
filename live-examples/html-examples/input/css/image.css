@@ -1,0 +1,16 @@
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+label {
+    font-size: .8rem;
+}
+
+label,
+input[type='image'] {
+    margin-top: 1rem;
+}
+
+input[type='image'] {
+    width: 80px;
+}

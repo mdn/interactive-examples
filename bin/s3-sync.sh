@@ -7,7 +7,7 @@ fi
 
 SHORT_CACHE="--cache-control max-age=1800" # 30 minutes
 LONG_CACHE="--cache-control max-age=2629800" # 1 month
-ARGS="--acl public-read --delete --profile mdninteractive"
+ARGS="--acl public-read --delete ${@:2}"
 cd docs
 
 for path in pages live-examples; do

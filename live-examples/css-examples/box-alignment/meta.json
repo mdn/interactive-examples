@@ -1,91 +1,64 @@
 {
     "pages": {
         "alignContent": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/box-alignment/align-content.css",
-            "exampleCode":
-                "live-examples/css-examples/box-alignment/align-content.html",
+            "cssExampleSrc": "./live-examples/css-examples/box-alignment/align-content.css",
+            "exampleCode": "./live-examples/css-examples/box-alignment/align-content.html",
             "fileName": "align-content.html",
             "title": "CSS Demo: align-content",
             "type": "css"
         },
         "alignItems": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/box-alignment/align-items.css",
-            "exampleCode":
-                "live-examples/css-examples/box-alignment/align-items.html",
+            "cssExampleSrc": "./live-examples/css-examples/box-alignment/align-items.css",
+            "exampleCode": "./live-examples/css-examples/box-alignment/align-items.html",
             "fileName": "align-items.html",
             "title": "CSS Demo: align-items",
             "type": "css"
         },
         "alignSelf": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/box-alignment/align-self.css",
-            "exampleCode":
-                "live-examples/css-examples/box-alignment/align-self.html",
+            "cssExampleSrc": "./live-examples/css-examples/box-alignment/align-self.css",
+            "exampleCode": "./live-examples/css-examples/box-alignment/align-self.html",
             "fileName": "align-self.html",
             "title": "CSS Demo: align-self",
             "type": "css"
         },
         "justifyContent": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/box-alignment/justify-content.css",
-            "exampleCode":
-                "live-examples/css-examples/box-alignment/justify-content.html",
+            "cssExampleSrc": "./live-examples/css-examples/box-alignment/justify-content.css",
+            "exampleCode": "./live-examples/css-examples/box-alignment/justify-content.html",
             "fileName": "justify-content.html",
             "title": "CSS Demo: justify-content",
             "type": "css"
         },
         "justifyItems": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/box-alignment/justify-items.css",
-            "exampleCode":
-                "live-examples/css-examples/box-alignment/justify-items.html",
+            "cssExampleSrc": "./live-examples/css-examples/box-alignment/justify-items.css",
+            "exampleCode": "./live-examples/css-examples/box-alignment/justify-items.html",
             "fileName": "justify-items.html",
             "title": "CSS Demo: justify-items",
             "type": "css"
         },
         "justifySelf": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/box-alignment/justify-self.css",
-            "exampleCode":
-                "live-examples/css-examples/box-alignment/justify-self.html",
+            "cssExampleSrc": "./live-examples/css-examples/box-alignment/justify-self.css",
+            "exampleCode": "./live-examples/css-examples/box-alignment/justify-self.html",
             "fileName": "justify-self.html",
             "title": "CSS Demo: justify-self",
             "type": "css"
         },
         "placeItems": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/box-alignment/place-items.css",
-            "exampleCode":
-                "live-examples/css-examples/box-alignment/place-items.html",
+            "cssExampleSrc": "./live-examples/css-examples/box-alignment/place-items.css",
+            "exampleCode": "./live-examples/css-examples/box-alignment/place-items.html",
             "fileName": "place-items.html",
             "title": "CSS Demo: place-items",
             "type": "css"
         },
         "placeContent": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/box-alignment/place-content.css",
-            "exampleCode":
-                "live-examples/css-examples/box-alignment/place-content.html",
+            "cssExampleSrc": "./live-examples/css-examples/box-alignment/place-content.css",
+            "exampleCode": "./live-examples/css-examples/box-alignment/place-content.html",
             "fileName": "place-content.html",
             "title": "CSS Demo: place-content",
             "type": "css"
         },
         "placeSelf": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/box-alignment/place-self.css",
-            "exampleCode":
-                "live-examples/css-examples/box-alignment/place-self.html",
+            "cssExampleSrc": "./live-examples/css-examples/box-alignment/place-self.css",
+            "exampleCode": "./live-examples/css-examples/box-alignment/place-self.html",
             "fileName": "place-self.html",
             "title": "CSS Demo: place-self",
             "type": "css"

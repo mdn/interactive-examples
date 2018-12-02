@@ -1,57 +1,43 @@
 {
     "pages": {
         "functionApply": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/function/function-apply.html",
+            "exampleCode": "./live-examples/js-examples/function/function-apply.html",
             "fileName": "function-apply.html",
             "title": "JavaScript Demo: Function.apply()",
             "type": "js"
         },
         "functionBind": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/function/function-bind.html",
+            "exampleCode": "./live-examples/js-examples/function/function-bind.html",
             "fileName": "function-bind.html",
             "title": "JavaScript Demo: Function.bind()",
             "type": "js"
         },
         "functionCall": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/function/function-call.html",
+            "exampleCode": "./live-examples/js-examples/function/function-call.html",
             "fileName": "function-call.html",
             "title": "JavaScript Demo: Function.call()",
             "type": "js"
         },
         "functionConstructor": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/function/function-constructor.html",
+            "exampleCode": "./live-examples/js-examples/function/function-constructor.html",
             "fileName": "function-constructor.html",
             "title": "JavaScript Demo: Function()",
             "type": "js"
         },
         "functionLength": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/function/function-length.html",
+            "exampleCode": "./live-examples/js-examples/function/function-length.html",
             "fileName": "function-length.html",
             "title": "JavaScript Demo: Function.length",
             "type": "js"
         },
         "functionName": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/function/function-name.html",
+            "exampleCode": "./live-examples/js-examples/function/function-name.html",
             "fileName": "function-name.html",
             "title": "JavaScript Demo: Function.name",
             "type": "js"
         },
         "functionToString": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode":
-                "live-examples/js-examples/function/function-tostring.html",
+            "exampleCode": "./live-examples/js-examples/function/function-tostring.html",
             "fileName": "function-tostring.html",
             "title": "JavaScript Demo: Function.toString()",
             "type": "js"

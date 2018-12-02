@@ -1,0 +1,11 @@
+{
+    "pages": {
+        "color": {
+            "cssExampleSrc": "./live-examples/css-examples/cssom-view/scroll-behavior.css",
+            "exampleCode": "./live-examples/css-examples/cssom-view/scroll-behavior.html",
+            "fileName": "scroll-behavior.html",
+            "title": "CSS Demo: scroll-behavior",
+            "type": "css"
+        }
+    }
+}

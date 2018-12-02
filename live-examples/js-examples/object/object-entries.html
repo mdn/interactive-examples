@@ -7,8 +7,8 @@ const object2 = { 0: 'a', 1: 'b', 2: 'c' };
 console.log(Object.entries(object2)[2]);
 // expected output: Array ["2", "c"]
 
-const object3 = { 100: 'a', 2: 'b', 7: 'c' };
-console.log(Object.entries(object3)[0]);
-// expected output: Array ["2", "b"]
+const result = Object.entries(object2).sort((a, b) => a - b);
+console.log(Object.entries(result)[1]);
+// expected output: Array ["1", Array ["1", "b"]]
 </code>
 </pre>

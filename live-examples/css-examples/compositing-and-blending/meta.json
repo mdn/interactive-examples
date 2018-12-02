@@ -1,31 +1,22 @@
 {
     "pages": {
         "backgroundBlendMode": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/compositing-and-blending/background-blend-mode.css",
-            "exampleCode":
-                "live-examples/css-examples/compositing-and-blending/background-blend-mode.html",
+            "cssExampleSrc": "./live-examples/css-examples/compositing-and-blending/background-blend-mode.css",
+            "exampleCode": "./live-examples/css-examples/compositing-and-blending/background-blend-mode.html",
             "fileName": "background-blend-mode.html",
             "title": "CSS Demo: background-blend-mode",
             "type": "css"
         },
         "isolation": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/compositing-and-blending/isolation.css",
-            "exampleCode":
-                "live-examples/css-examples/compositing-and-blending/isolation.html",
+            "cssExampleSrc": "./live-examples/css-examples/compositing-and-blending/isolation.css",
+            "exampleCode": "./live-examples/css-examples/compositing-and-blending/isolation.html",
             "fileName": "isolation.html",
             "title": "CSS Demo: isolation",
             "type": "css"
         },
         "mixBlendMode": {
-            "baseTmpl": "tmpl/live-css-tmpl.html",
-            "cssExampleSrc":
-                "../../live-examples/css-examples/compositing-and-blending/mix-blend-mode.css",
-            "exampleCode":
-                "live-examples/css-examples/compositing-and-blending/mix-blend-mode.html",
+            "cssExampleSrc": "./live-examples/css-examples/compositing-and-blending/mix-blend-mode.css",
+            "exampleCode": "./live-examples/css-examples/compositing-and-blending/mix-blend-mode.html",
             "fileName": "mix-blend-mode.html",
             "title": "CSS Demo: mix-blend-mode",
             "type": "css"

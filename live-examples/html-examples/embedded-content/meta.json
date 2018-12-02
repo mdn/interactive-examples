@@ -1,0 +1,44 @@
+{
+    "pages": {
+        "embed": {
+            "exampleCode": "./live-examples/html-examples/embedded-content/embed.html",
+            "cssExampleSrc": "./live-examples/html-examples/embedded-content/css/embed.css",
+            "fileName": "embed.html",
+            "title": "HTML Demo: <embed>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "iframe": {
+            "exampleCode": "./live-examples/html-examples/embedded-content/iframe.html",
+            "cssExampleSrc": "./live-examples/html-examples/embedded-content/css/iframe.css",
+            "fileName": "iframe.html",
+            "title": "HTML Demo: <iframe>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "object": {
+            "exampleCode": "./live-examples/html-examples/embedded-content/object.html",
+            "cssExampleSrc": "./live-examples/html-examples/embedded-content/css/object.css",
+            "fileName": "object.html",
+            "title": "HTML Demo: <object>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "picture": {
+            "exampleCode": "./live-examples/html-examples/embedded-content/picture.html",
+            "cssExampleSrc": "./live-examples/html-examples/embedded-content/css/picture.css",
+            "fileName": "picture.html",
+            "title": "HTML Demo: <picture>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "source": {
+            "exampleCode": "./live-examples/html-examples/embedded-content/source.html",
+            "cssExampleSrc": "./live-examples/html-examples/embedded-content/css/source.css",
+            "fileName": "source.html",
+            "title": "HTML Demo: <source>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        }
+    }
+}

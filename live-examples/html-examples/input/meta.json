@@ -1,0 +1,164 @@
+{
+    "pages": {
+        "button": {
+            "exampleCode": "./live-examples/html-examples/input/button.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/button.css",
+            "fileName": "input-button.html",
+            "title": "HTML Demo: <input type=\"button\">",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "checkbox": {
+            "exampleCode": "./live-examples/html-examples/input/checkbox.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/multiple-input.css",
+            "fileName": "input-checkbox.html",
+            "title": "HTML Demo: <input type=\"checkbox\">",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "color": {
+            "exampleCode": "./live-examples/html-examples/input/color.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/multiple-input.css",
+            "fileName": "input-color.html",
+            "title": "HTML Demo: <input type=\"color\">",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "date": {
+            "exampleCode": "./live-examples/html-examples/input/date.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
+            "fileName": "input-date.html",
+            "title": "HTML Demo: <input type=\"date\">",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "datetime-local": {
+            "exampleCode": "./live-examples/html-examples/input/datetime-local.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
+            "fileName": "input-datetime-local.html",
+            "title": "HTML Demo: <input type=\"datetime-local\">",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "email": {
+            "exampleCode": "./live-examples/html-examples/input/email.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
+            "fileName": "input-email.html",
+            "title": "HTML Demo: <input type=\"email\">",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "file": {
+            "exampleCode": "./live-examples/html-examples/input/file.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
+            "fileName": "input-file.html",
+            "title": "HTML Demo: <input type=\"file\">",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "image": {
+            "exampleCode": "./live-examples/html-examples/input/image.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/image.css",
+            "fileName": "input-image.html",
+            "title": "HTML Demo: <input type=\"image\">",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "month": {
+            "exampleCode": "./live-examples/html-examples/input/month.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
+            "fileName": "input-month.html",
+            "title": "HTML Demo: <input type=\"month\">",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "number": {
+            "exampleCode": "./live-examples/html-examples/input/number.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
+            "fileName": "input-number.html",
+            "title": "HTML Demo: <input type=\"number\">",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "password": {
+            "exampleCode": "./live-examples/html-examples/input/password.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/password.css",
+            "fileName": "input-password.html",
+            "title": "HTML Demo: <input type=\"password\">",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "radio": {
+            "exampleCode": "./live-examples/html-examples/input/radio.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/multiple-input.css",
+            "fileName": "input-radio.html",
+            "title": "HTML Demo: <input type=\"radio\">",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "range": {
+            "exampleCode": "./live-examples/html-examples/input/range.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/multiple-input.css",
+            "fileName": "input-range.html",
+            "title": "HTML Demo: <input type=\"range\">",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "reset": {
+            "exampleCode": "./live-examples/html-examples/input/reset.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/reset.css",
+            "fileName": "input-reset.html",
+            "title": "HTML Demo: <input type=\"reset\">",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "search": {
+            "exampleCode": "./live-examples/html-examples/input/search.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
+            "fileName": "input-search.html",
+            "title": "HTML Demo: <input type=\"search\">",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "tel": {
+            "exampleCode": "./live-examples/html-examples/input/tel.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
+            "fileName": "input-tel.html",
+            "title": "HTML Demo: <input type=\"tel\">",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "text": {
+            "exampleCode": "./live-examples/html-examples/input/text.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
+            "fileName": "input-text.html",
+            "title": "HTML Demo: <input type=\"text\">",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "time": {
+            "exampleCode": "./live-examples/html-examples/input/time.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
+            "fileName": "input-time.html",
+            "title": "HTML Demo: <input type=\"time\">",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
+        "url": {
+            "exampleCode": "./live-examples/html-examples/input/url.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
+            "fileName": "input-url.html",
+            "title": "HTML Demo: <input type=\"url\">",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "week": {
+            "exampleCode": "./live-examples/html-examples/input/week.html",
+            "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
+            "fileName": "input-week.html",
+            "title": "HTML Demo: <input type=\"week\">",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        }
+    }
+}

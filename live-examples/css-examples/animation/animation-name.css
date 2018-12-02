@@ -1,0 +1,66 @@
+#example-element {
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    background-color: #1766aa;
+    border-radius: 50%;
+    border: 5px solid #333;
+    color: white;
+    height: 150px;
+    margin-left: 0;
+    margin: auto;
+    width: 150px;
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-color: orange;
+        color: black;
+        margin-left: 0;
+    }
+    to {
+        background-color: orange;
+        color: black;
+        margin-left: 80%;
+    }
+}
+
+@keyframes slide {
+    from {
+        background-color: orange;
+        color: black;
+        margin-left: 0;
+    }
+    to {
+        background-color: orange;
+        color: black;
+        margin-left: 80%;
+    }
+}
+
+@-webkit-keyframes bounce {
+    from {
+        background-color: orange;
+        color: black;
+        margin-bottom: 0;
+    }
+    to {
+        background-color: orange;
+        color: black;
+        margin-bottom: 40%;
+    }
+}
+
+@keyframes bounce {
+    from {
+        background-color: orange;
+        color: black;
+        margin-top: 0;
+    }
+    to {
+        background-color: orange;
+        color: black;
+        margin-top: 40%;
+    }
+}
