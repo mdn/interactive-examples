@@ -19,7 +19,7 @@
         "start-server": "http-server -p 9090 ./docs",
         "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
-        "unit-tests": "jest"
+        "test": "jest"
     },
     "keywords": [
         "javascript",
