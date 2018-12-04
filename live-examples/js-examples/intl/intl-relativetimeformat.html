@@ -1,19 +1,15 @@
 <pre>
-<code id="static-js" data-height="taller">var rtf = new Intl.RelativeTimeFormat('en', { numeric: 'auto' });
+<code id="static-js">var rtf1 = new Intl.RelativeTimeFormat('en', { style: 'narrow' });
 
-console.log(rtf.format(-1, 'day'));
-//expected output: "yesterday"
+console.log(rtf1.format(3, 'quarter'));
+//expected output: "in 1 qtrs."
 
-console.log(rtf.format(2.15, 'day'));
-//expected output: "in 2.15 days"
+console.log(rtf1.format(-1, 'day'));
+//expected output: "1 day ago"
 
-console.log(rtf.format(100, 'day'));
-//expected output: "in 100 days"
+var rtf2 = new Intl.RelativeTimeFormat('es', { numeric: 'auto' });
 
-console.log(rtf.format(0, 'day'));
-//expected output: "today"
-
-console.log(rtf.format(-0, 'day'));
-//expected output: "today"
+console.log(rtf2.format(2, 'day'));
+//expected output: "pasado mañana"
 </code>
 </pre>
