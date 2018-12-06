@@ -590,6 +590,14 @@
                 "https://avatars3.githubusercontent.com/u/3752363?s=460&v=4",
             "profile": "https://github.com/ShadowMitia",
             "contributions": ["code"]
+        },
+        {
+            "login": "karlstolley",
+            "name": "Karl Stolley",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/170719?s=460&v=4",
+            "profile": "https://github.com/karlstolley",
+            "contributions": ["code"]
         }
     ]
 }
