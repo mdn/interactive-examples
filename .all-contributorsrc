@@ -614,6 +614,14 @@
                 "https://avatars3.githubusercontent.com/u/426803?s=460&v=4",
             "profile": "https://github.com/dholbert",
             "contributions": ["code"]
+        },
+        {
+            "login": "kevinsimper",
+            "name": "Kevin Simper",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/1126497?s=460&v=4",
+            "profile": "https://github.com/kevinsimper",
+            "contributions": ["code"]
         }
     ]
 }
