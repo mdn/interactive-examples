@@ -606,6 +606,14 @@
                 "https://avatars3.githubusercontent.com/u/1167181?s=460&v=4",
             "profile": "https://github.com/mamamusings",
             "contributions": ["code"]
+        },
+        {
+            "login": "dholbert",
+            "name": "Daniel Holbert",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/426803?s=460&v=4",
+            "profile": "https://github.com/dholbert",
+            "contributions": ["code"]
         }
     ]
 }
