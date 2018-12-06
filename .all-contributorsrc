@@ -622,6 +622,14 @@
                 "https://avatars3.githubusercontent.com/u/1126497?s=460&v=4",
             "profile": "https://github.com/kevinsimper",
             "contributions": ["code"]
+        },
+        {
+            "login": "romulocintra",
+            "name": "Romulo Cintra",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/1572026?s=460&v=4",
+            "profile": "https://github.com/romulocintra",
+            "contributions": ["code"]
         }
     ]
 }
