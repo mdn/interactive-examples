@@ -1,4 +1,4 @@
-.example-element {
+.scroller {
     text-align: left;
     width: 250px;
     height: 250px;
@@ -6,9 +6,10 @@
     display: flex;
     box-sizing: border-box;
     border: 1px solid black;
+    scroll-snap-type: x mandatory;
 }
 
-#example-element > div {
+.scroller > div {
     flex: 0 0 250px;
     width: 250px;
     background-color: rebeccapurple;
@@ -20,7 +21,7 @@
     scroll-snap-align: start;
 }
 
-#example-element > div:nth-child(even) {
+.scroller > div:nth-child(even) {
     background-color: #fff;
     color: rebeccapurple;
 }
