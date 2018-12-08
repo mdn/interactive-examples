@@ -63,6 +63,15 @@
             "title": "CSS Demo: font-style",
             "type": "css"
         },
+        "fontStretch": {
+            "baseTmpl": "tmpl/live-css-tmpl.html",
+            "cssExampleSrc":
+                "../../live-examples/css-examples/fonts/font-stretch.css",
+            "exampleCode": "live-examples/css-examples/fonts/font-stretch.html",
+            "fileName": "font-stretch.html",
+            "title": "CSS Demo: font-stretch",
+            "type": "css"
+        },
         "fontSynthesis": {
             "cssExampleSrc": "./live-examples/css-examples/fonts/font-synthesis.css",
             "exampleCode": "./live-examples/css-examples/fonts/font-synthesis.html",
