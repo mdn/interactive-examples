@@ -41,7 +41,7 @@
             "fileName": "function-repeating-radial-gradient.html",
             "title": "CSS Demo: repeating-radial-gradient()",
             "type": "css"
-        }, 
+        },
         "objectFit": {
             "cssExampleSrc": "./live-examples/css-examples/images/object-fit.css",
             "exampleCode": "./live-examples/css-examples/images/object-fit.html",
