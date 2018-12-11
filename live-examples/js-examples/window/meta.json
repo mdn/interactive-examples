@@ -1,0 +1,10 @@
+{
+    "pages": {
+        "stringCharAt": {
+            "exampleCode": "./live-examples/js-examples/window/window-alert.html",
+            "fileName": "window-alert.html",
+            "title": "JavaScript Demo: window.alert()",
+            "type": "js"
+        }
+    }
+}
