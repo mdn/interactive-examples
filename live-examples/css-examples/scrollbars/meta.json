@@ -1,0 +1,18 @@
+{
+  "pages": {
+      "scrollbar-color": {
+          "cssExampleSrc": "./live-examples/css-examples/scrollbars/scrollbar-common.css",
+          "exampleCode": "./live-examples/css-examples/scrollbars/scrollbar-color.html",
+          "fileName": "scrollbar-color.html",
+          "title": "CSS Demo: scrollbar-color",
+          "type": "css"
+      },
+      "scrollbar-width": {
+        "cssExampleSrc": "./live-examples/css-examples/scrollbars/scrollbar-common.css",
+        "exampleCode": "./live-examples/css-examples/scrollbars/scrollbar-width.html",
+        "fileName": "scrollbar-width.html",
+        "title": "CSS Demo: scrollbar-width",
+        "type": "css"
+    }
+  }
+}
