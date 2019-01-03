@@ -1,12 +1,12 @@
 <pre>
-<code id="static-js">var array1 = [1, 2, 3, 4, 5];
+<code id="static-js">var array1 = ['a', 'b', 'c', 'd', 'e'];
 
-// place at position 0 the element between position 2 and 4
+// copy to index 0 the element at index 3
 console.log(array1.copyWithin(0, 3, 4));
-// expected output: Array [4, 2, 3, 4, 5]
+// expected output: Array ["d", "b", "c", "d", "e"]
 
-// place at position 1 the elements after position 3
+// copy to index 1 all elements from index 3 to the end
 console.log(array1.copyWithin(1, 3));
-// expected output: Array [4, 4, 5, 4, 5]
+// expected output: Array ["d", "d", "e", "d", "e"]
 </code>
 </pre>
