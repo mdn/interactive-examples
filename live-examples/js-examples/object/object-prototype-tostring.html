@@ -1,13 +1,16 @@
 <pre>
-<code id="static-js">function Dog(name) {
-  this.name = name;
+<code id="static-js">
+class Dog {
+  constructor(name) {
+    this.name = name;
+  }
+  
+  toString() { 
+    return '' + this.name; 
+  }
 }
 
-dog1 = new Dog('Gabby');
-
-Dog.prototype.toString = function dogToString() {
-  return this.name;
-}
+const dog1 = new Dog('Gabby');
 
 console.log(dog1.toString());
 // expected output: "Gabby"
