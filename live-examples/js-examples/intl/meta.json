@@ -54,6 +54,12 @@
             "title": "JavaScript Demo: Intl.GetCanonicalLocales",
             "type": "js"
         },
+        "intlListFormat": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-listformat.html",
+            "fileName": "intl-listformat.html",
+            "title": "JavaScript Demo: Intl.ListFormat",
+            "type": "js"
+        },
         "intlNumberFormatPrototypeFormat": {
             "exampleCode": "./live-examples/js-examples/intl/intl-numberformat-prototype-format.html",
             "fileName": "intl-numberformat-prototype-format.html",
