@@ -1,26 +1,24 @@
-.default-example {
-    flex-wrap: wrap;
-}
-
 .default-example .info {
-    width: 100%;
+    inline-size: 100%;
     padding: .5em 0;
     font-size: 90%;
+    writing-mode: vertical-rl;
 }
 
-#example-element {
+.scroller {
     text-align: left;
-    width: 250px;
     height: 250px;
-    overflow-x: scroll;
+    width: 270px;
+    overflow-y: scroll;
     display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     border: 1px solid black;
+    scroll-snap-type: y mandatory;
 }
 
-#example-element > div {
+.scroller > div {
     flex: 0 0 250px;
-    width: 250px;
     background-color: rebeccapurple;
     color: #fff;
     font-size: 30px;
@@ -30,7 +28,7 @@
     scroll-snap-align: start;
 }
 
-#example-element > div:nth-child(even) {
+.scroller > div:nth-child(even) {
     background-color: #fff;
     color: rebeccapurple;
 }

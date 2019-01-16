@@ -1,20 +1,19 @@
-<section id="example-choice-list" class="example-choice-list large" data-property="scroll-snap-type">
+<section id="example-choice-list" class="example-choice-list large" data-property="scroll-padding-inline-end">
     <div class="example-choice" initial-choice="true">
-        <pre><code class="language-css">scroll-snap-type: none;</code></pre>
+        <pre><code class="language-css">scroll-padding-inline-end: 0;</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+    <div class="example-choice">
+        <pre><code class="language-css">scroll-padding-inline-end: 20px;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
     </div>
 
     <div class="example-choice">
-        <pre><code class="language-css">scroll-snap-type: x mandatory;</code></pre>
-        <button type="button" class="copy hidden" aria-hidden="true">
-            <span class="visually-hidden">Copy to Clipboard</span>
-        </button>
-    </div>
-
-    <div class="example-choice">
-        <pre><code class="language-css">scroll-snap-type: x proximity;</code></pre>
+        <pre><code class="language-css">scroll-padding-inline-end: 2em;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
@@ -22,10 +21,8 @@
 </section>
 
 <div id="output" class="output large hidden">
-
     <section id="default-example" class="default-example">
-
-        <div id="example-element">
+        <div class="scroller" id="example-element">
             <div>1</div>
             <div>2</div>
             <div>3</div>
