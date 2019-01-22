@@ -1,0 +1,36 @@
+<pre>
+<code id="static-js" data-height="taller" class="language-js">
+  // Creates an async iterator over some data stream.
+  async function* streamAsyncIterator(stream) {
+    const reader = stream.getReader();
+    try {
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) {
+          return;
+        }
+        yield value;
+      }
+    } finally {
+    reader.releaseLock();
+    }
+  }
+  // Fetches data from url and calculates response size using the async iterator.
+  async function getResponseSize(url) {
+
+    const response = await fetch(url);
+    // Will hold the size of the response, in bytes.
+    let total = 0;
+    // The for-await-of loop. Async iterates over each portion of the response.
+    for await (const chunk of streamAsyncIterator(response.body)) {
+      // Incrementing the total response length.
+      total += chunk.length;
+    }
+    return total;
+  }
+  var streamSize = await getResponseSize("https://jsonplaceholder.typicode.com/photos");
+
+  console.log('Size: ' + streamSize);
+  // Expected output: "Size: 1071472"
+</code>
+</pre>
