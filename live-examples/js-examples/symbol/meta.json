@@ -13,7 +13,7 @@
             "type": "js"
         },
         "symbolForAwaitOf": {
-            "exampleCode": "./live-examples/js-examples/symbol/symobol-for-await-of.html",
+            "exampleCode": "./live-examples/js-examples/symbol/symbol-for-await-of.html",
             "fileName": "symbol-for-await-of.html",
             "title": "JavaScript Demo: for await... of",
             "type": "js"
