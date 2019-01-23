@@ -1,6 +1,5 @@
 <pre>
-<code id="static-js" data-height="taller" class="language-js">
-// Creates an async iterator over some data stream.
+<code id="static-js" data-height="taller" class="language-js">// Creates an async iterator over some data stream.
 async function* streamAsyncIterator(stream) {
   const reader = stream.getReader();
   try {
@@ -27,7 +26,7 @@ async function getResponseSize(url) {
   }
   
   console.log(`Reponse Size: ${responseSize} bytes`);
-  // expected output: "Size: 1071472"
+  // expected output: "Response Size: 1071472"
   return responseSize;
 }
 getResponseSize('https://jsonplaceholder.typicode.com/photos');
