@@ -1,0 +1,11 @@
+<pre>
+<code id="static-js">var rtf1 = new Intl.RelativeTimeFormat('en', { numeric: 'auto' });
+console.log(rtf1.formatToParts(-1, 'day'));
+// expected output: [{ type: "literal", value: "yesterday"}]
+
+console.log(rtf1.formatToParts(10, 'seconds'));
+// expected output:  [{ type: "literal", value: "in " },
+//                    { type: "integer", value: "10", unit: "second" },
+//                    { type: "literal", value: " seconds" }]
+</code>
+</pre>

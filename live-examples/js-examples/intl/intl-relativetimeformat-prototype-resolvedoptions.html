@@ -1,0 +1,15 @@
+<pre>
+<code id="static-js">var rtf1 = new Intl.RelativeTimeFormat('de-DE');
+var options1 = rtf1.resolvedOptions();
+
+console.log(options1.locale);
+// expected output (Firefox / Safari): "de-DE"
+// expected output (Chrome): "de"
+
+console.log(options1.style);
+// expected output: "long"
+
+console.log(options1.numeric);
+// expected output: "always"
+</code>
+</pre>
