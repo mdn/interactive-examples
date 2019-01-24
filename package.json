@@ -42,6 +42,6 @@
         "stylelint": "9.9.0"
     },
     "dependencies": {
-        "npm": "^6.4.1"
+        "npm": "^6.6.0"
     }
 }
