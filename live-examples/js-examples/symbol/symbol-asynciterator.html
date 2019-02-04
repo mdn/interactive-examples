@@ -1,13 +1,19 @@
 <pre>
-<code id="static-js">const iterable1 = new Object();
+<code id="static-js">const iterable = {};
 
-iterable1[Symbol.iterator] = function* () {
-  yield 1;
-  yield 2;
-  yield 3;
+iterable[Symbol.asyncIterator] = function* () {
+  let retVal = 0;
+  return new Promise((resolve, reject) => {
+    retVal++;
+    resolve(retVal);
+  });
 };
 
-console.log([...iterable1]);
-// expected output: Array [1, 2, 3]
+(async () => {
+  for await (const item of iterable) {
+    // expected output: 1 2 3
+    console.log(item);
+  }
+})();
 </code>
 </pre>
