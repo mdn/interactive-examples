@@ -1,13 +1,6 @@
-.default-example {
-    display: flex;
-}
-
-.default-example > div {
-    background-color: lemonchiffon;
-    padding: .75em;
-    width: 200px;
-}
-
 #example-element {
     background-color: gold;
+    padding: .75em;
+    width: 200px;
+    height: 200px;
 }
