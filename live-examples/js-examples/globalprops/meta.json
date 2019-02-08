@@ -30,6 +30,12 @@
             "title": "JavaScript Demo: Standard built-in objects - eval()",
             "type": "js"
         },
+        "globalpropsGlobalThis": {
+            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-globalthis.html",
+            "fileName": "globalprops-globalthis.html",
+            "title": "JavaScript Demo: Standard built-in objects - globalThis",
+            "type": "js"
+        },
         "globalpropsInfinity": {
             "exampleCode": "./live-examples/js-examples/globalprops/globalprops-infinity.html",
             "fileName": "globalprops-infinity.html",
