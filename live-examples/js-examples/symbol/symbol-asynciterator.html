@@ -1,0 +1,14 @@
+<pre>
+<code id="static-js" class="language-js">const asyncIterable1 = new Object();
+asyncIterable1[Symbol.asyncIterator] = async function*() {
+  yield "hello";
+  yield "async";
+  yield "iteration!";
+};
+(async () => {
+  for await (const x of asyncIterable1) {
+    console.log(x);
+    // Expected output: "hello" "async" "iteration!"
+  }
+})();</code>
+</pre>
