@@ -1,5 +1,10 @@
 <pre>
 <code id="static-js">var months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 1);
+// starting from index 1 remove 1 element or remove the second element
+console.log(months);
+// expected output: Array ["Jan", "April", "June"]
+
 months.splice(1, 0, 'Feb');
 // inserts at 1st index position
 console.log(months);
