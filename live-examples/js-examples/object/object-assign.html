@@ -1,25 +1,13 @@
 <pre>
-<code id="static-js">
-const object1 = {
-  a: 1,
-  b: 2,
-  c: 3
-};
+<code id="static-js">const target = { a: 1, b: 2 };
+const source = { b: 4, c: 5 };
 
-const object2 = Object.assign({c: 4, d: 5}, object1);
+const returnedTarget = Object.assign(target, source);
 
-console.log(object2.c, object2.d);
-// expected output: 3 5
+console.log(target);
+// expected output: Object { a: 1, b: 4, c: 5 }
 
-// NOTE: if the target argument is an existing variable, it's value also gets mutated regardless of whether it gets assigned to a new variable
-const object3 = Object.assign(object1, {c: 4, d: 5});
-
-console.log(object3);
-// expected output: { a: 1, b: 2, c: 4, d: 5 }
-
-console.log(object1);
-// expected output: { a: 1, b: 2, c: 4, d: 5 }
-
-console.log
+console.log(returnedTarget);
+// expected output: Object { a: 1, b: 4, c: 5 }
 </code>
 </pre>
