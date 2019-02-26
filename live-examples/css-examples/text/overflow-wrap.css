@@ -1,6 +1,7 @@
 .example-container {
     background-color: gold;
     padding: .75em;
-    max-width: 14em;
+    width: min-content;
+    max-width: 11em;
     height: 200px;
 }
