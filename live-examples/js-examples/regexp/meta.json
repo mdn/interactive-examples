@@ -24,6 +24,12 @@
             "title": "JavaScript Demo: RegExp.prototype[@@match]",
             "type": "js"
         },
+        "regexpPrototype@@MatchAll": {
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-@@matchall.html",
+            "fileName": "regexp-prototype-@@matchall.html",
+            "title": "JavaScript Demo: RegExp.prototype[@@matchAll]",
+            "type": "js"
+        },
         "regexpPrototype@@Replace": {
             "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-@@replace.html",
             "fileName": "regexp-prototype-@@replace.html",

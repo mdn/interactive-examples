@@ -1,0 +1,13 @@
+<pre>
+<code id="static-js">var regexp = /t(e)(st(\d?))/g;
+var str = 'test1test2';
+
+let array = [...str.matchAll(regexp)];
+
+console.log(array[0]);
+// expected output: ['test1', 'e', 'st1', '1']
+
+console.log(array[1]);
+// expected output: ['test2', 'e', 'st2', '2']
+</code>
+</pre>

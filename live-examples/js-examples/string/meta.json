@@ -85,6 +85,12 @@
             "title": "JavaScript Demo: String.match()",
             "type": "js"
         },
+        "stringMatchAll": {
+            "exampleCode": "./live-examples/js-examples/string/string-matchall.html",
+            "fileName": "string-matchall.html",
+            "title": "JavaScript Demo: String.matchAll()",
+            "type": "js"
+        },
         "stringNormalize": {
             "exampleCode": "./live-examples/js-examples/string/string-normalize.html",
             "fileName": "string-normalize.html",

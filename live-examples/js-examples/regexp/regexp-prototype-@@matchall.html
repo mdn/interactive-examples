@@ -1,0 +1,16 @@
+<pre>
+<code id="static-js">class MyRegExp extends RegExp {
+    [Symbol.matchAll](str) {
+        var result = RegExp.prototype[Symbol.matchAll].call(this, str);
+        if (!result) return null;
+        return Array.from(result);
+    }
+}
+var re = new MyRegExp('([0-9]+)-([0-9]+)-([0-9]+)', 'g');
+var result = '2016-01-02|2019-03-07'.matchAll(re);
+console.log(result[0]);
+// expected output: [ "2016-01-02", "2016", "01", "02" ]
+console.log(result[1]);
+// expected output: [ "2019-03-07", "2019", "03", "07" ]
+</code>
+</pre>

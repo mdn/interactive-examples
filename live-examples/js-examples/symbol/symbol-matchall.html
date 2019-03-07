@@ -1,0 +1,9 @@
+<pre>
+<code id="static-js">var re = /[0-9]+/g;
+var str = '2016-01-02|2019-03-07';
+var result = re[Symbol.matchAll](str);
+
+console.log(Array.from(result, x => x[0]));
+// expected output: ["2016", "01", "02", "2019", "03", "07"]
+</code>
+</pre>
