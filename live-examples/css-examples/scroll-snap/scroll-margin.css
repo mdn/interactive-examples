@@ -1,0 +1,37 @@
+.default-example {
+    flex-wrap: wrap;
+}
+
+.default-example .info {
+    width: 100%;
+    padding: .5em 0;
+    font-size: 90%;
+}
+
+.scroller {
+    text-align: left;
+    width: 250px;
+    height: 250px;
+    overflow-x: scroll;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid black;
+    scroll-snap-type: x mandatory;
+}
+
+.scroller > div {
+    flex: 0 0 250px;
+    width: 250px;
+    background-color: rebeccapurple;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+.scroller > div:nth-child(even) {
+    background-color: #fff;
+    color: rebeccapurple;
+}

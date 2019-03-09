@@ -8,6 +8,13 @@
     </div>
 
     <div class="example-choice" initial-choice="true">
+        <pre><code class="language-css">overflow-wrap: anywhere;</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+
+    <div class="example-choice" initial-choice="true">
         <pre><code class="language-css">overflow-wrap: break-word;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
@@ -18,6 +25,6 @@
 
 <div id="output" class="output large hidden">
     <section id="default-example" class="default-example">
-        <div id="example-element" class="transition-all">Most of this text uses short words that won't need to break. However, <b>Antidisestablishmentarianism</b> is a very long word!</div>
+        <div class="example-container">Most words are short &amp; don't need to break. But <b class="transition-all" id="example-element">Antidisestablishmentarianism</b> is long. The width is set to min-content, with a max-width of 11em.</div>
     </section>
 </div>

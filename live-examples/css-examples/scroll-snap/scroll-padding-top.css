@@ -1,0 +1,34 @@
+.default-example .info {
+    inline-size: 100%;
+    padding: .5em 0;
+    font-size: 90%;
+    writing-mode: vertical-rl;
+}
+
+.scroller {
+    text-align: left;
+    height: 250px;
+    width: 270px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid black;
+    scroll-snap-type: y mandatory;
+}
+
+.scroller > div {
+    flex: 0 0 250px;
+    background-color: rebeccapurple;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+.scroller > div:nth-child(even) {
+    background-color: #fff;
+    color: rebeccapurple;
+}

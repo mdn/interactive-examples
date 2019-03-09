@@ -590,6 +590,54 @@
                 "https://avatars3.githubusercontent.com/u/3752363?s=460&v=4",
             "profile": "https://github.com/ShadowMitia",
             "contributions": ["code"]
+        },
+        {
+            "login": "karlstolley",
+            "name": "Karl Stolley",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/170719?s=460&v=4",
+            "profile": "https://github.com/karlstolley",
+            "contributions": ["code"]
+        },
+        {
+            "login": "mamamusings",
+            "name": "Liz Lawley",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/1167181?s=460&v=4",
+            "profile": "https://github.com/mamamusings",
+            "contributions": ["code"]
+        },
+        {
+            "login": "dholbert",
+            "name": "Daniel Holbert",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/426803?s=460&v=4",
+            "profile": "https://github.com/dholbert",
+            "contributions": ["code"]
+        },
+        {
+            "login": "kevinsimper",
+            "name": "Kevin Simper",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/1126497?s=460&v=4",
+            "profile": "https://github.com/kevinsimper",
+            "contributions": ["code"]
+        },
+        {
+            "login": "romulocintra",
+            "name": "Romulo Cintra",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/1572026?s=460&v=4",
+            "profile": "https://github.com/romulocintra",
+            "contributions": ["code"]
+        },
+        {
+            "login": "ichthub",
+            "name": "Hassan",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/18748390?s=460&v=4",
+            "profile": "https://github.com/ichthub",
+            "contributions": ["code"]
         }
     ]
 }
