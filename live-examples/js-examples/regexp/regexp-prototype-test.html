@@ -9,10 +9,10 @@ console.log(regex1.test(str1));
 console.log(regex1.test(str1));
 // expected output: true
 
-console.log(regex2.test(str1));
-// expected output: true
+console.log(regex2.test(str1), regex2.lastIndex);
+// expected output: true 9
 
-console.log(regex2.test(str1));
-// expected output: false
+console.log(regex2.test(str1), regex2.lastIndex);
+// expected output: false 0
 </code>
 </pre>
