@@ -35,6 +35,13 @@
             "title": "CSS Demo: scroll-margin-bottom",
             "type": "css"
         },
+        "scrollMarginInline": {
+            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-right.css",
+            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-inline.html",
+            "fileName": "scroll-margin-inline.html",
+            "title": "CSS Demo: scroll-margin-inline",
+            "type": "css"
+        },
         "scrollMarginInlineEnd": {
             "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-right.css",
             "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-inline-end.html",
