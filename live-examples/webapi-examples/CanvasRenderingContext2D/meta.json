@@ -1,0 +1,13 @@
+{
+    "pages": {
+        "setTransform": {
+            "exampleCode": "./live-examples/webapi-examples/CanvasRenderingContext2D/setTransform/canvas2D-setTransform.html",
+            "jsExampleSrc": "./live-examples/webapi-examples/CanvasRenderingContext2D/setTransform/js/canvas2D-setTransform.js",
+            "fileName": "canvas2D-setTransform.html",
+            "title": "Web API Demo: CanvasRenderingContext2D.setTransform() and CanvasRenderingContext2D.clearReact()",
+            "height": "tabbed-standard",
+            "type": "webapi-tabbed",
+            "tabs": "html,js"
+        }
+    }
+}
