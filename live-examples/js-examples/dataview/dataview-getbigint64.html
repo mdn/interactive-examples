@@ -1,0 +1,11 @@
+<pre>
+<code id="static-js">// create an ArrayBuffer with a size in bytes
+var buffer = new ArrayBuffer(16);
+
+var view = new DataView(buffer);
+view.setBigInt64(1, 13n);
+
+console.log(view.getBigInt64(1));
+// expected output: 13n
+</code>
+</pre>
