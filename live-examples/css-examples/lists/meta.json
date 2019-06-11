@@ -14,6 +14,13 @@
             "title": "CSS Demo: counter-reset",
             "type": "css"
         },
+        "counterSet": {
+            "cssExampleSrc": "./live-examples/css-examples/lists/counter-set.css",
+            "exampleCode": "./live-examples/css-examples/lists/counter-set.html",
+            "fileName": "counter-set.html",
+            "title": "CSS Demo: counter-set",
+            "type": "css"
+        },
         "listStyle": {
             "cssExampleSrc": "./live-examples/css-examples/lists/list-style.css",
             "exampleCode": "./live-examples/css-examples/lists/list-style.html",
