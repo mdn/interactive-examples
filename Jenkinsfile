@@ -31,4 +31,8 @@ node {
         buildSite()
         syncS3('mdninteractive-b77d14bceaaa9ea4')
     }
+    stage('Cleanup') {
+      // Clean our workspace
+      cleanWs()
+    }
 }
