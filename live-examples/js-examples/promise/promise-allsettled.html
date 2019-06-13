@@ -1,0 +1,28 @@
+<pre>
+<code id="static-js">const promise1 = Promise.resolve(3);
+const promise2 = 42;
+const promise3 = new Promise(function(resolve, reject) {
+  setTimeout(reject, 100, 'foo');
+});
+const promises = [promise1, promise2, promise3];
+
+Promise.allSettled(promises).then(function(results) {
+  console.log(results);
+});
+
+// expected output: Array [
+//  {
+//    "status": "fulfilled",
+//    "value": 3
+//  },
+//  {
+//    "status": "fulfilled",
+//    "value": 42
+//  },
+//  {
+//    "status": "rejected",
+//    "reason": "foo"
+//  }
+// ]
+</code>
+</pre>
