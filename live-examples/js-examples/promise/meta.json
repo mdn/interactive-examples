@@ -6,6 +6,12 @@
             "title": "JavaScript Demo: Promise.all()",
             "type": "js"
         },
+        "promiseAllSettled": {
+            "exampleCode": "./live-examples/js-examples/promise/promise-allsettled.html",
+            "fileName": "promise-allsettled.html",
+            "title": "JavaScript Demo: Promise.allSettled()",
+            "type": "js"
+        },
         "promiseCatch": {
             "exampleCode": "./live-examples/js-examples/promise/promise-catch.html",
             "fileName": "promise-catch.html",

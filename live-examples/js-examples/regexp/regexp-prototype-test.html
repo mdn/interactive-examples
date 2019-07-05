@@ -1,18 +1,25 @@
 <pre>
-<code id="static-js" data-height="taller">var regex1 = RegExp('foo*');
-var regex2 = RegExp('foo*','g');
-var str1 = 'table football';
+<code id="static-js" data-height="taller">var str = 'table football';
 
-console.log(regex1.test(str1));
+var regex = RegExp('foo*');
+var globalRegex = RegExp('foo*','g');
+
+console.log(regex.test(str));
 // expected output: true
 
-console.log(regex1.test(str1));
+console.log(regex.test(str));
 // expected output: true
 
-console.log(regex2.test(str1));
+console.log(globalRegex.lastIndex);
+// expected output: 0
+
+console.log(globalRegex.test(str));
 // expected output: true
 
-console.log(regex2.test(str1));
+console.log(globalRegex.lastIndex);
+// expected output: 9
+
+console.log(globalRegex.test(str));
 // expected output: false
 </code>
 </pre>

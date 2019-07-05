@@ -24,6 +24,18 @@
             "title": "JavaScript Demo: DataView Constructor",
             "type": "js"
         },
+        "dataviewGetBigInt64": {
+            "exampleCode": "./live-examples/js-examples/dataview/dataview-getbigint64.html",
+            "fileName": "dataview-getbigint64.html",
+            "title": "JavaScript Demo: DataView.getBigInt64()",
+            "type": "js"
+        },
+        "dataviewGetBigUint64": {
+            "exampleCode": "./live-examples/js-examples/dataview/dataview-getbiguint64.html",
+            "fileName": "dataview-getbiguint64.html",
+            "title": "JavaScript Demo: DataView.getBigUint64()",
+            "type": "js"
+        },
         "dataviewGetFloat32": {
             "exampleCode": "./live-examples/js-examples/dataview/dataview-getfloat32.html",
             "fileName": "dataview-getfloat32.html",
@@ -70,6 +82,18 @@
             "exampleCode": "./live-examples/js-examples/dataview/dataview-getuint32.html",
             "fileName": "dataview-getuint32.html",
             "title": "JavaScript Demo: DataView.getUint32()",
+            "type": "js"
+        },
+        "dataviewSetBigInt64": {
+            "exampleCode": "./live-examples/js-examples/dataview/dataview-setbigint64.html",
+            "fileName": "dataview-setbigint64.html",
+            "title": "JavaScript Demo: DataView.setBigInt64()",
+            "type": "js"
+        },
+        "dataviewSetBigUint64": {
+            "exampleCode": "./live-examples/js-examples/dataview/dataview-setbiguint64.html",
+            "fileName": "dataview-setbiguint64.html",
+            "title": "JavaScript Demo: DataView.setBigUint64()",
             "type": "js"
         },
         "dataviewSetFloat32": {

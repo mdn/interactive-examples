@@ -42,6 +42,12 @@
             "title": "JavaScript Demo: Symbol.match",
             "type": "js"
         },
+        "symbolMatchAll": {
+            "exampleCode": "./live-examples/js-examples/symbol/symbol-matchall.html",
+            "fileName": "symbol-matchall.html",
+            "title": "JavaScript Demo: Symbol.matchAll",
+            "type": "js"
+        },
         "symbolPrototypeDescription": {
             "exampleCode": "./live-examples/js-examples/symbol/symbol-prototype-description.html",
             "fileName": "symbol-prototype-description.html",

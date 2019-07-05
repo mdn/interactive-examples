@@ -1,13 +1,13 @@
 <pre>
-<code id="static-js">const object1 = {
-  a: 1,
-  b: 2,
-  c: 3
-};
+<code id="static-js">const target = { a: 1, b: 2 };
+const source = { b: 4, c: 5 };
 
-const object2 = Object.assign({c: 4, d: 5}, object1);
+const returnedTarget = Object.assign(target, source);
 
-console.log(object2.c, object2.d);
-// expected output: 3 5
+console.log(target);
+// expected output: Object { a: 1, b: 4, c: 5 }
+
+console.log(returnedTarget);
+// expected output: Object { a: 1, b: 4, c: 5 }
 </code>
 </pre>

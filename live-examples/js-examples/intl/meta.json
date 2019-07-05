@@ -89,6 +89,30 @@
             "fileName": "intl-relativetimeformat.html",
             "title": "JavaScript Demo: Intl.RelativeTimeFormat",
             "type": "js"
+        },
+        "intlRelativeTimeFormatPrototypeFormat": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-relativetimeformat-prototype-format.html",
+            "fileName": "intl-relativetimeformat-prototype-format.html",
+            "title": "JavaScript Demo: Intl.RelativeTimeFormat.prototype.format",
+            "type": "js"
+        },
+        "intlRelativeTimeFormatPrototypeFormatToParts": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-relativetimeformat-prototype-formattoparts.html",
+            "fileName": "intl-relativetimeformat-prototype-formattoparts.html",
+            "title": "JavaScript Demo: Intl.RelativeTimeFormat.prototype.formatToParts",
+            "type": "js"
+        },
+        "intlRelativeTimeFormatPrototypeResolvedOptions": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-relativetimeformat-prototype-resolvedoptions.html",
+            "fileName": "intl-relativetimeformat-prototype-resolvedoptions.html",
+            "title": "JavaScript Demo: Intl.RelativeTimeFormat.prototype.resolvedOptions",
+            "type": "js"
+        },
+        "intlRelativeTimeFormatSupportedLocalesOf": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-relativetimeformat-supportedlocalesof.html",
+            "fileName": "intl-relativetimeformat-prototype-supportedlocalesof.html",
+            "title": "JavaScript Demo: Intl.RelativeTimeFormat.prototype.supportedLocalesOf",
+            "type": "js"
         }
     }
 }
