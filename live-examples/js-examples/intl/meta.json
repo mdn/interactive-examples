@@ -60,6 +60,12 @@
             "title": "JavaScript Demo: Intl.ListFormat",
             "type": "js"
         },
+        "intlLocalePrototypeMaxmimize": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-locale-prototype-maximize.html",
+            "fileName": "intl-locale-prototype-maximize.html",
+            "title": "JavaScript Demo: Intl.Locale.prototype.maximize",
+            "type": "js"
+        },
         "intlNumberFormatPrototypeFormat": {
             "exampleCode": "./live-examples/js-examples/intl/intl-numberformat-prototype-format.html",
             "fileName": "intl-numberformat-prototype-format.html",
