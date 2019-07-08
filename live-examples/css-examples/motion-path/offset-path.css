@@ -1,0 +1,16 @@
+#example-element {
+  width: 20px;
+  height: 20px;
+  background: #2BC4A2;
+  animation: distance 10000ms infinite linear;
+  clip-path: polygon(0% 0%, 70% 0%, 100% 50%, 70% 100%, 0% 100%, 30% 50%);
+}
+
+@keyframes distance {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}

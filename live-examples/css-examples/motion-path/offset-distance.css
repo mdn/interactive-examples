@@ -1,0 +1,12 @@
+#example-element {
+  width: 20px;
+  height: 20px;
+  background: #2BC4A2;
+  offset-path: path('M-40,-20 C-40,70 40,70 40,-20');
+  clip-path: polygon(0% 0%, 70% 0%, 100% 50%, 70% 100%, 0% 100%, 30% 50%);
+}
+#default-example {
+  background-position: calc(50% - 8px) calc(50% + 18px);
+  background-repeat: no-repeat;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-45 -25 90 100" width="90" height="100"><path d="M-40,-20 C-40,70 40,70 40,-20" fill="none" stroke="lightgrey" stroke-width="3" stroke-dasharray="4"/></svg>');
+}
