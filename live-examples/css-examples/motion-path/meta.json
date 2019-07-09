@@ -3,6 +3,7 @@
     "offsetPath": {
         "cssExampleSrc": "./live-examples/css-examples/motion-path/offset-path.css",
         "exampleCode": "./live-examples/css-examples/motion-path/offset-path.html",
+        "jsExampleSrc": "./live-examples/css-examples/motion-path/offset-playback.js",
         "fileName": "offset-path.html",
         "title": "CSS Demo: offset-path",
         "type": "css"
@@ -17,6 +18,7 @@
     "offsetRotate": {
         "cssExampleSrc": "./live-examples/css-examples/motion-path/offset-rotate.css",
         "exampleCode": "./live-examples/css-examples/motion-path/offset-rotate.html",
+        "jsExampleSrc": "./live-examples/css-examples/motion-path/offset-playback.js",
         "fileName": "offset-rotate.html",
         "title": "CSS Demo: offset-rotate",
         "type": "css"
