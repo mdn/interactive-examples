@@ -3,13 +3,13 @@
         "bigIntasIntN": {
             "exampleCode": "./live-examples/js-examples/bigint/bigint-asintn.html",
             "fileName": "bigint-asintn.html",
-            "title": "JavaScript Demo: BigInt.asIntN",
+            "title": "JavaScript Demo: BigInt.asIntN()",
             "type": "js"
         },
         "bigIntasUintN": {
             "exampleCode": "./live-examples/js-examples/bigint/bigint-asuintn.html",
             "fileName": "bigint-asuintn.html",
-            "title": "JavaScript Demo: BigInt.asUintN",
+            "title": "JavaScript Demo: BigInt.asUintN()",
             "type": "js"
         },
         "bigIntToLocaleString": {
