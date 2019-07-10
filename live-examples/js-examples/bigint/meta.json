@@ -1,0 +1,34 @@
+{
+    "pages": {
+        "bigIntasIntN": {
+            "exampleCode": "./live-examples/js-examples/bigint/bigint-asintn.html",
+            "fileName": "bigint-asintn.html",
+            "title": "JavaScript Demo: BigInt.asIntN()",
+            "type": "js"
+        },
+        "bigIntasUintN": {
+            "exampleCode": "./live-examples/js-examples/bigint/bigint-asuintn.html",
+            "fileName": "bigint-asuintn.html",
+            "title": "JavaScript Demo: BigInt.asUintN()",
+            "type": "js"
+        },
+        "bigIntToLocaleString": {
+            "exampleCode": "./live-examples/js-examples/bigint/bigint-tolocalestring.html",
+            "fileName": "bigint-tolocalestring.html",
+            "title": "JavaScript Demo: BigInt.toLocaleString()",
+            "type": "js"
+        },
+        "bigIntToString": {
+            "exampleCode": "./live-examples/js-examples/bigint/bigint-tostring.html",
+            "fileName": "bigint-tostring.html",
+            "title": "JavaScript Demo: BigInt.toString()",
+            "type": "js"
+        },
+        "bigIntValueof": {
+            "exampleCode": "./live-examples/js-examples/bigint/bigint-valueof.html",
+            "fileName": "bigint-valueof.html",
+            "title": "JavaScript Demo: BigInt.valueOf()",
+            "type": "js"
+        }
+    }
+}
