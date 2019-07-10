@@ -1,10 +1,14 @@
 <pre>
-<code id="static-js">let myLoc = new Intl.Locale("en");
-console.log(myLoc.baseName);
-// expected output: "en"
+<code id="static-js">const english = new Intl.Locale("en");
+const korean = new Intl.Locale("ko");
+const arabic = new Intl.Locale("ar");
 
-let maxLoc = myLoc.maximize();
-console.log(maxLoc.baseName);
+console.log(english.maximize().baseName);
 // expected output: "en-Latn-US"
-</code>
+
+console.log(korean.maximize().baseName);
+// expected output: "ko-Kore-KR"
+
+console.log(arabic.maximize().baseName);
+// expected output: "ar-Arab-EG"</code>
 </pre>

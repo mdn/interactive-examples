@@ -63,7 +63,7 @@
         "intlLocalePrototypeMaxmimize": {
             "exampleCode": "./live-examples/js-examples/intl/intl-locale-prototype-maximize.html",
             "fileName": "intl-locale-prototype-maximize.html",
-            "title": "JavaScript Demo: Intl.Locale.prototype.maximize",
+            "title": "JavaScript Demo: Intl.Locale.prototype.maximize()",
             "type": "js"
         },
         "intlNumberFormatPrototypeFormat": {
