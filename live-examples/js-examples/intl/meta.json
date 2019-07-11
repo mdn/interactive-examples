@@ -72,6 +72,12 @@
             "title": "JavaScript Demo: Intl.Locale.prototype.minimize()",
             "type": "js"
         },
+        "intlLocalePrototypeToString": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-locale-prototype-tostring.html",
+            "fileName": "intl-locale-prototype-tostring.html",
+            "title": "JavaScript Demo: Intl.Locale.prototype.toString()",
+            "type": "js"
+        },          
         "intlNumberFormatPrototypeFormat": {
             "exampleCode": "./live-examples/js-examples/intl/intl-numberformat-prototype-format.html",
             "fileName": "intl-numberformat-prototype-format.html",
