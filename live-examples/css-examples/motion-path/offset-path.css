@@ -1,0 +1,31 @@
+#example-element {
+  width: 24px;
+  height: 24px;
+  background: #2BC4A2;
+  animation: distance 8000ms infinite linear;
+  animation-play-state: paused;
+  clip-path: polygon(0% 0%, 70% 0%, 100% 50%, 70% 100%, 0% 100%, 30% 50%);
+}
+#example-element.running {
+  animation-play-state: running;
+}
+
+#playback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1em;
+}
+
+@keyframes distance {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+#default-example {
+  position: relative;
+}
