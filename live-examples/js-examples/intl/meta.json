@@ -60,6 +60,12 @@
             "title": "JavaScript Demo: Intl.ListFormat",
             "type": "js"
         },
+        "intlLocale": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-locale.html",
+            "fileName": "intl-locale.html",
+            "title": "JavaScript Demo: Intl.Locale",
+            "type": "js"
+        },
         "intlLocalePrototypeMaximize": {
             "exampleCode": "./live-examples/js-examples/intl/intl-locale-prototype-maximize.html",
             "fileName": "intl-locale-prototype-maximize.html",
@@ -77,7 +83,7 @@
             "fileName": "intl-locale-prototype-tostring.html",
             "title": "JavaScript Demo: Intl.Locale.prototype.toString()",
             "type": "js"
-        },          
+        },
         "intlNumberFormatPrototypeFormat": {
             "exampleCode": "./live-examples/js-examples/intl/intl-numberformat-prototype-format.html",
             "fileName": "intl-numberformat-prototype-format.html",
