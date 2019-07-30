@@ -114,7 +114,7 @@
             "title": "JavaScript Demo: Expressions - Operator precedence",
             "type": "js"
         },
-        "expressionsOtionalChainingOperator": {
+        "expressionsOptionalChainingOperator": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-optionalchainingoperator.html",
             "fileName": "expressions-optionalchainingoperator.html",
             "title": "JavaScript Demo: Expressions - Optional chaining operator",
