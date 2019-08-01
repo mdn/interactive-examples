@@ -1,5 +1,5 @@
 {
     "extends": ["config:base"],
     "assignees": ["schalkneethling"],
-    "labels": ["renovate", "dependencies"]
+    "labels": ["renovate", "dependencies", "merge when green"]
 }
