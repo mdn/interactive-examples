@@ -123,9 +123,9 @@ try {
 
 ## JavaScript coding style
 
-### Language choice (ES5/ES6)
+### Language choice (ES6)
 
-For more established example content, such as Arrays, it is recommended that we stick with ES5. Where examples are required for APIs standardized after ES6, aim to use ES6 to illustrate these examples.
+According to the general [MDN JS guideline](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/JavaScript#Use_ES6_features), aim to use ES6 to illustrate examples.
 
 ES6 examples should use:
 
