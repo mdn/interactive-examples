@@ -126,6 +126,20 @@
             "title": "CSS Demo: overflow",
             "type": "css"
         },
+        "overflowBlock": {
+            "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overflow.css",
+            "exampleCode": "./live-examples/css-examples/basic-box-model/overflow-block.html",
+            "fileName": "overflow-block.html",
+            "title": "CSS Demo: overflow-block",
+            "type": "css"
+        },
+        "overflowInline": {
+            "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overflow.css",
+            "exampleCode": "./live-examples/css-examples/basic-box-model/overflow-inline.html",
+            "fileName": "overflow-inline.html",
+            "title": "CSS Demo: overflow-inline",
+            "type": "css"
+        },
         "overflowX": {
             "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overflow.css",
             "exampleCode": "./live-examples/css-examples/basic-box-model/overflow-x.html",
