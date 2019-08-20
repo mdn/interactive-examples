@@ -41,3 +41,6 @@ jspm_packages
 
 # project specific
 /docs/
+
+# config directory output from docker build
+.config
