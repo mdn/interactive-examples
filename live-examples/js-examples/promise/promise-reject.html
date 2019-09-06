@@ -4,7 +4,7 @@
 }
 
 function rejected(result) {
-  console.log(result);
+  console.error(result);
 }
 
 Promise.reject(new Error('fail')).then(resolved, rejected);
