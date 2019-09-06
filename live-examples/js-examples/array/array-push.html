@@ -1,17 +1,14 @@
 <pre>
-<code id="static-js">var animals = ['pigs', 'goats', 'sheep'];
+<code id="static-js">
+const animals = ['pigs', 'goats', 'sheep'];
 
-var count = animals.push('cows');
+const count = animals.push('cows');
 console.log(count);
 // expected output: 4
 console.log(animals);
 // expected output: Array ["pigs", "goats", "sheep", "cows"]
 
-animals.push('chickens');
-console.log(animals);
-// expected output: Array ["pigs", "goats", "sheep", "cows", "chickens"]
-
-animals.push('cats', 'dogs');
+animals.push('chickens', 'cats', 'dogs');
 console.log(animals);
 // expected output: Array ["pigs", "goats", "sheep", "cows", "chickens", "cats", "dogs"]
 </code>
