@@ -35,6 +35,13 @@
             "title": "CSS Demo: text-decoration-style",
             "type": "css"
         },
+        "textDecorationThickness": {
+            "cssExampleSrc": "./live-examples/css-examples/text-decoration/text-decoration-thickness.css",
+            "exampleCode": "./live-examples/css-examples/text-decoration/text-decoration-thickness.html",
+            "fileName": "text-decoration-thickness.html",
+            "title": "CSS Demo: text-decoration-thickness",
+            "type": "css"
+        },
         "textEmphasis": {
             "cssExampleSrc": "./live-examples/css-examples/text-decoration/text-emphasis.css",
             "exampleCode": "./live-examples/css-examples/text-decoration/text-emphasis.html",
@@ -61,6 +68,13 @@
             "exampleCode": "./live-examples/css-examples/text-decoration/text-shadow.html",
             "fileName": "text-shadow.html",
             "title": "CSS Demo: text-shadow",
+            "type": "css"
+        },
+        "textUnderlineOffset": {
+            "cssExampleSrc": "./live-examples/css-examples/text-decoration/text-underline-offset.css",
+            "exampleCode": "./live-examples/css-examples/text-decoration/text-underline-offset.html",
+            "fileName": "text-underline-offset.html",
+            "title": "CSS Demo: text-underline-offset",
             "type": "css"
         },
         "textUnderlinePosition": {
