@@ -1,0 +1,15 @@
+<pre>
+<code id="static-js">var startDate = new Date(Date.UTC(2007, 0, 10, 10, 0, 0));
+var endDate = new Date(Date.UTC(2007, 0, 10, 11, 0, 0));
+// > 'Wed, 10 Jan 2007 10:00:00 GMT'
+// > 'Wed, 10 Jan 2007 11:00:00 GMT'
+
+var dateTimeFormat = new Intl.DateTimeFormat("en", {
+    hour: 'numeric',
+    minute: 'numeric'
+});
+
+console.log(dateTimeFormat.formatRangeToParts(startDate, endDate));
+// expected output: Array  [ { type: "hour", value: "11", source: "startRange" }, { type: "literal", value: ":", source: "startRange" }, { type: "minute", value: "00", source: "startRange" }, { type: "literal", value: " ", source: "startRange" }, { type: "dayPeriod", value: "AM", source: "startRange" }, { type: "literal", value: " – ", source: "shared" }, { type: "hour", value: "12", source: "endRange" }, { type: "literal", value: ":", source: "endRange" }, { type: "minute", value: "00", source: "endRange" }, { type: "literal", value: " ", source: "endRange" }, { type: "dayPeriod", value: "PM", source: "endRange" }]
+</code>
+</pre>
