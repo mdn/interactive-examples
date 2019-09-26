@@ -1,15 +1,18 @@
 <pre>
-<code id="static-js">function div(x) {
-  if (Number.isFinite(1000 / x)) {
-    return 'Number is Finite.';
+<code id="static-js">function div(x, y) {
+  if (Number.isFinite(x / y)) {
+    return 'Result is Finite.';
   }
-  return 'Number is NOT Finite!';
+  return 'Result is NOT Finite!';
 }
 
-console.log(div(0));
-// expected output: "Number is NOT Finite!"
+console.log(div(1, 0));
+// expected output: "Result is NOT Finite!"
 
-console.log(div(1));
-// expected output: "Number is Finite."
+console.log(div(10, 5));
+// expected output: "Result is Finite."
+
+console.log(div(0, 0));
+// expected output: "Result is NOT Finite!"
 </code>
 </pre>
