@@ -12,8 +12,11 @@ async function asyncCall() {
   var result = await resolveAfter2Seconds();
   console.log(result);
   // expected output: 'resolved'
+  return result;
 }
 
-asyncCall();
+//The async function implicitly returns a promise
+var implicit_promise = asyncCall();
+implicit_promise.then((result)=>console.log("Result of async implicit promise:" + result));
 </code>
 </pre>
