@@ -1,14 +1,12 @@
 <pre>
-<code id="static-js">function* foo(){
-  yield 1;
-  yield 2;
+<code id="static-js">const array1 = ['a', 'b', 'c'];
+
+for (const element of array1) {
+  console.log(element);
 }
 
-for (let o of foo()) {
-  console.log(o);
-  // expected output: 1
-
-  break; // closes iterator, triggers return
-}
+// expected output: "a"
+// expected output: "b"
+// expected output: "c"
 </code>
 </pre>
