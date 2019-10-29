@@ -31,7 +31,7 @@
     "devDependencies": {
         "ajv": "6.10.2",
         "all-contributors-cli": "6.9.3",
-        "chokidar-cli": "2.0.0",
+        "chokidar-cli": "2.1.0",
         "eslint": "6.6.0",
         "http-server": "0.11.1",
         "mdn-bob": "1.1.38",
