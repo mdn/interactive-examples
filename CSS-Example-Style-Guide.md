@@ -76,7 +76,11 @@ Sometimes you'll want to include images with the example. If you do:
 
 On MDN pages the editor is laid out "side by side": that is with the example choices on the left and the output on the right, as it is in the local server that's started by `npm run start`. Then if the page width goes below some threshold it switches to "top and bottom", with the example choices above and the output below.
 
-This means that ideally, the example should still work with an editor width of about 730 pixels: https://screenshots.firefox.com/YYrEvqLEmLjJCddS/developer.mozilla.org. This can be a difficult constraint to satisfy, but you should test at this width, and try to make it work, if it's possible.
+This means that ideally, the example should still work with an editor width of about 740 pixels:
+
+![Editor at 740 pixels](media/css-editor-width.png)
+
+This can be a difficult constraint to satisfy, but you should test at this width, and try to make it work, if it's possible.
 
 ## CSS syntax
 
