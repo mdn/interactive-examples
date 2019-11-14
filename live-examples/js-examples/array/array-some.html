@@ -1,10 +1,8 @@
 <pre>
-<code id='static-js'>var array = [1, 2, 3, 4, 5];
+<code id='static-js'>const array = [1, 2, 3, 4, 5];
 
-var even = function(element) {
-  // checks whether an element is even
-  return element % 2 === 0;
-};
+// checks whether an element is even
+const even = (element) => element % 2 === 0;
 
 console.log(array.some(even));
 // expected output: true

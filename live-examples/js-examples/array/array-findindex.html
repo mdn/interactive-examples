@@ -1,9 +1,7 @@
 <pre>
-<code id="static-js">var array1 = [5, 12, 8, 130, 44];
+<code id="static-js">const array1 = [5, 12, 8, 130, 44];
 
-function isLargeNumber(element) {
-  return element > 13;
-}
+const isLargeNumber = (element) => element > 13;
 
 console.log(array1.findIndex(isLargeNumber));
 // expected output: 3
