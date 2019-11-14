@@ -1,16 +1,16 @@
 <pre>
-<code id="static-js" data-height="taller">var module = {
+<code id="static-js" data-height="taller">const module = {
   x: 42,
   getX: function() {
     return this.x;
   }
 }
 
-var unboundGetX = module.getX;
+const unboundGetX = module.getX;
 console.log(unboundGetX()); // The function gets invoked at the global scope
 // expected output: undefined
 
-var boundGetX = unboundGetX.bind(module);
+const boundGetX = unboundGetX.bind(module);
 console.log(boundGetX());
 // expected output: 42
 </code>
