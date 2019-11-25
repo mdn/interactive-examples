@@ -102,6 +102,12 @@
             "title": "JavaScript Demo: Expressions - new.target",
             "type": "js"
         },
+        "expressionsNullishCoalescingOperator": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-nullishcoalescingoperator.html",
+            "fileName": "expressions-nullishcoalescingoperator.html",
+            "title": "JavaScript Demo: Expressions - Nullish coalescing operator",
+            "type": "js"
+        },
         "expressionsObjectInitializer": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-objectinitializer.html",
             "fileName": "expressions-objectinitializer.html",

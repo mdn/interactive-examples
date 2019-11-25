@@ -1,8 +1,8 @@
 <pre>
 <code id="static-js">// create an ArrayBuffer with a size in bytes
-var buffer = new ArrayBuffer(16);
+const buffer = new ArrayBuffer(16);
 
-var view = new DataView(buffer);
+const view = new DataView(buffer);
 view.setFloat32(1, Math.PI);
 
 console.log(view.getFloat32(1));
