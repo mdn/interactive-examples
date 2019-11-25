@@ -1,7 +1,7 @@
 <pre>
-<code id="static-js">var event = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
+<code id="static-js">const event = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
 
-var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 
 console.log(event.toLocaleDateString('de-DE', options));
 // expected output: Donnerstag, 20. Dezember 2012
