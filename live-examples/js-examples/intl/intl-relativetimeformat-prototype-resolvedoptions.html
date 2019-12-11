@@ -1,9 +1,9 @@
 <pre>
-<code id="static-js">var rtf1 = new Intl.RelativeTimeFormat('en', { style: 'narrow' });
-var options1 = rtf1.resolvedOptions();
+<code id="static-js">const rtf1 = new Intl.RelativeTimeFormat('en', { style: 'narrow' });
+const options1 = rtf1.resolvedOptions();
 
-var rtf2 = new Intl.RelativeTimeFormat('es', { numeric: 'auto' });
-var options2 = rtf2.resolvedOptions();
+const rtf2 = new Intl.RelativeTimeFormat('es', { numeric: 'auto' });
+const options2 = rtf2.resolvedOptions();
 
 console.log(`${options1.locale}, ${options1.style}, ${options1.numeric}`);
 // expected output: "en, narrow, always"
