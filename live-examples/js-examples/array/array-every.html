@@ -1,9 +1,7 @@
 <pre>
-<code id="static-js">function isBelowThreshold(currentValue) {
-  return currentValue < 40;
-}
+<code id="static-js">const isBelowThreshold = (currentValue) => currentValue < 40;
 
-var array1 = [1, 30, 39, 29, 10, 13];
+const array1 = [1, 30, 39, 29, 10, 13];
 
 console.log(array1.every(isBelowThreshold));
 // expected output: true
