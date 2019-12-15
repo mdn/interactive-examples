@@ -1,15 +1,11 @@
 <pre>
-<code id="static-js">function div(x) {
-  if (Number.isFinite(1000 / x)) {
-    return 'Number is NOT Infinity.';
-  }
-  return 'Number is Infinity!';
-}
+<code id="static-js">console.log(Number.isFinite(1/0));
+// expected output: false
 
-console.log(div(0));
-// expected output: "Number is Infinity!"
+console.log(Number.isFinite(10/5));
+// expected output: true
 
-console.log(div(1));
-// expected output: "Number is NOT Infinity."
+console.log(Number.isFinite(0/0));
+// expected output: false
 </code>
 </pre>

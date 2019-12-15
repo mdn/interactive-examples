@@ -1,6 +1,6 @@
 <pre>
-<code id="static-js">var rtf1 = new Intl.RelativeTimeFormat('en', { numeric: 'auto' });
-var parts = rtf1.formatToParts(10, 'seconds');
+<code id="static-js">const rtf1 = new Intl.RelativeTimeFormat('en', { numeric: 'auto' });
+const parts = rtf1.formatToParts(10, 'seconds');
 
 console.log(parts[0].value);
 // expected output: "in "

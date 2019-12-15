@@ -1,12 +1,13 @@
 <pre>
-<code id="static-js">var string1 = "";
-var object1 = {a: 1, b: 2, c: 3};
+<code id="static-js">const object = {a: 1, b: 2, c: 3};
 
-for (var property1 in object1) {
-  string1 += object1[property1];
+for (const property in object) {
+  console.log(`${property}: ${object[property]}`);
 }
 
-console.log(string1);
-// expected output: "123"
+// expected output:
+// "a: 1"
+// "b: 2"
+// "c: 3"
 </code>
 </pre>

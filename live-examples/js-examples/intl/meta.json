@@ -30,6 +30,12 @@
             "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.format",
             "type": "js"
         },
+        "intlDateTimeFormatPrototypeFormatRange": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat-prototype-formatrange.html",
+            "fileName": "intl-datetimeformat-prototype-formatrange.html",
+            "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.formatRange()",
+            "type": "js"
+        },
         "intlDateTimeFormatPrototypeFormatRangeToParts": {
             "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat-prototype-formatrangetoparts.html",
             "fileName": "intl-datetimeformat-prototype-formatrangetoparts.html",

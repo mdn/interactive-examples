@@ -1,15 +1,15 @@
 <pre>
-<code id="static-js">function firstAlphabetical(locale, letter1, letter2) {
-  if (new Intl.Collator(locale).compare(letter1, letter2) > 0) {
-    return letter1;
-  }
-  return letter2;
-}
+<code id="static-js">const enCollator = new Intl.Collator('en');
+const deCollator = new Intl.Collator('de');
+const svCollator = new Intl.Collator('sv');
 
-console.log(firstAlphabetical('de', 'z', 'ä'));
-// expected output: "z"
+console.log(enCollator.compare('z', 'a') > 0);
+// expected output: true
 
-console.log(firstAlphabetical('sv', 'z', 'ä'));
-// expected output: "ä"
+console.log(deCollator.compare('z', 'ä') > 0);
+// expected output: true
+
+console.log(svCollator.compare('z', 'ä') > 0);
+// expected output: false
 </code>
 </pre>
