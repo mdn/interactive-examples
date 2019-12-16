@@ -1,15 +1,15 @@
 <pre>
-<code id="static-js">var map1 = new Map();
+<code id="static-js">const map1 = new Map();
 
 map1.set('0', 'foo');
 map1.set(1, 'bar');
 
-var iterator1 = map1[Symbol.iterator]();
+const iterator1 = map1[Symbol.iterator]();
 
 for (let item of iterator1) {
   console.log(item);
-  // expected output: Array ["0", "foo"]
-  // expected output: Array [1, "bar"]
 }
+// expected output: Array ["0", "foo"]
+// expected output: Array [1, "bar"]
 </code>
 </pre>
