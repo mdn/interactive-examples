@@ -12,6 +12,12 @@
             "title": "JavaScript Demo: RegExp.getRegExp[@@species]",
             "type": "js"
         },
+        "regexpGroupsRanges": {
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-groups-ranges.html",
+            "fileName": "regexp-groups-ranges.html",
+            "title": "JavaScript Demo: RegExp Groups and ranges",
+            "type": "js"
+        },
         "regexpLastIndex": {
             "exampleCode": "./live-examples/js-examples/regexp/regexp-lastindex.html",
             "fileName": "regexp-lastindex.html",
