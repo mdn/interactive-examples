@@ -2,7 +2,7 @@
 <code id="static-js">var ghostSpeak = "booh boooooooh";
 var regexpSpooky = /bo{3,}h/;
 console.log(ghostSpeak.match(regexpSpooky));
-// expected output: boooooooh
+// expected output: ["boooooooh"]
 
 var htmlSnippet = "&lt;span foo='bar' baz&gt;Hello&lt;span/&gt;"
 var regexpSpan = /&lt;span.*?&gt;|&lt;span\/&gt;/g;
