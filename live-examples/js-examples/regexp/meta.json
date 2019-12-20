@@ -107,6 +107,12 @@
             "fileName": "regexp-prototype-unicode.html",
             "title": "JavaScript Demo: RegExp.prototype.unicode",
             "type": "js"
+        },
+        "regexpQuantifiers": {
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-quantifiers.html",
+            "fileName": "regexp-quantifiers.html",
+            "title": "JavaScript Demo: RegExp quantifiers",
+            "type": "js"
         }
     }
 }
