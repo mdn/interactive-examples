@@ -1,17 +1,25 @@
 <pre>
-<code id="static-js">var first = '\u212B';         // "Å"
-var second = '\u0041\u030A';  // "Å"
+<code id="static-js" data-height="taller">const name1 = '\u0041\u006d\u00e9\u006c\u0069\u0065';
+const name2 = '\u0041\u006d\u0065\u0301\u006c\u0069\u0065';
 
-console.log(first + ' and ' + second + ' are' +
-   ((first === second)? '': ' not') + ' the same.');
-   // expected output: "Å and Å are not the same."
+console.log(`${name1}(${name1.length})`, `${name2}(${name2.length})`);
+// expected output: "Amélie(6)" "Amélie(7)"
+console.log(name1 === name2);
+// expected output: false
 
-console.log(first + ' and ' + second + ' can' +
-   ((first.normalize('NFC') === second.normalize('NFC'))? '': ' not') + ' be normalized');
-   // expected output: "Å and Å can be normalized"
+const name1NFC = name1.normalize('NFC');
+const name2NFC = name2.normalize('NFC');
 
-var oldWord = 'mañana';
-var newWord = oldWord.normalize('NFD');
-console.log('The word did ' + ((oldWord != newWord)? '' : 'not ') + 'change.');
-// expected output: "The word did change."</code>
+console.log(`${name1NFC}(${name1NFC.length})`, `${name2NFC}(${name2NFC.length})`);
+// expected output: "Amélie(6)" "Amélie(6)"
+console.log(name1NFC === name2NFC);
+// expected output: true
+
+const name1NFD = name1.normalize('NFD');
+const name2NFD = name2.normalize('NFD');
+
+console.log(`${name1NFD}(${name1NFD.length})`, `${name2NFD}(${name2NFD.length})`);
+// expected output: "Amélie(7)" "Amélie(7)"
+console.log(name1NFD === name2NFD);
+// expected output: true</code>
 </pre>
