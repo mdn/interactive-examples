@@ -1,5 +1,5 @@
 <pre>
-<code id="static-js">var promise1 = new Promise(function(resolve, reject) {
+<code id="static-js">const promise1 = new Promise(function(resolve, reject) {
   setTimeout(function() {
     resolve('foo');
   }, 300);
@@ -11,7 +11,7 @@ promise1.then(function(value) {
 });
 
 console.log(promise1);
-// expected output: [object Promise]
+// expected output: Promise { <state>: "pending" }
 
 </code>
 </pre>
