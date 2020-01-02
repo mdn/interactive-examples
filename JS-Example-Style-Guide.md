@@ -28,12 +28,12 @@ Also note that, although we could use the same name for multiple instances, it's
 For example:
 
 ```
-var array1 = ['a', 'b', 'c'];
+const array1 = ['a', 'b', 'c'];
 
 console.log(array1);
 // expected output: Array ["a", "b", "c"]
 
-var array2 = [1, 2, 3];
+const array2 = [1, 2, 3];
 
 console.log(array2);
 // expected output: Array [1, 2, 3]
@@ -46,14 +46,14 @@ An alternative to using numerical suffixes could be to use more descriptive suff
 This may make more sense in the context of the following example:
 
 ```
-var collatorDe = new Intl.Collator('de', { usage: 'search', sensitivity: 'base' });
-var collatorFr = new Intl.Collator('fr', { usage: 'search', sensitivity: 'base' });
+const collatorDe = new Intl.Collator('de', { usage: 'search', sensitivity: 'base' });
+const collatorFr = new Intl.Collator('fr', { usage: 'search', sensitivity: 'base' });
 ```
 
 We can also use content-descriptive variable names that don't mention the type of object that they represent, for example:
 
 ```
-var beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
+const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 ```
 
 ### Example size
@@ -72,8 +72,8 @@ function monster1(disposition) {
   this.disposition = disposition;
 }
 
-var handler1 = {
-  construct: function(target, args) {
+const handler1 = {
+  construct: (target, args) => {
     console.log('monster1 constructor called');
     // expected output: "monster1 constructor called"
 
@@ -81,7 +81,7 @@ var handler1 = {
   }
 };
 
-var proxy1 = new Proxy(monster1, handler1);
+const proxy1 = new Proxy(monster1, handler1);
 
 console.log(new proxy1('fierce').disposition);
 // expected output: "fierce"
@@ -147,7 +147,7 @@ One place we use a blank line is immediately preceding a `console.log` statement
 For example:
 
 ```
-construct: function(target, args) {
+construct: (target, args) => {
   console.log('monster1 constructor called');
   // expected output: " constructor called"
 
@@ -157,7 +157,7 @@ construct: function(target, args) {
 and
 
 ```
-var proxy1 = new Proxy(monster1, handler1);
+const proxy1 = new Proxy(monster1, handler1);
 
 console.log(new proxy1('fierce').disposition);
 // expected output: "fierce"
@@ -171,13 +171,13 @@ In order to keep things as concise as reasonably possible we indent with two spa
 
 Most objects are instantiated in the normal way, for example:
 ```
-var date1 = new Date();
+const date1 = new Date();
 ```
 
 The exception being `Object` in which case we instantiate like so:
 
 ```
-var object1 = {};
+const object1 = {};
 ```
 
 ### Instantiating an array
@@ -185,7 +185,7 @@ var object1 = {};
 We instantiate arrays in the following way:
 
 ```
-var array1 = [2, 5, 7, 9];
+const array1 = [2, 5, 7, 9];
 ```
 
 Note the spacing after the commas.
@@ -211,7 +211,7 @@ setTimeout(resolve, 100, 'foo');
 We chose clarity over brevity when defining object properties, for example:
 
 ```
-var object1 = {
+const object1 = {
   property1: 42,
   property2: 'foo'
 };
@@ -222,7 +222,7 @@ var object1 = {
 Please do NOT put the definition on one single line:
 
 ```
-var object1 = {property1: 42, property2: 'foo'};
+const object1 = {property1: 42, property2: 'foo'};
 ```
 
 ### Spaces between operators
@@ -230,7 +230,7 @@ var object1 = {property1: 42, property2: 'foo'};
 For example:
 
 ```
-var a = 1 + 2;
+const a = 1 + 2;
 
 if (a > b) {
   return a;
@@ -254,13 +254,13 @@ Note the space before the opening curly brace.
 Where ES6 predates the method or object we're illustrating we use the arrow function:
 
 ```
-var sum = array1.reduce((a, b) => a + b);  
+const sum = array1.reduce((a, b) => a + b);  
 ```
 
 rather than:
 
 ```
-var sum = array1.reduce(function(a, b) {
+const sum = array1.reduce(function(a, b) {
   return a + b;  
 });
 ```
@@ -310,7 +310,7 @@ if (a > b) {
 ### Formatting switch statements
 
 ```
-var expr = 'Pears';
+const expr = 'Pears';
 switch (expr) {
   case 'Oranges':
     console.log('Oranges are $0.59 a pound.');
