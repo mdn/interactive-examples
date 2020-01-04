@@ -1,15 +1,16 @@
 <pre>
-<code id="static-js">var text = "A quick fox";
-var regexpAhead = /[a-z]+ (?=fox)/;
-console.log(text.match(regexpAhead));
-// expected output [ 'quick ']
+<code id="static-js">const text = "A quick fox";
 
-var regexpNegativeAhead = /[A-Z]+ (?!slow)/
-console.log(text.match(regexpNegativeAhead));
-// expected output [ 'A ']
+const regexpLastWord = /\w+$/;
+console.log(text.match(regexpLastWord));
+// expected output: Array ["fox"]
 
-var regexpBehind = /(?&lt;=quick) \w+/;
-console.log(text.match(regexpBehind));
-// expected output (only in Chrome) for now [ 'fox']
+const regexpWords = /\b\w+\b/g;
+console.log(text.match(regexpWords));
+// expected output: Array ["A", "quick", "fox"]
+
+const regexpFoxQuality = /\w+(?= fox)/;
+console.log(text.match(regexpFoxQuality));
+// expected output: Array ["quick"]
 </code>
 </pre>
