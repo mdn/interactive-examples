@@ -119,6 +119,12 @@
             "fileName": "regexp-prototype-unicode.html",
             "title": "JavaScript Demo: RegExp.prototype.unicode",
             "type": "js"
+        },
+        "regexpUnicodePropertyEscapes": {
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-unicode-property-escapes.html",
+            "fileName": "regexp-unicode-property-escapes.html",
+            "title": "JavaScript Demo: RegExp Unicode property escapes",
+            "type": "js"
         }
     }
 }
