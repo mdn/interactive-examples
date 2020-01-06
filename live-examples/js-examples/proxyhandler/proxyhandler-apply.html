@@ -1,5 +1,6 @@
 <pre>
-<code id="static-js" data-height="taller">function sum(a, b) {
+<code id="static-js" data-height="taller">
+function sum(a, b) {
   return a + b;
 }
 
@@ -12,9 +13,9 @@ const handler = {
   }
 };
 
-var proxy1 = new Proxy(sum, handler);
+const proxy1 = new Proxy(sum, handler);
 
-console.log(sum(1, 2)); 
+console.log(sum(1, 2));
 // expected output: 3
 console.log(proxy1(1, 2));
 // expected output: 30

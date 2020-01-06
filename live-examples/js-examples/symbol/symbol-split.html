@@ -1,10 +1,11 @@
 <pre>
-<code id="static-js">class Split1 {
+<code id="static-js">
+class Split1 {
   constructor(value) {
     this.value = value;
   }
   [Symbol.split](string) {
-    var index = string.indexOf(this.value);
+    let index = string.indexOf(this.value);
     return this.value + string.substr(0, index) + "/"
       + string.substr(index + this.value.length);
   }
