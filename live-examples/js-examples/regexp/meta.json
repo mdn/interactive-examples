@@ -1,5 +1,11 @@
 {
     "pages": {
+        "regexpAssertions":{
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-assertions.html",
+            "fileName": "regexp-assertions.html",
+            "title": "JavaScript Demo: RegExp Assertions",
+            "type": "js"
+        },
         "regexpCharacterClasses": {
             "exampleCode": "./live-examples/js-examples/regexp/regexp-character-classes.html",
             "fileName": "regexp-character-classes.html",
