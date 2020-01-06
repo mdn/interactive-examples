@@ -1,6 +1,5 @@
 <pre>
-<code id="static-js">
-class RegExp1 extends RegExp {
+<code id="static-js">class RegExp1 extends RegExp {
   [Symbol.match](str) {
     const result = RegExp.prototype[Symbol.match].call(this, str);
     if (result) {
