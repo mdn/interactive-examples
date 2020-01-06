@@ -2,9 +2,9 @@
 <code id="static-js">const aliceExcerpt = "The Caterpillar and Alice looked at each other";
 const regexpWithoutE = /\b[a-df-z]+\b/ig;
 console.log(aliceExcerpt.match(regexpWithoutE));
-// expected output: Array [ "and", "at"]
+// expected output: Array ["and", "at"]
 
-const webHistory = "The Web is born on the 03/12/1989.";
+const webHistory = "The Web was born on the 03/12/1989.";
 const regexpDate = /([0-9]{2})\/([0-9]{2})\/([0-9]{4})/;
 const match = webHistory.match(regexpDate);
 console.log(`Year: ${match[3]}, month: ${match[1]}, day: ${match[2]}.`);
