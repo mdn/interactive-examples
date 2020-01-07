@@ -4,9 +4,13 @@ const regexpSpooky = /bo{3,}h/;
 console.log(ghostSpeak.match(regexpSpooky));
 // expected output: Array ["boooooooh"]
 
-let htmlSnippet = "&lt;span foo='bar' baz&gt;Hello&lt;span/&gt;"
-const regexpSpan = /&lt;span.*?&gt;|&lt;span\/&gt;/g;
-console.log(htmlSnippet.replace(regexpSpan, ""));
-// expected output: "Hello"
+let modifiedQuote = "[He] ha[s] to go read this novel [Alice in Wonderland]."
+const regexpModifications = /\[.*?\]/g;
+console.log(modifiedQuote.match(regexpModifications));
+// expected output: Array ["[He]", "[s]", "[Alice in Wonderland]"]
+
+const regexpTooGreedy = /\[.*\]/g
+console.log(modifiedQuote.match(regexpTooGreedy));
+// expected output: Array ["[He] ha[s] to go read this novel [Alice in Wonderland]."]
 </code>
 </pre>
