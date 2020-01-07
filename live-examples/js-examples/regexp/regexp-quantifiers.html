@@ -4,7 +4,7 @@ const regexpSpooky = /bo{3,}h/;
 console.log(ghostSpeak.match(regexpSpooky));
 // expected output: Array ["boooooooh"]
 
-let modifiedQuote = "[He] ha[s] to go read this novel [Alice in Wonderland]."
+const modifiedQuote = "[He] ha[s] to go read this novel [Alice in Wonderland]."
 const regexpModifications = /\[.*?\]/g;
 console.log(modifiedQuote.match(regexpModifications));
 // expected output: Array ["[He]", "[s]", "[Alice in Wonderland]"]
