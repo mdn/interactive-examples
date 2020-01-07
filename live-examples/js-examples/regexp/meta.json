@@ -126,6 +126,12 @@
             "title": "JavaScript Demo: RegExp.prototype.unicode",
             "type": "js"
         },
+        "regexpQuantifiers": {
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-quantifiers.html",
+            "fileName": "regexp-quantifiers.html",
+            "title": "JavaScript Demo: RegExp quantifiers",
+            "type": "js"
+        },
         "regexpUnicodePropertyEscapes": {
             "exampleCode": "./live-examples/js-examples/regexp/regexp-unicode-property-escapes.html",
             "fileName": "regexp-unicode-property-escapes.html",
