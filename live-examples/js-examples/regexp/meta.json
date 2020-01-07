@@ -66,6 +66,12 @@
             "title": "JavaScript Demo: RegExp.prototype[@@split]",
             "type": "js"
         },
+        "regexPrototypeDotAll":{
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-dotall.html",
+            "fileName": "regexp-prototype-dotall.html",
+            "title": "JavaScript Demo: RegExp.prototype.dotAll",
+            "type": "js"
+        },
         "regexpPrototypeExec": {
             "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-exec.html",
             "fileName": "regexp-prototype-exec.html",
