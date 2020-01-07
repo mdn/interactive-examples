@@ -1,13 +1,11 @@
 <pre>
-<code id="static-js" class="language-js">
-  const date = new Date('20 December 2019 14:48'); //initialize a new Date object
+<code id="static-js">// Depending on timezone, your results will vary
+const date = new Date('20 December 2019 14:48');
 
-  console.log(date[Symbol.toPrimitive]('string')); //log primitive of date with hint as string
-  //expected output: "Fri Dec 20 2019 20:18:00 GMT+0530 (India Standard Time)"
-  //note: the timezone specific data(GMT+0530 (India Standard Time)) may vary according to your location
+console.log(date[Symbol.toPrimitive]('string'));
+// expected output: "Fri Dec 20 2019 20:18:00 GMT+0530 (India Standard Time)"
 
-  console.log(date[Symbol.toPrimitive]('number')); //log primitive of date with hint as number
-  //expected output: 1576853280000 ,this may also vary
-
+console.log(date[Symbol.toPrimitive]('number'));
+// expected output: 1576853280000
 </code>
 </pre>
