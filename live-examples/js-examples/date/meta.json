@@ -252,6 +252,12 @@
             "title": "JavaScript Demo: Date.toLocaleTimeString()",
             "type": "js"
         },
+        "dateToPrimitive": {
+            "exampleCode": "./live-examples/js-examples/date/date-toprimitive.html",
+            "fileName": "date-toprimitive.html",
+            "title": "JavaScript Demo: Date.prototype[@@toPrimitive]",
+            "type": "js"
+        },
         "dateToString": {
             "exampleCode": "./live-examples/js-examples/date/date-tostring.html",
             "fileName": "date-tostring.html",

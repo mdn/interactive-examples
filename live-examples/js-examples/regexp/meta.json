@@ -1,5 +1,17 @@
 {
     "pages": {
+        "regexpAssertions":{
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-assertions.html",
+            "fileName": "regexp-assertions.html",
+            "title": "JavaScript Demo: RegExp Assertions",
+            "type": "js"
+        },
+        "regexpCharacterClasses": {
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-character-classes.html",
+            "fileName": "regexp-character-classes.html",
+            "title": "JavaScript Demo: RegExp Character classes",
+            "type": "js"
+        },
         "regexpConstructor": {
             "exampleCode": "./live-examples/js-examples/regexp/regexp-constructor.html",
             "fileName": "regexp-constructor.html",
@@ -10,6 +22,12 @@
             "exampleCode": "./live-examples/js-examples/regexp/regexp-getregexp-@@species.html",
             "fileName": "regexp-getregexp-@@species.html",
             "title": "JavaScript Demo: RegExp.getRegExp[@@species]",
+            "type": "js"
+        },
+        "regexpGroupsRanges": {
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-groups-ranges.html",
+            "fileName": "regexp-groups-ranges.html",
+            "title": "JavaScript Demo: RegExp Groups and ranges",
             "type": "js"
         },
         "regexpLastIndex": {
@@ -46,6 +64,12 @@
             "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-@@split.html",
             "fileName": "regexp-prototype-@@split.html",
             "title": "JavaScript Demo: RegExp.prototype[@@split]",
+            "type": "js"
+        },
+        "regexPrototypeDotAll":{
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-dotall.html",
+            "fileName": "regexp-prototype-dotall.html",
+            "title": "JavaScript Demo: RegExp.prototype.dotAll",
             "type": "js"
         },
         "regexpPrototypeExec": {
@@ -106,6 +130,18 @@
             "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-unicode.html",
             "fileName": "regexp-prototype-unicode.html",
             "title": "JavaScript Demo: RegExp.prototype.unicode",
+            "type": "js"
+        },
+        "regexpQuantifiers": {
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-quantifiers.html",
+            "fileName": "regexp-quantifiers.html",
+            "title": "JavaScript Demo: RegExp quantifiers",
+            "type": "js"
+        },
+        "regexpUnicodePropertyEscapes": {
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-unicode-property-escapes.html",
+            "fileName": "regexp-unicode-property-escapes.html",
+            "title": "JavaScript Demo: RegExp Unicode property escapes",
             "type": "js"
         }
     }

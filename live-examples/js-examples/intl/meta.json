@@ -36,6 +36,12 @@
             "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.formatRange()",
             "type": "js"
         },
+        "intlDateTimeFormatPrototypeFormatRangeToParts": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat-prototype-formatrangetoparts.html",
+            "fileName": "intl-datetimeformat-prototype-formatrangetoparts.html",
+            "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.formatRangeToParts()",
+            "type": "js"
+        },
         "intlDateTimeFormatPrototypeResolvedOptions": {
             "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat-prototype-resolvedoptions.html",
             "fileName": "intl-datetimeformat-prototype-resolvedoptions.html",

@@ -1,14 +1,17 @@
 <pre>
-<code id="static-js">var person = {};
-person['firstname'] = 'Mario';
-person['lastname'] = 'Rossi';
+<code id="static-js">const person1 = {};
+person1['firstname'] = 'Mario';
+person1['lastname'] = 'Rossi';
 
-console.log(person.firstname);
+console.log(person1.firstname);
 // expected output: "Mario"
 
-person = {'firstname': 'John', 'lastname': 'Doe'}
+const person2 = {
+  firstname: 'John',
+  lastname: 'Doe'
+};
 
-console.log(person['lastname']);
+console.log(person2['lastname']);
 // expected output: "Doe"
 </code>
 </pre>
