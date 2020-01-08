@@ -4,7 +4,7 @@
     this.value = value;
   }
   [Symbol.split](string) {
-    let index = string.indexOf(this.value);
+    const index = string.indexOf(this.value);
     return this.value + string.substr(0, index) + "/"
       + string.substr(index + this.value.length);
   }
