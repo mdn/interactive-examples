@@ -9,12 +9,7 @@ console.log(event.toLocaleDateString('de-DE', options));
 console.log(event.toLocaleDateString('ar-EG', options));
 // expected output: الخميس، ٢٠ ديسمبر، ٢٠١٢
 
-console.log(event.toLocaleDateString('ko-KR', options));
-// expected output: 2012년 12월 20일 목요일
-
-// Pass undefined as the first argument to use the browser's default locale
 console.log(event.toLocaleDateString(undefined, options));
-// expected output (when default locale is en-US): Thursday, December 20, 2012
-
+// expected output: Thursday, December 20, 2012 (varies according to default locale)
 </code>
 </pre>
