@@ -109,13 +109,13 @@
             "type": "js"
         },
         "dateGetUTCSeconds": {
-            "exampleCode": "./live-examples/js-examples/date/date-getutcseconds.html",
+            "exampleCode": "./live-examples/js-examples/date/date-getutcseconds.js",
             "fileName": "date-getutcseconds.html",
             "title": "JavaScript Demo: Date.getUTCSeconds()",
             "type": "js"
         },
         "dateNow": {
-            "exampleCode": "./live-examples/js-examples/date/date-now.html",
+            "exampleCode": "./live-examples/js-examples/date/date-now.js",
             "fileName": "date-now.html",
             "title": "JavaScript Demo: Date.now()",
             "type": "js"
