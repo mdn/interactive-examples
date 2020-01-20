@@ -29,7 +29,7 @@
         "mozilla"
     ],
     "devDependencies": {
-        "ajv": "6.10.2",
+        "ajv": "6.11.0",
         "all-contributors-cli": "6.13.0",
         "chokidar-cli": "2.1.0",
         "eslint": "6.8.0",
