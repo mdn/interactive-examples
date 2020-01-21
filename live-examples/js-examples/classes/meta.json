@@ -8,7 +8,7 @@
         },
         "classesExtends": {
             "exampleCode": "./live-examples/js-examples/classes/classes-extends.html",
-            "fileName": "classes-extends.html",
+            "fileName": "classes-extends.js",
             "title": "JavaScript Demo: Classes Extends",
             "type": "js"
         },

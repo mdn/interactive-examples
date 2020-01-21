@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">class formatDate extends Date {
+class formatDate extends Date {
   getFormattedDate() {
     const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
                   'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -10,5 +9,3 @@
 
 console.log(new formatDate('August 19, 1975 23:15:30').getFormattedDate());
 // expected output: "19-Aug-1975"
-</code>
-</pre>
