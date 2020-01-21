@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">// this example takes 2 seconds to run
+// this example takes 2 seconds to run
 const start = Date.now();
 
 console.log('starting timer...');
@@ -11,5 +10,3 @@ setTimeout(() => {
   console.log(`seconds elapsed = ${Math.floor(millis/1000)}`);
   // expected output : seconds elapsed = 2
 }, 2000);
-</code>
-</pre>
