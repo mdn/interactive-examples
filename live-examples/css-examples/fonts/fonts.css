@@ -53,11 +53,3 @@
     font-weight: 900;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'LeagueMonoVariable';
-    src: url('../../../media/fonts/LeagueMonoVariable.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: 100%; /* Required by Chrome */
-}

@@ -1,4 +1,13 @@
+@font-face {
+    font-family: 'LeagueMonoVariable';
+    src: local('LeagueMonoVariable'),
+         url('../../../media/fonts/LeagueMonoVariable.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: 50% 200%; /* Required by Chrome - allow 50% to 200% */
+}
+
 #output section {
     font-size: 1.2em;
-    font-family: 'LeagueMonoVariable';
+    font-family: 'LeagueMonoVariable', sans-serif;
 }
