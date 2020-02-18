@@ -1,7 +1,7 @@
 {
     "pages": {
         "classesConstructor": {
-            "exampleCode": "./live-examples/js-examples/classes/classes-constructor.html",
+            "exampleCode": "./live-examples/js-examples/classes/classes-constructor.js",
             "fileName": "classes-constructor.html",
             "title": "JavaScript Demo: Classes Constructor",
             "type": "js"
@@ -13,7 +13,7 @@
             "type": "js"
         },
         "classesStatic": {
-            "exampleCode": "./live-examples/js-examples/classes/classes-static.html",
+            "exampleCode": "./live-examples/js-examples/classes/classes-static.js",
             "fileName": "classes-static.html",
             "title": "JavaScript Demo: Classes Static",
             "type": "js"
