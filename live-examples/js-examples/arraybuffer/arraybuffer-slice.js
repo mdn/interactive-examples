@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">// create an ArrayBuffer with a size in bytes
+// create an ArrayBuffer with a size in bytes
 const buffer = new ArrayBuffer(16);
 const int32View = new Int32Array(buffer);
 // produces Int32Array [0, 0, 0, 0]
@@ -10,5 +9,3 @@ const sliced = new Int32Array(buffer.slice(4,12));
 
 console.log(sliced[0]);
 // expected output: 42
-</code>
-</pre>
