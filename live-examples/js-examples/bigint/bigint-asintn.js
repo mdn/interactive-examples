@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const max = 2n ** (64n - 1n) - 1n;
+const max = 2n ** (64n - 1n) - 1n;
 
 function check64bit(number) {
   (number > max) ?
@@ -12,5 +11,3 @@ check64bit(2n ** 64n);
 
 check64bit(2n ** 32n);
 // expected output: 4294967296n
-</code>
-</pre>

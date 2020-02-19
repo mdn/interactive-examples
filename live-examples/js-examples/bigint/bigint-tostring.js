@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">console.log(1024n.toString());
+console.log(1024n.toString());
 // expected output: "1024"
 
 console.log(1024n.toString(2));
@@ -7,5 +6,3 @@ console.log(1024n.toString(2));
 
 console.log(1024n.toString(16));
 // expected output: "400"
-</code>
-</pre>
