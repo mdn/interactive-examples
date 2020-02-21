@@ -39,7 +39,7 @@
         "prettier": "1.19.1",
         "prettier-eslint": "9.0.1",
         "prettier-stylelint": "0.4.2",
-        "stylelint": "13.1.0"
+        "stylelint": "13.2.0"
     },
     "dependencies": {
         "npm": "^6.11.3"
