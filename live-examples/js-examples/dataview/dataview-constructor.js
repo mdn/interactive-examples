@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">// create an ArrayBuffer with a size in bytes
+// create an ArrayBuffer with a size in bytes
 const buffer = new ArrayBuffer(16);
 
 // Create a couple of views
@@ -9,5 +8,3 @@ view1.setInt8(12, 42); // put 42 in slot 12
 
 console.log(view2.getInt8(0));
 // expected output: 42
-</code>
-</pre>
