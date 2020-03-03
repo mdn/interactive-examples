@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = {};
+const object1 = {};
 const array1 = [];
 object1.property1 = 42;
 array1[0] = 42;
@@ -12,5 +11,3 @@ console.log(array1.propertyIsEnumerable(0));
 
 console.log(array1.propertyIsEnumerable('length'));
 // expected output: false
-</code>
-</pre>

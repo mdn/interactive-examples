@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function MyNumberType(n) {
+function MyNumberType(n) {
   this.number = n;
 }
 
@@ -11,5 +10,3 @@ const object1 = new MyNumberType(4);
 
 console.log(object1 + 3);
 // expected output: 7
-</code>
-</pre>

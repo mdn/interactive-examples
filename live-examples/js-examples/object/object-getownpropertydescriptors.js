@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = {
+const object1 = {
   property1: 42
 };
 
@@ -10,5 +9,3 @@ console.log(descriptors1.property1.writable);
 
 console.log(descriptors1.property1.value);
 // expected output: 42
-</code>
-</pre>

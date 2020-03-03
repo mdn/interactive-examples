@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const obj = {
+const obj = {
   prop: 42
 };
 
@@ -10,5 +9,3 @@ obj.prop = 33;
 
 console.log(obj.prop);
 // expected output: 42
-</code>
-</pre>

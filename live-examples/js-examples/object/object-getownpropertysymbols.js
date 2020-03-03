@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = {};
+const object1 = {};
 const a = Symbol('a');
 const b = Symbol.for('b');
 
@@ -10,5 +9,3 @@ const objectSymbols = Object.getOwnPropertySymbols(object1);
 
 console.log(objectSymbols.length);
 // expected output: 2
-</code>
-</pre>

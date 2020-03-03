@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = {
+const object1 = {
   property1: 42
 };
 
@@ -11,5 +10,3 @@ console.log(object1.property1);
 delete object1.property1; // cannot delete when sealed
 console.log(object1.property1);
 // expected output: 33
-</code>
-</pre>

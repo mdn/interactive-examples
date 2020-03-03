@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function Dog(name) {
+function Dog(name) {
   this.name = name;
 }
 
@@ -11,5 +10,3 @@ Dog.prototype.toString = function dogToString() {
 
 console.log(dog1.toString());
 // expected output: "Gabby"
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = {};
+const object1 = {};
 
 Object.preventExtensions(object1);
 
@@ -11,5 +10,3 @@ try {
   console.log(e);
   // Expected output: TypeError: Cannot define property property1, object is not extensible
 }
-</code>
-</pre>

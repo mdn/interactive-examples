@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function object1() {}
+function object1() {}
 function object2() {}
 
 object1.prototype = Object.create(object2.prototype);
@@ -11,5 +10,3 @@ console.log(object1.prototype.isPrototypeOf(object3));
 
 console.log(object2.prototype.isPrototypeOf(object3));
 // expected output: true
-</code>
-</pre>

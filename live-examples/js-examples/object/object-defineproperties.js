@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = {};
+const object1 = {};
 
 Object.defineProperties(object1, {
   property1: {
@@ -11,5 +10,3 @@ Object.defineProperties(object1, {
 
 console.log(object1.property1);
 // expected output: 42
-</code>
-</pre>

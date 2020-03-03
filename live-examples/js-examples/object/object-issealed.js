@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = {
+const object1 = {
   property1: 42
 };
 
@@ -10,5 +9,3 @@ Object.seal(object1);
 
 console.log(Object.isSealed(object1));
 // expected output: true
-</code>
-</pre>

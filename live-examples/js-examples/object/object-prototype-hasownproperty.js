@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = new Object();
+const object1 = new Object();
 object1.property1 = 42;
 
 console.log(object1.hasOwnProperty('property1'));
@@ -10,5 +9,3 @@ console.log(object1.hasOwnProperty('toString'));
 
 console.log(object1.hasOwnProperty('hasOwnProperty'));
 // expected output: false
-</code>
-</pre>
