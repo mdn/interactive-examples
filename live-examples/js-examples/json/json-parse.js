@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const json = '{"result":true, "count":42}';
+const json = '{"result":true, "count":42}';
 const obj = JSON.parse(json);
 
 console.log(obj.count);
@@ -7,5 +6,3 @@ console.log(obj.count);
 
 console.log(obj.result);
 // expected output: true
-</code>
-</pre>
