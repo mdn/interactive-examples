@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">function resolveAfter2Seconds() {
+function resolveAfter2Seconds() {
   return new Promise(resolve => {
     setTimeout(() => {
       resolve('resolved');
@@ -15,5 +14,3 @@ async function asyncCall() {
 }
 
 asyncCall();
-</code>
-</pre>

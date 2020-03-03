@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">let str = "";
+let str = "";
 
 for (let i = 0; i < 9; i++) {
   str = str + i;
@@ -7,5 +6,3 @@ for (let i = 0; i < 9; i++) {
 
 console.log(str);
 // expected output: "012345678"
-</code>
-</pre>

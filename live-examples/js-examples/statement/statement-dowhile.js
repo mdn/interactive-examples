@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">let result = "";
+let result = "";
 let i = 0;
 
 do {
@@ -9,5 +8,3 @@ do {
 
 console.log(result);
 // expected result: "12345"
-</code>
-</pre>

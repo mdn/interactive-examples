@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">async function getFromList() {
+async function getFromList() {
   const url = 'https://www.random.org/decimal-fractions/?num=1&dec=10&col=1&format=plain&rnd=new';
 
   const arrayOfFetches = [
@@ -26,5 +25,3 @@ async function doFetch(url) {
 }
 
 getFromList();
-</code>
-</pre>

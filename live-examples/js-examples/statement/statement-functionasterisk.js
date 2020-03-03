@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function* generator(i) {
+function* generator(i) {
   yield i;
   yield i + 10;
 }
@@ -11,5 +10,3 @@ console.log(gen.next().value);
 
 console.log(gen.next().value);
 // expected output: 20
-</code>
-</pre>

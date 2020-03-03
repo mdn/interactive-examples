@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object = {a: 1, b: 2, c: 3};
+const object = {a: 1, b: 2, c: 3};
 
 for (const property in object) {
   console.log(`${property}: ${object[property]}`);
@@ -9,5 +8,3 @@ for (const property in object) {
 // "a: 1"
 // "b: 2"
 // "c: 3"
-</code>
-</pre>

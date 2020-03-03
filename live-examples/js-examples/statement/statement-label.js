@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">let str = "";
+let str = "";
 
 loop1:
 for (let i = 0; i < 5; i++) {
@@ -11,5 +10,3 @@ for (let i = 0; i < 5; i++) {
 
 console.log(str);
 // expected output: "0234"
-</code>
-</pre>

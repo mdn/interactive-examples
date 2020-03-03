@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">var x = 1;
+var x = 1;
 
 if (x === 1) {
   var x = 2;
@@ -10,5 +9,3 @@ if (x === 1) {
 
 console.log(x);
 // expected output: 2
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function testNum(a) {
+function testNum(a) {
   if (a > 0) {
     return "positive";
   } else {
@@ -9,5 +8,3 @@
 
 console.log(testNum(-5));
 // expected output: "NOT positive"
-</code>
-</pre>

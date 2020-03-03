@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">try {
+try {
   nonExistentFunction();
 }
 catch(error) {
@@ -7,5 +6,3 @@ catch(error) {
   // expected output: ReferenceError: nonExistentFunction is not defined
   // Note - error messages will vary depending on browser
 }
-</code>
-</pre>

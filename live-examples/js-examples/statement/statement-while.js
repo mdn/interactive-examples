@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">let n = 0;
+let n = 0;
 
 while (n < 3) {
   n++;
@@ -7,5 +6,3 @@ while (n < 3) {
 
 console.log(n);
 // expected output: 3
-</code>
-</pre>

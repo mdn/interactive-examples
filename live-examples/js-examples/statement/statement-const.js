@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const number = 42;
+const number = 42;
 
 try {
   number = 99;
@@ -11,5 +10,3 @@ try {
 
 console.log(number);
 // expected output: 42
-</code>
-</pre>

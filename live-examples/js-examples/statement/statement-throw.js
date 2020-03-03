@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function getRectArea(width, height) {
+function getRectArea(width, height) {
   if (isNaN(width) || isNaN(height)) {
     throw "Parameter is not a number!";
   }
@@ -12,5 +11,3 @@ catch(e) {
   console.error(e);
   // expected output: "Parameter is not a number!"
 }
-</code>
-</pre>

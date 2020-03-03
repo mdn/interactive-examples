@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const array1 = ['a', 'b', 'c'];
+const array1 = ['a', 'b', 'c'];
 
 for (const element of array1) {
   console.log(element);
@@ -8,5 +7,3 @@ for (const element of array1) {
 // expected output: "a"
 // expected output: "b"
 // expected output: "c"
-</code>
-</pre>

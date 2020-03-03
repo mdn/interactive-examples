@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const expr = 'Pears';
+const expr = 'Pears';
 switch(expr) {
   case 'Oranges':
     console.log('Oranges are $0.59 a pound.');
@@ -11,5 +10,3 @@ switch(expr) {
     console.log('Sorry, we are out of ' + expr + '.');
     // expected output: "Sorry, we are out of Pears."
 }
-</code>
-</pre>

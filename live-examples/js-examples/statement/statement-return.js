@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function getRectArea(width, height) {
+function getRectArea(width, height) {
   if (width > 0 && height > 0) {
     return width * height;
   }
@@ -11,5 +10,3 @@ console.log(getRectArea(3, 4));
 
 console.log(getRectArea(-3, 4));
 // expected output: 0
-</code>
-</pre>
