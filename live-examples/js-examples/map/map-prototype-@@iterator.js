@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const map1 = new Map();
+const map1 = new Map();
 
 map1.set('0', 'foo');
 map1.set(1, 'bar');
@@ -11,5 +10,3 @@ for (let item of iterator1) {
 }
 // expected output: Array ["0", "foo"]
 // expected output: Array [1, "bar"]
-</code>
-</pre>

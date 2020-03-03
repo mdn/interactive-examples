@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const map1 = new Map();
+const map1 = new Map();
 
 map1.set('bar', 'baz');
 map1.set(1, 'foo');
@@ -11,5 +10,3 @@ map1.clear();
 
 console.log(map1.size);
 // expected output: 0
-</code>
-</pre>

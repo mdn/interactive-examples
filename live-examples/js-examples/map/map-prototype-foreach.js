@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function logMapElements(value, key, map) {
+function logMapElements(value, key, map) {
   console.log(`m[${key}] = ${value}`);
 }
 
@@ -9,5 +8,3 @@ new Map([['foo', 3], ['bar', {}], ['baz', undefined]])
 // expected output: "m[foo] = 3"
 // expected output: "m[bar] = [object Object]"
 // expected output: "m[baz] = undefined"
-</code>
-</pre>
