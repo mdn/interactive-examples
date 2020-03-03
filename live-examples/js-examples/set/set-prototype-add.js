@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const set1 = new Set();
+const set1 = new Set();
 
 set1.add(42);
 set1.add(42);
@@ -10,5 +9,3 @@ for (let item of set1) {
   // expected output: 42
   // expected output: 13
 }
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const set1 = new Set();
+const set1 = new Set();
 set1.add(1);
 set1.add('foo');
 
@@ -10,5 +9,3 @@ set1.clear();
 
 console.log(set1.size);
 // expected output: 0
-</code>
-</pre>
