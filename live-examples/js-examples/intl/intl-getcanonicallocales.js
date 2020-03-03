@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">console.log(Intl.getCanonicalLocales('EN-US'));
+console.log(Intl.getCanonicalLocales('EN-US'));
 // expected output: Array ["en-US"]
 
 console.log(Intl.getCanonicalLocales(['EN-US', 'Fr']));
@@ -11,5 +10,3 @@ try {
   console.log(err);
   // expected output: RangeError: invalid language tag: EN_US
 }
-</code>
-</pre>

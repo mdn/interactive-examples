@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const rtf1 = new Intl.RelativeTimeFormat('en', { style: 'narrow' });
+const rtf1 = new Intl.RelativeTimeFormat('en', { style: 'narrow' });
 
 console.log(rtf1.format(3, 'quarter'));
 //expected output: "in 3 qtrs."
@@ -11,5 +10,3 @@ const rtf2 = new Intl.RelativeTimeFormat('es', { numeric: 'auto' });
 
 console.log(rtf2.format(2, 'day'));
 //expected output: "pasado mañana"
-</code>
-</pre>

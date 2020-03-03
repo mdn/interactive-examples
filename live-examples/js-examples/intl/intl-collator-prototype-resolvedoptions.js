@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const numberDe = new Intl.NumberFormat('de-DE');
+const numberDe = new Intl.NumberFormat('de-DE');
 const numberAr = new Intl.NumberFormat('ar');
 
 console.log(numberDe.resolvedOptions().numberingSystem);
@@ -7,5 +6,3 @@ console.log(numberDe.resolvedOptions().numberingSystem);
 
 console.log(numberAr.resolvedOptions().numberingSystem);
 // expected output: "arab"
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const numberFormat1 = new Intl.NumberFormat('de-DE');
+const numberFormat1 = new Intl.NumberFormat('de-DE');
 const options1 = numberFormat1.resolvedOptions();
 
 console.log(options1.locale);
@@ -11,5 +10,3 @@ console.log(options1.numberingSystem);
 
 console.log(options1.style);
 // "decimal"
-</code>
-</pre>

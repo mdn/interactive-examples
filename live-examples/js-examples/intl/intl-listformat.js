@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const vehicles = ['Motorcycle', 'Bus', 'Car'];
+const vehicles = ['Motorcycle', 'Bus', 'Car'];
 
 const formatter = new Intl.ListFormat('en', { style: 'long', type: 'conjunction' });
 console.log(formatter.format(vehicles));
@@ -12,7 +11,5 @@ console.log(formatter2.format(vehicles));
 const formatter3 = new Intl.ListFormat('en', { style: 'narrow', type: 'unit' });
 console.log(formatter3.format(vehicles));
 // expected output: "Motorcycle Bus Car"
-</code>
-</pre>
 
 

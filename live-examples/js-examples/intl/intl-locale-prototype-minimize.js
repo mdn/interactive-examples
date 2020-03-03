@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const english = new Intl.Locale('en-Latn-US');
+const english = new Intl.Locale('en-Latn-US');
 const korean = new Intl.Locale('ko-Kore-KR');
 const arabic = new Intl.Locale('ar-Arab-EG');
 

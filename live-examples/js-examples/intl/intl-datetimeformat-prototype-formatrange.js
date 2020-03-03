@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const options1 = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const options1 = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 const options2 = { year: '2-digit', month: 'numeric', day: 'numeric' };
 
 const startDate = new Date(Date.UTC(2007, 0, 10, 10, 0, 0));
@@ -12,5 +11,3 @@ console.log(dateTimeFormat.formatRange(startDate, endDate));
 const dateTimeFormat2 = new Intl.DateTimeFormat('en', options2);
 console.log(dateTimeFormat2.formatRange(startDate, endDate));
 // expected output: 1/10/07 – 1/10/08
-</code>
-</pre>

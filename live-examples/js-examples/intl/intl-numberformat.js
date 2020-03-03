@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const number = 123456.789;
+const number = 123456.789;
 
 console.log(new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(number));
 // expected output: "123.456,79 €"
@@ -11,5 +10,3 @@ console.log(new Intl.NumberFormat('ja-JP', { style: 'currency', currency: 'JPY' 
 // limit to three significant digits
 console.log(new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 }).format(number));
 // expected output: "1,23,000"
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const english = new Intl.Locale('en');
+const english = new Intl.Locale('en');
 const korean = new Intl.Locale('ko');
 const arabic = new Intl.Locale('ar');
 
@@ -10,5 +9,4 @@ console.log(korean.maximize().baseName);
 // expected output: "ko-Kore-KR"
 
 console.log(arabic.maximize().baseName);
-// expected output: "ar-Arab-EG"</code>
-</pre>
+// expected output: "ar-Arab-EG"

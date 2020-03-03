@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const enCollator = new Intl.Collator('en');
+const enCollator = new Intl.Collator('en');
 const deCollator = new Intl.Collator('de');
 const svCollator = new Intl.Collator('sv');
 
@@ -11,5 +10,3 @@ console.log(deCollator.compare('z', 'ä') > 0);
 
 console.log(svCollator.compare('z', 'ä') > 0);
 // expected output: false
-</code>
-</pre>
