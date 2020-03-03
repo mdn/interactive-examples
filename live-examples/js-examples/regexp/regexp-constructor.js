@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const regex1 = /\w+/;
+const regex1 = /\w+/;
 const regex2 = new RegExp('\\w+');
 
 console.log(regex1);
@@ -10,5 +9,3 @@ console.log(regex2);
 
 console.log(regex1 === regex2);
 // expected output: false
-</code>
-</pre>

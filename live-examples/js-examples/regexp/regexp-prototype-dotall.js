@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const regex1 = new RegExp('foo', 's');
+const regex1 = new RegExp('foo', 's');
 
 console.log(regex1.dotAll);
 // expected output: true
@@ -8,5 +7,3 @@ const regex2 = new RegExp('bar');
 
 console.log(regex2.dotAll);
 // expected output: false
-</code>
-</pre>

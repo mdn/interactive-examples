@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const regex1 = new RegExp('foo');
+const regex1 = new RegExp('foo');
 const regex2 = new RegExp('foo', 'i');
 
 console.log(regex1.test('Football'));
@@ -10,5 +9,3 @@ console.log(regex2.ignoreCase);
 
 console.log(regex2.test('Football'));
 // expected output: true
-</code>
-</pre>

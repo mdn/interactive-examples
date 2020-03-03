@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const ghostSpeak = "booh boooooooh";
+const ghostSpeak = "booh boooooooh";
 const regexpSpooky = /bo{3,}h/;
 console.log(ghostSpeak.match(regexpSpooky));
 // expected output: Array ["boooooooh"]
@@ -12,5 +11,3 @@ console.log(modifiedQuote.match(regexpModifications));
 const regexpTooGreedy = /\[.*\]/g
 console.log(modifiedQuote.match(regexpTooGreedy));
 // expected output: Array ["[He] ha[s] to go read this novel [Alice in Wonderland]."]
-</code>
-</pre>

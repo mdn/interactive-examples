@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const regex1 = /fooBar/ig;
+const regex1 = /fooBar/ig;
 
 console.log(regex1.source);
 // expected output: "fooBar"
@@ -10,5 +9,3 @@ console.log(new RegExp().source);
 console.log(new RegExp('\n').source === '\\n');
 // expected output: true (starting with ES5)
 // (due to escaping)
-</code>
-</pre>

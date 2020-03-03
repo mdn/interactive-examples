@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const regex1 = new RegExp( "foo", "g" );
+const regex1 = new RegExp( "foo", "g" );
 const str1 = 'table football, foosball';
 
 regex1.test(str1);
@@ -11,5 +10,3 @@ regex1.test(str1);
 
 console.log(regex1.lastIndex);
 // expected output: 19
-</code>
-</pre>

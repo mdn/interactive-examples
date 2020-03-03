@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const chessStory = "He played the King in a8 and she moved her Queen in c2.";
+const chessStory = "He played the King in a8 and she moved her Queen in c2.";
 const regexpCoordinates = /\w\d/g;
 console.log(chessStory.match(regexpCoordinates));
 // expected output: Array [ 'a8', 'c2']

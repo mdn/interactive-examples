@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const regex1 = new RegExp('\u{61}');
+const regex1 = new RegExp('\u{61}');
 const regex2 = new RegExp('\u{61}', 'u');
 
 console.log(regex1.unicode);
@@ -13,5 +12,3 @@ console.log(regex1.source);
 
 console.log(regex2.source);
 // expected output: "a"
-</code>
-</pre>

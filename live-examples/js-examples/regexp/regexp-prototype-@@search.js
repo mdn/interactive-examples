@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">class RegExp1 extends RegExp {
+class RegExp1 extends RegExp {
   constructor(str) {
     super(str)
     this.pattern = str;
@@ -11,5 +10,3 @@
 
 console.log('table football'.search(new RegExp1('foo')));
 // expected output: 6
-</code>
-</pre>

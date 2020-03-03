@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const regex1 = RegExp('foo*','g');
+const regex1 = RegExp('foo*','g');
 const str1 = 'table football, foosball';
 let array1;
 
@@ -8,5 +7,3 @@ while ((array1 = regex1.exec(str1)) !== null) {
   // expected output: "Found foo. Next starts at 9."
   // expected output: "Found foo. Next starts at 19."
 }
-</code>
-</pre>

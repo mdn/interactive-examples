@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const text = "A quick fox";
+const text = "A quick fox";
 
 const regexpLastWord = /\w+$/;
 console.log(text.match(regexpLastWord));
@@ -12,5 +11,3 @@ console.log(text.match(regexpWords));
 const regexpFoxQuality = /\w+(?= fox)/;
 console.log(text.match(regexpFoxQuality));
 // expected output: Array ["quick"]
-</code>
-</pre>

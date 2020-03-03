@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">class RegExp1 extends RegExp {
+class RegExp1 extends RegExp {
   [Symbol.split](str, limit) {
     const result = RegExp.prototype[Symbol.split].call(this, str, limit);
     return result.map(x => "(" + x + ")");
@@ -11,5 +10,3 @@ console.log('2016-01-02'.split(new RegExp1('-')));
 
 console.log('2016-01-02'.split(new RegExp('-')));
 // expected output: Array ["2016", "01", "02"]
-</code>
-</pre>

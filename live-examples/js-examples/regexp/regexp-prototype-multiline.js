@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const regex1 = new RegExp('^football');
+const regex1 = new RegExp('^football');
 const regex2 = new RegExp('^football', 'm');
 
 console.log(regex1.multiline);
@@ -13,5 +12,3 @@ console.log(regex1.test('rugby\nfootball'));
 
 console.log(regex2.test('rugby\nfootball'));
 // expected output: true
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">class RegExp1 extends RegExp {
+class RegExp1 extends RegExp {
   [Symbol.match](str) {
     const result = RegExp.prototype[Symbol.match].call(this, str);
     if (result) {
@@ -11,5 +10,3 @@
 
 console.log('2012-07-02'.match(new RegExp1('([0-9]+)-([0-9]+)-([0-9]+)')));
 // expected output: "VALID"
-</code>
-</pre>

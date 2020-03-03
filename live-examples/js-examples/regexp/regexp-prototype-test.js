@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const str = 'table football';
+const str = 'table football';
 
 const regex = RegExp('foo*');
 const globalRegex = RegExp('foo*','g');
@@ -21,5 +20,3 @@ console.log(globalRegex.lastIndex);
 
 console.log(globalRegex.test(str));
 // expected output: false
-</code>
-</pre>
