@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const weakset1 = new WeakSet();
+const weakset1 = new WeakSet();
 const object1 = {};
 const object2 = {};
 
@@ -10,5 +9,3 @@ console.log(weakset1.has(object1));
 
 console.log(weakset1.has(object2));
 // expected output: false
-</code>
-</pre>
