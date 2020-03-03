@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function clean(x) {
+function clean(x) {
   if (x === Number.NaN) {
     // can never be true
     return null;
@@ -11,5 +10,3 @@
 
 console.log(clean(Number.NaN));
 // expected output: 0
-</code>
-</pre>

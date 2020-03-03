@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function fits(x, y) {
+function fits(x, y) {
   if (Number.isInteger(y / x)) {
     return 'Fits!';
   }
@@ -11,5 +10,3 @@ console.log(fits(5, 10));
 
 console.log(fits(5, 11));
 // expected output: "Does NOT fit!"
-</code>
-</pre>

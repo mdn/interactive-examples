@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function hexColour(c) {
+function hexColour(c) {
   if (c < 256) {
     return Math.abs(c).toString(16);
   }
@@ -11,5 +10,3 @@ console.log(hexColour(233));
 
 console.log(hexColour('11'));
 // expected output: "b"
-</code>
-</pre>

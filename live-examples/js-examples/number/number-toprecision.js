@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function precise(x) {
+function precise(x) {
   return Number.parseFloat(x).toPrecision(4);
 }
 
@@ -11,5 +10,3 @@ console.log(precise(0.004));
 
 console.log(precise('1.23e+5'));
 // expected output: "1.230e+5"
-</code>
-</pre>

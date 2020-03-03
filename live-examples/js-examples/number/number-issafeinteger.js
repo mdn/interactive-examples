@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function warn(x) {
+function warn(x) {
   if (Number.isSafeInteger(x)) {
     return 'Precision safe.';
   }
@@ -11,5 +10,3 @@ console.log(warn(Math.pow(2, 53)));
 
 console.log(warn(Math.pow(2, 53) - 1));
 // expected output: "Precision safe."
-</code>
-</pre>

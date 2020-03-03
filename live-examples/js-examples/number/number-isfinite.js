@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">console.log(Number.isFinite(1/0));
+console.log(Number.isFinite(1/0));
 // expected output: false
 
 console.log(Number.isFinite(10/5));
@@ -7,5 +6,3 @@ console.log(Number.isFinite(10/5));
 
 console.log(Number.isFinite(0/0));
 // expected output: false
-</code>
-</pre>

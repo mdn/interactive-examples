@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function eArabic(x){
+function eArabic(x){
   return x.toLocaleString('ar-EG');
 }
 
@@ -11,5 +10,3 @@ console.log(eArabic("123456.789"));
 
 console.log(eArabic(NaN));
 // expected output: "ليس رقم"
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function checkNumber(smallNumber) {
+function checkNumber(smallNumber) {
   if (smallNumber === Number.NEGATIVE_INFINITY) {
     return 'Process number as -Infinity';
   }
@@ -11,5 +10,3 @@ console.log(checkNumber(-Number.MAX_VALUE));
 
 console.log(checkNumber(-Number.MAX_VALUE * 2));
 // expected output: "Process number as -Infinity"
-</code>
-</pre>

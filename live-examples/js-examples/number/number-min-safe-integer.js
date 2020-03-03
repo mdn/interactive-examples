@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const x = Number.MIN_SAFE_INTEGER - 1;
+const x = Number.MIN_SAFE_INTEGER - 1;
 const y = Number.MIN_SAFE_INTEGER - 2;
 
 console.log(Number.MIN_SAFE_INTEGER);
@@ -10,5 +9,3 @@ console.log(x);
 
 console.log(x === y);
 // expected output: true
-</code>
-</pre>

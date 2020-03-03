@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function financial(x) {
+function financial(x) {
   return Number.parseFloat(x).toFixed(2);
 }
 
@@ -11,5 +10,3 @@ console.log(financial(0.004));
 
 console.log(financial('1.23e+5'));
 // expected output: "123000.00"
-</code>
-</pre>

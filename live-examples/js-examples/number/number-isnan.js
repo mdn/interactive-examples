@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">function typeOfNaN(x) {
+function typeOfNaN(x) {
   if (Number.isNaN(x)) {
     return 'Number NaN';
   }
@@ -13,5 +12,3 @@ console.log(typeOfNaN('100F'));
 
 console.log(typeOfNaN(NaN));
 // expected output: "Number NaN"
-</code>
-</pre>

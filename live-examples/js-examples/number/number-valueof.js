@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const numObj = new Number(42);
+const numObj = new Number(42);
 console.log(typeof numObj);
 // expected output: "object"
 
@@ -9,5 +8,3 @@ console.log(num);
 
 console.log(typeof num);
 // expected output: "number"
-</code>
-</pre>
