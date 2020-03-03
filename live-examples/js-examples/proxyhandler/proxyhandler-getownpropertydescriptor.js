@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const monster1 = {
+const monster1 = {
   eyeCount: 4
 };
 
@@ -16,5 +15,3 @@ const proxy1 = new Proxy(monster1, handler1);
 
 console.log(Object.getOwnPropertyDescriptor(proxy1, 'eyeCount').value);
 // expected output: 5
-</code>
-</pre>

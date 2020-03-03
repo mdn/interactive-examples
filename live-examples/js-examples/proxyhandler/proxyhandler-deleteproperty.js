@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const monster1 = {
+const monster1 = {
   texture: 'scaly'
 };
 
@@ -21,5 +20,3 @@ delete proxy1.texture;
 
 console.log(monster1.texture);
 // expected output: undefined
-</code>
-</pre>

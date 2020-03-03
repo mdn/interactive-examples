@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">function monster1(disposition) {
+function monster1(disposition) {
   this.disposition = disposition;
 }
 
@@ -16,5 +15,3 @@ const proxy1 = new Proxy(monster1, handler1);
 
 console.log(new proxy1('fierce').disposition);
 // expected output: "fierce"
-</code>
-</pre>

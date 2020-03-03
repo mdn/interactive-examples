@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const monster1 = {
+const monster1 = {
   _age: 111,
   [Symbol('secret')]: 'I am scared!',
   eyeCount: 4
@@ -18,5 +17,3 @@ for (let key of Object.keys(proxy1)) {
   // expected output: "_age"
   // expected output: "eyeCount"
 }
-</code>
-</pre>

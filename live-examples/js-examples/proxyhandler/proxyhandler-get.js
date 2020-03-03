@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const monster1 = {
+const monster1 = {
   secret: 'easily scared',
   eyeCount: 4
 };
@@ -21,5 +20,3 @@ console.log(proxy1.eyeCount);
 
 console.log(proxy1.secret);
 // expected output: "easi ... shhhh!"
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">function Monster() {
+function Monster() {
   this.eyeCount = 4;
 }
 
@@ -20,5 +19,3 @@ proxy1.eyeCount = 1;
 
 console.log(proxy1.eyeCount);
 // expected output: 4
-</code>
-</pre>

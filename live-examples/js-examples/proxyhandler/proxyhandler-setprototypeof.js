@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const handler1 = {
+const handler1 = {
   setPrototypeOf(monster1, monsterProto) {
     monster1.geneticallyModified = true;
     return false;
@@ -19,5 +18,3 @@ console.log(Reflect.setPrototypeOf(proxy1, monsterProto));
 
 console.log(monster1.geneticallyModified);
 // expected output: true
-</code>
-</pre>

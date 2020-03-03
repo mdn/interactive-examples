@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">function sum(a, b) {
+function sum(a, b) {
   return a + b;
 }
 
@@ -18,5 +17,3 @@ console.log(sum(1, 2));
 // expected output: 3
 console.log(proxy1(1, 2));
 // expected output: 30
-</code>
-</pre>

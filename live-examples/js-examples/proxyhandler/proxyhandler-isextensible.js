@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const monster1 = {
+const monster1 = {
   canEvolve: true
 };
 
@@ -28,5 +27,3 @@ console.log(Object.isExtensible(proxy1));
 
 console.log(monster1.canEvolve);
 // expected output: false
-</code>
-</pre>

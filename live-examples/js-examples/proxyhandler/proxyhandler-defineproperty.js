@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const handler1 = {
+const handler1 = {
   defineProperty(target, key, descriptor) {
     invariant(key, 'define');
     return true;
@@ -17,5 +16,3 @@ const proxy1 = new Proxy(monster1, handler1);
 
 console.log(proxy1._secret = 'easily scared');
 // expected output: Error: Invalid attempt to define private "_secret" property
-</code>
-</pre>

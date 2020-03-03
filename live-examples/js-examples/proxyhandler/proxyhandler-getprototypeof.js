@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const monster1 = {
+const monster1 = {
   eyeCount: 4
 };
 
@@ -20,5 +19,3 @@ console.log(Object.getPrototypeOf(proxy1) === monsterPrototype);
 
 console.log(Object.getPrototypeOf(proxy1).eyeCount);
 // expected output: 2
-</code>
-</pre>

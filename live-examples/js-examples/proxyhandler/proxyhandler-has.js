@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const handler1 = {
+const handler1 = {
   has (target, key) {
     if (key[0] === '_') {
       return false;
@@ -22,5 +21,3 @@ console.log('_secret' in proxy1);
 
 console.log('_secret' in monster1);
 // expected output: true
-</code>
-</pre>
