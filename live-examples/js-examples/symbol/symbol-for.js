@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">console.log(Symbol.for('bar') === Symbol.for('bar'));
+console.log(Symbol.for('bar') === Symbol.for('bar'));
 // expected output: true
 
 console.log(Symbol('bar') === Symbol('bar'));
@@ -9,5 +8,3 @@ const symbol1 = Symbol.for('foo');
 
 console.log(symbol1.toString());
 // expected output: "Symbol(foo)"
-</code>
-</pre>

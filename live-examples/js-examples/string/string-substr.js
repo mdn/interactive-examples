@@ -1,10 +1,7 @@
-<pre>
-<code id="static-js">const str = 'Mozilla';
+const str = 'Mozilla';
 
 console.log(str.substr(1, 2));
 // expected output: "oz"
 
 console.log(str.substr(2));
 // expected output: "zilla"
-</code>
-</pre>

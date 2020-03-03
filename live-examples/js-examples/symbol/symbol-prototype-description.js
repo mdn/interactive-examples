@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">console.log(Symbol('desc').description);
+console.log(Symbol('desc').description);
 // expected output: "desc"
 
 console.log(Symbol.iterator.description);
@@ -10,5 +9,3 @@ console.log(Symbol.for('foo').description);
 
 console.log(Symbol('foo').description + 'bar');
 // expected output: "foobar"
-</code>
-</pre>

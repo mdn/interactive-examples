@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const str = 'The quick brown fox jumps over the lazy dog.';
+const str = 'The quick brown fox jumps over the lazy dog.';
 
 console.log(str.slice(31));
 // expected output: "the lazy dog."
@@ -12,5 +11,3 @@ console.log(str.slice(-4));
 
 console.log(str.slice(-9, -5));
 // expected output: "lazy"
-</code>
-</pre>

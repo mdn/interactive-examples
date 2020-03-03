@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const regexp1 = /foo/;
+const regexp1 = /foo/;
 // console.log('/foo/'.startsWith(regexp1));
 // expected output: (Chrome) Error: First argument to String.prototype.startsWith must not be a regular expression
 // expected output: (Firefox) Error: Invalid type: first can't be a Regular Expression
@@ -11,5 +10,3 @@ console.log('/foo/'.startsWith(regexp1));
 
 console.log('/baz/'.endsWith(regexp1));
 // expected output: false
-</code>
-</pre>

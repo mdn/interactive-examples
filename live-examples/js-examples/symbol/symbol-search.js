@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">class Search1 {
+class Search1 {
   constructor(value) {
     this.value = value;
   }
@@ -10,5 +9,3 @@
 
 console.log('foobar'.search(new Search1('bar')));
 // expected output: 3
-</code>
-</pre>

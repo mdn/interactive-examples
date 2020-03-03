@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">class Replace1 {
+class Replace1 {
   constructor(value) {
     this.value = value;
   }
@@ -10,5 +9,3 @@
 
 console.log('foo'.replace(new Replace1('bar')));
 // expected output: "s/foo/bar/g"
-</code>
-</pre>

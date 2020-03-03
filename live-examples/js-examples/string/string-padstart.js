@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const str1 = '5';
+const str1 = '5';
 
 console.log(str1.padStart(2, '0'));
 // expected output: "05"
@@ -10,5 +9,3 @@ const maskedNumber = last4Digits.padStart(fullNumber.length, '*');
 
 console.log(maskedNumber);
 // expected output: "************5581"
-</code>
-</pre>

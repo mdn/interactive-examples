@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const symbol1 = Symbol();
+const symbol1 = Symbol();
 const symbol2 = Symbol(42);
 const symbol3 = Symbol('foo');
 
@@ -11,5 +10,3 @@ console.log(symbol3.toString());
 
 console.log(Symbol('foo') === Symbol('foo'));
 // expected output: false
-</code>
-</pre>

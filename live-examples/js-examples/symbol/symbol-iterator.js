@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const iterable1 = new Object();
+const iterable1 = new Object();
 
 iterable1[Symbol.iterator] = function* () {
   yield 1;
@@ -9,5 +8,3 @@ iterable1[Symbol.iterator] = function* () {
 
 console.log([...iterable1]);
 // expected output: Array [1, 2, 3]
-</code>
-</pre>

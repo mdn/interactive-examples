@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const globalSym = Symbol.for('foo'); // global symbol
+const globalSym = Symbol.for('foo'); // global symbol
 
 console.log(Symbol.keyFor(globalSym));
 // expected output: "foo"
@@ -11,5 +10,3 @@ console.log(Symbol.keyFor(localSym));
 
 console.log(Symbol.keyFor(Symbol.iterator));
 // expected output: undefined
-</code>
-</pre>

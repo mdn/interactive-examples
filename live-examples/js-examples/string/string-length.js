@@ -1,7 +1,4 @@
-<pre>
-<code id="static-js"  data-height="shorter">const str = 'Life, the universe and everything. Answer:';
+const str = 'Life, the universe and everything. Answer:';
 
 console.log(str + ' ' + str.length);
 // expected output: "Life, the universe and everything. Answer: 42"
-</code>
-</pre>

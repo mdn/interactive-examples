@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">class Array1 extends Array {
+class Array1 extends Array {
   static get [Symbol.species]() { return Array; }
 }
 
@@ -11,5 +10,3 @@ console.log(mapped instanceof Array1);
 
 console.log(mapped instanceof Array);
 // expected output: true
-</code>
-</pre>

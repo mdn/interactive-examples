@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const str = 'The quick red fox jumped over the lazy dog\'s back.';
+const str = 'The quick red fox jumped over the lazy dog\'s back.';
 
 let iterator = str[Symbol.iterator]();
 let theChar = iterator.next();
@@ -11,5 +10,3 @@ while(!theChar.done && theChar.value !== ' ') {
   //                  "h"
   //                  "e"
 }  
-</code>
-</pre>

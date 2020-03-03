@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = {
+const object1 = {
   property1: 42
 };
 
@@ -11,5 +10,3 @@ with (object1) {
   console.log(property1);
   // expected output: Error: property1 is not defined
 }
-</code>
-</pre>

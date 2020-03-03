@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">console.log(Symbol('desc').toString());
+console.log(Symbol('desc').toString());
 // expected output: "Symbol(desc)"
 
 console.log(Symbol.iterator.toString());
@@ -10,5 +9,3 @@ console.log(Symbol.for('foo').toString());
 
 // console.log(Symbol('foo') + 'bar');
 // expected output: Error: Can't convert symbol to string
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = {
+const object1 = {
   [Symbol.toPrimitive](hint) {
     if (hint == 'number') {
       return 42;
@@ -10,5 +9,3 @@
 
 console.log(+object1);
 // expected output: 42
-</code>
-</pre>
