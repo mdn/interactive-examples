@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">console.log(typeof 42);
+console.log(typeof 42);
 // expected output: "number"
 
 console.log(typeof 'blubber');
@@ -10,5 +9,3 @@ console.log(typeof true);
 
 console.log(typeof undeclaredVariable);
 // expected output: "undefined";
-</code>
-</pre>

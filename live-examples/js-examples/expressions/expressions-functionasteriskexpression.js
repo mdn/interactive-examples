@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function* foo() {
+function* foo() {
   yield 'a';
   yield 'b';
   yield 'c';
@@ -12,5 +11,3 @@ for (const val of foo()) {
 
 console.log(str);
 // expected output: "abc"
-</code>
-</pre>

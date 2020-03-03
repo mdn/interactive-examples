@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const Employee = {
+const Employee = {
   firstname: 'John',
   lastname: 'Doe'
 }
@@ -11,5 +10,3 @@ delete Employee.firstname;
 
 console.log(Employee.firstname);
 // expected output: undefined
-</code>
-</pre>

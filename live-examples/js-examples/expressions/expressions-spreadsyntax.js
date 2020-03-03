@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function sum(x, y, z) {
+function sum(x, y, z) {
   return x + y + z;
 }
 
@@ -10,5 +9,3 @@ console.log(sum(...numbers));
 
 console.log(sum.apply(null, numbers));
 // expected output: 6
-</code>
-</pre>

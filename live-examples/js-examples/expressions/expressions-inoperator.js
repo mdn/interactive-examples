@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const car = {make: 'Honda', model: 'Accord', year: 1998};
+const car = {make: 'Honda', model: 'Accord', year: 1998};
 
 console.log('make' in car);
 // expected output: true
@@ -11,5 +10,3 @@ if ('make' in car === false) {
 
 console.log(car.make);
 // expected output: "Suzuki"
-</code>
-</pre>

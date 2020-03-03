@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">void function test() {
+void function test() {
   console.log('boo!');
   // expected output: "boo!"
 }();
@@ -11,5 +10,3 @@ catch(e) {
   console.log(e);
   // expected output: ReferenceError: test is not defined
 }
-</code>
-</pre>

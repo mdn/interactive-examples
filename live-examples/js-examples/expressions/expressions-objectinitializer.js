@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = {a: 'foo', b: 42, c: {}};
+const object1 = {a: 'foo', b: 42, c: {}};
 
 console.log(object1.a);
 // expected output: "foo"
@@ -16,5 +15,3 @@ const object3 = {a, b, c};
 
 console.log(object3.a);
 // expected output: "foo"
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">console.log(5 & 13); // 0101 & 1101 = 0101
+console.log(5 & 13); // 0101 & 1101 = 0101
 // expected output: 5;
 
 console.log(parseInt('0101', 2) & parseInt('1101', 2));
@@ -10,5 +9,3 @@ console.log(5 & 13 & 3); // 0101 & 1101 & 0011 = 0001
 
 console.log(5 | 13); // 0101 | 1101 = 1101
 // expected output: 13
-</code>
-</pre>

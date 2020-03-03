@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">let a, b, rest;
+let a, b, rest;
 [a, b] = [10, 20];
 
 console.log(a);
@@ -12,5 +11,3 @@ console.log(b);
 
 console.log(rest);
 // expected output: Array [30,40,50]
-</code>
-</pre>

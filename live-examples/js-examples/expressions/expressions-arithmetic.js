@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">// Number addition and subtraction
+// Number addition and subtraction
 console.log(2 + 3 - 1);
 // expected output: 4
 
@@ -10,5 +9,3 @@ console.log(4 * 3 / 2); // 12 / 2
 // Number remainder and exponential
 console.log(11 % 3 ** 2); // 11 % 9
 // expected output: 2
-</code>
-</pre>

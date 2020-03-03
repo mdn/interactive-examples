@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const adventurer = {
+const adventurer = {
   name: 'Alice',
   cat: {
     name: 'Dinah'
@@ -12,5 +11,3 @@ console.log(dogName);
 
 console.log(adventurer.someNonExistentMethod?.())
 // expected output: undefined
-</code>
-</pre>

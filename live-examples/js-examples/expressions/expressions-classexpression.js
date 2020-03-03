@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const Rectangle = class {
+const Rectangle = class {
   constructor(height, width) {
     this.height = height;
     this.width = width;
@@ -11,5 +10,3 @@
 
 console.log(new Rectangle(5,8).area());
 // expected output: 40
-</code>
-</pre>

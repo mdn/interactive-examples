@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function* func1() {
+function* func1() {
   yield 42;
 }
 
@@ -11,5 +10,3 @@ const iterator = func2();
 
 console.log(iterator.next().value);
 // expected output: 42
-</code>
-</pre>

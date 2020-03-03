@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function getFee(isMember) {
+function getFee(isMember) {
   return (isMember ? '$2.00' : '$10.00');
 }
 
@@ -11,5 +10,3 @@ console.log(getFee(false));
 
 console.log(getFee(1));
 // expected output: "$2.00"
-</code>
-</pre>

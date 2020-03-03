@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function Foo() {
+function Foo() {
   if (!new.target) throw 'Foo() must be called with new';
 }
 
@@ -10,5 +9,3 @@ catch(e) {
   console.log(e);
   // expected output: "Foo() must be called with new"
 }
-</code>
-</pre>

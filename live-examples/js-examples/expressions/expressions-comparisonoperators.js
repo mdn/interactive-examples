@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">console.log(1 == 1);
+console.log(1 == 1);
 // expected output: true
 
 console.log('1' == 1);
@@ -10,5 +9,3 @@ console.log(1 === 1);
 
 console.log('1' === 1);
 // expected output: false
-</code>
-</pre>

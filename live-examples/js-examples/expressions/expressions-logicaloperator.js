@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const a = 3;
+const a = 3;
 const b = -2;
 
 console.log(a > 0 && b > 0);
@@ -10,5 +9,3 @@ console.log(a > 0 || b > 0);
 
 console.log(!(a > 0 || b > 0));
 // expected output: false
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function* foo(index) {
+function* foo(index) {
   while (index < 2) {
     yield index++;
   }
@@ -12,5 +11,3 @@ console.log(iterator.next().value);
 
 console.log(iterator.next().value);
 // expected output: 1
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const person1 = {};
+const person1 = {};
 person1['firstname'] = 'Mario';
 person1['lastname'] = 'Rossi';
 
@@ -13,5 +12,3 @@ const person2 = {
 
 console.log(person2['lastname']);
 // expected output: "Doe"
-</code>
-</pre>

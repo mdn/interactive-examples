@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">let x = 1;
+let x = 1;
 
 x = (x++, x);
 
@@ -10,5 +9,3 @@ x = (2, 3);
 
 console.log(x);
 // expected output: 3
-</code>
-</pre>

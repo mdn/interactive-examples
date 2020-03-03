@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function Car(make, model, year) {
+function Car(make, model, year) {
   this.make = make;
   this.model = model;
   this.year = year;
@@ -11,5 +10,3 @@ console.log(auto instanceof Car);
 
 console.log(auto instanceof Object);
 // expected output: true
-</code>
-</pre>
