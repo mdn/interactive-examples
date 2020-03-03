@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function resolved(result) {
+function resolved(result) {
   console.log('Resolved');
 }
 
@@ -9,5 +8,3 @@ function rejected(result) {
 
 Promise.reject(new Error('fail')).then(resolved, rejected);
 // expected output: Error: fail
-</code>
-</pre>

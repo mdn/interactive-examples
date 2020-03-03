@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const promise1 = new Promise(function(resolve, reject) {
+const promise1 = new Promise(function(resolve, reject) {
     setTimeout(resolve, 500, 'one');
 });
 
@@ -12,5 +11,3 @@ Promise.race([promise1, promise2]).then(function(value) {
   // Both resolve, but promise2 is faster
 });
 // expected output: "two"
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const promise1 = new Promise(function(resolve, reject) {
+const promise1 = new Promise(function(resolve, reject) {
   resolve('Success!');
 });
 
@@ -8,5 +7,3 @@ promise1.then(function(value) {
   // expected output: "Success!"
 });
 
-</code>
-</pre>
