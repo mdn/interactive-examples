@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = {
+const object1 = {
   property1: 42,
   property2: 13
 };
@@ -11,5 +10,3 @@ console.log(Reflect.ownKeys(object1));
 
 console.log(Reflect.ownKeys(array1));
 // expected output: Array ["length"]
-</code>
-</pre>

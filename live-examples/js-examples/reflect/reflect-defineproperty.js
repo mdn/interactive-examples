@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = {};
+const object1 = {};
 
 if (Reflect.defineProperty(object1, 'property1', {value: 42})) {
   console.log('property1 created!');
@@ -10,5 +9,3 @@ if (Reflect.defineProperty(object1, 'property1', {value: 42})) {
 
 console.log(object1.property1);
 // expected output: 42
-</code>
-</pre>

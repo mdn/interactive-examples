@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const object1 = {
+const object1 = {
   property1: 42
 };
 
@@ -13,5 +12,3 @@ Reflect.deleteProperty(array1, '3');
 
 console.log(array1);
 // expected output: Array [1, 2, 3, undefined, 5]
-</code>
-</pre>

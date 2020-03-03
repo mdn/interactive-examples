@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const object1 = {};
+const object1 = {};
 
 console.log(Reflect.isExtensible(object1));
 // expected output: true
@@ -13,5 +12,3 @@ const object2 = Object.seal({});
 
 console.log(Reflect.isExtensible(object2));
 // expected output: false
-</code>
-</pre>

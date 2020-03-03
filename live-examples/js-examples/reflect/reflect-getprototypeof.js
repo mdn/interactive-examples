@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const object1 = {
+const object1 = {
   property1: 42
 };
 
@@ -10,5 +9,3 @@ console.log(proto1);
 
 console.log(Reflect.getPrototypeOf(proto1));
 // expected output: null
-</code>
-</pre>

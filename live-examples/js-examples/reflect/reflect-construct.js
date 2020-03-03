@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function func1(a, b, c) {
+function func1(a, b, c) {
   this.sum = a + b + c;
 }
 
@@ -12,5 +11,3 @@ console.log(object2.sum);
 
 console.log(object1.sum);
 // expected output: 6
-</code>
-</pre>
