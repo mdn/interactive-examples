@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const language = {
+const language = {
   set current(name) {
     this.log.push(name);
   },
@@ -11,5 +10,3 @@ language.current = 'FA';
 
 console.log(language.log);
 // expected output: Array ["EN", "FA"]
-</code>
-</pre>

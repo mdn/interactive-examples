@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function sanitise(x) {
+function sanitise(x) {
   if (isNaN(x)) {
     return NaN;
   }
@@ -11,5 +10,3 @@ console.log(sanitise('1'));
 
 console.log(sanitise('NotANumber'));
 // expected output: NaN
-</code>
-</pre>

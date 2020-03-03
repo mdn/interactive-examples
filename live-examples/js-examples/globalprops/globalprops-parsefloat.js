@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function circumference(r) {
+function circumference(r) {
   return parseFloat(r) * 2.0 * Math.PI;
 }
 
@@ -11,5 +10,3 @@ console.log(circumference('4.567abcdefgh'));
 
 console.log(circumference('abcdefgh'));
 // expected output: NaN
-</code>
-</pre>

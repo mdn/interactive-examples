@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const materials = [
+const materials = [
   'Hydrogen',
   'Helium',
   'Lithium',
@@ -8,5 +7,3 @@
 
 console.log(materials.map(material => material.length));
 // expected output: Array [8, 6, 7, 9]
-</code>
-</pre>

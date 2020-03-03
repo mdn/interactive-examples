@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function milliseconds(x) {
+function milliseconds(x) {
   if (isNaN(x)) {
     return 'Not a Number!';
   }
@@ -11,5 +10,3 @@ console.log(milliseconds('100F'));
 
 console.log(milliseconds('0.0314E+2'));
 // expected output: 3140
-</code>
-</pre>

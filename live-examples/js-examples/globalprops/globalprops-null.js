@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function getVowels(str) {
+function getVowels(str) {
   const m = str.match(/[aeiou]/gi);
   if (m === null) {
     return 0;
@@ -9,5 +8,3 @@
 
 console.log(getVowels('sky'));
 // expected output: 0
-</code>
-</pre>

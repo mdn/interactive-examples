@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function test(t) {
+function test(t) {
   if (t === undefined) {
      return 'Undefined value!';
   }
@@ -10,5 +9,3 @@ let x;
 
 console.log(test(x));
 // expected output: "Undefined value!"
-</code>
-</pre>

@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const obj = {
+const obj = {
   log: ['a', 'b', 'c'],
   get latest() {
     if (this.log.length == 0) {
@@ -11,5 +10,3 @@
 
 console.log(obj.latest);
 // expected output: "c"
-</code>
-</pre>

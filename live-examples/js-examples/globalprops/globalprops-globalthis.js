@@ -1,9 +1,6 @@
-<pre>
-<code id="static-js">function canMakeHTTPRequest() {
+function canMakeHTTPRequest() {
     return typeof globalThis.XMLHttpRequest === 'function';
 }
 
 console.log(canMakeHTTPRequest());
 // expected output (in a browser): true
-</code>
-</pre>

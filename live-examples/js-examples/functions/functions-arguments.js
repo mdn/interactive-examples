@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function func1(a, b, c) {
+function func1(a, b, c) {
   console.log(arguments[0]);
   // expected output: 1
 
@@ -11,5 +10,3 @@
 }
 
 func1(1, 2, 3);
-</code>
-</pre>
