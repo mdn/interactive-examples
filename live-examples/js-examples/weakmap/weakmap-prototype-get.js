@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const weakmap1 = new WeakMap();
+const weakmap1 = new WeakMap();
 const object1 = {};
 const object2 = {};
 
@@ -10,5 +9,3 @@ console.log(weakmap1.get(object1));
 
 console.log(weakmap1.get(object2));
 // expected output: undefined
-</code>
-</pre>
