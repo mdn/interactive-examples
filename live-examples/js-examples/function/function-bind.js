@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js" data-height="taller">const module = {
+const module = {
   x: 42,
   getX: function() {
     return this.x;
@@ -13,5 +12,3 @@ console.log(unboundGetX()); // The function gets invoked at the global scope
 const boundGetX = unboundGetX.bind(module);
 console.log(boundGetX());
 // expected output: 42
-</code>
-</pre>

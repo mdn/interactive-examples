@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function Product(name, price) {
+function Product(name, price) {
   this.name = name;
   this.price = price;
 }
@@ -11,5 +10,3 @@ function Food(name, price) {
 
 console.log(new Food('cheese', 5).name);
 // expected output: "cheese"
-</code>
-</pre>
