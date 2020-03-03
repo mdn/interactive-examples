@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">const uint8 = new Uint8Array([10, 20, 30, 40, 50]);
+const uint8 = new Uint8Array([10, 20, 30, 40, 50]);
 
 console.log(uint8.join());
 // expected output: "10,20,30,40,50"
@@ -9,5 +8,3 @@ console.log(uint8.join(''));
 
 console.log(uint8.join('-'));
 // expected output: "10-20-30-40-50"
-</code>
-</pre>

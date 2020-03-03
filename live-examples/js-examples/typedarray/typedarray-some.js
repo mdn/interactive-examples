@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">function isNegative(element, index, array) {
+function isNegative(element, index, array) {
   return element < 0;
 }
 
@@ -11,5 +10,3 @@ console.log(int8.some(isNegative));
 
 console.log(positives.some(isNegative));
 // expected output: false
-</code>
-</pre>

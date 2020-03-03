@@ -1,5 +1,4 @@
-<pre>
-<code id="static-js">// create a TypedArray with a size in bytes
+// create a TypedArray with a size in bytes
 const typedArray1 = new Int8Array(8);
 typedArray1[0] = 32;
 
@@ -11,5 +10,3 @@ console.log(typedArray1);
 
 console.log(typedArray2);
 // expected output: Int8Array [32, 42, 0, 0, 0, 0, 0, 0]
-</code>
-</pre>
