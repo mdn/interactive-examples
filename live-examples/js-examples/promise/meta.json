@@ -1,49 +1,49 @@
 {
     "pages": {
         "promiseAll": {
-            "exampleCode": "./live-examples/js-examples/promise/promise-all.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-all.js",
             "fileName": "promise-all.html",
             "title": "JavaScript Demo: Promise.all()",
             "type": "js"
         },
         "promiseAllSettled": {
-            "exampleCode": "./live-examples/js-examples/promise/promise-allsettled.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-allsettled.js",
             "fileName": "promise-allsettled.html",
             "title": "JavaScript Demo: Promise.allSettled()",
             "type": "js"
         },
         "promiseCatch": {
-            "exampleCode": "./live-examples/js-examples/promise/promise-catch.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-catch.js",
             "fileName": "promise-catch.html",
             "title": "JavaScript Demo: Promise.catch()",
             "type": "js"
         },
         "promiseConstructor": {
-            "exampleCode": "./live-examples/js-examples/promise/promise-constructor.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-constructor.js",
             "fileName": "promise-constructor.html",
             "title": "JavaScript Demo: Promise Constructor",
             "type": "js"
         },
         "promiseRace": {
-            "exampleCode": "./live-examples/js-examples/promise/promise-race.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-race.js",
             "fileName": "promise-race.html",
             "title": "JavaScript Demo: Promise.race()",
             "type": "js"
         },
         "promiseReject": {
-            "exampleCode": "./live-examples/js-examples/promise/promise-reject.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-reject.js",
             "fileName": "promise-reject.html",
             "title": "JavaScript Demo: Promise.reject()",
             "type": "js"
         },
         "promiseResolve": {
-            "exampleCode": "./live-examples/js-examples/promise/promise-resolve.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-resolve.js",
             "fileName": "promise-resolve.html",
             "title": "JavaScript Demo: Promise.resolve()",
             "type": "js"
         },
         "promiseThen": {
-            "exampleCode": "./live-examples/js-examples/promise/promise-then.html",
+            "exampleCode": "./live-examples/js-examples/promise/promise-then.js",
             "fileName": "promise-then.html",
             "title": "JavaScript Demo: Promise.then()",
             "type": "js"
