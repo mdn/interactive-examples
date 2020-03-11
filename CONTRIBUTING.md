@@ -97,6 +97,28 @@ After your pull request is reviewed and merged, you can publish your example on 
 
 where `TYPE` is the kind of example (such as `js`, `css`, or `tabbed`) and `FILENAME` is the name of the file that contains the example (like `margin.html` or `date-constructor.html`).
 
+### Short or tall examples
+
+For HTML and JS examples, there are three different possible heights for the editor: short, standard, and tall. If your example is short or tall you need to pass an extra parameter to `EmbedInteractiveExample`, like this:
+
+```
+{{EmbedInteractiveExample("pages/js/reflect-deleteproperty.html", "taller")}}
+```
+
+or
+
+```
+{{EmbedInteractiveExample("pages/js/string-length.html", "shorter")}}
+```
+
+How do you know if your example is short or tall?
+
+* for HTML examples, this is a thing you set explicitly, by supplying a CSS class in the example source. See [Changing the editor height](CONTRIBUTING-HTML.md#changing-the-editor-height).
+* for JS examples, short or tall editors are selected automatically for you:
+    * Examples less than 7 lines long get the short editor, so you should provide the `"shorter"` argument to `EmbedInteractiveExample`
+    * Examples 7-12 lines inclusive get the standard editor, so you should not provide any extra argument to `EmbedInteractiveExample`
+    * Examples 13 or more lines long get the tall editor, so you should provide the `"taller"` argument to `EmbedInteractiveExample`
+
 ## Thank you!
 
 Thank you for your contribution ~ o/\o
