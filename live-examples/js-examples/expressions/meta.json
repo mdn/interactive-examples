@@ -1,163 +1,169 @@
 {
     "pages": {
         "expressionsArithmetic": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-arithmetic.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-arithmetic.js",
             "fileName": "expressions-arithmetic.html",
             "title": "JavaScript Demo: Expressions - Arithmetic",
             "type": "js"
         },
         "expressionsAssignment": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-assignment.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-assignment.js",
             "fileName": "expressions-assignment.html",
             "title": "JavaScript Demo: Expressions - Assignment",
             "type": "js"
         },
         "expressionsBitwiseOperators": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-bitwiseoperators.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-bitwiseoperators.js",
             "fileName": "expressions-bitwiseoperators.html",
             "title": "JavaScript Demo: Expressions - Bitwise operators",
             "type": "js"
         },
         "expressionsClassExpression": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-classexpression.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-classexpression.js",
             "fileName": "expressions-classexpression.html",
             "title": "JavaScript Demo: Expressions - class expression",
             "type": "js"
         },
         "expressionsCommaOperators": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-commaoperators.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-commaoperators.js",
             "fileName": "expressions-commaoperators.html",
             "title": "JavaScript Demo: Expressions - Comma operator",
             "type": "js"
         },
         "expressionsComparisonOperators": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-comparisonoperators.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-comparisonoperators.js",
             "fileName": "expressions-comparisonoperators.html",
             "title": "JavaScript Demo: Expressions - Comparison operators",
             "type": "js"
         },
         "expressionsConditionalOperators": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-conditionaloperators.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-conditionaloperators.js",
             "fileName": "expressions-conditionaloperators.html",
             "title": "JavaScript Demo: Expressions - Conditional operator",
             "type": "js"
         },
         "expressionsDeleteOperator": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-deleteoperator.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-deleteoperator.js",
             "fileName": "expressions-deleteoperator.html",
             "title": "JavaScript Demo: Expressions - delete operator",
             "type": "js"
         },
         "expressionsDestructuringAssignment": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-destructuringassignment.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-destructuringassignment.js",
             "fileName": "expressions-destructuringassignment.html",
             "title": "JavaScript Demo: Expressions - Destructuring assignment",
             "type": "js"
         },
         "expressionsFunctionAsteriskExpression": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-functionasteriskexpression.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-functionasteriskexpression.js",
             "fileName": "expressions-functionasteriskexpression.html",
             "title": "JavaScript Demo: Expressions - function* expression",
             "type": "js"
         },
         "expressionsFunctionExpression": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-functionexpression.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-functionexpression.js",
             "fileName": "expressions-functionexpression.html",
             "title": "JavaScript Demo: Expressions - function expression",
             "type": "js"
         },
         "expressionsGroupingOperator": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-groupingoperator.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-groupingoperator.js",
             "fileName": "expressions-groupingoperator.html",
             "title": "JavaScript Demo: Expressions - Grouping operator",
             "type": "js"
         },
         "expressionsInOperator": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-inoperator.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-inoperator.js",
             "fileName": "expressions-inoperator.html",
             "title": "JavaScript Demo: Expressions - in operator",
             "type": "js"
         },
         "expressionsInstanceof": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-instanceof.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-instanceof.js",
             "fileName": "expressions-instanceof.html",
             "title": "JavaScript Demo: Expressions - instanceof",
             "type": "js"
         },
         "expressionsLogicalOperator": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-logicaloperator.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-logicaloperator.js",
             "fileName": "expressions-logicaloperator.html",
             "title": "JavaScript Demo: Expressions - Logical operator",
             "type": "js"
         },
         "expressionsNewOperator": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-newoperator.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-newoperator.js",
             "fileName": "expressions-newoperator.html",
             "title": "JavaScript Demo: Expressions - new operator",
             "type": "js"
         },
         "expressionsNewTarget": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-newtarget.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-newtarget.js",
             "fileName": "expressions-newtarget.html",
             "title": "JavaScript Demo: Expressions - new.target",
             "type": "js"
         },
+        "expressionsNullishCoalescingOperator": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-nullishcoalescingoperator.js",
+            "fileName": "expressions-nullishcoalescingoperator.html",
+            "title": "JavaScript Demo: Expressions - Nullish coalescing operator",
+            "type": "js"
+        },
         "expressionsObjectInitializer": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-objectinitializer.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-objectinitializer.js",
             "fileName": "expressions-objectinitializer.html",
             "title": "JavaScript Demo: Expressions - Object initializer",
             "type": "js"
         },
         "expressionsOperatorPrecedence": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-operatorprecedence.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-operatorprecedence.js",
             "fileName": "expressions-operatorprecedence.html",
             "title": "JavaScript Demo: Expressions - Operator precedence",
             "type": "js"
         },
         "expressionsOptionalChainingOperator": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-optionalchainingoperator.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-optionalchainingoperator.js",
             "fileName": "expressions-optionalchainingoperator.html",
             "title": "JavaScript Demo: Expressions - Optional chaining operator",
             "type": "js"
         },
         "expressionsPropertyAccessors": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-propertyaccessors.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-propertyaccessors.js",
             "fileName": "expressions-propertyaccessors.html",
             "title": "JavaScript Demo: Expressions - Property accessors",
             "type": "js"
         },
         "expressionsSpreadSyntax": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-spreadsyntax.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-spreadsyntax.js",
             "fileName": "expressions-spreadsyntax.html",
             "title": "JavaScript Demo: Expressions - Spread syntax",
             "type": "js"
         },
         "expressionsThis": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-this.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-this.js",
             "fileName": "expressions-this.html",
             "title": "JavaScript Demo: Expressions - this",
             "type": "js"
         },
         "expressionsTypeof": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-typeof.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-typeof.js",
             "fileName": "expressions-typeof.html",
             "title": "JavaScript Demo: Expressions - typeof",
             "type": "js"
         },
         "expressionsVoidOperator": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-voidoperator.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-voidoperator.js",
             "fileName": "expressions-voidoperator.html",
             "title": "JavaScript Demo: Expressions - void operator",
             "type": "js"
         },
         "expressionsYield": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-yield.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-yield.js",
             "fileName": "expressions-yield.html",
             "title": "JavaScript Demo: Expressions - yield",
             "type": "js"
         },
         "expressionsYieldAsterisk": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-yieldasterisk.html",
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-yieldasterisk.js",
             "fileName": "expressions-yieldasterisk.html",
             "title": "JavaScript Demo: Expressions - yield*",
             "type": "js"

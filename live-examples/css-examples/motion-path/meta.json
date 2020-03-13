@@ -1,5 +1,13 @@
 {
   "pages": {
+    "offsetAnchor": {
+        "cssExampleSrc": "./live-examples/css-examples/motion-path/offset-anchor.css",
+        "exampleCode": "./live-examples/css-examples/motion-path/offset-anchor.html",
+        "jsExampleSrc": "./live-examples/css-examples/motion-path/offset-playback.js",
+        "fileName": "offset-anchor.html",
+        "title": "CSS Demo: offset-anchor",
+        "type": "css"
+    },
     "offsetPath": {
         "cssExampleSrc": "./live-examples/css-examples/motion-path/offset-path.css",
         "exampleCode": "./live-examples/css-examples/motion-path/offset-path.html",
