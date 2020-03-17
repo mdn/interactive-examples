@@ -27,6 +27,12 @@
             "fileName": "type-gradient.html",
             "title": "CSS Demo: &lt;gradient&gt;",
             "type": "css"
+        },
+        "min": {
+            "exampleCode": "./live-examples/css-examples/values-and-units/function-min.html",
+            "fileName": "function-min.html",
+            "title": "CSS Demo: min()",
+            "type": "css"
         }
     }
 }
