@@ -33,6 +33,12 @@
             "fileName": "function-max.html",
             "title": "CSS Demo: max()",
             "type": "css"
+        },
+        "min": {
+            "exampleCode": "./live-examples/css-examples/values-and-units/function-min.html",
+            "fileName": "function-min.html",
+            "title": "CSS Demo: min()",
+            "type": "css"
         }
     }
 }
