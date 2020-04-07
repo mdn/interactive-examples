@@ -28,6 +28,12 @@
             "title": "CSS Demo: &lt;gradient&gt;",
             "type": "css"
         },
+        "max": {
+            "exampleCode": "./live-examples/css-examples/values-and-units/function-max.html",
+            "fileName": "function-max.html",
+            "title": "CSS Demo: max()",
+            "type": "css"
+        },
         "min": {
             "exampleCode": "./live-examples/css-examples/values-and-units/function-min.html",
             "fileName": "function-min.html",
