@@ -21,6 +21,12 @@
             "title": "CSS Demo: calc()",
             "type": "css"
         },
+        "clamp": {
+            "exampleCode": "./live-examples/css-examples/values-and-units/function-clamp.html",
+            "fileName": "function-clamp.html",
+            "title": "CSS Demo: clamp()",
+            "type": "css"
+        },
         "gradient": {
             "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
             "exampleCode": "./live-examples/css-examples/values-and-units/type-gradient.html",
