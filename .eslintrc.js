@@ -2,49 +2,45 @@ module.exports = {
     env: {
         browser: true,
         es6: true,
-        jest: true,
-        node: true
+        node: true,
     },
     extends: 'eslint:recommended',
+    parser: 'babel-eslint',
     parserOptions: {
-        ecmaVersion: 8
+        ecmaVersion: 6,
+        sourceType: 'script',
     },
     rules: {
-        'no-global-assign': 2,
-        indent: [2, 4],
-        'linebreak-style': [2, 'unix'],
-        quotes: [2, 'single'],
-        semi: [2, 'always'],
-        curly: [2, 'all'],
-        camelcase: [
-            2,
+        'camelcase': [
+            'error',
             {
-                properties: 'always'
-            }
+                properties: 'always',
+            },
         ],
-        eqeqeq: [2, 'smart'],
+        'curly': ['error', 'all'],
+        'eqeqeq': ['error', 'smart'],
+        'new-cap': 'warn',
         'no-console': [
             'error',
             {
-                allow: ['log', 'error']
-            }
+                allow: ['log', 'error'],
+            },
         ],
-        'one-var-declaration-per-line': [2, 'always'],
-        'new-cap': 2
+        'indent': ['error', 2],
+        'linebreak-style': ['error', 'unix'],
+        'no-control-regex': 'error',
+        'no-global-assign': 'error',
+        'no-prototype-builtins': 'off',
+        'object-curly-spacing': ['error', 'always'],
+        'one-var-declaration-per-line': ['error', 'always'],
+        'quotes': ['error', 'single'],
+        'semi': ['error', 'always'],
     },
     globals: {
-        Clipboard: true,
-        CodeMirror: true,
-        console: true,
-        expect: true,
-        exports: true,
+        SharedArrayBuffer: true,
+        Atomics: true,
+        BigInt: true,
         getShadowRoot: true,
-        module: true,
-        page: true,
-        Prism: true,
-        require: true,
-        ShadyCSS: true,
-        ShadyDOM: true,
-        test: true
-    }
+        globalThis: true, // will be supported in eslint 7.0
+    },
 };
