@@ -72,6 +72,12 @@
             "title": "JavaScript Demo: Array.indexOf()",
             "type": "js"
         },
+        "arrayIterator": {
+            "exampleCode": "./live-examples/js-examples/array/array-iterator.js",
+            "fileName": "array-iterator.html",
+            "title": "JavaScript Demo: Array.prototype[@@iterator]()",
+            "type": "js"
+        },
         "arrayJoin": {
             "exampleCode": "./live-examples/js-examples/array/array-join.js",
             "fileName": "array-join.html",
