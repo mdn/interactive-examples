@@ -57,6 +57,12 @@ module.exports = {
             },
         },
         {
+            files: ['**/expressions/expressions-destructuringassignment.js'],
+            rules: {
+                'one-var-declaration-per-line': 'off',
+            },
+        },
+        {
             files: ['**/expressions/expressions-newtarget.js'],
             rules: {
                 'new-cap': 'off',
