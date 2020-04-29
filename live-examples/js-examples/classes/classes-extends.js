@@ -1,4 +1,4 @@
-class FormatDate extends Date {
+class DateFormatter extends Date {
 
   getFormattedDate() {
     const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
@@ -8,5 +8,5 @@ class FormatDate extends Date {
 
 }
 
-console.log(new FormatDate('August 19, 1975 23:15:30').getFormattedDate());
+console.log(new DateFormatter('August 19, 1975 23:15:30').getFormattedDate());
 // expected output: "19-Aug-1975"
