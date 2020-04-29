@@ -34,6 +34,7 @@ module.exports = {
         'no-prototype-builtins': 'off',
         'object-curly-spacing': ['error', 'always'],
         'one-var-declaration-per-line': ['error', 'always'],
+        'prefer-template': 'error',
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
     },

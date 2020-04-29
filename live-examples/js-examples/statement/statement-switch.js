@@ -9,5 +9,5 @@ case 'Papayas':
   // expected output: "Mangoes and papayas are $2.79 a pound."
   break;
 default:
-  console.log('Sorry, we are out of ' + expr + '.');
+  console.log(`Sorry, we are out of ${expr}.`);
 }

@@ -7,5 +7,5 @@ console.log(Symbol.iterator.description);
 console.log(Symbol.for('foo').description);
 // expected output: "foo"
 
-console.log(Symbol('foo').description + 'bar');
+console.log(`${Symbol('foo').description}bar`);
 // expected output: "foobar"
