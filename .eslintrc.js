@@ -18,6 +18,7 @@ module.exports = {
             },
         ],
         'curly': ['error', 'all'],
+        'eol-last': 'error',
         'eqeqeq': ['error', 'smart'],
         'new-cap': 'warn',
         'no-console': [
