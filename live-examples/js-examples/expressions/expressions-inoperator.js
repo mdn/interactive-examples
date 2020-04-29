@@ -1,4 +1,4 @@
-const car = {make: 'Honda', model: 'Accord', year: 1998};
+const car = { make: 'Honda', model: 'Accord', year: 1998 };
 
 console.log('make' in car);
 // expected output: true

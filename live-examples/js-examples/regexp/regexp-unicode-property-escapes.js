@@ -1,4 +1,4 @@
-const sentence = "A ticket to 大阪 costs ¥2000 👌.";
+const sentence = 'A ticket to 大阪 costs ¥2000 👌.';
 
 const regexpEmojiPresentation = /\p{Emoji_Presentation}/gu;
 console.log(sentence.match(regexpEmojiPresentation));

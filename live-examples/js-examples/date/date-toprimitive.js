@@ -6,5 +6,3 @@ console.log(date[Symbol.toPrimitive]('string'));
 
 console.log(date[Symbol.toPrimitive]('number'));
 // expected output: 1576833480000
-</code>
-</pre>

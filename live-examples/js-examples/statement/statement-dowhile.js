@@ -1,4 +1,4 @@
-let result = "";
+let result = '';
 let i = 0;
 
 do {

@@ -1,8 +1,8 @@
 function testNum(a) {
   if (a > 0) {
-    return "positive";
+    return 'positive';
   } else {
-    return "NOT positive";
+    return 'NOT positive';
   }
 }
 

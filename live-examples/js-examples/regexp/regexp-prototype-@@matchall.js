@@ -1,11 +1,11 @@
 class MyRegExp extends RegExp {
-    [Symbol.matchAll](str) {
-        let result = RegExp.prototype[Symbol.matchAll].call(this, str);
-        if (!result) {
-            return null;
-        }
-        return Array.from(result);
+  [Symbol.matchAll](str) {
+    let result = RegExp.prototype[Symbol.matchAll].call(this, str);
+    if (!result) {
+      return null;
     }
+    return Array.from(result);
+  }
 }
 
 let re = new MyRegExp('-[0-9]+', 'g');

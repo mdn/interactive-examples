@@ -1,4 +1,4 @@
-let str = "";
+let str = '';
 
 loop1:
 for (let i = 0; i < 5; i++) {

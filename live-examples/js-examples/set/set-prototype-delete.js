@@ -1,5 +1,5 @@
 const set1 = new Set();
-set1.add({x: 10, y: 20}).add({x: 20, y: 30});
+set1.add({ x: 10, y: 20 }).add({ x: 20, y: 30 });
 
 // Delete any point with `x > 10`.
 set1.forEach(function(point){

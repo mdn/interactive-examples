@@ -1,6 +1,6 @@
 const object1 = {
   property1: 42
-}
+};
 
 const descriptor1 = Object.getOwnPropertyDescriptor(object1, 'property1');
 

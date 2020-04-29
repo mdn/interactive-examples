@@ -10,4 +10,3 @@ console.log(korean.minimize().baseName);
 
 console.log(arabic.minimize().baseName);
 // expected output: "ar"
-</pre>

@@ -1,5 +1,5 @@
 function Foo() {
-  if (!new.target) throw 'Foo() must be called with new';
+  if (!new.target) {throw 'Foo() must be called with new';}
 }
 
 try {

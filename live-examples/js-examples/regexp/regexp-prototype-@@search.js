@@ -1,6 +1,6 @@
 class RegExp1 extends RegExp {
   constructor(str) {
-    super(str)
+    super(str);
     this.pattern = str;
   }
   [Symbol.search](str) {

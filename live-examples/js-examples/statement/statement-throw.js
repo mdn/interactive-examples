@@ -1,6 +1,6 @@
 function getRectArea(width, height) {
   if (isNaN(width) || isNaN(height)) {
-    throw "Parameter is not a number!";
+    throw 'Parameter is not a number!';
   }
 }
 
