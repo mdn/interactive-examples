@@ -211,7 +211,7 @@ module.exports = {
         {
             files: ['**/statement/statement-empty.js'],
             rules: {
-                'no-empty': 'off',
+                'curly': 'off',
             },
         },
         {
