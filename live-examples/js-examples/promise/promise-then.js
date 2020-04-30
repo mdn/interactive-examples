@@ -1,8 +1,8 @@
-const promise1 = new Promise(function(resolve, reject) {
+const promise1 = new Promise((resolve, reject) => {
   resolve('Success!');
 });
 
-promise1.then(function(value) {
+promise1.then((value) => {
   console.log(value);
   // expected output: "Success!"
 });

@@ -35,6 +35,7 @@ module.exports = {
         'no-var': 'error',
         'object-curly-spacing': ['error', 'always'],
         'one-var-declaration-per-line': ['error', 'always'],
+        'prefer-arrow-callback': 'error',
         'prefer-template': 'error',
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
