@@ -14,7 +14,7 @@ One way we could maintain a certain consistency is to use the type of the object
 
 For example:
 
-```
+```js
 object1 = {};
 var string1 = “a string”;
 var array1 = ['a', 'b', 'c'];
@@ -27,7 +27,7 @@ Also note that, although we could use the same name for multiple instances, it's
 
 For example:
 
-```
+```js
 const array1 = ['a', 'b', 'c'];
 
 console.log(array1);
@@ -45,14 +45,14 @@ An alternative to using numerical suffixes could be to use more descriptive suff
 
 This may make more sense in the context of the following example:
 
-```
+```js
 const collatorDe = new Intl.Collator('de', { usage: 'search', sensitivity: 'base' });
 const collatorFr = new Intl.Collator('fr', { usage: 'search', sensitivity: 'base' });
 ```
 
 We can also use content-descriptive variable names that don't mention the type of object that they represent, for example:
 
-```
+```js
 const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 ```
 
@@ -67,7 +67,7 @@ When illustrating a programming concept, it is beneficial to mimic real world ex
 
 For example:
 
-```
+```js
 function monster1(disposition) {
   this.disposition = disposition;
 }
@@ -100,7 +100,7 @@ To indicate the ouput we expect, we place a comment `// expected output:` on the
 
 Occasionally browsers will produce different results, in these cases we can denote the varying output like so:
 
-```
+```js
 console.log(matchesDe);
 // expected output (Chrome / Firefox): Array ["Bären"]
 // expected output (Safari): Array ["Bären", "Baren"]
@@ -112,7 +112,7 @@ Writing code that will throw an error can be useful way to illustrate an example
 
 If you wish to use an error to illustrate a method, wrap it in a `try/catch` block for example:
 
-```
+```js
 try {
   Intl.getCanonicalLocales('EN_US');
 } catch (err) {
@@ -140,13 +140,13 @@ There are valid arguments for and against using semi-colons. We use them.
 
 ### Line spacing
 
-To fit the space available we try and keep examples as compact as possible, using blank lines sparingly to increase readability.  
+To fit the space available we try and keep examples as compact as possible, using blank lines sparingly to increase readability.
 
 One place we use a blank line is immediately preceding a `console.log` statement unless it is the first line in a block.
 
 For example:
 
-```
+```js
 construct: (target, args) => {
   console.log('monster1 constructor called');
   // expected output: " constructor called"
@@ -156,7 +156,7 @@ construct: (target, args) => {
 ```
 and
 
-```
+```js
 const proxy1 = new Proxy(monster1, handler1);
 
 console.log(new proxy1('fierce').disposition);
@@ -170,13 +170,14 @@ In order to keep things as concise as reasonably possible we indent with two spa
 ### Instantiating an object
 
 Most objects are instantiated in the normal way, for example:
-```
+
+```js
 const date1 = new Date();
 ```
 
 The exception being `Object` in which case we instantiate like so:
 
-```
+```js
 const object1 = {};
 ```
 
@@ -184,7 +185,7 @@ const object1 = {};
 
 We instantiate arrays in the following way:
 
-```
+```js
 const array1 = [2, 5, 7, 9];
 ```
 
@@ -194,7 +195,7 @@ Note the spacing after the commas.
 
 We use a space after commas when passing parameters to a function, but do not pad the parenthesis: i.e.
 
-```
+```js
 calcAngle(8, 10);
 ```
 
@@ -202,7 +203,7 @@ calcAngle(8, 10);
 
 We use Single quotes to denote strings:
 
-```
+```js
 setTimeout(resolve, 100, 'foo');
 ```
 
@@ -210,7 +211,7 @@ setTimeout(resolve, 100, 'foo');
 
 We chose clarity over brevity when defining object properties, for example:
 
-```
+```js
 const object1 = {
   property1: 42,
   property2: 'foo'
@@ -221,7 +222,7 @@ const object1 = {
 
 Please do NOT put the definition on one single line:
 
-```
+```js
 const object1 = {property1: 42, property2: 'foo'};
 ```
 
@@ -229,7 +230,7 @@ const object1 = {property1: 42, property2: 'foo'};
 
 For example:
 
-```
+```js
 const a = 1 + 2;
 
 if (a > b) {
@@ -241,7 +242,7 @@ if (a > b) {
 
 Generally functions are defined with the `function` keyword at the beginning and the function name starts with a lowercase letter and can be camelCased:
 
-```
+```js
 function sum(a, b) {
   return a + b;
 }
@@ -253,15 +254,15 @@ Note the space before the opening curly brace.
 
 Where ES6 predates the method or object we're illustrating we use the arrow function:
 
-```
-const sum = array1.reduce((a, b) => a + b);  
+```js
+const sum = array1.reduce((a, b) => a + b);
 ```
 
 rather than:
 
-```
+```js
 const sum = array1.reduce(function(a, b) {
-  return a + b;  
+  return a + b;
 });
 ```
 
@@ -271,7 +272,7 @@ As classes were introduced with ES6, we can use other ES6 concepts when defining
 
 Class names should be capitalised and camelCased, for example:
 
-```
+```js
 class Employee {
   constructor() {
     this.alive = true;
@@ -290,7 +291,7 @@ Only use an `else` if the preceding `if` clause doesn't return.
 
 For example:
 
-```
+```js
 if (a > b) {
   return a;
 }
@@ -299,7 +300,7 @@ return b;
 
 rather than:
 
-```
+```js
 if (a > b) {
   return a;
 } else {
@@ -309,7 +310,7 @@ if (a > b) {
 
 ### Formatting switch statements
 
-```
+```js
 const expr = 'Pears';
 switch (expr) {
   case 'Oranges':
@@ -328,7 +329,7 @@ switch (expr) {
 
 When testing for equality use Strict Equality Comparison, for example:
 
-```
+```js
 if (a === b) {
   return a + b;
 }
