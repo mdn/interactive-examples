@@ -176,39 +176,3 @@ const proxy1 = new Proxy(monster1, handler1);
 console.log(new proxy1('fierce').disposition);
 // expected output: "fierce"
 ```
-
-### Property definition
-
-We chose clarity over brevity when defining object properties, for example:
-
-```js
-const object1 = {
-  property1: 42,
-  property2: 'foo'
-};
-```
-
-Please do NOT put the definition on one single line:
-
-```js
-const object1 = {property1: 42, property2: 'foo'};
-```
-
-### Class definition
-
-As classes were introduced with ES6, we can use other ES6 concepts when defining them such as `const`. We also need to be aware of the changing scope of `this`.
-
-Class names should be capitalised and camelCased, for example:
-
-```js
-class Employee {
-  constructor() {
-    this.alive = true;
-  }
-
-  setSkills(skills = []) {
-    const defaultSkills = ['JavaScript'];
-    this.skills = skills.concat(defaultSkills);
-  }
-}
-```
