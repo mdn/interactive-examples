@@ -1,5 +1,5 @@
 const expr = 'Pears';
-switch(expr) {
+switch (expr) {
 case 'Oranges':
   console.log('Oranges are $0.59 a pound.');
   break;

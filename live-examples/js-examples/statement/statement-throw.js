@@ -7,7 +7,7 @@ function getRectArea(width, height) {
 try {
   getRectArea(3, 'A');
 }
-catch(e) {
+catch (e) {
   console.error(e);
   // expected output: "Parameter is not a number!"
 }

@@ -32,6 +32,7 @@ module.exports = {
         ],
         'indent': ['error', 2],
         'key-spacing': 'error',
+        'keyword-spacing': 'error',
         'linebreak-style': ['error', 'unix'],
         'no-control-regex': 'error',
         'no-global-assign': 'error',
