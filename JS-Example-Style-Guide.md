@@ -16,9 +16,9 @@ For example:
 
 ```js
 object1 = {};
-var string1 = “a string”;
-var array1 = ['a', 'b', 'c'];
-var array2 = [1, 2, 3];
+const string1 = 'a string';
+const array1 = ['a', 'b', 'c'];
+const array2 = [1, 2, 3];
 ```
 
 Note that even if there is only one instance of that object, it should be suffixed with a `1`.
@@ -278,7 +278,7 @@ class Employee {
     this.alive = true;
   }
 
-  setSkills(skills=[]) {
+  setSkills(skills = []) {
     const defaultSkills = ['JavaScript'];
     this.skills = skills.concat(defaultSkills);
   }
@@ -320,7 +320,7 @@ switch (expr) {
     console.log('Apples are $0.32 a pound.');
   break;
   default:
-    console.log('Sorry, we are out of ' + expr + '.');
+    console.log(`Sorry, we are out of ${expr}.`);
     // expected output: "Sorry, we are out of Pears."
 }
 ```
