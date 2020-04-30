@@ -56,6 +56,7 @@ module.exports = {
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
         'space-before-function-paren': ['error', 'never'],
+        'space-infix-ops': 'error',
     },
     globals: {
         SharedArrayBuffer: true,
