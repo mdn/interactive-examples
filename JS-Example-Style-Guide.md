@@ -123,6 +123,29 @@ try {
 
 We use ESLint to help guarantee a consistent code style. We define our configuration in /.eslintrc.js. Sometimes individual examples may need to disable certain rules: to do that use the overrides key in the configuration file.
 
+For example, in the comparison operators' example we have to show how the `==` operator works, but our eslint configuration would throw an error. In this case, we can turn off the rule for the given file by adding the following override to the `.eslintrc.js` file
+
+```js
+...
+  overrides: [
+    ...
+      {
+        files: ['**/expressions/expressions-comparisonoperators.js'],
+        rules: {
+          'eqeqeq': 'off',
+        },
+      },
+    ...
+  ],
+...
+```
+
+You can validate your example anytime by running the following npm script:
+
+```sh
+npm run lint:js
+```
+
 In the rest of this section we'll describe additional conventions, not enforced using ESLint but instead using code review.
 
 ### Language choice (ES6)
