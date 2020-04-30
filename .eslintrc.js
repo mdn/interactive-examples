@@ -11,6 +11,7 @@ module.exports = {
         sourceType: 'script',
     },
     rules: {
+        'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
         'camelcase': [
             'error',
             {
