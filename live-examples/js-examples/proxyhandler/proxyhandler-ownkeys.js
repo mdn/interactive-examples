@@ -5,7 +5,7 @@ const monster1 = {
 };
 
 const handler1 = {
-  ownKeys (target) {
+  ownKeys(target) {
     return Reflect.ownKeys(target);
   }
 };

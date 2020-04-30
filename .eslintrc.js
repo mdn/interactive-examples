@@ -46,6 +46,7 @@ module.exports = {
         'prefer-template': 'error',
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
+        'space-before-function-paren': ['error', 'never'],
     },
     globals: {
         SharedArrayBuffer: true,

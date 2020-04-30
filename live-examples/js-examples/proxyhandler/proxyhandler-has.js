@@ -1,5 +1,5 @@
 const handler1 = {
-  has (target, key) {
+  has(target, key) {
     if (key[0] === '_') {
       return false;
     }
