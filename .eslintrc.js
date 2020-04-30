@@ -38,6 +38,7 @@ module.exports = {
         'no-global-assign': 'error',
         'no-multiple-empty-lines': 'error',
         'no-prototype-builtins': 'off',
+        'no-trailing-spaces': 'error',
         'no-var': 'error',
         'object-curly-spacing': ['error', 'always'],
         'one-var-declaration-per-line': ['error', 'always'],

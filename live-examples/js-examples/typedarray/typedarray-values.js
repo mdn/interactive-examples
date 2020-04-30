@@ -4,5 +4,5 @@ const array1 = uint8.values();
 array1.next();
 array1.next();
 
-console.log(array1.next().value); 
+console.log(array1.next().value);
 // expected output: 30

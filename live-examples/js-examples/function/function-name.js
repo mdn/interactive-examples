@@ -1,5 +1,5 @@
 const func1 = function() {};
-  
+
 const object = {
   func2: function() {}
 };
