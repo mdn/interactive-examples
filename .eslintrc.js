@@ -25,6 +25,7 @@ module.exports = {
         'eqeqeq': ['error', 'smart'],
         'func-call-spacing': 'error',
         'new-cap': 'warn',
+        'no-array-constructor': 'error',
         'no-console': [
             'error',
             {
