@@ -30,7 +30,13 @@ module.exports = {
                 allow: ['log', 'error'],
             },
         ],
-        'indent': ['error', 2],
+        'indent': [
+            'error',
+            2,
+            {
+                'SwitchCase': 1,
+            }
+        ],
         'key-spacing': 'error',
         'keyword-spacing': 'error',
         'linebreak-style': ['error', 'unix'],
