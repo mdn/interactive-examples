@@ -32,6 +32,7 @@ module.exports = {
         'no-control-regex': 'error',
         'no-global-assign': 'error',
         'no-prototype-builtins': 'off',
+        'no-var': 'error',
         'object-curly-spacing': ['error', 'always'],
         'one-var-declaration-per-line': ['error', 'always'],
         'prefer-template': 'error',
@@ -202,6 +203,7 @@ module.exports = {
                 'no-constant-condition': 'off',
                 'no-redeclare': 'off',
                 'no-unused-vars': 'off',
+                'no-var': 'off',
             },
         },
         {
@@ -226,6 +228,7 @@ module.exports = {
             files: ['**/statement/statement-var.js'],
             rules: {
                 'no-redeclare': 'off',
+                'no-var': 'off',
             },
         },
         {
