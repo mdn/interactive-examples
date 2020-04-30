@@ -17,6 +17,7 @@ module.exports = {
                 properties: 'always',
             },
         ],
+        'comma-spacing': 'error',
         'curly': ['error', 'all'],
         'eol-last': 'error',
         'eqeqeq': ['error', 'smart'],

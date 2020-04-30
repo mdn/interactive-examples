@@ -4,5 +4,5 @@ class Polygon {
   }
 }
 
-console.log(new Polygon(4,3).area);
+console.log(new Polygon(4, 3).area);
 // expected output: 12

@@ -8,5 +8,5 @@ const Rectangle = class {
   }
 };
 
-console.log(new Rectangle(5,8).area());
+console.log(new Rectangle(5, 8).area());
 // expected output: 40
