@@ -1,12 +1,12 @@
-const map1 = new Map();
+const map = new Map();
 
-map1.set('0', 'foo');
-map1.set(1, 'bar');
+map.set('0', 'foo');
+map.set(1, 'bar');
 
-const iterator1 = map1.keys();
+const iterator = map.keys();
 
-console.log(iterator1.next().value);
+console.log(iterator.next().value);
 // expected output: "0"
 
-console.log(iterator1.next().value);
+console.log(iterator.next().value);
 // expected output: 1
