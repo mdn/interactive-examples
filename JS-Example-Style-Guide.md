@@ -60,7 +60,6 @@ const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 
 The aim is to try and fit examples into 12 lines of code, only if it's not possible to create a useful example in 12 should we write longer examples.
 
-
 ### Tangible examples
 
 When illustrating a programming concept, it is beneficial to mimic real world examples as much as possible. Once you have chosen your real world theme, stick to the theme throughout the specific example.
@@ -87,14 +86,13 @@ console.log(new proxy1('fierce').disposition);
 // expected output: "fierce"
 ```
 
-
 ### Providing context
 
 Where possible, it is useful to provide examples showing how a method could be used in the context of a function or class. In instances where a succinct example is not possible, a series of `console.log` statements can also be a valid way of illustrating an example.
 
 ### Indicating console.log output
 
-To indicate the ouput we expect, we place a comment `// expected output:` on the line below each `console.log`.
+To indicate the output we expect, we place a comment `// expected output:` on the line below each `console.log`.
 
 ### Representing browser differences
 
