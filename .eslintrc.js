@@ -32,6 +32,7 @@ module.exports = {
                 allow: ['log', 'error'],
             },
         ],
+        'no-new-object': 'error',
         'indent': [
             'error',
             2,
