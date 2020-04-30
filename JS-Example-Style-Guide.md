@@ -123,20 +123,13 @@ try {
 
 ## JavaScript coding style
 
+We use ESLint to help guarantee a consistent code style. We define our configuration in /.eslintrc.js. Sometimes individual examples may need to disable certain rules: to do that use the overrides key in the configuration file.
+
+In the rest of this section we'll describe additional conventions, not enforced using ESLint but instead using code review.
+
 ### Language choice (ES6)
 
 According to the general [MDN JS guideline](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/JavaScript#Use_ES6_features), aim to use ES6 to illustrate examples.
-
-ES6 examples should use:
-
-- `let` and `const` instead of `var`
-- Arrow functions (`=>`) for Anonymous Functions (see below)
-- Template literals (``string text ${expression} string text``)
-- Spread syntax (`myFunction(...iterableObj);`)
-
-### Semi-colons
-
-There are valid arguments for and against using semi-colons. We use them.
 
 ### Line spacing
 
@@ -163,50 +156,6 @@ console.log(new proxy1('fierce').disposition);
 // expected output: "fierce"
 ```
 
-### Indentation
-
-In order to keep things as concise as reasonably possible we indent with two spaces.
-
-### Instantiating an object
-
-Most objects are instantiated in the normal way, for example:
-
-```js
-const date1 = new Date();
-```
-
-The exception being `Object` in which case we instantiate like so:
-
-```js
-const object1 = {};
-```
-
-### Instantiating an array
-
-We instantiate arrays in the following way:
-
-```js
-const array1 = [2, 5, 7, 9];
-```
-
-Note the spacing after the commas.
-
-### Passing parameters
-
-We use a space after commas when passing parameters to a function, but do not pad the parenthesis: i.e.
-
-```js
-calcAngle(8, 10);
-```
-
-### Single quotes
-
-We use Single quotes to denote strings:
-
-```js
-setTimeout(resolve, 100, 'foo');
-```
-
 ### Property definition
 
 We chose clarity over brevity when defining object properties, for example:
@@ -218,52 +167,10 @@ const object1 = {
 };
 ```
 
-(Note the space after the colon.)
-
 Please do NOT put the definition on one single line:
 
 ```js
 const object1 = {property1: 42, property2: 'foo'};
-```
-
-### Spaces between operators
-
-For example:
-
-```js
-const a = 1 + 2;
-
-if (a > b) {
-  return a;
-}
-```
-
-### Function definition
-
-Generally functions are defined with the `function` keyword at the beginning and the function name starts with a lowercase letter and can be camelCased:
-
-```js
-function sum(a, b) {
-  return a + b;
-}
-```
-
-Note the space before the opening curly brace.
-
-### Anonymous function definition
-
-Where ES6 predates the method or object we're illustrating we use the arrow function:
-
-```js
-const sum = array1.reduce((a, b) => a + b);
-```
-
-rather than:
-
-```js
-const sum = array1.reduce(function(a, b) {
-  return a + b;
-});
 ```
 
 ### Class definition
@@ -282,59 +189,5 @@ class Employee {
     const defaultSkills = ['JavaScript'];
     this.skills = skills.concat(defaultSkills);
   }
-}
-```
-
-### Return early from if statements
-
-Only use an `else` if the preceding `if` clause doesn't return.
-
-For example:
-
-```js
-if (a > b) {
-  return a;
-}
-return b;
-```
-
-rather than:
-
-```js
-if (a > b) {
-  return a;
-} else {
-  return b;
-}
-```
-
-### Formatting switch statements
-
-```js
-const expr = 'Pears';
-switch (expr) {
-  case 'Oranges':
-    console.log('Oranges are $0.59 a pound.');
-  break;
-  case 'Apples':
-    console.log('Apples are $0.32 a pound.');
-  break;
-  default:
-    console.log(`Sorry, we are out of ${expr}.`);
-    // expected output: "Sorry, we are out of Pears."
-}
-```
-
-### Testing for equality
-
-When testing for equality use Strict Equality Comparison, for example:
-
-```js
-if (a === b) {
-  return a + b;
-}
-
-if (a !== b) {
-  return a - b;
 }
 ```
