@@ -22,6 +22,7 @@ module.exports = {
         'curly': ['error', 'all'],
         'eol-last': 'error',
         'eqeqeq': ['error', 'smart'],
+        'func-call-spacing': 'error',
         'new-cap': 'warn',
         'no-console': [
             'error',
