@@ -18,6 +18,7 @@ module.exports = {
             },
         ],
         'comma-spacing': 'error',
+        'comma-style': 'error',
         'curly': ['error', 'all'],
         'eol-last': 'error',
         'eqeqeq': ['error', 'smart'],
