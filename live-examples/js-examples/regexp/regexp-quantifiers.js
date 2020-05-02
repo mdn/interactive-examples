@@ -10,4 +10,4 @@ console.log(modifiedQuote.match(regexpModifications));
 
 const regexpTooGreedy = /\[.*\]/g
 console.log(modifiedQuote.match(regexpTooGreedy));
-// expected output: Array ["[He] ha[s] to go read this novel [Alice in Wonderland]."]
+// expected output: Array ["[He] ha[s] to go read this novel [Alice in Wonderland]"]
