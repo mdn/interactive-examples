@@ -1,6 +1,6 @@
 const object1 = {};
 
-if (Reflect.defineProperty(object1, 'property1', {value: 42})) {
+if (Reflect.defineProperty(object1, 'property1', { value: 42 })) {
   console.log('property1 created!');
   // expected output: "property1 created!"
 } else {

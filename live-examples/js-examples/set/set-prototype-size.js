@@ -1,5 +1,5 @@
 const set1 = new Set();
-const object1 = new Object();
+const object1 = {};
 
 set1.add(42);
 set1.add('forty two');

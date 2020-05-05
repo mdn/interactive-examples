@@ -7,7 +7,7 @@ const handler1 = {
 
 const monsterProto = {};
 const monster1 = {
-  geneticallyModified : false
+  geneticallyModified: false
 };
 
 const proxy1 = new Proxy(monster1, handler1);

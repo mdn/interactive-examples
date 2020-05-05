@@ -2,7 +2,7 @@ function div(x) {
   if (isFinite(1000 / x)) {
     return 'Number is NOT Infinity.';
   }
-  return "Number is Infinity!";
+  return 'Number is Infinity!';
 }
 
 console.log(div(0));

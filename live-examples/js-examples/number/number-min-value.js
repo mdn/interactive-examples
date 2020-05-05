@@ -1,6 +1,6 @@
 function multiply(x, y) {
   if (x * y < Number.MIN_VALUE) {
-    return "Process as -Infinity";
+    return 'Process as -Infinity';
   }
   return (x * y);
 }

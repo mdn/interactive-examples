@@ -7,7 +7,7 @@ console.log(weakset1.has(object1));
 
 try {
   weakset1.add(1);
-} catch(error) {
+} catch (error) {
   console.log(error);
   // expected output: "Error: Invalid value used in weak set" in Chrome
   // expected output: "TypeError: WeakSet value must be an object, got the number 1" in Firefox

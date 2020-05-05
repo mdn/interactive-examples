@@ -1,6 +1,6 @@
 class Polygon {
   constructor() {
-    this.name = "Polygon";
+    this.name = 'Polygon';
   }
 }
 

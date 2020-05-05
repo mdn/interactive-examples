@@ -1,5 +1,5 @@
 const options1 = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-const date1 = new Date(2012, 05);
+const date1 = new Date(2012, 5);
 
 const dateTimeFormat1 = new Intl.DateTimeFormat('sr-RS', options1);
 console.log(dateTimeFormat1.format(date1));

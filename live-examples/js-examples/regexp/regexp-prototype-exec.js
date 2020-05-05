@@ -1,4 +1,4 @@
-const regex1 = RegExp('foo*','g');
+const regex1 = RegExp('foo*', 'g');
 const str1 = 'table football, foosball';
 let array1;
 
