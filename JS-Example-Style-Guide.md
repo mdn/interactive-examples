@@ -146,6 +146,14 @@ You can validate your example anytime by running the following npm script:
 npm run lint:js
 ```
 
+We've also provided the following command:
+
+```sh
+npm run lint-fix:js
+```
+
+This runs ESLint with the `--fix` option, which tries to fix issues.
+
 In the rest of this section we'll describe additional conventions, not enforced using ESLint but instead using code review.
 
 ### Language choice (ES6)
