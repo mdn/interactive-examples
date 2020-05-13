@@ -149,7 +149,7 @@ npm run lint:js
 We've also provided the following command:
 
 ```sh
-npm run lint-fix:js
+npm run lint:js:fix
 ```
 
 This runs ESLint with the `--fix` option, which tries to fix issues.
