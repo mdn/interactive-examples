@@ -127,6 +127,12 @@
             "title": "JavaScript Demo: String.replace()",
             "type": "js"
         },
+        "stringReplaceAll": {
+            "exampleCode": "./live-examples/js-examples/string/string-replaceall.js",
+            "fileName": "string-replaceall.html",
+            "title": "JavaScript Demo: String.replaceAll()",
+            "type": "js"
+        },
         "stringSearch": {
             "exampleCode": "./live-examples/js-examples/string/string-search.js",
             "fileName": "string-search.html",
