@@ -42,7 +42,7 @@
         "prettier": "2.0.5",
         "prettier-eslint": "10.1.1",
         "prettier-stylelint": "0.4.2",
-        "stylelint": "13.5.0"
+        "stylelint": "13.6.0"
     },
     "dependencies": {
         "npm": "^6.14.5"
