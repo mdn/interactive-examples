@@ -84,10 +84,22 @@
             "title": "JavaScript Demo: Expressions - instanceof",
             "type": "js"
         },
-        "expressionsLogicalOperator": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-logicaloperator.js",
-            "fileName": "expressions-logicaloperator.html",
-            "title": "JavaScript Demo: Expressions - Logical operator",
+        "expressionsLogicalAND": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-logical-and.js",
+            "fileName": "expressions-logical-and.html",
+            "title": "JavaScript Demo: Expressions - Logical AND",
+            "type": "js"
+        },
+        "expressionsLogicalOR": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-logical-or.js",
+            "fileName": "expressions-logical-or.html",
+            "title": "JavaScript Demo: Expressions - Logical OR",
+            "type": "js"
+        },
+        "expressionsLogicalNOT": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-logical-not.js",
+            "fileName": "expressions-logical-not.html",
+            "title": "JavaScript Demo: Expressions - Logical NOT",
             "type": "js"
         },
         "expressionsNewOperator": {
