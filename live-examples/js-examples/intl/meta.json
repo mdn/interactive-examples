@@ -54,16 +54,16 @@
             "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.supportedLocalesOf",
             "type": "js"
         },
-        "intlDisplayNames": {
-            "exampleCode": "./live-examples/js-examples/intl/intl-displaynames.js",
-            "fileName": "intl-displaynames.html",
-            "title": "JavaScript Demo: Intl.DisplayNames",
-            "type": "js"
-        },
         "intlDateTimeFormat": {
             "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat.js",
             "fileName": "intl-datetimeformat.html",
             "title": "JavaScript Demo: Intl.DateTimeFormat",
+            "type": "js"
+        },
+        "intlDisplayNames": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-displaynames.js",
+            "fileName": "intl-displaynames.html",
+            "title": "JavaScript Demo: Intl.DisplayNames",
             "type": "js"
         },
         "intlGetCanonicalLocales": {
