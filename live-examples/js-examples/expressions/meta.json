@@ -1,12 +1,12 @@
 {
     "pages": {
-        "expressionsArithmetic": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-arithmetic.js",
-            "fileName": "expressions-arithmetic.html",
-            "title": "JavaScript Demo: Expressions - Arithmetic",
-            "type": "js"
-        },
-        "expressionsAssignment": {
+      "expressionsAddition": {
+          "exampleCode": "./live-examples/js-examples/expressions/expressions-addition.js",
+          "fileName": "expressions-addition.html",
+          "title": "JavaScript Demo: Expressions - Addition operator",
+          "type": "js"
+      },
+      "expressionsAssignment": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-assignment.js",
             "fileName": "expressions-assignment.html",
             "title": "JavaScript Demo: Expressions - Assignment",
@@ -42,6 +42,12 @@
             "title": "JavaScript Demo: Expressions - Conditional operator",
             "type": "js"
         },
+        "expressionsDecrement": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-decrement.js",
+            "fileName": "expressions-decrement.html",
+            "title": "JavaScript Demo: Expressions - Decrement operator",
+            "type": "js"
+        },
         "expressionsDeleteOperator": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-deleteoperator.js",
             "fileName": "expressions-deleteoperator.html",
@@ -52,6 +58,18 @@
             "exampleCode": "./live-examples/js-examples/expressions/expressions-destructuringassignment.js",
             "fileName": "expressions-destructuringassignment.html",
             "title": "JavaScript Demo: Expressions - Destructuring assignment",
+            "type": "js"
+        },
+        "expressionsDivision": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-division.js",
+            "fileName": "expressions-division.html",
+            "title": "JavaScript Demo: Expressions - Division operator",
+            "type": "js"
+        },
+        "expressionsExponentiation": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-exponentiation.js",
+            "fileName": "expressions-exponentiation.html",
+            "title": "JavaScript Demo: Expressions - Exponentiation operator",
             "type": "js"
         },
         "expressionsFunctionAsteriskExpression": {
@@ -78,6 +96,12 @@
             "title": "JavaScript Demo: Expressions - in operator",
             "type": "js"
         },
+        "expressionsIncrement": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-increment.js",
+            "fileName": "expressions-increment.html",
+            "title": "JavaScript Demo: Expressions - Increment operator",
+            "type": "js"
+        },
         "expressionsInstanceof": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-instanceof.js",
             "fileName": "expressions-instanceof.html",
@@ -100,6 +124,12 @@
             "exampleCode": "./live-examples/js-examples/expressions/expressions-logical-not.js",
             "fileName": "expressions-logical-not.html",
             "title": "JavaScript Demo: Expressions - Logical NOT",
+            "type": "js"
+        },
+        "expressionsMultiplication": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-multiplication.js",
+            "fileName": "expressions-multiplication.html",
+            "title": "JavaScript Demo: Expressions - Multiplication operator",
             "type": "js"
         },
         "expressionsNewOperator": {
@@ -144,10 +174,22 @@
             "title": "JavaScript Demo: Expressions - Property accessors",
             "type": "js"
         },
+        "expressionsRemainder": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-remainder.js",
+            "fileName": "expressions-remainder.html",
+            "title": "JavaScript Demo: Expressions - Remainder operator",
+            "type": "js"
+        },
         "expressionsSpreadSyntax": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-spreadsyntax.js",
             "fileName": "expressions-spreadsyntax.html",
             "title": "JavaScript Demo: Expressions - Spread syntax",
+            "type": "js"
+        },
+        "expressionsSubtraction": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-subtraction.js",
+            "fileName": "expressions-subtraction.html",
+            "title": "JavaScript Demo: Expressions - Subtraction operator",
             "type": "js"
         },
         "expressionsThis": {
@@ -160,6 +202,18 @@
             "exampleCode": "./live-examples/js-examples/expressions/expressions-typeof.js",
             "fileName": "expressions-typeof.html",
             "title": "JavaScript Demo: Expressions - typeof",
+            "type": "js"
+        },
+        "expressionsUnaryNegation": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-unary-negation.js",
+            "fileName": "expressions-unary-negation.html",
+            "title": "JavaScript Demo: Expressions - Unary negation operator",
+            "type": "js"
+        },
+        "expressionsUnaryPlus": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-unary-plus.js",
+            "fileName": "expressions-unary-plus.html",
+            "title": "JavaScript Demo: Expressions - Unary plus operator",
             "type": "js"
         },
         "expressionsVoidOperator": {
