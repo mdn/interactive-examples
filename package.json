@@ -32,7 +32,7 @@
     ],
     "devDependencies": {
         "ajv": "6.12.2",
-        "all-contributors-cli": "6.15.0",
+        "all-contributors-cli": "6.16.0",
         "babel-eslint": "^10.1.0",
         "chokidar-cli": "2.1.0",
         "eslint": "7.1.0",
