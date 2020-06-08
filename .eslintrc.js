@@ -74,6 +74,12 @@ module.exports = {
             },
         },
         {
+            files: ['**/expressions/expressions-addition.js'],
+            rules: {
+                'prefer-template': 'off',
+            },
+        },
+        {
             files: ['**/expressions/expressions-comparisonoperators.js'],
             rules: {
                 'eqeqeq': 'off',

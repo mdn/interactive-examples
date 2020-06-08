@@ -7,5 +7,5 @@ console.log(2 + true);
 console.log('hello ' + 'everyone');
 // expected result: "hello everyone"
 
-console.log(`${2001  }: A Space Odyssey`);
+console.log(2001 + ': A Space Odyssey');
 // expected result: "2001: A Space Odyssey"
