@@ -6,6 +6,12 @@
           "title": "JavaScript Demo: Expressions - Addition operator",
           "type": "js"
       },
+      "expressionsAdditionAssignment": {
+        "exampleCode": "./live-examples/js-examples/expressions/expressions-addition-assignment.js",
+        "fileName": "expressions-addition-assignment.html",
+        "title": "JavaScript Demo: Expressions - Addition assignment operator",
+        "type": "js"
+      },
       "expressionsAssignment": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-assignment.js",
             "fileName": "expressions-assignment.html",
@@ -66,10 +72,22 @@
             "title": "JavaScript Demo: Expressions - Division operator",
             "type": "js"
         },
+        "expressionsDivisionAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-division-assignment.js",
+            "fileName": "expressions-division-assignment.html",
+            "title": "JavaScript Demo: Expressions - Division assignment operator",
+            "type": "js"
+        },
         "expressionsExponentiation": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-exponentiation.js",
             "fileName": "expressions-exponentiation.html",
             "title": "JavaScript Demo: Expressions - Exponentiation operator",
+            "type": "js"
+        },
+        "expressionsExponentiationAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-exponentiation-assignment.js",
+            "fileName": "expressions-exponentiation-assignment.html",
+            "title": "JavaScript Demo: Expressions - Exponentiation assignment operator",
             "type": "js"
         },
         "expressionsFunctionAsteriskExpression": {
@@ -132,6 +150,12 @@
             "title": "JavaScript Demo: Expressions - Multiplication operator",
             "type": "js"
         },
+        "expressionsMultiplicationAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-multiplication-assignment.js",
+            "fileName": "expressions-multiplication-assignment.html",
+            "title": "JavaScript Demo: Expressions - Multiplication assignment operator",
+            "type": "js"
+        },
         "expressionsNewOperator": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-newoperator.js",
             "fileName": "expressions-newoperator.html",
@@ -180,6 +204,12 @@
             "title": "JavaScript Demo: Expressions - Remainder operator",
             "type": "js"
         },
+        "expressionsRemainderAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-remainder-assignment.js",
+            "fileName": "expressions-remainder-assignment.html",
+            "title": "JavaScript Demo: Expressions - Remainder assignment operator",
+            "type": "js"
+        },
         "expressionsSpreadSyntax": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-spreadsyntax.js",
             "fileName": "expressions-spreadsyntax.html",
@@ -190,6 +220,12 @@
             "exampleCode": "./live-examples/js-examples/expressions/expressions-subtraction.js",
             "fileName": "expressions-subtraction.html",
             "title": "JavaScript Demo: Expressions - Subtraction operator",
+            "type": "js"
+        },
+        "expressionsSubtractionAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-subtraction-assignment.js",
+            "fileName": "expressions-subtraction-assignment.html",
+            "title": "JavaScript Demo: Expressions - Subtraction assignment operator",
             "type": "js"
         },
         "expressionsThis": {
