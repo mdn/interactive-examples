@@ -36,12 +36,6 @@
             "title": "JavaScript Demo: Expressions - Comma operator",
             "type": "js"
         },
-        "expressionsComparisonOperators": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-comparisonoperators.js",
-            "fileName": "expressions-comparisonoperators.html",
-            "title": "JavaScript Demo: Expressions - Comparison operators",
-            "type": "js"
-        },
         "expressionsConditionalOperators": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-conditionaloperators.js",
             "fileName": "expressions-conditionaloperators.html",
@@ -78,6 +72,12 @@
             "title": "JavaScript Demo: Expressions - Division assignment operator",
             "type": "js"
         },
+        "expressionsEquality": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-equality.js",
+            "fileName": "expressions-equality.html",
+            "title": "JavaScript Demo: Expressions - Equality operator",
+            "type": "js"
+        },
         "expressionsExponentiation": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-exponentiation.js",
             "fileName": "expressions-exponentiation.html",
@@ -102,6 +102,18 @@
             "title": "JavaScript Demo: Expressions - function expression",
             "type": "js"
         },
+        "expressionsGreaterThan": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-greater-than.js",
+            "fileName": "expressions-greater-than.html",
+            "title": "JavaScript Demo: Expressions - Greater than operator",
+            "type": "js"
+        },
+        "expressionsGreaterThanOrEqual": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-greater-than-or-equal.js",
+            "fileName": "expressions-greater-than-or-equal.html",
+            "title": "JavaScript Demo: Expressions - Greater than or equal operator",
+            "type": "js"
+        },
         "expressionsGroupingOperator": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-groupingoperator.js",
             "fileName": "expressions-groupingoperator.html",
@@ -120,10 +132,28 @@
             "title": "JavaScript Demo: Expressions - Increment operator",
             "type": "js"
         },
+        "expressionsInequality": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-inequality.js",
+            "fileName": "expressions-inequality.html",
+            "title": "JavaScript Demo: Expressions - Inequality operator",
+            "type": "js"
+        },
         "expressionsInstanceof": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-instanceof.js",
             "fileName": "expressions-instanceof.html",
             "title": "JavaScript Demo: Expressions - instanceof",
+            "type": "js"
+        },
+        "expressionsLessThan": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-less-than.js",
+            "fileName": "expressions-less-than.html",
+            "title": "JavaScript Demo: Expressions - Less than operator",
+            "type": "js"
+        },
+        "expressionsLessThanOrEqual": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-less-than-or-equal.js",
+            "fileName": "expressions-less-than-or-equal.html",
+            "title": "JavaScript Demo: Expressions - Less than or equal operator",
             "type": "js"
         },
         "expressionsLogicalAND": {
@@ -214,6 +244,18 @@
             "exampleCode": "./live-examples/js-examples/expressions/expressions-spreadsyntax.js",
             "fileName": "expressions-spreadsyntax.html",
             "title": "JavaScript Demo: Expressions - Spread syntax",
+            "type": "js"
+        },
+        "expressionsStrictEquality": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-strict-equality.js",
+            "fileName": "expressions-strict-equality.html",
+            "title": "JavaScript Demo: Expressions - Strict equality operator",
+            "type": "js"
+        },
+        "expressionsStrictInequality": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-strict-inequality.js",
+            "fileName": "expressions-strict-inequality.html",
+            "title": "JavaScript Demo: Expressions - Strict inequality operator",
             "type": "js"
         },
         "expressionsSubtraction": {

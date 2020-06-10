@@ -80,15 +80,21 @@ module.exports = {
             },
         },
         {
-            files: ['**/expressions/expressions-comparisonoperators.js'],
+            files: ['**/expressions/expressions-destructuringassignment.js'],
+            rules: {
+                'one-var-declaration-per-line': 'off',
+            },
+        },
+        {
+            files: ['**/expressions/expressions-equality.js'],
             rules: {
                 'eqeqeq': 'off',
             },
         },
         {
-            files: ['**/expressions/expressions-destructuringassignment.js'],
+            files: ['**/expressions/expressions-inequality.js'],
             rules: {
-                'one-var-declaration-per-line': 'off',
+                'eqeqeq': 'off',
             },
         },
         {
