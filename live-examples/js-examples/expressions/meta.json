@@ -18,10 +18,28 @@
             "title": "JavaScript Demo: Expressions - Assignment",
             "type": "js"
         },
+        "expressionsBitwiseAND": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-bitwise-and.js",
+            "fileName": "expressions-bitwise-and.html",
+            "title": "JavaScript Demo: Expressions - Bitwise AND",
+            "type": "js"
+        },
         "expressionsBitwiseANDAssignment": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-bitwise-and-assignment.js",
             "fileName": "expressions-bitwise-and-assignment.html",
             "title": "JavaScript Demo: Expressions - Bitwise AND assignment",
+            "type": "js"
+        },
+        "expressionsBitwiseNOT": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-bitwise-not.js",
+            "fileName": "expressions-bitwise-not.html",
+            "title": "JavaScript Demo: Expressions - Bitwise NOT",
+            "type": "js"
+        },
+        "expressionsBitwiseOR": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-bitwise-or.js",
+            "fileName": "expressions-bitwise-or.html",
+            "title": "JavaScript Demo: Expressions - Bitwise OR",
             "type": "js"
         },
         "expressionsBitwiseORAssignment": {
@@ -30,10 +48,10 @@
             "title": "JavaScript Demo: Expressions - Bitwise OR assignment",
             "type": "js"
         },
-        "expressionsBitwiseOperators": {
-            "exampleCode": "./live-examples/js-examples/expressions/expressions-bitwiseoperators.js",
-            "fileName": "expressions-bitwiseoperators.html",
-            "title": "JavaScript Demo: Expressions - Bitwise operators",
+        "expressionsBitwiseXOR": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-bitwise-xor.js",
+            "fileName": "expressions-bitwise-xor.html",
+            "title": "JavaScript Demo: Expressions - Bitwise XOR",
             "type": "js"
         },
         "expressionsBitwiseXORAssignment": {
@@ -162,6 +180,12 @@
             "title": "JavaScript Demo: Expressions - instanceof",
             "type": "js"
         },
+        "expressionsLeftShift": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-left-shift.js",
+            "fileName": "expressions-left-shift.html",
+            "title": "JavaScript Demo: Expressions - Left shift operator",
+            "type": "js"
+        },
         "expressionsLeftShiftAssignment": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-left-shift-assignment.js",
             "fileName": "expressions-left-shift-assignment.html",
@@ -264,6 +288,12 @@
             "title": "JavaScript Demo: Expressions - Remainder assignment operator",
             "type": "js"
         },
+        "expressionsRightShift": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-right-shift.js",
+            "fileName": "expressions-right-shift.html",
+            "title": "JavaScript Demo: Expressions - Right shift operator",
+            "type": "js"
+        },
         "expressionsRightShiftAssignment": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-right-shift-assignment.js",
             "fileName": "expressions-right-shift-assignment.html",
@@ -322,6 +352,12 @@
             "exampleCode": "./live-examples/js-examples/expressions/expressions-unary-plus.js",
             "fileName": "expressions-unary-plus.html",
             "title": "JavaScript Demo: Expressions - Unary plus operator",
+            "type": "js"
+        },
+        "expressionsUnsignedRightShift": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-unsigned-right-shift.js",
+            "fileName": "expressions-unsigned-right-shift.html",
+            "title": "JavaScript Demo: Expressions - Unsigned right shift operator",
             "type": "js"
         },
         "expressionsUnsignedRightShiftAssignment": {
