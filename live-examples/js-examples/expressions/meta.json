@@ -18,10 +18,28 @@
             "title": "JavaScript Demo: Expressions - Assignment",
             "type": "js"
         },
+        "expressionsBitwiseANDAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-bitwise-and-assignment.js",
+            "fileName": "expressions-bitwise-and-assignment.html",
+            "title": "JavaScript Demo: Expressions - Bitwise AND assignment",
+            "type": "js"
+        },
+        "expressionsBitwiseORAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-bitwise-or-assignment.js",
+            "fileName": "expressions-bitwise-or-assignment.html",
+            "title": "JavaScript Demo: Expressions - Bitwise OR assignment",
+            "type": "js"
+        },
         "expressionsBitwiseOperators": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-bitwiseoperators.js",
             "fileName": "expressions-bitwiseoperators.html",
             "title": "JavaScript Demo: Expressions - Bitwise operators",
+            "type": "js"
+        },
+        "expressionsBitwiseXORAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-bitwise-xor-assignment.js",
+            "fileName": "expressions-bitwise-xor-assignment.html",
+            "title": "JavaScript Demo: Expressions - Bitwise XOR assignment",
             "type": "js"
         },
         "expressionsClassExpression": {
@@ -144,6 +162,12 @@
             "title": "JavaScript Demo: Expressions - instanceof",
             "type": "js"
         },
+        "expressionsLeftShiftAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-left-shift-assignment.js",
+            "fileName": "expressions-left-shift-assignment.html",
+            "title": "JavaScript Demo: Expressions - Left shift assignment operator",
+            "type": "js"
+        },
         "expressionsLessThan": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-less-than.js",
             "fileName": "expressions-less-than.html",
@@ -240,6 +264,12 @@
             "title": "JavaScript Demo: Expressions - Remainder assignment operator",
             "type": "js"
         },
+        "expressionsRightShiftAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-right-shift-assignment.js",
+            "fileName": "expressions-right-shift-assignment.html",
+            "title": "JavaScript Demo: Expressions - Right shift assignment operator",
+            "type": "js"
+        },
         "expressionsSpreadSyntax": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-spreadsyntax.js",
             "fileName": "expressions-spreadsyntax.html",
@@ -292,6 +322,12 @@
             "exampleCode": "./live-examples/js-examples/expressions/expressions-unary-plus.js",
             "fileName": "expressions-unary-plus.html",
             "title": "JavaScript Demo: Expressions - Unary plus operator",
+            "type": "js"
+        },
+        "expressionsUnsignedRightShiftAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-unsigned-right-shift-assignment.js",
+            "fileName": "expressions-unsigned-right-shift-assignment.html",
+            "title": "JavaScript Demo: Expressions - Unsigned right shift assignment operator",
             "type": "js"
         },
         "expressionsVoidOperator": {
