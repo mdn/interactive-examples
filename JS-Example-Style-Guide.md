@@ -171,7 +171,7 @@ For example:
 ```js
 construct: (target, args) => {
   console.log('monster1 constructor called');
-  // expected output: " constructor called"
+  // expected output: "monster1 constructor called"
 
   return new target(...args);
 }
