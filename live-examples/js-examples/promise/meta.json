@@ -12,6 +12,12 @@
             "title": "JavaScript Demo: Promise.allSettled()",
             "type": "js"
         },
+        "promiseAny": {
+            "exampleCode": "./live-examples/js-examples/promise/promise-any.js",
+            "fileName": "promise-any.html",
+            "title": "JavaScript Demo: Promise.any()",
+            "type": "js"
+        },
         "promiseCatch": {
             "exampleCode": "./live-examples/js-examples/promise/promise-catch.js",
             "fileName": "promise-catch.html",
