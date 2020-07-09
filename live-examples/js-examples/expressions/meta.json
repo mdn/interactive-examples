@@ -210,16 +210,34 @@
             "title": "JavaScript Demo: Expressions - Logical AND",
             "type": "js"
         },
+        "expressionsLogicalANDAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-logical-and-assignment.js",
+            "fileName": "expressions-logical-and-assignment.html",
+            "title": "JavaScript Demo: Expressions - Logical AND assignment",
+            "type": "js"
+        },
         "expressionsLogicalOR": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-logical-or.js",
             "fileName": "expressions-logical-or.html",
             "title": "JavaScript Demo: Expressions - Logical OR",
             "type": "js"
         },
+        "expressionsLogicalORAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-logical-or-assignment.js",
+            "fileName": "expressions-logical-or-assignment.html",
+            "title": "JavaScript Demo: Expressions - Logical OR assignment",
+            "type": "js"
+        },
         "expressionsLogicalNOT": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-logical-not.js",
             "fileName": "expressions-logical-not.html",
             "title": "JavaScript Demo: Expressions - Logical NOT",
+            "type": "js"
+        },
+        "expressionsLogicalNullishAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-logical-nullish-assignment.js",
+            "fileName": "expressions-logical-nullish-assignment.html",
+            "title": "JavaScript Demo: Expressions - Logical nullish assignment",
             "type": "js"
         },
         "expressionsMultiplication": {
