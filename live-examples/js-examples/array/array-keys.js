@@ -5,7 +5,6 @@ for (const key of iterator) {
   console.log(key);
 }
 
-// expected output:
-// 0
-// 1
-// 2
+// expected output: 0
+// expected output: 1
+// expected output: 2

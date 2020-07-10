@@ -4,7 +4,6 @@ for (const element of array1) {
   console.log(element);
 }
 
-// expected output:
-// "a"
-// "b"
-// "c"
+// expected output: "a"
+// expected output: "b"
+// expected output: "c"
