@@ -8,11 +8,5 @@ console.log(getFee(true));
 console.log(getFee(false));
 // expected output: "$10.00"
 
-console.log(getFee(1));
-// expected output: "$2.00"
-
-console.log(getFee(0));
-// expected output: "$10.00"
-
 console.log(getFee(null));
 // expected output: "$10.00"
