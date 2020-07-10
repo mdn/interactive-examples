@@ -1,6 +1,6 @@
 const str = 'The quick red fox jumped over the lazy dog\'s back.';
 
-let iterator = str[Symbol.iterator]();
+const iterator = str[Symbol.iterator]();
 let theChar = iterator.next();
 
 while (!theChar.done && theChar.value !== ' ') {

@@ -4,7 +4,7 @@ set1.add('forty two');
 
 const iterator1 = set1.entries();
 
-for (let entry of iterator1) {
+for (const entry of iterator1) {
   console.log(entry);
   // expected output: [42, 42]
   // expected output: ["forty two", "forty two"]

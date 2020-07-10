@@ -53,6 +53,7 @@ module.exports = {
         'object-curly-spacing': ['error', 'always'],
         'one-var-declaration-per-line': ['error', 'always'],
         'prefer-arrow-callback': 'error',
+        'prefer-const': 'error',
         'prefer-template': 'error',
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
@@ -83,6 +84,7 @@ module.exports = {
             files: ['**/expressions/expressions-destructuringassignment.js'],
             rules: {
                 'one-var-declaration-per-line': 'off',
+                'prefer-const': 'off',
             },
         },
         {
@@ -236,6 +238,7 @@ module.exports = {
                 'no-redeclare': 'off',
                 'no-unused-vars': 'off',
                 'no-var': 'off',
+                'prefer-const': 'off',
             },
         },
         {
@@ -248,6 +251,12 @@ module.exports = {
             files: ['**/statement/statement-empty.js'],
             rules: {
                 'curly': 'off',
+            },
+        },
+        {
+            files: ['**/statement/statement-let.js'],
+            rules: {
+                'prefer-const': 'off',
             },
         },
         {
