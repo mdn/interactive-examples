@@ -9,6 +9,7 @@ try {
   weakset1.add(1);
 } catch (error) {
   console.log(error);
-  // expected output: "Error: Invalid value used in weak set" in Chrome
-  // expected output: "TypeError: WeakSet value must be an object, got the number 1" in Firefox
+  // expected output (Chrome): TypeError: Invalid value used in weak set
+  // expected output (Firefox): TypeError: WeakSet value must be an object, got 1
+  // expected output (Safari): TypeError: Attempted to add a non-object key to a WeakSet
 }
