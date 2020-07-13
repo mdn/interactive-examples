@@ -5,7 +5,7 @@ map1.set(1, 'bar');
 
 const iterator1 = map1[Symbol.iterator]();
 
-for (let item of iterator1) {
+for (const item of iterator1) {
   console.log(item);
 }
 // expected output: Array ["0", "foo"]

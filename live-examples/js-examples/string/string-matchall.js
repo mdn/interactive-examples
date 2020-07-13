@@ -1,7 +1,7 @@
-let regexp = /t(e)(st(\d?))/g;
-let str = 'test1test2';
+const regexp = /t(e)(st(\d?))/g;
+const str = 'test1test2';
 
-let array = [...str.matchAll(regexp)];
+const array = [...str.matchAll(regexp)];
 
 console.log(array[0]);
 // expected output: Array ["test1", "e", "st1", "1"]
