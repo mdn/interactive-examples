@@ -1,4 +1,4 @@
-let a = { duration: 50, title: '' };
+const a = { duration: 50, title: '' };
 
 a.duration ||= 10;
 console.log(a.duration);

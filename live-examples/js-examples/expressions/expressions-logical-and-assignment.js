@@ -1,9 +1,10 @@
 let a = 1;
+let b = 0;
 
-a &&= 1;
+a &&= 2;
 console.log(a);
-// expected output: 1
+// expected output: 2
 
-a &&= 0;
-console.log(a);
+b &&= 2;
+console.log(b);
 // expected output: 0
