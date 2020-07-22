@@ -6,9 +6,6 @@ const globalRegex = RegExp('foo*', 'g');
 console.log(regex.test(str));
 // expected output: true
 
-console.log(regex.test(str));
-// expected output: true
-
 console.log(globalRegex.lastIndex);
 // expected output: 0
 
