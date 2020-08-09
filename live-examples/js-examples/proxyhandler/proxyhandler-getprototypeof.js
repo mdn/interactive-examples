@@ -3,7 +3,7 @@ const monster1 = {
 };
 
 const monsterPrototype = {
-  eyeCount : 2
+  eyeCount: 2
 };
 
 const handler = {

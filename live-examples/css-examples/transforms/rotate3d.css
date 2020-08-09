@@ -1,11 +1,11 @@
 #default-example {
     background: linear-gradient(skyblue, khaki);
+    perspective: 550px;
 }
 
 #example-element {
     width: 100px;
     height: 100px;
-    perspective: 550px;
     transform-style: preserve-3d;
 }
 

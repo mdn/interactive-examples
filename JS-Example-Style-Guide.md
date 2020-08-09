@@ -14,11 +14,11 @@ One way we could maintain a certain consistency is to use the type of the object
 
 For example:
 
-```
+```js
 object1 = {};
-var string1 = “a string”;
-var array1 = ['a', 'b', 'c'];
-var array2 = [1, 2, 3];
+const string1 = 'a string';
+const array1 = ['a', 'b', 'c'];
+const array2 = [1, 2, 3];
 ```
 
 Note that even if there is only one instance of that object, it should be suffixed with a `1`.
@@ -27,7 +27,7 @@ Also note that, although we could use the same name for multiple instances, it's
 
 For example:
 
-```
+```js
 const array1 = ['a', 'b', 'c'];
 
 console.log(array1);
@@ -45,14 +45,14 @@ An alternative to using numerical suffixes could be to use more descriptive suff
 
 This may make more sense in the context of the following example:
 
-```
+```js
 const collatorDe = new Intl.Collator('de', { usage: 'search', sensitivity: 'base' });
 const collatorFr = new Intl.Collator('fr', { usage: 'search', sensitivity: 'base' });
 ```
 
 We can also use content-descriptive variable names that don't mention the type of object that they represent, for example:
 
-```
+```js
 const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 ```
 
@@ -60,14 +60,13 @@ const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 
 The aim is to try and fit examples into 12 lines of code, only if it's not possible to create a useful example in 12 should we write longer examples.
 
-
 ### Tangible examples
 
 When illustrating a programming concept, it is beneficial to mimic real world examples as much as possible. Once you have chosen your real world theme, stick to the theme throughout the specific example.
 
 For example:
 
-```
+```js
 function monster1(disposition) {
   this.disposition = disposition;
 }
@@ -87,20 +86,19 @@ console.log(new proxy1('fierce').disposition);
 // expected output: "fierce"
 ```
 
-
 ### Providing context
 
 Where possible, it is useful to provide examples showing how a method could be used in the context of a function or class. In instances where a succinct example is not possible, a series of `console.log` statements can also be a valid way of illustrating an example.
 
 ### Indicating console.log output
 
-To indicate the ouput we expect, we place a comment `// expected output:` on the line below each `console.log`.
+To indicate the output we expect, we place a comment `// expected output:` on the line below each `console.log`.
 
 ### Representing browser differences
 
 Occasionally browsers will produce different results, in these cases we can denote the varying output like so:
 
-```
+```js
 console.log(matchesDe);
 // expected output (Chrome / Firefox): Array ["Bären"]
 // expected output (Safari): Array ["Bären", "Baren"]
@@ -112,7 +110,7 @@ Writing code that will throw an error can be useful way to illustrate an example
 
 If you wish to use an error to illustrate a method, wrap it in a `try/catch` block for example:
 
-```
+```js
 try {
   Intl.getCanonicalLocales('EN_US');
 } catch (err) {
@@ -123,217 +121,66 @@ try {
 
 ## JavaScript coding style
 
+We use ESLint to help guarantee a consistent code style. We define our configuration in /.eslintrc.js. Sometimes individual examples may need to disable certain rules: to do that use the overrides key in the configuration file.
+
+For example, in the comparison operators' example we have to show how the `==` operator works, but our eslint configuration would throw an error. In this case, we can turn off the rule for the given file by adding the following override to the `.eslintrc.js` file
+
+```js
+...
+  overrides: [
+    ...
+      {
+        files: ['**/expressions/expressions-comparisonoperators.js'],
+        rules: {
+          'eqeqeq': 'off',
+        },
+      },
+    ...
+  ],
+...
+```
+
+You can validate your example anytime by running the following npm script:
+
+```sh
+npm run lint:js
+```
+
+We've also provided the following command:
+
+```sh
+npm run lint:js:fix
+```
+
+This runs ESLint with the `--fix` option, which tries to fix issues.
+
+In the rest of this section we'll describe additional conventions, not enforced using ESLint but instead using code review.
+
 ### Language choice (ES6)
 
 According to the general [MDN JS guideline](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/JavaScript#Use_ES6_features), aim to use ES6 to illustrate examples.
 
-ES6 examples should use:
-
-- `let` and `const` instead of `var`
-- Arrow functions (`=>`) for Anonymous Functions (see below)
-- Template literals (``string text ${expression} string text``)
-- Spread syntax (`myFunction(...iterableObj);`)
-
-### Semi-colons
-
-There are valid arguments for and against using semi-colons. We use them.
-
 ### Line spacing
 
-To fit the space available we try and keep examples as compact as possible, using blank lines sparingly to increase readability.  
+To fit the space available we try and keep examples as compact as possible, using blank lines sparingly to increase readability.
 
 One place we use a blank line is immediately preceding a `console.log` statement unless it is the first line in a block.
 
 For example:
 
-```
+```js
 construct: (target, args) => {
   console.log('monster1 constructor called');
-  // expected output: " constructor called"
+  // expected output: "monster1 constructor called"
 
   return new target(...args);
 }
 ```
 and
 
-```
+```js
 const proxy1 = new Proxy(monster1, handler1);
 
 console.log(new proxy1('fierce').disposition);
 // expected output: "fierce"
-```
-
-### Indentation
-
-In order to keep things as concise as reasonably possible we indent with two spaces.
-
-### Instantiating an object
-
-Most objects are instantiated in the normal way, for example:
-```
-const date1 = new Date();
-```
-
-The exception being `Object` in which case we instantiate like so:
-
-```
-const object1 = {};
-```
-
-### Instantiating an array
-
-We instantiate arrays in the following way:
-
-```
-const array1 = [2, 5, 7, 9];
-```
-
-Note the spacing after the commas.
-
-### Passing parameters
-
-We use a space after commas when passing parameters to a function, but do not pad the parenthesis: i.e.
-
-```
-calcAngle(8, 10);
-```
-
-### Single quotes
-
-We use Single quotes to denote strings:
-
-```
-setTimeout(resolve, 100, 'foo');
-```
-
-### Property definition
-
-We chose clarity over brevity when defining object properties, for example:
-
-```
-const object1 = {
-  property1: 42,
-  property2: 'foo'
-};
-```
-
-(Note the space after the colon.)
-
-Please do NOT put the definition on one single line:
-
-```
-const object1 = {property1: 42, property2: 'foo'};
-```
-
-### Spaces between operators
-
-For example:
-
-```
-const a = 1 + 2;
-
-if (a > b) {
-  return a;
-}
-```
-
-### Function definition
-
-Generally functions are defined with the `function` keyword at the beginning and the function name starts with a lowercase letter and can be camelCased:
-
-```
-function sum(a, b) {
-  return a + b;
-}
-```
-
-Note the space before the opening curly brace.
-
-### Anonymous function definition
-
-Where ES6 predates the method or object we're illustrating we use the arrow function:
-
-```
-const sum = array1.reduce((a, b) => a + b);  
-```
-
-rather than:
-
-```
-const sum = array1.reduce(function(a, b) {
-  return a + b;  
-});
-```
-
-### Class definition
-
-As classes were introduced with ES6, we can use other ES6 concepts when defining them such as `const`. We also need to be aware of the changing scope of `this`.
-
-Class names should be capitalised and camelCased, for example:
-
-```
-class Employee {
-  constructor() {
-    this.alive = true;
-  }
-
-  setSkills(skills=[]) {
-    const defaultSkills = ['JavaScript'];
-    this.skills = skills.concat(defaultSkills);
-  }
-}
-```
-
-### Return early from if statements
-
-Only use an `else` if the preceding `if` clause doesn't return.
-
-For example:
-
-```
-if (a > b) {
-  return a;
-}
-return b;
-```
-
-rather than:
-
-```
-if (a > b) {
-  return a;
-} else {
-  return b;
-}
-```
-
-### Formatting switch statements
-
-```
-const expr = 'Pears';
-switch (expr) {
-  case 'Oranges':
-    console.log('Oranges are $0.59 a pound.');
-  break;
-  case 'Apples':
-    console.log('Apples are $0.32 a pound.');
-  break;
-  default:
-    console.log('Sorry, we are out of ' + expr + '.');
-    // expected output: "Sorry, we are out of Pears."
-}
-```
-
-### Testing for equality
-
-When testing for equality use Strict Equality Comparison, for example:
-
-```
-if (a === b) {
-  return a + b;
-}
-
-if (a !== b) {
-  return a - b;
-}
 ```

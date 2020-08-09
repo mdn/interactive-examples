@@ -21,6 +21,13 @@
             "title": "CSS Demo: align-self",
             "type": "css"
         },
+        "gap": {
+            "cssExampleSrc": "./live-examples/css-examples/box-alignment/gap.css",
+            "exampleCode": "./live-examples/css-examples/box-alignment/gap.html",
+            "fileName": "gap.html",
+            "title": "CSS Demo: gap",
+            "type": "css"
+        },
         "justifyContent": {
             "cssExampleSrc": "./live-examples/css-examples/box-alignment/justify-content.css",
             "exampleCode": "./live-examples/css-examples/box-alignment/justify-content.html",

@@ -1,4 +1,4 @@
-const text = "A quick fox";
+const text = 'A quick fox';
 
 const regexpLastWord = /\w+$/;
 console.log(text.match(regexpLastWord));

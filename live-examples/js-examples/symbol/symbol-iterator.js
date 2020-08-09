@@ -1,4 +1,4 @@
-const iterable1 = new Object();
+const iterable1 = {};
 
 iterable1[Symbol.iterator] = function* () {
   yield 1;

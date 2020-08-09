@@ -9,4 +9,4 @@ console.log(options1.numberingSystem);
 // expected output: "latn"
 
 console.log(options1.style);
-// "decimal"
+// expected output: "decimal"

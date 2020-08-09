@@ -5,7 +5,7 @@ class MyRegExp extends RegExp {
   }
 }
 
-const regex1 = new MyRegExp('foo','g');
+const regex1 = new MyRegExp('foo', 'g');
 
 console.log(regex1.test('football'));
 // expected output: true

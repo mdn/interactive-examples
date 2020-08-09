@@ -1,7 +1,7 @@
 const str = 'table football';
 
 const regex = RegExp('foo*');
-const globalRegex = RegExp('foo*','g');
+const globalRegex = RegExp('foo*', 'g');
 
 console.log(regex.test(str));
 // expected output: true

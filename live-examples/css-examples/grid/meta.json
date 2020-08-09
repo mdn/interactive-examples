@@ -70,13 +70,6 @@
             "title": "CSS Demo: grid-column-start",
             "type": "css"
         },
-        "gridGap": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-gap.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-gap.html",
-            "fileName": "grid-gap.html",
-            "title": "CSS Demo: grid-gap",
-            "type": "css"
-        },
         "gridRow": {
             "cssExampleSrc": "./live-examples/css-examples/grid/grid-row.css",
             "exampleCode": "./live-examples/css-examples/grid/grid-row.html",

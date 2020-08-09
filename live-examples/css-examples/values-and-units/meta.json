@@ -21,11 +21,29 @@
             "title": "CSS Demo: calc()",
             "type": "css"
         },
+        "clamp": {
+            "exampleCode": "./live-examples/css-examples/values-and-units/function-clamp.html",
+            "fileName": "function-clamp.html",
+            "title": "CSS Demo: clamp()",
+            "type": "css"
+        },
         "gradient": {
             "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
             "exampleCode": "./live-examples/css-examples/values-and-units/type-gradient.html",
             "fileName": "type-gradient.html",
             "title": "CSS Demo: &lt;gradient&gt;",
+            "type": "css"
+        },
+        "max": {
+            "exampleCode": "./live-examples/css-examples/values-and-units/function-max.html",
+            "fileName": "function-max.html",
+            "title": "CSS Demo: max()",
+            "type": "css"
+        },
+        "min": {
+            "exampleCode": "./live-examples/css-examples/values-and-units/function-min.html",
+            "fileName": "function-min.html",
+            "title": "CSS Demo: min()",
             "type": "css"
         }
     }
