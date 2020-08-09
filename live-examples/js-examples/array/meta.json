@@ -48,6 +48,12 @@
             "title": "JavaScript Demo: Array.findIndex()",
             "type": "js"
         },
+        "arrayFlat": {
+          "exampleCode": "./live-examples/js-examples/array/array-flat.js",
+          "fileName": "array-flat.html",
+          "title": "JavaScript Demo: Array.flat()",
+          "type": "js"
+        },
         "arrayForEach": {
             "exampleCode": "./live-examples/js-examples/array/array-foreach.js",
             "fileName": "array-foreach.html",
