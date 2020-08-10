@@ -32,7 +32,6 @@
     ],
     "devDependencies": {
         "ajv": "6.12.3",
-        "all-contributors-cli": "6.16.1",
         "babel-eslint": "^10.1.0",
         "chokidar-cli": "2.1.0",
         "eslint": "7.6.0",
@@ -44,7 +43,5 @@
         "prettier-stylelint": "0.4.2",
         "stylelint": "13.6.1"
     },
-    "dependencies": {
-        "npm": "^6.14.7"
-    }
+    "dependencies": {}
 }
