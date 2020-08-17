@@ -31,7 +31,7 @@
         "mozilla"
     ],
     "devDependencies": {
-        "ajv": "6.12.3",
+        "ajv": "6.12.4",
         "all-contributors-cli": "6.16.1",
         "babel-eslint": "^10.1.0",
         "chokidar-cli": "2.1.0",
