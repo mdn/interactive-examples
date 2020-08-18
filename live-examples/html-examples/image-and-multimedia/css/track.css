@@ -1,3 +1,6 @@
-video::cue {
+video {
+    width="250"
+}
+video::cue { 
     font-size: 1rem;
 }
