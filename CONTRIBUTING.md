@@ -41,7 +41,7 @@ Next up, you need to fork and clone the repo to be able to contribute to it. You
 Finally, change into the new directory created by the clone and run the following command:
 
 ```
-npm install
+yarn install
 ```
 
 This will ensure that you have all the required development modules installed to build and test your contributions. You are now ready to contribute.
@@ -59,13 +59,13 @@ Once you've written an example you can run a local server to try it out.
 From your command line run:
 
 ```
-npm run build
+yarn run build
 ```
 
 Once this completes run:
 
 ```
-npm start
+yarn start
 ```
 
 This should give you some output including lines like:
@@ -113,11 +113,11 @@ or
 
 How do you know if your example is short or tall?
 
-* for HTML examples, this is a thing you set explicitly, by supplying a CSS class in the example source. See [Changing the editor height](CONTRIBUTING-HTML.md#changing-the-editor-height).
-* for JS examples, short or tall editors are selected automatically for you:
-    * Examples less than 7 lines long get the short editor, so you should provide the `"shorter"` argument to `EmbedInteractiveExample`
-    * Examples 7-12 lines inclusive get the standard editor, so you should not provide any extra argument to `EmbedInteractiveExample`
-    * Examples 13 or more lines long get the tall editor, so you should provide the `"taller"` argument to `EmbedInteractiveExample`
+-   for HTML examples, this is a thing you set explicitly, by supplying a CSS class in the example source. See [Changing the editor height](CONTRIBUTING-HTML.md#changing-the-editor-height).
+-   for JS examples, short or tall editors are selected automatically for you:
+    -   Examples less than 7 lines long get the short editor, so you should provide the `"shorter"` argument to `EmbedInteractiveExample`
+    -   Examples 7-12 lines inclusive get the standard editor, so you should not provide any extra argument to `EmbedInteractiveExample`
+    -   Examples 13 or more lines long get the tall editor, so you should provide the `"taller"` argument to `EmbedInteractiveExample`
 
 ## Thank you!
 

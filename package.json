@@ -17,7 +17,7 @@
         "build": "mdn-bob",
         "contributors:generate": "all-contributors generate",
         "start-server": "http-server -p 9090 ./docs",
-        "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
+        "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'yarn run build' --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
         "lint:js": "eslint ./live-examples/js-examples",
         "lint:js:fix": "eslint --fix ./live-examples/js-examples"
@@ -32,7 +32,6 @@
     ],
     "devDependencies": {
         "ajv": "6.12.3",
-        "all-contributors-cli": "6.16.1",
         "babel-eslint": "^10.1.0",
         "chokidar-cli": "2.1.0",
         "eslint": "7.6.0",
@@ -44,7 +43,5 @@
         "prettier-stylelint": "0.4.2",
         "stylelint": "13.6.1"
     },
-    "dependencies": {
-        "npm": "^6.14.7"
-    }
+    "dependencies": {}
 }
