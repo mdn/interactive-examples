@@ -46,8 +46,14 @@ An alternative to using numerical suffixes could be to use more descriptive suff
 This may make more sense in the context of the following example:
 
 ```js
-const collatorDe = new Intl.Collator('de', { usage: 'search', sensitivity: 'base' });
-const collatorFr = new Intl.Collator('fr', { usage: 'search', sensitivity: 'base' });
+const collatorDe = new Intl.Collator('de', {
+    usage: 'search',
+    sensitivity: 'base',
+});
+const collatorFr = new Intl.Collator('fr', {
+    usage: 'search',
+    sensitivity: 'base',
+});
 ```
 
 We can also use content-descriptive variable names that don't mention the type of object that they represent, for example:
@@ -68,16 +74,16 @@ For example:
 
 ```js
 function monster1(disposition) {
-  this.disposition = disposition;
+    this.disposition = disposition;
 }
 
 const handler1 = {
-  construct: (target, args) => {
-    console.log('monster1 constructor called');
-    // expected output: "monster1 constructor called"
+    construct: (target, args) => {
+        console.log('monster1 constructor called');
+        // expected output: "monster1 constructor called"
 
-    return new target(...args);
-  }
+        return new target(...args);
+    },
 };
 
 const proxy1 = new Proxy(monster1, handler1);
@@ -112,10 +118,10 @@ If you wish to use an error to illustrate a method, wrap it in a `try/catch` blo
 
 ```js
 try {
-  Intl.getCanonicalLocales('EN_US');
+    Intl.getCanonicalLocales('EN_US');
 } catch (err) {
-  console.log(err);
-  // expected output: RangeError: invalid language tag: EN_US
+    console.log(err);
+    // expected output: RangeError: invalid language tag: EN_US
 }
 ```
 
@@ -143,13 +149,13 @@ For example, in the comparison operators' example we have to show how the `==` o
 You can validate your example anytime by running the following npm script:
 
 ```sh
-npm run lint:js
+yarn run lint:js
 ```
 
 We've also provided the following command:
 
 ```sh
-npm run lint:js:fix
+yarn run lint:js:fix
 ```
 
 This runs ESLint with the `--fix` option, which tries to fix issues.
@@ -170,12 +176,13 @@ For example:
 
 ```js
 construct: (target, args) => {
-  console.log('monster1 constructor called');
-  // expected output: "monster1 constructor called"
+    console.log('monster1 constructor called');
+    // expected output: "monster1 constructor called"
 
-  return new target(...args);
-}
+    return new target(...args);
+};
 ```
+
 and
 
 ```js
