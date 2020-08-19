@@ -5,8 +5,8 @@ branches:
     only:
         - master
 before_script:
-    - yarn run lint:js
-    - yarn run build
+    - yarn lint:js
+    - yarn build
     - sleep 3 # give build some time to complete
 deploy:
     provider: script
