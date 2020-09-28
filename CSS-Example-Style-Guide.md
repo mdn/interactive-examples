@@ -4,9 +4,9 @@ A style guide for people contributing interactive CSS examples. To learn the mec
 
 CSS examples consist of:
 
-* an DOM element whose ID is `"example-element"`
+-   an DOM element whose ID is `"example-element"`
 
-* a set of *choices*, where each choice is one or more [CSS `property: value;` declarations](). One of these choices is selected initially, and the user can select a different choice. When a choice is selected, all the CSS declarations it contains will be applied to "example-element".
+-   a set of _choices_, where each choice is one or more [CSS `property: value;` declarations](). One of these choices is selected initially, and the user can select a different choice. When a choice is selected, all the CSS declarations it contains will be applied to "example-element".
 
 You can also supply additional DOM elements, where that makes sense. For example, the [`position`](https://interactive-examples.mdn.mozilla.net/pages/css/position.html) example has one box which is the "example-element", but also includes extra boxes to show how setting the `position` property for an element interacts with the other elements in a layout.
 
@@ -15,10 +15,11 @@ You can also provide extra CSS both for the example element and any additional e
 ## Specifying CSS choices
 
 The most basic form of the CSS choices is a group of one-line CSS style declarations, where each line illustrates a different form of the property. For example:
-* [`transform`](https://interactive-examples.mdn.mozilla.net/pages/css/transform.html)
-* [`filter`](https://interactive-examples.mdn.mozilla.net/pages/css/filter.html)
-* [`font`](https://interactive-examples.mdn.mozilla.net/pages/css/font.html)
-* [`text-overflow`](https://interactive-examples.mdn.mozilla.net/pages/css/text-overflow.html)
+
+-   [`transform`](https://interactive-examples.mdn.mozilla.net/pages/css/transform.html)
+-   [`filter`](https://interactive-examples.mdn.mozilla.net/pages/css/filter.html)
+-   [`font`](https://interactive-examples.mdn.mozilla.net/pages/css/font.html)
+-   [`text-overflow`](https://interactive-examples.mdn.mozilla.net/pages/css/text-overflow.html)
 
 This is the recommended style for most examples.
 
@@ -26,7 +27,7 @@ This is the recommended style for most examples.
 
 If the set of CSS choices overflows its container vertically, then the set's container gets a vertical scrollbar, and overflowed choices are not visible without scrolling. We want to avoid this if possible, because users will often not notice the overflowed choices.
 
-To avoid vertical scrollbars, you have space for 6 one-line choices. If the property can take more than 6 forms (for example, for all the different [`filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) functions then it is best to choose 6 that are illustrative. It's *not* essential to have an example for every form.
+To avoid vertical scrollbars, you have space for 6 one-line choices. If the property can take more than 6 forms (for example, for all the different [`filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) functions then it is best to choose 6 that are illustrative. It's _not_ essential to have an example for every form.
 
 If the property takes fewer than 6 forms, it's fine to show fewer. For example: [`text-overflow`](https://interactive-examples.mdn.mozilla.net/pages/css/text-overflow.html).
 
@@ -68,13 +69,13 @@ We do acknowledge that this specific set of colours might not always work for yo
 
 Sometimes you'll want to include images with the example. If you do:
 
-* make sure their license allows you to use them. It's difficult for us to satisfy an attribution requirement with the editor, so try to use images that have a very permissive license such as [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
-* run them through https://tinypng.com or https://imageoptim.com, to reduce the page weight of the examples.
-* For `SVG`, run the code through (SVGOMG)[https://jakearchibald.github.io/svgomg/], and ensure that the `SVG` file has an empty line at the end of the file
+-   make sure their license allows you to use them. It's difficult for us to satisfy an attribution requirement with the editor, so try to use images that have a very permissive license such as [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
+-   run them through https://tinypng.com or https://imageoptim.com, to reduce the page weight of the examples.
+-   For `SVG`, run the code through (SVGOMG)[https://jakearchibald.github.io/svgomg/], and ensure that the `SVG` file has an empty line at the end of the file
 
 ## Output width considerations
 
-On MDN pages the editor is laid out "side by side": that is with the example choices on the left and the output on the right, as it is in the local server that's started by `npm run start`. Then if the page width goes below some threshold it switches to "top and bottom", with the example choices above and the output below.
+On MDN pages the editor is laid out "side by side": that is with the example choices on the left and the output on the right, as it is in the local server that's started by `yarn start`. Then if the page width goes below some threshold it switches to "top and bottom", with the example choices above and the output below.
 
 This means that ideally, the example should still work with an editor width of about 740 pixels:
 

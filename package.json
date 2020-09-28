@@ -15,10 +15,12 @@
     "main": "index.js",
     "scripts": {
         "build": "mdn-bob",
-        "contributors:generate": "all-contributors generate",
         "start-server": "http-server -p 9090 ./docs",
-        "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
-        "start": "npm-run-all --parallel start-watch start-server"
+        "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'yarn run build' --initial --silent",
+        "start": "npm-run-all --parallel start-watch start-server",
+        "lint:js": "eslint ./live-examples/js-examples",
+        "lint:js:fix": "eslint --fix ./live-examples/js-examples",
+        "test": "yarn lint:js"
     },
     "keywords": [
         "javascript",
@@ -29,19 +31,16 @@
         "mozilla"
     ],
     "devDependencies": {
-        "ajv": "6.10.2",
-        "all-contributors-cli": "6.11.2",
+        "ajv": "6.12.5",
+        "babel-eslint": "^10.1.0",
         "chokidar-cli": "2.1.0",
-        "eslint": "6.8.0",
-        "http-server": "0.12.0",
-        "mdn-bob": "1.1.41",
+        "eslint": "7.9.0",
+        "http-server": "0.12.3",
+        "mdn-bob": "2.0.14",
         "npm-run-all": "4.1.5",
-        "prettier": "1.19.1",
-        "prettier-eslint": "9.0.1",
+        "prettier": "2.1.2",
+        "prettier-eslint": "11.0.0",
         "prettier-stylelint": "0.4.2",
-        "stylelint": "12.0.1"
-    },
-    "dependencies": {
-        "npm": "^6.11.3"
+        "stylelint": "13.7.1"
     }
 }
