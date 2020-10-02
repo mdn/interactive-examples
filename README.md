@@ -7,7 +7,7 @@ Home of the [MDN](https://developer.mozilla.org/) interactive code examples.
 
 ## Project maintainers
 
-Should you have any questions regarding this project, please feel feel to @mention either @wbamberg or @schalkneethling
+Should you have any questions regarding this project, please feel free to @mention either @wbamberg or @schalkneethling
 
 ## Good first issues
 
@@ -20,7 +20,7 @@ Want to contribute to the interactive examples project? Here are a couple of goo
 -   [css] - This contains the CSS used by the base templates.
 -   [js] - This contains the JS used by the base templates.
 -   [live-examples] - This contains the live example CSS and JS fragments.
--   [media] - The contains images used by the live examples and templates.
+-   [media] - This contains images used by the live examples and templates.
 -   [tmpl] - The base templates.
 
 The dynamically generated pages, their dependencies, and assets are generated to the `prod` branch.
