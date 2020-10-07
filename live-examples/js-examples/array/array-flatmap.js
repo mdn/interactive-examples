@@ -7,7 +7,7 @@ const humans = [
     ],
   },
   {
-    nome: 'Human 2',
+    name: 'Human 2',
     phones: [
       { type: 'cellphone', number: '9.7777-7777' },
       { type: 'cellphone', number: '9.6666-6666' },
