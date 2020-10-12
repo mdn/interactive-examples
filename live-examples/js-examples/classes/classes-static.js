@@ -1,6 +1,6 @@
 class ClassWithStaticMethod {
 
-  static staticProperty = "someValue";
+  static staticProperty = 'someValue';
   static staticMethod() {
     return 'static method has been called.';
   }
