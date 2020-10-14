@@ -1,8 +1,8 @@
 'use strict';
 
 window.addEventListener('load', function() {
-    var el = document.getElementById('example-element');
-    var status = document.getElementById('playstatus');
+    const el = document.getElementById('example-element');
+    const status = document.getElementById('playstatus');
 
     function update() {
         status.textContent = 'delaying';
@@ -14,16 +14,16 @@ window.addEventListener('load', function() {
         });
     }
 
-    el.addEventListener('animationstart', function(){
+    el.addEventListener('animationstart', function() {
         status.textContent = 'playing';
     });
 
-    el.addEventListener('animationend', function(){
+    el.addEventListener('animationend', function() {
         status.textContent = 'finished';
     });
 
-    var observer = new MutationObserver(function(mutations) {
-        update(mutations);
+    const observer = new MutationObserver(function() {
+        update();
     });
 
     observer.observe(el, {
