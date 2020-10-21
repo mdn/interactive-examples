@@ -5,7 +5,7 @@ console.log(array1.findIndex((element) => element > 13));
 
 // or with a named function
 
-const isLargeNumber = (element) => element > 13);
+const isLargeNumber = (element) => element > 13;
 
 console.log(array1.findIndex(isLargeNumber));
 // expected output: 3
