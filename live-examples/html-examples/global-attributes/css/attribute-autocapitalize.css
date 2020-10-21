@@ -1,0 +1,10 @@
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.fields {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: .5em;
+}
