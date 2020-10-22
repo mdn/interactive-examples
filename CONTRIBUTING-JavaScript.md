@@ -30,4 +30,6 @@ All that remains is to tell the page generator about our new example. To do this
 
 The `title` property is displayed above the editor, and should be of the form: "JavaScript Demo: {item}", where {item} is the name of the item that the example is for. If you're not sure what to use for {item}, use the title of the page.
 
+The `fileName` property is the name of a HTML page that will be generated for you to run the associated JavaScript example. The filename should match that of the javascript example (with file extension .html).
+
 Once you've finished writing the example, see the [Testing](CONTRIBUTING.md#testing) section for the next step.
