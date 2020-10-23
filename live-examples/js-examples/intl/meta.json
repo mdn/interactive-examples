@@ -126,6 +126,12 @@
             "title": "JavaScript Demo: Intl.NumberFormat",
             "type": "js"
         },
+        "intlPrototypeToString": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-prototype-@@tostringtag.js",
+            "fileName": "intl-prototype-tostringtag.html",
+            "title": "JavaScript Demo: Intl.prototype.toString()",
+            "type": "js"
+        },
         "intlRelativeTimeFormat": {
             "exampleCode": "./live-examples/js-examples/intl/intl-relativetimeformat.js",
             "fileName": "intl-relativetimeformat.html",
