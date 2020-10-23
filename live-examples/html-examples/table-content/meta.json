@@ -79,6 +79,14 @@
             "title": "HTML Demo: <tr>",
             "type": "tabbed",
             "height": "tabbed-taller"
+        },
+        "scrollable-table": {
+            "exampleCode": "./live-examples/html-examples/table-content/scrollable-table.html",
+            "cssExampleSrc": "./live-examples/html-examples/table-content/css/scrollable-table.css",
+            "fileName": "scrollable-table.html",
+            "title": "HTML Demo: scrollable <table>",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }

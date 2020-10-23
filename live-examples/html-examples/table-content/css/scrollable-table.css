@@ -1,0 +1,42 @@
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+    max-width: 400px;
+    height: 240px;
+    margin: 0 auto;
+    display: block;
+    overflow-x: auto;
+    border-spacing: 0;
+}
+
+tbody {
+    white-space: nowrap;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    vertical-align: bottom;
+}
+
+th,
+td {
+    padding: 5px 10px;
+    border-top-width: 0;
+    border-left-width: 0;
+}
+
+th:last-child,
+td:last-child {
+    border-right-width: 0;
+}
+
+tr:last-child td {
+    border-bottom-width: 0;
+}
