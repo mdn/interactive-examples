@@ -108,6 +108,12 @@
             "title": "JavaScript Demo: Intl.NumberFormat.prototype.format",
             "type": "js"
         },
+        "intlNumberFormatPrototypeFormatToParts": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-numberformat-prototype-formattoparts.js",
+            "fileName": "intl-numberformat-prototype-formattoparts.html",
+            "title": "JavaScript Demo: Intl.NumberFormat.prototype.formatToParts",
+            "type": "js"
+        },
         "intlNumberFormatPrototypeResolvedOptions": {
             "exampleCode": "./live-examples/js-examples/intl/intl-numberformat-prototype-resolvedoptions.js",
             "fileName": "intl-numberformat-prototype-resolvedoptions.html",
