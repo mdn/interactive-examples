@@ -22,7 +22,7 @@
             "type": "css"
         },
         "perspectiveOrigin": {
-            "cssExampleSrc": "./live-examples/css-examples/transforms/rotate3d.css",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/perspective-origin.css",
             "exampleCode": "./live-examples/css-examples/transforms/perspective-origin.html",
             "fileName": "perspective-origin.html",
             "title": "CSS Demo: perspective-origin",
