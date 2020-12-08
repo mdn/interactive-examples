@@ -78,6 +78,12 @@
             "title": "JavaScript Demo: Intl.ListFormat",
             "type": "js"
         },
+        "intlList​Format​PrototypeFormatToParts": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-list​format​-prototype-formattoparts.js",
+            "fileName": "intl-list​format​-prototype-formattoparts.html",
+            "title": "JavaScript Demo: Intl.list​format​.prototype.formatToParts()",
+            "type": "js"
+        },
         "intlLocale": {
             "exampleCode": "./live-examples/js-examples/intl/intl-locale.js",
             "fileName": "intl-locale.html",
