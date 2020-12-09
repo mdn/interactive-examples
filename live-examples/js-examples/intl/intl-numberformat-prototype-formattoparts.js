@@ -3,21 +3,7 @@ const options = { style: 'currency', currency: 'USD' };
 const numberFormat = new Intl.NumberFormat('en-US', options);
 
 const parts = numberFormat.formatToParts(amount);
+const partValues = parts.map(p => p.value);
 
-console.log(parts[0].value);
-// expected output: "$"
-
-console.log(parts[1].value);
-// expected output: "654"
-
-console.log(parts[2].value);
-// expected output: ","
-
-console.log(parts[3].value);
-// expected output: "321"
-
-console.log(parts[4].value);
-// expected output: "."
-
-console.log(parts[5].value);
-// expected output: "99"
+console.log(partValues);
+// expected output: "["$", "654", ",", "321", ".", "99"]"
