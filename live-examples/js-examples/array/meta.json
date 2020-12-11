@@ -54,6 +54,12 @@
           "title": "JavaScript Demo: Array.flat()",
           "type": "js"
         },
+        "arrayFlatMap": {
+            "exampleCode": "./live-examples/js-examples/array/array-flatMap.js",
+            "fileName": "array-flatMap.js",
+            "title": "JavaScript Demo: Array.flatMap()",
+            "type": "js"
+        },
         "arrayForEach": {
             "exampleCode": "./live-examples/js-examples/array/array-foreach.js",
             "fileName": "array-foreach.html",
