@@ -1,10 +1,8 @@
-function letterSort(lang, letters) {
-  letters.sort(new Intl.Collator(lang).compare);
-  return letters;
-}
+console.log(['Z', 'a', 'z', 'ä'].sort(new Intl.Collator('de').compare));
+// expected output: ["a", "ä", "z", "Z"]
 
-console.log(letterSort('de', ['a', 'z', 'ä']));
-// expected output: Array ["a", "ä", "z"]
+console.log(['Z', 'a', 'z', 'ä'].sort(new Intl.Collator('sv').compare));
+// expected output: ["a", "z", "Z", "ä"]
 
-console.log(letterSort('sv', ['a', 'z', 'ä']));
-// expected output: Array ["a", "z", "ä"]
+console.log(['Z', 'a', 'z', 'ä'].sort(new Intl.Collator('de', {caseFirst: 'upper'} ).compare));
+// expected output: ["a", "ä", "Z", "z"]
