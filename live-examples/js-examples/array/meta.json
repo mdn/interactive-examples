@@ -1,5 +1,11 @@
 {
     "pages": {
+        "arrayAt": {
+            "exampleCode": "./live-examples/js-examples/array/array-at.js",
+            "fileName": "array-at.html",
+            "title": "JavaScript Demo: Array.at()",
+            "type": "js"
+        },
         "arrayConcat": {
             "exampleCode": "./live-examples/js-examples/array/array-concat.js",
             "fileName": "array-concat.html",
