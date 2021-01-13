@@ -2,10 +2,10 @@ const sentence = 'The quick brown fox jumps over the lazy dog.';
 
 let index = 5;
 
-console.log(`Using a positive integer the character is ${sentence.at(index)}`);
-// expected output: "Using a positive integer the character is u"
+console.log(`Using an index of ${index} the character returned is ${sentence.at(index)}`);
+// expected output: "Using an index of 5 the character returned is u"
 
 index = -4;
 
-console.log(`Using a negative integer the character is ${sentence.at(index)}`);
-// expected output: "Using a positive integer the character is d"
+console.log(`Using an index of ${index} the character returned is ${sentence.at(index)}`);
+// expected output: "Using an index of -4 the character returned is d"
