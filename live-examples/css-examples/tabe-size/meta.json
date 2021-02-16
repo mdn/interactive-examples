@@ -1,6 +1,6 @@
 {
     "pages": {
-        "tab-size": {
+        "tabe-size": {
             "cssExampleSrc": "./live-examples/css-examples/tabe-size/tabe-size.css",
             "exampleCode": "./live-examples/css-examples/tabe-size/tabe-size.html",
             "fileName": "tabe-size.html",
