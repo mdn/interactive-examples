@@ -66,7 +66,7 @@
             "title": "JavaScript Demo: RegExp.prototype[@@split]",
             "type": "js"
         },
-        "regexPrototypeDotAll": {
+        "regexpPrototypeDotAll": {
             "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-dotall.js",
             "fileName": "regexp-prototype-dotall.html",
             "title": "JavaScript Demo: RegExp.prototype.dotAll",
@@ -90,7 +90,7 @@
             "title": "JavaScript Demo: RegExp.prototype.global",
             "type": "js"
         },
-        "regexPrototypeHasIndices": {
+        "regexpPrototypeHasIndices": {
             "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-hasindices.js",
             "fileName": "regexp-prototype-hasindices.html",
             "title": "JavaScript Demo: RegExp.prototype.hasIndices",
