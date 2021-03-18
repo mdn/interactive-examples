@@ -90,6 +90,12 @@
             "title": "JavaScript Demo: RegExp.prototype.global",
             "type": "js"
         },
+        "regexPrototypeHasIndices": {
+            "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-hasindices.js",
+            "fileName": "regexp-prototype-hasindices.html",
+            "title": "JavaScript Demo: RegExp.prototype.hasIndices",
+            "type": "js"
+        },
         "regexpPrototypeIgnoreCase": {
             "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-ignorecase.js",
             "fileName": "regexp-prototype-ignorecase.html",
