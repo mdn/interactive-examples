@@ -8,10 +8,12 @@ const asyncGen = asyncGenerator();
 
 asyncGen.next()
   .then(res => console.log(res.value));
-  // expected output: 1
+// expected output: 1
+
 asyncGen.next()
   .then(res => console.log(res.value));
-  // expected output: 2
+// expected output: 2
+
 asyncGen.next()
   .then(res => console.log(res.value));
-  // expected output: 3
+// expected output: 3
