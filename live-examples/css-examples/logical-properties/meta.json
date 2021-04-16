@@ -119,6 +119,34 @@
             "title": "CSS Demo: border-inline-start",
             "type": "css"
         },
+        "borderInlineColor": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-color.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-inline-color.html",
+            "fileName": "border-inline-color.html",
+            "title": "CSS Demo: border-inline-color",
+            "type": "css"
+        },
+        "borderInlineStyle": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-style.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-inline-style.html",
+            "fileName": "border-inline-style.html",
+            "title": "CSS Demo: border-inline-style",
+            "type": "css"
+        },
+        "borderInlineWidth": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-width.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-inline-width.html",
+            "fileName": "border-inline-width.html",
+            "title": "CSS Demo: border-inline-width",
+            "type": "css"
+        },
+        "borderInline": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-inline.html",
+            "fileName": "border-inline.html",
+            "title": "CSS Demo: border-inline",
+            "type": "css"
+        },
         "inlineSize": {
             "cssExampleSrc": "./live-examples/css-examples/logical-properties/inline-size.css",
             "exampleCode": "./live-examples/css-examples/logical-properties/inline-size.html",
