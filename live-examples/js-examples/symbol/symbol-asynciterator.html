@@ -1,0 +1,19 @@
+<pre>
+<code id="static-js">const iterable = {};
+
+iterable[Symbol.asyncIterator] = function* () {
+  let retVal = 0;
+  return new Promise((resolve, reject) => {
+    retVal++;
+    resolve(retVal);
+  });
+};
+
+(async () => {
+  for await (const item of iterable) {
+    // expected output: 1 2 3
+    console.log(item);
+  }
+})();
+</code>
+</pre>
