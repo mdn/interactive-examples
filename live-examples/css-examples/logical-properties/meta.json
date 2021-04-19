@@ -63,6 +63,34 @@
             "title": "CSS Demo: border-block-start",
             "type": "css"
         },
+        "borderBlockColor": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-color.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-block-color.html",
+            "fileName": "border-block-color.html",
+            "title": "CSS Demo: border-block-color",
+            "type": "css"
+        },
+        "borderBlockStyle": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-style.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-block-style.html",
+            "fileName": "border-block-style.html",
+            "title": "CSS Demo: border-block-style",
+            "type": "css"
+        },
+        "borderBlockWidth": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-width.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-block-width.html",
+            "fileName": "border-block-width.html",
+            "title": "CSS Demo: border-block-width",
+            "type": "css"
+        },
+        "borderBlock": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/border.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/border-block.html",
+            "fileName": "border-block.html",
+            "title": "CSS Demo: border-block",
+            "type": "css"
+        },
         "borderInlineEndColor": {
             "cssExampleSrc": "./live-examples/css-examples/logical-properties/border-color.css",
             "exampleCode": "./live-examples/css-examples/logical-properties/border-inline-end-color.html",
