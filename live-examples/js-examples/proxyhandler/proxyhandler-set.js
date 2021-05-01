@@ -19,3 +19,7 @@ proxy1.eyeCount = 1;
 
 console.log(proxy1.eyeCount);
 // expected output: 4
+
+proxy1.eyeCount = 2;
+console.log(proxy1.eyeCount);
+// expected output: 2
