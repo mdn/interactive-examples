@@ -1,4 +1,4 @@
-function* foo() {
+const foo = function*() {
   yield 'a';
   yield 'b';
   yield 'c';
