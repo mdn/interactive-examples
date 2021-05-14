@@ -7,6 +7,13 @@
             "title": "CSS Demo: font",
             "type": "css"
         },
+        "fontFamilySerif": {
+            "cssExampleSrc": "./live-examples/css-examples/fonts/font-family-serif.css",
+            "exampleCode": "./live-examples/css-examples/fonts/font-family-serif.html",
+            "fileName": "font-family-serif.html",
+            "title": "serif",
+            "type": "css"
+        },
         "fontFamily": {
             "cssExampleSrc": "./live-examples/css-examples/fonts/font-family.css",
             "exampleCode": "./live-examples/css-examples/fonts/font-family.html",
