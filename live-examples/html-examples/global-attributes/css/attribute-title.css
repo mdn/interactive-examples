@@ -2,12 +2,8 @@
     font: 1rem 'Fira Sans', sans-serif;
 }
 
-.output .frame-container {
-    display: flex;
-    gap: 24px;
-}
-
-.output .frame-container iframe {
-    height: 100%;
-    width: 50%;
+.output iframe {
+    height: 200px;
+    margin-bottom: 24px;
+    width: 100%;
 }
