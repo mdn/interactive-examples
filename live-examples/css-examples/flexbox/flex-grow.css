@@ -2,7 +2,7 @@
     background-color: #eee;
     border: .75em solid;
     padding: .75em;
-    width: 80%;
+    width: auto;
     max-height: 300px;
     display: flex;
 }
