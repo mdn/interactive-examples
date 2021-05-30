@@ -2,7 +2,7 @@
     background-color: #eee;
     border: .75em solid;
     padding: .75em;
-    width: 80%;
+    width: auto;
     max-height: 300px;
     display: flex;
 }
@@ -19,4 +19,29 @@
 #example-element {
     background-color: rgba(255, 0, 200, .2);
     border: 3px solid rebeccapurple;
+}
+
+@media screen and (max-width: 760px) {
+
+    .editor-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .example-choice-list.large.live,
+    .example-choice-list.live {
+        width: auto;
+    }
+
+    /* Face the triangle down towards the example output */
+    .live .example-choice:before {
+        top: 35%;
+        transform: rotate(90deg);
+    }
+
+    #output {
+        height: auto;
+        width: auto;
+        margin-top: 10px;
+    }
 }
