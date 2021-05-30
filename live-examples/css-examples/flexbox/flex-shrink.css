@@ -2,7 +2,7 @@
     background-color: #eee;
     border: .75em solid;
     padding: .75em;
-    width: 80%;
+    width: auto;
     max-height: 300px;
     display: flex;
 }
@@ -14,4 +14,29 @@
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 300px;
+}
+
+@media screen and (max-width: 760px) {
+
+    .editor-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .example-choice-list.large.live,
+    .example-choice-list.live {
+        width: auto;
+    }
+
+    /* Face the triangle down towards the example output */
+    .live .example-choice:before {
+        top: 35%;
+        transform: rotate(90deg);
+    }
+
+    #output {
+        height: auto;
+        width: auto;
+        margin-top: 10px;
+    }
 }
