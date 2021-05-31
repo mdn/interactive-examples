@@ -53,6 +53,12 @@
             "fileName": "promise-then.html",
             "title": "JavaScript Demo: Promise.then()",
             "type": "js"
+        },
+        "promiseFinally": {
+            "exampleCode": "./live-examples/js-examples/promise/promise-finally.js",
+            "fileName": "promise-finally.html",
+            "title": "JavaScript Demo: Promise.finally()",
+            "type": "js"
         }
     }
 }
