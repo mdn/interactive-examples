@@ -1,11 +1,14 @@
-function hasMailArrived() {
+function checkMail() {
   return new Promise((resolve, reject) => {
-    (Math.random() > 0.5 && resolve('Mail has arrived')) ||
-        reject(new Error('Failed to arrive'));
+    if (Math.random() > 0.5) {
+      resolve('Mail has arrived');
+    } else {
+      reject(new Error('Failed to arrive'));
+    }
   });
 }
 
-hasMailArrived()
+checkMail()
   .then((mail) => {
     console.log(mail);
   })
