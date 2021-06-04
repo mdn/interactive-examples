@@ -1,4 +1,4 @@
-.example-container {
+.default-example {
     background-color: #eee;
     border: .75em solid;
     padding: .75em;
@@ -7,7 +7,7 @@
     display: flex;
 }
 
-.example-container > div {
+.default-example > div {
     background-color: rgba(0, 0, 255, 0.2);
     border: 3px solid blue;
     margin: 10px;
