@@ -1,17 +1,17 @@
-const MAP = new Map();
+const map1 = new Map();
 
-MAP.set('a', 1);
-MAP.set('b', 2);
-MAP.set('c', 3);
+map1.set('a', 1);
+map1.set('b', 2);
+map1.set('c', 3);
 
-let result = MAP.get('a');
+let result = map1.get('a');
 
 console.log(result);
 // expected output: 1
 
-MAP.set('a', 97);
+map1.set('a', 97);
 
-result = MAP.get('a');
+result = map1.get('a');
 
 console.log(result);
 // expected output: 97
