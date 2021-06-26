@@ -4,14 +4,10 @@ map1.set('a', 1);
 map1.set('b', 2);
 map1.set('c', 3);
 
-let result = map1.get('a');
-
-console.log(result);
+console.log(map1.get('a'));
 // expected output: 1
 
 map1.set('a', 97);
 
-result = map1.get('a');
-
-console.log(result);
+console.log(map1.get('a'));
 // expected output: 97
