@@ -138,6 +138,12 @@
             "title": "JavaScript Demo: Intl.prototype.toString()",
             "type": "js"
         },
+        "intlPluralRulesSupportedLocalesOf": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-supportedlocalesof.js",
+            "fileName": "intl-pluralrules-prototype-supportedlocalesof.html",
+            "title": "JavaScript Demo: Intl.PluralRules.prototype.supportedLocalesOf",
+            "type": "js"
+        },
         "intlRelativeTimeFormat": {
             "exampleCode": "./live-examples/js-examples/intl/intl-relativetimeformat.js",
             "fileName": "intl-relativetimeformat.html",

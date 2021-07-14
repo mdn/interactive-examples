@@ -12,4 +12,9 @@
 #example-element > div {
     background-color: rgba(0, 0, 255, 0.2);
     border: 3px solid blue;
+    font-size: 22px;
+}
+
+#example-element div:last-child {
+    font-size: 13px;
 }

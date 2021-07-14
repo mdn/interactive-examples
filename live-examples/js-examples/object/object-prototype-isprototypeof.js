@@ -1,12 +1,11 @@
-function object1() {}
-function object2() {}
+function Foo() {}
+function Bar() {}
 
-object1.prototype = Object.create(object2.prototype);
+Bar.prototype = Object.create(Foo.prototype);
 
-const object3 = new object1();
+const bar = new Bar();
 
-console.log(object1.prototype.isPrototypeOf(object3));
+console.log(Foo.prototype.isPrototypeOf(bar));
 // expected output: true
-
-console.log(object2.prototype.isPrototypeOf(object3));
+console.log(Bar.prototype.isPrototypeOf(bar));
 // expected output: true
