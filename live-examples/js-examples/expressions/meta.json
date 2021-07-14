@@ -1,21 +1,27 @@
 {
     "pages": {
-      "expressionsAddition": {
+        "expressionsAddition": {
           "exampleCode": "./live-examples/js-examples/expressions/expressions-addition.js",
           "fileName": "expressions-addition.html",
           "title": "JavaScript Demo: Expressions - Addition operator",
           "type": "js"
-      },
-      "expressionsAdditionAssignment": {
-        "exampleCode": "./live-examples/js-examples/expressions/expressions-addition-assignment.js",
-        "fileName": "expressions-addition-assignment.html",
-        "title": "JavaScript Demo: Expressions - Addition assignment operator",
-        "type": "js"
-      },
-      "expressionsAssignment": {
+        },
+        "expressionsAdditionAssignment": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-addition-assignment.js",
+            "fileName": "expressions-addition-assignment.html",
+            "title": "JavaScript Demo: Expressions - Addition assignment operator",
+            "type": "js"
+        },
+        "expressionsAssignment": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-assignment.js",
             "fileName": "expressions-assignment.html",
             "title": "JavaScript Demo: Expressions - Assignment",
+            "type": "js"
+        },
+        "expressionsAsyncFunctionAsterisk": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-async-function-asterisk.js",
+            "fileName": "expressions-async-function-asterisk.html",
+            "title": "JavaScript Demo: Expressions - Async Function Asterisk",
             "type": "js"
         },
         "expressionsBitwiseAND": {
