@@ -10,4 +10,3 @@ for (const [key, value] of Object.entries(object1)) {
 // expected output:
 // "a: somestring"
 // "b: 42"
-// order is not guaranteed
