@@ -154,6 +154,13 @@
             "title": "CSS Demo: overflow-y",
             "type": "css"
         },
+        "overscrollBehavior": {
+            "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overscroll-behavior.css",
+            "exampleCode": "./live-examples/css-examples/basic-box-model/overscroll-behavior.html",
+            "fileName": "overscroll-behavior.html",
+            "title": "CSS Demo: overscroll-behavior",
+            "type": "css"
+        },
         "visibility": {
             "cssExampleSrc": "./live-examples/css-examples/basic-box-model/visibility.css",
             "exampleCode": "./live-examples/css-examples/basic-box-model/visibility.html",
