@@ -83,7 +83,11 @@ Point your browser to either of those URLs, then click on the `pages` link. In t
 -   JavaScript examples are under `js`
 -   HTML examples are under `tabbed`
 
-Find your example and try it out. Once you're satisfied, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
+Find your example and try it out. Once you're satisfied, the final step is to confirm that your change passes the same automatic tests that will be run by our continuous integration system.
+```
+yarn test
+```
+If the tests pass, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
 
 ## Publishing
 
