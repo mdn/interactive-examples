@@ -1,5 +1,11 @@
 {
     "pages": {
+        "stringAt": {
+            "exampleCode": "./live-examples/js-examples/string/string-at.js",
+            "fileName": "string-at.html",
+            "title": "JavaScript Demo: String.at()",
+            "type": "js"
+        },
         "stringCharAt": {
             "exampleCode": "./live-examples/js-examples/string/string-charat.js",
             "fileName": "string-charat.html",

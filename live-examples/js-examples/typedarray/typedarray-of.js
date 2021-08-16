@@ -1,5 +1,5 @@
-let uint16 = new Int16Array;
-uint16 = Int16Array.of('10', '20', '30', '40', '50');
+let int16array = new Int16Array;
+int16array = Int16Array.of('10', '20', '30', '40', '50');
 
-console.log(uint16);
+console.log(int16array);
 // expected output: Int16Array [10, 20, 30, 40, 50]

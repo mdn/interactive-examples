@@ -10,7 +10,7 @@ const parts = dateTimeFormat.formatRangeToParts(startDate, endDate);
 for (const part of parts) {
   console.log(part);
 }
-// expected output:
+// expected output (in GMT timezone):
 // Object { type: "hour", value: "2", source: "startRange" }
 // Object { type: "literal", value: ":", source: "startRange" }
 // Object { type: "minute", value: "00", source: "startRange" }

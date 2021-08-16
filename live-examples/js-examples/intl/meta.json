@@ -42,6 +42,12 @@
             "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.formatRangeToParts()",
             "type": "js"
         },
+        "intlDateTimeFormatPrototypeFormatToParts": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat-prototype-formattoparts.js",
+            "fileName": "intl-datetimeformat-prototype-formattoparts.html",
+            "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.formatToParts()",
+            "type": "js"
+        },
         "intlDateTimeFormatPrototypeResolvedOptions": {
             "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat-prototype-resolvedoptions.js",
             "fileName": "intl-datetimeformat-prototype-resolvedoptions.html",
@@ -130,6 +136,12 @@
             "exampleCode": "./live-examples/js-examples/intl/intl-prototype-@@tostringtag.js",
             "fileName": "intl-prototype-tostringtag.html",
             "title": "JavaScript Demo: Intl.prototype.toString()",
+            "type": "js"
+        },
+        "intlPluralRulesSupportedLocalesOf": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-supportedlocalesof.js",
+            "fileName": "intl-pluralrules-prototype-supportedlocalesof.html",
+            "title": "JavaScript Demo: Intl.PluralRules.prototype.supportedLocalesOf",
             "type": "js"
         },
         "intlRelativeTimeFormat": {

@@ -1,5 +1,11 @@
 {
     "pages": {
+        "arrayAt": {
+            "exampleCode": "./live-examples/js-examples/array/array-at.js",
+            "fileName": "array-at.html",
+            "title": "JavaScript Demo: Array.at()",
+            "type": "js"
+        },
         "arrayConcat": {
             "exampleCode": "./live-examples/js-examples/array/array-concat.js",
             "fileName": "array-concat.html",
@@ -53,6 +59,12 @@
           "fileName": "array-flat.html",
           "title": "JavaScript Demo: Array.flat()",
           "type": "js"
+        },
+        "arrayFlatMap": {
+            "exampleCode": "./live-examples/js-examples/array/array-flatmap.js",
+            "fileName": "array-flatmap.html",
+            "title": "JavaScript Demo: Array.flatMap()",
+            "type": "js"
         },
         "arrayForEach": {
             "exampleCode": "./live-examples/js-examples/array/array-foreach.js",
