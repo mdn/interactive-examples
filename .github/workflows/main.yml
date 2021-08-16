@@ -1,4 +1,4 @@
-name: Developing with Yari
+name: Testing, building, serving
 
 on:
   pull_request:
