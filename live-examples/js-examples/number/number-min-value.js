@@ -1,6 +1,6 @@
 function divide(x, y) {
   if (x / y < Number.MIN_VALUE) {
-    return `Process as 0`;
+    return 'Process as 0';
   }
   return (x / y);
 }
