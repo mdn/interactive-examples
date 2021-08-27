@@ -1,6 +1,6 @@
 .example-container {
     width: 35em;
-    height: 8em;
+    height: 18em;
     border: medium dotted;
     padding: .75em;
     text-align: left;
@@ -14,7 +14,7 @@
 
 #example-element {
     width: 50%;
-    height: 4em;
+    height: 12em;
     border: medium dotted #1b76c4;
     padding: .3em;
     margin: 0 .3em;
