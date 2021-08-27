@@ -31,15 +31,15 @@
         "mozilla"
     ],
     "devDependencies": {
-        "ajv": "8.6.1",
+        "ajv": "8.6.2",
         "babel-eslint": "^10.1.0",
-        "chokidar-cli": "2.1.0",
+        "chokidar-cli": "3.0.0",
         "eslint": "7.28.0",
-        "http-server": "0.12.3",
-        "mdn-bob": "2.0.37",
+        "http-server": "13.0.1",
+        "mdn-bob": "2.0.46",
         "npm-run-all": "4.1.5",
         "prettier": "2.3.2",
-        "prettier-eslint": "12.0.0",
+        "prettier-eslint": "13.0.0",
         "prettier-stylelint": "0.4.2",
         "stylelint": "13.13.1"
     }

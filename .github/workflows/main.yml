@@ -1,0 +1,59 @@
+name: Testing, building, serving
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2.3.4
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.4.0
+        with:
+          node-version: "14"
+          cache: "yarn"
+
+      - name: Cache node_modules
+        uses: actions/cache@v2.1.6
+        id: cached-node_modules
+        with:
+          path: |
+            node_modules
+          key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}-${{ hashFiles('.github/workflows/main.yml') }}
+
+      - name: Install all yarn packages
+        if: steps.cached-node_modules.outputs.cache-hit != 'true'
+        run: yarn --frozen-lockfile
+
+      - name: Lint JS code
+        run: yarn lint:js
+
+      - name: Build all
+        run: yarn build
+
+      - name: Start server
+        run: |
+          yarn start-server > /tmp/stdout.log 2> /tmp/stderr.log &
+
+          sleep 3
+          curl --retry-connrefused --retry 5 http://localhost:9090 > /dev/null
+
+      - name: View some built pages
+        run: |
+          # This depends on actual content.
+          # Arbitrary pages picked. The tests just makes sure they 200 OK
+          curl --fail --silent http://localhost:9090/pages/tabbed/video.html > /dev/null
+          curl --fail --silent http://localhost:9090/pages/js/array-foreach.html > /dev/null
+          curl --fail --silent http://localhost:9090/pages/css/background.html > /dev/null
+
+      - name: Debug server's stdout and stderr if tests failed
+        if: failure()
+        run: |
+          echo "STDOUT..................................................."
+          cat /tmp/stdout.log
+          echo ""
+          echo "STDERR..................................................."
+          cat /tmp/stderr.log

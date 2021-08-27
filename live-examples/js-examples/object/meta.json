@@ -72,6 +72,12 @@
             "title": "JavaScript Demo: Object.getPrototypeOf()",
             "type": "js"
         },
+        "objectHasOwn": {
+            "exampleCode": "./live-examples/js-examples/object/object-hasown.js",
+            "fileName": "object-hasown.html",
+            "title": "JavaScript Demo: Object.hasOwn()",
+            "type": "js"
+        },
         "objectIsExtensible": {
             "exampleCode": "./live-examples/js-examples/object/object-isextensible.js",
             "fileName": "object-isextensible.html",
