@@ -10,3 +10,7 @@
 .italic {
     font-style: italic;
 }
+
+.small-caps {
+    font-variant: small-caps;
+}
