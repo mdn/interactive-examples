@@ -4,7 +4,9 @@ class ClassWithStaticMethod {
   static staticMethod() {
     return 'static method has been called.';
   }
-
+  static {  
+    console.log("Static initialization block called");
+  }
 }
 
 console.log(ClassWithStaticMethod.staticProperty);
