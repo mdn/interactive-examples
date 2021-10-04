@@ -17,6 +17,12 @@
             "fileName": "classes-static.html",
             "title": "JavaScript Demo: Classes Static",
             "type": "js"
+        },
+        "classesStaticInitialization": {
+            "exampleCode": "./live-examples/js-examples/classes/classes-static-initialization.js",
+            "fileName": "classes-static-initialization.html",
+            "title": "JavaScript Demo: Class Static Initialization Blocks",
+            "type": "js"
         }
     }
 }
