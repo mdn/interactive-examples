@@ -13,7 +13,7 @@ checkMail()
     console.log(mail);
   })
   .catch((err) => {
-    console.error(err);
+    throw new Error('Error from within catch block');
   })
   .finally(() => {
     console.log('Experiment completed');
