@@ -990,10 +990,10 @@ circular-json@^0.3.1:
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.3.tgz#815c99ea84f6809529d2f45791bdf82711352d66"
   integrity sha512-UZK3NBx2Mca+b5LsG7bY183pHWt5Y1xts4P3Pz7ENTwGVnJOUWbRb3ocjvX7hx9tq/yTAdclXm9sZ38gNuem4A==
 
-clean-css@5.1.5:
-  version "5.1.5"
-  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-5.1.5.tgz#3b0af240dcfc9a3779a08c2332df3ebd4474f232"
-  integrity sha512-9dr/cU/LjMpU57PXlSvDkVRh0rPxJBXiBtD0+SgYt8ahTCsXtfKjCkNYgIoTC6mBg8CFr5EKhW3DKCaGMUbUfQ==
+clean-css@5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-5.2.2.tgz#d3a7c6ee2511011e051719838bdcf8314dc4548d"
+  integrity sha512-/eR8ru5zyxKzpBLv9YZvMXgTSSQn7AdkMItMYynsFgGwTveCRVam9IUPFloE85B4vAIj05IuKmmEoV7/AQjT0w==
   dependencies:
     source-map "~0.6.0"
 
@@ -1026,10 +1026,10 @@ clone-regexp@^2.1.0:
   dependencies:
     is-regexp "^2.0.0"
 
-codemirror@5.62.3:
-  version "5.62.3"
-  resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.62.3.tgz#5cfdee6931c8b2d1b39ae773aaaaec2cc6b5558e"
-  integrity sha512-zZAyOfN8TU67ngqrxhOgtkSAGV9jSpN1snbl8elPtnh9Z5A11daR405+dhLzLnuXrwX0WCShWlybxPN3QC/9Pg==
+codemirror@5.63.3:
+  version "5.63.3"
+  resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.63.3.tgz#97042a242027fe0c87c09b36bc01931d37b76527"
+  integrity sha512-1C+LELr+5grgJYqwZKqxrcbPsHFHapVaVAloBsFBASbpLnQqLw1U8yXJ3gT5D+rhxIiSpo+kTqN+hQ+9ialIXw==
 
 collapse-white-space@^1.0.2:
   version "1.0.6"
@@ -2007,10 +2007,10 @@ glob-parent@^5.1.0, glob-parent@^5.1.2, glob-parent@~5.1.2:
   dependencies:
     is-glob "^4.0.1"
 
-glob@7.1.7, glob@^7.0.3, glob@^7.1.0, glob@^7.1.2, glob@^7.1.3, glob@^7.1.6:
-  version "7.1.7"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.7.tgz#3b193e9233f01d42d0b3f78294bbeeb418f94a90"
-  integrity sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==
+glob@7.2.0, glob@^7.0.3, glob@^7.1.0, glob@^7.1.2, glob@^7.1.3, glob@^7.1.6:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
+  integrity sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
@@ -3036,17 +3036,17 @@ mdast-util-to-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/mdast-util-to-string/-/mdast-util-to-string-1.1.0.tgz#27055500103f51637bd07d01da01eb1967a43527"
   integrity sha512-jVU0Nr2B9X3MU4tSK7JP1CMkSvOj7X5l/GboG1tKRw52lLF1x2Ju92Ms9tNetCcbfX3hzlM73zYo2NKkWSfF/A==
 
-mdn-bob@2.0.51:
-  version "2.0.51"
-  resolved "https://registry.yarnpkg.com/mdn-bob/-/mdn-bob-2.0.51.tgz#5b1e90e3a41159eace117f6da2263a5d6dbd4b2f"
-  integrity sha512-NwPKRHiZI7e0w8DmHjglpIFDrOeJ+ikBuizi7cuXwsAbyesoHlIHfNYg6l9XEU9kk4udbbWA6bsCd0fnvD08Dw==
+mdn-bob@2.0.61:
+  version "2.0.61"
+  resolved "https://registry.yarnpkg.com/mdn-bob/-/mdn-bob-2.0.61.tgz#c0f11b1a9c8e42e0a92add50f4a8d9fae30452e2"
+  integrity sha512-NU94WgYyGEBY/IQtwoBEzF27aZ6X2YJpYhB8zB8NdA5rA9PGR4Gvty6HgljFN/+g+PBSU54gyTZSd2vXv5u0IA==
   dependencies:
     browserify "17.0.0"
-    clean-css "5.1.5"
-    codemirror "5.62.3"
+    clean-css "5.2.2"
+    codemirror "5.63.3"
     cosmiconfig "7.0.1"
     fs-extra "10.0.0"
-    glob "7.1.7"
+    glob "7.2.0"
     node-dir "0.1.17"
     uglify-es "3.3.9"
 
