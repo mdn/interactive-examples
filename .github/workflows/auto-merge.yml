@@ -2,11 +2,6 @@ name: auto-merge
 
 on: [pull_request_target]
 
-permissions:
-    actions: write
-    contents: read
-    pull-requests: write
-
 jobs:
     auto-merge:
         runs-on: ubuntu-latest
