@@ -2840,10 +2840,10 @@ mdast-util-compact@^1.0.0:
   dependencies:
     unist-util-visit "^1.1.0"
 
-mdn-bob@2.0.66:
-  version "2.0.66"
-  resolved "https://registry.yarnpkg.com/mdn-bob/-/mdn-bob-2.0.66.tgz#5cc68843a2489a15b783a03429127c1542873d13"
-  integrity sha512-8FULOwyBqnEo7tUGKJgwOBjNWf9vMSIaijrgWB2ZL91o+YmXQZgD5VZX6RAgBzDEttLxhBS2B62aPCZKEx2GqA==
+mdn-bob@2.0.67:
+  version "2.0.67"
+  resolved "https://registry.yarnpkg.com/mdn-bob/-/mdn-bob-2.0.67.tgz#d1d97086b1bc0b9f4a9e1e371a180497eb6a4279"
+  integrity sha512-D8X1lCGIJRFVxkmMiLwJZhBvS4FM0jlOA1+LEjkvDhxWWJjW52+DBEgrwJtdEWV1W1/4mGwB94q/aLiW7h+UZw==
   dependencies:
     browserify "17.0.0"
     clean-css "5.2.2"
