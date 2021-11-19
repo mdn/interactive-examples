@@ -8,4 +8,4 @@ console.log(event.toLocaleDateString('ar-EG', options));
 // expected output (varies according to local timezone): الخميس، ٢٠ ديسمبر، ٢٠١٢
 
 console.log(event.toLocaleDateString(undefined, options));
-// expected output (varies according to local timezone and default locale): Thursday, December 20, 2012 
+// expected output (varies according to local timezone and default locale): Thursday, December 20, 2012
