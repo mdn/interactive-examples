@@ -1,13 +1,11 @@
 const event = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 
-//NOTE: Depending on your local timezone, your output may differ from "expected output"
-
 console.log(event.toLocaleDateString('de-DE', options));
-// expected output: Donnerstag, 20. Dezember 2012
+// expected output (varies according to local timezone): Donnerstag, 20. Dezember 2012
 
 console.log(event.toLocaleDateString('ar-EG', options));
-// expected output: الخميس، ٢٠ ديسمبر، ٢٠١٢
+// expected output (varies according to local timezone): الخميس، ٢٠ ديسمبر، ٢٠١٢
 
 console.log(event.toLocaleDateString(undefined, options));
-// expected output: Thursday, December 20, 2012 (varies according to default locale)
+// expected output (varies according to local timezone and default locale): Thursday, December 20, 2012 
