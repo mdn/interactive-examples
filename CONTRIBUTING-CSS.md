@@ -160,7 +160,7 @@ Next, let's provide some extra styling for the example element. Create a new CSS
 
 Some examples will need to reference media, such as images, from the CSS. Make sure that the license terms for any images are acceptable.
 
-Media files should be stored in the [/media/examples](https://github.com/mdn/interactive-examples/tree/master/media/examples) directory, and can be referenced using a path like `"/media/examples/my-file"`:
+Media files should be stored in the [/media/examples](https://github.com/mdn/interactive-examples/tree/main/media/examples) directory, and can be referenced using a path like `"/media/examples/my-file"`:
 
 ```
 background-image: url("/media/examples/lizard.png");
