@@ -1,8 +1,8 @@
 class ClassWithStaticInitializationBlock {
-  static staticProperty1 = "Property 1";
+  static staticProperty1 = 'Property 1';
   static staticProperty2;
   static {
-    this.staticProperty2 = "Property 2"
+    this.staticProperty2 = 'Property 2';
   }
 }
 

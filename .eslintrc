@@ -227,13 +227,6 @@
             }
         },
         {
-            // Only until the "d" flag is supported by eslint.
-            "files": ["**/regexp/regexp-prototype-hasindices.js"],
-            "rules": {
-                "no-invalid-regexp": "warn"
-            }
-        },
-        {
             "files": ["**/set/set-prototype-foreach.js"],
             "rules": {
                 "no-unused-vars": "off"
