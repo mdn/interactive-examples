@@ -3137,10 +3137,10 @@ mdast-util-compact@^1.0.0:
   dependencies:
     unist-util-visit "^1.1.0"
 
-mdn-bob@2.0.68:
-  version "2.0.68"
-  resolved "https://registry.yarnpkg.com/mdn-bob/-/mdn-bob-2.0.68.tgz#1482e17d0be92582c0f324b2d0a3bd555ff30000"
-  integrity sha512-gh1dsYzberUy+9S9IKJOxEGjlcuyOtZjD/VxUCsAkw0l2eq4t7mwJWm9HgmNDpLKs81r4mqNUrmsag41K+AVBQ==
+mdn-bob@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/mdn-bob/-/mdn-bob-2.1.1.tgz#a71457c01832acb84401d365c49762dee1bac33e"
+  integrity sha512-eywuaaJZ+Zb6/OBZQRiMCxN9M/2xYTpjlLcAZVu7OuApttVy8hTc1layR+9edaDeDsWZrXGl96AGjAnbm3STnQ==
   dependencies:
     browserify "17.0.0"
     clean-css "5.2.2"
@@ -3150,6 +3150,7 @@ mdn-bob@2.0.68:
     glob "7.2.0"
     node-dir "0.1.17"
     uglify-es "3.3.9"
+    wabt "^1.0.23"
 
 memorystream@^0.3.1:
   version "0.3.1"
@@ -5333,6 +5334,11 @@ vue-eslint-parser@~7.1.0:
     espree "^6.2.1"
     esquery "^1.0.1"
     lodash "^4.17.15"
+
+wabt@^1.0.23:
+  version "1.0.24"
+  resolved "https://registry.yarnpkg.com/wabt/-/wabt-1.0.24.tgz#c02e0b5b4503b94feaf4a30a426ef01c1bea7c6c"
+  integrity sha512-8l7sIOd3i5GWfTWciPL0+ff/FK/deVK2Q6FN+MPz4vfUcD78i2M/49XJTwF6aml91uIiuXJEsLKWMB2cw/mtKg==
 
 whatwg-encoding@^2.0.0:
   version "2.0.0"
