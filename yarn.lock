@@ -1076,10 +1076,10 @@ clone-regexp@^2.1.0:
   dependencies:
     is-regexp "^2.0.0"
 
-codemirror@5.63.3:
-  version "5.63.3"
-  resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.63.3.tgz#97042a242027fe0c87c09b36bc01931d37b76527"
-  integrity sha512-1C+LELr+5grgJYqwZKqxrcbPsHFHapVaVAloBsFBASbpLnQqLw1U8yXJ3gT5D+rhxIiSpo+kTqN+hQ+9ialIXw==
+codemirror@5.64.0:
+  version "5.64.0"
+  resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.64.0.tgz#182eec65b62178e3cd1de8f9d88ab819cfe5f625"
+  integrity sha512-fqr6CtDQdJ6iNMbD8NX2gH2G876nNDk+TO1rrYkgWnqQdO3O1Xa9tK6q+psqhJJgE5SpbaDcgdfLmukoUVE8pg==
 
 collapse-white-space@^1.0.2:
   version "1.0.6"
@@ -3137,14 +3137,14 @@ mdast-util-compact@^1.0.0:
   dependencies:
     unist-util-visit "^1.1.0"
 
-mdn-bob@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/mdn-bob/-/mdn-bob-2.1.1.tgz#a71457c01832acb84401d365c49762dee1bac33e"
-  integrity sha512-eywuaaJZ+Zb6/OBZQRiMCxN9M/2xYTpjlLcAZVu7OuApttVy8hTc1layR+9edaDeDsWZrXGl96AGjAnbm3STnQ==
+mdn-bob@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/mdn-bob/-/mdn-bob-2.1.2.tgz#7156cdecccf90dfa564ee495cd9d7a607145bd21"
+  integrity sha512-lzD2MewQlRnVFfZ80e6rkaBslPGYpXegdmM6yGvLaw2yDePq7XcqWSuMwJAo0ytFqR9e8E3iNqOI++OSG4+w4g==
   dependencies:
     browserify "17.0.0"
     clean-css "5.2.2"
-    codemirror "5.63.3"
+    codemirror "5.64.0"
     cosmiconfig "7.0.1"
     fs-extra "10.0.0"
     glob "7.2.0"
