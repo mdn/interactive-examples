@@ -6,6 +6,6 @@ void function test() {
 try {
   test();
 } catch (e) {
-  console.log(e);
-  // expected output: ReferenceError: test is not defined
+  console.log(e.toString());
+  // expected output: "ReferenceError: test is not defined"
 }
