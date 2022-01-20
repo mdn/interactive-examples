@@ -34,7 +34,10 @@ jobs:
               working-directory: bob
 
             - name: Build all
-              run: node ../bob/lib/mdn-bob.js
+              # TODO: bob uses relative paths in bundles. For now we just symlink.
+              run:  |
+                  ln -s ../bob/node_modules .
+                  node ../bob/lib/mdn-bob.js
               working-directory: examples
 
             - name: Configure AWS credentials for stage
