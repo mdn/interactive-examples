@@ -1,0 +1,59 @@
+name: Stage Deployment
+
+on:
+    workflow_dispatch:
+        inputs:
+            notes:
+              description: "Notes"
+              required: false
+              default: ""
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2.3.4
+              with:
+                  path: examples
+
+            - uses: actions/checkout@v2.3.4
+              with:
+                  repository: mdn/bob
+                  ref: stage
+                  path: bob
+
+            - name: Setup Node.js environment
+              uses: actions/setup-node@v2.5.1
+              with:
+                  node-version: '14'
+                  cache: 'yarn'
+
+            - name: Cache node_modules
+              uses: actions/cache@v2.1.7
+              id: cached-node_modules
+              with:
+                  path: |
+                      node_modules
+                  key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
+
+            - name: Install all yarn packages
+              if: steps.cached-node_modules.outputs.cache-hit != 'true'
+              run: yarn --frozen-lockfile
+              working-directory: bob
+
+            - name: Build all
+              run: node ../bob/lib/mdn-bob.js
+              working-directory: examples
+
+            - name: Configure AWS credentials for stage
+              uses: aws-actions/configure-aws-credentials@v1
+              with:
+                  aws-access-key-id: ${{ secrets.STAGE_AWS_ACCESS_KEY_ID }}
+                  aws-secret-access-key: ${{ secrets.STAGE_AWS_ACCESS_KEY_SECRET }}
+                  aws-region: us-east-1
+
+            - name: Deploy pages
+              run: |
+                  aws s3 sync docs/ s3://interactive-examples-stage-ce3e7ea385c68f44/main/
+              working-directory: examples
