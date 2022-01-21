@@ -1,10 +1,17 @@
-const array1 = [1, 2, 3, 4];
-const reducer = (previousValue, currentValue) => previousValue + currentValue;
+const myArray = [1, 2, 3, 4];
 
 // 1 + 2 + 3 + 4
-console.log(array1.reduce(reducer));
+const result = myArray.reduce(
+  (previousValue, currentValue) => previousValue + currentValue
+);
+console.log(result);
 // expected output: 10
 
 // 5 + 1 + 2 + 3 + 4
-console.log(array1.reduce(reducer, 5));
+const initialValue = 5;
+const resultWithInitial = myArray.reduce(
+  (previousValue, currentValue) => previousValue + currentValue,
+  initialValue
+);
+console.log(resultWithInitial);
 // expected output: 15
