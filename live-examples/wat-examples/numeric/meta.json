@@ -2,154 +2,154 @@
     "pages": {
         "const": {
             "watExampleCode": "./live-examples/wat-examples/numeric/const.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/const.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "const.html",
             "title": "Wat Demo: const",
             "type": "wat"
         },
         "eq": {
             "watExampleCode": "./live-examples/wat-examples/numeric/eq.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/eq.js",
+            "jsExampleCode": "./live-examples/wat-examples/log_bool.js",
             "fileName": "eq.html",
             "title": "Wat Demo: eq",
             "type": "wat"
         },
         "ne": {
             "watExampleCode": "./live-examples/wat-examples/numeric/ne.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/ne.js",
+            "jsExampleCode": "./live-examples/wat-examples/log_bool.js",
             "fileName": "ne.html",
             "title": "Wat Demo: ne",
             "type": "wat"
         },
         "gt": {
             "watExampleCode": "./live-examples/wat-examples/numeric/gt.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/gt.js",
+            "jsExampleCode": "./live-examples/wat-examples/log_bool.js",
             "fileName": "gt.html",
             "title": "Wat Demo: gt",
             "type": "wat"
         },
         "lt": {
             "watExampleCode": "./live-examples/wat-examples/numeric/lt.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/lt.js",
+            "jsExampleCode": "./live-examples/wat-examples/log_bool.js",
             "fileName": "lt.html",
             "title": "Wat Demo: lt",
             "type": "wat"
         },
         "ge": {
             "watExampleCode": "./live-examples/wat-examples/numeric/ge.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/ge.js",
+            "jsExampleCode": "./live-examples/wat-examples/log_bool.js",
             "fileName": "ge.html",
             "title": "Wat Demo: ge",
             "type": "wat"
         },
         "le": {
             "watExampleCode": "./live-examples/wat-examples/numeric/le.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/le.js",
+            "jsExampleCode": "./live-examples/wat-examples/log_bool.js",
             "fileName": "le.html",
             "title": "Wat Demo: le",
             "type": "wat"
         },
         "add": {
             "watExampleCode": "./live-examples/wat-examples/numeric/add.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/add.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "add.html",
             "title": "Wat Demo: add",
             "type": "wat"
         },
         "sub": {
             "watExampleCode": "./live-examples/wat-examples/numeric/sub.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/sub.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "sub.html",
             "title": "Wat Demo: sub",
             "type": "wat"
         },
         "mul": {
             "watExampleCode": "./live-examples/wat-examples/numeric/mul.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/mul.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "mul.html",
             "title": "Wat Demo: mul",
             "type": "wat"
         },
         "div": {
             "watExampleCode": "./live-examples/wat-examples/numeric/div.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/div.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "div.html",
             "title": "Wat Demo: div",
             "type": "wat"
         },
         "rem": {
             "watExampleCode": "./live-examples/wat-examples/numeric/rem.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/rem.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "rem.html",
             "title": "Wat Demo: rem",
             "type": "wat"
         },
         "abs": {
             "watExampleCode": "./live-examples/wat-examples/numeric/abs.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/abs.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "abs.html",
             "title": "Wat Demo: abs",
             "type": "wat"
         },
         "neg": {
             "watExampleCode": "./live-examples/wat-examples/numeric/neg.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/neg.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "neg.html",
             "title": "Wat Demo: neg",
             "type": "wat"
         },
         "ceil": {
             "watExampleCode": "./live-examples/wat-examples/numeric/ceil.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/ceil.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "ceil.html",
             "title": "Wat Demo: ceil",
             "type": "wat"
         },
         "floor": {
             "watExampleCode": "./live-examples/wat-examples/numeric/floor.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/floor.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "floor.html",
             "title": "Wat Demo: floor",
             "type": "wat"
         },
         "trunc": {
             "watExampleCode": "./live-examples/wat-examples/numeric/trunc.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/trunc.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "trunc.html",
             "title": "Wat Demo: trunc",
             "type": "wat"
         },
         "nearest": {
             "watExampleCode": "./live-examples/wat-examples/numeric/nearest.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/nearest.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "nearest.html",
             "title": "Wat Demo: nearest",
             "type": "wat"
         },
         "sqrt": {
             "watExampleCode": "./live-examples/wat-examples/numeric/sqrt.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/sqrt.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "sqrt.html",
             "title": "Wat Demo: sqrt",
             "type": "wat"
         },
         "min": {
             "watExampleCode": "./live-examples/wat-examples/numeric/min.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/min.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "min.html",
             "title": "Wat Demo: min",
             "type": "wat"
         },
         "max": {
             "watExampleCode": "./live-examples/wat-examples/numeric/max.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/max.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "max.html",
             "title": "Wat Demo: max",
             "type": "wat"
         },
         "copysign": {
             "watExampleCode": "./live-examples/wat-examples/numeric/copysign.wat",
-            "jsExampleCode": "./live-examples/wat-examples/numeric/copysign.js",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
             "fileName": "copysign.html",
             "title": "Wat Demo: copysign",
             "type": "wat"
