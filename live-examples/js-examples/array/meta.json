@@ -48,6 +48,12 @@
             "title": "JavaScript Demo: Array.find()",
             "type": "js"
         },
+        "arrayFind": {
+            "exampleCode": "./live-examples/js-examples/array/array-groupby.js",
+            "fileName": "array-groupby.html",
+            "title": "JavaScript Demo: Array.groupby()",
+            "type": "js"
+        },
         "arrayFindIndex": {
             "exampleCode": "./live-examples/js-examples/array/array-findindex.js",
             "fileName": "array-findindex.html",
