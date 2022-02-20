@@ -6,7 +6,7 @@ const inventory = [
   {name: 'fish', type: 'meat', quantity: 22}
 ];
 
-let result = inventory.groupBy( ({ type }) => type );
+const result = inventory.groupBy( ({ type }) => type );
 
 console.log(result);
 // expected output: 
