@@ -42,6 +42,6 @@
         "prettier": "2.5.1",
         "prettier-eslint": "13.0.0",
         "prettier-stylelint": "0.4.2",
-        "stylelint": "14.5.2"
+        "stylelint": "14.5.3"
     }
 }
