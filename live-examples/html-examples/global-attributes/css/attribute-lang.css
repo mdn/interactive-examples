@@ -7,9 +7,9 @@ p::before {
 }
 
 [lang="en-GB"]::before {
-    content: url('/media/examples/british-flag.png');
+    content: '(In British English) ';
 }
 
 [lang="fr"]::before {
-    content: url('/media/examples/french-flag.png');
+    content: '(In French) ';
 }
