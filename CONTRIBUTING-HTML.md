@@ -14,7 +14,7 @@ In this section we'll walk through creating an example for the [`<td>`](https://
 
 ## Example structure
 
-HTML examples are all stored under "./live-examples/html-examples". Under there, they are grouped into directories according the the categorization in the [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element):
+HTML examples are all stored under "./live-examples/html-examples". Under there, they are grouped into directories according to the categorization in the [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element):
 
 -   main-root
 -   document-metadata
