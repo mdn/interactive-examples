@@ -5,7 +5,7 @@
 
 #example-element {
     line-height: 50px;
-    background-color: #E5E8FC;
+    border: 1px solid #c5c5c5;
     overflow: hidden;
     white-space: nowrap;
     font-family: sans-serif;
