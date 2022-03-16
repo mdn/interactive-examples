@@ -8,6 +8,3 @@ console.log(iterator1.next().value.segment);
 
 console.log(iterator1.next().value.segment);
 // expected output: ' '
-
-console.log(iterator1.next().value.segment);
-// expected output: 'ma'
