@@ -1,5 +1,5 @@
 var url = "{%wasm-url%}";
-WebAssembly.instantiateStreaming(fetch(url)).then(
+await WebAssembly.instantiateStreaming(fetch(url)).then(
   (result) => {
     const store_in_mem = result.instance.exports.store_in_mem;
     const memory = result.instance.exports.memory;

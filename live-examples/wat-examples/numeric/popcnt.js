@@ -1,5 +1,5 @@
 var url = "{%wasm-url%}";
-WebAssembly.instantiateStreaming(fetch(url), { console }).then(
+await WebAssembly.instantiateStreaming(fetch(url), { console }).then(
   (result) => {
     const count1s = result.instance.exports.count1s;
 

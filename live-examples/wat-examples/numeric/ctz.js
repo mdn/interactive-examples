@@ -1,5 +1,5 @@
 var url = "{%wasm-url%}";
-WebAssembly.instantiateStreaming(fetch(url), { console }).then(
+await WebAssembly.instantiateStreaming(fetch(url), { console }).then(
   (result) => {
     const trailing0 = result.instance.exports.trailing0;
 
