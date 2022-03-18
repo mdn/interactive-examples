@@ -174,6 +174,42 @@
             "title": "JavaScript Demo: Intl.RelativeTimeFormat.prototype.supportedLocalesOf",
             "type": "js"
         },
+        "intlSegmenter": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-segmenter.js",
+            "fileName": "intl-segmenter.html",
+            "title": "JavaScript Demo: Intl.Segmenter",
+            "type": "js"
+        },
+        "intlSegmenterPrototypeResolvedOptions": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-segmenter-prototype-resolvedoptions.js",
+            "fileName": "intl-segmenter-prototype-resolvedoptions.html",
+            "title": "JavaScript Demo: Intl.Segmenter.prototype.resolvedOptions",
+            "type": "js"
+        },
+        "intlSegmenterPrototypeSegment": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-segmenter-prototype-segment.js",
+            "fileName": "intl-segmenter-prototype-segment.html",
+            "title": "JavaScript Demo: Intl.Segmenter.prototype.segment",
+            "type": "js"
+        },
+        "intlSegmenterSupportedLocalesOf": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-segmenter-supportedlocalesof.js",
+            "fileName": "intl-segmenter-supportedlocalesof.html",
+            "title": "JavaScript Demo: Intl.Segmenter.supportedLocalesOf",
+            "type": "js"
+        },
+        "intlSegmentsPrototypeIterator": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-segments-prototype-@@iterator.js",
+            "fileName": "intl-segments-prototype-@@iterator.html",
+            "title": "JavaScript Demo: Intl.Segments.prototype.@@iterator",
+            "type": "js"
+        },
+        "intlSegmentsPrototypeContaining": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-segments-prototype-containing.js",
+            "fileName": "intl-segments-prototype-containing.html",
+            "title": "JavaScript Demo: Intl.Segments.prototype.containing",
+            "type": "js"
+        },
         "intlSupportedValuesOf": {
             "exampleCode": "./live-examples/js-examples/intl/intl-supportedvaluesof.js",
             "fileName": "intl-supportedvaluesof.html",
