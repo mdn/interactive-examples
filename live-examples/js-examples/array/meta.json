@@ -48,12 +48,6 @@
             "title": "JavaScript Demo: Array.find()",
             "type": "js"
         },
-        "arrayGroupBy": {
-            "exampleCode": "./live-examples/js-examples/array/array-groupby.js",
-            "fileName": "array-groupby.html",
-            "title": "JavaScript Demo: Array.groupBy()",
-            "type": "js"
-        },
         "arrayFindIndex": {
             "exampleCode": "./live-examples/js-examples/array/array-findindex.js",
             "fileName": "array-findindex.html",
@@ -82,6 +76,12 @@
             "exampleCode": "./live-examples/js-examples/array/array-from.js",
             "fileName": "array-from.html",
             "title": "JavaScript Demo: Array.from()",
+            "type": "js"
+        },
+        "arrayGroupBy": {
+            "exampleCode": "./live-examples/js-examples/array/array-groupby.js",
+            "fileName": "array-groupby.html",
+            "title": "JavaScript Demo: Array.groupBy()",
             "type": "js"
         },
         "arrayIncludes": {
