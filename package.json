@@ -33,7 +33,7 @@
     "devDependencies": {
         "@babel/core": "^7.17.8",
         "@babel/eslint-parser": "^7.17.0",
-        "ajv": "8.10.0",
+        "ajv": "8.11.0",
         "chokidar-cli": "3.0.0",
         "eslint": "8.11.0",
         "http-server": "14.1.0",
