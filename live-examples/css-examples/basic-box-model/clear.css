@@ -1,6 +1,5 @@
 .example-container {
-    background-color: #eee;
-    border: .75em solid;
+    border: 1px solid #c5c5c5;
     padding: .75em;
     text-align: left;
     line-height: normal;

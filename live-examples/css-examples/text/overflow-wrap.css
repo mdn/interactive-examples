@@ -1,5 +1,5 @@
 .example-container {
-    background-color: gold;
+    background-color: rgba(255, 215, 0, .6);
     padding: .75em;
     width: min-content;
     max-width: 11em;

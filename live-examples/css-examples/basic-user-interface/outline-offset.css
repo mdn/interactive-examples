@@ -1,7 +1,8 @@
 #example-element {
     background-color: #ffd955;
     border: 2px solid crimson;
-    outline: .75em solid;
+    color: black;
+    outline: .75em solid white;
     padding: .75em;
     width: 80%;
     height: 100px;

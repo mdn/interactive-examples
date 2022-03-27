@@ -10,6 +10,7 @@
     background-color: #fcfbe5;
     border: solid 5px #e3e0a1;
     z-index: auto;
+    color: black;
 }
 
 .container {
@@ -23,6 +24,7 @@
     height: 50px;
     position: absolute;
     font-family: monospace;
+    color: black;
 }
 
 .blue {
