@@ -1,4 +1,4 @@
-var output = void 1;
+let output = void 1;
 console.log(output);
 // expected output: undefined
 
@@ -15,8 +15,7 @@ void function test() {
 };
 try {
   test();
-}
-catch(e) {
+} catch(e) {
   console.log('test function is not defined');
   // expected output: "test function is not defined"
 }
