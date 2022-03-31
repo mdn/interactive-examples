@@ -78,16 +78,16 @@
             "title": "JavaScript Demo: Intl.GetCanonicalLocales",
             "type": "js"
         },
-        "intlListFormatPrototypeResolvedOptions": {
-            "exampleCode": "./live-examples/js-examples/intl/intl-listformat-prototype-resolvedoptions.js",
-            "fileName": "intl-listformat-prototype-resolvedoptions.html",
-            "title": "JavaScript Demo: Intl.ListFormat.prototype.resolvedOptions()",
-            "type": "js"
-        },
         "intlListFormat": {
             "exampleCode": "./live-examples/js-examples/intl/intl-listformat.js",
             "fileName": "intl-listformat.html",
             "title": "JavaScript Demo: Intl.ListFormat",
+            "type": "js"
+        },
+        "intlListFormatPrototypeResolvedOptions": {
+            "exampleCode": "./live-examples/jßs-examples/intl/intl-listformat-prototype-resolvedoptions.js",
+            "fileName": "intl-listformat-prototype-resolvedoptions.html",
+            "title": "JavaScript Demo: Intl.ListFormat.prototype.resolvedOptions()",
             "type": "js"
         },
         "intlLocale": {
