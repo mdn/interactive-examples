@@ -1,0 +1,84 @@
+{
+    "pages": {
+        "counterStyle": {
+            "cssExampleSrc": "./live-examples/css-examples/@counter-style/counter-style.css",
+            "exampleCode": "./live-examples/css-examples/@counter-style/counter-list.html",
+            "fileName": "counter-style.html",
+            "title": "CSS Demo: @counter-style",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "counterStyleSystem": {
+            "cssExampleSrc": "./live-examples/css-examples/@counter-style/system.css",
+            "exampleCode": "./live-examples/css-examples/@counter-style/counter-list.html",
+            "fileName": "counter-style-system.html",
+            "title": "CSS Demo: system",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "counterStyleNegative": {
+            "cssExampleSrc": "./live-examples/css-examples/@counter-style/negative.css",
+            "exampleCode": "./live-examples/css-examples/@counter-style/counter-list-negative.html",
+            "fileName": "counter-style-negative.html",
+            "title": "CSS Demo: negative",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "counterStylePrefix": {
+            "cssExampleSrc": "./live-examples/css-examples/@counter-style/prefix.css",
+            "exampleCode": "./live-examples/css-examples/@counter-style/counter-list.html",
+            "fileName": "counter-style-prefix.html",
+            "title": "CSS Demo: prefix",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "counterStyleSuffix": {
+            "cssExampleSrc": "./live-examples/css-examples/@counter-style/suffix.css",
+            "exampleCode": "./live-examples/css-examples/@counter-style/counter-list.html",
+            "fileName": "counter-style-suffix.html",
+            "title": "CSS Demo: suffix",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "counterStyleRange": {
+            "cssExampleSrc": "./live-examples/css-examples/@counter-style/range.css",
+            "exampleCode": "./live-examples/css-examples/@counter-style/counter-list.html",
+            "fileName": "counter-style-range.html",
+            "title": "CSS Demo: range",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "counterStylePad": {
+            "cssExampleSrc": "./live-examples/css-examples/@counter-style/pad.css",
+            "exampleCode": "./live-examples/css-examples/@counter-style/counter-list.html",
+            "fileName": "counter-style-pad.html",
+            "title": "CSS Demo: pad",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "counterStyleFallback": {
+            "cssExampleSrc": "./live-examples/css-examples/@counter-style/fallback.css",
+            "exampleCode": "./live-examples/css-examples/@counter-style/counter-list.html",
+            "fileName": "counter-style-fallback.html",
+            "title": "CSS Demo: fallback",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "counterStyleSymbols": {
+            "cssExampleSrc": "./live-examples/css-examples/@counter-style/symbols.css",
+            "exampleCode": "./live-examples/css-examples/@counter-style/counter-list.html",
+            "fileName": "counter-style-symbols.html",
+            "title": "CSS Demo: symbols",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "counterStyleAdditiveSymbols": {
+            "cssExampleSrc": "./live-examples/css-examples/@counter-style/additive-symbols.css",
+            "exampleCode": "./live-examples/css-examples/@counter-style/counter-list.html",
+            "fileName": "counter-style-additive-symbols.html",
+            "title": "CSS Demo: additive-symbols",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        }
+    }
+}
