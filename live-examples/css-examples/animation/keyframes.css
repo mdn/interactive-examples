@@ -1,0 +1,18 @@
+@keyframes bounce {
+    from {
+        margin-top: 0;
+        background-color: #1766aa;
+    }
+    to {
+        margin-top: 40%;
+        background-color: #078372;
+    }
+}
+
+.animating {
+    animation: bounce alternate 1s infinite;
+    border-radius: 50%;
+    border: 5px solid #333;
+    height: 150px;
+    width: 150px;
+}

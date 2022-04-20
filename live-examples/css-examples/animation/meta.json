@@ -68,6 +68,14 @@
             "fileName": "animation-timing-function.html",
             "title": "CSS Demo: animation-timing-function",
             "type": "css"
+        },
+        "keyframes": {
+            "cssExampleSrc": "./live-examples/css-examples/animation/keyframes.css",
+            "exampleCode": "./live-examples/css-examples/animation/keyframes.html",
+            "fileName": "keyframes.html",
+            "title": "CSS Demo: @keyframes",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }
