@@ -1,2 +1,2 @@
 var url = "{%wasm-url%}";
-WebAssembly.instantiateStreaming(fetch(url), {console});
+await WebAssembly.instantiateStreaming(fetch(url), {console});

@@ -1,5 +1,5 @@
 var url = "{%wasm-url%}";
-WebAssembly.instantiateStreaming(
+await WebAssembly.instantiateStreaming(
   fetch(url)
 ).then(result => {
   let get_90 = result.instance.exports.get_90;
