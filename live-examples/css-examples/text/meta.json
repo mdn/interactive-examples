@@ -28,6 +28,13 @@
             "title": "CSS Demo: overflow-wrap",
             "type": "css"
         },
+        "rubyPosition": {
+            "cssExampleSrc": "./live-examples/css-examples/text/ruby-position.css",
+            "exampleCode": "./live-examples/css-examples/text/ruby-position.html",
+            "fileName": "ruby-position.html",
+            "title": "CSS Demo: ruby-position",
+            "type": "css"
+        },
         "tabSize": {
             "cssExampleSrc": "./live-examples/css-examples/text/tab-size.css",
             "exampleCode": "./live-examples/css-examples/text/tab-size.html",
