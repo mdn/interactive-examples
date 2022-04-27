@@ -3,7 +3,7 @@
         "after": {
             "exampleCode": "./live-examples/css-examples/pseudo-element/after.html",
             "cssExampleSrc": "./live-examples/css-examples/pseudo-element/after.css",
-            "fileName": "after.html",
+            "fileName": "pseudo-element-after.html",
             "title": "HTML Demo: ::after",
             "type": "tabbed",
             "defaultTab": "css",
@@ -12,7 +12,7 @@
         "before": {
             "exampleCode": "./live-examples/css-examples/pseudo-element/before.html",
             "cssExampleSrc": "./live-examples/css-examples/pseudo-element/before.css",
-            "fileName": "before.html",
+            "fileName": "pseudo-element-before.html",
             "title": "HTML Demo: ::before",
             "type": "tabbed",
             "defaultTab": "css",
