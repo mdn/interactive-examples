@@ -308,6 +308,22 @@ Usage is as follows. When adding the meta information for your example, set the 
 }
 ```
 
+### Changing tab opened by default
+
+When HTML interactive example is loaded, HTML tab will be opened by default. We can change it to either `css` or `js`, by setting that value in `defaultTab` property. For example:
+
+```
+"before": {
+    "exampleCode": "./live-examples/css-examples/pseudo-element/before.html",
+    "cssExampleSrc": "./live-examples/css-examples/pseudo-element/before.css",
+    "fileName": "pseudo-element-before.html",
+    "title": "HTML Demo: ::before",
+    "type": "tabbed",
+    "defaultTab": "css",
+    "height": "tabbed-standard"
+}
+```
+
 ### Encoding HTML entities
 
 Sometimes your example might want to include [HTML entities](https://developer.mozilla.org/en-US/docs/Glossary/Entity). For example, if you are referring to an HTML tag in the example itself, you might want the example to include something like:
