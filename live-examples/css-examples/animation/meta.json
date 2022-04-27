@@ -75,6 +75,7 @@
             "fileName": "keyframes.html",
             "title": "CSS Demo: @keyframes",
             "type": "tabbed",
+            "defaultTab": "css",
             "height": "tabbed-standard"
         }
     }
