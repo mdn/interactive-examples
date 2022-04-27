@@ -78,6 +78,12 @@
             "title": "JavaScript Demo: Array.from()",
             "type": "js"
         },
+        "arrayGroupBy": {
+            "exampleCode": "./live-examples/js-examples/array/array-groupby.js",
+            "fileName": "array-groupby.html",
+            "title": "JavaScript Demo: Array.groupBy()",
+            "type": "js"
+        },
         "arrayIncludes": {
             "exampleCode": "./live-examples/js-examples/array/array-includes.js",
             "fileName": "array-includes.html",
