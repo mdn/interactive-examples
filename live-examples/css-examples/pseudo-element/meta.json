@@ -6,6 +6,7 @@
             "fileName": "after.html",
             "title": "HTML Demo: ::after",
             "type": "tabbed",
+            "defaultTab": "css",
             "height": "tabbed-standard"
         },
         "before": {
@@ -14,6 +15,7 @@
             "fileName": "before.html",
             "title": "HTML Demo: ::before",
             "type": "tabbed",
+            "defaultTab": "css",
             "height": "tabbed-standard"
         }
     }
