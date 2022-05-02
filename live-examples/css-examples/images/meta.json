@@ -35,6 +35,13 @@
             "title": "CSS Demo: conic-gradient()",
             "type": "css"
         },
+        "repeatingConicGradient": {
+            "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
+            "exampleCode": "./live-examples/css-examples/images/function-repeating-conic-gradient.html",
+            "fileName": "function-repeating-conic-gradient.html",
+            "title": "CSS Demo: repeating-conic-gradient()",
+            "type": "css"
+        },
         "repeatingLinearGradient": {
             "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
             "exampleCode": "./live-examples/css-examples/images/function-repeating-linear-gradient.html",
