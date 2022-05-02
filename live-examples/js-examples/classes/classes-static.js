@@ -3,8 +3,8 @@ class ClassWithStaticMethod {
   static staticMethod() {
     return 'static method has been called.';
   }
-  static {  
-    console.log("Class static initialization block called");
+  static {
+    console.log('Class static initialization block called');
   }
 }
 

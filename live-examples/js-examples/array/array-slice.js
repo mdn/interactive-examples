@@ -14,3 +14,6 @@ console.log(animals.slice(-2));
 
 console.log(animals.slice(2, -1));
 // expected output: Array ["camel", "duck"]
+
+console.log(animals.slice());
+// expected output: Array ["ant", "bison", "camel", "duck", "elephant"]

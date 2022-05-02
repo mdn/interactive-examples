@@ -1,6 +1,2 @@
 js/lib/*
 js/mode/*
-
-# js class static blocks is currently ignored as it fails test
-live-examples/js-examples/classes/classes-static-initialization.js
-live-examples/js-examples/classes/classes-static.js

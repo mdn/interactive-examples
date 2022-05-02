@@ -1,46 +1,46 @@
 name: Build, Deploy
 
 on:
-  push:
-    branches:
-      - master
+    push:
+        branches:
+            - main
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+    build:
+        runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v2.3.4
+        steps:
+            - uses: actions/checkout@v3
 
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v2.4.0
-        with:
-          node-version: "14"
-          cache: "yarn"
+            - name: Setup Node.js environment
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '14'
+                  cache: 'yarn'
 
-      - name: Cache node_modules
-        uses: actions/cache@v2.1.6
-        id: cached-node_modules
-        with:
-          path: |
-            node_modules
-          key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}-${{ hashFiles('.github/workflows/deploy.yml') }}
+            - name: Cache node_modules
+              uses: actions/cache@v3
+              id: cached-node_modules
+              with:
+                  path: |
+                      node_modules
+                  key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}-${{ hashFiles('.github/workflows/deploy.yml') }}
 
-      - name: Install all yarn packages
-        if: steps.cached-node_modules.outputs.cache-hit != 'true'
-        run: yarn --frozen-lockfile
+            - name: Install all yarn packages
+              if: steps.cached-node_modules.outputs.cache-hit != 'true'
+              run: yarn --frozen-lockfile
 
-      - name: Build all
-        run: yarn build
+            - name: Build all
+              run: yarn build
 
-      - name: Deploy pages
-        run: |
-            git init
-            git config user.name "schalkneethling"
-            git config user.email "sneethling@mozilla.com"
-            git checkout -b prod
-            git add .
-            git commit --allow-empty -m "Deploying latest generated pages"
-            git remote add mdn "https://$GITHUB_TOKEN@github.com/mdn/interactive-examples.git"
-            # Eat output so it doesn't spit out the sensitive GH_TOKEN if something goes wrong:
-            git push -q -f mdn prod > /dev/null 2>&1
+            - name: Deploy pages
+              run: |
+                  git init
+                  git config user.name "schalkneethling"
+                  git config user.email "sneethling@mozilla.com"
+                  git checkout -b prod
+                  git add .
+                  git commit --allow-empty -m "Deploying latest generated pages"
+                  git remote add mdn "https://$GITHUB_TOKEN@github.com/mdn/interactive-examples.git"
+                  # Eat output so it doesn't spit out the sensitive GITHUB_TOKEN if something goes wrong:
+                  git push -q -f mdn prod > /dev/null 2>&1
