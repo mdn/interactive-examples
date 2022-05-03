@@ -6,6 +6,7 @@
             "fileName": "counter-style.html",
             "title": "CSS Demo: @counter-style",
             "type": "tabbed",
+            "defaultTab": "css",
             "height": "tabbed-shorter"
         },
         "counterStyleSystem": {
@@ -14,6 +15,7 @@
             "fileName": "counter-style-system.html",
             "title": "CSS Demo: system",
             "type": "tabbed",
+            "defaultTab": "css",
             "height": "tabbed-shorter"
         },
         "counterStyleNegative": {
@@ -22,6 +24,7 @@
             "fileName": "counter-style-negative.html",
             "title": "CSS Demo: negative",
             "type": "tabbed",
+            "defaultTab": "css",
             "height": "tabbed-shorter"
         },
         "counterStylePrefix": {
@@ -30,6 +33,7 @@
             "fileName": "counter-style-prefix.html",
             "title": "CSS Demo: prefix",
             "type": "tabbed",
+            "defaultTab": "css",
             "height": "tabbed-shorter"
         },
         "counterStyleSuffix": {
@@ -38,6 +42,7 @@
             "fileName": "counter-style-suffix.html",
             "title": "CSS Demo: suffix",
             "type": "tabbed",
+            "defaultTab": "css",
             "height": "tabbed-shorter"
         },
         "counterStyleRange": {
@@ -46,6 +51,7 @@
             "fileName": "counter-style-range.html",
             "title": "CSS Demo: range",
             "type": "tabbed",
+            "defaultTab": "css",
             "height": "tabbed-shorter"
         },
         "counterStylePad": {
@@ -54,6 +60,7 @@
             "fileName": "counter-style-pad.html",
             "title": "CSS Demo: pad",
             "type": "tabbed",
+            "defaultTab": "css",
             "height": "tabbed-shorter"
         },
         "counterStyleFallback": {
@@ -62,6 +69,7 @@
             "fileName": "counter-style-fallback.html",
             "title": "CSS Demo: fallback",
             "type": "tabbed",
+            "defaultTab": "css",
             "height": "tabbed-shorter"
         },
         "counterStyleSymbols": {
@@ -70,6 +78,7 @@
             "fileName": "counter-style-symbols.html",
             "title": "CSS Demo: symbols",
             "type": "tabbed",
+            "defaultTab": "css",
             "height": "tabbed-shorter"
         },
         "counterStyleAdditiveSymbols": {
@@ -78,6 +87,7 @@
             "fileName": "counter-style-additive-symbols.html",
             "title": "CSS Demo: additive-symbols",
             "type": "tabbed",
+            "defaultTab": "css",
             "height": "tabbed-shorter"
         }
     }
