@@ -7,6 +7,15 @@
             "title": "CSS Demo: all",
             "type": "css"
         },
+        "layer": {
+            "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/layer.css",
+            "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/layer.html",
+            "fileName": "at-rule-layer.html",
+            "title": "CSS Demo: @layer",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-standard"
+        },
         "media": {
             "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/at-rule-media.css",
             "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/at-rule-media.html",
