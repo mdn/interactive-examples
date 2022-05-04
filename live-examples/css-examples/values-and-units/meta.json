@@ -67,6 +67,13 @@
             "title": "CSS Demo: min()",
             "type": "css"
         },
+        "path": {
+            "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
+            "exampleCode": "./live-examples/css-examples/values-and-units/function-path.html",
+            "fileName": "function-path.html",
+            "title": "CSS Demo: path()",
+            "type": "css"
+        },
         "polygon": {
             "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
             "exampleCode": "./live-examples/css-examples/values-and-units/function-polygon.html",
