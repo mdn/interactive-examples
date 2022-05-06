@@ -1,0 +1,13 @@
+p {
+    font-weight: bold;
+}
+
+li:nth-last-child(-n+3) {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+li:nth-last-child(even) {
+    background-color: beige;
+}
+

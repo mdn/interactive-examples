@@ -1,0 +1,8 @@
+p {
+    font-weight: bold;
+}
+
+li:last-child {
+    text-decoration: underline;
+    font-weight: bold;
+}

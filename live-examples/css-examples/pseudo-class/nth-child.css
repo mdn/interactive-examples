@@ -1,0 +1,11 @@
+li:nth-child(-n+3) {
+    background-color: darkorange;
+}
+
+li:nth-child(n+4) {
+    background-color: lightyellow;
+}
+
+li:nth-child(odd) {
+    font-weight: 700;
+}

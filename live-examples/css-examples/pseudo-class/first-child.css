@@ -1,0 +1,7 @@
+p {
+    font-weight: bold;
+}
+
+li:first-child {
+    background-color: gold;
+}

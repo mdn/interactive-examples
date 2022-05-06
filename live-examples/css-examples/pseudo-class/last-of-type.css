@@ -1,0 +1,13 @@
+dt {
+    font-weight: 700;
+}
+
+dd {
+    border: 2px solid transparent;
+    margin: 3px;
+    font-size: .8rem;
+}
+
+dd:last-of-type {
+    border-color: orange;
+}
