@@ -7,13 +7,19 @@
             "title": "CSS Demo: direction",
             "type": "css"
         },
-        "text-orientation": {
+        "textOrientation": {
             "exampleCode": "./live-examples/css-examples/writing-modes/text-orientation.html",
             "fileName": "text-orientation.html",
             "title": "CSS Demo: text-orientation",
             "type": "css"
         },
-        "writing-mode": {
+        "unicodeBidi": {
+            "exampleCode": "./live-examples/css-examples/writing-modes/unicode-bidi.html",
+            "fileName": "unicode-bidi.html",
+            "title": "CSS Demo: unicode-bidi",
+            "type": "css"
+        },
+        "writingMode": {
             "cssExampleSrc": "./live-examples/css-examples/writing-modes/writing-mode.css",
             "exampleCode": "./live-examples/css-examples/writing-modes/writing-mode.html",
             "fileName": "writing-mode.html",
