@@ -3,6 +3,5 @@ p {
 }
 
 li:last-child {
-    text-decoration: underline;
-    font-weight: bold;
+    border: 2px solid orange;
 }

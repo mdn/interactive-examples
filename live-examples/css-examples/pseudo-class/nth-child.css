@@ -1,11 +1,12 @@
+p {
+    font-weight: bold;
+}
+
 li:nth-child(-n+3) {
-    background-color: darkorange;
+    border: 2px solid orange;
+    margin-bottom: 1px;
 }
 
-li:nth-child(n+4) {
+li:nth-child(even) {
     background-color: lightyellow;
-}
-
-li:nth-child(odd) {
-    font-weight: 700;
 }

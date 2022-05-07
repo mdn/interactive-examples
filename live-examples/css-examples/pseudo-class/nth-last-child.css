@@ -3,11 +3,11 @@ p {
 }
 
 li:nth-last-child(-n+3) {
-    text-decoration: underline;
-    font-weight: bold;
+    border: 2px solid orange;
+    margin-top: 1px;
 }
 
 li:nth-last-child(even) {
-    background-color: beige;
+    background-color: lightyellow;
 }
 

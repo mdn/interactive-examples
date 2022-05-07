@@ -1,13 +1,11 @@
 dt {
-    font-weight: 700;
+    font-weight: bold;
 }
 
 dd {
-    border: 2px solid transparent;
     margin: 3px;
-    font-size: .8rem;
 }
 
 dd:nth-of-type(even) {
-    border-color: orange;
+    border: 2px solid orange;
 }

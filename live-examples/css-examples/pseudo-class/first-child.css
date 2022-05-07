@@ -3,5 +3,5 @@ p {
 }
 
 li:first-child {
-    background-color: gold;
+    border: 2px solid orange;
 }
