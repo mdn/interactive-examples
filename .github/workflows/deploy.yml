@@ -6,13 +6,14 @@ on:
             - main
 
 jobs:
-    if: github.event.label.name == 'release'
     build:
         runs-on: ubuntu-latest
 
         steps:
-            - uses: actions/checkout@v3
+            - name: Checkout
+              uses: actions/checkout@v3
 
+              if: github.event.label.name == 'release'
             - name: Setup Node.js environment
               uses: actions/setup-node@v3
               with:
