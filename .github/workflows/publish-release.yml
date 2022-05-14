@@ -8,44 +8,47 @@ on:
 jobs:
     publish-release:
         runs-on: ubuntu-latest
+        uses: mdn/workflows/.github/workflows/publish-release.yml@main
+        id: publish
+        with:
+            npm-publish: false
+        secrets:
+            GH_TOKEN: ${{ secrets.GH_TOKEN }}
+    deploy:
+        runs-on: ubuntu-latest
+        needs:
+            - publish-release
         steps:
-            - name: Release
-              uses: mdn/workflows/.github/workflows/publish-release.yml@main
-              id: publish
-              with:
-                  npm-publish: false
-              secrets:
-                  GH_TOKEN: ${{ secrets.GH_TOKEN }}
             - name: Checkout
-              if: '${{ steps.publish.outputs.release_created }}'
+              if: '${{ needs.publish-release.outputs.release_created }}'
               uses: actions/checkout@v3
 
             - name: Setup Node.js environment
-              if: '${{ steps.publish.outputs.release_created }}'
+              if: '${{ needs.publish-release.outputs.release_created }}'
               uses: actions/setup-node@v3
               with:
                   node-version: '16'
                   cache: 'yarn'
 
             - name: Cache node_modules
-              if: '${{ steps.publish.outputs.release_created }}'
+              if: '${{ needs.publish-release.outputs.release_created }}'
               uses: actions/cache@v3
               id: cached-node_modules
               with:
                   path: |
                       node_modules
-                  key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}-${{ hashFiles('.github/workflows/deploy.yml') }}
+                  key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}-${{ hashFiles('.github/workflows/publish-release.yml') }}
 
             - name: Install all yarn packages
-              if: steps.cached-node_modules.outputs.cache-hit != 'true' && '${{ steps.publish.outputs.release_created }}'
+              if: steps.cached-node_modules.outputs.cache-hit != 'true' && '${{ needs.publish-release.outputs.release_created }}'
               run: yarn --frozen-lockfile
 
             - name: Build all
-              if: '${{ steps.publish.outputs.release_created }}'
+              if: '${{ needs.publish-release.outputs.release_created }}'
               run: yarn build
 
             - name: Deploy pages
-              if: '${{ steps.publish.outputs.release_created }}'
+              if: '${{ needs.publish-release.outputs.release_created }}'
               run: |
                   git init
                   git config user.name "schalkneethling"
