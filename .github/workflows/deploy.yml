@@ -6,6 +6,7 @@ on:
             - main
 
 jobs:
+    if: github.event.label.name == 'release'
     build:
         runs-on: ubuntu-latest
 
