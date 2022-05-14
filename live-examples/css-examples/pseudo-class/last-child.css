@@ -1,0 +1,7 @@
+p {
+    font-weight: bold;
+}
+
+li:last-child {
+    border: 2px solid orange;
+}

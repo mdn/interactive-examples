@@ -1,7 +1,5 @@
 #example-element {
-    background-color: #eee;
-    border: .75em solid;
-    padding: .75em;
+    border: 1px solid #c5c5c5;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 40px;
@@ -12,4 +10,9 @@
 #example-element > div {
     background-color: rgba(0, 0, 255, 0.2);
     border: 3px solid blue;
+    font-size: 22px;
+}
+
+#example-element div:last-child {
+    font-size: 13px;
 }

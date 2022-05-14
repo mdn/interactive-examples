@@ -1,5 +1,12 @@
 {
     "pages": {
+        "aspectRatio": {
+            "cssExampleSrc": "./live-examples/css-examples/images/aspect-ratio.css",
+            "exampleCode": "./live-examples/css-examples/images/aspect-ratio.html",
+            "fileName": "aspect-ratio.html",
+            "title": "CSS Demo: aspect-ratio",
+            "type": "css"
+        },
         "imageRendering": {
             "cssExampleSrc": "./live-examples/css-examples/images/image-rendering.css",
             "exampleCode": "./live-examples/css-examples/images/image-rendering.html",

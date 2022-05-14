@@ -124,10 +124,10 @@ In general, to add an example for a property, it should be supported by most bro
 -   supply all relevant variants in the `data-property` attribute
 -   include all relevant variants in the example choices.
 
-For example, suppose you want to add an example for [`text-emphasis`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis). This is supported unprefixed by Firefox but requires the `-webkit-` prefix in Chrome. To deal with this you would set `data-property` like this:
+For example, suppose you want to add an example for [`box-decoration-break`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break). This is supported unprefixed by Firefox but requires the `-webkit-` prefix in Chrome. To deal with this you would set `data-property` like this:
 
 ```
-data-property="text-emphasis -webkit-text-emphasis">
+data-property="box-decoration-break -webkit-box-decoration-break">
 ```
 
 This means the editor will check both variants when it is testing whether the browser can support the example.
@@ -135,12 +135,13 @@ This means the editor will check both variants when it is testing whether the br
 You would then use both variants in the example choices:
 
 ```
-<div class="example-choice" initial-choice="true">
-    <pre><code class="language-css">text-emphasis: none;
--webkit-text-emphasis: none;</code></pre>
-    <button type="button" class="copy hidden" aria-hidden="true">
-        <span class="visually-hidden">Copy to Clipboard</span>
-    </button>
+<div class="example-choice">
+    <pre><code class="language-css">box-decoration-break: clone;
+-webkit-box-decoration-break: clone;
+box-shadow: 8px 8px 10px 0 #ff1492, -5px -5px 5px 0 #00f, 5px 5px 15px 0 #ff0;</code></pre>
+<button type="button" class="copy hidden" aria-hidden="true">
+    <span class="visually-hidden">Copy to Clipboard</span>
+</button>
 </div>
 ```
 
@@ -160,7 +161,7 @@ Next, let's provide some extra styling for the example element. Create a new CSS
 
 Some examples will need to reference media, such as images, from the CSS. Make sure that the license terms for any images are acceptable.
 
-Media files should be stored in the [/media/examples](https://github.com/mdn/interactive-examples/tree/master/media/examples) directory, and can be referenced using a path like `"/media/examples/my-file"`:
+Media files should be stored in the [/media/examples](https://github.com/mdn/interactive-examples/tree/main/media/examples) directory, and can be referenced using a path like `"/media/examples/my-file"`:
 
 ```
 background-image: url("/media/examples/lizard.png");

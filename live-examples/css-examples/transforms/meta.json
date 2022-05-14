@@ -22,7 +22,7 @@
             "type": "css"
         },
         "perspectiveOrigin": {
-            "cssExampleSrc": "./live-examples/css-examples/transforms/rotate3d.css",
+            "cssExampleSrc": "./live-examples/css-examples/transforms/perspective-origin.css",
             "exampleCode": "./live-examples/css-examples/transforms/perspective-origin.html",
             "fileName": "perspective-origin.html",
             "title": "CSS Demo: perspective-origin",
@@ -107,6 +107,18 @@
             "exampleCode": "./live-examples/css-examples/transforms/function-skewY.html",
             "fileName": "function-skewY.html",
             "title": "CSS Demo: skewY()",
+            "type": "css"
+        },
+        "matrix": {
+            "exampleCode": "./live-examples/css-examples/transforms/function-matrix.html",
+            "fileName": "function-matrix.html",
+            "title": "CSS Demo: matrix()",
+            "type": "css"
+        },
+        "matrix3d": {
+            "exampleCode": "./live-examples/css-examples/transforms/function-matrix3d.html",
+            "fileName": "function-matrix3d.html",
+            "title": "CSS Demo: matrix3d()",
             "type": "css"
         },
         "transform": {

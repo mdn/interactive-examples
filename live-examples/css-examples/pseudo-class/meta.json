@@ -1,0 +1,76 @@
+{
+    "pages": {
+        "firstChild": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/first-child.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/first-child.html",
+            "fileName": "pseudo-class-first-child.html",
+            "title": "CSS Demo: :first-child",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "firstOfType": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/first-of-type.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/first-of-type.html",
+            "fileName": "pseudo-class-first-of-type.html",
+            "title": "CSS Demo: :first-of-type",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "lastChild": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/last-child.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/last-child.html",
+            "fileName": "pseudo-class-last-child.html",
+            "title": "CSS Demo: :last-child",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "lastOfType": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/last-of-type.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/last-of-type.html",
+            "fileName": "pseudo-class-last-of-type.html",
+            "title": "CSS Demo: :last-of-type",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "nthChild": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/nth-child.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/nth-child.html",
+            "fileName": "pseudo-class-nth-child.html",
+            "title": "CSS Demo: :nth-child",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "nthLastChild": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/nth-last-child.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/nth-last-child.html",
+            "fileName": "pseudo-class-nth-last-child.html",
+            "title": "CSS Demo: :nth-last-child",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "nthLastOfType": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/nth-last-of-type.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/nth-last-of-type.html",
+            "fileName": "pseudo-class-nth-last-of-type.html",
+            "title": "CSS Demo: :nth-last-of-type",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "nthOfType": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/nth-of-type.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/nth-of-type.html",
+            "fileName": "pseudo-class-nth-of-type.html",
+            "title": "CSS Demo: :nth-of-type",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        }
+    }
+}

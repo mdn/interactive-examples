@@ -14,7 +14,7 @@ In this section we'll walk through creating an example for the [`<td>`](https://
 
 ## Example structure
 
-HTML examples are all stored under "./live-examples/html-examples". Under there, they are grouped into directories according the the categorization in the [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element):
+HTML examples are all stored under "./live-examples/html-examples". Under there, they are grouped into directories according to the categorization in the [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element):
 
 -   main-root
 -   document-metadata
@@ -100,7 +100,6 @@ thead {
 
 Follow the [mdn-fiori CSS formatting guidelines](https://mdn.github.io/mdn-fiori/patterns/css/formatting/).
 
-
 ## Updating the metadata
 
 In "./live-examples/html-examples/table-content/" you'll need a file called "meta.json". This tells the site builder about the examples inside the directory. If it doesn't exist, create it. If it does, open it,
@@ -151,36 +150,36 @@ The final example should look something like this:
 
 This section describes some guidelines to follow when writing HTML examples. It's split into two sections:
 
-* **Formal guidelines** cover formal aspects of the example, such as how long it should be.
-* **Content guidelines** cover the actual content of the example: that is, what it should include or exclude.
+-   **Formal guidelines** cover formal aspects of the example, such as how long it should be.
+-   **Content guidelines** cover the actual content of the example: that is, what it should include or exclude.
 
 Sometimes formal and content guidelines are at odds. For example, sometimes writing a useful example means making it longer than the formal guidelines ask. Usually, when this happens, we should prioritize content guidelines.
 
 ### Formal guidelines
 
-In general: try out your example using `npm start` and see what it looks like with a browser window width of 1000px.
+In general: try out your example using `yarn start` and see what it looks like with a browser window width of 1000px.
 
-* Can the user see the whole example source without having to scroll?
+-   Can the user see the whole example source without having to scroll?
 
-* Is the example source readable?
+-   Is the example source readable?
 
-* Does the source look messed up because of how it's wrapped?
+-   Does the source look messed up because of how it's wrapped?
 
-* Does the output fit properly in the output pane?
+-   Does the output fit properly in the output pane?
 
-* Does the layout break at narrower widths?
+-   Does the layout break at narrower widths?
 
 In particular, see the following guidelines for the HTML source and the output:
 
 #### HTML source formal guidelines
 
-* **Keep the line count short**: a maximum of 13 lines if possible. By default the editor will show 13 lines, so if the example is more than that, the user will need to scroll to see the whole thing, and this isn't ideal. It's not always possible to keep to this: if you have to, you can increase the editor height to 22 lines (see [Changing the editor height](#changing-the-editor-height)), but don't do this unless you have to.
+-   **Keep the line count short**: a maximum of 13 lines if possible. By default the editor will show 13 lines, so if the example is more than that, the user will need to scroll to see the whole thing, and this isn't ideal. It's not always possible to keep to this: if you have to, you can increase the editor height to 22 lines (see [Changing the editor height](#changing-the-editor-height)), but don't do this unless you have to.
 
-* **Keep line length short**: as a rule of thumb, try to keep lines under 64 characters.
+-   **Keep line length short**: as a rule of thumb, try to keep lines under 64 characters.
 
-* **Use 4-space indent**
+-   **Use 4-space indent**
 
-* **Use line breaks for readability**: keep in mind that at different browser widths longer lines will wrap and this can hurt readability. By including line breaks you can make the example more readable at different browser widths. For example, consider an example like this:
+-   **Use line breaks for readability**: keep in mind that at different browser widths longer lines will wrap and this can hurt readability. By including line breaks you can make the example more readable at different browser widths. For example, consider an example like this:
 
 ```
 <img class="fit-picture" src="/media/examples/Grapefruit_Slice--332x332.jpg" alt="Grapefruit slice atop a pile of other slices"/>
@@ -236,7 +235,7 @@ For example, here's an example for the `<button>` element:
 
 This includes 5 different button elements. It's too long. The example should include a single element with some common attributes.
 
-Try out your example with `npm start`. Can you immediately see the point of the example, or is the element buried in a wall of source?
+Try out your example with `yarn start`. Can you immediately see the point of the example, or is the element buried in a wall of source?
 
 #### Use good practices
 
@@ -331,7 +330,7 @@ To see this in action, see the example for [`<wbr>`](https://interactive-example
 
 ### Fonts
 
-Because the editor uses Shadow DOM to isolate the example, you can't use `@font-face` to include extra fonts in your example. We've included a number of extra fonts in the [shadow-fonts.css](https://github.com/mdn/interactive-examples/blob/master/css/editor-libs/shadow-fonts.css) file, and you can use these with a normal `font-family` declaration:
+Because the editor uses Shadow DOM to isolate the example, you can't use `@font-face` to include extra fonts in your example. We've included a number of extra fonts in the [shadow-fonts.css](https://github.com/mdn/interactive-examples/blob/main/css/editor-libs/shadow-fonts.css) file, and you can use these with a normal `font-family` declaration:
 
 ```
 p {
@@ -340,4 +339,3 @@ p {
 ```
 
 If you need to include some additional fonts, add them to your pull request and update the "shadow-fonts.css" file to include them.
-

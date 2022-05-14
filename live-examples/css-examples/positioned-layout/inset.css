@@ -1,0 +1,15 @@
+.example-container {
+    border: .75em solid;
+    padding: .75em;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+}
+
+#example-element {
+    background-color: #ff7100;
+    border: 3px solid #ff0000;
+    position: absolute;
+    inset: 0;
+}

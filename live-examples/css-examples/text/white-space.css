@@ -3,7 +3,7 @@
 }
 
 #example-element p {
-  background-color: #eee;
+  border: 1px solid #c5c5c5;
   padding: .75rem;
   text-align: left;
 }

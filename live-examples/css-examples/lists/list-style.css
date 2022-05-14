@@ -4,19 +4,12 @@
 
 #example-element {
     width: 100%;
+    background: #f1f8ff30;
 }
 
 .output section {
     text-align: left;
     flex-direction: column;
-}
-
-.output section li {
-    background: #f1f8ff;
-}
-
-.output section ul.unhighlighted >li {
-    background: white;
 }
 
 .output hr {
@@ -26,7 +19,7 @@
 }
 
 .output .note {
-    font-size: .8rem; */
+    font-size: .8rem;
 }
 
 @counter-style space-counter {

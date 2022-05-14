@@ -1,0 +1,11 @@
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 3px;
+}
+
+dd:nth-of-type(even) {
+    border: 2px solid orange;
+}

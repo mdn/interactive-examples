@@ -41,7 +41,7 @@ Next up, you need to fork and clone the repo to be able to contribute to it. You
 Finally, change into the new directory created by the clone and run the following command:
 
 ```
-npm install
+yarn install
 ```
 
 This will ensure that you have all the required development modules installed to build and test your contributions. You are now ready to contribute.
@@ -59,13 +59,13 @@ Once you've written an example you can run a local server to try it out.
 From your command line run:
 
 ```
-npm run build
+yarn run build
 ```
 
 Once this completes run:
 
 ```
-npm start
+yarn start
 ```
 
 This should give you some output including lines like:
@@ -83,7 +83,14 @@ Point your browser to either of those URLs, then click on the `pages` link. In t
 -   JavaScript examples are under `js`
 -   HTML examples are under `tabbed`
 
-Find your example and try it out. Once you're satisfied, [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
+Find your example and try it out.
+
+> **Note** On Linux, you might also run the automatic tests used by our continuous integration system.
+>  ```
+>  yarn test
+>  ```
+
+Once you're satisfied, the final step is to [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
 
 ## Publishing
 
@@ -96,6 +103,28 @@ After your pull request is reviewed and merged, you can publish your example on 
 ```
 
 where `TYPE` is the kind of example (such as `js`, `css`, or `tabbed`) and `FILENAME` is the name of the file that contains the example (like `margin.html` or `date-constructor.html`).
+
+### Short or tall examples
+
+For HTML and JS examples, there are three different possible heights for the editor: short, standard, and tall. If your example is short or tall you need to pass an extra parameter to `EmbedInteractiveExample`, like this:
+
+```
+{{EmbedInteractiveExample("pages/js/reflect-deleteproperty.html", "taller")}}
+```
+
+or
+
+```
+{{EmbedInteractiveExample("pages/js/string-length.html", "shorter")}}
+```
+
+How do you know if your example is short or tall?
+
+-   for HTML examples, this is a thing you set explicitly, by supplying a CSS class in the example source. See [Changing the editor height](CONTRIBUTING-HTML.md#changing-the-editor-height).
+-   for JS examples, short or tall editors are selected automatically for you:
+    -   Examples less than 7 lines long get the short editor, so you should provide the `"shorter"` argument to `EmbedInteractiveExample`
+    -   Examples 7-12 lines inclusive get the standard editor, so you should not provide any extra argument to `EmbedInteractiveExample`
+    -   Examples 13 or more lines long get the tall editor, so you should provide the `"taller"` argument to `EmbedInteractiveExample`
 
 ## Thank you!
 

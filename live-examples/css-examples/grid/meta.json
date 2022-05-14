@@ -56,25 +56,11 @@
             "title": "CSS Demo: grid-column-end",
             "type": "css"
         },
-        "gridColumnGap": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-column-gap.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-column-gap.html",
-            "fileName": "grid-column-gap.html",
-            "title": "CSS Demo: grid-column-gap",
-            "type": "css"
-        },
         "gridColumnStart": {
             "cssExampleSrc": "./live-examples/css-examples/grid/grid-column-start.css",
             "exampleCode": "./live-examples/css-examples/grid/grid-column-start.html",
             "fileName": "grid-column-start.html",
             "title": "CSS Demo: grid-column-start",
-            "type": "css"
-        },
-        "gridGap": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-gap.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-gap.html",
-            "fileName": "grid-gap.html",
-            "title": "CSS Demo: grid-gap",
             "type": "css"
         },
         "gridRow": {
@@ -89,13 +75,6 @@
             "exampleCode": "./live-examples/css-examples/grid/grid-row-end.html",
             "fileName": "grid-row-end.html",
             "title": "CSS Demo: grid-row-end",
-            "type": "css"
-        },
-        "gridRowGap": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-row-gap.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-row-gap.html",
-            "fileName": "grid-row-gap.html",
-            "title": "CSS Demo: grid-row-gap",
             "type": "css"
         },
         "gridRowStart": {

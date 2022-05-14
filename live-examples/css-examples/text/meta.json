@@ -21,11 +21,18 @@
             "title": "CSS Demo: letter-spacing",
             "type": "css"
         },
-        "overflow-wrap": {
+        "overflowWrap": {
             "cssExampleSrc": "./live-examples/css-examples/text/overflow-wrap.css",
             "exampleCode": "./live-examples/css-examples/text/overflow-wrap.html",
             "fileName": "overflow-wrap.html",
             "title": "CSS Demo: overflow-wrap",
+            "type": "css"
+        },
+        "rubyPosition": {
+            "cssExampleSrc": "./live-examples/css-examples/text/ruby-position.css",
+            "exampleCode": "./live-examples/css-examples/text/ruby-position.html",
+            "fileName": "ruby-position.html",
+            "title": "CSS Demo: ruby-position",
             "type": "css"
         },
         "tabSize": {
@@ -70,14 +77,21 @@
             "title": "CSS Demo: text-transform",
             "type": "css"
         },
-        "white-space": {
+        "userSelect": {
+            "cssExampleSrc": "./live-examples/css-examples/text/user-select.css",
+            "exampleCode": "./live-examples/css-examples/text/user-select.html",
+            "fileName": "user-select.html",
+            "title": "CSS Demo: user-select",
+            "type": "css"
+        },
+        "whiteSpace": {
             "cssExampleSrc": "./live-examples/css-examples/text/white-space.css",
             "exampleCode": "./live-examples/css-examples/text/white-space.html",
             "fileName": "white-space.html",
             "title": "CSS Demo: white-space",
             "type": "css"
         },
-        "word-break": {
+        "wordBreak": {
             "cssExampleSrc": "./live-examples/css-examples/text/word-break.css",
             "exampleCode": "./live-examples/css-examples/text/word-break.html",
             "fileName": "word-break.html",

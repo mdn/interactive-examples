@@ -217,6 +217,34 @@
             "title": "CSS Demo: border-top-right-radius",
             "type": "css"
         },
+        "borderEndEndRadius": {
+            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-end-end-radius.html",
+            "fileName": "border-end-end-radius.html",
+            "title": "CSS Demo: border-end-end-radius",
+            "type": "css"
+        },
+        "borderEndStartRadius": {
+            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-end-start-radius.html",
+            "fileName": "border-end-start-radius.html",
+            "title": "CSS Demo: border-end-start-radius",
+            "type": "css"
+        },
+        "borderStartEndRadius": {
+            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-start-end-radius.html",
+            "fileName": "border-start-end-radius.html",
+            "title": "CSS Demo: border-start-end-radius",
+            "type": "css"
+        },
+        "borderStartStartRadius": {
+            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-start-start-radius.html",
+            "fileName": "border-start-start-radius.html",
+            "title": "CSS Demo: border-start-start-radius",
+            "type": "css"
+        },
         "borderRadius": {
             "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
             "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-radius.html",
