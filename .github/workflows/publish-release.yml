@@ -7,7 +7,6 @@ on:
 
 jobs:
     publish-release:
-        runs-on: ubuntu-latest
         uses: mdn/workflows/.github/workflows/publish-release.yml@main
         with:
             npm-publish: false
