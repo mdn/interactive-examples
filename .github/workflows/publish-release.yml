@@ -9,7 +9,7 @@ jobs:
     publish-release:
         uses: mdn/workflows/.github/workflows/publish-release.yml@main
         with:
-            npm-publish: false
+            npm-publish: ${{ false }}
         secrets:
             GH_TOKEN: ${{ secrets.GH_TOKEN }}
     deploy:
