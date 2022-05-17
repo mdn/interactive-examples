@@ -7,6 +7,13 @@
             "title": "CSS Demo: direction",
             "type": "css"
         },
+        "textCombineUpright": {
+            "cssExampleSrc": "./live-examples/css-examples/writing-modes/text-combine-upright.css",
+            "exampleCode": "./live-examples/css-examples/writing-modes/text-combine-upright.html",
+            "fileName": "text-combine-upright.html",
+            "title": "CSS Demo: text-combine-upright",
+            "type": "css"
+        },
         "textOrientation": {
             "exampleCode": "./live-examples/css-examples/writing-modes/text-orientation.html",
             "fileName": "text-orientation.html",
