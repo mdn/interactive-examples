@@ -1,10 +1,13 @@
-const event1 = new Date('July 1, 1999');
-const event2 = new Date();
-event2.setTime(event1.getTime());
+const launchDate = new Date('July 1, 1999, 12:00:00');
+const futureDate = new Date();
+futureDate.setTime(launchDate.getTime());
 
-console.log(event1);
-// expected output: Thu Jul 01 1999 00:00:00 GMT+0200 (CEST)
+console.log(futureDate);
+// expected output: Thu Jul 01 1999 12:00:00 GMT+0200 (CEST)
 
-console.log(event2);
-// expected output: Thu Jul 01 1999 00:00:00 GMT+0200 (CEST)
+const fiveMinutesInMillis = 5 * 60 * 1000;
+futureDate.setTime(futureDate.getTime() + fiveMinutesInMillis);
+
+console.log(futureDate);
+// expected output: Thu Jul 01 1999 12:05:00 GMT+0200 (CEST)
 // (note: your timezone may vary)
