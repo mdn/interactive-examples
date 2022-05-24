@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://github.com/mdn/interactive-examples/compare/v1.0.0...v1.0.1) (2022-05-19)
+
+
+### Bug Fixes
+
+* Update Date.setTime() ([#2123](https://github.com/mdn/interactive-examples/issues/2123)) ([0b56481](https://github.com/mdn/interactive-examples/commit/0b5648128f6a94e96fe964a746b320922deb4b8e))
+
 ## 1.0.0 (2022-05-15)
 
 
