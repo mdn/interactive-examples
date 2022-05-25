@@ -31,7 +31,7 @@
         "mozilla"
     ],
     "devDependencies": {
-        "@babel/core": "^7.18.0",
+        "@babel/core": "^7.18.2",
         "@babel/eslint-parser": "^7.18.2",
         "ajv": "8.11.0",
         "chokidar-cli": "3.0.0",
