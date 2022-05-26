@@ -10,6 +10,7 @@ jobs:
         uses: mdn/workflows/.github/workflows/publish-release.yml@main
         with:
             npm-publish: ${{ false }}
+            target-repo: "mdn/interactive-examples"
         secrets:
             GH_TOKEN: ${{ secrets.GH_TOKEN }}
     deploy:
