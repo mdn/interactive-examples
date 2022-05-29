@@ -1,11 +1,11 @@
 (module
   (import "console" "log" (func $log (param i32)))
+  
+  ;; import a global variable from js
+  (global $from_js (import "env" "from_js") i32)
 
   ;; create a global variable
   (global $from_wasm i32 (i32.const 10))
-
-  ;; import a global variable from js
-  (global $from_js (import "env" "from_js") i32)
 
   (func $main
     ;; load both global variables onto the stack
