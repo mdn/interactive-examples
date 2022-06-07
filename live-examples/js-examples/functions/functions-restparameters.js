@@ -1,7 +1,9 @@
 function sum(...theArgs) {
-  return theArgs.reduce((previous, current) => {
-    return previous + current;
-  });
+  let total = 0;
+  for (const arg of theArgs) {
+    total += arg;
+  }
+  return total;
 }
 
 console.log(sum(1, 2, 3));
