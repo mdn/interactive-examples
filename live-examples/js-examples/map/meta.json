@@ -1,5 +1,11 @@
 {
     "pages": {
+        "map": {
+            "exampleCode":"./live-examples/js-examples/map/map.js",
+            "fileName": "map.html",
+            "title":"JavaScript Demo: Map",
+            "type":"js"
+        },
         "mapPrototype@@Iterator": {
             "exampleCode": "./live-examples/js-examples/map/map-prototype-@@iterator.js",
             "fileName": "map-prototype-@@iterator.html",

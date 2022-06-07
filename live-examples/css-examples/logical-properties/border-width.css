@@ -1,5 +1,6 @@
 #example-element {
     background-color: palegreen;
+    color: #000;
     border: 0 solid crimson;
     padding: .75em;
     width: 80%;

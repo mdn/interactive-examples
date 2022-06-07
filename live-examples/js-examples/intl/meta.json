@@ -42,6 +42,12 @@
             "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.formatRangeToParts()",
             "type": "js"
         },
+        "intlDateTimeFormatPrototypeFormatToParts": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat-prototype-formattoparts.js",
+            "fileName": "intl-datetimeformat-prototype-formattoparts.html",
+            "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.formatToParts()",
+            "type": "js"
+        },
         "intlDateTimeFormatPrototypeResolvedOptions": {
             "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat-prototype-resolvedoptions.js",
             "fileName": "intl-datetimeformat-prototype-resolvedoptions.html",
@@ -78,10 +84,16 @@
             "title": "JavaScript Demo: Intl.ListFormat",
             "type": "js"
         },
-        "intlList​Format​PrototypeFormatToParts": {
-            "exampleCode": "./live-examples/js-examples/intl/intl-list​format​-prototype-formattoparts.js",
-            "fileName": "intl-list​format​-prototype-formattoparts.html",
-            "title": "JavaScript Demo: Intl.list​format​.prototype.formatToParts()",
+        "intlListFormatPrototypeFormatToParts": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-listformat-prototype-formattoparts.js",
+            "fileName": "intl-listformat-prototype-formattoparts.html",
+            "title": "JavaScript Demo: Intl.listformat.prototype.formatToParts()",
+            "type": "js"
+        },
+        "intlListFormatPrototypeResolvedOptions": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-listformat-prototype-resolvedoptions.js",
+            "fileName": "intl-listformat-prototype-resolvedoptions.html",
+            "title": "JavaScript Demo: Intl.ListFormat.prototype.resolvedOptions()",
             "type": "js"
         },
         "intlLocale": {
@@ -114,6 +126,12 @@
             "title": "JavaScript Demo: Intl.NumberFormat.prototype.format",
             "type": "js"
         },
+        "intlNumberFormatPrototypeFormatToParts": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-numberformat-prototype-formattoparts.js",
+            "fileName": "intl-numberformat-prototype-formattoparts.html",
+            "title": "JavaScript Demo: Intl.NumberFormat.prototype.formatToParts",
+            "type": "js"
+        },
         "intlNumberFormatPrototypeResolvedOptions": {
             "exampleCode": "./live-examples/js-examples/intl/intl-numberformat-prototype-resolvedoptions.js",
             "fileName": "intl-numberformat-prototype-resolvedoptions.html",
@@ -136,6 +154,12 @@
             "exampleCode": "./live-examples/js-examples/intl/intl-prototype-@@tostringtag.js",
             "fileName": "intl-prototype-tostringtag.html",
             "title": "JavaScript Demo: Intl.prototype.toString()",
+            "type": "js"
+        },
+        "intlPluralRulesSupportedLocalesOf": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-supportedlocalesof.js",
+            "fileName": "intl-pluralrules-prototype-supportedlocalesof.html",
+            "title": "JavaScript Demo: Intl.PluralRules.prototype.supportedLocalesOf",
             "type": "js"
         },
         "intlRelativeTimeFormat": {
@@ -166,6 +190,48 @@
             "exampleCode": "./live-examples/js-examples/intl/intl-relativetimeformat-supportedlocalesof.js",
             "fileName": "intl-relativetimeformat-prototype-supportedlocalesof.html",
             "title": "JavaScript Demo: Intl.RelativeTimeFormat.prototype.supportedLocalesOf",
+            "type": "js"
+        },
+        "intlSegmenter": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-segmenter.js",
+            "fileName": "intl-segmenter.html",
+            "title": "JavaScript Demo: Intl.Segmenter",
+            "type": "js"
+        },
+        "intlSegmenterPrototypeResolvedOptions": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-segmenter-prototype-resolvedoptions.js",
+            "fileName": "intl-segmenter-prototype-resolvedoptions.html",
+            "title": "JavaScript Demo: Intl.Segmenter.prototype.resolvedOptions",
+            "type": "js"
+        },
+        "intlSegmenterPrototypeSegment": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-segmenter-prototype-segment.js",
+            "fileName": "intl-segmenter-prototype-segment.html",
+            "title": "JavaScript Demo: Intl.Segmenter.prototype.segment",
+            "type": "js"
+        },
+        "intlSegmenterSupportedLocalesOf": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-segmenter-supportedlocalesof.js",
+            "fileName": "intl-segmenter-supportedlocalesof.html",
+            "title": "JavaScript Demo: Intl.Segmenter.supportedLocalesOf",
+            "type": "js"
+        },
+        "intlSegmentsPrototypeIterator": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-segments-prototype-@@iterator.js",
+            "fileName": "intl-segments-prototype-@@iterator.html",
+            "title": "JavaScript Demo: Intl.Segments.prototype.@@iterator",
+            "type": "js"
+        },
+        "intlSegmentsPrototypeContaining": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-segments-prototype-containing.js",
+            "fileName": "intl-segments-prototype-containing.html",
+            "title": "JavaScript Demo: Intl.Segments.prototype.containing",
+            "type": "js"
+        },
+        "intlSupportedValuesOf": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-supportedvaluesof.js",
+            "fileName": "intl-supportedvaluesof.html",
+            "title": "JavaScript Demo: Intl.supportedValuesOf",
             "type": "js"
         }
     }

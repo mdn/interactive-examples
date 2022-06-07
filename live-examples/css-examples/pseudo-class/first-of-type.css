@@ -1,0 +1,11 @@
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 3px;
+}
+
+dd:first-of-type {
+    border: 2px solid orange;
+}

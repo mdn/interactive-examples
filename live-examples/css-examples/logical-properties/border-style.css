@@ -1,5 +1,7 @@
 #example-element {
     background-color: #eee;
+    color: #000;
+    border-color: #a52a2a;
     border: .75em solid;
     padding: .75em;
     width: 80%;

@@ -14,7 +14,7 @@ In this section we'll walk through creating an example for the [`<td>`](https://
 
 ## Example structure
 
-HTML examples are all stored under "./live-examples/html-examples". Under there, they are grouped into directories according the the categorization in the [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element):
+HTML examples are all stored under "./live-examples/html-examples". Under there, they are grouped into directories according to the categorization in the [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element):
 
 -   main-root
 -   document-metadata
@@ -308,6 +308,22 @@ Usage is as follows. When adding the meta information for your example, set the 
 }
 ```
 
+### Changing tab opened by default
+
+When an HTML interactive example is loaded, the HTML tab will be opened by default. We can change the default open tab to either `css` or `js`, by setting that value in the `defaultTab` property. For example:
+
+```
+"before": {
+    "exampleCode": "./live-examples/css-examples/pseudo-element/before.html",
+    "cssExampleSrc": "./live-examples/css-examples/pseudo-element/before.css",
+    "fileName": "pseudo-element-before.html",
+    "title": "HTML Demo: ::before",
+    "type": "tabbed",
+    "defaultTab": "css",
+    "height": "tabbed-standard"
+}
+```
+
 ### Encoding HTML entities
 
 Sometimes your example might want to include [HTML entities](https://developer.mozilla.org/en-US/docs/Glossary/Entity). For example, if you are referring to an HTML tag in the example itself, you might want the example to include something like:
@@ -330,7 +346,7 @@ To see this in action, see the example for [`<wbr>`](https://interactive-example
 
 ### Fonts
 
-Because the editor uses Shadow DOM to isolate the example, you can't use `@font-face` to include extra fonts in your example. We've included a number of extra fonts in the [shadow-fonts.css](https://github.com/mdn/interactive-examples/blob/master/css/editor-libs/shadow-fonts.css) file, and you can use these with a normal `font-family` declaration:
+Because the editor uses Shadow DOM to isolate the example, you can't use `@font-face` to include extra fonts in your example. We've included a number of extra fonts in the [shadow-fonts.css](https://github.com/mdn/interactive-examples/blob/main/css/editor-libs/shadow-fonts.css) file, and you can use these with a normal `font-family` declaration:
 
 ```
 p {

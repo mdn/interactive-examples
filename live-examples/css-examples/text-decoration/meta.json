@@ -56,6 +56,13 @@
             "title": "CSS Demo: text-emphasis-color",
             "type": "css"
         },
+        "textEmphasisPosition": {
+            "cssExampleSrc": "./live-examples/css-examples/text-decoration/text-emphasis-position.css",
+            "exampleCode": "./live-examples/css-examples/text-decoration/text-emphasis-position.html",
+            "fileName": "text-emphasis-position.html",
+            "title": "CSS Demo: text-emphasis-position",
+            "type": "css"
+        },
         "textEmphasisStyle": {
             "cssExampleSrc": "./live-examples/css-examples/text-decoration/text-emphasis-style.css",
             "exampleCode": "./live-examples/css-examples/text-decoration/text-emphasis-style.html",

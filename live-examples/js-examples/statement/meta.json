@@ -72,6 +72,12 @@
             "title": "JavaScript Demo: Statement - For",
             "type": "js"
         },
+        "statementForAwaitOf": {
+            "exampleCode": "./live-examples/js-examples/statement/statement-forawaitof.js",
+            "fileName": "statement-forawaitof.html",
+            "title": "JavaScript Demo: Statement - For Await...Of",
+            "type": "js"
+        },
         "statementForIn": {
             "exampleCode": "./live-examples/js-examples/statement/statement-forin.js",
             "fileName": "statement-forin.html",
