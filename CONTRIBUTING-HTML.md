@@ -310,7 +310,7 @@ Usage is as follows. When adding the meta information for your example, set the 
 
 ### Changing tab opened by default
 
-When HTML interactive example is loaded, HTML tab will be opened by default. We can change it to either `css` or `js`, by setting that value in `defaultTab` property. For example:
+When an HTML interactive example is loaded, the HTML tab will be opened by default. We can change the default open tab to either `css` or `js`, by setting that value in the `defaultTab` property. For example:
 
 ```
 "before": {
