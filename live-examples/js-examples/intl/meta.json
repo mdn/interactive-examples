@@ -84,6 +84,12 @@
             "title": "JavaScript Demo: Intl.ListFormat",
             "type": "js"
         },
+        "intlListFormatPrototypeFormatToParts": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-listformat-prototype-formattoparts.js",
+            "fileName": "intl-listformat-prototype-formattoparts.html",
+            "title": "JavaScript Demo: Intl.listformat.prototype.formatToParts()",
+            "type": "js"
+        },
         "intlListFormatPrototypeResolvedOptions": {
             "exampleCode": "./live-examples/js-examples/intl/intl-listformat-prototype-resolvedoptions.js",
             "fileName": "intl-listformat-prototype-resolvedoptions.html",
