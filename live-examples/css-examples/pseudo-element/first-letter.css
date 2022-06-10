@@ -1,0 +1,5 @@
+p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: brown;
+}

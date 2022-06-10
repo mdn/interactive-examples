@@ -17,6 +17,51 @@
             "type": "tabbed",
             "defaultTab": "css",
             "height": "tabbed-standard"
+        },
+        "fileSelectorButton": {
+            "exampleCode": "./live-examples/css-examples/pseudo-element/file-selector-button.html",
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/file-selector-button.css",
+            "fileName": "pseudo-element-file-selector-button.html",
+            "title": "HTML Demo: ::file-selector-button",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "firstLetter": {
+            "exampleCode": "./live-examples/css-examples/pseudo-element/first-letter.html",
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/first-letter.css",
+            "fileName": "pseudo-element-first-letter.html",
+            "title": "HTML Demo: ::first-letter",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "firstLine": {
+            "exampleCode": "./live-examples/css-examples/pseudo-element/first-line.html",
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/first-line.css",
+            "fileName": "pseudo-element-first-line.html",
+            "title": "HTML Demo: ::first-line",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "placeholder": {
+            "exampleCode": "./live-examples/css-examples/pseudo-element/placeholder.html",
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/placeholder.css",
+            "fileName": "pseudo-element-placeholder.html",
+            "title": "HTML Demo: ::placeholder",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "selection": {
+            "exampleCode": "./live-examples/css-examples/pseudo-element/selection.html",
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/selection.css",
+            "fileName": "pseudo-element-selection.html",
+            "title": "HTML Demo: ::selection",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
         }
     }
 }
