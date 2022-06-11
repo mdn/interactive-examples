@@ -1,0 +1,13 @@
+<template id="shadowStructure">
+    <p>
+        This content is placed in Shadow DOM. The next paragraph normally couldn't be reached from outside, but global attribute part allows that to happen.
+    </p>
+    <p part="paragraph">
+        This paragraph is exported, so it can be reached by selectors living outside of the Shadow DOM.
+    </p>
+    <p class="not-exported-paragraph">
+        This paragraph is not exported and cannot be styled by any outside rules.
+    </p>
+</template>
+
+<div id="shadowHost"></div>

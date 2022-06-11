@@ -63,6 +63,17 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "part": {
+            "exampleCode": "./live-examples/css-examples/pseudo-element/part.html",
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/part.css",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-element/part.js",
+            "fileName": "pseudo-element-part.html",
+            "title": "HTML Demo: ::part",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "tabs": "html,css,js",
+            "height": "tabbed-standard"
+        },
         "placeholder": {
             "exampleCode": "./live-examples/css-examples/pseudo-element/placeholder.html",
             "cssExampleSrc": "./live-examples/css-examples/pseudo-element/placeholder.css",
@@ -80,6 +91,16 @@
             "type": "tabbed",
             "defaultTab": "css",
             "height": "tabbed-shorter"
+        },
+        "slotted": {
+            "exampleCode": "./live-examples/css-examples/pseudo-element/slotted.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-element/slotted.js",
+            "fileName": "pseudo-element-slotted.html",
+            "title": "HTML Demo: ::slotted",
+            "type": "tabbed",
+            "defaultTab": "html",
+            "tabs": "html,js",
+            "height": "tabbed-standard"
         }
     }
 }
