@@ -84,6 +84,13 @@
             "title": "CSS Demo: font-variant",
             "type": "css"
         },
+        "fontVariantEastAsian": {
+            "cssExampleSrc": "./live-examples/css-examples/fonts/font-variant-east-asian.css",
+            "exampleCode": "./live-examples/css-examples/fonts/font-variant-east-asian.html",
+            "fileName": "font-variant-east-asian.html",
+            "title": "CSS Demo: font-variant-east-asian",
+            "type": "css"
+        },
         "fontVariantCaps": {
             "cssExampleSrc": "./live-examples/css-examples/fonts/font-variant-caps.css",
             "exampleCode": "./live-examples/css-examples/fonts/font-variant-caps.html",
