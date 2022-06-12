@@ -1,0 +1,14 @@
+.joinBtn {
+    width: 10em;
+    height: 5ex;
+    background-color: bisque;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    font-weight: bold;
+    color: chocolate;
+    cursor: pointer;
+}
+
+.joinBtn:hover {
+    background-color: #ffd6a5;
+}
