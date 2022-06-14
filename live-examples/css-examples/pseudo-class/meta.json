@@ -71,6 +71,24 @@
             "type": "tabbed",
             "defaultTab": "css",
             "height": "tabbed-shorter"
+        },
+        "onlyChild": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/only-child.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/only-child.html",
+            "fileName": "pseudo-class-only-child.html",
+            "title": "CSS Demo: :only-child",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "onlyOfType": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/only-of-type.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/only-of-type.html",
+            "fileName": "pseudo-class-only-of-type.html",
+            "title": "CSS Demo: :only-of-type",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
         }
     }
 }
