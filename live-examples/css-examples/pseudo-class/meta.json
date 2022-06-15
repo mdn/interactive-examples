@@ -162,6 +162,26 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "functionHost": {
+            "exampleCode": "./live-examples/css-examples/pseudo-class/function-host.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/function-host.js",
+            "fileName": "pseudo-class-function-host.html",
+            "title": "CSS Demo: :host()",
+            "type": "tabbed",
+            "defaultTab": "html",
+            "tabs": "html,js",
+            "height": "tabbed-standard"
+        },
+        "host": {
+            "exampleCode": "./live-examples/css-examples/pseudo-class/host.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/host.js",
+            "fileName": "pseudo-class-host.html",
+            "title": "CSS Demo: :host",
+            "type": "tabbed",
+            "defaultTab": "html",
+            "tabs": "html,js",
+            "height": "tabbed-shorter"
+        },
         "lastChild": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/last-child.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/last-child.html",

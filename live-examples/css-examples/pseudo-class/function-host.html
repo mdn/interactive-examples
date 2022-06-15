@@ -1,0 +1,16 @@
+<template id="shadowStructure">
+  <style>
+    :host(div) {
+      background-color: bisque;
+    }
+
+    :host(p) {
+      text-decoration: underline;
+    }
+  </style>
+  <p>
+    Bisque background was applied to Shadow Host, because its tag name is a div. Underline was not applied, because Shadow Host is not a p.
+  </p>
+</template>
+
+<div id="shadowHost"></div>
