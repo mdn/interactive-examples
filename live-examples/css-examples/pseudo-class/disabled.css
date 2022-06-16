@@ -1,0 +1,9 @@
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+*:disabled {
+    background-color: indianred;
+    opacity: 1;
+}
