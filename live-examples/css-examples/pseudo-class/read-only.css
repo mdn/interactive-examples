@@ -1,0 +1,10 @@
+label,
+input[type='submit'] {
+    display: block;
+    margin-top: 1em;
+}
+
+*:read-only {
+    font-weight: bold;
+    color: indigo;
+}
