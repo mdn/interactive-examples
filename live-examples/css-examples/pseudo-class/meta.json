@@ -1,5 +1,25 @@
 {
     "pages": {
+        "defined": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/defined.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/defined.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/defined.js",
+            "fileName": "pseudo-class-defined.html",
+            "title": "CSS Demo: :defined",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "tabs": "html,css,js",
+            "height": "tabbed-shorter"
+        },
+        "empty": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/empty.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/empty.html",
+            "fileName": "pseudo-class-empty.html",
+            "title": "CSS Demo: :empty",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
         "firstChild": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/first-child.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/first-child.html",
@@ -14,6 +34,15 @@
             "exampleCode": "./live-examples/css-examples/pseudo-class/first-of-type.html",
             "fileName": "pseudo-class-first-of-type.html",
             "title": "CSS Demo: :first-of-type",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "functionLang": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/function-lang.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/function-lang.html",
+            "fileName": "pseudo-class-function-lang.html",
+            "title": "CSS Demo: :lang()",
             "type": "tabbed",
             "defaultTab": "css",
             "height": "tabbed-shorter"
