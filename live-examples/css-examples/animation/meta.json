@@ -70,9 +70,9 @@
             "type": "css"
         },
         "keyframes": {
-            "cssExampleSrc": "./live-examples/css-examples/animation/keyframes.css",
-            "exampleCode": "./live-examples/css-examples/animation/keyframes.html",
-            "fileName": "keyframes.html",
+            "cssExampleSrc": "./live-examples/css-examples/animation/at-rule-keyframes.css",
+            "exampleCode": "./live-examples/css-examples/animation/at-rule-keyframes.html",
+            "fileName": "at-rule-keyframes.html",
             "title": "CSS Demo: @keyframes",
             "type": "tabbed",
             "defaultTab": "css",
