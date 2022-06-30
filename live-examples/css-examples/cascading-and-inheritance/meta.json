@@ -8,8 +8,8 @@
             "type": "css"
         },
         "layer": {
-            "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/layer.css",
-            "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/layer.html",
+            "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/at-rule-layer.css",
+            "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/at-rule-layer.html",
             "fileName": "at-rule-layer.html",
             "title": "CSS Demo: @layer",
             "type": "tabbed",
