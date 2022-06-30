@@ -45,17 +45,6 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
-        "indeterminate": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/indeterminate.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/indeterminate.html",
-            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/indeterminate.js",
-            "fileName": "pseudo-class-indeterminate.html",
-            "title": "CSS Demo: :indeterminate",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "tabs": "html,css,js",
-            "height": "tabbed-shorter"
-        },
         "lastChild": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/last-child.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/last-child.html",
