@@ -1,5 +1,14 @@
 {
     "pages": {
+        "anyLink": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/any-link.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/any-link.html",
+            "fileName": "pseudo-class-any-link.html",
+            "title": "CSS Demo: :any-link",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
         "firstChild": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/first-child.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/first-child.html",
@@ -36,6 +45,15 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "link": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/link.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/link.html",
+            "fileName": "pseudo-class-link.html",
+            "title": "CSS Demo: :link",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
         "nthChild": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/nth-child.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/nth-child.html",
@@ -68,6 +86,15 @@
             "exampleCode": "./live-examples/css-examples/pseudo-class/nth-of-type.html",
             "fileName": "pseudo-class-nth-of-type.html",
             "title": "CSS Demo: :nth-of-type",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "visited": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/visited.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/visited.html",
+            "fileName": "pseudo-class-visited.html",
+            "title": "CSS Demo: :visited",
             "type": "tabbed",
             "defaultTab": "css",
             "height": "tabbed-shorter"
