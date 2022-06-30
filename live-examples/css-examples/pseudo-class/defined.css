@@ -1,9 +1,0 @@
-.all-elements > * {
-    display: block;
-    margin: 20px 0;
-}
-
-.all-elements > *:defined {
-    outline: 2px solid deeppink;
-    outline-offset: 2px;
-}

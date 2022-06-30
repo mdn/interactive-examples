@@ -1,16 +1,5 @@
 {
     "pages": {
-        "defined": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/defined.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/defined.html",
-            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/defined.js",
-            "fileName": "pseudo-class-defined.html",
-            "title": "CSS Demo: :defined",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "tabs": "html,css,js",
-            "height": "tabbed-shorter"
-        },
         "empty": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/empty.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/empty.html",
