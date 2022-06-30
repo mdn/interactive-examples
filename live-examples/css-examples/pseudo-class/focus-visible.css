@@ -1,3 +1,8 @@
+label {
+    display: block;
+    margin-top: 1em;
+}
+
 input:focus-visible {
     outline: 2px solid crimson;
     border-radius: 3px;
