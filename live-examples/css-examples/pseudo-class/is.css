@@ -3,11 +3,11 @@ ol {
     color: darkblue;
 }
 
+:is(ol, ul, menu:unsupported) :is(ol, ul) {
+    color: green;
+}
+
 :is(ol, ul) :is(ol, ul) ol {
     list-style-type: lower-greek;
     color: chocolate;
-}
-
-:is(ol, ul, menu:unsupported) :is(ol, ul) {
-    color: green;
 }
