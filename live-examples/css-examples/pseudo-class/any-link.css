@@ -1,0 +1,8 @@
+p {
+    font-weight: bold;
+}
+
+a:any-link {
+    color: forestgreen;
+    text-decoration-color: hotpink;
+}

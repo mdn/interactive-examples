@@ -1,0 +1,7 @@
+li:only-child {
+    color: fuchsia;
+}
+
+b:only-child {
+    text-decoration: underline;
+}
