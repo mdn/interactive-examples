@@ -1,18 +1,17 @@
-@keyframes bounce {
+@keyframes fancy-background {
     from {
-        margin-top: 0;
-        background-color: #1766aa;
+        background-color: darkred;
     }
     to {
-        margin-top: 40%;
-        background-color: #078372;
+        background-color: orange;
     }
 }
 
-.animating {
-    animation: bounce alternate 1s infinite;
-    border-radius: 50%;
+.fancy-box {
+    animation: fancy-background alternate 1s infinite;
     border: 5px solid #333;
     height: 150px;
     width: 150px;
+    color: white;
+    cursor: pointer;
 }
