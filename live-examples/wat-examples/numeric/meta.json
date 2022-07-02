@@ -84,6 +84,55 @@
             "title": "Wat Demo: rem",
             "type": "wat"
         },
+        "promote": {
+            "watExampleCode": "./live-examples/wat-examples/numeric/promote.wat",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
+            "fileName": "promote.html",
+            "title": "Wat Demo: promote",
+            "type": "wat"
+        },
+        "demote": {
+            "watExampleCode": "./live-examples/wat-examples/numeric/demote.wat",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
+            "fileName": "demote.html",
+            "title": "Wat Demo: demote",
+            "type": "wat"
+        },
+        "trunc_float_to_int": {
+            "watExampleCode": "./live-examples/wat-examples/numeric/trunc_float_to_int.wat",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
+            "fileName": "trunc_float_to_int.html",
+            "title": "Wat Demo: trunc_float_to_int",
+            "type": "wat"
+        },
+        "convert": {
+            "watExampleCode": "./live-examples/wat-examples/numeric/convert.wat",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
+            "fileName": "convert.html",
+            "title": "Wat Demo: convert",
+            "type": "wat"
+        },
+        "reinterpret": {
+            "watExampleCode": "./live-examples/wat-examples/numeric/reinterpret.wat",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
+            "fileName": "reinterpret.html",
+            "title": "Wat Demo: reinterpret",
+            "type": "wat"
+        },
+        "extend": {
+            "watExampleCode": "./live-examples/wat-examples/numeric/extend.wat",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
+            "fileName": "extend.html",
+            "title": "Wat Demo: extend",
+            "type": "wat"
+        },
+        "wrap": {
+            "watExampleCode": "./live-examples/wat-examples/numeric/wrap.wat",
+            "jsExampleCode": "./live-examples/wat-examples/console.js",
+            "fileName": "wrap.html",
+            "title": "Wat Demo: wrap",
+            "type": "wat"
+        },
         "abs": {
             "watExampleCode": "./live-examples/wat-examples/numeric/abs.wat",
             "jsExampleCode": "./live-examples/wat-examples/console.js",
@@ -112,11 +161,11 @@
             "title": "Wat Demo: floor",
             "type": "wat"
         },
-        "trunc": {
-            "watExampleCode": "./live-examples/wat-examples/numeric/trunc.wat",
+        "trunc_float_to_float": {
+            "watExampleCode": "./live-examples/wat-examples/numeric/trunc_float_to_float.wat",
             "jsExampleCode": "./live-examples/wat-examples/console.js",
-            "fileName": "trunc.html",
-            "title": "Wat Demo: trunc",
+            "fileName": "trunc_float_to_float.html",
+            "title": "Wat Demo: trunc_float_to_float",
             "type": "wat"
         },
         "nearest": {

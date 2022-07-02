@@ -4,8 +4,8 @@ function monster1(disposition) {
 
 const handler1 = {
   construct(target, args) {
-    console.log('monster1 constructor called');
-    // expected output: "monster1 constructor called"
+    console.log(`Creating a ${target.name}`);
+    // expected output: "Creating a monster1"
 
     return new target(...args);
   }
