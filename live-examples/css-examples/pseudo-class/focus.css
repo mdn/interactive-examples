@@ -1,0 +1,12 @@
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+select:focus {
+    background-color: ivory;
+}
