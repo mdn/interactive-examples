@@ -18,6 +18,33 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "autofill": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/autofill.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/autofill.html",
+            "fileName": "pseudo-class-autofill.html",
+            "title": "CSS Demo: :autofill",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "checked": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/checked.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/checked.html",
+            "fileName": "pseudo-class-checked.html",
+            "title": "CSS Demo: :checked",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "default": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/default.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/default.html",
+            "fileName": "pseudo-class-default.html",
+            "title": "CSS Demo: :default",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
         "firstChild": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/first-child.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/first-child.html",
