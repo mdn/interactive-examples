@@ -34,7 +34,7 @@
             "title": "CSS Demo: :enabled",
             "type": "tabbed",
             "defaultTab": "css",
-            "height": "tabbed-shorter"
+            "height": "tabbed-standard"
         },
         "firstChild": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/first-child.css",
