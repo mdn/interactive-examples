@@ -1,4 +1,4 @@
-function isNegative(element, index, array) {
+function isNegative(element /*, index, array */) {
   return element < 0;
 }
 
