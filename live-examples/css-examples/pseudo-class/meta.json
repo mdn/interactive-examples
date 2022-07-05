@@ -187,7 +187,7 @@
             "title": "CSS Demo: :optional",
             "type": "tabbed",
             "defaultTab": "css",
-            "height": "tabbed-shorter"
+            "height": "tabbed-standard"
         },
         "outOfRange": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/out-of-range.css",
