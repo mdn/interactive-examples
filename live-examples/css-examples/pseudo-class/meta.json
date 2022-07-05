@@ -25,7 +25,7 @@
             "title": "CSS Demo: :disabled",
             "type": "tabbed",
             "defaultTab": "css",
-            "height": "tabbed-shorter"
+            "height": "tabbed-standard"
         },
         "enabled": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/enabled.css",
