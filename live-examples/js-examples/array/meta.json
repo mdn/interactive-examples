@@ -48,10 +48,22 @@
             "title": "JavaScript Demo: Array.find()",
             "type": "js"
         },
+        "arrayFindLast": {
+            "exampleCode": "./live-examples/js-examples/array/array-findlast.js",
+            "fileName": "array-findlast.html",
+            "title": "JavaScript Demo: Array.findLast()",
+            "type": "js"
+        },
         "arrayFindIndex": {
             "exampleCode": "./live-examples/js-examples/array/array-findindex.js",
             "fileName": "array-findindex.html",
             "title": "JavaScript Demo: Array.findIndex()",
+            "type": "js"
+        },
+        "arrayFindLastIndex": {
+            "exampleCode": "./live-examples/js-examples/array/array-findlastindex.js",
+            "fileName": "array-findlastindex.html",
+            "title": "JavaScript Demo: Array.findLastIndex()",
             "type": "js"
         },
         "arrayFlat": {
