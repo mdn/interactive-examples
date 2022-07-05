@@ -205,7 +205,7 @@
             "title": "CSS Demo: :required",
             "type": "tabbed",
             "defaultTab": "css",
-            "height": "tabbed-shorter"
+            "height": "tabbed-standard"
         },
         "visited": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/visited.css",
