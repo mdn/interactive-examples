@@ -4,6 +4,7 @@ label {
 }
 
 *:disabled {
-    background-color: indianred;
+    background-color: dimgrey;
+    color: linen;
     opacity: 1;
 }
