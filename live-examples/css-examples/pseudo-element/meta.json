@@ -63,6 +63,17 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "page": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/page.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-element/page.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-element/page.js",
+            "fileName": "pseudo-element-page.html",
+            "title": "CSS Demo: :page",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "tabs": "html,css,js",
+            "height": "tabbed-shorter"
+        },
         "placeholder": {
             "exampleCode": "./live-examples/css-examples/pseudo-element/placeholder.html",
             "cssExampleSrc": "./live-examples/css-examples/pseudo-element/placeholder.css",
