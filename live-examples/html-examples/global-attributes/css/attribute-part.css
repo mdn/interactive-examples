@@ -1,0 +1,9 @@
+#shadowHost::part(paragraph) {
+    color: green;
+}
+
+.not-exported-paragraph {
+    /* This value will not be applied, because selector
+       cannot find elements present in Shadow DOM */
+    color: red;
+}

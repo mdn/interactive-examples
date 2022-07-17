@@ -72,6 +72,17 @@
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
+        "part": {
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-part.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-part.css",
+            "jsExampleSrc": "./live-examples/html-examples/global-attributes/js/attribute-part.js",
+            "fileName": "attribute-part.html",
+            "title": "HTML Demo: part",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "tabs": "html,css,js",
+            "height": "tabbed-standard"
+        },
         "spellcheck": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-spellcheck.html",
             "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-spellcheck.css",
