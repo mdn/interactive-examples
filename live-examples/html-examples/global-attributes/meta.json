@@ -79,7 +79,7 @@
             "fileName": "attribute-part.html",
             "title": "HTML Demo: part",
             "type": "tabbed",
-            "defaultTab": "css",
+            "defaultTab": "html",
             "tabs": "html,css,js",
             "height": "tabbed-standard"
         },
