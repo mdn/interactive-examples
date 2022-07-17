@@ -1,0 +1,16 @@
+<template id="shadowStructure">
+    <style>
+        ::slotted(.unfinished) {
+            color: red;
+        }
+    </style>
+    <ol>
+        <li>Receive Side-Scaling State: <slot name="sideScaling">Unknown</slot></li>
+        <li>Initial RTO: <slot name="rto">Unknown</slot></li>
+    </ol>
+</template>
+<p>TCP Global Parameters:</p>
+<div id="shadowHost">
+    <span slot="sideScaling">Enabled</span>
+    <span slot="rto" class="unfinished">500 <strong>(Increase later)</strong></span>
+</div>

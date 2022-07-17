@@ -83,6 +83,16 @@
             "tabs": "html,css,js",
             "height": "tabbed-standard"
         },
+        "slot": {
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-slot.html",
+            "jsExampleSrc": "./live-examples/html-examples/global-attributes/js/attribute-slot.js",
+            "fileName": "attribute-slot.html",
+            "title": "HTML Demo: slot",
+            "type": "tabbed",
+            "defaultTab": "html",
+            "tabs": "html,js",
+            "height": "tabbed-standard"
+        },
         "spellcheck": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-spellcheck.html",
             "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-spellcheck.css",

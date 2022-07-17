@@ -16,6 +16,16 @@
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
+        "slot": {
+            "exampleCode": "./live-examples/html-examples/interactive-elements/slot.html",
+            "jsExampleSrc": "./live-examples/html-examples/interactive-elements/js/slot.js",
+            "fileName": "slot.html",
+            "title": "HTML Demo: slot",
+            "type": "tabbed",
+            "defaultTab": "html",
+            "tabs": "html,js",
+            "height": "tabbed-standard"
+        },
         "summary": {
             "exampleCode": "./live-examples/html-examples/interactive-elements/summary.html",
             "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/summary.css",
