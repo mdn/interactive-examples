@@ -1,0 +1,11 @@
+.box {
+    border: thick ridge burlywood;
+    background-color: bisque;
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+.box p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+}

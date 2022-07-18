@@ -40,6 +40,14 @@
             "type": "tabbed",
             "height": "tabbed-standard"
         },
+        "draggable": {
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-draggable.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-draggable.css",
+            "fileName": "attribute-draggable.html",
+            "title": "HTML Demo: draggable",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
         "enterkeyhint": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-enterkeyhint.html",
             "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-enterkeyhint.css",
