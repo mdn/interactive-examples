@@ -1,0 +1,21 @@
+<template id="shadowStructure">
+    <p part="paragraph">
+        This paragraph is in Shadow Tree and can be reached because part attribute is set.
+    </p>
+    <p class="not-exported-paragraph">
+        This paragraph is in Shadow Tree and cannot be reached because part attribute is NOT set.
+    </p>
+
+    <template id="nestedShadowStructure">
+        <p part="nested-paragraph">
+            This paragraph exists in nested Shadow Tree and can be reached because its part is set and exported.
+        </p>
+        <p part="skipped-nested-paragraph">
+            This paragraph exists in nested Shadow Tree but its part is NOT exported.
+        </p>
+    </template>
+
+    <div id="nestedShadowHost" exportparts="nested-paragraph"></div>
+</template>
+
+<div id="shadowHost"></div>

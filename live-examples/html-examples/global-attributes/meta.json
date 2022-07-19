@@ -48,6 +48,17 @@
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
+        "exportparts": {
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-exportparts.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-exportparts.css",
+            "jsExampleSrc": "./live-examples/html-examples/global-attributes/js/attribute-exportparts.js",
+            "fileName": "attribute-exportparts.html",
+            "title": "HTML Demo: exportparts",
+            "type": "tabbed",
+            "defaultTab": "html",
+            "tabs": "html,css,js",
+            "height": "tabbed-taller"
+        },
         "hidden": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-hidden.html",
             "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-hidden.css",
