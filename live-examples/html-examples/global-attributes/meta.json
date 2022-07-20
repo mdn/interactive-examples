@@ -64,6 +64,14 @@
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
+        "inputmode": {
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-inputmode.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-inputmode.css",
+            "fileName": "attribute-inputmode.html",
+            "title": "HTML Demo: inputmode",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
         "lang": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-lang.html",
             "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-lang.css",
