@@ -14,6 +14,13 @@
             "title": "CSS Demo: contain",
             "type": "css"
         },
+        "display": {
+            "cssExampleSrc": "./live-examples/css-examples/basic-box-model/display.css",
+            "exampleCode": "./live-examples/css-examples/basic-box-model/display.html",
+            "fileName": "display.html",
+            "title": "CSS Demo: display",
+            "type": "css"
+        },
         "float": {
             "cssExampleSrc": "./live-examples/css-examples/basic-box-model/float.css",
             "exampleCode": "./live-examples/css-examples/basic-box-model/float.html",
