@@ -1,0 +1,12 @@
+{
+    "pages": {
+        "disabled": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-disabled.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-disabled.css",
+            "fileName": "attribute-disabled.html",
+            "title": "HTML Demo: disabled",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        }
+    }
+}
