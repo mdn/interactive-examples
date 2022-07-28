@@ -1,5 +1,5 @@
 (module
-  (func (export "select_between_10_or_20") (result i32)
+  (func (export "select_10_or_20") (result i32)
     ;; load two values onto the stack
     i32.const 10
     i32.const 20
