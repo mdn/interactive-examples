@@ -161,6 +161,13 @@
             "title": "CSS Demo: scroll-snap-align",
             "type": "css"
         },
+        "scrollSnapStop": {
+            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-snap-stop.css",
+            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-snap-stop.html",
+            "fileName": "scroll-snap-stop.html",
+            "title": "CSS Demo: scroll-snap-stop",
+            "type": "css"
+        },
         "scrollSnapType": {
             "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-snap-type.css",
             "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-snap-type.html",
