@@ -154,6 +154,13 @@
             "title": "CSS Demo: scroll-padding-top",
             "type": "css"
         },
+        "scrollSnapAlign": {
+            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-snap-align.css",
+            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-snap-align.html",
+            "fileName": "scroll-snap-align.html",
+            "title": "CSS Demo: scroll-snap-align",
+            "type": "css"
+        },
         "scrollSnapStop": {
             "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-snap-stop.css",
             "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-snap-stop.html",
