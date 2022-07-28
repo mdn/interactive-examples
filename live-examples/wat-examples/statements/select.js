@@ -6,7 +6,7 @@ await WebAssembly.instantiateStreaming(
 
   console.log(select_10_or_20());
 
-  // returns any arbitrary JS value, if the second parameter is zero
+  // if the second parameter is zero, returns the first paramater (which may be any arbitrary JS value)
   const map = new Map();
   console.log(select_value_if_zero(map, 0)); // logs Map {}
   console.log(select_value_if_zero(map, -1)); // logs null
