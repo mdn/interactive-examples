@@ -280,6 +280,13 @@
             "title": "CSS Demo: min-inline-size",
             "type": "css"
         },
+        "paddingBlock": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/padding.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/padding-block.html",
+            "fileName": "padding-block.html",
+            "title": "CSS Demo: padding-block",
+            "type": "css"
+        },
         "paddingBlockEnd": {
             "cssExampleSrc": "./live-examples/css-examples/logical-properties/padding.css",
             "exampleCode": "./live-examples/css-examples/logical-properties/padding-block-end.html",
@@ -292,6 +299,13 @@
             "exampleCode": "./live-examples/css-examples/logical-properties/padding-block-start.html",
             "fileName": "padding-block-start.html",
             "title": "CSS Demo: padding-block-start",
+            "type": "css"
+        },
+        "paddingInline": {
+            "cssExampleSrc": "./live-examples/css-examples/logical-properties/padding.css",
+            "exampleCode": "./live-examples/css-examples/logical-properties/padding-inline.html",
+            "fileName": "padding-inline.html",
+            "title": "CSS Demo: padding-inline",
             "type": "css"
         },
         "paddingInlineEnd": {
