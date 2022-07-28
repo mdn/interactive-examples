@@ -10,4 +10,4 @@ function updateColor() {
 }
 
 updateColor();
-setInterval(updateColor, 100);
+colorElement.addEventListener('input', updateColor);
