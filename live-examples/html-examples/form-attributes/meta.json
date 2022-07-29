@@ -14,7 +14,7 @@
             "fileName": "attribute-capture.html",
             "title": "HTML Demo: capture",
             "type": "tabbed",
-            "height": "tabbed-shorter"
+            "height": "tabbed-standard"
         },
         "min": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-min.html",
