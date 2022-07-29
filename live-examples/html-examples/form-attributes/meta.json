@@ -1,5 +1,21 @@
 {
     "pages": {
+        "accept": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-accept.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-accept.css",
+            "fileName": "attribute-accept.html",
+            "title": "HTML Demo: accept",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
+        "capture": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-capture.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-capture.css",
+            "fileName": "attribute-capture.html",
+            "title": "HTML Demo: capture",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
         "min": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-min.html",
             "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-min.css",
