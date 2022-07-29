@@ -1,14 +1,10 @@
 (module
   (func (export "get_90") (result i32)
-    ;; load 90 onto the stack and return it
+    ;; load 10 onto the stack
+    i32.const 10
+    ;; load 90 onto the stack
     i32.const 90
-    return
-  )
-  (func (export "get_second_value") (param i32 i32) (result i32)
-    ;; load both arguments onto the stack
-    local.get 0
-    local.get 1
-    ;; return the second argument; the first is discarded
+    ;; return the second value (90); the first is discarded
     return
   )
 )
