@@ -11,6 +11,14 @@
             "tabs": "html,css,js",
             "height": "tabbed-shorter"
         },
+        "minlength": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-minlength.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-minlength.css",
+            "fileName": "attribute-minlength.html",
+            "title": "HTML Demo: minlength",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
         "max": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-max.html",
             "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-max.css",
@@ -20,6 +28,14 @@
             "type": "tabbed",
             "defaultTab": "html",
             "tabs": "html,css,js",
+            "height": "tabbed-shorter"
+        },
+        "maxlength": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-maxlength.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-maxlength.css",
+            "fileName": "attribute-maxlength.html",
+            "title": "HTML Demo: maxlength",
+            "type": "tabbed",
             "height": "tabbed-shorter"
         },
         "step": {
