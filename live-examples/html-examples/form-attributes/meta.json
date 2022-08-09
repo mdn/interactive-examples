@@ -22,6 +22,14 @@
             "tabs": "html,css,js",
             "height": "tabbed-shorter"
         },
+        "pattern": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-pattern.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-pattern.css",
+            "fileName": "attribute-pattern.html",
+            "title": "HTML Demo: pattern",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
         "step": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-step.html",
             "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-step.css",

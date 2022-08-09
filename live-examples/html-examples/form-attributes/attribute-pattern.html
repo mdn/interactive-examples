@@ -1,0 +1,5 @@
+<label for="username">Username: (3-16 characters)</label>
+<input name="username" type="text" value="Sasha" pattern="\w{3,16}" required>
+
+<label for="password">Password: (8-20 characters. At least 1 digit, 1 lower case letter, 1 upper case letter)</label>
+<input name="password" type="password" value="Password" pattern="(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z]).{8,20}" required>
