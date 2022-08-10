@@ -1,0 +1,9 @@
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input:read-only,
+textarea:read-only {
+    background-color: silver;
+}

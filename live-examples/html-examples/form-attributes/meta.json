@@ -22,6 +22,14 @@
             "tabs": "html,css,js",
             "height": "tabbed-shorter"
         },
+        "readonly": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-readonly.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-readonly.css",
+            "fileName": "attribute-readonly.html",
+            "title": "HTML Demo: readonly",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
         "step": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-step.html",
             "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-step.css",
