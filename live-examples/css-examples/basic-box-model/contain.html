@@ -1,6 +1,30 @@
-<section id="example-choice-list" class="example-choice-list large" data-property="contain">
+<section
+    id="example-choice-list"
+    class="example-choice-list large"
+    data-property="contain"
+>
     <div class="example-choice" initial-choice="true">
         <pre><code class="language-css">contain: none;</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+
+    <div class="example-choice">
+        <pre><code class="language-css">contain: style;</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+    <div class="example-choice">
+        <pre><code class="language-css">contain: layout;</code></pre>
+        <button type="button" class="copy hidden" aria-hidden="true">
+            <span class="visually-hidden">Copy to Clipboard</span>
+        </button>
+    </div>
+
+    <div class="example-choice">
+        <pre><code class="language-css">contain: paint;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
         </button>
@@ -16,11 +40,20 @@
 
 <div id="output" class="output large hidden">
     <section id="default-example" class="default-example">
-        <div class="example-container">
+        <div class="example-container" class="transition-all">
+            <h2>Count</h2>
             <div id="example-element" class="transition-all">
-                <div class="floating">Floating Element</div>
-                The Goldfish is a species of domestic fish best known for its bright colors and patterns.
+                <h2>Count</h2>
+                <h2>Count</h2>
+
+                <div class="floating">
+                    This floating element contains a bit too much info about
+                    goldfish, who have strong associative learning abilities, as
+                    well as social learning skills.
+                </div>
             </div>
+            <h2>Count</h2>
         </div>
+        <div id="chapters" class="transition-all"></div>
     </section>
 </div>
