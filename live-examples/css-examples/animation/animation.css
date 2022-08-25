@@ -8,12 +8,7 @@
 }
 
 @-webkit-keyframes slidein {
-    from {
-        margin-left: -20%;
-    }
-    to {
-        margin-left: 100%;
-    }
+    50% {background-position: right center;}
 }
 
 @keyframes slidein {
