@@ -1,5 +1,23 @@
 {
     "pages": {
+        "content": {
+            "cssExampleSrc": "./live-examples/css-examples/generated-content/content.css",
+            "exampleCode": "./live-examples/css-examples/generated-content/content.html",
+            "fileName": "content.html",
+            "title": "CSS Demo: content",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "functionAttr": {
+            "cssExampleSrc": "./live-examples/css-examples/generated-content/function-attr.css",
+            "exampleCode": "./live-examples/css-examples/generated-content/function-attr.html",
+            "fileName": "function-attr.html",
+            "title": "CSS Demo: attr()",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
         "functionCounter": {
             "cssExampleSrc": "./live-examples/css-examples/generated-content/function-counter.css",
             "exampleCode": "./live-examples/css-examples/generated-content/function-counter.html",

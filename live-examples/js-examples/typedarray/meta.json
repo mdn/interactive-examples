@@ -66,10 +66,22 @@
             "title": "JavaScript Demo: TypedArray.find()",
             "type": "js"
         },
+        "typedarrayFindLast": {
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-findlast.js",
+            "fileName": "typedarray-findlast.html",
+            "title": "JavaScript Demo: TypedArray.findLast()",
+            "type": "js"
+        },
         "typedarrayFindIndex": {
             "exampleCode": "./live-examples/js-examples/typedarray/typedarray-findindex.js",
             "fileName": "typedarray-findindex.html",
             "title": "JavaScript Demo: TypedArray.findIndex()",
+            "type": "js"
+        },
+        "typedarrayFindLastIndex": {
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-findlastindex.js",
+            "fileName": "typedarray-findlastindex.html",
+            "title": "JavaScript Demo: TypedArray.findLastIndex()",
             "type": "js"
         },
         "typedarrayFrom": {
