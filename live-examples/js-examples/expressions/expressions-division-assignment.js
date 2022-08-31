@@ -8,6 +8,6 @@ a /= 0;
 console.log(a);
 // expected output: Infinity
 
-a /= "hello";
+a /= 'hello';
 console.log(a);
 // expected output: NaN
