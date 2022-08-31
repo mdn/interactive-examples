@@ -153,6 +153,15 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+         "is": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/is.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/is.html",
+            "fileName": "pseudo-class-is.html",
+            "title": "CSS Demo: :is",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
         "lastChild": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/last-child.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/last-child.html",
@@ -176,6 +185,15 @@
             "exampleCode": "./live-examples/css-examples/pseudo-class/link.html",
             "fileName": "pseudo-class-link.html",
             "title": "CSS Demo: :link",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "not": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/not.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/not.html",
+            "fileName": "pseudo-class-not.html",
+            "title": "CSS Demo: :not",
             "type": "tabbed",
             "defaultTab": "css",
             "height": "tabbed-shorter"
@@ -302,6 +320,15 @@
             "exampleCode": "./live-examples/css-examples/pseudo-class/visited.html",
             "fileName": "pseudo-class-visited.html",
             "title": "CSS Demo: :visited",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "where": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/where.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/where.html",
+            "fileName": "pseudo-class-where.html",
+            "title": "CSS Demo: :where",
             "type": "tabbed",
             "defaultTab": "css",
             "height": "tabbed-shorter"
