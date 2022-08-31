@@ -14,6 +14,41 @@
             "title": "CSS Demo: color-adjust",
             "type": "css"
         },
+        "functionHsl": {
+            "cssExampleSrc": "./live-examples/css-examples/color/color-function.css",
+            "exampleCode": "./live-examples/css-examples/color/function-hsl.html",
+            "fileName": "function-hsl.html",
+            "title": "CSS Demo: hsl()",
+            "type": "css"
+        },
+        "functionHsla": {
+            "cssExampleSrc": "./live-examples/css-examples/color/color-function.css",
+            "exampleCode": "./live-examples/css-examples/color/function-hsla.html",
+            "fileName": "function-hsla.html",
+            "title": "CSS Demo: hsla()",
+            "type": "css"
+        },
+        "functionHwb": {
+            "cssExampleSrc": "./live-examples/css-examples/color/color-function.css",
+            "exampleCode": "./live-examples/css-examples/color/function-hwb.html",
+            "fileName": "function-hwb.html",
+            "title": "CSS Demo: hwb()",
+            "type": "css"
+        },
+        "functionRgb": {
+            "cssExampleSrc": "./live-examples/css-examples/color/color-function.css",
+            "exampleCode": "./live-examples/css-examples/color/function-rgb.html",
+            "fileName": "function-rgb.html",
+            "title": "CSS Demo: rgb()",
+            "type": "css"
+        },
+        "functionRgba": {
+            "cssExampleSrc": "./live-examples/css-examples/color/color-function.css",
+            "exampleCode": "./live-examples/css-examples/color/function-rgba.html",
+            "fileName": "function-rgba.html",
+            "title": "CSS Demo: rgba()",
+            "type": "css"
+        },
         "opacity": {
             "cssExampleSrc": "./live-examples/css-examples/color/opacity.css",
             "exampleCode": "./live-examples/css-examples/color/opacity.html",

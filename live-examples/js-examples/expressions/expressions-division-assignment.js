@@ -1,10 +1,13 @@
 let a = 3;
 
-console.log(a /= 2);
+a /= 2;
+console.log(a);
 // expected output: 1.5
 
-console.log(a /= 0);
+a /= 0;
+console.log(a);
 // expected output: Infinity
 
-console.log(a /= 'hello');
+a /= 'hello';
+console.log(a);
 // expected output: NaN

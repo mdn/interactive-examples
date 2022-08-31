@@ -65,7 +65,7 @@
         },
         "select": {
             "watExampleCode": "./live-examples/wat-examples/statements/select.wat",
-            "jsExampleCode": "./live-examples/wat-examples/console.js",
+            "jsExampleCode": "./live-examples/wat-examples/statements/select.js",
             "fileName": "select.html",
             "title": "Wat Demo: select",
             "type": "wat"
