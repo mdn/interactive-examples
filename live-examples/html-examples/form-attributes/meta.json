@@ -30,6 +30,14 @@
             "tabs": "html,css,js",
             "height": "tabbed-shorter"
         },
+        "multiple": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-multiple.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-multiple.css",
+            "fileName": "attribute-multiple.html",
+            "title": "HTML Demo: multiple",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },          
         "step": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-step.html",
             "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-step.css",
