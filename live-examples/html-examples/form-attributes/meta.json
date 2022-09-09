@@ -1,15 +1,12 @@
 {
     "pages": {
-        "min": {
-            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-min.html",
-            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-min.css",
-            "jsExampleSrc": "./live-examples/html-examples/form-attributes/js/attribute-min.js",
-            "fileName": "attribute-min.html",
-            "title": "HTML Demo: min",
+        "disabled": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-disabled.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-disabled.css",
+            "fileName": "attribute-disabled.html",
+            "title": "HTML Demo: disabled",
             "type": "tabbed",
-            "defaultTab": "html",
-            "tabs": "html,css,js",
-            "height": "tabbed-shorter"
+            "height": "tabbed-standard"
         },
         "max": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-max.html",
@@ -22,6 +19,17 @@
             "tabs": "html,css,js",
             "height": "tabbed-shorter"
         },
+        "min": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-min.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-min.css",
+            "jsExampleSrc": "./live-examples/html-examples/form-attributes/js/attribute-min.js",
+            "fileName": "attribute-min.html",
+            "title": "HTML Demo: min",
+            "type": "tabbed",
+            "defaultTab": "html",
+            "tabs": "html,css,js",
+            "height": "tabbed-shorter"
+        },
         "multiple": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-multiple.html",
             "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-multiple.css",
@@ -29,7 +37,7 @@
             "title": "HTML Demo: multiple",
             "type": "tabbed",
             "height": "tabbed-standard"
-        },
+        },          
         "step": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-step.html",
             "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-step.css",

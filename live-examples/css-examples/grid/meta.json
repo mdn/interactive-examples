@@ -1,6 +1,6 @@
 {
     "pages": {
-        "fit-content": {
+        "fitContent": {
             "cssExampleSrc": "./live-examples/css-examples/grid/function-fit-content.css",
             "exampleCode": "./live-examples/css-examples/grid/function-fit-content.html",
             "fileName": "function-fit-content.html",
