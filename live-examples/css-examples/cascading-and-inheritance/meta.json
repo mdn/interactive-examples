@@ -9,6 +9,15 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "media": {
+            "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/at-rule-media.css",
+            "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/at-rule-media.html",
+            "fileName": "at-rule-media.html",
+            "title": "CSS Demo: @media",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-standard"
+        },
         "namespace": {
             "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/at-rule-namespace.css",
             "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/at-rule-namespace.html",
