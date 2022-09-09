@@ -32,7 +32,7 @@
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
-        "datetime-local": {
+        "datetimeLocal": {
             "exampleCode": "./live-examples/html-examples/input/datetime-local.html",
             "cssExampleSrc": "./live-examples/html-examples/input/css/single-input.css",
             "fileName": "input-datetime-local.html",

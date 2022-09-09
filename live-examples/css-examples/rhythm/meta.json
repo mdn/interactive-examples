@@ -1,6 +1,6 @@
 {
     "pages": {
-        "line-height-step": {
+        "lineHeightStep": {
             "cssExampleSrc": "./live-examples/css-examples/rhythm/line-height-step.css",
             "exampleCode": "./live-examples/css-examples/rhythm/line-height-step.html",
             "fileName": "line-height-step.html",

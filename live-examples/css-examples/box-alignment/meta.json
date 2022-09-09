@@ -21,7 +21,7 @@
             "title": "CSS Demo: align-self",
             "type": "css"
         },
-        "column-gap": {
+        "columnGap": {
             "cssExampleSrc": "./live-examples/css-examples/box-alignment/column-gap.css",
             "exampleCode": "./live-examples/css-examples/box-alignment/column-gap.html",
             "fileName": "column-gap.html",
@@ -77,7 +77,7 @@
             "title": "CSS Demo: place-self",
             "type": "css"
         },
-        "row-gap": {
+        "rowGap": {
             "cssExampleSrc": "./live-examples/css-examples/box-alignment/row-gap.css",
             "exampleCode": "./live-examples/css-examples/box-alignment/row-gap.html",
             "fileName": "row-gap.html",
