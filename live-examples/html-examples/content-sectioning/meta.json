@@ -32,7 +32,7 @@
             "type": "tabbed",
             "height": "tabbed-standard"
         },
-        "h1-h6": {
+        "h1H6": {
             "exampleCode": "./live-examples/html-examples/content-sectioning/h1-h6.html",
             "cssExampleSrc": "./live-examples/html-examples/content-sectioning/css/h1-h6.css",
             "fileName": "h1-h6.html",
