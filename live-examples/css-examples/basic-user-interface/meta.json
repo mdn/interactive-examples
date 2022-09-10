@@ -27,6 +27,13 @@
             "title": "CSS Demo: caret-color",
             "type": "css"
         },
+        "colorScheme": {
+            "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/color-scheme.css",
+            "exampleCode": "./live-examples/css-examples/basic-user-interface/color-scheme.html",
+            "fileName": "color-scheme.html",
+            "title": "CSS Demo: color-scheme",
+            "type": "css"
+        },
         "cursor": {
             "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/cursor.css",
             "exampleCode": "./live-examples/css-examples/basic-user-interface/cursor.html",

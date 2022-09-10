@@ -45,6 +45,15 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "disabled": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/disabled.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/disabled.html",
+            "fileName": "pseudo-class-disabled.html",
+            "title": "CSS Demo: :disabled",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-standard"
+        },
         "empty": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/empty.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/empty.html",
@@ -53,6 +62,15 @@
             "type": "tabbed",
             "defaultTab": "css",
             "height": "tabbed-shorter"
+        },
+        "enabled": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/enabled.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/enabled.html",
+            "fileName": "pseudo-class-enabled.html",
+            "title": "CSS Demo: :enabled",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-standard"
         },
         "firstChild": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/first-child.css",
@@ -117,11 +135,29 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "inRange": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/in-range.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/in-range.html",
+            "fileName": "pseudo-class-in-range.html",
+            "title": "CSS Demo: :in-range",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
         "invalid": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/invalid.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/invalid.html",
             "fileName": "pseudo-class-invalid.html",
             "title": "CSS Demo: :invalid",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+         "is": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/is.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/is.html",
+            "fileName": "pseudo-class-is.html",
+            "title": "CSS Demo: :is",
             "type": "tabbed",
             "defaultTab": "css",
             "height": "tabbed-shorter"
@@ -149,6 +185,15 @@
             "exampleCode": "./live-examples/css-examples/pseudo-class/link.html",
             "fileName": "pseudo-class-link.html",
             "title": "CSS Demo: :link",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "not": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/not.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/not.html",
+            "fileName": "pseudo-class-not.html",
+            "title": "CSS Demo: :not",
             "type": "tabbed",
             "defaultTab": "css",
             "height": "tabbed-shorter"
@@ -207,6 +252,24 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "optional": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/optional.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/optional.html",
+            "fileName": "pseudo-class-optional.html",
+            "title": "CSS Demo: :optional",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-standard"
+        },
+        "outOfRange": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/out-of-range.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/out-of-range.html",
+            "fileName": "pseudo-class-out-of-range.html",
+            "title": "CSS Demo: :out-of-range",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
         "placeholderShown": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/placeholder-shown.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/placeholder-shown.html",
@@ -234,6 +297,15 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "required": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/required.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/required.html",
+            "fileName": "pseudo-class-required.html",
+            "title": "CSS Demo: :required",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-standard"
+        },
         "valid": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/valid.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/valid.html",
@@ -248,6 +320,15 @@
             "exampleCode": "./live-examples/css-examples/pseudo-class/visited.html",
             "fileName": "pseudo-class-visited.html",
             "title": "CSS Demo: :visited",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "where": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/where.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/where.html",
+            "fileName": "pseudo-class-where.html",
+            "title": "CSS Demo: :where",
             "type": "tabbed",
             "defaultTab": "css",
             "height": "tabbed-shorter"
