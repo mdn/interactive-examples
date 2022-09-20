@@ -19,8 +19,3 @@ footer {
     bottom: 30px;
     left: 30px;
 }
-
-.output {
-    background: center/cover no-repeat url('/media/cc0-images/hamster.jpg');
-    position: relative;
-}

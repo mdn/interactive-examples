@@ -8,6 +8,14 @@
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
+        "menu": {
+            "exampleCode": "./live-examples/html-examples/interactive-elements/menu.html",
+            "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/menu.css",
+            "fileName": "menu.html",
+            "title": "HTML Demo: <menu>",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
         "summary": {
             "exampleCode": "./live-examples/html-examples/interactive-elements/summary.html",
             "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/summary.css",
