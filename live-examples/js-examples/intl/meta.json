@@ -233,6 +233,12 @@
             "fileName": "intl-supportedvaluesof.html",
             "title": "JavaScript Demo: Intl.supportedValuesOf",
             "type": "js"
+        },
+        "intlPluralRulesPrototypeSelect": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-prototype-select.js",
+            "fileName": "intl-pluralrules-prototype-select.html",
+            "title": "JavaScript Demo: Intl.PluralRules.prototype.select()",
+            "type": "js"
         }
     }
 }
