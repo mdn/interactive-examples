@@ -156,6 +156,12 @@
             "title": "JavaScript Demo: Intl.prototype.toString()",
             "type": "js"
         },
+        "intlPluralRulesPrototypeSelect": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-prototype-select.js",
+            "fileName": "intl-pluralrules-prototype-select.html",
+            "title": "JavaScript Demo: Intl.PluralRules.prototype.select()",
+            "type": "js"
+        },
         "intlPluralRulesSupportedLocalesOf": {
             "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-supportedlocalesof.js",
             "fileName": "intl-pluralrules-prototype-supportedlocalesof.html",
@@ -232,12 +238,6 @@
             "exampleCode": "./live-examples/js-examples/intl/intl-supportedvaluesof.js",
             "fileName": "intl-supportedvaluesof.html",
             "title": "JavaScript Demo: Intl.supportedValuesOf",
-            "type": "js"
-        },
-        "intlPluralRulesPrototypeSelect": {
-            "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-prototype-select.js",
-            "fileName": "intl-pluralrules-prototype-select.html",
-            "title": "JavaScript Demo: Intl.PluralRules.prototype.select()",
             "type": "js"
         }
     }
