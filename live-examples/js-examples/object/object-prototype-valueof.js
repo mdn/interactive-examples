@@ -2,7 +2,7 @@ function MyNumberType(n) {
   this.number = n;
 }
 
-MyNumberType.prototype.valueOf = function() {
+MyNumberType.prototype.valueOf = function () {
   return this.number;
 };
 

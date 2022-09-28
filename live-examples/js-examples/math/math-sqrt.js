@@ -1,5 +1,5 @@
 function calcHypotenuse(a, b) {
-  return (Math.sqrt((a * a) + (b * b)));
+  return Math.sqrt(a * a + b * b);
 }
 
 console.log(calcHypotenuse(3, 4));

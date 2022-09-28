@@ -1,4 +1,4 @@
-const getRectArea = function(width, height) {
+const getRectArea = function (width, height) {
   return width * height;
 };
 

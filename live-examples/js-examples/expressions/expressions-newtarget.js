@@ -1,5 +1,7 @@
 function Foo() {
-  if (!new.target) { throw new TypeError('calling Foo constructor without new is invalid'); }
+  if (!new.target) {
+    throw new TypeError('calling Foo constructor without new is invalid');
+  }
 }
 
 try {

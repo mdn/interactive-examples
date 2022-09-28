@@ -1,7 +1,6 @@
 let str = '';
 
-loop1:
-for (let i = 0; i < 5; i++) {
+loop1: for (let i = 0; i < 5; i++) {
   if (i === 1) {
     continue loop1;
   }

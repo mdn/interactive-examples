@@ -2,7 +2,7 @@ const delayedResponses = {
   delays: [500, 1300, 3500],
 
   wait(delay) {
-    return new Promise(resolve => {
+    return new Promise((resolve) => {
       setTimeout(resolve, delay);
     });
   },
@@ -12,10 +12,10 @@ const delayedResponses = {
       await this.wait(delay);
       yield `Delayed response for ${delay} milliseconds`;
     }
-  },
+  }
 };
 
-(async() => {
+(async () => {
   for await (const response of delayedResponses) {
     console.log(response);
   }

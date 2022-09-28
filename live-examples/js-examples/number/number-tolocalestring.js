@@ -1,4 +1,4 @@
-function eArabic(x){
+function eArabic(x) {
   return x.toLocaleString('ar-EG');
 }
 

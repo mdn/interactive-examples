@@ -1,5 +1,5 @@
 function getTanFromDegrees(degrees) {
-  return Math.tan(degrees * Math.PI / 180);
+  return Math.tan((degrees * Math.PI) / 180);
 }
 
 console.log(getTanFromDegrees(0));

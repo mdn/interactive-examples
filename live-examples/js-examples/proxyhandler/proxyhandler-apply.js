@@ -3,7 +3,7 @@ function sum(a, b) {
 }
 
 const handler = {
-  apply: function(target, thisArg, argumentsList) {
+  apply: function (target, thisArg, argumentsList) {
     console.log(`Calculate sum: ${argumentsList}`);
     // expected output: "Calculate sum: 1,2"
 

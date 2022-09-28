@@ -1,6 +1,6 @@
 function containsEncodedComponents(x) {
   // ie ?,=,&,/ etc
-  return (decodeURI(x) !== decodeURIComponent(x));
+  return decodeURI(x) !== decodeURIComponent(x);
 }
 
 console.log(containsEncodedComponents('%3Fx%3Dtest')); // ?x=test

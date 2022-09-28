@@ -1,6 +1,6 @@
 const person = {
   isHuman: false,
-  printIntroduction: function() {
+  printIntroduction: function () {
     console.log(`My name is ${this.name}. Am I human? ${this.isHuman}`);
   }
 };

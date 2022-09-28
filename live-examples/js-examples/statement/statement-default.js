@@ -8,5 +8,5 @@ switch (expr) {
     break;
   default:
     console.log(`Sorry, we are out of ${expr}.`);
-    // expected output: "Sorry, we are out of Pears."
+  // expected output: "Sorry, we are out of Pears."
 }

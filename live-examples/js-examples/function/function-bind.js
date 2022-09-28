@@ -1,6 +1,6 @@
 const module = {
   x: 42,
-  getX: function() {
+  getX: function () {
     return this.x;
   }
 };
