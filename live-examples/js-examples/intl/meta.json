@@ -240,7 +240,7 @@
             "title": "JavaScript Demo: Intl.supportedValuesOf",
             "type": "js"
         },
-        "intlPluralRulesPrototypeResolvedoptions": {
+        "intlPluralRulesPrototypeResolvedOptions": {
             "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-prototype-resolvedoptions.js",
             "fileName": "intl-pluralrules-prototype-resolvedoptions.html",
             "title": "JavaScript Demo: Intl.PluralRules.prototype.resolvedOptions()",
