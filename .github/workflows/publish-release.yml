@@ -29,17 +29,8 @@ jobs:
                   node-version: '16'
                   cache: 'yarn'
 
-            - name: Cache node_modules
-              if: needs.publish-release.outputs.release_created
-              uses: actions/cache@v3
-              id: cached-node_modules
-              with:
-                  path: |
-                      node_modules
-                  key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}-${{ hashFiles('.github/workflows/publish-release.yml') }}
-
             - name: Install all yarn packages
-              if: steps.cached-node_modules.outputs.cache-hit != 'true' && needs.publish-release.outputs.release_created
+              if: needs.publish-release.outputs.release_created
               run: yarn --frozen-lockfile
 
             - name: Build all
