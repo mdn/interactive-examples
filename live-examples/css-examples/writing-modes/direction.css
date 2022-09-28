@@ -1,6 +1,6 @@
 #example-element {
     border: 1px solid #c5c5c5;
-    padding: .75em;
+    padding: 0.75em;
     width: 80%;
     max-height: 300px;
     display: flex;

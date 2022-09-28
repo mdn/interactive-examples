@@ -1,9 +1,9 @@
 #example-element {
-  width: 16rem;
+    width: 16rem;
 }
 
 #example-element p {
-  border: 1px solid #c5c5c5;
-  padding: .75rem;
-  text-align: left;
+    border: 1px solid #c5c5c5;
+    padding: 0.75rem;
+    text-align: left;
 }

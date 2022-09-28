@@ -155,7 +155,7 @@ yarn run lint:js
 We've also provided the following command:
 
 ```sh
-yarn run lint:js:fix
+yarn run fix:js
 ```
 
 This runs ESLint with the `--fix` option, which tries to fix issues.

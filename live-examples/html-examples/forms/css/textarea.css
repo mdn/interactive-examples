@@ -1,8 +1,9 @@
 label,
 textarea {
-    font-size: .8rem;
+    font-size: 0.8rem;
     letter-spacing: 1px;
 }
+
 textarea {
     padding: 10px;
     max-width: 100%;

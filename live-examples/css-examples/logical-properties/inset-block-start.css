@@ -1,6 +1,6 @@
 #example-element {
-    border: .75em solid;
-    padding: .75em;
+    border: 0.75em solid;
+    padding: 0.75em;
     position: relative;
     width: 100%;
     min-height: 200px;

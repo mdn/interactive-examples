@@ -2,6 +2,6 @@ video {
     width: 250px;
 }
 
-video::cue { 
+video::cue {
     font-size: 1rem;
 }

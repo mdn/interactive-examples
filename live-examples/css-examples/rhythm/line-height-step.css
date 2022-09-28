@@ -1,7 +1,7 @@
 .example-container {
     background-image: repeating-linear-gradient(180deg, #ccc, #ccc 20px, #dbdbdb 20px, #dbdbdb 40px);
-    border: .75em solid;
-    padding: .75em;
+    border: 0.75em solid;
+    padding: 0.75em;
     text-align: left;
     width: 80%;
     line-height: normal;
@@ -11,10 +11,11 @@
     grid-template-columns: 1fr 2fr;
 }
 
-.example-container h2, p {
+.example-container h2,
+p {
     margin: 0;
 }
-  
+
 .example-container h2 {
     font-size: 33px;
 }
