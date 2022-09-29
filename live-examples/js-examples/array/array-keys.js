@@ -1,5 +1,5 @@
-let  arr = ["a", "b", "c"];
-let iterator = arr.keys();
+let  array1 = ["a", "b", "c"];
+let iterator = array1.keys();
 
 console.log(iterator.next()); // { value: 0, done: false }
 console.log(iterator.next()); // { value: 1, done: false }
