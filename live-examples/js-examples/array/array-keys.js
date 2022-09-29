@@ -1,5 +1,10 @@
-const array1 = ['a', 'b', 'c'];
-const iterator = array1.keys();
+let  arr = ["a", "b", "c"];
+let iterator = arr.keys();
+
+console.log(iterator.next()); // { value: 0, done: false }
+console.log(iterator.next()); // { value: 1, done: false }
+console.log(iterator.next()); // { value: 2, done: false }
+console.log(iterator.next()); // { value: undefined, done: true }
 
 for (const key of iterator) {
   console.log(key);
