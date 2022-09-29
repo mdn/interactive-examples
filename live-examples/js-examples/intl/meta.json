@@ -168,6 +168,12 @@
             "title": "JavaScript Demo: Intl.PluralRules.prototype.supportedLocalesOf",
             "type": "js"
         },
+        "intlPluralRulesPrototypeResolvedOptions": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-prototype-resolvedoptions.js",
+            "fileName": "intl-pluralrules-prototype-resolvedoptions.html",
+            "title": "JavaScript Demo: Intl.PluralRules.prototype.resolvedOptions()",
+            "type": "js"
+        },
         "intlRelativeTimeFormat": {
             "exampleCode": "./live-examples/js-examples/intl/intl-relativetimeformat.js",
             "fileName": "intl-relativetimeformat.html",
@@ -238,12 +244,6 @@
             "exampleCode": "./live-examples/js-examples/intl/intl-supportedvaluesof.js",
             "fileName": "intl-supportedvaluesof.html",
             "title": "JavaScript Demo: Intl.supportedValuesOf",
-            "type": "js"
-        },
-        "intlPluralRulesPrototypeResolvedOptions": {
-            "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-prototype-resolvedoptions.js",
-            "fileName": "intl-pluralrules-prototype-resolvedoptions.html",
-            "title": "JavaScript Demo: Intl.PluralRules.prototype.resolvedOptions()",
             "type": "js"
         }
     }
