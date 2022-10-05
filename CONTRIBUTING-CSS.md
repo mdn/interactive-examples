@@ -7,11 +7,7 @@ You start off by creating a new file inside the subfolder `live-examples\css-exa
 Inside this newly created file, copy and paste the following code:
 
 ```html
-<section
-    id="example-choice-list"
-    class="example-choice-list large"
-    data-property="border-radius"
->
+<section id="example-choice-list" class="example-choice-list large" data-property="border-radius">
     <div class="example-choice" initial-choice="true">
         <pre><code class="language-css">Your CSS goes here</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
@@ -52,11 +48,7 @@ When it makes sense to do so, you can also supply additional DOM elements here. 
 Next, let's add the example CSS choices. Think of a few different ways that `border-radius` can be specified. For each of these, create a new `div.example-choice` element nested inside `section#example-choice-list`. For example:
 
 ```html
-<section
-    id="example-choice-list"
-    class="example-choice-list large"
-    data-property="border-radius"
->
+<section id="example-choice-list" class="example-choice-list large" data-property="border-radius">
     <div class="example-choice" initial-choice="true">
         <pre><code class="language-css">border-radius: 10px;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
@@ -87,11 +79,7 @@ Next, we have three `div` elements, one for each example CSS choice. You can cho
 Now we've finished writing the HTML for the example. The final version of `border-radius.html` should look like this:
 
 ```html
-<section
-    id="example-choice-list"
-    class="example-choice-list large"
-    data-property="border-radius"
->
+<section id="example-choice-list" class="example-choice-list large" data-property="border-radius">
     <div class="example-choice" initial-choice="true">
         <pre><code class="language-css">border-radius: 10px;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
@@ -133,10 +121,7 @@ In general, to add an example for a property, it should be supported by most bro
 For example, suppose you want to add an example for [`box-decoration-break`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break). This is supported unprefixed by Firefox but requires the `-webkit-` prefix in Chrome. To deal with this you would set `data-property` like this:
 
 ```html
-<section
-    id="..."
-    data-property="box-decoration-break -webkit-box-decoration-break"
-></section>
+<section id="..." data-property="box-decoration-break -webkit-box-decoration-break"></section>
 ```
 
 This means the editor will check both variants when it is testing whether the browser can support the example.
