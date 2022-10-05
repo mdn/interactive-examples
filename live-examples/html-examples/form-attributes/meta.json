@@ -8,14 +8,6 @@
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
-        "accept": {
-            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-autocomplete.html",
-            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-autocomplete.css",
-            "fileName": "attribute-autocomplete.html",
-            "title": "HTML Demo: autocomplete",
-            "type": "tabbed",
-            "height": "tabbed-shorter"
-        },
         "capture": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-capture.html",
             "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-capture.css",
