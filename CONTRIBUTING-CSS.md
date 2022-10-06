@@ -190,10 +190,8 @@ So the meta.json entry for a function would look like:
 
 ```json
 "translateX": {
-    "cssExampleSrc":
-        "./live-examples/css-examples/transforms/translate.css",
-    "exampleCode":
-        "./live-examples/css-examples/transforms/function-translateX.html",
+    "cssExampleSrc": "./live-examples/css-examples/transforms/translate.css",
+    "exampleCode": "./live-examples/css-examples/transforms/function-translateX.html",
     "fileName": "function-translateX.html",
     "title": "CSS Demo: translateX()",
     "type": "css"
