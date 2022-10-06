@@ -4,12 +4,13 @@
 }
 
 #example-element {
-    border: 1px solid #c5c5c5;
+    border: 3px solid #00f;
 }
 
 .child {
     display: inline-block;
     padding: .5em 1em;
-    background-color: rgba(0, 0, 255, .2);
-    border: 3px solid #00f;
+    background-color: #CCCCFF;
+    border: 1px solid #ABABAB;
+    color: black;
 }
