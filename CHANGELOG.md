@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/mdn/interactive-examples/compare/v1.0.2...v1.0.3) (2022-10-07)
+
+
+### Bug Fixes
+
+* malformed code flagged by Prettier ([#2285](https://github.com/mdn/interactive-examples/issues/2285)) ([5aec104](https://github.com/mdn/interactive-examples/commit/5aec1045155bbf6589fb261e82a84581cf45b0a2))
+
 ## [1.0.2](https://github.com/mdn/interactive-examples/compare/v1.0.1...v1.0.2) (2022-08-22)
 
 ### Bug Fixes
