@@ -8,18 +8,18 @@ Inside this newly created file, copy and paste the following code:
 
 ```html
 <section id="example-choice-list" class="example-choice-list large" data-property="border-radius">
-    <div class="example-choice" initial-choice="true">
-        <pre><code class="language-css">Your CSS goes here</code></pre>
-        <button type="button" class="copy hidden" aria-hidden="true">
-            <span class="visually-hidden">Copy to Clipboard</span>
-        </button>
-    </div>
+  <div class="example-choice" initial-choice="true">
+    <pre><code class="language-css">Your CSS goes here</code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true">
+      <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+  </div>
 </section>
 
 <div id="output" class="output large hidden">
-    <section id="default-example" class="default-example">
-        <div id="example-element" class="transition-all"></div>
-    </section>
+  <section id="default-example" class="default-example">
+    <div id="example-element" class="transition-all"></div>
+  </section>
 </div>
 ```
 
@@ -27,9 +27,9 @@ This is the base starting point for all CSS examples.
 
 It consists of two main pieces:
 
--   **The example CSS**: the `section#example-choice-list` contains one or more `div.example-choice` elements. These are the choices that will be presented to the user on the left-hand side of the editor. Each choice contains some CSS declarations that will be applied to the example element when the user selects that choice.
+- **The example CSS**: the `section#example-choice-list` contains one or more `div.example-choice` elements. These are the choices that will be presented to the user on the left-hand side of the editor. Each choice contains some CSS declarations that will be applied to the example element when the user selects that choice.
 
--   **The example element**: the `section#default-example` contains all the markup for the editor's output pane. At a minimum this will contain a node with `id="example-element"`: this is the element that the chosen example CSS will be applied to.
+- **The example element**: the `section#default-example` contains all the markup for the editor's output pane. At a minimum this will contain a node with `id="example-element"`: this is the element that the chosen example CSS will be applied to.
 
 Let's fill this in for `border-radius`.
 
@@ -37,9 +37,9 @@ First, we'll specify the example element. For `border-radius` it makes sense to 
 
 ```html
 <div id="output" class="output large hidden">
-    <section id="default-example" class="default-example">
-        <div id="example-element" class="transition-all">Style Me!</div>
-    </section>
+  <section id="default-example" class="default-example">
+    <div id="example-element" class="transition-all">Style Me!</div>
+  </section>
 </div>
 ```
 
@@ -49,26 +49,26 @@ Next, let's add the example CSS choices. Think of a few different ways that `bor
 
 ```html
 <section id="example-choice-list" class="example-choice-list large" data-property="border-radius">
-    <div class="example-choice" initial-choice="true">
-        <pre><code class="language-css">border-radius: 10px;</code></pre>
-        <button type="button" class="copy hidden" aria-hidden="true">
-            <span class="visually-hidden">Copy to Clipboard</span>
-        </button>
-    </div>
+  <div class="example-choice" initial-choice="true">
+    <pre><code class="language-css">border-radius: 10px;</code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true">
+      <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+  </div>
 
-    <div class="example-choice">
-        <pre><code class="language-css">border-radius: 10px 50%;</code></pre>
-        <button type="button" class="copy hidden" aria-hidden="true">
-            <span class="visually-hidden">Copy to Clipboard</span>
-        </button>
-    </div>
+  <div class="example-choice">
+    <pre><code class="language-css">border-radius: 10px 50%;</code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true">
+      <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+  </div>
 
-    <div class="example-choice">
-        <pre><code class="language-css">border-radius: 10px 5px 6em / 20px 25px 30%;</code></pre>
-        <button type="button" class="copy hidden" aria-hidden="true">
-            <span class="visually-hidden">Copy to Clipboard</span>
-        </button>
-    </div>
+  <div class="example-choice">
+    <pre><code class="language-css">border-radius: 10px 5px 6em / 20px 25px 30%;</code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true">
+      <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+  </div>
 </section>
 ```
 
@@ -80,32 +80,32 @@ Now we've finished writing the HTML for the example. The final version of `borde
 
 ```html
 <section id="example-choice-list" class="example-choice-list large" data-property="border-radius">
-    <div class="example-choice" initial-choice="true">
-        <pre><code class="language-css">border-radius: 10px;</code></pre>
-        <button type="button" class="copy hidden" aria-hidden="true">
-            <span class="visually-hidden">Copy to Clipboard</span>
-        </button>
-    </div>
+  <div class="example-choice" initial-choice="true">
+    <pre><code class="language-css">border-radius: 10px;</code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true">
+      <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+  </div>
 
-    <div class="example-choice">
-        <pre><code class="language-css">border-radius: 10px 50%;</code></pre>
-        <button type="button" class="copy hidden" aria-hidden="true">
-            <span class="visually-hidden">Copy to Clipboard</span>
-        </button>
-    </div>
+  <div class="example-choice">
+    <pre><code class="language-css">border-radius: 10px 50%;</code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true">
+      <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+  </div>
 
-    <div class="example-choice">
-        <pre><code class="language-css">border-radius: 10px 5px 6em / 20px 25px 30%;</code></pre>
-        <button type="button" class="copy hidden" aria-hidden="true">
-            <span class="visually-hidden">Copy to Clipboard</span>
-        </button>
-    </div>
+  <div class="example-choice">
+    <pre><code class="language-css">border-radius: 10px 5px 6em / 20px 25px 30%;</code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true">
+      <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+  </div>
 </section>
 
 <div id="output" class="output large hidden">
-    <section id="default-example" class="default-example">
-        <div id="example-element" class="transition-all">Style Me!</div>
-    </section>
+  <section id="default-example" class="default-example">
+    <div id="example-element" class="transition-all">Style Me!</div>
+  </section>
 </div>
 ```
 
@@ -115,8 +115,8 @@ When you're writing examples, please make sure that they conform to the [CSS Exa
 
 In general, to add an example for a property, it should be supported by most browser engines. Sometimes browser engines require a vendor prefix for the property, like `-webkit-` or `-moz-`. In this situation, you should:
 
--   supply all relevant variants in the `data-property` attribute
--   include all relevant variants in the example choices.
+- supply all relevant variants in the `data-property` attribute
+- include all relevant variants in the example choices.
 
 For example, suppose you want to add an example for [`box-decoration-break`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break). This is supported unprefixed by Firefox but requires the `-webkit-` prefix in Chrome. To deal with this you would set `data-property` like this:
 
@@ -130,12 +130,12 @@ You would then use both variants in the example choices:
 
 ```html
 <div class="example-choice">
-    <pre><code class="language-css">box-decoration-break: clone;
+  <pre><code class="language-css">box-decoration-break: clone;
 -webkit-box-decoration-break: clone;
 box-shadow: 8px 8px 10px 0 #ff1492, -5px -5px 5px 0 #00f, 5px 5px 15px 0 #ff0;</code></pre>
-    <button type="button" class="copy hidden" aria-hidden="true">
-        <span class="visually-hidden">Copy to Clipboard</span>
-    </button>
+  <button type="button" class="copy hidden" aria-hidden="true">
+    <span class="visually-hidden">Copy to Clipboard</span>
+  </button>
 </div>
 ```
 
@@ -145,9 +145,9 @@ Next, let's provide some extra styling for the example element. Create a new CSS
 
 ```css
 #example-element {
-    background-color: #74992e;
-    width: 250px;
-    height: 80px;
+  background-color: #74992e;
+  width: 250px;
+  height: 80px;
 }
 ```
 
@@ -183,8 +183,8 @@ The `title` property is displayed above the editor, and should be of the form: "
 
 The guidance above assumes you're documenting a CSS property. But you can also write examples for CSS functions, like [`linear-gradient()`](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient), or types, like [`angle`](https://developer.mozilla.org/en-US/docs/Web/CSS/angle). If you do this, there are a couple of special considerations.
 
--   the name of the HTML file you write must be prefixed with `function-` for functions, or `type-` for types.
--   in the meta.json file, the name of the output HTML file must be prefixed in the same way.
+- the name of the HTML file you write must be prefixed with `function-` for functions, or `type-` for types.
+- in the meta.json file, the name of the output HTML file must be prefixed in the same way.
 
 So the meta.json entry for a function would look like:
 
