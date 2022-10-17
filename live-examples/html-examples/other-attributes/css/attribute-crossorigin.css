@@ -1,0 +1,11 @@
+label {
+    font-weight: bold;
+}
+
+#logBox {
+    height: 200px;
+    width: 250px;
+    resize: none;
+    outline: none;
+    margin-top: 10px;
+}

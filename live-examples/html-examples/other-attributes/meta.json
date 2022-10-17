@@ -1,0 +1,15 @@
+{
+    "pages": {
+        "crossorigin": {
+            "exampleCode": "./live-examples/html-examples/other-attributes/attribute-crossorigin.html",
+            "cssExampleSrc": "./live-examples/html-examples/other-attributes/css/attribute-crossorigin.css",
+            "jsExampleSrc": "./live-examples/html-examples/other-attributes/js/attribute-crossorigin.js",
+            "fileName": "attribute-crossorigin.html",
+            "title": "HTML Demo: crossorigin",
+            "type": "tabbed",
+            "defaultTab": "html",
+            "tabs": "html,css,js",
+            "height": "tabbed-standard"
+        }
+    }
+}
