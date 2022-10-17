@@ -9,7 +9,7 @@
             "type": "tabbed",
             "defaultTab": "html",
             "tabs": "html,css,js",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         }
     }
 }
