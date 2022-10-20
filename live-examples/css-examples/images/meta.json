@@ -7,6 +7,13 @@
             "title": "CSS Demo: aspect-ratio",
             "type": "css"
         },
+        "imageOrientation": {
+            "cssExampleSrc": "./live-examples/css-examples/images/image-orientation.css",
+            "exampleCode": "./live-examples/css-examples/images/image-orientation.html",
+            "fileName": "image-orientation.html",
+            "title": "CSS Demo: image-orientation",
+            "type": "css"
+        },
         "imageRendering": {
             "cssExampleSrc": "./live-examples/css-examples/images/image-rendering.css",
             "exampleCode": "./live-examples/css-examples/images/image-rendering.html",
