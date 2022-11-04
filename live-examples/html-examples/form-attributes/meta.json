@@ -78,6 +78,14 @@
             "type": "tabbed",
             "height": "tabbed-standard"
         },
+        "pattern": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-pattern.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-pattern.css",
+            "fileName": "attribute-pattern.html",
+            "title": "HTML Demo: pattern",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
         "readonly": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-readonly.html",
             "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-readonly.css",
