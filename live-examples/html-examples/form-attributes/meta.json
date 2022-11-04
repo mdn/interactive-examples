@@ -86,6 +86,14 @@
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
+        "size": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-size.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-size.css",
+            "fileName": "attribute-size.html",
+            "title": "HTML Demo: size",
+            "type": "tabbed",
+            "height": "tabbed-standard"
+        },
         "step": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-step.html",
             "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-step.css",
