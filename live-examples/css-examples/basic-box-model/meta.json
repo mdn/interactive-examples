@@ -133,6 +133,14 @@
             "title": "CSS Demo: overflow",
             "type": "css"
         },
+        "overflowAnchor": {
+            "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overflow-anchor.css",
+            "exampleCode": "./live-examples/css-examples/basic-box-model/overflow-anchor.html",
+            "jsExampleSrc": "./live-examples/css-examples/basic-box-model/overflow-anchor.js",
+            "fileName": "overflow-anchor.html",
+            "title": "CSS Demo: overflow-anchor",
+            "type": "css"
+        },
         "overflowBlock": {
             "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overflow.css",
             "exampleCode": "./live-examples/css-examples/basic-box-model/overflow-block.html",

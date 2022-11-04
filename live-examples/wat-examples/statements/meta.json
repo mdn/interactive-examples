@@ -16,7 +16,7 @@
         },
         "call": {
             "watExampleCode": "./live-examples/wat-examples/statements/call.wat",
-            "jsExampleCode": "./live-examples/wat-examples/console.js",
+            "jsExampleCode": "./live-examples/wat-examples/statements/call.js",
             "fileName": "call.html",
             "title": "Wat Demo: call",
             "type": "wat"
