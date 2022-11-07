@@ -1,4 +1,4 @@
-console.log(Object.is("mdn", "mdn"));
+console.log(Object.is('mdn', 'mdn'));
 // expected output: true
 
 console.log(Object.is(NaN, NaN));
