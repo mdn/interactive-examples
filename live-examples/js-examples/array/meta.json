@@ -108,6 +108,12 @@
             "title": "JavaScript Demo: Array.indexOf()",
             "type": "js"
         },
+        "arrayIsArray": {
+            "exampleCode": "./live-examples/js-examples/array/array-isarray.js",
+            "fileName": "array-isarray.html",
+            "title": "JavaScript Demo: Array.isArray()",
+            "type": "js"
+        },
         "arrayIterator": {
             "exampleCode": "./live-examples/js-examples/array/array-iterator.js",
             "fileName": "array-iterator.html",
