@@ -19,7 +19,7 @@ Please make sure the example conforms to the [JS Example Style Guide](JS-Example
 
 All that remains is to tell the page generator about our new example. To do this, open up `meta.json` in the current folder (i.e. at "./live-examples/js-examples/array/meta.json"). This file contains a single JSON object `pages`, with one property for each example. Add a property for the new example, keeping the properties of `pages` in alphabetical order:
 
-```
+```json
 "arrayFrom": {
     "exampleCode": "./live-examples/js-examples/array/array-from.js",
     "fileName": "array-from.html",
