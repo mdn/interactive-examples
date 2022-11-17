@@ -150,6 +150,12 @@
             "title": "JavaScript Demo: Object.seal()",
             "type": "js"
         },
+        "objectSetPrototypeOf": {
+            "exampleCode": "./live-examples/js-examples/object/object-setprototypeof.js",
+            "fileName": "object-setprototypeof.html",
+            "title": "JavaScript Demo: Object.setPrototypeOf()",
+            "type": "js"
+        },
         "objectValues": {
             "exampleCode": "./live-examples/js-examples/object/object-values.js",
             "fileName": "object-values.html",
