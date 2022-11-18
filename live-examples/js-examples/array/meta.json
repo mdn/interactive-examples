@@ -150,6 +150,12 @@
             "title": "JavaScript Demo: Array.map()",
             "type": "js"
         },
+        "arrayOf": {
+            "exampleCode": "./live-examples/js-examples/array/array-of.js",
+            "fileName": "array-of.html",
+            "title": "JavaScript Demo: Array.of()",
+            "type": "js"
+        },
         "arrayPush": {
             "exampleCode": "./live-examples/js-examples/array/array-push.js",
             "fileName": "array-push.html",
