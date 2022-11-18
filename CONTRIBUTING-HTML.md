@@ -23,9 +23,9 @@ HTML examples are all stored under `./live-examples/html-examples`. Under there,
 
 Each of these directories contains:
 
-- a file called "meta.json", which is a kind of manifest for all the examples in that directory.
-- an HTML file for each example, whose name is the name of the element, for example "td.html"
-- a directory called "css" that contains CSS files for each example, whose name is the name of the element, for example "td.css".
+- a file called `meta.json`, which is a kind of manifest for all the examples in that directory.
+- an HTML file for each example, whose name is the name of the element, for example `td.html`.
+- a directory called `css` that contains CSS files for each example, whose name is the name of the element, for example `td.css`.
 
 ## Example walkthrough
 
