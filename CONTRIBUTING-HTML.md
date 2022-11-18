@@ -33,14 +33,14 @@ In this section we'll go through the basic steps needed to add an HTML interacti
 
 ### Writing the example
 
-The `<td>` element is in the ["Table content"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Table_content) category. So let's navigate to "./live-examples/html-examples/table-content". If "table-content" doesn't exist, create it.
+The `<td>` element is in the ["Table content"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Table_content) category. So let's navigate to `./live-examples/html-examples/table-content`. If `table-content` doesn't exist, you'll need to create it first.
 
 ```bash
 mkdir live-examples/html-examples/table-content
 cd live-examples/html-examples/table-content
 ```
 
-Create a new file whose name is the name of the element or attribute you are demonstrating, and give it an "html" suffix:
+Create a new file whose name is the name of the element or attribute you are demonstrating, and give it a `.html` suffix:
 
 ```bash
 touch td.html
