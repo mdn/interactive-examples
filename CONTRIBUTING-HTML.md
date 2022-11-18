@@ -71,8 +71,7 @@ In this file we'll add the HTML fragment that will be displayed in the HTML edit
 ## Styling the example
 
 Often the example will want some CSS. In this case, the table will be much easier to read if it's given some basic styling.
-
-To add CSS, create a new file under "./live-examples/html-examples/table-content/css". Give it the same name as the HTML file, but with a ".css" prefix.
+To add CSS, create a new file under `./live-examples/html-examples/table-content/css`. Give it the same name as the HTML file, but with a `.css` prefix.
 
 ```bash
 cd live-examples/html-examples/table-content/css
@@ -96,11 +95,11 @@ thead {
 }
 ```
 
-Follow the [mdn-fiori CSS formatting guidelines](https://mdn.github.io/mdn-fiori/patterns/css/formatting/).
+For the HTML and CSS additions, make sure you follow the [MDN code style guide](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide).
 
 ## Updating the metadata
 
-In "./live-examples/html-examples/table-content/" you'll need a file called "meta.json". This tells the site builder about the examples inside the directory. If it doesn't exist, create it. If it does, open it,
+In `./live-examples/html-examples/table-content/`, you'll need a file called `meta.json`. This tells the site builder about the examples inside the directory. If it doesn't exist, you'll need to create it. If it does exist, open it to view the file contents.
 
 It contains a JSON object whose most interesting property is an object called `pages`. Each property of `pages` is a page we want the site builder to build:
 
@@ -139,10 +138,6 @@ Add a property under `pages` describing your example. The example for `<td>` cou
 Note that entries in `pages` are in alphabetical order, please preserve that when adding your page.
 
 Once you've finished writing the example, see the [Testing](CONTRIBUTING.md#testing) section for the next step.
-
-The final example should look something like this:
-
-![Final example](https://screenshotscdn.firefoxusercontent.com/images/9e834e75-98a7-4c57-be32-455138aa8c69.png)
 
 ## Guidelines
 
