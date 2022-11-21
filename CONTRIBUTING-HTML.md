@@ -95,7 +95,7 @@ thead {
 }
 ```
 
-For the HTML and CSS additions, make sure you follow the [MDN code style guide](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide).
+For all additions, make sure you follow the [MDN code style guide](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide).
 
 ## Updating the metadata
 
@@ -138,6 +138,10 @@ Add a property under `pages` describing your example. The example for `<td>` cou
 Note that entries in `pages` are in alphabetical order, please preserve that when adding your page.
 
 Once you've finished writing the example, see the [Testing](CONTRIBUTING.md#testing) section for the next step.
+
+The final example should look something like this:
+
+![Code editor example combining HTML and CSS amd demonstrating the result](./media/html-example-screenshot.png)
 
 ## Guidelines
 
