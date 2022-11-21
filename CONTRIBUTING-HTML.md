@@ -12,7 +12,7 @@ In this section we'll walk through creating an example for the [`<td>`](https://
 
 ## Example structure
 
-HTML examples are all stored under "./live-examples/html-examples". Under there, they are grouped into directories according to the categorization in the [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element):
+HTML examples are all stored under `./live-examples/html-examples`. Under there, they are grouped into directories according to the categorization in the [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element):
 
 - main-root
 - document-metadata
@@ -23,9 +23,9 @@ HTML examples are all stored under "./live-examples/html-examples". Under there,
 
 Each of these directories contains:
 
-- a file called "meta.json", which is a kind of manifest for all the examples in that directory.
-- an HTML file for each example, whose name is the name of the element, for example "td.html"
-- a directory called "css" that contains CSS files for each example, whose name is the name of the element, for example "td.css".
+- a file called `meta.json`, which is a kind of manifest for all the examples in that directory.
+- an HTML file for each example, whose name is the name of the element, for example `td.html`.
+- a directory called `css` that contains CSS files for each example, whose name is the name of the element, for example `td.css`.
 
 ## Example walkthrough
 
@@ -33,14 +33,14 @@ In this section we'll go through the basic steps needed to add an HTML interacti
 
 ### Writing the example
 
-The `<td>` element is in the ["Table content"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Table_content) category. So let's navigate to "./live-examples/html-examples/table-content". If "table-content" doesn't exist, create it.
+The `<td>` element is in the ["Table content"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Table_content) category. So let's navigate to `./live-examples/html-examples/table-content`. If `table-content` doesn't exist, you'll need to create it first.
 
 ```bash
 mkdir live-examples/html-examples/table-content
 cd live-examples/html-examples/table-content
 ```
 
-Create a new file whose name is the name of the element or attribute you are demonstrating, and give it an "html" suffix:
+Create a new file whose name is the name of the element or attribute you are demonstrating, and give it a `.html` suffix:
 
 ```bash
 touch td.html
@@ -71,8 +71,7 @@ In this file we'll add the HTML fragment that will be displayed in the HTML edit
 ## Styling the example
 
 Often the example will want some CSS. In this case, the table will be much easier to read if it's given some basic styling.
-
-To add CSS, create a new file under "./live-examples/html-examples/table-content/css". Give it the same name as the HTML file, but with a ".css" prefix.
+To add CSS, create a new file under `./live-examples/html-examples/table-content/css`. Give it the same name as the HTML file, but with a `.css` prefix.
 
 ```bash
 cd live-examples/html-examples/table-content/css
@@ -96,11 +95,11 @@ thead {
 }
 ```
 
-Follow the [mdn-fiori CSS formatting guidelines](https://mdn.github.io/mdn-fiori/patterns/css/formatting/).
+For all additions, make sure you follow the [MDN code style guide](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide).
 
 ## Updating the metadata
 
-In "./live-examples/html-examples/table-content/" you'll need a file called "meta.json". This tells the site builder about the examples inside the directory. If it doesn't exist, create it. If it does, open it,
+In `./live-examples/html-examples/table-content/`, you'll need a file called `meta.json`. This tells the site builder about the examples inside the directory. If it doesn't exist, you'll need to create it. If it does exist, open it to view the file contents.
 
 It contains a JSON object whose most interesting property is an object called `pages`. Each property of `pages` is a page we want the site builder to build:
 
@@ -142,7 +141,7 @@ Once you've finished writing the example, see the [Testing](CONTRIBUTING.md#test
 
 The final example should look something like this:
 
-![Final example](https://screenshotscdn.firefoxusercontent.com/images/9e834e75-98a7-4c57-be32-455138aa8c69.png)
+![Code editor example combining HTML and CSS amd demonstrating the result](./media/html-example-screenshot.png)
 
 ## Guidelines
 
@@ -358,7 +357,7 @@ To see this in action, see the example for [`<wbr>`](https://interactive-example
 
 ### Fonts
 
-Because the editor uses Shadow DOM to isolate the example, you can't use `@font-face` to include extra fonts in your example. We've included a number of extra fonts in the [shadow-fonts.css](https://github.com/mdn/interactive-examples/blob/main/css/editor-libs/shadow-fonts.css) file, and you can use these with a normal `font-family` declaration:
+Because the editor uses Shadow DOM to isolate the example, you can't use `@font-face` to include extra fonts in your example. We've included a number of extra fonts in the [shadow-fonts.css](https://github.com/mdn/bob/blob/main/editor/css/editor-libs/shadow-fonts.css) file, and you can use these with a normal `font-family` declaration:
 
 ```css
 p {
