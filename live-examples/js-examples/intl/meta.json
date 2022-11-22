@@ -156,6 +156,12 @@
             "title": "JavaScript Demo: Intl.prototype.toString()",
             "type": "js"
         },
+        "intlPluralRulesPrototypeResolvedOptions": {
+            "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-prototype-resolvedoptions.js",
+            "fileName": "intl-pluralrules-prototype-resolvedoptions.html",
+            "title": "JavaScript Demo: Intl.PluralRules.prototype.resolvedOptions()",
+            "type": "js"
+        },
         "intlPluralRulesPrototypeSelect": {
             "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-prototype-select.js",
             "fileName": "intl-pluralrules-prototype-select.html",

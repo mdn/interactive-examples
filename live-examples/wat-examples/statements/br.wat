@@ -9,17 +9,17 @@
     (loop $my_loop
 
       ;; add one to $i
-      get_global $i
+      global.get $i
       i32.const 1
       i32.add
-      set_global $i
+      global.set $i
 
       ;; log the current value of $i
-      get_global $i
+      global.get $i
       call $log
 
       ;; if $i is less than 10 branch to loop
-      get_global $i
+      global.get $i
       i32.const 10
       i32.lt_s
       br_if $my_loop
