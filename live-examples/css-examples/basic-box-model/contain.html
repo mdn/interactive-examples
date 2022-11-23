@@ -38,19 +38,12 @@
 <div id="output" class="output large hidden">
     <section id="default-example" class="default-example">
         <div id="example-element" class="card">
-            <div class="list-wrapper">
-                <ul>
-                    <li>
-                        With <code>size</code>, the element will not grow or shrink to fit its content. This element has
-                        a width and min-height so it doesn't collapse to 0x0px.
-                    </li>
-                    <li>With <code>layout</code>, the fixed box uses the containing element as a layout context.</li>
-                    <li>
-                        With <code>paint</code>, elements that overflow the bounding box of the containing element are
-                        not painted.
-                    </li>
-                    <li>With <code>strict</code>, all types of containment are applied.</li>
-                </ul>
+            <div class="wrapper">
+                <p>Card Title</p>
+                <p>
+                    Some example text that's a bit longer to make up the space of the card. The element will not grow or
+                    shrink to fit its content when size containment is applied.
+                </p>
             </div>
 
             <div class="fixed"><p>Fixed box element</p></div>

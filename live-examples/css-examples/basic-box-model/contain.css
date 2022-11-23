@@ -1,32 +1,28 @@
 #default-example {
     text-align: left;
     padding: 10px;
-    background-color: grey;
     font-size: 16px;
 }
 
-.list-wrapper {
-    width: 80%;
-}
-
-.fixed {
-    position: fixed;
-    top: 100px;
-    right: 0px;
-    background-color: #09f;
-    color: #fff;
-    padding: 20px;
-    border-radius: 4px;
-    height: 100px;
+.wrapper {
+    width: 60%;
 }
 
 .card {
     text-align: left;
-    background: #fff;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
+    border: 3px dotted;
     padding: 10px;
     margin: 10px;
-    width: 80%;
-    min-height: 120px;
+    width: 60%;
+    min-height: 60px;
+}
+
+.fixed {
+    position: fixed;
+    border: 3px dotted;
+    top: 100px;
+    right: 0px;
+    padding: 10px;
+    height: 100px;
+    margin: 10px;
 }
