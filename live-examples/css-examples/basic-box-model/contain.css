@@ -1,30 +1,32 @@
-#example-element {
-    border: 1px solid #c5c5c5;
-    padding: .75em;
-    text-align: left;
-    width: 80%;
-    line-height: normal;
-}
-
-.floating {
-    border: solid 10px #ffc129;
-    background-color: rgba(255, 244, 219, .6);
-    padding: 1em;
-    width: 40%;
-    height: 100px;
-    margin-right: 10px;
-    float: left;
-}
 #default-example {
     text-align: left;
-    counter-set: count;
+    padding: 10px;
+    background-color: grey;
+    font-size: 16px;
 }
 
-h2 {
-    counter-increment: count;
-    font-size: 1em;
+.list-wrapper {
+    width: 80%;
 }
 
-h2::after {
-    content: ": " counter(count) ;
+.fixed {
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    background-color: #09f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    height: 100px;
+}
+
+.card {
+    text-align: left;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    min-height: 120px;
 }
