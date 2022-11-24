@@ -8,6 +8,14 @@
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
+        "autocomplete": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-autocomplete.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-autocomplete.css",
+            "fileName": "attribute-autocomplete.html",
+            "title": "HTML Demo: autocomplete",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
         "capture": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-capture.html",
             "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-capture.css",
@@ -70,6 +78,14 @@
             "type": "tabbed",
             "height": "tabbed-standard"
         },
+        "pattern": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-pattern.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-pattern.css",
+            "fileName": "attribute-pattern.html",
+            "title": "HTML Demo: pattern",
+            "type": "tabbed",
+            "height": "tabbed-shorter"
+        },
         "readonly": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-readonly.html",
             "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-readonly.css",
@@ -77,6 +93,14 @@
             "title": "HTML Demo: readonly",
             "type": "tabbed",
             "height": "tabbed-shorter"
+        },
+        "size": {
+            "exampleCode": "./live-examples/html-examples/form-attributes/attribute-size.html",
+            "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-size.css",
+            "fileName": "attribute-size.html",
+            "title": "HTML Demo: size",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         },
         "step": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-step.html",
