@@ -47,12 +47,12 @@ This may make more sense in the context of the following example:
 
 ```js
 const collatorDe = new Intl.Collator('de', {
-    usage: 'search',
-    sensitivity: 'base',
+  usage: 'search',
+  sensitivity: 'base',
 });
 const collatorFr = new Intl.Collator('fr', {
-    usage: 'search',
-    sensitivity: 'base',
+  usage: 'search',
+  sensitivity: 'base',
 });
 ```
 
@@ -74,16 +74,16 @@ For example:
 
 ```js
 function monster1(disposition) {
-    this.disposition = disposition;
+  this.disposition = disposition;
 }
 
 const handler1 = {
-    construct: (target, args) => {
-        console.log('monster1 constructor called');
-        // expected output: "monster1 constructor called"
+  construct: (target, args) => {
+    console.log('monster1 constructor called');
+    // expected output: "monster1 constructor called"
 
-        return new target(...args);
-    },
+    return new target(...args);
+  },
 };
 
 const proxy1 = new Proxy(monster1, handler1);
@@ -118,10 +118,10 @@ If you wish to use an error to illustrate a method, wrap it in a `try/catch` blo
 
 ```js
 try {
-    Intl.getCanonicalLocales('EN_US');
+  Intl.getCanonicalLocales('EN_US');
 } catch (err) {
-    console.log(err);
-    // expected output: RangeError: invalid language tag: EN_US
+  console.log(err);
+  // expected output: RangeError: invalid language tag: EN_US
 }
 ```
 
@@ -176,10 +176,10 @@ For example:
 
 ```js
 construct: (target, args) => {
-    console.log('monster1 constructor called');
-    // expected output: "monster1 constructor called"
+  console.log('monster1 constructor called');
+  // expected output: "monster1 constructor called"
 
-    return new target(...args);
+  return new target(...args);
 };
 ```
 

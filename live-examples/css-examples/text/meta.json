@@ -7,6 +7,13 @@
             "title": "CSS Demo: hanging-punctuation",
             "type": "css"
         },
+        "hyphenateCharacter": {
+            "cssExampleSrc": "./live-examples/css-examples/text/hyphenate-character.css",
+            "exampleCode": "./live-examples/css-examples/text/hyphenate-character.html",
+            "fileName": "hyphenate-character.html",
+            "title": "CSS Demo: hyphenate-character",
+            "type": "css"
+        },
         "hyphens": {
             "cssExampleSrc": "./live-examples/css-examples/text/hyphens.css",
             "exampleCode": "./live-examples/css-examples/text/hyphens.html",

@@ -16,11 +16,11 @@ Want to contribute to the interactive examples project? Here are a couple of goo
 
 ## Folder structure
 
--   [css] - This contains the CSS used by the base templates.
--   [js] - This contains the JS used by the base templates.
--   [live-examples] - This contains the live example CSS and JS fragments.
--   [media] - This contains images used by the live examples and templates.
--   [tmpl] - The base templates.
+- [css] - This contains the CSS used by the base templates.
+- [js] - This contains the JS used by the base templates.
+- [live-examples] - This contains the live example CSS and JS fragments.
+- [media] - This contains images used by the live examples and templates.
+- [tmpl] - The base templates.
 
 The dynamically generated pages, their dependencies, and assets are generated to the `prod` branch.
 
@@ -28,12 +28,12 @@ The dynamically generated pages, their dependencies, and assets are generated to
 
 The following is a list of browser/version combinations that are supported by the interactive editor. In browsers that do not meet the criteria, the editor degrades gracefully to displaying static examples.
 
--   Firefox - Latest three release versions.
--   Chrome - Latest three release versions.
--   Opera - Latest two release versions.
--   Safari - Latest two release versions.
--   Internet Explorer - version 11.
--   Edge - Latest release version.
+- Firefox - Latest three release versions.
+- Chrome - Latest three release versions.
+- Opera - Latest two release versions.
+- Safari - Latest two release versions.
+- Internet Explorer - version 11.
+- Edge - Latest release version.
 
 ## Contributing
 
