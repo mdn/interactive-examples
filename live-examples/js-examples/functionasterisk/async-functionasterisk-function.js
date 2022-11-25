@@ -9,10 +9,10 @@ const foo = new AsyncGeneratorFunction(`
 let str = '';
 
 async function generate() {
-    for await (const val of foo()) {
-        str = str + val;
-    }
-    console.log(str);
+  for await (const val of foo()) {
+    str = str + val;
+  }
+  console.log(str);
 }
 
 generate();

@@ -8,7 +8,7 @@ const foo = new GeneratorFunction(`
 
 let str = '';
 for (const val of foo()) {
-    str = str + val;
+  str = str + val;
 }
 
 console.log(str);
