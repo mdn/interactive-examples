@@ -1,0 +1,13 @@
+{
+    "pages": {
+        "querySelector": {
+            "exampleCode": "./live-examples/webapi-examples/navigator/useragent/navigatoruseragent.html",
+            "jsExampleSrc": "./live-examples/webapi-examples/navigator/useragent/js/navigatoruseragent.js",
+            "fileName": "navigatoruseragent.html",
+            "title": "Web API Demo: Navigator.userAgent",
+            "height": "tabbed-standard",
+            "type": "webapi-tabbed",
+            "tabs": "html,js"
+        }
+    }
+}
