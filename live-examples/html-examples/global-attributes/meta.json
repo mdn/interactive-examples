@@ -103,6 +103,14 @@
             "title": "HTML Demo: title",
             "type": "tabbed",
             "height": "tabbed-shorter"
+        },
+        "class": {
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-autocapitalize.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-autocapitalize.css",
+            "fileName": "attribute-autocapitalize.html",
+            "title": "HTML Demo: autocapitalize",
+            "type": "tabbed",
+            "height": "tabbed-standard"
         }
     }
 }
