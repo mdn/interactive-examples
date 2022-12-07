@@ -66,6 +66,12 @@
             "title": "JavaScript Demo: Symbol.prototype.toString()",
             "type": "js"
         },
+        "symbolPrototypeValueOf": {
+            "exampleCode": "./live-examples/js-examples/symbol/symbol-prototype-valueof.js",
+            "fileName": "symbol-prototype-valueof.html",
+            "title": "JavaScript Demo: Symbol.prototype.valueOf()",
+            "type": "js"
+        },
         "symbolReplace": {
             "exampleCode": "./live-examples/js-examples/symbol/symbol-replace.js",
             "fileName": "symbol-replace.html",
