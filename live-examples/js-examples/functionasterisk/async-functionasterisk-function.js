@@ -1,4 +1,4 @@
-const AsyncGeneratorFunction = (async function* () {}).constructor;
+const AsyncGeneratorFunction = async function* () {}.constructor;
 
 const foo = new AsyncGeneratorFunction(`
   yield await Promise.resolve('a');
