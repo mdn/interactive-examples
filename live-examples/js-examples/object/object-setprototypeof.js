@@ -1,5 +1,5 @@
 const obj = {};
-const parent = { foo: "bar" };
+const parent = { foo: 'bar' };
 
 console.log(obj.foo);
 // expected output: undefined
