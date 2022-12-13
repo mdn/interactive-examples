@@ -1,12 +1,10 @@
-function Foo() {}
-function Bar() {}
+const obj = {};
+const parent = { foo: "bar" };
 
-const obj = new Foo();
+console.log(obj.foo);
+// expected output: undefined
 
-console.log(obj.constructor);
-// expected output: function Foo() {}
+Object.setPrototypeOf(obj, parent);
 
-Object.setPrototypeOf(obj, Bar.prototype);
-
-console.log(obj.constructor);
-// expected output: function Bar() {}
+console.log(obj.foo);
+// expected output: "bar"
