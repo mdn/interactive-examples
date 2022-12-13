@@ -1,5 +1,5 @@
-console.log(Object.is('mdn', 'mdn'));
-// expected output: true
+console.log(Object.is('1', 1));
+// expected output: false
 
 console.log(Object.is(NaN, NaN));
 // expected output: true
