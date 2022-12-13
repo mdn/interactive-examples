@@ -7,6 +7,6 @@ console.log(Object.is(NaN, NaN));
 console.log(Object.is(-0, 0));
 // expected output: false
 
-let obj = {};
+const obj = {};
 console.log(Object.is(obj, {}));
 // expected output: false
