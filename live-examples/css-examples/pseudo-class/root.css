@@ -1,6 +1,7 @@
 :root {
-  --text-color: #917413;
+  --text-color: rebeccapurple;
 }
+
 p {
   color: var(--text-color);
 }
