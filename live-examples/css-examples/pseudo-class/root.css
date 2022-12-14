@@ -1,3 +1,4 @@
 :root {
-  font-family: georgia;
-  }
+  --bg-color: #917413;
+  background-color: var(--bg-color);
+}
