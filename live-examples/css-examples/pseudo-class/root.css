@@ -1,4 +1,6 @@
 :root {
-  --bg-color: #917413;
-  background-color: var(--bg-color);
+  --text-color: #917413;
+}
+p {
+  color: var(--text-color);
 }
