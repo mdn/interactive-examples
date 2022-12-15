@@ -98,36 +98,31 @@ Once you're satisfied, the final step is to [submit your pull request](https://h
 After your pull request is reviewed and merged, you can publish your example on MDN Web Docs. On the page that corresponds to the example, add the following to the page source (typically after the introductory paragraph):
 
 ```html
-<div>{{EmbedInteractiveExample("pages/TYPE/FILENAME")}}</div>
-
-<p class="hidden">
-  The source for this interactive example is stored in a GitHub repository. If you'd like to contribute to the
-  interactive examples project, please clone
-  <a href="https://github.com/mdn/interactive-examples">https://github.com/mdn/interactive-examples</a> and send us a
-  pull request.
-</p>
+{{EmbedInteractiveExample("pages/TYPE/FILENAME", HEIGHT)}}
 ```
 
-where `TYPE` is the kind of example (such as `js`, `css`, or `tabbed`) and `FILENAME` is the name of the file that contains the example (like `margin.html` or `date-constructor.html`).
+- **TYPE** corresponds to the value of the `type` property in `meta.json` of the example. Possible values are `js`, `css`, and `tabbed`.
+- **FILENAME** corresponds to the value of `fileName` property in `meta.json`. For example `input-color.html`.
 
-### Short or tall examples
+### **HEIGHT** argument
 
-For HTML and JS examples, there are three different possible heights for the editor: short, standard, and tall. If your example is short or tall you need to pass an extra parameter to `EmbedInteractiveExample`, like this:
-
+For CSS examples this argument must always be skipped. To include the margin example, the following code should be placed:
 ```plain
-{{EmbedInteractiveExample("pages/js/reflect-deleteproperty.html", "taller")}}
+{{EmbedInteractiveExample("pages/css/margin.html")}}
 ```
 
-or
-
+For HTML examples or any other `tabbed` type, the value of **HEIGHT** argument should match the value of property `height` in `meta.json` of the example. Possible values are: `"tabbed-shorter"`, `"tabbed-standard"` and `"tabbed-taller"`, so `EmbedInteractiveExample` might look like any of those:
 ```plain
-{{EmbedInteractiveExample("pages/js/string-length.html", "shorter")}}
+{{EmbedInteractiveExample("pages/tabbed/dfn.html", "tabbed-shorter")}}
+```
+```plain
+{{EmbedInteractiveExample("pages/tabbed/del.html", "tabbed-standard")}}
+```
+```plain
+{{EmbedInteractiveExample("pages/tabbed/colgroup.html", "tabbed-taller")}}
 ```
 
-How do you know if your example is short or tall?
-
-- for HTML examples, this is a thing you set explicitly, by supplying a CSS class in the example source. See [Changing the editor height](CONTRIBUTING-HTML.md#changing-the-editor-height).
-- for JS examples, short or tall editors are selected automatically for you:
+For JS examples, the editor is automatically selecting the appropriate height, based on the amount of lines in the example:
   - Examples less than 7 lines long get the short editor, so you should provide the `"shorter"` argument to `EmbedInteractiveExample`
   - Examples 7-12 lines inclusive get the standard editor, so you should not provide any extra argument to `EmbedInteractiveExample`
   - Examples 13 or more lines long get the tall editor, so you should provide the `"taller"` argument to `EmbedInteractiveExample`
