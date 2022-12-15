@@ -303,7 +303,7 @@ For the HTML editor there are three CSS classes that can be applied to the edito
 Usage is as follows. When adding the meta information for your example, set the `height` property to one of the classes specified above. For example:
 
 ```json
-"abbr": {
+"date": {
     "exampleCode": "./live-examples/html-examples/input/date.html",
     "cssExampleSrc": "./live-examples/html-examples/input/css/date.css",
     "fileName": "input-date.html",
