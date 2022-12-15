@@ -8,19 +8,11 @@ If you're interested in contributing to this project, great! This file should he
 
 There are many ways you can help improve this repository! For example:
 
-- **Write a brand-new example:** for example, you might notice that there are no
-  examples for a particular [CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference).
-- **Improve an existing example:** for example,
-  you might notice a problem with an existing example, or some way it could be made more helpful.
-- **Fix a bug:** we have a list of [issues](https://github.com/mdn/interactive-examples/issues),
-  or maybe you found your own.
+- **Write a brand-new example.** There are still many pages missing an interactive example, but which could benefit from it. Look for HTML, CSS or JS pages, describing a specific feature, such as HTML attribute, CSS property, JS function. Make sure this feature is supported by a stable version of Chrome and Firefox browsers.
+- **Improve an existing example.** You could add new CSS value, which is well supported by browsers, improve color contrast, fix typos or add some other changes which would make example more helpful to the users.
+- **Fix a bug:** we have a list of [issues](https://github.com/mdn/interactive-examples/issues), or maybe you found your own.
 
 This guide focuses on contributing examples, although we welcome contributions to the [editor and infrastructure code as well](https://github.com/mdn/bob).
-
-## Good first issues
-
-- [Examples needed](https://github.com/mdn/interactive-examples/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22example+needed%22+no%3Aassignee)
-- [Help wanted](https://github.com/mdn/interactive-examples/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22help+wanted%22+no%3Aassignee)
 
 ## Setup
 
