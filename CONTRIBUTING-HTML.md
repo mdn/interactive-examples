@@ -206,7 +206,7 @@ If we add line breaks after each attribute, the example is much more readable:
 
 #### HTML output formal guidelines
 
-By default and with a browser window width of 1008 pixels, the editor for the HTML examples is 590 pixels high by 349 pixels wide. At those dimensions, does the example look good? If you make the browser window narrower, the editor will change its shape and show the output plane underneath, does the layout of the example still look OK?
+By default (with a browser window width of at least 1008 pixels) the editor for the HTML examples is 590 pixels high by 349 pixels wide. You should check if the example looks good at these dimensions. If you make the viewport width narrower, the output panel is collapsed below the editor. You should check if the example still looks good when it's displayed in a vertical layout for these smaller dimensions.
 
 ### Content guidelines
 
