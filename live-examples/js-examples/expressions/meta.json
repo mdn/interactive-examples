@@ -18,6 +18,12 @@
             "title": "JavaScript Demo: Expressions - Assignment",
             "type": "js"
         },
+        "expressionsAsyncFunction": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-async-function.js",
+            "fileName": "expressions-async-function.html",
+            "title": "JavaScript Demo: Expressions - Async Function",
+            "type": "js"
+        },
         "expressionsAsyncFunctionAsterisk": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-async-function-asterisk.js",
             "fileName": "expressions-async-function-asterisk.html",
