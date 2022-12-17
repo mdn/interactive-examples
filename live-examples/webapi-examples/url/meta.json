@@ -1,0 +1,100 @@
+{
+    "pages": {
+        "url": {
+            "exampleCode": "./live-examples/webapi-examples/url/url.js",
+            "fileName": "url.html",
+            "title": "JavaScript Demo: URL",
+            "type": "js"
+        },
+        "urlConstructor": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-constructor.js",
+            "fileName": "url-constructor.html",
+            "title": "JavaScript Demo: URL Constructor",
+            "type": "js"
+        },
+        "urlPrototypeHash": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-hash.js",
+            "fileName": "url-prototype-hash.html",
+            "title": "JavaScript Demo: URL.prototype.hash",
+            "type": "js"
+        },
+        "urlPrototypeHost": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-host.js",
+            "fileName": "url-prototype-host.html",
+            "title": "JavaScript Demo: URL.prototype.host",
+            "type": "js"
+        },
+        "urlPrototypeHostname": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-hostname.js",
+            "fileName": "url-prototype-hostname.html",
+            "title": "JavaScript Demo: URL.prototype.hostname",
+            "type": "js"
+        },
+        "urlPrototypeHref": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-href.js",
+            "fileName": "url-prototype-href.html",
+            "title": "JavaScript Demo: URL.prototype.href",
+            "type": "js"
+        },
+        "urlPrototypeOrigin": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-origin.js",
+            "fileName": "url-prototype-origin.html",
+            "title": "JavaScript Demo: URL.prototype.origin",
+            "type": "js"
+        },
+        "urlPrototypePassword": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-password.js",
+            "fileName": "url-prototype-password.html",
+            "title": "JavaScript Demo: URL.prototype.password",
+            "type": "js"
+        },
+        "urlPrototypePathname": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-pathname.js",
+            "fileName": "url-prototype-pathname.html",
+            "title": "JavaScript Demo: URL.prototype.pathname",
+            "type": "js"
+        },
+        "urlPrototypePort": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-port.js",
+            "fileName": "url-prototype-port.html",
+            "title": "JavaScript Demo: URL.prototype.port",
+            "type": "js"
+        },
+        "urlPrototypeProtocol": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-protocol.js",
+            "fileName": "url-prototype-protocol.html",
+            "title": "JavaScript Demo: URL.prototype.protocol",
+            "type": "js"
+        },
+        "urlPrototypeSearch": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-search.js",
+            "fileName": "url-prototype-search.html",
+            "title": "JavaScript Demo: URL.prototype.search",
+            "type": "js"
+        },
+        "urlPrototypeSearchParams": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-searchparams.js",
+            "fileName": "url-prototype-searchparams.html",
+            "title": "JavaScript Demo: URL.prototype.searchParams",
+            "type": "js"
+        },
+        "urlPrototypeToJSON": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-tojson.js",
+            "fileName": "url-prototype-tojson.html",
+            "title": "JavaScript Demo: URL.prototype.toJSON()",
+            "type": "js"
+        },
+        "urlPrototypeToString": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-tostring.js",
+            "fileName": "url-prototype-tostring.html",
+            "title": "JavaScript Demo: URL.prototype.toString()",
+            "type": "js"
+        },
+        "urlPrototypeUsername": {
+            "exampleCode": "./live-examples/webapi-examples/url/url-prototype-username.js",
+            "fileName": "url-prototype-username.html",
+            "title": "JavaScript Demo: URL.prototype.username",
+            "type": "js"
+        }
+    }
+}
