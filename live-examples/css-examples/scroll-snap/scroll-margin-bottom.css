@@ -1,6 +1,6 @@
 .default-example .info {
     inline-size: 100%;
-    padding: .5em 0;
+    padding: 0.5em 0;
     font-size: 90%;
     writing-mode: vertical-rl;
 }

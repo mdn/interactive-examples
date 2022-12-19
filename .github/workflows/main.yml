@@ -22,6 +22,9 @@ jobs:
       - name: Lint JS code
         run: yarn lint:js
 
+      - name: Lint CSS code
+        run: yarn lint:css
+
       - name: Build all
         run: yarn build
 

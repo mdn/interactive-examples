@@ -2,7 +2,7 @@
     width: 35em;
     height: 18em;
     border: medium dotted;
-    padding: .75em;
+    padding: 0.75em;
     text-align: left;
     overflow: auto;
     display: flex;
@@ -16,8 +16,8 @@
     width: 50%;
     height: 12em;
     border: medium dotted #1b76c4;
-    padding: .3em;
-    margin: 0 .3em;
+    padding: 0.3em;
+    margin: 0 0.3em;
     text-align: left;
     overflow: auto;
     overscroll-behavior: contain;

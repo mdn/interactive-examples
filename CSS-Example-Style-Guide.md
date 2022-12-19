@@ -86,3 +86,15 @@ This can be a difficult constraint to satisfy, but you should test at this width
 ## CSS syntax
 
 The interactive-examples project follows the same guidelines with regards to CSS code style as other projects that form part of the MDN Web Docs project. To ease review time for everyone, and ensure good coding practice, please review the guidelines on [terminology](https://schalkneethling.github.io/mdn-fiori/patterns/css/terminology/) and [formatting](https://schalkneethling.github.io/mdn-fiori/patterns/css/formatting/) when writing CSS.
+
+You can validate your example anytime by running the following npm script:
+
+```sh
+yarn run lint:css
+```
+
+We've also provided the following command:
+
+```sh
+yarn run fix:css
+```

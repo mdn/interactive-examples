@@ -1,5 +1,5 @@
 .example-container {
-    background-image: url(/media/examples/balloon.jpg);
+    background-image: url('/media/examples/balloon.jpg');
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -13,5 +13,5 @@
     flex: 1;
     text-align: center;
     padding: 20px 10px;
-    background-color: rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, 0.2);
 }

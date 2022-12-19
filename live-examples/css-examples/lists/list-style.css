@@ -15,14 +15,14 @@
 .output hr {
     width: 50%;
     color: lightgray;
-    margin: .5em;
+    margin: 0.5em;
 }
 
 .output .note {
-    font-size: .8rem;
+    font-size: 0.8rem;
 }
 
 @counter-style space-counter {
-    symbols: "\1F680" "\1F6F8" "\1F6F0" "\1F52D";
-    suffix: " "
+    symbols: '\1F680''\1F6F8''\1F6F0''\1F52D';
+    suffix: ' ';
 }

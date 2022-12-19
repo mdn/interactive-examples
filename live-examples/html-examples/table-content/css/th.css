@@ -12,12 +12,12 @@ tr:nth-child(even) {
     background-color: #eee;
 }
 
-th[scope="col"] {
+th[scope='col'] {
     background-color: #696969;
     color: #fff;
 }
 
-th[scope="row"] {
+th[scope='row'] {
     background-color: #d7d9f2;
 }
 
@@ -31,5 +31,5 @@ table {
     border: 2px solid rgb(200, 200, 200);
     letter-spacing: 1px;
     font-family: sans-serif;
-    font-size: .8rem;
+    font-size: 0.8rem;
 }

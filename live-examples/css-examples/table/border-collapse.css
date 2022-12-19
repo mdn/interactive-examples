@@ -6,5 +6,5 @@ table {
 td {
     border: 5px solid;
     border-color: crimson dodgerblue orange limegreen;
-    padding: .75rem;
+    padding: 0.75rem;
 }
