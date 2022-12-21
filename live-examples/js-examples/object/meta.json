@@ -72,6 +72,12 @@
             "title": "JavaScript Demo: Object.getPrototypeOf()",
             "type": "js"
         },
+        "objectIs": {
+            "exampleCode": "./live-examples/js-examples/object/object-is.js",
+            "fileName": "object-is.html",
+            "title": "JavaScript Demo: Object.is()",
+            "type": "js"
+        },
         "objectHasOwn": {
             "exampleCode": "./live-examples/js-examples/object/object-hasown.js",
             "fileName": "object-hasown.html",
