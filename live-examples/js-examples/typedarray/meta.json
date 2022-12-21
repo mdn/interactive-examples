@@ -84,6 +84,12 @@
             "title": "JavaScript Demo: TypedArray.findLastIndex()",
             "type": "js"
         },
+        "typedarrayForEach": {
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-foreach.js",
+            "fileName": "typedarray-foreach.html",
+            "title": "JavaScript Demo: TypedArray.forEach()",
+            "type": "js"
+        },
         "typedarrayFrom": {
             "exampleCode": "./live-examples/js-examples/typedarray/typedarray-from.js",
             "fileName": "typedarray-from.html",
@@ -150,6 +156,12 @@
             "title": "JavaScript Demo: TypedArray.reduce()",
             "type": "js"
         },
+        "typedarrayReduceRight": {
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-reduceright.js",
+            "fileName": "typedarray-reduceright.html",
+            "title": "JavaScript Demo: TypedArray.reduceRight()",
+            "type": "js"
+        },
         "typedarrayReverse": {
             "exampleCode": "./live-examples/js-examples/typedarray/typedarray-reverse.js",
             "fileName": "typedarray-reverse.html",
@@ -184,6 +196,12 @@
             "exampleCode": "./live-examples/js-examples/typedarray/typedarray-subarray.js",
             "fileName": "typedarray-subarray.html",
             "title": "JavaScript Demo: TypedArray.subarray()",
+            "type": "js"
+        },
+        "typedarrayToLocaleString": {
+            "exampleCode": "./live-examples/js-examples/typedarray/typedarray-tolocalestring.js",
+            "fileName": "typedarray-tolocalestring.html",
+            "title": "JavaScript Demo: TypedArray.toLocaleString()",
             "type": "js"
         },
         "typedarrayToString": {
