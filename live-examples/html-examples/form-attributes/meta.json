@@ -38,7 +38,7 @@
             "fileName": "attribute-for.html",
             "title": "HTML Demo: for",
             "type": "tabbed",
-            "height": "tabbed-standard"
+            "height": "tabbed-shorter"
         },
         "max": {
             "exampleCode": "./live-examples/html-examples/form-attributes/attribute-max.html",
