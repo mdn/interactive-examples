@@ -6,7 +6,7 @@ console.log(event.getDate());
 // expected output: 24
 
 event.setDate(32);
-// Only 31 days in August!
+// only 31 days in August!
 
 console.log(event.getDate());
 // expected output: 1

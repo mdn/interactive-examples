@@ -9,6 +9,6 @@ class ClassWithStaticMethod {
 }
 
 console.log(ClassWithStaticMethod.staticProperty);
-// output: "someValue"
+// expected output: "someValue"
 console.log(ClassWithStaticMethod.staticMethod());
-// output: "static method has been called."
+// expected output: "static method has been called."

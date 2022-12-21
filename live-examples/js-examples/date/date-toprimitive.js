@@ -1,4 +1,4 @@
-// Depending on timezone, your results will vary
+// depending on timezone, your results will vary
 const date = new Date('20 December 2019 14:48');
 
 console.log(date[Symbol.toPrimitive]('string'));

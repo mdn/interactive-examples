@@ -4,9 +4,9 @@ console.log(event.getUTCFullYear());
 // expected output: 1976
 
 console.log(event.toUTCString());
-// expected output: Thu, 01 Jan 1976 02:15:30 GMT
+// expected output: "Thu, 01 Jan 1976 02:15:30 GMT"
 
 event.setUTCFullYear(1975);
 
 console.log(event.toUTCString());
-// expected output: Wed, 01 Jan 1975 02:15:30 GMT
+// expected output: "Wed, 01 Jan 1975 02:15:30 GMT"

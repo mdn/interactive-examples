@@ -1,4 +1,4 @@
-// Calculates angle of a right-angle triangle in radians
+// calculates angle of a right-angle triangle in radians
 function calcAngle(opposite, hypotenuse) {
   return Math.asin(opposite / hypotenuse);
 }

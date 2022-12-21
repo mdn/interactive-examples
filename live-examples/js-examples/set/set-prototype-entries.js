@@ -6,6 +6,6 @@ const iterator1 = set1.entries();
 
 for (const entry of iterator1) {
   console.log(entry);
-  // expected output: [42, 42]
-  // expected output: ["forty two", "forty two"]
+  // expected output: Array [42, 42]
+  // expected output: Array ["forty two", "forty two"]
 }
