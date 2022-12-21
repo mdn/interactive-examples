@@ -3,4 +3,4 @@ const options1 = { localeMatcher: 'lookup', granularity: 'string' };
 
 console.log(Intl.Segmenter.supportedLocalesOf(locales1, options1));
 // expected output: Array ["id-u-co-pinyin", "de-ID"]
-// (note: the exact output may be browser-dependent)
+// (Note: the exact output may be browser-dependent)

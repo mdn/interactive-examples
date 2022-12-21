@@ -1,4 +1,4 @@
-// depending on timezone, your results will vary
+// Depending on timezone, your results will vary
 const event = new Date('August 19, 1975 23:15:30 GMT+00:00');
 
 console.log(event.toLocaleTimeString('en-US'));

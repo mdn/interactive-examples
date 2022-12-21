@@ -2,7 +2,7 @@
 const buffer = new ArrayBuffer(8);
 const uint8 = new Uint8Array(buffer);
 
-// copy the values into the array starting at index 3
+// Copy the values into the array starting at index 3
 uint8.set([1, 2, 3], 3);
 
 console.log(uint8);

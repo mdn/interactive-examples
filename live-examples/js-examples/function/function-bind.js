@@ -6,7 +6,7 @@ const module = {
 };
 
 const unboundGetX = module.getX;
-console.log(unboundGetX()); // the function gets invoked at the global scope
+console.log(unboundGetX()); // The function gets invoked at the global scope
 // expected output: undefined
 
 const boundGetX = unboundGetX.bind(module);

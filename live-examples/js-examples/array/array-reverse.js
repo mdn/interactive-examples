@@ -6,6 +6,6 @@ const reversed = array1.reverse();
 console.log('reversed:', reversed);
 // expected output: "reversed:" Array ["three", "two", "one"]
 
-// careful: reverse is destructive -- it changes the original array.
+// Careful: reverse is destructive -- it changes the original array.
 console.log('array1:', array1);
 // expected output: "array1:" Array ["three", "two", "one"]

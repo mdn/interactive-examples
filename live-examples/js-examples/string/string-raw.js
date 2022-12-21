@@ -1,5 +1,5 @@
 
-// create a variable that uses a Windows
+// Create a variable that uses a Windows
 // path without escaping the backslashes:
 const filePath = String.raw`C:\Development\profile\aboutme.html`;
 

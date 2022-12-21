@@ -8,6 +8,6 @@ const promise2 = new Promise((resolve, reject) => {
 
 Promise.race([promise1, promise2]).then((value) => {
   console.log(value);
-  // both resolve, but promise2 is faster
+  // Both resolve, but promise2 is faster
 });
 // expected output: "two"

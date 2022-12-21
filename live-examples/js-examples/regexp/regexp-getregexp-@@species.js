@@ -1,5 +1,5 @@
 class MyRegExp extends RegExp {
-  // overwrite MyRegExp species to the parent RegExp constructor
+  // Overwrite MyRegExp species to the parent RegExp constructor
   static get [Symbol.species]() {
     return RegExp;
   }

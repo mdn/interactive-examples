@@ -5,7 +5,7 @@ try {
 } catch (err) {
   console.log(err);
   // expected output: TypeError: invalid assignment to const `number'
-  // (note: the exact output may be browser-dependent)
+  // (Note: the exact output may be browser-dependent)
 }
 
 console.log(number);

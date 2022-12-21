@@ -5,7 +5,7 @@ const obj = {
 Object.freeze(obj);
 
 obj.prop = 33;
-// throws an error in strict mode
+// Throws an error in strict mode
 
 console.log(obj.prop);
 // expected output: 42

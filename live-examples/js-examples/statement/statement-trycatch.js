@@ -3,5 +3,5 @@ try {
 } catch (error) {
   console.error(error);
   // expected output: ReferenceError: nonExistentFunction is not defined
-  // (note: the exact output may be browser-dependent)
+  // (Note: the exact output may be browser-dependent)
 }

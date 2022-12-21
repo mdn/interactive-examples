@@ -1,7 +1,7 @@
 // create an ArrayBuffer with a size in bytes
 const buffer = new ArrayBuffer(16);
 
-// highest possible BigInt value that fits in an unsigned 64-bit integer
+// Highest possible BigInt value that fits in an unsigned 64-bit integer
 const max = 2n ** 64n - 1n;
 
 const view = new DataView(buffer);
