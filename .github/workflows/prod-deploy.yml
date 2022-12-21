@@ -4,6 +4,12 @@ on:
     push:
         branches:
             - 'main'
+        paths:
+            - './bin/**'
+            - './live-examples/**'
+            - './media/**'
+            - 'Jenkinsfile'
+            - 'package.json'
     workflow_dispatch:
 
 jobs:
