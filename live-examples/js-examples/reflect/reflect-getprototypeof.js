@@ -5,7 +5,7 @@ const object1 = {
 const proto1 = Reflect.getPrototypeOf(object1);
 
 console.log(proto1);
-// expected output: [object Object]
+// expected output: Object {  }
 
 console.log(Reflect.getPrototypeOf(proto1));
 // expected output: null

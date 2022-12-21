@@ -1,4 +1,4 @@
-//create an ArrayBuffer
+// create an ArrayBuffer
 const buffer = new ArrayBuffer(123);
 
 // Create a view
