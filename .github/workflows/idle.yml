@@ -1,9 +1,8 @@
 name: "Label idle issues"
 
 on:
-  push:
-  pull_request_target:
-    types: [synchronize]
+  schedule:
+  -  cron: '0 8 * * *'
 
 jobs:
   mark-as-idle:
