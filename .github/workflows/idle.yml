@@ -1,0 +1,12 @@
+name: "Label Idle Issues"
+
+on:
+  push:
+  pull_request_target:
+    types: [synchronize]
+
+jobs:
+  mark-as-idle:
+    uses: mdn/workflows/.github/workflows/mark-as-idle.yml@main
+    with:
+      target-repo: "mdn/beginner-html-site-scripted"
