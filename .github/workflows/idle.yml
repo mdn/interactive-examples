@@ -9,4 +9,4 @@ jobs:
   mark-as-idle:
     uses: mdn/workflows/.github/workflows/mark-as-idle.yml@main
     with:
-      target-repo: "mdn/beginner-html-site-scripted"
+      target-repo: "mdn/interactive-examples"
