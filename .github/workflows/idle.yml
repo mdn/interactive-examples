@@ -1,4 +1,4 @@
-name: "Label Idle Issues"
+name: "Label idle issues"
 
 on:
   push:
