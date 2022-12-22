@@ -8,4 +8,4 @@ const object1 = {
 };
 
 console.log(+object1);
-// expected output: 42
+// Expected output: 42

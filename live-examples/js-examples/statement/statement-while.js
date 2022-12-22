@@ -5,4 +5,4 @@ while (n < 3) {
 }
 
 console.log(n);
-// expected output: 3
+// Expected output: 3

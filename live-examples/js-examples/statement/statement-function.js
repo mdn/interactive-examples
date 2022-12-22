@@ -3,4 +3,4 @@ function calcRectArea(width, height) {
 }
 
 console.log(calcRectArea(5, 6));
-// expected output: 30
+// Expected output: 30

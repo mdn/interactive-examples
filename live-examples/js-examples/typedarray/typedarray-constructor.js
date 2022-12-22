@@ -6,7 +6,7 @@ const typedArray2 = new Int8Array(typedArray1);
 typedArray2[1] = 42;
 
 console.log(typedArray1);
-// expected output: Int8Array [32, 0, 0, 0, 0, 0, 0, 0]
+// Expected output: Int8Array [32, 0, 0, 0, 0, 0, 0, 0]
 
 console.log(typedArray2);
-// expected output: Int8Array [32, 42, 0, 0, 0, 0, 0, 0]
+// Expected output: Int8Array [32, 42, 0, 0, 0, 0, 0, 0]

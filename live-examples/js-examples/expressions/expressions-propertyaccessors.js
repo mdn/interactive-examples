@@ -3,7 +3,7 @@ person1['firstname'] = 'Mario';
 person1['lastname'] = 'Rossi';
 
 console.log(person1.firstname);
-// expected output: "Mario"
+// Expected output: "Mario"
 
 const person2 = {
   firstname: 'John',
@@ -11,4 +11,4 @@ const person2 = {
 };
 
 console.log(person2['lastname']);
-// expected output: "Doe"
+// Expected output: "Doe"

@@ -7,6 +7,6 @@ class ClassWithStaticInitializationBlock {
 }
 
 console.log(ClassWithStaticInitializationBlock.staticProperty1);
-// expected output: "Property 1"
+// Expected output: "Property 1"
 console.log(ClassWithStaticInitializationBlock.staticProperty2);
-// expected output: "Property 2"
+// Expected output: "Property 2"

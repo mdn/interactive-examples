@@ -8,4 +8,4 @@ class Search1 {
 }
 
 console.log('foobar'.search(new Search1('bar')));
-// expected output: 3
+// Expected output: 3

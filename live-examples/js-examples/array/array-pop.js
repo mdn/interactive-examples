@@ -1,12 +1,12 @@
 const plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
 
 console.log(plants.pop());
-// expected output: "tomato"
+// Expected output: "tomato"
 
 console.log(plants);
-// expected output: Array ["broccoli", "cauliflower", "cabbage", "kale"]
+// Expected output: Array ["broccoli", "cauliflower", "cabbage", "kale"]
 
 plants.pop();
 
 console.log(plants);
-// expected output: Array ["broccoli", "cauliflower", "cabbage"]
+// Expected output: Array ["broccoli", "cauliflower", "cabbage"]

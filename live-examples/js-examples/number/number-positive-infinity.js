@@ -6,7 +6,7 @@ function checkNumber(bigNumber) {
 }
 
 console.log(checkNumber(Number.MAX_VALUE));
-// expected output: 1.7976931348623157e+308
+// Expected output: 1.7976931348623157e+308
 
 console.log(checkNumber(Number.MAX_VALUE * 2));
-// expected output: "Process number as Infinity"
+// Expected output: "Process number as Infinity"

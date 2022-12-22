@@ -14,7 +14,7 @@ const proxy1 = new Proxy(monster1, handler1);
 // Object.setPrototypeOf(proxy1, monsterProto); // Throws a TypeError
 
 console.log(Reflect.setPrototypeOf(proxy1, monsterProto));
-// expected output: false
+// Expected output: false
 
 console.log(monster1.geneticallyModified);
-// expected output: true
+// Expected output: true

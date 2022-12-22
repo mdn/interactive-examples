@@ -5,4 +5,4 @@ const object1 = {
 };
 
 console.log(Object.getOwnPropertyNames(object1));
-// expected output: Array ["a", "b", "c"]
+// Expected output: Array ["a", "b", "c"]

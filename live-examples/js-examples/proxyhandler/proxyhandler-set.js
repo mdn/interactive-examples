@@ -13,11 +13,11 @@ const handler1 = {
 const proxy1 = new Proxy(monster1, handler1);
 
 proxy1.eyeCount = 1;
-// expected output: "Monsters must have an even number of eyes"
+// Expected output: "Monsters must have an even number of eyes"
 
 console.log(proxy1.eyeCount);
-// expected output: 4
+// Expected output: 4
 
 proxy1.eyeCount = 2;
 console.log(proxy1.eyeCount);
-// expected output: 2
+// Expected output: 2

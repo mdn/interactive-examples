@@ -8,4 +8,4 @@ function test(t) {
 let x;
 
 console.log(test(x));
-// expected output: "Undefined value!"
+// Expected output: "Undefined value!"

@@ -7,4 +7,4 @@ set1.add('forty two');
 set1.add(object1);
 
 console.log(set1.size);
-// expected output: 3
+// Expected output: 3

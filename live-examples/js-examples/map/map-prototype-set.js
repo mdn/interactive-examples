@@ -2,7 +2,7 @@ const map1 = new Map();
 map1.set('bar', 'foo');
 
 console.log(map1.get('bar'));
-// expected output: "foo"
+// Expected output: "foo"
 
 console.log(map1.get('baz'));
-// expected output: undefined
+// Expected output: undefined

@@ -15,7 +15,7 @@ const handler1 = {
 const proxy1 = new Proxy(monster1, handler1);
 
 console.log(proxy1.eyeCount);
-// expected output: 4
+// Expected output: 4
 
 console.log(proxy1.secret);
-// expected output: "easi ... shhhh!"
+// Expected output: "easi ... shhhh!"

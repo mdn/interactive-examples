@@ -9,4 +9,4 @@ object1.property1 = 77;
 // Throws an error in strict mode
 
 console.log(object1.property1);
-// expected output: 42
+// Expected output: 42

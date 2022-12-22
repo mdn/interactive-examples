@@ -5,7 +5,7 @@ uint8[0] = 7;
 
 // 7 + 2 = 9
 console.log(Atomics.add(uint8, 0, 2));
-// expected output: 7
+// Expected output: 7
 
 console.log(Atomics.load(uint8, 0));
-// expected output: 9
+// Expected output: 9

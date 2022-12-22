@@ -9,4 +9,4 @@ const Rectangle = class {
 };
 
 console.log(new Rectangle(5, 8).area());
-// expected output: 40
+// Expected output: 40

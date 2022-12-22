@@ -5,4 +5,4 @@ const view = new DataView(buffer);
 view.setFloat32(1, Math.PI);
 
 console.log(view.getFloat32(1));
-// expected output: 3.1415927410125732
+// Expected output: 3.1415927410125732

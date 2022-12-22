@@ -21,6 +21,6 @@ const delayedResponses = {
   }
 })();
 
-// expected output: "Delayed response for 500 milliseconds"
-// expected output: "Delayed response for 1300 milliseconds"
-// expected output: "Delayed response for 3500 milliseconds"
+// Expected output: "Delayed response for 500 milliseconds"
+// Expected output: "Delayed response for 1300 milliseconds"
+// Expected output: "Delayed response for 3500 milliseconds"

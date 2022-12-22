@@ -3,10 +3,10 @@ const object1 = {
 };
 
 console.log(Object.hasOwn(object1, 'prop'));
-// expected output: true
+// Expected output: true
 
 console.log(Object.hasOwn(object1, 'toString'));
-// expected output: false
+// Expected output: false
 
 console.log(Object.hasOwn(object1, 'undeclaredPropertyValue'));
-// expected output: false
+// Expected output: false
