@@ -7,4 +7,4 @@ do {
 } while (i < 5);
 
 console.log(result);
-// expected result: "12345"
+// Expected output: "12345"
