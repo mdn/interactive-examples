@@ -4,9 +4,9 @@ on:
     workflow_dispatch:
         inputs:
             notes:
-              description: "Notes"
-              required: false
-              default: ""
+                description: 'Notes'
+                required: false
+                default: ''
 
 jobs:
     build:
@@ -35,7 +35,7 @@ jobs:
 
             - name: Build all
               # TODO: bob uses relative paths in bundles. For now we just symlink.
-              run:  |
+              run: |
                   ln -s ../bob/node_modules .
                   node ../bob/lib/mdn-bob.js
               working-directory: examples
