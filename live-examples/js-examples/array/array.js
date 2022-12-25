@@ -13,10 +13,11 @@ console.log(names.length); // 2
 
 const top = names.pop();
 
-console.log(top);   // 'Bem'
+console.log(top); // 'Bem'
 console.log(names); // [ 'Aisha' ]
 console.log(names.length); // 1
 
-const array2 = [123, "abc", { objectWithAge: 67 }, null];
+const array2 = [123, 'abc', { objectWithAge: 67 }, null];
 
-const nestedArrays = [ array2, [], [ [1,2,3], [4,5,6] ] ];
+const nestedArrays = [ array2, [], [ [1, 2, 3], [4, 5, 6] ] ];
+console.log(nestedArrays.length); // 3
