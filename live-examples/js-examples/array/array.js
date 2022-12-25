@@ -14,3 +14,7 @@ const top = names.pop();
 
 console.log(top);   // 'Bem'
 console.log(names); // [ 'Aisha' ]
+
+const array2 = [123, "abc", { objectWithAge: 67 }, null];
+
+const nestedArrays = [ array2, [], [ [1,2,3], [4,5,6] ] ];
