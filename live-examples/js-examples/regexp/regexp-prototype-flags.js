@@ -1,4 +1,4 @@
-// outputs RegExp flags in alphabetical order
+// Outputs RegExp flags in alphabetical order
 
 console.log(/foo/ig.flags);
 // expected output: "gi"
