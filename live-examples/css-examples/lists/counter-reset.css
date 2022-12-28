@@ -14,5 +14,5 @@ h2 {
 }
 
 h2::before {
-    content: "Chapter " counters(chapter-count, ".") ": ";
+    content: 'Chapter ' counters(chapter-count, '.') ': ';
 }

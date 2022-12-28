@@ -1,5 +1,5 @@
 .logo {
-    background: left / cover url(/media/examples/puppy-header-logo.jpg);
+    background: left / cover url('/media/examples/puppy-header-logo.jpg');
     display: flex;
     height: 120px;
     align-items: center;
@@ -10,7 +10,7 @@
 }
 
 header > h1 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 header > time {

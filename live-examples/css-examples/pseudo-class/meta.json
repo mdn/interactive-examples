@@ -306,6 +306,15 @@
             "defaultTab": "css",
             "height": "tabbed-standard"
         },
+        "root": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/root.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/root.html",
+            "fileName": "pseudo-class-root.html",
+            "title": "CSS Demo: :root",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
         "valid": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/valid.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/valid.html",

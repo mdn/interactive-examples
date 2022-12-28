@@ -6,5 +6,5 @@ console.log(event.getMinutes());
 // expected output: 45
 
 console.log(event);
-// expected output: Tue Aug 19 1975 23:45:30 GMT+0200 (CEST)
+// expected output: "Tue Aug 19 1975 23:45:30 GMT+0200 (CEST)"
 // (note: your timezone may vary)

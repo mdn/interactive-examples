@@ -15,11 +15,13 @@
     "main": "index.js",
     "scripts": {
         "build": "mdn-bob",
+        "fix:css": "yarn lint:css --fix",
+        "fix:js": "eslint --fix ./live-examples/js-examples",
+        "lint:css": "stylelint \"**/*.css\"",
+        "lint:js": "eslint ./live-examples/js-examples",
         "start-server": "http-server -p 9090 ./docs",
         "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'yarn run build' --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
-        "lint:js": "eslint ./live-examples/js-examples",
-        "lint:js:fix": "eslint --fix ./live-examples/js-examples",
         "test": "yarn lint:js"
     },
     "keywords": [
@@ -34,17 +36,17 @@
         "node": "^16.0.0 || >=18.0.0"
     },
     "devDependencies": {
-        "@babel/core": "^7.20.2",
+        "@babel/core": "^7.20.7",
         "@babel/eslint-parser": "^7.19.1",
-        "ajv": "^8.11.2",
         "chokidar-cli": "^3.0.0",
-        "eslint": "^8.28.0",
+        "eslint": "^8.30.0",
         "http-server": "^14.1.1",
         "mdn-bob": "^2.2.0",
         "npm-run-all": "^4.1.5",
-        "prettier": "^2.7.1",
+        "prettier": "^2.8.1",
         "prettier-eslint": "^15.0.1",
-        "prettier-stylelint": "^0.4.2",
-        "stylelint": "^14.15.0"
+        "stylelint": "^14.16.0",
+        "stylelint-config-prettier": "^9.0.3",
+        "stylelint-prettier": "^2.0.0"
     }
 }

@@ -4,7 +4,7 @@ console.log(5 > 3);
 console.log(3 > 3);
 // expected output: false
 
-// Compare bigint to number (note: bigint is not supported in all browsers)
+// Compare bigint to number
 console.log(3n > 5);
 // expected output: false
 

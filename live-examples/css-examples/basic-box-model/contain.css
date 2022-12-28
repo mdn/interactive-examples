@@ -1,17 +1,26 @@
-#example-element {
-    border: 1px solid #c5c5c5;
-    padding: .75em;
-    text-align: left;
-    width: 80%;
-    line-height: normal;
+h2 {
+    margin-top: 0;
 }
 
-.floating {
-    border: solid 10px #ffc129;
-    background-color: rgba(255, 244, 219, .6);
-    padding: 1em;
-    width: 40%;
-    height: 150px;
-    margin-right: 10px;
-    float: left;
+#default-example {
+    text-align: left;
+    padding: 4px;
+    font-size: 16px;
+}
+
+.card {
+    text-align: left;
+    border: 3px dotted;
+    padding: 20px;
+    margin: 10px;
+    width: 85%;
+    min-height: 150px;
+}
+
+.fixed {
+    position: fixed;
+    border: 3px dotted;
+    right: 4px;
+    padding: 4px;
+    margin: 4px;
 }

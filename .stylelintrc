@@ -1,4 +1,5 @@
 {
+    "extends": ["stylelint-prettier/recommended"],
     "rules": {
         "at-rule-name-case": "lower",
         "at-rule-name-space-after": "always-single-line",
@@ -10,7 +11,7 @@
         "block-opening-brace-newline-after": "always",
         "block-opening-brace-space-before": "always",
         "color-hex-case": "lower",
-        "color-named": "never",
+        "color-named": null,
         "color-no-invalid-hex": true,
         "comment-no-empty": true,
         "declaration-bang-space-after": "never",
@@ -22,7 +23,7 @@
         "declaration-block-trailing-semicolon": "always",
         "declaration-colon-space-after": "always-single-line",
         "declaration-colon-space-before": "never",
-        "declaration-empty-line-before": ["never", { ignore: ["after-comment", "after-declaration"] }],
+        "declaration-empty-line-before": ["never", { "ignore": ["after-comment", "after-declaration"] }],
         "declaration-no-important": true,
         "font-family-name-quotes": "always-where-recommended",
         "font-family-no-duplicate-names": true,
@@ -30,7 +31,7 @@
         "function-name-case": "lower",
         "function-url-no-scheme-relative": true,
         "function-url-quotes": "always",
-        "indentation": [4, { ignore: ["value"] }],
+        "indentation": [4, { "ignore": ["value"] }],
         "keyframe-declaration-no-important": true,
         "length-zero-no-unit": true,
         "max-empty-lines": 2,
@@ -38,7 +39,7 @@
         "media-feature-colon-space-after": "always",
         "media-feature-colon-space-before": "never",
         "media-feature-name-case": "lower",
-        "media-feature-name-no-unknown": [true, { ignoreMediaFeatureNames: ["min--moz-device-pixel-ratio"]}],
+        "media-feature-name-no-unknown": [true, { "ignoreMediaFeatureNames": ["min--moz-device-pixel-ratio"]}],
         "media-feature-parentheses-space-inside": "never",
         "media-feature-range-operator-space-after": "always",
         "media-feature-range-operator-space-before": "always",
@@ -51,11 +52,10 @@
         "no-invalid-double-slash-comments": true,
         "no-missing-end-of-source-newline": true,
         "no-unknown-animations": true,
-        "number-leading-zero": "never",
         "number-no-trailing-zeros": true,
         "property-case": "lower",
         "property-no-unknown": true,
-        "rule-empty-line-before": ["always", { ignore: ["after-comment", "inside-block"] }],
+        "rule-empty-line-before": ["always", { "ignore": ["after-comment", "inside-block"] }],
         "selector-combinator-space-after": "always",
         "selector-combinator-space-before": "always",
         "selector-list-comma-newline-after": "always",
@@ -71,6 +71,6 @@
         "string-quotes": "single",
         "unit-case": "lower",
         "unit-no-unknown": true,
-        "value-keyword-case": "lower",
+        "value-keyword-case": "lower"
     }
 }
