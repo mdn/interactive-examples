@@ -10,4 +10,4 @@ futureDate.setTime(futureDate.getTime() + fiveMinutesInMillis);
 
 console.log(futureDate);
 // expected output: "Thu Jul 01 1999 12:05:00 GMT+0200 (CEST)"
-// (Note: your timezone may vary)
+// Note: your timezone may vary
