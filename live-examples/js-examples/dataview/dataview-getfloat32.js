@@ -1,4 +1,4 @@
-// create an ArrayBuffer with a size in bytes
+// Create an ArrayBuffer with a size in bytes
 const buffer = new ArrayBuffer(16);
 
 const view = new DataView(buffer);

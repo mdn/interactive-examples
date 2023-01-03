@@ -7,4 +7,4 @@ console.log(event.getMonth());
 
 console.log(event);
 // expected output: "Sat Apr 19 1975 23:15:30 GMT+0100 (CET)"
-// (note: your timezone may vary)
+// Note: your timezone may vary

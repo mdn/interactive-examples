@@ -1,7 +1,7 @@
 function clean(x) {
   // eslint-disable-next-line use-isnan
   if (x === Number.NaN) {
-    // can never be true
+    // Can never be true
     return null;
   }
   if (isNaN(x)) {
