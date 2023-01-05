@@ -1,4 +1,4 @@
-name: "PR Needs Rebase"
+name: 'PR Needs Rebase'
 
 on:
   push:
@@ -9,6 +9,6 @@ jobs:
   label-rebase-needed:
     uses: mdn/workflows/.github/workflows/pr-rebase-needed.yml@main
     with:
-      target-repo: "mdn/interactive-examples"
+      target-repo: 'mdn/interactive-examples'
     secrets:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
