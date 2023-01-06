@@ -63,6 +63,7 @@
     },
     "globals": {
         "SharedArrayBuffer": true,
+        "WeakRef": true,
         "Atomics": true,
         "BigInt": true,
         "getShadowRoot": true,
