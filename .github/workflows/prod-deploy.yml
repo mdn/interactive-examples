@@ -5,9 +5,9 @@ on:
     branches:
       - 'main'
     paths:
-      - './bin/**'
-      - './live-examples/**'
-      - './media/**'
+      - 'bin/**'
+      - 'live-examples/**'
+      - 'media/**'
       - 'Jenkinsfile'
       - 'package.json'
   workflow_dispatch:
