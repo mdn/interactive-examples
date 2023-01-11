@@ -1,51 +1,51 @@
 name: publish-release
 
 on:
-    push:
-        branches:
-            - main
+  push:
+    branches:
+      - main
 
 jobs:
-    publish-release:
-        uses: mdn/workflows/.github/workflows/publish-release.yml@main
+  publish-release:
+    uses: mdn/workflows/.github/workflows/publish-release.yml@main
+    with:
+      npm-publish: ${{ false }}
+      target-repo: 'mdn/interactive-examples'
+    secrets:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  deploy:
+    runs-on: ubuntu-latest
+    needs:
+      - publish-release
+    steps:
+      - name: Checkout
+        if: needs.publish-release.outputs.release_created
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js environment
+        if: needs.publish-release.outputs.release_created
+        uses: actions/setup-node@v3
         with:
-            npm-publish: ${{ false }}
-            target-repo: "mdn/interactive-examples"
-        secrets:
-            GH_TOKEN: ${{ secrets.GH_TOKEN }}
-    deploy:
-        runs-on: ubuntu-latest
-        needs:
-            - publish-release
-        steps:
-            - name: Checkout
-              if: needs.publish-release.outputs.release_created
-              uses: actions/checkout@v3
+          node-version: '16'
+          cache: 'yarn'
 
-            - name: Setup Node.js environment
-              if: needs.publish-release.outputs.release_created
-              uses: actions/setup-node@v3
-              with:
-                  node-version: '16'
-                  cache: 'yarn'
+      - name: Install all yarn packages
+        if: needs.publish-release.outputs.release_created
+        run: yarn --frozen-lockfile
 
-            - name: Install all yarn packages
-              if: needs.publish-release.outputs.release_created
-              run: yarn --frozen-lockfile
+      - name: Build all
+        if: needs.publish-release.outputs.release_created
+        run: yarn build
 
-            - name: Build all
-              if: needs.publish-release.outputs.release_created
-              run: yarn build
-
-            - name: Deploy pages
-              if: needs.publish-release.outputs.release_created
-              run: |
-                  git init
-                  git config user.name "schalkneethling"
-                  git config user.email "sneethling@mozilla.com"
-                  git checkout -b prod
-                  git add .
-                  git commit --allow-empty -m "Deploying latest generated pages"
-                  git remote add mdn "https://$GITHUB_TOKEN@github.com/mdn/interactive-examples.git"
-                  # Eat output so it doesn't spit out the sensitive GITHUB_TOKEN if something goes wrong:
-                  git push -q -f mdn prod > /dev/null 2>&1
+      - name: Deploy pages
+        if: needs.publish-release.outputs.release_created
+        run: |
+          git init
+          git config user.name "schalkneethling"
+          git config user.email "sneethling@mozilla.com"
+          git checkout -b prod
+          git add .
+          git commit --allow-empty -m "Deploying latest generated pages"
+          git remote add mdn "https://$GITHUB_TOKEN@github.com/mdn/interactive-examples.git"
+          # Eat output so it doesn't spit out the sensitive GITHUB_TOKEN if something goes wrong:
+          git push -q -f mdn prod > /dev/null 2>&1
