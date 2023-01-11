@@ -5,6 +5,7 @@ await WebAssembly.instantiateStreaming(
     env: {
       greet: function() {
         console.log("Hello");
+        // Expected output: "Hello"
       }
     }
   }
