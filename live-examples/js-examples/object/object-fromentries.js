@@ -6,4 +6,4 @@ const entries = new Map([
 const obj = Object.fromEntries(entries);
 
 console.log(obj);
-// expected output: Object { foo: "bar", baz: 42 }
+// Expected output: Object { foo: "bar", baz: 42 }

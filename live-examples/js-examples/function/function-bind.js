@@ -7,8 +7,8 @@ const module = {
 
 const unboundGetX = module.getX;
 console.log(unboundGetX()); // The function gets invoked at the global scope
-// expected output: undefined
+// Expected output: undefined
 
 const boundGetX = unboundGetX.bind(module);
 console.log(boundGetX());
-// expected output: 42
+// Expected output: 42

@@ -5,4 +5,4 @@ const view = new DataView(buffer);
 view.setUint8(1, 255); // Max unsigned 8-bit integer
 
 console.log(view.getUint8(1));
-// expected output: 255
+// Expected output: 255

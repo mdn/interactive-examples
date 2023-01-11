@@ -5,4 +5,4 @@ const result = uint8.reduceRight(
 );
 
 console.log(result);
-// expected output: "30, 20, 10"
+// Expected output: "30, 20, 10"

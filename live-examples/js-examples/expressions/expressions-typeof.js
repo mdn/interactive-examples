@@ -1,11 +1,11 @@
 console.log(typeof 42);
-// expected output: "number"
+// Expected output: "number"
 
 console.log(typeof 'blubber');
-// expected output: "string"
+// Expected output: "string"
 
 console.log(typeof true);
-// expected output: "boolean"
+// Expected output: "boolean"
 
 console.log(typeof undeclaredVariable);
-// expected output: "undefined"
+// Expected output: "undefined"

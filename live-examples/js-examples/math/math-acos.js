@@ -4,7 +4,7 @@ function calcAngle(adjacent, hypotenuse) {
 }
 
 console.log(calcAngle(8, 10));
-// expected output: 0.6435011087932843
+// Expected output: 0.6435011087932843
 
 console.log(calcAngle(5, 3));
-// expected output: NaN
+// Expected output: NaN

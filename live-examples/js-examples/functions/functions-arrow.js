@@ -6,4 +6,4 @@ const materials = [
 ];
 
 console.log(materials.map(material => material.length));
-// expected output: Array [8, 6, 7, 9]
+// Expected output: Array [8, 6, 7, 9]

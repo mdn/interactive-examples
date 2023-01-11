@@ -6,5 +6,5 @@ try {
   Foo();
 } catch (e) {
   console.log(e);
-  // expected output: TypeError: calling Foo constructor without new is invalid
+  // Expected output: TypeError: calling Foo constructor without new is invalid
 }

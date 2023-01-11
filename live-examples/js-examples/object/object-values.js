@@ -5,4 +5,4 @@ const object1 = {
 };
 
 console.log(Object.values(object1));
-// expected output: Array ["somestring", 42, false]
+// Expected output: Array ["somestring", 42, false]

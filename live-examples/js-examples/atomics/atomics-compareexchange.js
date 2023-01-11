@@ -5,8 +5,8 @@ uint8[0] = 5;
 
 Atomics.compareExchange(uint8, 0, 5, 2); // Returns 5
 console.log(Atomics.load(uint8, 0));
-// expected output: 2
+// Expected output: 2
 
 Atomics.compareExchange(uint8, 0, 5, 4); // Returns 2
 console.log(Atomics.load(uint8, 0));
-// expected output: 2
+// Expected output: 2

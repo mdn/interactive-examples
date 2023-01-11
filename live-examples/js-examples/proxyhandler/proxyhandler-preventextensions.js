@@ -13,9 +13,9 @@ const handler1 = {
 const proxy1 = new Proxy(monster1, handler1);
 
 console.log(monster1.canEvolve);
-// expected output: true
+// Expected output: true
 
 Object.preventExtensions(proxy1);
 
 console.log(monster1.canEvolve);
-// expected output: false
+// Expected output: false

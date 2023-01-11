@@ -3,4 +3,4 @@ function getRoot2() {
 }
 
 console.log(getRoot2());
-// expected output: 1.4142135623730951
+// Expected output: 1.4142135623730951

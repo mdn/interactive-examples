@@ -15,7 +15,7 @@ const handler = {
 const proxy1 = new Proxy(monster1, handler);
 
 console.log(Object.getPrototypeOf(proxy1) === monsterPrototype);
-// expected output: true
+// Expected output: true
 
 console.log(Object.getPrototypeOf(proxy1).eyeCount);
-// expected output: 2
+// Expected output: 2

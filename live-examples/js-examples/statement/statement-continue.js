@@ -8,4 +8,4 @@ for (let i = 0; i < 10; i++) {
 }
 
 console.log(text);
-// expected output: "012456789"
+// Expected output: "012456789"

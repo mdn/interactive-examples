@@ -1,9 +1,9 @@
 const x = new Boolean();
 
 console.log(x.valueOf());
-// expected output: false
+// Expected output: false
 
 const y = new Boolean('Mozilla');
 
 console.log(y.valueOf());
-// expected output: true
+// Expected output: true

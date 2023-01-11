@@ -6,7 +6,7 @@ map1.set(1, 'bar');
 const iterator1 = map1.entries();
 
 console.log(iterator1.next().value);
-// expected output: Array ["0", "foo"]
+// Expected output: Array ["0", "foo"]
 
 console.log(iterator1.next().value);
-// expected output: Array [1, "bar"]
+// Expected output: Array [1, "bar"]

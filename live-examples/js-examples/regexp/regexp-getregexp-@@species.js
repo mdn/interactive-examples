@@ -8,4 +8,4 @@ class MyRegExp extends RegExp {
 const regex1 = new MyRegExp('foo', 'g');
 
 console.log(regex1.test('football'));
-// expected output: true
+// Expected output: true

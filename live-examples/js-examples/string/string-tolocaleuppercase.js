@@ -1,7 +1,7 @@
 const city = 'istanbul';
 
 console.log(city.toLocaleUpperCase('en-US'));
-// expected output: "ISTANBUL"
+// Expected output: "ISTANBUL"
 
 console.log(city.toLocaleUpperCase('TR'));
-// expected output: "İSTANBUL"
+// Expected output: "İSTANBUL"

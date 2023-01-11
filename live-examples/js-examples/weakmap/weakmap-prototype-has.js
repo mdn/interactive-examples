@@ -5,7 +5,7 @@ const object2 = {};
 weakmap1.set(object1, 'foo');
 
 console.log(weakmap1.has(object1));
-// expected output: true
+// Expected output: true
 
 console.log(weakmap1.has(object2));
-// expected output: false
+// Expected output: false

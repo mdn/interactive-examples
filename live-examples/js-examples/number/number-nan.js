@@ -10,4 +10,4 @@ function clean(x) {
 }
 
 console.log(clean(Number.NaN));
-// expected output: 0
+// Expected output: 0

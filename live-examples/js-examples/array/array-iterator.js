@@ -5,6 +5,6 @@ for (const value of iterator1) {
   console.log(value);
 }
 
-// expected output: "a"
-// expected output: "b"
-// expected output: "c"
+// Expected output: "a"
+// Expected output: "b"
+// Expected output: "c"

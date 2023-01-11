@@ -5,7 +5,7 @@ uint8[0] = 5;
 
 // 5 (0101) OR 2 (0010) = 7 (0111)
 console.log(Atomics.or(uint8, 0, 2));
-// expected output: 5
+// Expected output: 5
 
 console.log(Atomics.load(uint8, 0));
-// expected output: 7
+// Expected output: 7

@@ -1,12 +1,12 @@
 console.log(5 > 3);
-// expected output: true
+// Expected output: true
 
 console.log(3 > 3);
-// expected output: false
+// Expected output: false
 
 // Compare bigint to number
 console.log(3n > 5);
-// expected output: false
+// Expected output: false
 
 console.log('ab' > 'aa');
-// expected output: true
+// Expected output: true

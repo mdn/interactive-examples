@@ -5,4 +5,4 @@ const obj = {
 };
 
 console.log(obj.foo());
-// expected output: "bar"
+// Expected output: "bar"

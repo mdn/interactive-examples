@@ -4,4 +4,4 @@
 const filePath = String.raw`C:\Development\profile\aboutme.html`;
 
 console.log(`The file was uploaded from: ${filePath}`);
-// expected output: "The file was uploaded from: C:\Development\profile\aboutme.html"
+// Expected output: "The file was uploaded from: C:\Development\profile\aboutme.html"

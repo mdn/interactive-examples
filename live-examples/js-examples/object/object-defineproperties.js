@@ -9,4 +9,4 @@ Object.defineProperties(object1, {
 });
 
 console.log(object1.property1);
-// expected output: 42
+// Expected output: 42

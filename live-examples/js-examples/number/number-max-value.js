@@ -6,7 +6,7 @@ function multiply(x, y) {
 }
 
 console.log(multiply(1.7976931348623157e+308, 1));
-// expected output: 1.7976931348623157e+308
+// Expected output: 1.7976931348623157e+308
 
 console.log(multiply(1.7976931348623157e+308, 2));
-// expected output: "Process as Infinity"
+// Expected output: "Process as Infinity"

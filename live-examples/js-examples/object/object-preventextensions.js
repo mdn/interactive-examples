@@ -8,5 +8,5 @@ try {
   });
 } catch (e) {
   console.log(e);
-  // expected output: TypeError: Cannot define property property1, object is not extensible
+  // Expected output: TypeError: Cannot define property property1, object is not extensible
 }

@@ -1,11 +1,11 @@
 const regex1 = /fooBar/ig;
 
 console.log(regex1.source);
-// expected output: "fooBar"
+// Expected output: "fooBar"
 
 console.log(new RegExp().source);
-// expected output: "(?:)"
+// Expected output: "(?:)"
 
 console.log(new RegExp('\n').source === '\\n');
-// expected output: true (starting with ES5)
+// Expected output: true (starting with ES5)
 // Due to escaping
