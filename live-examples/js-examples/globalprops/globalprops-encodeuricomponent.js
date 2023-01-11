@@ -1,4 +1,4 @@
-// encodes characters such as ?,=,/,&,:
+// Encodes characters such as ?,=,/,&,:
 console.log(`?x=${encodeURIComponent('test?')}`);
 // expected output: "?x=test%3F"
 

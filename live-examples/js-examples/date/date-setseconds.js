@@ -7,4 +7,4 @@ console.log(event.getSeconds());
 
 console.log(event);
 // expected output: "Sat Apr 19 1975 23:15:42 GMT+0100 (CET)"
-// (note: your timezone may vary)
+// Note: your timezone may vary

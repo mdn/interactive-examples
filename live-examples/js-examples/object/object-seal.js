@@ -7,6 +7,6 @@ object1.property1 = 33;
 console.log(object1.property1);
 // expected output: 33
 
-delete object1.property1; // cannot delete when sealed
+delete object1.property1; // Cannot delete when sealed
 console.log(object1.property1);
 // expected output: 33

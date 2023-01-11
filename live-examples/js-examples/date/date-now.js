@@ -1,4 +1,4 @@
-// this example takes 2 seconds to run
+// This example takes 2 seconds to run
 const start = Date.now();
 
 console.log('starting timer...');

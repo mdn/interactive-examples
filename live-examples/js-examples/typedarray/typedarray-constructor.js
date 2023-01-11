@@ -1,4 +1,4 @@
-// create a TypedArray with a size in bytes
+// Create a TypedArray with a size in bytes
 const typedArray1 = new Int8Array(8);
 typedArray1[0] = 32;
 

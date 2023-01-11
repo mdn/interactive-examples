@@ -6,6 +6,6 @@ console.log(encoded);
 try {
   console.log(decodeURI(encoded));
   // expected output: "https://mozilla.org/?x=шеллы"
-} catch (e) { // catches a malformed URI
+} catch (e) { // Catches a malformed URI
   console.error(e);
 }

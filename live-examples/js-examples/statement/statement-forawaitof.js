@@ -8,6 +8,6 @@ async function* foo() {
     console.log(num);
     // expected output: 1
 
-    break; // closes iterator, triggers return
+    break; // Closes iterator, triggers return
   }
 })();

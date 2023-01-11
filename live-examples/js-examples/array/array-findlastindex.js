@@ -4,4 +4,4 @@ const isLargeNumber = (element) => element > 45;
 
 console.log(array1.findLastIndex(isLargeNumber));
 // expected output: 3
-// (index of element with value: 130)
+// Index of element with value: 130

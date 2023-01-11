@@ -1,4 +1,4 @@
-// create an ArrayBuffer with a size in bytes
+// Create an ArrayBuffer with a size in bytes
 const buffer = new ArrayBuffer(16);
 
 // Highest possible BigInt value that fits in an unsigned 64-bit integer
