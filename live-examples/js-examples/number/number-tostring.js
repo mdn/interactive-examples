@@ -6,7 +6,7 @@ function hexColour(c) {
 }
 
 console.log(hexColour(233));
-// expected output: "e9"
+// Expected output: "e9"
 
 console.log(hexColour('11'));
-// expected output: "b"
+// Expected output: "b"

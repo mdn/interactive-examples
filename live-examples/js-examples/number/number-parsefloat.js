@@ -6,7 +6,7 @@ function circumference(r) {
 }
 
 console.log(circumference('4.567abcdefgh'));
-// expected output: 28.695307297889173
+// Expected output: 28.695307297889173
 
 console.log(circumference('abcdefgh'));
-// expected output: 0
+// Expected output: 0

@@ -5,4 +5,4 @@ function sum(accumulator, currentValue) {
 }
 
 console.log(uint8.reduce(sum));
-// expected output: 6
+// Expected output: 6

@@ -5,4 +5,4 @@ keys.next();
 keys.next();
 
 console.log(keys.next().value);
-// expected output: 2
+// Expected output: 2

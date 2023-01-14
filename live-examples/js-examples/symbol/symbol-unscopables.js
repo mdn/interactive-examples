@@ -8,5 +8,5 @@ object1[Symbol.unscopables] = {
 
 with (object1) {
   console.log(property1);
-  // expected output: Error: property1 is not defined
+  // Expected output: Error: property1 is not defined
 }

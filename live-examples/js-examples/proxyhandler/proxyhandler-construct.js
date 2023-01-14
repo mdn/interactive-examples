@@ -5,7 +5,7 @@ function monster1(disposition) {
 const handler1 = {
   construct(target, args) {
     console.log(`Creating a ${target.name}`);
-    // expected output: "Creating a monster1"
+    // Expected output: "Creating a monster1"
 
     return new target(...args);
   }
@@ -14,4 +14,4 @@ const handler1 = {
 const proxy1 = new Proxy(monster1, handler1);
 
 console.log(new proxy1('fierce').disposition);
-// expected output: "fierce"
+// Expected output: "fierce"

@@ -6,7 +6,7 @@ function* generator(i) {
 const gen = generator(10);
 
 console.log(gen.next().value);
-// expected output: 10
+// Expected output: 10
 
 console.log(gen.next().value);
-// expected output: 20
+// Expected output: 20

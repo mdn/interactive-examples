@@ -7,4 +7,4 @@ iterable1[Symbol.iterator] = function* () {
 };
 
 console.log([...iterable1]);
-// expected output: Array [1, 2, 3]
+// Expected output: Array [1, 2, 3]

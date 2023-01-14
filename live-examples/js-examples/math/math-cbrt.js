@@ -1,11 +1,11 @@
 console.log(Math.cbrt(-1));
-// expected output: -1
+// Expected output: -1
 
 console.log(Math.cbrt(1));
-// expected output: 1
+// Expected output: 1
 
 console.log(Math.cbrt(Infinity));
-// expected output: Infinity
+// Expected output: Infinity
 
 console.log(Math.cbrt(64));
-// expected output: 4
+// Expected output: 4

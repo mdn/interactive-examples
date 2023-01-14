@@ -7,4 +7,4 @@ function Car(make, model, year) {
 const car1 = new Car('Eagle', 'Talon TSi', 1993);
 
 console.log(car1.make);
-// expected output: "Eagle"
+// Expected output: "Eagle"

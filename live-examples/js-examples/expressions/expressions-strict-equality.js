@@ -1,11 +1,11 @@
 console.log(1 === 1);
-// expected output: true
+// Expected output: true
 
 console.log('hello' === 'hello');
-// expected output: true
+// Expected output: true
 
 console.log('1' ===  1);
-// expected output: false
+// Expected output: false
 
 console.log(0 === false);
-// expected output: false
+// Expected output: false

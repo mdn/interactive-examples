@@ -6,7 +6,7 @@ function milliseconds(x) {
 }
 
 console.log(milliseconds('100F'));
-// expected output: "Not a Number!"
+// Expected output: "Not a Number!"
 
 console.log(milliseconds('0.0314E+2'));
-// expected output: 3140
+// Expected output: 3140

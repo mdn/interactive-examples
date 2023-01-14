@@ -3,10 +3,10 @@ function precise(x) {
 }
 
 console.log(precise(123.456));
-// expected output: "123.5"
+// Expected output: "123.5"
 
 console.log(precise(0.004));
-// expected output: "0.004000"
+// Expected output: "0.004000"
 
 console.log(precise(1.23e5));
-// expected output: "1.230e+5"
+// Expected output: "1.230e+5"

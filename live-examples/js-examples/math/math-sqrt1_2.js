@@ -3,4 +3,4 @@ function getRoot1Over2() {
 }
 
 console.log(getRoot1Over2());
-// expected output: 0.7071067811865476
+// Expected output: 0.7071067811865476

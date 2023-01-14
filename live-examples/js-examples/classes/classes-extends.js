@@ -9,4 +9,4 @@ class DateFormatter extends Date {
 }
 
 console.log(new DateFormatter('August 19, 1975 23:15:30').getFormattedDate());
-// expected output: "19-Aug-1975"
+// Expected output: "19-Aug-1975"
