@@ -1,8 +1,4 @@
-p {
-    font-size: 1.3rem;
-}
-
 abbr {
     font-style: italic;
-    font-weight: 100;
+    color: chocolate;
 }
