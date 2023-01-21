@@ -5,9 +5,9 @@
 }
 
 .numeral {
-    background-color: #e66465;
+    background-color: #e1eeff;
     border-radius: 0.2rem;
-    color: black;
+    color: #01457e;
     margin: 1rem;
     padding: 0.2rem;
     transform: rotate3d(1, 1, 1, 45deg);
