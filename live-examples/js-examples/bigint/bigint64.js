@@ -6,7 +6,7 @@ bigint64[2] = 1898875537769492n;
 bigint64[3] = 2156704815705747n;
 bigint64[4] = 3337090060496542n;
 
-bigint64[0] = BigInt(6118793953620967);
+bigint64[0] = 6118793953620967n;
 console.log(bigint64); //Expected Output: BigInt64Array [6118793953620967n, 1881938909131133n, 1898875537769492n, 2156704815705747n, 3337090060496542n]
 console.log(bigint64[2]); //Expected Output: 1898875537769492n
 console.log(`Array length:`, bigint64.length); //Expected Output: Array length: 5
