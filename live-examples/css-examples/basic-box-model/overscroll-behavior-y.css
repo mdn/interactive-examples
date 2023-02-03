@@ -1,0 +1,25 @@
+.default-example{
+    width: 100%;
+    height: 70px;
+    display: grid;
+    place-content: center;
+    overflow: auto;
+}
+
+.example-container {
+    width: 35em;
+    height: 18em;
+    border: 1px solid;
+    padding: 0.75em;
+    text-align: left;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+}
+
+.box {
+    width: 50%;
+}
+
+#example-element {
+    height: 100px;
+}
