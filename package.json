@@ -15,7 +15,7 @@
     "main": "index.js",
     "scripts": {
         "build": "mdn-bob",
-        "fix:css": "npm run lint:css --fix",
+        "fix:css": "npm run lint:css -- --fix",
         "fix:js": "eslint --fix ./live-examples/js-examples",
         "lint:css": "stylelint \"**/*.css\"",
         "lint:js": "eslint ./live-examples/js-examples",
