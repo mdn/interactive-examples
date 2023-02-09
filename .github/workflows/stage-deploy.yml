@@ -32,7 +32,7 @@ jobs:
         run: yarn build
 
       - name: Configure AWS credentials for stage
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v1-node16
         with:
           aws-access-key-id: ${{ secrets.STAGE_AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.STAGE_AWS_ACCESS_KEY_SECRET }}
