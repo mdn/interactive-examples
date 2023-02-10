@@ -26,7 +26,7 @@ jobs:
         if: needs.publish-release.outputs.release_created
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: 18
           cache: 'yarn'
 
       - name: Install all yarn packages
