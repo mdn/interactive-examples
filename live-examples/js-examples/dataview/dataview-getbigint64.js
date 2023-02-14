@@ -1,4 +1,4 @@
-// create an ArrayBuffer with a size in bytes
+// Create an ArrayBuffer with a size in bytes
 const buffer = new ArrayBuffer(16);
 
 // Highest possible BigInt value that fits in a signed 64-bit integer
@@ -8,4 +8,4 @@ const view = new DataView(buffer);
 view.setBigInt64(1, max);
 
 console.log(view.getBigInt64(1));
-// expected output: 9223372036854775807n
+// Expected output: 9223372036854775807n

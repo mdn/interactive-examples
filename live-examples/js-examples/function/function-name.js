@@ -5,7 +5,7 @@ const object = {
 };
 
 console.log(func1.name);
-// expected output: "func1"
+// Expected output: "func1"
 
 console.log(object.func2.name);
-// expected output: "func2"
+// Expected output: "func2"

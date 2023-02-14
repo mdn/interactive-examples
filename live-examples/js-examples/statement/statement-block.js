@@ -7,7 +7,7 @@ if (true) {
 }
 
 console.log(x);
-// expected output: 2
+// Expected output: 2
 
 console.log(y);
-// expected output: 1
+// Expected output: 1

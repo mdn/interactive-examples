@@ -4,9 +4,9 @@ const Employee = {
 };
 
 console.log(Employee.firstname);
-// expected output: "John"
+// Expected output: "John"
 
 delete Employee.firstname;
 
 console.log(Employee.firstname);
-// expected output: undefined
+// Expected output: undefined

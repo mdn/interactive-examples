@@ -5,6 +5,6 @@ const promises = [promise1, promise2];
 Promise.allSettled(promises).
   then((results) => results.forEach((result) => console.log(result.status)));
 
-// expected output:
+// Expected output:
 // "fulfilled"
 // "rejected"

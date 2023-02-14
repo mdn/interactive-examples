@@ -16,7 +16,7 @@ ins {
 del::before,
 ins::before {
     position: absolute;
-    left: .5rem;
+    left: 0.5rem;
     font-family: monospace;
 }
 

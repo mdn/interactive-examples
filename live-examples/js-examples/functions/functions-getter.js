@@ -6,4 +6,4 @@ const obj = {
 };
 
 console.log(obj.latest);
-// expected output: "c"
+// Expected output: "c"

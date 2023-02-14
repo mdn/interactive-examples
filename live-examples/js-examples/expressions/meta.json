@@ -354,6 +354,12 @@
             "title": "JavaScript Demo: Expressions - Subtraction assignment operator",
             "type": "js"
         },
+        "expressionsSuper": {
+            "exampleCode": "./live-examples/js-examples/expressions/expressions-super.js",
+            "fileName": "expressions-super.html",
+            "title": "JavaScript Demo: Expressions - super",
+            "type": "js"
+        },
         "expressionsThis": {
             "exampleCode": "./live-examples/js-examples/expressions/expressions-this.js",
             "fileName": "expressions-this.html",

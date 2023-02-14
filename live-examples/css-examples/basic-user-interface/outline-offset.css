@@ -1,7 +1,7 @@
 #example-element {
     border: 2px solid crimson;
-    outline: .75em solid;
-    padding: .75em;
+    outline: 0.75em solid;
+    padding: 0.75em;
     width: 80%;
     height: 100px;
 }

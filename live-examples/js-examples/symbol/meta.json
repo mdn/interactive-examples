@@ -1,5 +1,11 @@
 {
     "pages": {
+        "asyncIterator": {
+            "exampleCode": "./live-examples/js-examples/symbol/symbol-asynciterator.js",
+            "fileName": "symbol-asynciterator.html",
+            "title": "JavaScript Demo: Symbol.asyncIterator",
+            "type": "js"
+        },
         "symbolConstructor": {
             "exampleCode": "./live-examples/js-examples/symbol/symbol-constructor.js",
             "fileName": "symbol-constructor.html",
@@ -58,6 +64,12 @@
             "exampleCode": "./live-examples/js-examples/symbol/symbol-prototype-tostring.js",
             "fileName": "symbol-prototype-tostring.html",
             "title": "JavaScript Demo: Symbol.prototype.toString()",
+            "type": "js"
+        },
+        "symbolPrototypeValueOf": {
+            "exampleCode": "./live-examples/js-examples/symbol/symbol-prototype-valueof.js",
+            "fileName": "symbol-prototype-valueof.html",
+            "title": "JavaScript Demo: Symbol.prototype.valueOf()",
             "type": "js"
         },
         "symbolReplace": {

@@ -3,10 +3,10 @@ function getTanFromDegrees(degrees) {
 }
 
 console.log(getTanFromDegrees(0));
-// expected output: 0
+// Expected output: 0
 
 console.log(getTanFromDegrees(45));
-// expected output: 0.9999999999999999
+// Expected output: 0.9999999999999999
 
 console.log(getTanFromDegrees(90));
-// expected output: 16331239353195370
+// Expected output: 16331239353195370

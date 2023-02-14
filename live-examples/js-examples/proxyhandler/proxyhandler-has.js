@@ -14,10 +14,10 @@ const monster1 = {
 
 const proxy1 = new Proxy(monster1, handler1);
 console.log('eyeCount' in proxy1);
-// expected output: true
+// Expected output: true
 
 console.log('_secret' in proxy1);
-// expected output: false
+// Expected output: false
 
 console.log('_secret' in monster1);
-// expected output: true
+// Expected output: true

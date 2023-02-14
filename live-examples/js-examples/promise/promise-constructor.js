@@ -6,9 +6,9 @@ const promise1 = new Promise((resolve, reject) => {
 
 promise1.then((value) => {
   console.log(value);
-  // expected output: "foo"
+  // Expected output: "foo"
 });
 
 console.log(promise1);
-// expected output: [object Promise]
+// Expected output: [object Promise]
 

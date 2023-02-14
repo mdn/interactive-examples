@@ -5,7 +5,7 @@ const korean = new Intl.Locale('ko', {
 const japanese = new Intl.Locale('ja-Jpan-JP-u-ca-japanese-hc-h12');
 
 console.log(korean.baseName, japanese.baseName);
-// expected output: "ko-Kore-KR" "ja-Jpan-JP"
+// Expected output: "ko-Kore-KR" "ja-Jpan-JP"
 
 console.log(korean.hourCycle, japanese.hourCycle);
-// expected output: "h24" "h12"
+// Expected output: "h24" "h12"

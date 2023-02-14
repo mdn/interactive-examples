@@ -3,10 +3,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3, minmax(40px, auto));
-    grid-template-areas: 
-        "a a a"
-        "b c c"
-        "b c c";
+    grid-template-areas:
+        'a a a'
+        'b c c'
+        'b c c';
     grid-gap: 10px;
     width: 200px;
 }

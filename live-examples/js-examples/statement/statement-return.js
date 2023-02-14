@@ -6,7 +6,7 @@ function getRectArea(width, height) {
 }
 
 console.log(getRectArea(3, 4));
-// expected output: 12
+// Expected output: 12
 
 console.log(getRectArea(-3, 4));
-// expected output: 0
+// Expected output: 0

@@ -6,4 +6,4 @@ const test = {
 };
 
 console.log(test.func());
-// expected output: 42
+// Expected output: 42

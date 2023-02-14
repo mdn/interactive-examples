@@ -5,4 +5,4 @@ array1.next();
 array1.next();
 
 console.log(array1.next().value);
-// expected output: 30
+// Expected output: 30

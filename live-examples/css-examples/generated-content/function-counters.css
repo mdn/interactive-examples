@@ -5,5 +5,5 @@ ol {
 
 li::before {
     counter-increment: index;
-    content: counters(index, ".", decimal) " ";
+    content: counters(index, '.', decimal) ' ';
 }

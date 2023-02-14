@@ -3,9 +3,9 @@ const object1 = {
 };
 
 console.log(Object.isFrozen(object1));
-// expected output: false
+// Expected output: false
 
 Object.freeze(object1);
 
 console.log(Object.isFrozen(object1));
-// expected output: true
+// Expected output: true

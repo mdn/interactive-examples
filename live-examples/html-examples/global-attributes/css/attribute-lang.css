@@ -2,10 +2,10 @@ p::before {
     padding-right: 5px;
 }
 
-[lang="en-GB"]::before {
+[lang='en-GB']::before {
     content: '(In British English) ';
 }
 
-[lang="fr"]::before {
+[lang='fr']::before {
     content: '(In French) ';
 }

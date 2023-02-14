@@ -8,7 +8,7 @@
 #example-element {
     height: 100%;
     border: 2px dashed dodgerblue;
-    padding: .75em;
+    padding: 0.75em;
     text-align: left;
     overflow: scroll;
 }
@@ -29,5 +29,5 @@
 }
 
 #playback:active {
-    filter: brightness(.9);
+    filter: brightness(0.9);
 }

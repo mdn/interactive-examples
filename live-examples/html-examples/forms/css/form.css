@@ -6,7 +6,8 @@ div.form-example {
     display: table-row;
 }
 
-label, input {
+label,
+input {
     display: table-cell;
     margin-bottom: 10px;
 }

@@ -7,7 +7,7 @@ function check64bit(number) {
 }
 
 check64bit(2n ** 64n);
-// expected output: "Number doesn't fit in unsigned 64-bit integer!"
+// Expected output: "Number doesn't fit in unsigned 64-bit integer!"
 
 check64bit(2n ** 32n);
-// expected output: 4294967296n
+// Expected output: 4294967296n

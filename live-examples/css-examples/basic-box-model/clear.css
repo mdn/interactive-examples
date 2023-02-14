@@ -1,20 +1,20 @@
 .example-container {
     border: 1px solid #c5c5c5;
-    padding: .75em;
+    padding: 0.75em;
     text-align: left;
     line-height: normal;
 }
 
 .floated-left {
     border: solid 10px #ffc129;
-    background-color: rgba(255, 244, 219, .6);
+    background-color: rgba(255, 244, 219, 0.6);
     padding: 1em;
     float: left;
 }
 
 .floated-right {
     border: solid 10px #ffc129;
-    background-color: rgba(255, 244, 219, .6);
+    background-color: rgba(255, 244, 219, 0.6);
     padding: 1em;
     float: right;
     height: 150px;

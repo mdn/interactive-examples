@@ -8,7 +8,7 @@ function typeOfNaN(x) {
 }
 
 console.log(typeOfNaN('100F'));
-// expected output: "NaN"
+// Expected output: "NaN"
 
 console.log(typeOfNaN(NaN));
-// expected output: "Number NaN"
+// Expected output: "Number NaN"

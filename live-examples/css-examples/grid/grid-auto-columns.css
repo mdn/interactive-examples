@@ -16,5 +16,5 @@
 }
 
 #example-element > div:nth-child(2) {
-    grid-column: 2 ;
+    grid-column: 2;
 }

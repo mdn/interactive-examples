@@ -4,6 +4,6 @@ function logSetElements(value1, value2, set) {
 
 new Set(['foo', 'bar', undefined]).forEach(logSetElements);
 
-// expected output: "s[foo] = foo"
-// expected output: "s[bar] = bar"
-// expected output: "s[undefined] = undefined"
+// Expected output: "s[foo] = foo"
+// Expected output: "s[bar] = bar"
+// Expected output: "s[undefined] = undefined"

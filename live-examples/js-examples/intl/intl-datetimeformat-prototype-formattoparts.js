@@ -6,4 +6,4 @@ const parts = dateTimeFormat.formatToParts(date);
 const partValues = parts.map(p => p.value);
 
 console.log(partValues);
-// expected output: "["Friday", ", ", "June", " ", "1", ", ", "2012"]"
+// Expected output: "["Friday", ", ", "June", " ", "1", ", ", "2012"]"

@@ -1,38 +1,46 @@
 name: prod-deploy
 
 on:
-    push:
-        branches:
-            - 'main'
-    workflow_dispatch:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'bin/**'
+      - 'live-examples/**'
+      - 'media/**'
+      - 'Jenkinsfile'
+      - 'package.json'
+  workflow_dispatch:
 
 jobs:
-    deploy:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v3
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.triggering_actor != 'dependabot[bot]'
 
-            - name: Setup Node.js environment
-              uses: actions/setup-node@v3
-              with:
-                  node-version: '16'
-                  cache: 'yarn'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
 
-            - name: Install all yarn packages
-              run: yarn --frozen-lockfile
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: npm
 
-            - name: Build all
-              run: yarn build
+      - name: Install all npm packages
+        run: npm ci
 
-            - name: Deploy pages
-              run: |
-                  git init
-                  git config user.name "schalkneethling"
-                  git config user.email "sneethling@mozilla.com"
-                  git checkout -b prod
-                  git add .
-                  git commit --allow-empty -m "Deploying latest generated pages"
-                  git remote add mdn "https://$GITHUB_TOKEN@github.com/mdn/interactive-examples.git"
-                  # Eat output so it doesn't spit out the sensitive GITHUB_TOKEN if something goes wrong:
-                  git push -q -f mdn prod > /dev/null 2>&1
+      - name: Build all
+        run: npm run build
+
+      - name: Deploy pages
+        run: |
+          git init
+          git config user.name "schalkneethling"
+          git config user.email "sneethling@mozilla.com"
+          git checkout -b prod
+          git add .
+          git commit --allow-empty -m "Deploying latest generated pages"
+          git remote add mdn "https://$GITHUB_TOKEN@github.com/mdn/interactive-examples.git"
+          # Eat output so it doesn't spit out the sensitive GITHUB_TOKEN if something goes wrong:
+          git push -q -f mdn prod > /dev/null 2>&1

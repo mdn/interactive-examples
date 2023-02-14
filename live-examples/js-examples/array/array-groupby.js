@@ -9,4 +9,4 @@ const inventory = [
 const result = inventory.groupBy( ({ type }) => type );
 
 console.log(result.vegetables);
-// expected output: Array [Object { name: "asparagus", type: "vegetables", quantity: 5 }]
+// Expected output: Array [Object { name: "asparagus", type: "vegetables", quantity: 5 }]
