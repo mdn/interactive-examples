@@ -1,6 +1,6 @@
 {
     "name": "interactive-examples",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Interactive code examples embedded on MDN",
     "author": "Mozilla",
     "license": "MPL-2.0",
