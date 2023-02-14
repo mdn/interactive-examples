@@ -149,13 +149,13 @@ For example, in the comparison operators' example we have to show how the `==` o
 You can validate your example anytime by running the following npm script:
 
 ```sh
-yarn run lint:js
+npm run lint:js
 ```
 
 We've also provided the following command:
 
 ```sh
-yarn run fix:js
+npm run fix:js
 ```
 
 This runs ESLint with the `--fix` option, which tries to fix issues.

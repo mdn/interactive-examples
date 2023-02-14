@@ -33,7 +33,7 @@ Next up, you need to fork and clone the repo to be able to contribute to it. You
 Finally, change into the new directory created by the clone and run the following command:
 
 ```bash
-yarn install
+npm install
 ```
 
 This will ensure that you have all the required development modules installed to build and test your contributions. You are now ready to contribute.
@@ -51,13 +51,13 @@ Once you've written an example you can run a local server to try it out.
 From your command line run:
 
 ```bash
-yarn run build
+npm run build
 ```
 
 Once this completes run:
 
 ```bash
-yarn start
+npm start
 ```
 
 This should give you some output including lines like:
@@ -80,7 +80,7 @@ Find your example and try it out.
 > **Note** On Linux, you might also run the automatic tests used by our continuous integration system.
 >
 > ```bash
-> yarn test
+> npm test
 > ```
 
 Once you're satisfied, the final step is to [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
