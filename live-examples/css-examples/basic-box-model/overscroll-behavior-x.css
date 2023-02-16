@@ -1,26 +1,28 @@
 .example-container {
+    position: relative;
     width: 35em;
     height: 18em;
     border: medium dotted;
     padding: 0.75em;
     text-align: left;
     overflow: auto;
+    white-space: nowrap;
     display: flex;
 }
 
 .box {
     width: 50%;
-    overflow-x: scroll;
 }
 
 #example-element {
-    background-color: tan;
-    width: 1500px;
-    height: 12em;
+    position: absolute;
+    top: 25%;
+    width: 15em;
+    height: 15em;
     border: medium dotted #1b76c4;
     padding: 0.3em;
     margin: 0 0.3em;
     text-align: left;
-    overflow: auto;
+    overflow-x: scroll;
     overscroll-behavior-x: contain;
 }
