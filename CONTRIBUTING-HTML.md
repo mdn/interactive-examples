@@ -154,7 +154,7 @@ Sometimes formal and content guidelines are at odds. For example, sometimes writ
 
 ### Formal guidelines
 
-In general: try out your example using `yarn start` and see what it looks like with a browser window width of 1000px.
+In general: try out your example using `npm start` and see what it looks like with a browser window width of 1000px.
 
 - Can the user see the whole example source without having to scroll?
 
@@ -238,7 +238,7 @@ For example, here's an example for the `<button>` element:
 
 This includes 5 different button elements. It's too long. The example should include a single element with some common attributes.
 
-Try out your example with `yarn start`. Can you immediately see the point of the example, or is the element buried in a wall of source?
+Try out your example with `npm start`. Can you immediately see the point of the example, or is the element buried in a wall of source?
 
 #### Use good practices
 
