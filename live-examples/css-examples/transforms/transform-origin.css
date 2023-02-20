@@ -31,8 +31,8 @@
     position: absolute;
     align-items: center;
     justify-content: center;
-    background: #e4f0f5;
-    color: #696969;
+    background: #f7ebee;
+    color: #000000;
     font-size: 1.2rem;
     text-transform: uppercase;
 }
@@ -56,5 +56,5 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    border: dotted 3px #e66465;
+    border: dotted 3px #ff1100;
 }
