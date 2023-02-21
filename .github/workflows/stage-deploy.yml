@@ -15,6 +15,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.triggering_actor != 'dependabot[bot]'
 
     steps:
       - uses: actions/checkout@v3
@@ -23,16 +24,16 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn
+          cache: npm
 
-      - name: Install all yarn packages
-        run: yarn --frozen-lockfile
+      - name: Install all npm packages
+        run: npm ci
 
       - name: Build all
-        run: yarn build
+        run: npm run build
 
       - name: Configure AWS credentials for stage
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v1-node16
         with:
           aws-access-key-id: ${{ secrets.STAGE_AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.STAGE_AWS_ACCESS_KEY_SECRET }}

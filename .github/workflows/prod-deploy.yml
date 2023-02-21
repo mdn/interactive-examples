@@ -15,6 +15,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    if: github.triggering_actor != 'dependabot[bot]'
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -23,13 +25,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: 'yarn'
+          cache: npm
 
-      - name: Install all yarn packages
-        run: yarn --frozen-lockfile
+      - name: Install all npm packages
+        run: npm ci
 
       - name: Build all
-        run: yarn build
+        run: npm run build
 
       - name: Deploy pages
         run: |
