@@ -1,7 +1,7 @@
 {
     "env": {
         "browser": true,
-        "es6": true,
+        "es2022": true,
         "node": true
     },
     "extends": "eslint:recommended",
@@ -60,13 +60,6 @@
         "semi": ["error", "always"],
         "space-before-function-paren": ["error", "never"],
         "space-infix-ops": "error"
-    },
-    "globals": {
-        "SharedArrayBuffer": true,
-        "Atomics": true,
-        "BigInt": true,
-        "getShadowRoot": true,
-        "globalThis": true // will be supported in eslint 7.0
     },
     "overrides": [
         {
