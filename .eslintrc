@@ -56,7 +56,7 @@
         "prefer-arrow-callback": "error",
         "prefer-const": "error",
         "prefer-template": "error",
-        "quotes": ["error", "double"],
+        "quotes": ["error", "single"],
         "semi": ["error", "always"],
         "space-before-function-paren": ["error", "never"],
         "space-infix-ops": "error"
