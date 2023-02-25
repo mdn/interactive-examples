@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'Fira Sans';
-    src: local('FiraSans-Italic'), url('../../../media/fonts/FiraSans-Italic.woff2') format('woff2');
+    src: local('FiraSans-Italic'), url('/media/fonts/FiraSans-Italic.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
 }
