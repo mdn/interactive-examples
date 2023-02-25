@@ -1,6 +1,6 @@
 {
     "name": "interactive-examples",
-    "version": "1.0.4",
+    "version": "2.0.0",
     "description": "Interactive code examples embedded on MDN",
     "author": "Mozilla",
     "license": "MPL-2.0",
@@ -38,7 +38,7 @@
     "devDependencies": {
         "@babel/core": "^7.21.0",
         "@babel/eslint-parser": "^7.19.1",
-        "@mdn/bob": "^2.2.0",
+        "@mdn/bob": "^3.0.3",
         "chokidar-cli": "^3.0.0",
         "eslint": "^8.34.0",
         "http-server": "^14.1.1",
@@ -47,6 +47,6 @@
         "prettier-eslint": "^15.0.1",
         "stylelint": "^14.16.1",
         "stylelint-config-prettier": "^9.0.5",
-        "stylelint-prettier": "^2.0.0"
+        "stylelint-prettier": "^3.0.0"
     }
 }
