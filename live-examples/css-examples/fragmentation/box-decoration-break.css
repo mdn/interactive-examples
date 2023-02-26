@@ -3,7 +3,8 @@
 }
 
 #example-element {
-    background: linear-gradient(to bottom right, #fffd55, #387d22);
+    background: linear-gradient(to bottom right, #6f6f6f, #000);
+    color: white;
     padding: 0 1em;
     border-radius: 16px;
     border-style: solid;
