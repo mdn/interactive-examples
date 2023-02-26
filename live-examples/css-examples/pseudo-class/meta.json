@@ -110,7 +110,7 @@
             "type": "tabbed",
             "defaultTab": "css",
             "tabs": "html,css,js",
-            "height": "tabbed-shorter"
+            "height": "tabbed-standard"
         },
         "focus": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/focus.css",
