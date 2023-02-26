@@ -1,7 +1,7 @@
 @counter-style black-white-squares {
     system: symbolic;
     symbols: ◆ ◇;
-    suffix: " ";
+    suffix: ' ';
     range: 0 6;
     fallback: square;
 }
