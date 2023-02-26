@@ -6,7 +6,7 @@ label {
 .result {
     display: block;
     width: 80%;
-    padding: .3em;
+    padding: 0.3em;
     background-color: bisque;
     border: thin solid brown;
     border-radius: 3px;
