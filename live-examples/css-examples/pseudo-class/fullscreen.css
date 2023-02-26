@@ -1,6 +1,6 @@
 #full-screen-section {
     border: 1px solid black;
-    padding: .5rem;
+    padding: 0.5rem;
 }
 
 #full-screen-section:fullscreen {
