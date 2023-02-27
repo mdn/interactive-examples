@@ -6,4 +6,4 @@ const people1 = {
 };
 
 console.log(Object.keys(people1));
-// Expected output: Array [ "name", "phone", "email", "works" ]
+// Expected output: Array [ "name", "phone", "email", "work" ]
