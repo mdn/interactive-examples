@@ -1,13 +1,14 @@
 .layer {
-    background: #FFBA08;
+    background: #623e3f;
     border-radius: 0.75rem;
+    color: white;
     transform: perspective(200px) rotateY(30deg);
 }
 
 .numeral {
-    background-color: #623e3f;
+    background-color: #FFBA08;
     border-radius: 0.2rem;
-    color: #e5e5e5;
+    color: #000;
     margin: 1rem;
     padding: 0.2rem;
     transform: rotate3d(1, 1, 1, 45deg);
