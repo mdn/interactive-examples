@@ -22,7 +22,8 @@
         "start-server": "http-server -p 9090 ./docs",
         "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
-        "test": "npm run lint:js"
+        "test": "npm run lint:js",
+        "prepare": "husky install"
     },
     "keywords": [
         "javascript",
@@ -42,6 +43,8 @@
         "chokidar-cli": "^3.0.0",
         "eslint": "^8.34.0",
         "http-server": "^14.1.1",
+        "husky": "^8.0.0",
+        "lint-staged": "^13.1.2",
         "npm-run-all": "^4.1.5",
         "prettier": "^2.8.4",
         "prettier-eslint": "^15.0.1",
