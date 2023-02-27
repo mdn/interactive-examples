@@ -1,8 +1,9 @@
-const object1 = {
-  a: 'somestring',
-  b: 42,
-  c: false
+const people1 = {
+  name: 'michael',
+  phone: 1111111111,
+  email: 'example@gmail.com',
+  work: false
 };
 
-console.log(Object.keys(object1));
-// Expected output: Array ["a", "b", "c"]
+console.log(Object.keys(people1));
+// Expected output: Array [ "name", "phone", "email", "works" ]
