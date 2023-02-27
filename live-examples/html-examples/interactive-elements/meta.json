@@ -29,7 +29,7 @@
             "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/template.css",
             "jsExampleSrc": "./live-examples/html-examples/interactive-elements/js/template.js",
             "fileName": "template.html",
-            "title": "HTML Demo: template",
+            "title": "HTML Demo: <template>",
             "type": "tabbed",
             "defaultTab": "html",
             "tabs": "html,css,js",
