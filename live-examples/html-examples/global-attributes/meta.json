@@ -43,10 +43,13 @@
         "draggable": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-draggable.html",
             "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-draggable.css",
+            "jsExampleSrc": "./live-examples/html-examples/global-attributes/js/attribute-draggable.js",
             "fileName": "attribute-draggable.html",
             "title": "HTML Demo: draggable",
             "type": "tabbed",
-            "height": "tabbed-shorter"
+            "height": "tabbed-standard",
+            "tabs": "html,css,js",
+            "defaultTab": "html"
         },
         "enterkeyhint": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-enterkeyhint.html",
