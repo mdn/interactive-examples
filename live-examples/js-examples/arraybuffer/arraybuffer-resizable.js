@@ -1,4 +1,3 @@
-// Create two ArrayBuffers, one with a max byte length, and one without
 const buffer1 = new ArrayBuffer(8, { maxByteLength: 16 } );
 const buffer2 = new ArrayBuffer(8);
 
