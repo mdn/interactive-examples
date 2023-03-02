@@ -2,6 +2,10 @@
     font-weight: bold;
 }
 
+#example-element a {
+    color: #188f69;
+}
+
 #example-element svg {
     width: 10em;
     height: 10em;
