@@ -23,6 +23,10 @@
     font-size: 0.8rem;
 }
 
+.note a {
+    color: #188f69;
+}    
+
 @counter-style space-counter {
     symbols: '\1F680''\1F6F8''\1F6F0''\1F52D';
     suffix: ' ';
