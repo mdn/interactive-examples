@@ -183,6 +183,13 @@
             "title": "CSS Demo: overscroll-behavior",
             "type": "css"
         },
+        "overscrollBehaviorX": {
+            "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overscroll-behavior-x.css",
+            "exampleCode": "./live-examples/css-examples/basic-box-model/overscroll-behavior-x.html",
+            "fileName": "overscroll-behavior-x.html",
+            "title": "CSS Demo: overscroll-behavior-x",
+            "type": "css"
+        },
         "overscrollBehaviorY": {
             "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overscroll-behavior-y.css",
             "exampleCode": "./live-examples/css-examples/basic-box-model/overscroll-behavior-y.html",
