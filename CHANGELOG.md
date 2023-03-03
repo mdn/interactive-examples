@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/mdn/interactive-examples/compare/v1.0.4...v2.0.0) (2023-02-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps-dev:** bump @mdn/bob from 2.2.0 to 3.0.3 ([#2454](https://github.com/mdn/interactive-examples/issues/2454))
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump @mdn/bob from 2.2.0 to 3.0.3 ([#2454](https://github.com/mdn/interactive-examples/issues/2454)) ([4165fbf](https://github.com/mdn/interactive-examples/commit/4165fbf1e3c7bbbc917d77ef2c0e2db6a280fc58))
+
 ## [1.0.4](https://github.com/mdn/interactive-examples/compare/v1.0.3...v1.0.4) (2023-02-14)
 
 
