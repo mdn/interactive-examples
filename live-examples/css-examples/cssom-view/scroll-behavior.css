@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.nav a {
+    color: #009e5f;
+}
+
 scroll-container {
     border: 1px solid black;
     display: block;
