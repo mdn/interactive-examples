@@ -58,7 +58,7 @@ jobs:
         uses: google-github-actions/auth@v0
         with:
           token_format: access_token
-          service_account:  deploy-stage-interactive-examp@${{ secrets.GCP_PROJECT_NAME }}.iam.gserviceaccount.com
+          service_account:  deploy-prod-interactive-examp@${{ secrets.GCP_PROJECT_NAME }}.iam.gserviceaccount.com
           workload_identity_provider: projects/${{ secrets.WIP_PROJECT_ID }}/locations/global/workloadIdentityPools/github-actions/providers/github-actions
 
       - name: Setup gcloud
@@ -66,4 +66,4 @@ jobs:
 
       - name: Deploy pages to GCP
         run: |-
-          gsutil -m rsync -d -r docs/ gs://interactive-examples-stage-mdn/
+          gsutil -m rsync -d -r docs/ gs://interactive-examples-prod-mdn/
