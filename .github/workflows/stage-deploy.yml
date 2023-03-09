@@ -12,8 +12,19 @@ on:
         required: false
         default: ''
 
+  workflow_call:
+    secrets:
+      GCP_PROJECT_NAME:
+        required: true
+      WIP_PROJECT_ID:
+        required: true
+
 jobs:
   build:
+    environment: stage
+    permissions:
+      contents: read
+      id-token: write
     runs-on: ubuntu-latest
     if: github.triggering_actor != 'dependabot[bot]'
 
@@ -41,3 +52,17 @@ jobs:
 
       - name: Deploy pages
         run: aws s3 sync docs/ s3://interactive-examples-stage-ce3e7ea385c68f44/
+
+      - name: Authenticate with GCP
+        uses: google-github-actions/auth@v0
+        with:
+          token_format: access_token
+          service_account:  deploy-stage-interactive-examp@${{ secrets.GCP_PROJECT_NAME }}.iam.gserviceaccount.com
+          workload_identity_provider: projects/${{ secrets.WIP_PROJECT_ID }}/locations/global/workloadIdentityPools/github-actions/providers/github-actions
+
+      - name: Setup gcloud
+        uses: google-github-actions/setup-gcloud@v1
+
+      - name: Deploy pages to GCP
+        run: |-
+          gsutil -m rsync -d -r docs/ gs://interactive-examples-stage-mdn/
