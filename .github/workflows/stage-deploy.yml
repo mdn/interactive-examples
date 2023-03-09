@@ -65,4 +65,4 @@ jobs:
 
       - name: Deploy pages to GCP
         run: |-
-          gsutil -m -h "Cache-Control:public, max-age=86400" rsync -d -r docs/ gs://interactive-examples-stage-mdn/
+          gsutil -m rsync -d -r docs/ gs://interactive-examples-stage-mdn/
