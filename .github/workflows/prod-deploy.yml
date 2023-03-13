@@ -55,7 +55,7 @@ jobs:
         run: aws s3 sync docs/ s3://mdninteractive-b77d14bceaaa9ea4/
 
       - name: Authenticate with GCP
-        uses: google-github-actions/auth@v0
+        uses: google-github-actions/auth@v1
         with:
           token_format: access_token
           service_account:  deploy-prod-interactive-exampl@${{ secrets.GCP_PROJECT_NAME }}.iam.gserviceaccount.com
