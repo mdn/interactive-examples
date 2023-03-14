@@ -37,7 +37,7 @@
         "node": ">=18.0.0"
     },
     "devDependencies": {
-        "@babel/core": "^7.21.0",
+        "@babel/core": "^7.21.3",
         "@babel/eslint-parser": "^7.21.3",
         "@mdn/bob": "^3.1.0",
         "chokidar-cli": "^3.0.0",
