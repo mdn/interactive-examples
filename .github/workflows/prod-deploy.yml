@@ -44,16 +44,6 @@ jobs:
       - name: Build all
         run: npm run build
 
-      - name: Configure AWS credentials for prod
-        uses: aws-actions/configure-aws-credentials@v1-node16
-        with:
-          aws-access-key-id: ${{ secrets.PROD_AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.PROD_AWS_ACCESS_KEY_SECRET }}
-          aws-region: us-east-1
-
-      - name: Deploy pages
-        run: aws s3 sync docs/ s3://mdninteractive-b77d14bceaaa9ea4/
-
       - name: Authenticate with GCP
         uses: google-github-actions/auth@v1
         with:

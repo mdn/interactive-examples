@@ -43,16 +43,6 @@ jobs:
       - name: Build all
         run: npm run build
 
-      - name: Configure AWS credentials for stage
-        uses: aws-actions/configure-aws-credentials@v1-node16
-        with:
-          aws-access-key-id: ${{ secrets.STAGE_AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.STAGE_AWS_ACCESS_KEY_SECRET }}
-          aws-region: us-east-1
-
-      - name: Deploy pages
-        run: aws s3 sync docs/ s3://interactive-examples-stage-ce3e7ea385c68f44/
-
       - name: Authenticate with GCP
         uses: google-github-actions/auth@v1
         with:
