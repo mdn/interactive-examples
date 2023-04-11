@@ -32,7 +32,6 @@ The following is a list of browser/version combinations that are supported by th
 - Chrome - Latest three release versions.
 - Opera - Latest two release versions.
 - Safari - Latest two release versions.
-- Internet Explorer - version 11.
 - Edge - Latest release version.
 
 ## Contributing
