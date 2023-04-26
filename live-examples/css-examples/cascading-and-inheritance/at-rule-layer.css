@@ -1,7 +1,7 @@
 @layer module, state;
 
 @layer state {
-    .warning {
+    .alert {
         background-color: brown;
     }
     p {
@@ -10,7 +10,7 @@
 }
 
 @layer module {
-    .warning {
+    .alert {
         text-align: left;
         background-color: yellow;
         color: white;
