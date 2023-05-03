@@ -16,11 +16,8 @@ Want to contribute to the interactive examples project? Here are a couple of goo
 
 ## Folder structure
 
-- [css] - This contains the CSS used by the base templates.
-- [js] - This contains the JS used by the base templates.
 - [live-examples] - This contains the live example CSS and JS fragments.
 - [media] - This contains images used by the live examples and templates.
-- [tmpl] - The base templates.
 
 The dynamically generated pages, their dependencies, and assets are generated to the `prod` branch.
 
