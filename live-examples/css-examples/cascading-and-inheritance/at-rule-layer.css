@@ -1,5 +1,9 @@
 @layer module, state;
 
+#html-output {
+  width: unset;
+}
+
 @layer state {
     .alert {
         background-color: brown;
