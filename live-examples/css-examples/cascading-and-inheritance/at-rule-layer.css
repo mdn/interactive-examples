@@ -1,21 +1,17 @@
 @layer module, state;
 
-#html-output {
-  width: unset;
-}
-
 @layer state {
     .alert {
         background-color: brown;
     }
     p {
-        text-align: right;
+        border: medium solid limegreen;
     }
 }
 
 @layer module {
     .alert {
-        text-align: left;
+        border: medium solid violet;
         background-color: yellow;
         color: white;
     }
