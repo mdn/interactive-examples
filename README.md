@@ -15,9 +15,17 @@ Want to contribute to the interactive examples project? Here are a couple of goo
 [Good first issues](https://github.com/mdn/interactive-examples/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22example+needed%22+no%3Aassignee)
 
 ## Folder structure
-
-- [live-examples] - This contains the live example CSS and JS fragments.
+- [bin] - This contains script files.
 - [media] - This contains images used by the live examples and templates.
+- [live-examples] - This contains the live example CSS and JS fragments.
+    - [css-examples] - This contains css examples.
+    - [fonts] - This contains font files.
+    - [html-examples] - This contains html examples.
+    - [js-examples] - This contains js examples.
+    - [media] - This contains images.
+    - [wat-examples] - This contains web assembly text format examples.
+    - [webapi-examples] - This contains webapi examples.
+
 
 The dynamically generated pages, their dependencies, and assets are generated to the `prod` branch.
 
