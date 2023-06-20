@@ -20,6 +20,7 @@
         "fix:js": "eslint --fix ./live-examples/js-examples",
         "lint:css": "stylelint \"**/*.css\"",
         "lint:js": "eslint ./live-examples/js-examples",
+        "postinstall": "npm run build",
         "start-server": "http-server -p 9090 ./docs",
         "start-watch": "chokidar \"./live-examples/**\" -c \"npm run build:pages\" --initial --silent",
         "start": "npm-run-all --parallel start-watch start-server",
