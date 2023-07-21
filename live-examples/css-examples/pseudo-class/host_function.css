@@ -1,4 +1,4 @@
-/* Following CSS is being put inside the shadow DOM. */
+/* Following CSS is being applied inside the shadow DOM. */
 
 :host(h1) {
     color: red;
