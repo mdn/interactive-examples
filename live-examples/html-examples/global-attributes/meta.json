@@ -75,6 +75,17 @@
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
+        "is": {
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-is.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-is.css",
+            "jsExampleSrc": "./live-examples/html-examples/global-attributes/js/attribute-is.js",
+            "fileName": "attribute-is.html",
+            "title": "HTML Demo: is",
+            "type": "tabbed",
+            "defaultTab": "html",
+            "tabs": "html,css,js",
+            "height": "tabbed-standard"
+        },
         "lang": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-lang.html",
             "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-lang.css",
