@@ -1,0 +1,9 @@
+/* This CSS is being put inside the shadow DOM. */
+
+::slotted(.content) {
+    background-color: aqua;
+}
+
+h2 ::slotted(span) {
+    background: silver;
+}
