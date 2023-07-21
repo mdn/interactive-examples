@@ -1,4 +1,4 @@
-/* This CSS is being put inside the shadow DOM. */
+/* This CSS is being applied inside the shadow DOM. */
 
 ::slotted(.content) {
     background-color: aqua;
