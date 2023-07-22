@@ -222,6 +222,17 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "modal": {
+            "exampleCode": "./live-examples/css-examples/pseudo-class/modal.html",
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/modal.css",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/modal.js",
+            "fileName": "pseudo-class-modal.html",
+            "title": "HTML Demo: :modal",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "tabs": "html,css,js",
+            "height": "tabbed-shorter"
+        },
         "not": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/not.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/not.html",
