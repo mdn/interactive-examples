@@ -148,6 +148,13 @@
             "title": "CSS Demo: overflow-block",
             "type": "css"
         },
+        "overflowClipMargin": {
+            "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overflow-clip-margin.css",
+            "exampleCode": "./live-examples/css-examples/basic-box-model/overflow-clip-margin.html",
+            "fileName": "overflow-clip-margin.html",
+            "title": "CSS Demo: overflow-clip-margin",
+            "type": "css"
+        },
         "overflowInline": {
             "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overflow.css",
             "exampleCode": "./live-examples/css-examples/basic-box-model/overflow-inline.html",
