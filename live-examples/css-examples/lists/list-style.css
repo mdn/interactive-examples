@@ -4,7 +4,8 @@
 
 #example-element {
     width: 100%;
-    background: #f1f8ff30;
+    background: #be094b;
+    color: white;
 }
 
 .output section {
@@ -20,6 +21,10 @@
 
 .output .note {
     font-size: 0.8rem;
+}
+
+.note a {
+    color: #009e5f;
 }
 
 @counter-style space-counter {

@@ -1,4 +1,4 @@
-const rtf1 = new Intl.RelativeTimeFormat('en', { style: 'narrow' });
+const rtf1 = new Intl.RelativeTimeFormat('en', { style: 'short' });
 
 console.log(rtf1.format(3, 'quarter'));
 // Expected output: "in 3 qtrs."
