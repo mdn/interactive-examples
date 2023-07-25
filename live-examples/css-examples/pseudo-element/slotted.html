@@ -1,0 +1,11 @@
+<template id="card-template">
+  <div>
+    <h2><slot name="caption">title goes here</slot></h2>
+    <slot name="content">content goes here</slot>
+  </div>
+</template>
+
+<my-card>
+  <span slot="caption">Error</span>
+  <p class="content" slot="content">Build failed!</p>
+</my-card>
