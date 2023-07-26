@@ -82,6 +82,17 @@
             "type": "tabbed",
             "defaultTab": "css",
             "height": "tabbed-shorter"
+        },
+        "slotted": {
+            "exampleCode": "./live-examples/css-examples/pseudo-element/slotted.html",
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/slotted.css",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-element/slotted.js",
+            "fileName": "pseudo-element-slotted.html",
+            "title": "HTML Demo: ::slotted()",
+            "type": "tabbed",
+            "tabs": "html,css,js",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
         }
     }
 }

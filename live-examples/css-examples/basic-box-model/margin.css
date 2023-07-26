@@ -10,12 +10,12 @@
 .row {
     height: 33.33%;
     display: inline-block;
-    border: solid #5b6dcd 10px;
-    background-color: rgba(229, 232, 252, 0.6);
+    border: solid #ce7777 10px;
+    background-color: #2b3a55;
     flex-shrink: 0;
 }
 
 #example-element {
-    border: solid 10px #ffc129;
-    background-color: rgba(255, 244, 219, 0.6);
+    border: solid 10px #ffbf00;
+    background-color: #2b3a55;
 }

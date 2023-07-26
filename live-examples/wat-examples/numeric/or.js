@@ -5,6 +5,7 @@ await WebAssembly.instantiateStreaming(fetch(url), { console }).then(
 
     let res = or(0b10000010, 0b01101111)
     console.log(numToBin(res));
+    // Expected output: "11101111"
   }
 );
 
