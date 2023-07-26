@@ -1,0 +1,20 @@
+{
+    "pages": {
+        "at-rule-container": {
+            "cssExampleSrc": "./live-examples/css-examples/container/at-rule-container.css",
+            "exampleCode": "./live-examples/css-examples/container/at-rule-container.html",
+            "fileName": "at-rule-container.html",
+            "title": "CSS Demo: @container",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "height": "tabbed-taller"
+        },
+        "contain": {
+            "cssExampleSrc": "./live-examples/css-examples/container/contain.css",
+            "exampleCode": "./live-examples/css-examples/container/contain.html",
+            "fileName": "contain.html",
+            "title": "CSS Demo: contain",
+            "type": "css"
+        }
+    }
+}
