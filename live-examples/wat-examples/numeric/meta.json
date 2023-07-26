@@ -9,42 +9,42 @@
         },
         "eq": {
             "watExampleCode": "./live-examples/wat-examples/numeric/eq.wat",
-            "jsExampleCode": "./live-examples/wat-examples/log_bool.js",
+            "jsExampleCode": "./live-examples/wat-examples/log_bool_false.js",
             "fileName": "eq.html",
             "title": "Wat Demo: eq",
             "type": "wat"
         },
         "ne": {
             "watExampleCode": "./live-examples/wat-examples/numeric/ne.wat",
-            "jsExampleCode": "./live-examples/wat-examples/log_bool.js",
+            "jsExampleCode": "./live-examples/wat-examples/log_bool_true.js",
             "fileName": "ne.html",
             "title": "Wat Demo: ne",
             "type": "wat"
         },
         "gt": {
             "watExampleCode": "./live-examples/wat-examples/numeric/gt.wat",
-            "jsExampleCode": "./live-examples/wat-examples/log_bool.js",
+            "jsExampleCode": "./live-examples/wat-examples/log_bool_true.js",
             "fileName": "gt.html",
             "title": "Wat Demo: gt",
             "type": "wat"
         },
         "lt": {
             "watExampleCode": "./live-examples/wat-examples/numeric/lt.wat",
-            "jsExampleCode": "./live-examples/wat-examples/log_bool.js",
+            "jsExampleCode": "./live-examples/wat-examples/log_bool_false.js",
             "fileName": "lt.html",
             "title": "Wat Demo: lt",
             "type": "wat"
         },
         "ge": {
             "watExampleCode": "./live-examples/wat-examples/numeric/ge.wat",
-            "jsExampleCode": "./live-examples/wat-examples/log_bool.js",
+            "jsExampleCode": "./live-examples/wat-examples/log_bool_true.js",
             "fileName": "ge.html",
             "title": "Wat Demo: ge",
             "type": "wat"
         },
         "le": {
             "watExampleCode": "./live-examples/wat-examples/numeric/le.wat",
-            "jsExampleCode": "./live-examples/wat-examples/log_bool.js",
+            "jsExampleCode": "./live-examples/wat-examples/log_bool_false.js",
             "fileName": "le.html",
             "title": "Wat Demo: le",
             "type": "wat"
