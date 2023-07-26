@@ -7,8 +7,9 @@
 }
 
 #example-element {
-    border: solid 10px #ffc129;
-    background-color: rgba(255, 244, 219, 0.6);
+    border: solid 10px #efac09;
+    background-color: #040d46;
+    color: white;
     padding: 1em;
     width: 40%;
 }
