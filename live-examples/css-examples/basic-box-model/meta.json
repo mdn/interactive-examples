@@ -7,13 +7,6 @@
             "title": "CSS Demo: clear",
             "type": "css"
         },
-        "contain": {
-            "cssExampleSrc": "./live-examples/css-examples/basic-box-model/contain.css",
-            "exampleCode": "./live-examples/css-examples/basic-box-model/contain.html",
-            "fileName": "contain.html",
-            "title": "CSS Demo: contain",
-            "type": "css"
-        },
         "display": {
             "cssExampleSrc": "./live-examples/css-examples/basic-box-model/display.css",
             "exampleCode": "./live-examples/css-examples/basic-box-model/display.html",
@@ -155,6 +148,13 @@
             "title": "CSS Demo: overflow-block",
             "type": "css"
         },
+        "overflowClipMargin": {
+            "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overflow-clip-margin.css",
+            "exampleCode": "./live-examples/css-examples/basic-box-model/overflow-clip-margin.html",
+            "fileName": "overflow-clip-margin.html",
+            "title": "CSS Demo: overflow-clip-margin",
+            "type": "css"
+        },
         "overflowInline": {
             "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overflow.css",
             "exampleCode": "./live-examples/css-examples/basic-box-model/overflow-inline.html",
@@ -181,6 +181,20 @@
             "exampleCode": "./live-examples/css-examples/basic-box-model/overscroll-behavior.html",
             "fileName": "overscroll-behavior.html",
             "title": "CSS Demo: overscroll-behavior",
+            "type": "css"
+        },
+        "overscrollBehaviorX": {
+            "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overscroll-behavior-x.css",
+            "exampleCode": "./live-examples/css-examples/basic-box-model/overscroll-behavior-x.html",
+            "fileName": "overscroll-behavior-x.html",
+            "title": "CSS Demo: overscroll-behavior-x",
+            "type": "css"
+        },
+        "overscrollBehaviorY": {
+            "cssExampleSrc": "./live-examples/css-examples/basic-box-model/overscroll-behavior-y.css",
+            "exampleCode": "./live-examples/css-examples/basic-box-model/overscroll-behavior-y.html",
+            "fileName": "overscroll-behavior-y.html",
+            "title": "CSS Demo: overscroll-behavior-y",
             "type": "css"
         },
         "visibility": {

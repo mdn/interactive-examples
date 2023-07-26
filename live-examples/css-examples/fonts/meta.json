@@ -43,7 +43,6 @@
             "type": "css"
         },
         "fontSize": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-size.css",
             "exampleCode": "./live-examples/css-examples/fonts/font-size.html",
             "fileName": "font-size.html",
             "title": "CSS Demo: font-size",

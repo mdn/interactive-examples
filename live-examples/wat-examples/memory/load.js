@@ -5,9 +5,10 @@ await WebAssembly.instantiateStreaming(fetch(url)).then(
     const memory = result.instance.exports.memory;
 
     var dataView = new DataView(memory.buffer);
-    // store 30 at the beginning of memory
+    // Store 30 at the beginning of memory
     dataView.setUint32(0, 30, true);
 
     console.log(load_first_item_in_mem(100));
+    // Expected output: 30
   }
 );
