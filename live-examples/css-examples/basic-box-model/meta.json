@@ -6,6 +6,13 @@
             "fileName": "clear.html",
             "title": "CSS Demo: clear",
             "type": "css"
+        }, 
+        "contain": {
+            "cssExampleSrc": "./live-examples/css-examples/basic-box-model/contain.css",
+            "exampleCode": "./live-examples/css-examples/basic-box-model/contain.html",
+            "fileName": "contain.html",
+            "title": "CSS Demo: contain",
+            "type": "css"
         },
         "display": {
             "cssExampleSrc": "./live-examples/css-examples/basic-box-model/display.css",
