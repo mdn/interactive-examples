@@ -18,18 +18,18 @@
     "build:pages": "mdn-bob --skip-webpack",
     "fix": "npm run fix:css && npm run fix:js && npm run fix:format",
     "fix:css": "npm run lint:css -- --fix",
-    "fix:js": "eslint --fix ./live-examples/js-examples",
+    "fix:js": "eslint --fix .",
     "fix:format": "prettier -w --ignore-unknown .",
     "lint": "npm run lint:css && npm run lint:js && npm run lint:format",
     "lint:css": "stylelint \"**/*.css\"",
-    "lint:js": "eslint ./live-examples/js-examples",
+    "lint:js": "eslint .",
     "lint:format": "prettier -c --ignore-unknown .",
     "postinstall": "npm run build",
     "prepare": "husky install",
     "start-server": "http-server -p 9090 ./docs",
     "start-watch": "chokidar \"./live-examples/**\" -c \"npm run build:pages\" --initial --silent",
     "start": "npm-run-all --parallel start-watch start-server",
-    "test": "npm run lint:js"
+    "test": "npm run lint"
   },
   "keywords": [
     "javascript",
