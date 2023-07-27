@@ -55,6 +55,6 @@
     "prettier": "^3.0.0",
     "prettier-eslint": "^15.0.1",
     "stylelint": "^15.10.2",
-    "stylelint-prettier": "^3.0.0"
+    "stylelint-prettier": "^4.0.1"
   }
 }
