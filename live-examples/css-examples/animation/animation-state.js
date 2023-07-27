@@ -1,35 +1,35 @@
 'use strict';
 
-window.addEventListener('load', function() {
-    const el = document.getElementById('example-element');
-    const status = document.getElementById('playstatus');
+window.addEventListener('load', () => {
+  const el = document.getElementById('example-element');
+  const status = document.getElementById('playstatus');
 
-    function update() {
-        status.textContent = 'delaying';
-        el.className = '';
-        window.requestAnimationFrame(function() {
-            window.requestAnimationFrame(function() {
-                el.className = 'animating';
-            });
-        });
-    }
-
-    el.addEventListener('animationstart', function() {
-        status.textContent = 'playing';
+  function update() {
+    status.textContent = 'delaying';
+    el.className = '';
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
+        el.className = 'animating';
+      });
     });
+  }
 
-    el.addEventListener('animationend', function() {
-        status.textContent = 'finished';
-    });
+  el.addEventListener('animationstart', () => {
+    status.textContent = 'playing';
+  });
 
-    const observer = new MutationObserver(function() {
-        update();
-    });
+  el.addEventListener('animationend', () => {
+    status.textContent = 'finished';
+  });
 
-    observer.observe(el, {
-        attributes: true,
-        attributeFilter: ['style']
-    });
-
+  const observer = new MutationObserver(() => {
     update();
+  });
+
+  observer.observe(el, {
+    attributes: true,
+    attributeFilter: ['style']
+  });
+
+  update();
 });

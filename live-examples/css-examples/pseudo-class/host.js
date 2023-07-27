@@ -1,6 +1,6 @@
 const shadowDom = init();
 
-// add a <span> element in the shadow DOM
+// add a 'span' element in the shadow DOM
 const span = document.createElement('span');
 span.textContent = 'Inside shadow DOM';
 shadowDom.appendChild(span);

@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
   }
 
   function addContent() {
-    console.log('adding content')
+    console.log('adding content');
     const magicNumber = Math.floor(Math.random() * 10000);
     example.insertAdjacentHTML('afterbegin', `<div class="new-content-container">New Magic Number: ${magicNumber}</div>`);
   }
