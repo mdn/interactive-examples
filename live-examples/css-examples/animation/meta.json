@@ -68,6 +68,17 @@
             "fileName": "animation-timing-function.html",
             "title": "CSS Demo: animation-timing-function",
             "type": "css"
+        },
+        "keyframes": {
+            "cssExampleSrc": "./live-examples/css-examples/animation/at-rule-keyframes.css",
+            "jsExampleSrc": "./live-examples/css-examples/animation/at-rule-keyframes.js",
+            "exampleCode": "./live-examples/css-examples/animation/at-rule-keyframes.html",
+            "fileName": "at-rule-keyframes.html",
+            "title": "CSS Demo: @keyframes",
+            "type": "tabbed",
+            "tabs": "html,css,js",
+            "defaultTab": "css",
+            "height": "tabbed-standard"
         }
     }
 }
