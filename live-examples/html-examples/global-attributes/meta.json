@@ -48,6 +48,17 @@
             "type": "tabbed",
             "height": "tabbed-shorter"
         },
+        "exportparts": {
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-exportparts.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-exportparts.css",
+            "jsExampleSrc": "./live-examples/html-examples/global-attributes/js/attribute-exportparts.js",
+            "fileName": "attribute-exportparts.html",
+            "title": "HTML Demo: exportparts",
+            "type": "tabbed",
+            "defaultTab": "html",
+            "tabs": "html,css,js",
+            "height": "tabbed-taller"
+        },
         "hidden": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-hidden.html",
             "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-hidden.css",
@@ -63,6 +74,17 @@
             "title": "HTML Demo: id",
             "type": "tabbed",
             "height": "tabbed-shorter"
+        },
+        "is": {
+            "exampleCode": "./live-examples/html-examples/global-attributes/attribute-is.html",
+            "cssExampleSrc": "./live-examples/html-examples/global-attributes/css/attribute-is.css",
+            "jsExampleSrc": "./live-examples/html-examples/global-attributes/js/attribute-is.js",
+            "fileName": "attribute-is.html",
+            "title": "HTML Demo: is",
+            "type": "tabbed",
+            "defaultTab": "html",
+            "tabs": "html,css,js",
+            "height": "tabbed-standard"
         },
         "lang": {
             "exampleCode": "./live-examples/html-examples/global-attributes/attribute-lang.html",

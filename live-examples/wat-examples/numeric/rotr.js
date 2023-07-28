@@ -5,6 +5,7 @@ await WebAssembly.instantiateStreaming(fetch(url), { console }).then(
 
     let res = rotate_right(0b00000000_00000000_00000000_00000111, 1);
     console.log(numToBin(res));
+    // Expected output: "10000000_00000000_00000000_00000011"
   }
 );
 
