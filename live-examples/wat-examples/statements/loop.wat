@@ -3,7 +3,7 @@
   (import "console" "log" (func $log (param i32)))
 
   (func
-    ;; create a global variable and initialize it to 0
+    ;; create a local variable and initialize it to 0
     (local $i i32)
 
     (loop $my_loop

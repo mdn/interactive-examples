@@ -135,6 +135,39 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "host": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/host.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/host.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/host.js",
+            "fileName": "pseudo-class-host.html",
+            "title": "CSS Demo: :host",
+            "type": "tabbed",
+            "tabs": "html,css,js",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "host-context": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/host-context.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/host-context.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/host.js",
+            "fileName": "pseudo-class-host-context.html",
+            "title": "CSS Demo: :host-context()",
+            "type": "tabbed",
+            "tabs": "html,css,js",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "host_function": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/host_function.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/host_function.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/host.js",
+            "fileName": "pseudo-class-host_function.html",
+            "title": "CSS Demo: :host()",
+            "type": "tabbed",
+            "tabs": "html,css,js",
+            "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
         "inRange": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/in-range.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/in-range.html",
@@ -162,6 +195,17 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "fullscreen": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/fullscreen.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/fullscreen.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/fullscreen.js",
+            "fileName": "pseudo-class-fullscreen.html",
+            "title": "CSS Demo: :fullscreen",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "tabs": "html,css,js",
+            "height": "tabbed-shorter"
+        },
         "lastChild": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/last-child.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/last-child.html",
@@ -187,6 +231,17 @@
             "title": "CSS Demo: :link",
             "type": "tabbed",
             "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "modal": {
+            "exampleCode": "./live-examples/css-examples/pseudo-class/modal.html",
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/modal.css",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/modal.js",
+            "fileName": "pseudo-class-modal.html",
+            "title": "HTML Demo: :modal",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "tabs": "html,css,js",
             "height": "tabbed-shorter"
         },
         "not": {
@@ -313,6 +368,17 @@
             "title": "CSS Demo: :root",
             "type": "tabbed",
             "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "scope": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/scope.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/scope.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/scope.js",
+            "fileName": "pseudo-class-scope.html",
+            "title": "CSS Demo: :scope",
+            "type": "tabbed",
+            "defaultTab": "js",
+            "tabs": "html,css,js",
             "height": "tabbed-shorter"
         },
         "valid": {
