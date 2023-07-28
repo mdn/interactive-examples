@@ -6,7 +6,7 @@ Home of the [MDN](https://developer.mozilla.org/) interactive code examples.
 
 ## Project maintainers
 
-Should you have any questions regarding this project, please feel free to @mention either @wbamberg or @schalkneethling
+Should you have any questions regarding this project, please feel free to @mention either @wbamberg or @bsmth
 
 ## Good first issues
 
@@ -26,13 +26,11 @@ The dynamically generated pages, their dependencies, and assets are generated to
 
 ## Browser support baseline
 
-The following is a list of browser/version combinations that are supported by the interactive editor. In browsers that do not meet the criteria, the editor degrades gracefully to displaying static examples.
+The following is a list of browser/version combinations supported by the interactive editor. In browsers that do not meet the criteria, the editor degrades gracefully to displaying static examples.
 
 - Firefox - Latest three release versions.
 - Chrome - Latest three release versions.
-- Opera - Latest two release versions.
 - Safari - Latest two release versions.
-- Internet Explorer - version 11.
 - Edge - Latest release version.
 
 ## Contributing

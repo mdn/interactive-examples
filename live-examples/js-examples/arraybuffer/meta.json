@@ -18,6 +18,24 @@
             "title": "JavaScript Demo: ArrayBuffer.isView()",
             "type": "js"
         },
+        "arraybufferMaxByteLength": {
+            "exampleCode": "./live-examples/js-examples/arraybuffer/arraybuffer-maxbytelength.js",
+            "fileName": "arraybuffer-maxbytelength.html",
+            "title": "JavaScript Demo: ArrayBuffer.maxByteLength",
+            "type": "js"
+        },
+        "arraybufferResizable": {
+            "exampleCode": "./live-examples/js-examples/arraybuffer/arraybuffer-resizable.js",
+            "fileName": "arraybuffer-resizable.html",
+            "title": "JavaScript Demo: ArrayBuffer.resizable",
+            "type": "js"
+        },
+        "arraybufferResize": {
+            "exampleCode": "./live-examples/js-examples/arraybuffer/arraybuffer-resize.js",
+            "fileName": "arraybuffer-resize.html",
+            "title": "JavaScript Demo: ArrayBuffer.resize()",
+            "type": "js"
+        },
         "arraybufferSlice": {
             "exampleCode": "./live-examples/js-examples/arraybuffer/arraybuffer-slice.js",
             "fileName": "arraybuffer-slice.html",
