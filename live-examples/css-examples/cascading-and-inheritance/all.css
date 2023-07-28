@@ -1,5 +1,5 @@
 #example-element {
-    color: red;
+    color: gold;
     padding: 10px;
     font-size: 1.5rem;
     text-align: left;
@@ -7,5 +7,10 @@
 }
 
 .example-container {
-    border: 2px dashed #999;
+    border: 2px dashed #2d5ae1;
+}
+
+.example-container-bg {
+    background-color: #77767b;
+    padding: 20px;
 }
