@@ -10,5 +10,6 @@ await WebAssembly.instantiateStreaming(fetch(url)).then(
     var first_number_in_mem = dataView.getUint32(0, true);
 
     console.log(first_number_in_mem);
+    // Expected output: 100
   }
 );

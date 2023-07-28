@@ -29,7 +29,7 @@
 
 .back {
     background: rgb(230, 0, 0);
-    color: black;
+    color: white;
     transform: rotateY(180deg) translateZ(50px);
 }
 

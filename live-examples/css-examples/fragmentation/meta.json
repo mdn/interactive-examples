@@ -1,5 +1,16 @@
 {
     "pages": {
+        "atRulePage": {
+            "cssExampleSrc": "./live-examples/css-examples/fragmentation/at-rule-page.css",
+            "exampleCode": "./live-examples/css-examples/fragmentation/at-rule-page.html",
+            "jsExampleSrc": "./live-examples/css-examples/fragmentation/at-rule-page.js",
+            "fileName": "at-rule-page.html",
+            "title": "CSS Demo: @page",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "tabs": "html,css,js",
+            "height": "tabbed-shorter"
+        },
         "boxDecorationBreak": {
             "cssExampleSrc": "./live-examples/css-examples/fragmentation/box-decoration-break.css",
             "exampleCode": "./live-examples/css-examples/fragmentation/box-decoration-break.html",

@@ -10,6 +10,7 @@
 #example-element {
     background-color: #264653;
     border: 4px solid #ffb500;
+    color: white;
     position: absolute;
     width: 140px;
     height: 60px;

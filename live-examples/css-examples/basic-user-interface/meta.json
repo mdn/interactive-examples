@@ -8,6 +8,7 @@
             "type": "css"
         },
         "appearance": {
+            "cssExampleSrc": "./live-examples/css-examples/basic-user-interface/appearance.css",
             "exampleCode": "./live-examples/css-examples/basic-user-interface/appearance.html",
             "fileName": "appearance.html",
             "title": "CSS Demo: appearance",

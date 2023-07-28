@@ -5,6 +5,7 @@ await WebAssembly.instantiateStreaming(fetch(url), { console }).then(
 
     let res = shift_left(0b11100000_00000000_00000000_00000000, 1);
     console.log(numToBin(res));
+    // Expected output: "11000000_00000000_00000000_00000000"
   }
 );
 
