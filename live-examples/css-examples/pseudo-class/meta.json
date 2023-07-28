@@ -195,6 +195,17 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "fullscreen": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/fullscreen.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/fullscreen.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/fullscreen.js",
+            "fileName": "pseudo-class-fullscreen.html",
+            "title": "CSS Demo: :fullscreen",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "tabs": "html,css,js",
+            "height": "tabbed-shorter"
+        },
         "lastChild": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/last-child.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/last-child.html",
@@ -357,6 +368,17 @@
             "title": "CSS Demo: :root",
             "type": "tabbed",
             "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "scope": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/scope.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/scope.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/scope.js",
+            "fileName": "pseudo-class-scope.html",
+            "title": "CSS Demo: :scope",
+            "type": "tabbed",
+            "defaultTab": "js",
+            "tabs": "html,css,js",
             "height": "tabbed-shorter"
         },
         "valid": {
