@@ -45,6 +45,17 @@
             "defaultTab": "css",
             "height": "tabbed-shorter"
         },
+        "defined": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/defined.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/defined.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/defined.js",
+            "fileName": "pseudo-class-defined.html",
+            "title": "CSS Demo: :defined",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "tabs": "html,css,js",
+            "height": "tabbed-shorter"
+        },
         "disabled": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/disabled.css",
             "exampleCode": "./live-examples/css-examples/pseudo-class/disabled.html",
@@ -89,6 +100,17 @@
             "type": "tabbed",
             "defaultTab": "css",
             "height": "tabbed-shorter"
+        },
+        "indeterminate": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/indeterminate.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/indeterminate.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/indeterminate.js",
+            "fileName": "pseudo-class-indeterminate.html",
+            "title": "CSS Demo: :indeterminate",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "tabs": "html,css,js",
+            "height": "tabbed-standard"
         },
         "focus": {
             "cssExampleSrc": "./live-examples/css-examples/pseudo-class/focus.css",
@@ -193,6 +215,17 @@
             "title": "CSS Demo: :is",
             "type": "tabbed",
             "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "fullscreen": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/fullscreen.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/fullscreen.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/fullscreen.js",
+            "fileName": "pseudo-class-fullscreen.html",
+            "title": "CSS Demo: :fullscreen",
+            "type": "tabbed",
+            "defaultTab": "css",
+            "tabs": "html,css,js",
             "height": "tabbed-shorter"
         },
         "lastChild": {
@@ -357,6 +390,17 @@
             "title": "CSS Demo: :root",
             "type": "tabbed",
             "defaultTab": "css",
+            "height": "tabbed-shorter"
+        },
+        "scope": {
+            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/scope.css",
+            "exampleCode": "./live-examples/css-examples/pseudo-class/scope.html",
+            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/scope.js",
+            "fileName": "pseudo-class-scope.html",
+            "title": "CSS Demo: :scope",
+            "type": "tabbed",
+            "defaultTab": "js",
+            "tabs": "html,css,js",
             "height": "tabbed-shorter"
         },
         "valid": {
