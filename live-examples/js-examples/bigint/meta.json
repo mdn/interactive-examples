@@ -1,11 +1,5 @@
 {
   "pages": {
-    "bigInt64Array": {
-      "exampleCode": "./live-examples/js-examples/bigint/bigint64.js",
-      "fileName": "bigint64.html",
-      "title": "JavaScript Demo: BigInt64Array()",
-      "type": "js"
-    },
     "bigIntasIntN": {
       "exampleCode": "./live-examples/js-examples/bigint/bigint-asintn.js",
       "fileName": "bigint-asintn.html",

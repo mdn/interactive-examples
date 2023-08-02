@@ -6,6 +6,12 @@
       "title": "JavaScript Demo: TypedArray.at()",
       "type": "js"
     },
+    "typedarrayBigInt64": {
+      "exampleCode": "./live-examples/js-examples/typedarray/typedarray-bigint64.js",
+      "fileName": "typedarray-bigint64.html",
+      "title": "JavaScript Demo: BigInt64Array()",
+      "type": "js"
+    },
     "typedarrayBuffer": {
       "exampleCode": "./live-examples/js-examples/typedarray/typedarray-buffer.js",
       "fileName": "typedarray-buffer.html",
