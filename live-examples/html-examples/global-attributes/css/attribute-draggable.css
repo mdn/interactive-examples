@@ -1,0 +1,15 @@
+#draggable {
+  text-align: center;
+}
+
+.zones {
+  display: flex;
+  margin-top: 20px;
+  gap: 40px;
+}
+
+.dropZone {
+  width: 80px;
+  height: 80px;
+  border: 5px solid forestgreen;
+}
