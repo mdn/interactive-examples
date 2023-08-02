@@ -1,77 +1,77 @@
 {
-    "pages": {
-        "backdropFilter": {
-            "cssExampleSrc": "./live-examples/css-examples/filter-effects/backdrop-filter.css",
-            "exampleCode": "./live-examples/css-examples/filter-effects/backdrop-filter.html",
-            "fileName": "backdrop-filter.html",
-            "title": "CSS Demo: backdrop-filter()",
-            "type": "css"
-        },
-        "blur": {
-            "exampleCode": "./live-examples/css-examples/filter-effects/function-blur.html",
-            "fileName": "function-blur.html",
-            "title": "CSS Demo: blur()",
-            "type": "css"
-        },
-        "brightness": {
-            "exampleCode": "./live-examples/css-examples/filter-effects/function-brightness.html",
-            "fileName": "function-brightness.html",
-            "title": "CSS Demo: brightness()",
-            "type": "css"
-        },
-        "contrast": {
-            "exampleCode": "./live-examples/css-examples/filter-effects/function-contrast.html",
-            "fileName": "function-contrast.html",
-            "title": "CSS Demo: contrast()",
-            "type": "css"
-        },
-        "dropShadow": {
-            "exampleCode": "./live-examples/css-examples/filter-effects/function-drop-shadow.html",
-            "fileName": "function-drop-shadow.html",
-            "title": "CSS Demo: drop-shadow()",
-            "type": "css"
-        },
-        "filter": {
-            "exampleCode": "./live-examples/css-examples/filter-effects/filter.html",
-            "fileName": "filter.html",
-            "title": "CSS Demo: filter",
-            "type": "css"
-        },
-        "grayscale": {
-            "exampleCode": "./live-examples/css-examples/filter-effects/function-grayscale.html",
-            "fileName": "function-grayscale.html",
-            "title": "CSS Demo: grayscale()",
-            "type": "css"
-        },
-        "hueRotate": {
-            "exampleCode": "./live-examples/css-examples/filter-effects/function-hue-rotate.html",
-            "fileName": "function-hue-rotate.html",
-            "title": "CSS Demo: hue-rotate()",
-            "type": "css"
-        },
-        "invert": {
-            "exampleCode": "./live-examples/css-examples/filter-effects/function-invert.html",
-            "fileName": "function-invert.html",
-            "title": "CSS Demo: invert()",
-            "type": "css"
-        },
-        "opacity": {
-            "exampleCode": "./live-examples/css-examples/filter-effects/function-opacity.html",
-            "fileName": "function-opacity.html",
-            "title": "CSS Demo: opacity()",
-            "type": "css"
-        },
-        "saturate": {
-            "exampleCode": "./live-examples/css-examples/filter-effects/function-saturate.html",
-            "fileName": "function-saturate.html",
-            "title": "CSS Demo: saturate()",
-            "type": "css"
-        },
-        "sepia": {
-            "exampleCode": "./live-examples/css-examples/filter-effects/function-sepia.html",
-            "fileName": "function-sepia.html",
-            "title": "CSS Demo: sepia()",
-            "type": "css"
-        }
+  "pages": {
+    "backdropFilter": {
+      "cssExampleSrc": "./live-examples/css-examples/filter-effects/backdrop-filter.css",
+      "exampleCode": "./live-examples/css-examples/filter-effects/backdrop-filter.html",
+      "fileName": "backdrop-filter.html",
+      "title": "CSS Demo: backdrop-filter()",
+      "type": "css"
+    },
+    "blur": {
+      "exampleCode": "./live-examples/css-examples/filter-effects/function-blur.html",
+      "fileName": "function-blur.html",
+      "title": "CSS Demo: blur()",
+      "type": "css"
+    },
+    "brightness": {
+      "exampleCode": "./live-examples/css-examples/filter-effects/function-brightness.html",
+      "fileName": "function-brightness.html",
+      "title": "CSS Demo: brightness()",
+      "type": "css"
+    },
+    "contrast": {
+      "exampleCode": "./live-examples/css-examples/filter-effects/function-contrast.html",
+      "fileName": "function-contrast.html",
+      "title": "CSS Demo: contrast()",
+      "type": "css"
+    },
+    "dropShadow": {
+      "exampleCode": "./live-examples/css-examples/filter-effects/function-drop-shadow.html",
+      "fileName": "function-drop-shadow.html",
+      "title": "CSS Demo: drop-shadow()",
+      "type": "css"
+    },
+    "filter": {
+      "exampleCode": "./live-examples/css-examples/filter-effects/filter.html",
+      "fileName": "filter.html",
+      "title": "CSS Demo: filter",
+      "type": "css"
+    },
+    "grayscale": {
+      "exampleCode": "./live-examples/css-examples/filter-effects/function-grayscale.html",
+      "fileName": "function-grayscale.html",
+      "title": "CSS Demo: grayscale()",
+      "type": "css"
+    },
+    "hueRotate": {
+      "exampleCode": "./live-examples/css-examples/filter-effects/function-hue-rotate.html",
+      "fileName": "function-hue-rotate.html",
+      "title": "CSS Demo: hue-rotate()",
+      "type": "css"
+    },
+    "invert": {
+      "exampleCode": "./live-examples/css-examples/filter-effects/function-invert.html",
+      "fileName": "function-invert.html",
+      "title": "CSS Demo: invert()",
+      "type": "css"
+    },
+    "opacity": {
+      "exampleCode": "./live-examples/css-examples/filter-effects/function-opacity.html",
+      "fileName": "function-opacity.html",
+      "title": "CSS Demo: opacity()",
+      "type": "css"
+    },
+    "saturate": {
+      "exampleCode": "./live-examples/css-examples/filter-effects/function-saturate.html",
+      "fileName": "function-saturate.html",
+      "title": "CSS Demo: saturate()",
+      "type": "css"
+    },
+    "sepia": {
+      "exampleCode": "./live-examples/css-examples/filter-effects/function-sepia.html",
+      "fileName": "function-sepia.html",
+      "title": "CSS Demo: sepia()",
+      "type": "css"
     }
+  }
 }

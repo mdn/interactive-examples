@@ -1,7 +1,7 @@
 a:only-of-type {
-    color: fuchsia;
+  color: fuchsia;
 }
 
 dd:only-of-type {
-    background-color: bisque;
+  background-color: bisque;
 }

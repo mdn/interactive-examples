@@ -1,6 +1,6 @@
 const object1 = {
   x: 1,
-  y: 2
+  y: 2,
 };
 
 console.log(Reflect.get(object1, 'x'));

@@ -1,5 +1,5 @@
 const object1 = {
-  property1: 42
+  property1: 42,
 };
 
 const proto1 = Reflect.getPrototypeOf(object1);

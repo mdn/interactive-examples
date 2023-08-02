@@ -1,12 +1,12 @@
 label {
-    display: block;
-    margin-top: 1em;
+  display: block;
+  margin-top: 1em;
 }
 
 input:autofill {
-    border: 3px solid darkorange;
+  border: 3px solid darkorange;
 }
 
 input:-webkit-autofill {
-    border: 3px solid darkorange;
+  border: 3px solid darkorange;
 }

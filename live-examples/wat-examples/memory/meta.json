@@ -1,32 +1,32 @@
 {
-    "pages": {
-        "store": {
-            "watExampleCode": "./live-examples/wat-examples/memory/store.wat",
-            "jsExampleCode": "./live-examples/wat-examples/memory/store.js",
-            "fileName": "store.html",
-            "title": "Wat Demo: store",
-            "type": "wat"
-        },
-        "load": {
-            "watExampleCode": "./live-examples/wat-examples/memory/load.wat",
-            "jsExampleCode": "./live-examples/wat-examples/memory/load.js",
-            "fileName": "load.html",
-            "title": "Wat Demo: load",
-            "type": "wat"
-        },
-        "size": {
-            "watExampleCode": "./live-examples/wat-examples/memory/size.wat",
-            "jsExampleCode": "./live-examples/wat-examples/console.js",
-            "fileName": "size.html",
-            "title": "Wat Demo: size",
-            "type": "wat"
-        },
-        "grow": {
-            "watExampleCode": "./live-examples/wat-examples/memory/grow.wat",
-            "jsExampleCode": "./live-examples/wat-examples/console.js",
-            "fileName": "grow.html",
-            "title": "Wat Demo: grow",
-            "type": "wat"
-        }
+  "pages": {
+    "store": {
+      "watExampleCode": "./live-examples/wat-examples/memory/store.wat",
+      "jsExampleCode": "./live-examples/wat-examples/memory/store.js",
+      "fileName": "store.html",
+      "title": "Wat Demo: store",
+      "type": "wat"
+    },
+    "load": {
+      "watExampleCode": "./live-examples/wat-examples/memory/load.wat",
+      "jsExampleCode": "./live-examples/wat-examples/memory/load.js",
+      "fileName": "load.html",
+      "title": "Wat Demo: load",
+      "type": "wat"
+    },
+    "size": {
+      "watExampleCode": "./live-examples/wat-examples/memory/size.wat",
+      "jsExampleCode": "./live-examples/wat-examples/console.js",
+      "fileName": "size.html",
+      "title": "Wat Demo: size",
+      "type": "wat"
+    },
+    "grow": {
+      "watExampleCode": "./live-examples/wat-examples/memory/grow.wat",
+      "jsExampleCode": "./live-examples/wat-examples/console.js",
+      "fileName": "grow.html",
+      "title": "Wat Demo: grow",
+      "type": "wat"
     }
+  }
 }

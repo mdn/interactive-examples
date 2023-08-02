@@ -4,12 +4,12 @@ const handler1 = {
       return false;
     }
     return key in target;
-  }
+  },
 };
 
 const monster1 = {
   _secret: 'easily scared',
-  eyeCount: 4
+  eyeCount: 4,
 };
 
 const proxy1 = new Proxy(monster1, handler1);

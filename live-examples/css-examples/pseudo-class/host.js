@@ -20,5 +20,3 @@ function init() {
   });
   return shadowDom;
 }
-
-
