@@ -1,3 +1,7 @@
+/* global getShadowRoot */
+// XXX getShadowRoot is not actually defined anywhere,
+// and this example needs to be fixed
+
 (function() {
     function getHeader() {
         let documentRoot = getShadowRoot();
