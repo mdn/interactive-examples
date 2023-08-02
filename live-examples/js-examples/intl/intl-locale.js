@@ -1,5 +1,8 @@
 const korean = new Intl.Locale('ko', {
-  script: 'Kore', region: 'KR', hourCycle: 'h24', calendar: 'gregory'
+  script: 'Kore',
+  region: 'KR',
+  hourCycle: 'h24',
+  calendar: 'gregory',
 });
 
 const japanese = new Intl.Locale('ja-Jpan-JP-u-ca-japanese-hc-h12');

@@ -1,262 +1,262 @@
 {
-    "pages": {
-        "mathAbs": {
-            "exampleCode": "./live-examples/js-examples/math/math-abs.js",
-            "fileName": "math-abs.html",
-            "title": "JavaScript Demo: Math.abs()",
-            "type": "js"
-        },
-        "mathAcos": {
-            "exampleCode": "./live-examples/js-examples/math/math-acos.js",
-            "fileName": "math-acos.html",
-            "title": "JavaScript Demo: Math.acos()",
-            "type": "js"
-        },
-        "mathAcosh": {
-            "exampleCode": "./live-examples/js-examples/math/math-acosh.js",
-            "fileName": "math-acosh.html",
-            "title": "JavaScript Demo: Math.acosh()",
-            "type": "js"
-        },
-        "mathAsin": {
-            "exampleCode": "./live-examples/js-examples/math/math-asin.js",
-            "fileName": "math-asin.html",
-            "title": "JavaScript Demo: Math.asin()",
-            "type": "js"
-        },
-        "mathAsinh": {
-            "exampleCode": "./live-examples/js-examples/math/math-asinh.js",
-            "fileName": "math-asinh.html",
-            "title": "JavaScript Demo: Math.asinh()",
-            "type": "js"
-        },
-        "mathAtan": {
-            "exampleCode": "./live-examples/js-examples/math/math-atan.js",
-            "fileName": "math-atan.html",
-            "title": "JavaScript Demo: Math.atan()",
-            "type": "js"
-        },
-        "mathAtan2": {
-            "exampleCode": "./live-examples/js-examples/math/math-atan2.js",
-            "fileName": "math-atan2.html",
-            "title": "JavaScript Demo: Math.atan2()",
-            "type": "js"
-        },
-        "mathAtanh": {
-            "exampleCode": "./live-examples/js-examples/math/math-atanh.js",
-            "fileName": "math-atanh.html",
-            "title": "JavaScript Demo: Math.atanh()",
-            "type": "js"
-        },
-        "mathCbrt": {
-            "exampleCode": "./live-examples/js-examples/math/math-cbrt.js",
-            "fileName": "math-cbrt.html",
-            "title": "JavaScript Demo: Math.cbrt()",
-            "type": "js"
-        },
-        "mathCeil": {
-            "exampleCode": "./live-examples/js-examples/math/math-ceil.js",
-            "fileName": "math-ceil.html",
-            "title": "JavaScript Demo: Math.ceil()",
-            "type": "js"
-        },
-        "mathClz32": {
-            "exampleCode": "./live-examples/js-examples/math/math-clz32.js",
-            "fileName": "math-clz32.html",
-            "title": "JavaScript Demo: Math.clz32()",
-            "type": "js"
-        },
-        "mathCos": {
-            "exampleCode": "./live-examples/js-examples/math/math-cos.js",
-            "fileName": "math-cos.html",
-            "title": "JavaScript Demo: Math.cos()",
-            "type": "js"
-        },
-        "mathCosh": {
-            "exampleCode": "./live-examples/js-examples/math/math-cosh.js",
-            "fileName": "math-cosh.html",
-            "title": "JavaScript Demo: Math.cosh()",
-            "type": "js"
-        },
-        "mathE": {
-            "exampleCode": "./live-examples/js-examples/math/math-e.js",
-            "fileName": "math-e.html",
-            "title": "JavaScript Demo: Math.E",
-            "type": "js"
-        },
-        "mathExp": {
-            "exampleCode": "./live-examples/js-examples/math/math-exp.js",
-            "fileName": "math-exp.html",
-            "title": "JavaScript Demo: Math.exp()",
-            "type": "js"
-        },
-        "mathExpm1": {
-            "exampleCode": "./live-examples/js-examples/math/math-expm1.js",
-            "fileName": "math-expm1.html",
-            "title": "JavaScript Demo: Math.expm1()",
-            "type": "js"
-        },
-        "mathFloor": {
-            "exampleCode": "./live-examples/js-examples/math/math-floor.js",
-            "fileName": "math-floor.html",
-            "title": "JavaScript Demo: Math.floor()",
-            "type": "js"
-        },
-        "mathFround": {
-            "exampleCode": "./live-examples/js-examples/math/math-fround.js",
-            "fileName": "math-fround.html",
-            "title": "JavaScript Demo: Math.fround()",
-            "type": "js"
-        },
-        "mathHypot": {
-            "exampleCode": "./live-examples/js-examples/math/math-hypot.js",
-            "fileName": "math-hypot.html",
-            "title": "JavaScript Demo: Math.hypot()",
-            "type": "js"
-        },
-        "mathImul": {
-            "exampleCode": "./live-examples/js-examples/math/math-imul.js",
-            "fileName": "math-imul.html",
-            "title": "JavaScript Demo: Math.imul()",
-            "type": "js"
-        },
-        "mathLn2": {
-            "exampleCode": "./live-examples/js-examples/math/math-ln2.js",
-            "fileName": "math-ln2.html",
-            "title": "JavaScript Demo: Math.LN2",
-            "type": "js"
-        },
-        "mathLn10": {
-            "exampleCode": "./live-examples/js-examples/math/math-ln10.js",
-            "fileName": "math-ln10.html",
-            "title": "JavaScript Demo: Math.LN10",
-            "type": "js"
-        },
-        "mathLog": {
-            "exampleCode": "./live-examples/js-examples/math/math-log.js",
-            "fileName": "math-log.html",
-            "title": "JavaScript Demo: Math.log()",
-            "type": "js"
-        },
-        "mathLog1p": {
-            "exampleCode": "./live-examples/js-examples/math/math-log1p.js",
-            "fileName": "math-log1p.html",
-            "title": "JavaScript Demo: Math.log1p()",
-            "type": "js"
-        },
-        "mathLog2": {
-            "exampleCode": "./live-examples/js-examples/math/math-log2.js",
-            "fileName": "math-log2.html",
-            "title": "JavaScript Demo: Math.log2()",
-            "type": "js"
-        },
-        "mathLog2e": {
-            "exampleCode": "./live-examples/js-examples/math/math-log2e.js",
-            "fileName": "math-log2e.html",
-            "title": "JavaScript Demo: Math.log2e()",
-            "type": "js"
-        },
-        "mathLog10": {
-            "exampleCode": "./live-examples/js-examples/math/math-log10.js",
-            "fileName": "math-log10.html",
-            "title": "JavaScript Demo: Math.log10()",
-            "type": "js"
-        },
-        "mathLog10e": {
-            "exampleCode": "./live-examples/js-examples/math/math-log10e.js",
-            "fileName": "math-log10e.html",
-            "title": "JavaScript Demo: Math.log10e()",
-            "type": "js"
-        },
-        "mathMax": {
-            "exampleCode": "./live-examples/js-examples/math/math-max.js",
-            "fileName": "math-max.html",
-            "title": "JavaScript Demo: Math.max()",
-            "type": "js"
-        },
-        "mathMin": {
-            "exampleCode": "./live-examples/js-examples/math/math-min.js",
-            "fileName": "math-min.html",
-            "title": "JavaScript Demo: Math.min()",
-            "type": "js"
-        },
-        "mathPi": {
-            "exampleCode": "./live-examples/js-examples/math/math-pi.js",
-            "fileName": "math-pi.html",
-            "title": "JavaScript Demo: Math.PI",
-            "type": "js"
-        },
-        "mathPow": {
-            "exampleCode": "./live-examples/js-examples/math/math-pow.js",
-            "fileName": "math-pow.html",
-            "title": "JavaScript Demo: Math.pow()",
-            "type": "js"
-        },
-        "mathRandom": {
-            "exampleCode": "./live-examples/js-examples/math/math-random.js",
-            "fileName": "math-random.html",
-            "title": "JavaScript Demo: Math.random()",
-            "type": "js"
-        },
-        "mathRound": {
-            "exampleCode": "./live-examples/js-examples/math/math-round.js",
-            "fileName": "math-round.html",
-            "title": "JavaScript Demo: Math.round()",
-            "type": "js"
-        },
-        "mathSign": {
-            "exampleCode": "./live-examples/js-examples/math/math-sign.js",
-            "fileName": "math-sign.html",
-            "title": "JavaScript Demo: Math.sign()",
-            "type": "js"
-        },
-        "mathSin": {
-            "exampleCode": "./live-examples/js-examples/math/math-sin.js",
-            "fileName": "math-sin.html",
-            "title": "JavaScript Demo: Math.sin()",
-            "type": "js"
-        },
-        "mathSinh": {
-            "exampleCode": "./live-examples/js-examples/math/math-sinh.js",
-            "fileName": "math-sinh.html",
-            "title": "JavaScript Demo: Math.sinh()",
-            "type": "js"
-        },
-        "mathSqrt": {
-            "exampleCode": "./live-examples/js-examples/math/math-sqrt.js",
-            "fileName": "math-sqrt.html",
-            "title": "JavaScript Demo: Math.sqrt()",
-            "type": "js"
-        },
-        "mathSqrt1_2": {
-            "exampleCode": "./live-examples/js-examples/math/math-sqrt1_2.js",
-            "fileName": "math-sqrt1_2.html",
-            "title": "JavaScript Demo: Math.SQRT1_2",
-            "type": "js"
-        },
-        "mathSqrt2": {
-            "exampleCode": "./live-examples/js-examples/math/math-sqrt2.js",
-            "fileName": "math-sqrt2.html",
-            "title": "JavaScript Demo: Math.SQRT2",
-            "type": "js"
-        },
-        "mathTan": {
-            "exampleCode": "./live-examples/js-examples/math/math-tan.js",
-            "fileName": "math-tan.html",
-            "title": "JavaScript Demo: Math.tan()",
-            "type": "js"
-        },
-        "mathTanh": {
-            "exampleCode": "./live-examples/js-examples/math/math-tanh.js",
-            "fileName": "math-tanh.html",
-            "title": "JavaScript Demo: Math.tanh()",
-            "type": "js"
-        },
-        "mathTrunc": {
-            "exampleCode": "./live-examples/js-examples/math/math-trunc.js",
-            "fileName": "math-trunc.html",
-            "title": "JavaScript Demo: Math.trunc()",
-            "type": "js"
-        }
+  "pages": {
+    "mathAbs": {
+      "exampleCode": "./live-examples/js-examples/math/math-abs.js",
+      "fileName": "math-abs.html",
+      "title": "JavaScript Demo: Math.abs()",
+      "type": "js"
+    },
+    "mathAcos": {
+      "exampleCode": "./live-examples/js-examples/math/math-acos.js",
+      "fileName": "math-acos.html",
+      "title": "JavaScript Demo: Math.acos()",
+      "type": "js"
+    },
+    "mathAcosh": {
+      "exampleCode": "./live-examples/js-examples/math/math-acosh.js",
+      "fileName": "math-acosh.html",
+      "title": "JavaScript Demo: Math.acosh()",
+      "type": "js"
+    },
+    "mathAsin": {
+      "exampleCode": "./live-examples/js-examples/math/math-asin.js",
+      "fileName": "math-asin.html",
+      "title": "JavaScript Demo: Math.asin()",
+      "type": "js"
+    },
+    "mathAsinh": {
+      "exampleCode": "./live-examples/js-examples/math/math-asinh.js",
+      "fileName": "math-asinh.html",
+      "title": "JavaScript Demo: Math.asinh()",
+      "type": "js"
+    },
+    "mathAtan": {
+      "exampleCode": "./live-examples/js-examples/math/math-atan.js",
+      "fileName": "math-atan.html",
+      "title": "JavaScript Demo: Math.atan()",
+      "type": "js"
+    },
+    "mathAtan2": {
+      "exampleCode": "./live-examples/js-examples/math/math-atan2.js",
+      "fileName": "math-atan2.html",
+      "title": "JavaScript Demo: Math.atan2()",
+      "type": "js"
+    },
+    "mathAtanh": {
+      "exampleCode": "./live-examples/js-examples/math/math-atanh.js",
+      "fileName": "math-atanh.html",
+      "title": "JavaScript Demo: Math.atanh()",
+      "type": "js"
+    },
+    "mathCbrt": {
+      "exampleCode": "./live-examples/js-examples/math/math-cbrt.js",
+      "fileName": "math-cbrt.html",
+      "title": "JavaScript Demo: Math.cbrt()",
+      "type": "js"
+    },
+    "mathCeil": {
+      "exampleCode": "./live-examples/js-examples/math/math-ceil.js",
+      "fileName": "math-ceil.html",
+      "title": "JavaScript Demo: Math.ceil()",
+      "type": "js"
+    },
+    "mathClz32": {
+      "exampleCode": "./live-examples/js-examples/math/math-clz32.js",
+      "fileName": "math-clz32.html",
+      "title": "JavaScript Demo: Math.clz32()",
+      "type": "js"
+    },
+    "mathCos": {
+      "exampleCode": "./live-examples/js-examples/math/math-cos.js",
+      "fileName": "math-cos.html",
+      "title": "JavaScript Demo: Math.cos()",
+      "type": "js"
+    },
+    "mathCosh": {
+      "exampleCode": "./live-examples/js-examples/math/math-cosh.js",
+      "fileName": "math-cosh.html",
+      "title": "JavaScript Demo: Math.cosh()",
+      "type": "js"
+    },
+    "mathE": {
+      "exampleCode": "./live-examples/js-examples/math/math-e.js",
+      "fileName": "math-e.html",
+      "title": "JavaScript Demo: Math.E",
+      "type": "js"
+    },
+    "mathExp": {
+      "exampleCode": "./live-examples/js-examples/math/math-exp.js",
+      "fileName": "math-exp.html",
+      "title": "JavaScript Demo: Math.exp()",
+      "type": "js"
+    },
+    "mathExpm1": {
+      "exampleCode": "./live-examples/js-examples/math/math-expm1.js",
+      "fileName": "math-expm1.html",
+      "title": "JavaScript Demo: Math.expm1()",
+      "type": "js"
+    },
+    "mathFloor": {
+      "exampleCode": "./live-examples/js-examples/math/math-floor.js",
+      "fileName": "math-floor.html",
+      "title": "JavaScript Demo: Math.floor()",
+      "type": "js"
+    },
+    "mathFround": {
+      "exampleCode": "./live-examples/js-examples/math/math-fround.js",
+      "fileName": "math-fround.html",
+      "title": "JavaScript Demo: Math.fround()",
+      "type": "js"
+    },
+    "mathHypot": {
+      "exampleCode": "./live-examples/js-examples/math/math-hypot.js",
+      "fileName": "math-hypot.html",
+      "title": "JavaScript Demo: Math.hypot()",
+      "type": "js"
+    },
+    "mathImul": {
+      "exampleCode": "./live-examples/js-examples/math/math-imul.js",
+      "fileName": "math-imul.html",
+      "title": "JavaScript Demo: Math.imul()",
+      "type": "js"
+    },
+    "mathLn2": {
+      "exampleCode": "./live-examples/js-examples/math/math-ln2.js",
+      "fileName": "math-ln2.html",
+      "title": "JavaScript Demo: Math.LN2",
+      "type": "js"
+    },
+    "mathLn10": {
+      "exampleCode": "./live-examples/js-examples/math/math-ln10.js",
+      "fileName": "math-ln10.html",
+      "title": "JavaScript Demo: Math.LN10",
+      "type": "js"
+    },
+    "mathLog": {
+      "exampleCode": "./live-examples/js-examples/math/math-log.js",
+      "fileName": "math-log.html",
+      "title": "JavaScript Demo: Math.log()",
+      "type": "js"
+    },
+    "mathLog1p": {
+      "exampleCode": "./live-examples/js-examples/math/math-log1p.js",
+      "fileName": "math-log1p.html",
+      "title": "JavaScript Demo: Math.log1p()",
+      "type": "js"
+    },
+    "mathLog2": {
+      "exampleCode": "./live-examples/js-examples/math/math-log2.js",
+      "fileName": "math-log2.html",
+      "title": "JavaScript Demo: Math.log2()",
+      "type": "js"
+    },
+    "mathLog2e": {
+      "exampleCode": "./live-examples/js-examples/math/math-log2e.js",
+      "fileName": "math-log2e.html",
+      "title": "JavaScript Demo: Math.log2e()",
+      "type": "js"
+    },
+    "mathLog10": {
+      "exampleCode": "./live-examples/js-examples/math/math-log10.js",
+      "fileName": "math-log10.html",
+      "title": "JavaScript Demo: Math.log10()",
+      "type": "js"
+    },
+    "mathLog10e": {
+      "exampleCode": "./live-examples/js-examples/math/math-log10e.js",
+      "fileName": "math-log10e.html",
+      "title": "JavaScript Demo: Math.log10e()",
+      "type": "js"
+    },
+    "mathMax": {
+      "exampleCode": "./live-examples/js-examples/math/math-max.js",
+      "fileName": "math-max.html",
+      "title": "JavaScript Demo: Math.max()",
+      "type": "js"
+    },
+    "mathMin": {
+      "exampleCode": "./live-examples/js-examples/math/math-min.js",
+      "fileName": "math-min.html",
+      "title": "JavaScript Demo: Math.min()",
+      "type": "js"
+    },
+    "mathPi": {
+      "exampleCode": "./live-examples/js-examples/math/math-pi.js",
+      "fileName": "math-pi.html",
+      "title": "JavaScript Demo: Math.PI",
+      "type": "js"
+    },
+    "mathPow": {
+      "exampleCode": "./live-examples/js-examples/math/math-pow.js",
+      "fileName": "math-pow.html",
+      "title": "JavaScript Demo: Math.pow()",
+      "type": "js"
+    },
+    "mathRandom": {
+      "exampleCode": "./live-examples/js-examples/math/math-random.js",
+      "fileName": "math-random.html",
+      "title": "JavaScript Demo: Math.random()",
+      "type": "js"
+    },
+    "mathRound": {
+      "exampleCode": "./live-examples/js-examples/math/math-round.js",
+      "fileName": "math-round.html",
+      "title": "JavaScript Demo: Math.round()",
+      "type": "js"
+    },
+    "mathSign": {
+      "exampleCode": "./live-examples/js-examples/math/math-sign.js",
+      "fileName": "math-sign.html",
+      "title": "JavaScript Demo: Math.sign()",
+      "type": "js"
+    },
+    "mathSin": {
+      "exampleCode": "./live-examples/js-examples/math/math-sin.js",
+      "fileName": "math-sin.html",
+      "title": "JavaScript Demo: Math.sin()",
+      "type": "js"
+    },
+    "mathSinh": {
+      "exampleCode": "./live-examples/js-examples/math/math-sinh.js",
+      "fileName": "math-sinh.html",
+      "title": "JavaScript Demo: Math.sinh()",
+      "type": "js"
+    },
+    "mathSqrt": {
+      "exampleCode": "./live-examples/js-examples/math/math-sqrt.js",
+      "fileName": "math-sqrt.html",
+      "title": "JavaScript Demo: Math.sqrt()",
+      "type": "js"
+    },
+    "mathSqrt1_2": {
+      "exampleCode": "./live-examples/js-examples/math/math-sqrt1_2.js",
+      "fileName": "math-sqrt1_2.html",
+      "title": "JavaScript Demo: Math.SQRT1_2",
+      "type": "js"
+    },
+    "mathSqrt2": {
+      "exampleCode": "./live-examples/js-examples/math/math-sqrt2.js",
+      "fileName": "math-sqrt2.html",
+      "title": "JavaScript Demo: Math.SQRT2",
+      "type": "js"
+    },
+    "mathTan": {
+      "exampleCode": "./live-examples/js-examples/math/math-tan.js",
+      "fileName": "math-tan.html",
+      "title": "JavaScript Demo: Math.tan()",
+      "type": "js"
+    },
+    "mathTanh": {
+      "exampleCode": "./live-examples/js-examples/math/math-tanh.js",
+      "fileName": "math-tanh.html",
+      "title": "JavaScript Demo: Math.tanh()",
+      "type": "js"
+    },
+    "mathTrunc": {
+      "exampleCode": "./live-examples/js-examples/math/math-trunc.js",
+      "fileName": "math-trunc.html",
+      "title": "JavaScript Demo: Math.trunc()",
+      "type": "js"
     }
+  }
 }

@@ -1,6 +1,6 @@
 const entries = new Map([
   ['foo', 'bar'],
-  ['baz', 42]
+  ['baz', 42],
 ]);
 
 const obj = Object.fromEntries(entries);

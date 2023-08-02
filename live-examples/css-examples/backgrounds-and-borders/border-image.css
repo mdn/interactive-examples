@@ -1,13 +1,13 @@
 #example-element {
-    width: 80%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    background: #fff3d4;
-    color: #000;
-    border: 30px solid;
-    border-image: url('/media/examples/border-diamonds.png') 30 round;
-    font-size: 1.2em;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background: #fff3d4;
+  color: #000;
+  border: 30px solid;
+  border-image: url('/media/examples/border-diamonds.png') 30 round;
+  font-size: 1.2em;
 }

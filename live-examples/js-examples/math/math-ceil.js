@@ -1,4 +1,4 @@
-console.log(Math.ceil(.95));
+console.log(Math.ceil(0.95));
 // Expected output: 1
 
 console.log(Math.ceil(4));

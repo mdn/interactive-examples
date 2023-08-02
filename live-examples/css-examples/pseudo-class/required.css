@@ -1,12 +1,12 @@
 label {
-    display: block;
-    margin-top: 1em;
+  display: block;
+  margin-top: 1em;
 }
 
 .req {
-    color: red;
+  color: red;
 }
 
 *:required {
-    background-color: gold;
+  background-color: gold;
 }

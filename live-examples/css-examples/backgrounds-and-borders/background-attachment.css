@@ -1,20 +1,23 @@
 #output {
-    overflow: scroll;
+  overflow: scroll;
 }
 
 #default-example {
-    height: 600px;
+  height: 600px;
 }
 
 #example-element {
-    max-width: 20rem;
-    height: 100%;
-    background: url('/media/examples/lizard.png') right 3rem top 1rem / 15rem no-repeat,
-        url('/media/examples/moon.jpg') center / 10rem;
-    color: #ff5454;
-    font-size: 1.5em;
-    font-weight: bold;
-    overflow: auto;
-    padding: 20px;
-    text-shadow: 0 0 0.6rem #000, 0 0 0.6rem #000;
+  max-width: 20rem;
+  height: 100%;
+  background:
+    url('/media/examples/lizard.png') right 3rem top 1rem / 15rem no-repeat,
+    url('/media/examples/moon.jpg') center / 10rem;
+  color: #ff5454;
+  font-size: 1.5em;
+  font-weight: bold;
+  overflow: auto;
+  padding: 20px;
+  text-shadow:
+    0 0 0.6rem #000,
+    0 0 0.6rem #000;
 }
