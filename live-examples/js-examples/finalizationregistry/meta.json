@@ -1,0 +1,28 @@
+{
+  "pages": {
+    "finalizationRegistry": {
+      "exampleCode": "./live-examples/js-examples/finalizationregistry/finalizationregistry.js",
+      "fileName": "finalizationregistry.html",
+      "title": "JavaScript Demo: FinalizationRegistry",
+      "type": "js"
+    },
+    "finalizationRegistryConstructor": {
+      "exampleCode": "./live-examples/js-examples/finalizationregistry/finalizationregistry.js",
+      "fileName": "finalizationregistry-constructor.html",
+      "title": "JavaScript Demo: FinalizationRegistry Constructor",
+      "type": "js"
+    },
+    "finalizationRegistryPrototypeRegister": {
+      "exampleCode": "./live-examples/js-examples/finalizationregistry/finalizationregistry.js",
+      "fileName": "finalizationregistry-prototype-register.html",
+      "title": "JavaScript Demo: FinalizationRegistry.prototype.register()",
+      "type": "js"
+    },
+    "finalizationRegistryPrototypeUnregister": {
+      "exampleCode": "./live-examples/js-examples/finalizationregistry/finalizationregistry-prototype-unregister.js",
+      "fileName": "finalizationregistry-prototype-unregister.html",
+      "title": "JavaScript Demo: FinalizationRegistry.prototype.unregister()",
+      "type": "js"
+    }
+  }
+}
