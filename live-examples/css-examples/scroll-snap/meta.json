@@ -1,179 +1,179 @@
 {
-    "pages": {
-        "scrollMargin": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-top.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin.html",
-            "fileName": "scroll-margin.html",
-            "title": "CSS Demo: scroll-margin",
-            "type": "css"
-        },
-        "scrollMarginBlock": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-top.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-block.html",
-            "fileName": "scroll-margin-block.html",
-            "title": "CSS Demo: scroll-margin-block",
-            "type": "css"
-        },
-        "scrollMarginBlockEnd": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-bottom.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-block-end.html",
-            "fileName": "scroll-margin-block-end.html",
-            "title": "CSS Demo: scroll-margin-block-end",
-            "type": "css"
-        },
-        "scrollMarginBlockStart": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-top.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-block-start.html",
-            "fileName": "scroll-margin-block-start.html",
-            "title": "CSS Demo: scroll-margin-block-start",
-            "type": "css"
-        },
-        "scrollMarginBottom": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-bottom.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-bottom.html",
-            "fileName": "scroll-margin-bottom.html",
-            "title": "CSS Demo: scroll-margin-bottom",
-            "type": "css"
-        },
-        "scrollMarginInline": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-right.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-inline.html",
-            "fileName": "scroll-margin-inline.html",
-            "title": "CSS Demo: scroll-margin-inline",
-            "type": "css"
-        },
-        "scrollMarginInlineEnd": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-right.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-inline-end.html",
-            "fileName": "scroll-margin-inline-end.html",
-            "title": "CSS Demo: scroll-margin-inline-end",
-            "type": "css"
-        },
-        "scrollMarginInlineStart": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-inline-start.html",
-            "fileName": "scroll-margin-inline-start.html",
-            "title": "CSS Demo: scroll-margin-inline-start",
-            "type": "css"
-        },
-        "scrollMarginRight": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-right.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-right.html",
-            "fileName": "scroll-margin-right.html",
-            "title": "CSS Demo: scroll-margin-right",
-            "type": "css"
-        },
-        "scrollMarginLeft": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-left.html",
-            "fileName": "scroll-margin-left.html",
-            "title": "CSS Demo: scroll-margin-left",
-            "type": "css"
-        },
-        "scrollMarginTop": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-top.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-top.html",
-            "fileName": "scroll-margin-top.html",
-            "title": "CSS Demo: scroll-margin-top",
-            "type": "css"
-        },
-        "scrollPadding": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-top.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding.html",
-            "fileName": "scroll-padding.html",
-            "title": "CSS Demo: scroll-padding",
-            "type": "css"
-        },
-        "scrollPaddingBlock": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-top.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-block.html",
-            "fileName": "scroll-padding-block.html",
-            "title": "CSS Demo: scroll-padding-block",
-            "type": "css"
-        },
-        "scrollPaddingBlockEnd": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-bottom.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-block-end.html",
-            "fileName": "scroll-padding-block-end.html",
-            "title": "CSS Demo: scroll-padding-block-end",
-            "type": "css"
-        },
-        "scrollPaddingBottom": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-bottom.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-bottom.html",
-            "fileName": "scroll-padding-bottom.html",
-            "title": "CSS Demo: scroll-padding-bottom",
-            "type": "css"
-        },
-        "scrollPaddingBlockStart": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-top.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-block-start.html",
-            "fileName": "scroll-padding-block-start.html",
-            "title": "CSS Demo: scroll-padding-block-start",
-            "type": "css"
-        },
-        "scrollPaddingInline": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-inline.html",
-            "fileName": "scroll-padding-inline.html",
-            "title": "CSS Demo: scroll-padding-inline",
-            "type": "css"
-        },
-        "scrollPaddingInlineEnd": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-right.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-inline-end.html",
-            "fileName": "scroll-padding-inline-end.html",
-            "title": "CSS Demo: scroll-padding-inline-end",
-            "type": "css"
-        },
-        "scrollPaddingInlineStart": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-inline-start.html",
-            "fileName": "scroll-padding-inline-start.html",
-            "title": "CSS Demo: scroll-padding-inline-start",
-            "type": "css"
-        },
-        "scrollPaddingLeft": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-left.html",
-            "fileName": "scroll-padding-left.html",
-            "title": "CSS Demo: scroll-padding-left",
-            "type": "css"
-        },
-        "scrollPaddingRight": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-right.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-right.html",
-            "fileName": "scroll-padding-right.html",
-            "title": "CSS Demo: scroll-padding-right",
-            "type": "css"
-        },
-        "scrollPaddingTop": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-top.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-top.html",
-            "fileName": "scroll-padding-top.html",
-            "title": "CSS Demo: scroll-padding-top",
-            "type": "css"
-        },
-        "scrollSnapAlign": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-snap-align.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-snap-align.html",
-            "fileName": "scroll-snap-align.html",
-            "title": "CSS Demo: scroll-snap-align",
-            "type": "css"
-        },
-        "scrollSnapStop": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-snap-stop.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-snap-stop.html",
-            "fileName": "scroll-snap-stop.html",
-            "title": "CSS Demo: scroll-snap-stop",
-            "type": "css"
-        },
-        "scrollSnapType": {
-            "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-snap-type.css",
-            "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-snap-type.html",
-            "fileName": "scroll-snap-type.html",
-            "title": "CSS Demo: scroll-snap-type",
-            "type": "css"
-        }
+  "pages": {
+    "scrollMargin": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-top.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin.html",
+      "fileName": "scroll-margin.html",
+      "title": "CSS Demo: scroll-margin",
+      "type": "css"
+    },
+    "scrollMarginBlock": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-top.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-block.html",
+      "fileName": "scroll-margin-block.html",
+      "title": "CSS Demo: scroll-margin-block",
+      "type": "css"
+    },
+    "scrollMarginBlockEnd": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-bottom.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-block-end.html",
+      "fileName": "scroll-margin-block-end.html",
+      "title": "CSS Demo: scroll-margin-block-end",
+      "type": "css"
+    },
+    "scrollMarginBlockStart": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-top.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-block-start.html",
+      "fileName": "scroll-margin-block-start.html",
+      "title": "CSS Demo: scroll-margin-block-start",
+      "type": "css"
+    },
+    "scrollMarginBottom": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-bottom.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-bottom.html",
+      "fileName": "scroll-margin-bottom.html",
+      "title": "CSS Demo: scroll-margin-bottom",
+      "type": "css"
+    },
+    "scrollMarginInline": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-right.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-inline.html",
+      "fileName": "scroll-margin-inline.html",
+      "title": "CSS Demo: scroll-margin-inline",
+      "type": "css"
+    },
+    "scrollMarginInlineEnd": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-right.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-inline-end.html",
+      "fileName": "scroll-margin-inline-end.html",
+      "title": "CSS Demo: scroll-margin-inline-end",
+      "type": "css"
+    },
+    "scrollMarginInlineStart": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-inline-start.html",
+      "fileName": "scroll-margin-inline-start.html",
+      "title": "CSS Demo: scroll-margin-inline-start",
+      "type": "css"
+    },
+    "scrollMarginRight": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-right.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-right.html",
+      "fileName": "scroll-margin-right.html",
+      "title": "CSS Demo: scroll-margin-right",
+      "type": "css"
+    },
+    "scrollMarginLeft": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-left.html",
+      "fileName": "scroll-margin-left.html",
+      "title": "CSS Demo: scroll-margin-left",
+      "type": "css"
+    },
+    "scrollMarginTop": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-margin-top.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-margin-top.html",
+      "fileName": "scroll-margin-top.html",
+      "title": "CSS Demo: scroll-margin-top",
+      "type": "css"
+    },
+    "scrollPadding": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-top.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding.html",
+      "fileName": "scroll-padding.html",
+      "title": "CSS Demo: scroll-padding",
+      "type": "css"
+    },
+    "scrollPaddingBlock": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-top.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-block.html",
+      "fileName": "scroll-padding-block.html",
+      "title": "CSS Demo: scroll-padding-block",
+      "type": "css"
+    },
+    "scrollPaddingBlockEnd": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-bottom.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-block-end.html",
+      "fileName": "scroll-padding-block-end.html",
+      "title": "CSS Demo: scroll-padding-block-end",
+      "type": "css"
+    },
+    "scrollPaddingBottom": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-bottom.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-bottom.html",
+      "fileName": "scroll-padding-bottom.html",
+      "title": "CSS Demo: scroll-padding-bottom",
+      "type": "css"
+    },
+    "scrollPaddingBlockStart": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-top.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-block-start.html",
+      "fileName": "scroll-padding-block-start.html",
+      "title": "CSS Demo: scroll-padding-block-start",
+      "type": "css"
+    },
+    "scrollPaddingInline": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-inline.html",
+      "fileName": "scroll-padding-inline.html",
+      "title": "CSS Demo: scroll-padding-inline",
+      "type": "css"
+    },
+    "scrollPaddingInlineEnd": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-right.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-inline-end.html",
+      "fileName": "scroll-padding-inline-end.html",
+      "title": "CSS Demo: scroll-padding-inline-end",
+      "type": "css"
+    },
+    "scrollPaddingInlineStart": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-inline-start.html",
+      "fileName": "scroll-padding-inline-start.html",
+      "title": "CSS Demo: scroll-padding-inline-start",
+      "type": "css"
+    },
+    "scrollPaddingLeft": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-left.html",
+      "fileName": "scroll-padding-left.html",
+      "title": "CSS Demo: scroll-padding-left",
+      "type": "css"
+    },
+    "scrollPaddingRight": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-right.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-right.html",
+      "fileName": "scroll-padding-right.html",
+      "title": "CSS Demo: scroll-padding-right",
+      "type": "css"
+    },
+    "scrollPaddingTop": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-padding-top.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-padding-top.html",
+      "fileName": "scroll-padding-top.html",
+      "title": "CSS Demo: scroll-padding-top",
+      "type": "css"
+    },
+    "scrollSnapAlign": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-snap-align.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-snap-align.html",
+      "fileName": "scroll-snap-align.html",
+      "title": "CSS Demo: scroll-snap-align",
+      "type": "css"
+    },
+    "scrollSnapStop": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-snap-stop.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-snap-stop.html",
+      "fileName": "scroll-snap-stop.html",
+      "title": "CSS Demo: scroll-snap-stop",
+      "type": "css"
+    },
+    "scrollSnapType": {
+      "cssExampleSrc": "./live-examples/css-examples/scroll-snap/scroll-snap-type.css",
+      "exampleCode": "./live-examples/css-examples/scroll-snap/scroll-snap-type.html",
+      "fileName": "scroll-snap-type.html",
+      "title": "CSS Demo: scroll-snap-type",
+      "type": "css"
     }
+  }
 }

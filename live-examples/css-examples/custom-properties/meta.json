@@ -1,11 +1,11 @@
 {
-    "pages": {
-        "var": {
-            "cssExampleSrc": "./live-examples/css-examples/custom-properties/var.css",
-            "exampleCode": "./live-examples/css-examples/custom-properties/var.html",
-            "fileName": "var.html",
-            "title": "CSS Demo: var()",
-            "type": "css"
-        }
+  "pages": {
+    "var": {
+      "cssExampleSrc": "./live-examples/css-examples/custom-properties/var.css",
+      "exampleCode": "./live-examples/css-examples/custom-properties/var.html",
+      "fileName": "var.html",
+      "title": "CSS Demo: var()",
+      "type": "css"
     }
+  }
 }

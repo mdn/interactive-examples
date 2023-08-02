@@ -1,4 +1,4 @@
-const foo = function*() {
+const foo = function* () {
   yield 'a';
   yield 'b';
   yield 'c';
@@ -10,4 +10,4 @@ for (const val of foo()) {
 }
 
 console.log(str);
-// expected output: "abc"
+// Expected output: "abc"

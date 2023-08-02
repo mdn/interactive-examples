@@ -1,0 +1,5 @@
+/* This CSS is being applied inside the shadow DOM. */
+
+:host {
+  background-color: aqua;
+}

@@ -8,4 +8,4 @@ while (i < 6) {
 }
 
 console.log(i);
-// expected output: 3
+// Expected output: 3

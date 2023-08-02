@@ -9,4 +9,4 @@ function* func2() {
 const iterator = func2();
 
 console.log(iterator.next().value);
-// expected output: 42
+// Expected output: 42

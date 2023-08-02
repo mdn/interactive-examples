@@ -9,4 +9,4 @@ class RegExp1 extends RegExp {
 }
 
 console.log('2012-07-02'.match(new RegExp1('([0-9]+)-([0-9]+)-([0-9]+)')));
-// expected output: "VALID"
+// Expected output: "VALID"

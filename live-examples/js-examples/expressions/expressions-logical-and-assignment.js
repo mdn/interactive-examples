@@ -3,8 +3,8 @@ let b = 0;
 
 a &&= 2;
 console.log(a);
-// expected output: 2
+// Expected output: 2
 
 b &&= 2;
 console.log(b);
-// expected output: 0
+// Expected output: 0

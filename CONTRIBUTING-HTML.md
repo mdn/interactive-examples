@@ -14,11 +14,11 @@ In this section we'll walk through creating an example for the [`<td>`](https://
 
 HTML examples are all stored under `./live-examples/html-examples`. Under there, they are grouped into directories according to the categorization in the [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element):
 
-- main-root
-- document-metadata
-- sectioning-root
 - content-sectioning
-- text-content
+- demarcating-edits
+- document-metadata
+- embedded-content
+- form-attributes
 - ...and so on
 
 Each of these directories contains:
@@ -154,7 +154,7 @@ Sometimes formal and content guidelines are at odds. For example, sometimes writ
 
 ### Formal guidelines
 
-In general: try out your example using `yarn start` and see what it looks like with a browser window width of 1000px.
+In general: try out your example using `npm start` and see what it looks like with a browser window width of 1000px.
 
 - Can the user see the whole example source without having to scroll?
 
@@ -170,7 +170,7 @@ In particular, see the following guidelines for the HTML source and the output:
 
 #### HTML source formal guidelines
 
-- **Keep the line count short**: a maximum of 13 lines if possible. By default the editor will show 13 lines, so if the example is more than that, the user will need to scroll to see the whole thing, and this isn't ideal. It's not always possible to keep to this: if you have to, you can increase the editor height to 22 lines (see [Changing the editor height](#changing-the-editor-height)), but don't do this unless you have to.
+- **Keep the line count short**: a maximum of 14 lines if possible. The shorter editor will show 14 lines, so if the example is more than that, the user will need to scroll to see the whole thing, and this isn't ideal. It's not always possible to keep to this: if you have to, you can increase the editor height to 18 or 30 lines (see [Changing the editor height](#changing-the-editor-height)), but don't do this unless you have to.
 
 - **Keep line length short**: as a rule of thumb, try to keep lines under 64 characters.
 
@@ -210,7 +210,7 @@ If we add line breaks after each attribute, the example is much more readable:
 
 #### HTML output formal guidelines
 
-By default and with a browser window width of 1000 pixels, the output pane for the HTML examples is 300 pixels high by 350 pixels wide. At those dimensions, does the example look good? If you make the browser window narrower, does the layout of the example still look OK?
+By default (with a browser window width of at least 1008 pixels) the editor for the HTML examples is 590 pixels high by 349 pixels wide. You should check if the example looks good at these dimensions. If you make the viewport width narrower, the output panel is collapsed below the editor. You should check if the example still looks good when it's displayed in a vertical layout for these smaller dimensions.
 
 ### Content guidelines
 
@@ -242,7 +242,7 @@ For example, here's an example for the `<button>` element:
 
 This includes 5 different button elements. It's too long. The example should include a single element with some common attributes.
 
-Try out your example with `yarn start`. Can you immediately see the point of the example, or is the element buried in a wall of source?
+Try out your example with `npm start`. Can you immediately see the point of the example, or is the element buried in a wall of source?
 
 #### Use good practices
 
@@ -300,20 +300,18 @@ This doesn't tell the reader anything about how they should use the element. The
 
 For the HTML editor there are three CSS classes that can be applied to the editor container element. This allows the editor to by taller or shorter than it’s standard height. The classes are as follows:
 
-- `tabbed-shorter` - ~11 visible lines of code
-- `tabbed-standard` - ~14 visible lines of code
-- `tabbed-taller` - ~23 visible lines of code
+- `tabbed-shorter` - ~14 visible lines of code
+- `tabbed-standard` - ~18 visible lines of code
+- `tabbed-taller` - ~30 visible lines of code
 
 Usage is as follows. When adding the meta information for your example, set the `height` property to one of the classes specified above. For example:
 
 ```json
-"abbr": {
-    "exampleCode":
-        "./live-examples/html-examples/inline-text-semantics/abbr.html",
-    "cssExampleSrc":
-        "./live-examples/html-examples/inline-text-semantics/css/abbr.css",
-    "fileName": "abbr.html",
-    "title": "HTML Demo: <abbr>",
+"date": {
+    "exampleCode": "./live-examples/html-examples/input/date.html",
+    "cssExampleSrc": "./live-examples/html-examples/input/css/date.css",
+    "fileName": "input-date.html",
+    "title": "HTML Demo: <input type=\"date\">",
     "type": "tabbed",
     "height": "tabbed-shorter"
 }

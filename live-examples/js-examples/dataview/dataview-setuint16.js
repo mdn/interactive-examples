@@ -1,8 +1,8 @@
-// create an ArrayBuffer with a size in bytes
+// Create an ArrayBuffer with a size in bytes
 const buffer = new ArrayBuffer(16);
 
 const view = new DataView(buffer);
-view.setUint16(1, 65535); // (max unsigned 16-bit integer)
+view.setUint16(1, 65535); // Max unsigned 16-bit integer
 
 console.log(view.getUint16(1));
-// expected output: 65535
+// Expected output: 65535

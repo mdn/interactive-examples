@@ -1,38 +1,47 @@
 {
-    "pages": {
-        "all": {
-            "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/all.css",
-            "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/all.html",
-            "fileName": "all.html",
-            "title": "CSS Demo: all",
-            "type": "css"
-        },
-        "media": {
-            "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/at-rule-media.css",
-            "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/at-rule-media.html",
-            "fileName": "at-rule-media.html",
-            "title": "CSS Demo: @media",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-standard"
-        },
-        "namespace": {
-            "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/at-rule-namespace.css",
-            "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/at-rule-namespace.html",
-            "fileName": "at-rule-namespace.html",
-            "title": "CSS Demo: @namespace",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "supports": {
-            "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/at-rule-supports.css",
-            "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/at-rule-supports.html",
-            "fileName": "at-rule-supports.html",
-            "title": "CSS Demo: @supports",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-standard"
-        }
+  "pages": {
+    "all": {
+      "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/all.css",
+      "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/all.html",
+      "fileName": "all.html",
+      "title": "CSS Demo: all",
+      "type": "css"
+    },
+    "layer": {
+      "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/at-rule-layer.css",
+      "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/at-rule-layer.html",
+      "fileName": "at-rule-layer.html",
+      "title": "CSS Demo: @layer",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-standard"
+    },
+    "media": {
+      "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/at-rule-media.css",
+      "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/at-rule-media.html",
+      "fileName": "at-rule-media.html",
+      "title": "CSS Demo: @media",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-standard"
+    },
+    "namespace": {
+      "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/at-rule-namespace.css",
+      "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/at-rule-namespace.html",
+      "fileName": "at-rule-namespace.html",
+      "title": "CSS Demo: @namespace",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "supports": {
+      "cssExampleSrc": "./live-examples/css-examples/cascading-and-inheritance/at-rule-supports.css",
+      "exampleCode": "./live-examples/css-examples/cascading-and-inheritance/at-rule-supports.html",
+      "fileName": "at-rule-supports.html",
+      "title": "CSS Demo: @supports",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-standard"
     }
+  }
 }

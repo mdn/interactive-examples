@@ -1,14 +1,14 @@
 .container > div {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #example-element {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 #example-label {
-    margin-left: 10px;
-    font-size: x-large;
+  margin-left: 10px;
+  font-size: x-large;
 }

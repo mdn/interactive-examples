@@ -14,4 +14,4 @@ async function generate() {
 }
 
 generate();
-// expected output: "abc"
+// Expected output: "abc"

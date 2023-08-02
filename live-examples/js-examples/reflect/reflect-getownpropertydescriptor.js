@@ -1,12 +1,12 @@
 const object1 = {
-  property1: 42
+  property1: 42,
 };
 
 console.log(Reflect.getOwnPropertyDescriptor(object1, 'property1').value);
-// expected output: 42
+// Expected output: 42
 
 console.log(Reflect.getOwnPropertyDescriptor(object1, 'property2'));
-// expected output: undefined
+// Expected output: undefined
 
 console.log(Reflect.getOwnPropertyDescriptor(object1, 'property1').writable);
-// expected output: true
+// Expected output: true

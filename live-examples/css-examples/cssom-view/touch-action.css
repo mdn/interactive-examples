@@ -1,0 +1,36 @@
+.container {
+  flex-direction: column;
+}
+
+#example-element {
+  border: 1px solid black;
+  display: grid;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  grid-template: 200px 200px / 200px 200px;
+  overflow: scroll;
+}
+
+#example-element > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+#example-element > *:nth-child(1) {
+  background-color: #1b76c4;
+}
+
+#example-element > *:nth-child(2) {
+  background-color: #387d22;
+}
+
+#example-element > *:nth-child(3) {
+  background-color: #b4a033;
+}
+
+#example-element > *:nth-child(4) {
+  background-color: #f34079;
+}

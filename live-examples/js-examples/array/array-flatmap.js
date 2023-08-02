@@ -1,6 +1,6 @@
-const arr1 = [1, 2, [3], [4, 5], 6, []];
+const arr1 = [1, 2, 1];
 
-const flattened = arr1.flatMap(num => num);
+const result = arr1.flatMap((num) => (num === 2 ? [2, 2] : 1));
 
-console.log(flattened);
-// expected output: Array [1, 2, 3, 4, 5, 6]
+console.log(result);
+// Expected output: Array [1, 2, 2, 1]

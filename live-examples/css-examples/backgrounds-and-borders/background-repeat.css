@@ -1,5 +1,5 @@
 #example-element {
-    background: #ccc url(/media/examples/moon.jpg) center / 120px;
-    min-width: 100%;
-    min-height: 100%;
+  background: #ccc url('/media/examples/moon.jpg') center / 120px;
+  min-width: 100%;
+  min-height: 100%;
 }

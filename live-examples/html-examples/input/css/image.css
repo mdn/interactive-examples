@@ -1,12 +1,12 @@
 label {
-    font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 label,
 input[type='image'] {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 input[type='image'] {
-    width: 80px;
+  width: 80px;
 }

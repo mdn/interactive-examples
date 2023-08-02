@@ -1,0 +1,7 @@
+:root {
+  --text-color: rebeccapurple;
+}
+
+p {
+  color: var(--text-color);
+}

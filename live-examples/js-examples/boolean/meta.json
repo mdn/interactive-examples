@@ -1,22 +1,22 @@
 {
-    "pages": {
-        "booleanConstructor": {
-            "exampleCode": "./live-examples/js-examples/boolean/boolean-constructor.js",
-            "fileName": "boolean-constructor.html",
-            "title": "JavaScript Demo: Boolean Constructor",
-            "type": "js"
-        },
-        "booleanToString": {
-            "exampleCode": "./live-examples/js-examples/boolean/boolean-tostring.js",
-            "fileName": "boolean-tostring.html",
-            "title": "JavaScript Demo: Boolean.toString()",
-            "type": "js"
-        },
-        "booleanValueOf": {
-            "exampleCode": "./live-examples/js-examples/boolean/boolean-valueof.js",
-            "fileName": "boolean-valueof.html",
-            "title": "JavaScript Demo: Boolean.valueOf()",
-            "type": "js"
-        }
+  "pages": {
+    "booleanConstructor": {
+      "exampleCode": "./live-examples/js-examples/boolean/boolean-constructor.js",
+      "fileName": "boolean-constructor.html",
+      "title": "JavaScript Demo: Boolean Constructor",
+      "type": "js"
+    },
+    "booleanToString": {
+      "exampleCode": "./live-examples/js-examples/boolean/boolean-tostring.js",
+      "fileName": "boolean-tostring.html",
+      "title": "JavaScript Demo: Boolean.toString()",
+      "type": "js"
+    },
+    "booleanValueOf": {
+      "exampleCode": "./live-examples/js-examples/boolean/boolean-valueof.js",
+      "fileName": "boolean-valueof.html",
+      "title": "JavaScript Demo: Boolean.valueOf()",
+      "type": "js"
     }
+  }
 }
