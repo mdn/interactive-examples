@@ -1,0 +1,16 @@
+label[for='paragraph'] {
+  color: rebbeccapurple;
+}
+
+#result {
+  text-align: center;
+}
+
+#result-label {
+  font-size: 16pt;
+}
+
+#result-label,
+#output {
+  display: block;
+}

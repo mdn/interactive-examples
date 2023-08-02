@@ -1,0 +1,14 @@
+label {
+  display: block;
+  margin: 1em 0;
+}
+
+.result {
+  display: block;
+  width: 80%;
+  padding: 0.3em;
+  background-color: bisque;
+  border: thin solid brown;
+  border-radius: 3px;
+  word-break: break-all;
+}
