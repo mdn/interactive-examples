@@ -1,12 +1,12 @@
 #example-element {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #example-element a {
-    color: #009e5f;
+  color: #009e5f;
 }
 
 #example-element svg {
-    width: 10em;
-    height: 10em;
+  width: 10em;
+  height: 10em;
 }

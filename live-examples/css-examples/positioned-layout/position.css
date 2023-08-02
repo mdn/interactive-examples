@@ -1,32 +1,32 @@
 .output section {
-    align-items: flex-start;
-    overflow: auto;
+  align-items: flex-start;
+  overflow: auto;
 }
 
 .box {
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 3px solid blue;
-    float: left;
-    width: 65px;
-    height: 65px;
+  background-color: rgba(0, 0, 255, 0.2);
+  border: 3px solid blue;
+  float: left;
+  width: 65px;
+  height: 65px;
 }
 
 .box + .box {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .clear {
-    clear: both;
-    padding-top: 1em;
+  clear: both;
+  padding-top: 1em;
 }
 
 #example-element-container {
-    position: relative;
-    text-align: left;
+  position: relative;
+  text-align: left;
 }
 
 #example-element {
-    background-color: yellow;
-    border: 3px solid red;
-    z-index: 1;
+  background-color: yellow;
+  border: 3px solid red;
+  z-index: 1;
 }

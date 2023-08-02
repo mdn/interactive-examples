@@ -1,12 +1,12 @@
 label {
-    display: block;
-    margin-top: 1em;
+  display: block;
+  margin-top: 1em;
 }
 
 input:focus {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
 select:focus {
-    background-color: ivory;
+  background-color: ivory;
 }

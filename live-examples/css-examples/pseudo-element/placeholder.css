@@ -1,9 +1,9 @@
 input {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 input::placeholder {
-    font-weight: bold;
-    opacity: 0.5;
-    color: red;
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
 }

@@ -1,7 +1,7 @@
 // Outputs RegExp flags in alphabetical order
 
-console.log(/foo/ig.flags);
+console.log(/foo/gi.flags);
 // Expected output: "gi"
 
-console.log(/bar/myu.flags);
+console.log(/bar/muy.flags);
 // Expected output: "muy"

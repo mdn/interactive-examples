@@ -1,39 +1,39 @@
 {
-    "pages": {
-        "local": {
-            "watExampleCode": "./live-examples/wat-examples/variables/local.wat",
-            "jsExampleCode": "./live-examples/wat-examples/console.js",
-            "fileName": "local.html",
-            "title": "Wat Demo: local",
-            "type": "wat"
-        },
-        "local_tee": {
-            "watExampleCode": "./live-examples/wat-examples/variables/local_tee.wat",
-            "jsExampleCode": "./live-examples/wat-examples/console.js",
-            "fileName": "local_tee.html",
-            "title": "Wat Demo: local_tee",
-            "type": "wat"
-        },
-        "global": {
-            "watExampleCode": "./live-examples/wat-examples/variables/global.wat",
-            "jsExampleCode": "./live-examples/wat-examples/variables/global.js",
-            "fileName": "global.html",
-            "title": "Wat Demo: global",
-            "type": "wat"
-        },
-        "global_get": {
-            "watExampleCode": "./live-examples/wat-examples/variables/global_get.wat",
-            "jsExampleCode": "./live-examples/wat-examples/console.js",
-            "fileName": "global_get.html",
-            "title": "Wat Demo: global_get",
-            "type": "wat"
-        },
-        "global_set": {
-            "watExampleCode": "./live-examples/wat-examples/variables/global_set.wat",
-            "jsExampleCode": "./live-examples/wat-examples/console.js",
-            "fileName": "global_set.html",
-            "title": "Wat Demo: global_set",
-            "type": "wat"
-        }
+  "pages": {
+    "local": {
+      "watExampleCode": "./live-examples/wat-examples/variables/local.wat",
+      "jsExampleCode": "./live-examples/wat-examples/console.js",
+      "fileName": "local.html",
+      "title": "Wat Demo: local",
+      "type": "wat"
+    },
+    "local_tee": {
+      "watExampleCode": "./live-examples/wat-examples/variables/local_tee.wat",
+      "jsExampleCode": "./live-examples/wat-examples/console.js",
+      "fileName": "local_tee.html",
+      "title": "Wat Demo: local_tee",
+      "type": "wat"
+    },
+    "global": {
+      "watExampleCode": "./live-examples/wat-examples/variables/global.wat",
+      "jsExampleCode": "./live-examples/wat-examples/variables/global.js",
+      "fileName": "global.html",
+      "title": "Wat Demo: global",
+      "type": "wat"
+    },
+    "global_get": {
+      "watExampleCode": "./live-examples/wat-examples/variables/global_get.wat",
+      "jsExampleCode": "./live-examples/wat-examples/console.js",
+      "fileName": "global_get.html",
+      "title": "Wat Demo: global_get",
+      "type": "wat"
+    },
+    "global_set": {
+      "watExampleCode": "./live-examples/wat-examples/variables/global_set.wat",
+      "jsExampleCode": "./live-examples/wat-examples/console.js",
+      "fileName": "global_set.html",
+      "title": "Wat Demo: global_set",
+      "type": "wat"
     }
+  }
 }

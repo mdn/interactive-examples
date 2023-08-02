@@ -1,11 +1,11 @@
 label,
 input[type='submit'] {
-    display: block;
-    margin-top: 1em;
+  display: block;
+  margin-top: 1em;
 }
 
 *:read-write {
-    background-color: ivory;
-    border: 2px solid darkorange;
-    border-radius: 5px;
+  background-color: ivory;
+  border: 2px solid darkorange;
+  border-radius: 5px;
 }
