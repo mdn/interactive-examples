@@ -79,7 +79,7 @@ On MDN pages the editor is laid out "side by side": that is with the example cho
 
 This means that ideally, the example should still work with an editor width of about 740 pixels:
 
-![Editor at 740 pixels](media/css-editor-width.png)
+![Editor at 740 pixels](../media/css-editor-width.png)
 
 This can be a difficult constraint to satisfy, but you should test at this width, and try to make it work, if it's possible.
 
