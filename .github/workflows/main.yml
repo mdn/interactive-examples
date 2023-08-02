@@ -19,11 +19,8 @@ jobs:
       - name: Install all npm packages
         run: npm ci
 
-      - name: Lint JS code
-        run: npm run lint:js
-
-      - name: Lint CSS code
-        run: npm run lint:css
+      - name: Lint files
+        run: npm test
 
       - name: Build all
         run: npm run build
