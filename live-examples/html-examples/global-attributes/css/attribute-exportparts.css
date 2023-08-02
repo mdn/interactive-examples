@@ -1,0 +1,18 @@
+#shadowHost::part(paragraph) {
+  color: green;
+}
+
+.not-exported-paragraph {
+  /* This value will not be applied, because the selector
+       cannot find elements present in the shadow DOM */
+  color: red;
+}
+
+#shadowHost::part(nested-paragraph) {
+  color: coral;
+  font-weight: bold;
+}
+
+#shadowHost::part(skipped-nested-paragraph) {
+  color: red;
+}

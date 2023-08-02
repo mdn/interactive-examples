@@ -11,5 +11,3 @@ console.log(formatter2.format(vehicles));
 const formatter3 = new Intl.ListFormat('en', { style: 'narrow', type: 'unit' });
 console.log(formatter3.format(vehicles));
 // Expected output: "Motorcycle Bus Car"
-
-

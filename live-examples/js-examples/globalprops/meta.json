@@ -1,88 +1,88 @@
 {
-    "pages": {
-        "globalpropsDecodeURI": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-decodeuri.js",
-            "fileName": "globalprops-decodeuri.html",
-            "title": "JavaScript Demo: Standard built-in objects - decodeURI()",
-            "type": "js"
-        },
-        "globalpropsDecodeURIComponent": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-decodeuricomponent.js",
-            "fileName": "globalprops-decodeuricomponent.html",
-            "title": "JavaScript Demo: Standard built-in objects - decodeURIComponent()",
-            "type": "js"
-        },
-        "globalpropsEncodeURI": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-encodeuri.js",
-            "fileName": "globalprops-encodeuri.html",
-            "title": "JavaScript Demo: Standard built-in objects - encodeURI()",
-            "type": "js"
-        },
-        "globalpropsEncodeURIComponent": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-encodeuricomponent.js",
-            "fileName": "globalprops-encodeuricomponent.html",
-            "title": "JavaScript Demo: Standard built-in objects - encodeURIComponent()",
-            "type": "js"
-        },
-        "globalpropsEval": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-eval.js",
-            "fileName": "globalprops-eval.html",
-            "title": "JavaScript Demo: Standard built-in objects - eval()",
-            "type": "js"
-        },
-        "globalpropsGlobalThis": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-globalthis.js",
-            "fileName": "globalprops-globalthis.html",
-            "title": "JavaScript Demo: Standard built-in objects - globalThis",
-            "type": "js"
-        },
-        "globalpropsInfinity": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-infinity.js",
-            "fileName": "globalprops-infinity.html",
-            "title": "JavaScript Demo: Standard built-in objects - infinity",
-            "type": "js"
-        },
-        "globalpropsIsFinite": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-isfinite.js",
-            "fileName": "globalprops-isfinite.html",
-            "title": "JavaScript Demo: Standard built-in objects - isFinite()",
-            "type": "js"
-        },
-        "globalpropsIsNaN": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-isnan.js",
-            "fileName": "globalprops-isnan.html",
-            "title": "JavaScript Demo: Standard built-in objects - isNaN()",
-            "type": "js"
-        },
-        "globalpropsNaN": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-nan.js",
-            "fileName": "globalprops-nan.html",
-            "title": "JavaScript Demo: Standard built-in objects - NaN",
-            "type": "js"
-        },
-        "globalpropsNull": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-null.js",
-            "fileName": "globalprops-null.html",
-            "title": "JavaScript Demo: Standard built-in objects - Null",
-            "type": "js"
-        },
-        "globalpropsParseFloat": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-parsefloat.js",
-            "fileName": "globalprops-parsefloat.html",
-            "title": "JavaScript Demo: Standard built-in objects - parseFloat()",
-            "type": "js"
-        },
-        "globalpropsParseInt": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-parseint.js",
-            "fileName": "globalprops-parseint.html",
-            "title": "JavaScript Demo: Standard built-in objects - parseInt()",
-            "type": "js"
-        },
-        "globalpropsUndefined": {
-            "exampleCode": "./live-examples/js-examples/globalprops/globalprops-undefined.js",
-            "fileName": "globalprops-undefined.html",
-            "title": "JavaScript Demo: Standard built-in objects - undefined",
-            "type": "js"
-        }
+  "pages": {
+    "globalpropsDecodeURI": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-decodeuri.js",
+      "fileName": "globalprops-decodeuri.html",
+      "title": "JavaScript Demo: Standard built-in objects - decodeURI()",
+      "type": "js"
+    },
+    "globalpropsDecodeURIComponent": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-decodeuricomponent.js",
+      "fileName": "globalprops-decodeuricomponent.html",
+      "title": "JavaScript Demo: Standard built-in objects - decodeURIComponent()",
+      "type": "js"
+    },
+    "globalpropsEncodeURI": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-encodeuri.js",
+      "fileName": "globalprops-encodeuri.html",
+      "title": "JavaScript Demo: Standard built-in objects - encodeURI()",
+      "type": "js"
+    },
+    "globalpropsEncodeURIComponent": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-encodeuricomponent.js",
+      "fileName": "globalprops-encodeuricomponent.html",
+      "title": "JavaScript Demo: Standard built-in objects - encodeURIComponent()",
+      "type": "js"
+    },
+    "globalpropsEval": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-eval.js",
+      "fileName": "globalprops-eval.html",
+      "title": "JavaScript Demo: Standard built-in objects - eval()",
+      "type": "js"
+    },
+    "globalpropsGlobalThis": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-globalthis.js",
+      "fileName": "globalprops-globalthis.html",
+      "title": "JavaScript Demo: Standard built-in objects - globalThis",
+      "type": "js"
+    },
+    "globalpropsInfinity": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-infinity.js",
+      "fileName": "globalprops-infinity.html",
+      "title": "JavaScript Demo: Standard built-in objects - infinity",
+      "type": "js"
+    },
+    "globalpropsIsFinite": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-isfinite.js",
+      "fileName": "globalprops-isfinite.html",
+      "title": "JavaScript Demo: Standard built-in objects - isFinite()",
+      "type": "js"
+    },
+    "globalpropsIsNaN": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-isnan.js",
+      "fileName": "globalprops-isnan.html",
+      "title": "JavaScript Demo: Standard built-in objects - isNaN()",
+      "type": "js"
+    },
+    "globalpropsNaN": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-nan.js",
+      "fileName": "globalprops-nan.html",
+      "title": "JavaScript Demo: Standard built-in objects - NaN",
+      "type": "js"
+    },
+    "globalpropsNull": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-null.js",
+      "fileName": "globalprops-null.html",
+      "title": "JavaScript Demo: Standard built-in objects - Null",
+      "type": "js"
+    },
+    "globalpropsParseFloat": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-parsefloat.js",
+      "fileName": "globalprops-parsefloat.html",
+      "title": "JavaScript Demo: Standard built-in objects - parseFloat()",
+      "type": "js"
+    },
+    "globalpropsParseInt": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-parseint.js",
+      "fileName": "globalprops-parseint.html",
+      "title": "JavaScript Demo: Standard built-in objects - parseInt()",
+      "type": "js"
+    },
+    "globalpropsUndefined": {
+      "exampleCode": "./live-examples/js-examples/globalprops/globalprops-undefined.js",
+      "fileName": "globalprops-undefined.html",
+      "title": "JavaScript Demo: Standard built-in objects - undefined",
+      "type": "js"
     }
+  }
 }

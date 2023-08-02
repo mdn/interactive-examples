@@ -1,5 +1,5 @@
 const monster1 = {
-  canEvolve: true
+  canEvolve: true,
 };
 
 const handler1 = {
@@ -9,7 +9,7 @@ const handler1 = {
   preventExtensions(target) {
     target.canEvolve = false;
     return Reflect.preventExtensions(target);
-  }
+  },
 };
 
 const proxy1 = new Proxy(monster1, handler1);

@@ -1,73 +1,84 @@
 {
-    "pages": {
-        "animation": {
-            "cssExampleSrc": "./live-examples/css-examples/animation/animation.css",
-            "exampleCode": "./live-examples/css-examples/animation/animation.html",
-            "fileName": "animation.html",
-            "title": "CSS Demo: animation",
-            "type": "css"
-        },
-        "animationDelay": {
-            "cssExampleSrc": "./live-examples/css-examples/animation/animation-delay.css",
-            "jsExampleSrc": "./live-examples/css-examples/animation/animation-state.js",
-            "exampleCode": "./live-examples/css-examples/animation/animation-delay.html",
-            "fileName": "animation-delay.html",
-            "title": "CSS Demo: animation-delay",
-            "type": "css"
-        },
-        "animationDirection": {
-            "cssExampleSrc": "./live-examples/css-examples/animation/animation-direction.css",
-            "jsExampleSrc": "./live-examples/css-examples/animation/play-pause.js",
-            "exampleCode": "./live-examples/css-examples/animation/animation-direction.html",
-            "fileName": "animation-direction.html",
-            "title": "CSS Demo: animation-direction",
-            "type": "css"
-        },
-        "animationDuration": {
-            "cssExampleSrc": "./live-examples/css-examples/animation/animation-duration.css",
-            "jsExampleSrc": "./live-examples/css-examples/animation/play-pause.js",
-            "exampleCode": "./live-examples/css-examples/animation/animation-duration.html",
-            "fileName": "animation-duration.html",
-            "title": "CSS Demo: animation-duration",
-            "type": "css"
-        },
-        "animationFillMode": {
-            "cssExampleSrc": "./live-examples/css-examples/animation/animation-fill-mode.css",
-            "jsExampleSrc": "./live-examples/css-examples/animation/animation-state.js",
-            "exampleCode": "./live-examples/css-examples/animation/animation-fill-mode.html",
-            "fileName": "animation-fill-mode.html",
-            "title": "CSS Demo: animation-fill-mode",
-            "type": "css"
-        },
-        "animationIterationCount": {
-            "cssExampleSrc": "./live-examples/css-examples/animation/animation-iteration-count.css",
-            "jsExampleSrc": "./live-examples/css-examples/animation/animation-state.js",
-            "exampleCode": "./live-examples/css-examples/animation/animation-iteration-count.html",
-            "fileName": "animation-iteration-count.html",
-            "title": "CSS Demo: animation-iteration-count",
-            "type": "css"
-        },
-        "animationName": {
-            "cssExampleSrc": "./live-examples/css-examples/animation/animation-name.css",
-            "exampleCode": "./live-examples/css-examples/animation/animation-name.html",
-            "fileName": "animation-name.html",
-            "title": "CSS Demo: animation-name",
-            "type": "css"
-        },
-        "animationPlayState": {
-            "cssExampleSrc": "./live-examples/css-examples/animation/animation-play-state.css",
-            "exampleCode": "./live-examples/css-examples/animation/animation-play-state.html",
-            "fileName": "animation-play-state.html",
-            "title": "CSS Demo: animation-play-state",
-            "type": "css"
-        },
-        "animationTimingFunction": {
-            "cssExampleSrc": "./live-examples/css-examples/animation/animation-timing-function.css",
-            "jsExampleSrc": "./live-examples/css-examples/animation/play-pause.js",
-            "exampleCode": "./live-examples/css-examples/animation/animation-timing-function.html",
-            "fileName": "animation-timing-function.html",
-            "title": "CSS Demo: animation-timing-function",
-            "type": "css"
-        }
+  "pages": {
+    "animation": {
+      "cssExampleSrc": "./live-examples/css-examples/animation/animation.css",
+      "exampleCode": "./live-examples/css-examples/animation/animation.html",
+      "fileName": "animation.html",
+      "title": "CSS Demo: animation",
+      "type": "css"
+    },
+    "animationDelay": {
+      "cssExampleSrc": "./live-examples/css-examples/animation/animation-delay.css",
+      "jsExampleSrc": "./live-examples/css-examples/animation/animation-state.js",
+      "exampleCode": "./live-examples/css-examples/animation/animation-delay.html",
+      "fileName": "animation-delay.html",
+      "title": "CSS Demo: animation-delay",
+      "type": "css"
+    },
+    "animationDirection": {
+      "cssExampleSrc": "./live-examples/css-examples/animation/animation-direction.css",
+      "jsExampleSrc": "./live-examples/css-examples/animation/play-pause.js",
+      "exampleCode": "./live-examples/css-examples/animation/animation-direction.html",
+      "fileName": "animation-direction.html",
+      "title": "CSS Demo: animation-direction",
+      "type": "css"
+    },
+    "animationDuration": {
+      "cssExampleSrc": "./live-examples/css-examples/animation/animation-duration.css",
+      "jsExampleSrc": "./live-examples/css-examples/animation/play-pause.js",
+      "exampleCode": "./live-examples/css-examples/animation/animation-duration.html",
+      "fileName": "animation-duration.html",
+      "title": "CSS Demo: animation-duration",
+      "type": "css"
+    },
+    "animationFillMode": {
+      "cssExampleSrc": "./live-examples/css-examples/animation/animation-fill-mode.css",
+      "jsExampleSrc": "./live-examples/css-examples/animation/animation-state.js",
+      "exampleCode": "./live-examples/css-examples/animation/animation-fill-mode.html",
+      "fileName": "animation-fill-mode.html",
+      "title": "CSS Demo: animation-fill-mode",
+      "type": "css"
+    },
+    "animationIterationCount": {
+      "cssExampleSrc": "./live-examples/css-examples/animation/animation-iteration-count.css",
+      "jsExampleSrc": "./live-examples/css-examples/animation/animation-state.js",
+      "exampleCode": "./live-examples/css-examples/animation/animation-iteration-count.html",
+      "fileName": "animation-iteration-count.html",
+      "title": "CSS Demo: animation-iteration-count",
+      "type": "css"
+    },
+    "animationName": {
+      "cssExampleSrc": "./live-examples/css-examples/animation/animation-name.css",
+      "exampleCode": "./live-examples/css-examples/animation/animation-name.html",
+      "fileName": "animation-name.html",
+      "title": "CSS Demo: animation-name",
+      "type": "css"
+    },
+    "animationPlayState": {
+      "cssExampleSrc": "./live-examples/css-examples/animation/animation-play-state.css",
+      "exampleCode": "./live-examples/css-examples/animation/animation-play-state.html",
+      "fileName": "animation-play-state.html",
+      "title": "CSS Demo: animation-play-state",
+      "type": "css"
+    },
+    "animationTimingFunction": {
+      "cssExampleSrc": "./live-examples/css-examples/animation/animation-timing-function.css",
+      "jsExampleSrc": "./live-examples/css-examples/animation/play-pause.js",
+      "exampleCode": "./live-examples/css-examples/animation/animation-timing-function.html",
+      "fileName": "animation-timing-function.html",
+      "title": "CSS Demo: animation-timing-function",
+      "type": "css"
+    },
+    "keyframes": {
+      "cssExampleSrc": "./live-examples/css-examples/animation/at-rule-keyframes.css",
+      "jsExampleSrc": "./live-examples/css-examples/animation/at-rule-keyframes.js",
+      "exampleCode": "./live-examples/css-examples/animation/at-rule-keyframes.html",
+      "fileName": "at-rule-keyframes.html",
+      "title": "CSS Demo: @keyframes",
+      "type": "tabbed",
+      "tabs": "html,css,js",
+      "defaultTab": "css",
+      "height": "tabbed-standard"
     }
+  }
 }

@@ -1,0 +1,8 @@
+#example-element {
+  width: 15em;
+  height: 9em;
+  border: medium dotted;
+  padding: 0.75em;
+  text-align: left;
+  overflow: clip;
+}

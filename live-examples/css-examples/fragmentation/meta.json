@@ -1,73 +1,84 @@
 {
-    "pages": {
-        "boxDecorationBreak": {
-            "cssExampleSrc": "./live-examples/css-examples/fragmentation/box-decoration-break.css",
-            "exampleCode": "./live-examples/css-examples/fragmentation/box-decoration-break.html",
-            "fileName": "box-decoration-break.html",
-            "title": "CSS Demo: box-decoration-break",
-            "type": "css"
-        },
-        "breakAfter": {
-            "cssExampleSrc": "./live-examples/css-examples/fragmentation/break-after.css",
-            "exampleCode": "./live-examples/css-examples/fragmentation/break-after.html",
-            "jsExampleSrc": "./live-examples/css-examples/fragmentation/break.js",
-            "fileName": "break-after.html",
-            "title": "CSS Demo: break-after",
-            "type": "css"
-        },
-        "breakBefore": {
-            "cssExampleSrc": "./live-examples/css-examples/fragmentation/break-before.css",
-            "exampleCode": "./live-examples/css-examples/fragmentation/break-before.html",
-            "jsExampleSrc": "./live-examples/css-examples/fragmentation/break.js",
-            "fileName": "break-before.html",
-            "title": "CSS Demo: break-before",
-            "type": "css"
-        },
-        "breakInside": {
-            "cssExampleSrc": "./live-examples/css-examples/fragmentation/break-inside.css",
-            "exampleCode": "./live-examples/css-examples/fragmentation/break-inside.html",
-            "jsExampleSrc": "./live-examples/css-examples/fragmentation/break.js",
-            "fileName": "break-inside.html",
-            "title": "CSS Demo: break-inside",
-            "type": "css"
-        },
-        "orphans": {
-            "cssExampleSrc": "./live-examples/css-examples/fragmentation/orphans.css",
-            "exampleCode": "./live-examples/css-examples/fragmentation/orphans.html",
-            "fileName": "orphans.html",
-            "title": "CSS Demo: orphans",
-            "type": "css"
-        },
-        "pageBreakAfter": {
-            "cssExampleSrc": "./live-examples/css-examples/fragmentation/page-break-after.css",
-            "exampleCode": "./live-examples/css-examples/fragmentation/page-break-after.html",
-            "jsExampleSrc": "./live-examples/css-examples/fragmentation/break.js",
-            "fileName": "page-break-after.html",
-            "title": "CSS Demo: page-break-after",
-            "type": "css"
-        },
-        "pageBreakBefore": {
-            "cssExampleSrc": "./live-examples/css-examples/fragmentation/page-break-before.css",
-            "exampleCode": "./live-examples/css-examples/fragmentation/page-break-before.html",
-            "jsExampleSrc": "./live-examples/css-examples/fragmentation/break.js",
-            "fileName": "page-break-before.html",
-            "title": "CSS Demo: page-break-before",
-            "type": "css"
-        },
-        "pageBreakInside": {
-            "cssExampleSrc": "./live-examples/css-examples/fragmentation/page-break-inside.css",
-            "exampleCode": "./live-examples/css-examples/fragmentation/page-break-inside.html",
-            "jsExampleSrc": "./live-examples/css-examples/fragmentation/break.js",
-            "fileName": "page-break-inside.html",
-            "title": "CSS Demo: page-break-inside",
-            "type": "css"
-        },
-        "widows": {
-            "cssExampleSrc": "./live-examples/css-examples/fragmentation/widows.css",
-            "exampleCode": "./live-examples/css-examples/fragmentation/widows.html",
-            "fileName": "widows.html",
-            "title": "CSS Demo: widows",
-            "type": "css"
-        }
+  "pages": {
+    "atRulePage": {
+      "cssExampleSrc": "./live-examples/css-examples/fragmentation/at-rule-page.css",
+      "exampleCode": "./live-examples/css-examples/fragmentation/at-rule-page.html",
+      "jsExampleSrc": "./live-examples/css-examples/fragmentation/at-rule-page.js",
+      "fileName": "at-rule-page.html",
+      "title": "CSS Demo: @page",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "tabs": "html,css,js",
+      "height": "tabbed-shorter"
+    },
+    "boxDecorationBreak": {
+      "cssExampleSrc": "./live-examples/css-examples/fragmentation/box-decoration-break.css",
+      "exampleCode": "./live-examples/css-examples/fragmentation/box-decoration-break.html",
+      "fileName": "box-decoration-break.html",
+      "title": "CSS Demo: box-decoration-break",
+      "type": "css"
+    },
+    "breakAfter": {
+      "cssExampleSrc": "./live-examples/css-examples/fragmentation/break-after.css",
+      "exampleCode": "./live-examples/css-examples/fragmentation/break-after.html",
+      "jsExampleSrc": "./live-examples/css-examples/fragmentation/break.js",
+      "fileName": "break-after.html",
+      "title": "CSS Demo: break-after",
+      "type": "css"
+    },
+    "breakBefore": {
+      "cssExampleSrc": "./live-examples/css-examples/fragmentation/break-before.css",
+      "exampleCode": "./live-examples/css-examples/fragmentation/break-before.html",
+      "jsExampleSrc": "./live-examples/css-examples/fragmentation/break.js",
+      "fileName": "break-before.html",
+      "title": "CSS Demo: break-before",
+      "type": "css"
+    },
+    "breakInside": {
+      "cssExampleSrc": "./live-examples/css-examples/fragmentation/break-inside.css",
+      "exampleCode": "./live-examples/css-examples/fragmentation/break-inside.html",
+      "jsExampleSrc": "./live-examples/css-examples/fragmentation/break.js",
+      "fileName": "break-inside.html",
+      "title": "CSS Demo: break-inside",
+      "type": "css"
+    },
+    "orphans": {
+      "cssExampleSrc": "./live-examples/css-examples/fragmentation/orphans.css",
+      "exampleCode": "./live-examples/css-examples/fragmentation/orphans.html",
+      "fileName": "orphans.html",
+      "title": "CSS Demo: orphans",
+      "type": "css"
+    },
+    "pageBreakAfter": {
+      "cssExampleSrc": "./live-examples/css-examples/fragmentation/page-break-after.css",
+      "exampleCode": "./live-examples/css-examples/fragmentation/page-break-after.html",
+      "jsExampleSrc": "./live-examples/css-examples/fragmentation/break.js",
+      "fileName": "page-break-after.html",
+      "title": "CSS Demo: page-break-after",
+      "type": "css"
+    },
+    "pageBreakBefore": {
+      "cssExampleSrc": "./live-examples/css-examples/fragmentation/page-break-before.css",
+      "exampleCode": "./live-examples/css-examples/fragmentation/page-break-before.html",
+      "jsExampleSrc": "./live-examples/css-examples/fragmentation/break.js",
+      "fileName": "page-break-before.html",
+      "title": "CSS Demo: page-break-before",
+      "type": "css"
+    },
+    "pageBreakInside": {
+      "cssExampleSrc": "./live-examples/css-examples/fragmentation/page-break-inside.css",
+      "exampleCode": "./live-examples/css-examples/fragmentation/page-break-inside.html",
+      "jsExampleSrc": "./live-examples/css-examples/fragmentation/break.js",
+      "fileName": "page-break-inside.html",
+      "title": "CSS Demo: page-break-inside",
+      "type": "css"
+    },
+    "widows": {
+      "cssExampleSrc": "./live-examples/css-examples/fragmentation/widows.css",
+      "exampleCode": "./live-examples/css-examples/fragmentation/widows.html",
+      "fileName": "widows.html",
+      "title": "CSS Demo: widows",
+      "type": "css"
     }
+  }
 }

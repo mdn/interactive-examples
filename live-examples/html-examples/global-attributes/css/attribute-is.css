@@ -1,0 +1,19 @@
+textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+}
+
+.length-textarea-container {
+  position: relative;
+  width: 100%;
+  height: 10em;
+}
+
+.length-textarea-container::after {
+  content: 'Characters left: ' attr(length-left);
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: grey;
+}
