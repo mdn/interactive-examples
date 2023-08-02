@@ -40,9 +40,9 @@ This will ensure that you have all the required development modules installed to
 
 We've written separate guides to contributing each type of example:
 
-- [Contributing a CSS example](CONTRIBUTING-CSS.md)
-- [Contributing an HTML example](CONTRIBUTING-HTML.md)
-- [Contributing a JavaScript example](CONTRIBUTING-JavaScript.md)
+- [Contributing a CSS example](contributing/css-examples.md)
+- [Contributing an HTML example](contributing/html-examples.md)
+- [Contributing a JavaScript example](contributing/js-examples.md)
 
 ## Testing
 
