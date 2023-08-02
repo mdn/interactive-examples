@@ -1,43 +1,43 @@
 {
-    "pages": {
-        "offset": {
-            "cssExampleSrc": "./live-examples/css-examples/motion-path/offset.css",
-            "exampleCode": "./live-examples/css-examples/motion-path/offset.html",
-            "jsExampleSrc": "./live-examples/css-examples/motion-path/offset-playback.js",
-            "fileName": "offset.html",
-            "title": "CSS Demo: offset",
-            "type": "css"
-        },
-        "offsetAnchor": {
-            "cssExampleSrc": "./live-examples/css-examples/motion-path/offset-anchor.css",
-            "exampleCode": "./live-examples/css-examples/motion-path/offset-anchor.html",
-            "jsExampleSrc": "./live-examples/css-examples/motion-path/offset-playback.js",
-            "fileName": "offset-anchor.html",
-            "title": "CSS Demo: offset-anchor",
-            "type": "css"
-        },
-        "offsetPath": {
-            "cssExampleSrc": "./live-examples/css-examples/motion-path/offset-path.css",
-            "exampleCode": "./live-examples/css-examples/motion-path/offset-path.html",
-            "jsExampleSrc": "./live-examples/css-examples/motion-path/offset-playback.js",
-            "fileName": "offset-path.html",
-            "title": "CSS Demo: offset-path",
-            "type": "css"
-        },
-        "offsetDistance": {
-            "cssExampleSrc": "./live-examples/css-examples/motion-path/offset-distance.css",
-            "exampleCode": "./live-examples/css-examples/motion-path/offset-distance.html",
-            "fileName": "offset-distance.html",
-            "title": "CSS Demo: offset-distance",
-            "type": "css"
-        },
-        "offsetRotate": {
-            "cssExampleSrc": "./live-examples/css-examples/motion-path/offset-rotate.css",
-            "exampleCode": "./live-examples/css-examples/motion-path/offset-rotate.html",
-            "jsExampleSrc": "./live-examples/css-examples/motion-path/offset-playback.js",
-            "fileName": "offset-rotate.html",
-            "title": "CSS Demo: offset-rotate",
-            "type": "css"
-        }
+  "pages": {
+    "offset": {
+      "cssExampleSrc": "./live-examples/css-examples/motion-path/offset.css",
+      "exampleCode": "./live-examples/css-examples/motion-path/offset.html",
+      "jsExampleSrc": "./live-examples/css-examples/motion-path/offset-playback.js",
+      "fileName": "offset.html",
+      "title": "CSS Demo: offset",
+      "type": "css"
+    },
+    "offsetAnchor": {
+      "cssExampleSrc": "./live-examples/css-examples/motion-path/offset-anchor.css",
+      "exampleCode": "./live-examples/css-examples/motion-path/offset-anchor.html",
+      "jsExampleSrc": "./live-examples/css-examples/motion-path/offset-playback.js",
+      "fileName": "offset-anchor.html",
+      "title": "CSS Demo: offset-anchor",
+      "type": "css"
+    },
+    "offsetPath": {
+      "cssExampleSrc": "./live-examples/css-examples/motion-path/offset-path.css",
+      "exampleCode": "./live-examples/css-examples/motion-path/offset-path.html",
+      "jsExampleSrc": "./live-examples/css-examples/motion-path/offset-playback.js",
+      "fileName": "offset-path.html",
+      "title": "CSS Demo: offset-path",
+      "type": "css"
+    },
+    "offsetDistance": {
+      "cssExampleSrc": "./live-examples/css-examples/motion-path/offset-distance.css",
+      "exampleCode": "./live-examples/css-examples/motion-path/offset-distance.html",
+      "fileName": "offset-distance.html",
+      "title": "CSS Demo: offset-distance",
+      "type": "css"
+    },
+    "offsetRotate": {
+      "cssExampleSrc": "./live-examples/css-examples/motion-path/offset-rotate.css",
+      "exampleCode": "./live-examples/css-examples/motion-path/offset-rotate.html",
+      "jsExampleSrc": "./live-examples/css-examples/motion-path/offset-playback.js",
+      "fileName": "offset-rotate.html",
+      "title": "CSS Demo: offset-rotate",
+      "type": "css"
     }
+  }
 }

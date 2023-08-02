@@ -1,5 +1,5 @@
 const aliceExcerpt = 'The Caterpillar and Alice looked at each other';
-const regexpWithoutE = /\b[a-df-z]+\b/ig;
+const regexpWithoutE = /\b[a-df-z]+\b/gi;
 console.log(aliceExcerpt.match(regexpWithoutE));
 // Expected output: Array ["and", "at"]
 

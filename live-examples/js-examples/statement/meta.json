@@ -1,160 +1,160 @@
 {
-    "pages": {
-        "statementAsync": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-async.js",
-            "fileName": "statement-async.html",
-            "title": "JavaScript Demo: Statement - Async",
-            "type": "js"
-        },
-        "statementAsyncForIn": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-async-for-in.js",
-            "fileName": "statement-async-for-in.html",
-            "title": "JavaScript Demo: Statement - Async For In",
-            "type": "js"
-        },
-        "statementAsyncFunctionAsterisk": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-async-function-asterisk.js",
-            "fileName": "statement-async-function-asterisk.html",
-            "title": "JavaScript Demo: Statement - Async Function Asterisk",
-            "type": "js"
-        },
-        "statementBlock": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-block.js",
-            "fileName": "statement-block.html",
-            "title": "JavaScript Demo: Statement - Block",
-            "type": "js"
-        },
-        "statementBreak": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-break.js",
-            "fileName": "statement-break.html",
-            "title": "JavaScript Demo: Statement - Break",
-            "type": "js"
-        },
-        "statementClass": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-class.js",
-            "fileName": "statement-class.html",
-            "title": "JavaScript Demo: Statement - Class",
-            "type": "js"
-        },
-        "statementConst": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-const.js",
-            "fileName": "statement-const.html",
-            "title": "JavaScript Demo: Statement - Const",
-            "type": "js"
-        },
-        "statementContinue": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-continue.js",
-            "fileName": "statement-continue.html",
-            "title": "JavaScript Demo: Statement - Continue",
-            "type": "js"
-        },
-        "statementDefault": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-default.js",
-            "fileName": "statement-default.html",
-            "title": "JavaScript Demo: Statement - Default",
-            "type": "js"
-        },
-        "statementDoWhile": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-dowhile.js",
-            "fileName": "statement-dowhile.html",
-            "title": "JavaScript Demo: Statement - Do...While",
-            "type": "js"
-        },
-        "statementEmpty": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-empty.js",
-            "fileName": "statement-empty.html",
-            "title": "JavaScript Demo: Statement - Empty",
-            "type": "js"
-        },
-        "statementFor": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-for.js",
-            "fileName": "statement-for.html",
-            "title": "JavaScript Demo: Statement - For",
-            "type": "js"
-        },
-        "statementForAwaitOf": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-forawaitof.js",
-            "fileName": "statement-forawaitof.html",
-            "title": "JavaScript Demo: Statement - For Await...Of",
-            "type": "js"
-        },
-        "statementForIn": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-forin.js",
-            "fileName": "statement-forin.html",
-            "title": "JavaScript Demo: Statement - For...In",
-            "type": "js"
-        },
-        "statementForOf": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-forof.js",
-            "fileName": "statement-forof.html",
-            "title": "JavaScript Demo: Statement - For...Of",
-            "type": "js"
-        },
-        "statementFunction": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-function.js",
-            "fileName": "statement-function.html",
-            "title": "JavaScript Demo: Statement - Function",
-            "type": "js"
-        },
-        "statementFunctionAsterisk": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-functionasterisk.js",
-            "fileName": "statement-functionasterisk.html",
-            "title": "JavaScript Demo: Statement - Function*",
-            "type": "js"
-        },
-        "statementIfElse": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-ifelse.js",
-            "fileName": "statement-ifelse.html",
-            "title": "JavaScript Demo: Statement - If...Else",
-            "type": "js"
-        },
-        "statementLabel": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-label.js",
-            "fileName": "statement-label.html",
-            "title": "JavaScript Demo: Statement - Label",
-            "type": "js"
-        },
-        "statementLet": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-let.js",
-            "fileName": "statement-let.html",
-            "title": "JavaScript Demo: Statement - Let",
-            "type": "js"
-        },
-        "statementReturn": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-return.js",
-            "fileName": "statement-return.html",
-            "title": "JavaScript Demo: Statement - Return",
-            "type": "js"
-        },
-        "statementSwitch": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-switch.js",
-            "fileName": "statement-switch.html",
-            "title": "JavaScript Demo: Statement - Switch",
-            "type": "js"
-        },
-        "statementThrow": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-throw.js",
-            "fileName": "statement-throw.html",
-            "title": "JavaScript Demo: Statement - Throw",
-            "type": "js"
-        },
-        "statementTryCatch": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-trycatch.js",
-            "fileName": "statement-trycatch.html",
-            "title": "JavaScript Demo: Statement - Try...Catch",
-            "type": "js"
-        },
-        "statementVar": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-var.js",
-            "fileName": "statement-var.html",
-            "title": "JavaScript Demo: Statement - Var",
-            "type": "js"
-        },
-        "statementWhile": {
-            "exampleCode": "./live-examples/js-examples/statement/statement-while.js",
-            "fileName": "statement-while.html",
-            "title": "JavaScript Demo: Statement - While",
-            "type": "js"
-        }
+  "pages": {
+    "statementAsync": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-async.js",
+      "fileName": "statement-async.html",
+      "title": "JavaScript Demo: Statement - Async",
+      "type": "js"
+    },
+    "statementAsyncForIn": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-async-for-in.js",
+      "fileName": "statement-async-for-in.html",
+      "title": "JavaScript Demo: Statement - Async For In",
+      "type": "js"
+    },
+    "statementAsyncFunctionAsterisk": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-async-function-asterisk.js",
+      "fileName": "statement-async-function-asterisk.html",
+      "title": "JavaScript Demo: Statement - Async Function Asterisk",
+      "type": "js"
+    },
+    "statementBlock": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-block.js",
+      "fileName": "statement-block.html",
+      "title": "JavaScript Demo: Statement - Block",
+      "type": "js"
+    },
+    "statementBreak": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-break.js",
+      "fileName": "statement-break.html",
+      "title": "JavaScript Demo: Statement - Break",
+      "type": "js"
+    },
+    "statementClass": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-class.js",
+      "fileName": "statement-class.html",
+      "title": "JavaScript Demo: Statement - Class",
+      "type": "js"
+    },
+    "statementConst": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-const.js",
+      "fileName": "statement-const.html",
+      "title": "JavaScript Demo: Statement - Const",
+      "type": "js"
+    },
+    "statementContinue": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-continue.js",
+      "fileName": "statement-continue.html",
+      "title": "JavaScript Demo: Statement - Continue",
+      "type": "js"
+    },
+    "statementDefault": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-default.js",
+      "fileName": "statement-default.html",
+      "title": "JavaScript Demo: Statement - Default",
+      "type": "js"
+    },
+    "statementDoWhile": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-dowhile.js",
+      "fileName": "statement-dowhile.html",
+      "title": "JavaScript Demo: Statement - Do...While",
+      "type": "js"
+    },
+    "statementEmpty": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-empty.js",
+      "fileName": "statement-empty.html",
+      "title": "JavaScript Demo: Statement - Empty",
+      "type": "js"
+    },
+    "statementFor": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-for.js",
+      "fileName": "statement-for.html",
+      "title": "JavaScript Demo: Statement - For",
+      "type": "js"
+    },
+    "statementForAwaitOf": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-forawaitof.js",
+      "fileName": "statement-forawaitof.html",
+      "title": "JavaScript Demo: Statement - For Await...Of",
+      "type": "js"
+    },
+    "statementForIn": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-forin.js",
+      "fileName": "statement-forin.html",
+      "title": "JavaScript Demo: Statement - For...In",
+      "type": "js"
+    },
+    "statementForOf": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-forof.js",
+      "fileName": "statement-forof.html",
+      "title": "JavaScript Demo: Statement - For...Of",
+      "type": "js"
+    },
+    "statementFunction": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-function.js",
+      "fileName": "statement-function.html",
+      "title": "JavaScript Demo: Statement - Function",
+      "type": "js"
+    },
+    "statementFunctionAsterisk": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-functionasterisk.js",
+      "fileName": "statement-functionasterisk.html",
+      "title": "JavaScript Demo: Statement - Function*",
+      "type": "js"
+    },
+    "statementIfElse": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-ifelse.js",
+      "fileName": "statement-ifelse.html",
+      "title": "JavaScript Demo: Statement - If...Else",
+      "type": "js"
+    },
+    "statementLabel": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-label.js",
+      "fileName": "statement-label.html",
+      "title": "JavaScript Demo: Statement - Label",
+      "type": "js"
+    },
+    "statementLet": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-let.js",
+      "fileName": "statement-let.html",
+      "title": "JavaScript Demo: Statement - Let",
+      "type": "js"
+    },
+    "statementReturn": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-return.js",
+      "fileName": "statement-return.html",
+      "title": "JavaScript Demo: Statement - Return",
+      "type": "js"
+    },
+    "statementSwitch": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-switch.js",
+      "fileName": "statement-switch.html",
+      "title": "JavaScript Demo: Statement - Switch",
+      "type": "js"
+    },
+    "statementThrow": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-throw.js",
+      "fileName": "statement-throw.html",
+      "title": "JavaScript Demo: Statement - Throw",
+      "type": "js"
+    },
+    "statementTryCatch": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-trycatch.js",
+      "fileName": "statement-trycatch.html",
+      "title": "JavaScript Demo: Statement - Try...Catch",
+      "type": "js"
+    },
+    "statementVar": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-var.js",
+      "fileName": "statement-var.html",
+      "title": "JavaScript Demo: Statement - Var",
+      "type": "js"
+    },
+    "statementWhile": {
+      "exampleCode": "./live-examples/js-examples/statement/statement-while.js",
+      "fileName": "statement-while.html",
+      "title": "JavaScript Demo: Statement - While",
+      "type": "js"
     }
+  }
 }

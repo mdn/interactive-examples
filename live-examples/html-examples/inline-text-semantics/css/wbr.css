@@ -1,7 +1,7 @@
 #example-paragraphs {
-    background-color: white;
-    overflow: hidden;
-    resize: horizontal;
-    width: 9rem;
-    border: 2px dashed #999;
+  background-color: white;
+  overflow: hidden;
+  resize: horizontal;
+  width: 9rem;
+  border: 2px dashed #999;
 }

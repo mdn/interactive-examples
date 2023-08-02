@@ -1,235 +1,235 @@
 {
-    "pages": {
-        "stringAt": {
-            "exampleCode": "./live-examples/js-examples/string/string-at.js",
-            "fileName": "string-at.html",
-            "title": "JavaScript Demo: String.at()",
-            "type": "js"
-        },
-        "stringCharAt": {
-            "exampleCode": "./live-examples/js-examples/string/string-charat.js",
-            "fileName": "string-charat.html",
-            "title": "JavaScript Demo: String.charAt()",
-            "type": "js"
-        },
-        "stringCharCodeAt": {
-            "exampleCode": "./live-examples/js-examples/string/string-charcodeat.js",
-            "fileName": "string-charcodeat.html",
-            "title": "JavaScript Demo: String.charCodeAt()",
-            "type": "js"
-        },
-        "stringCodePointAt": {
-            "exampleCode": "./live-examples/js-examples/string/string-codepointat.js",
-            "fileName": "string-codepointat.html",
-            "title": "JavaScript Demo: String.codePointAt()",
-            "type": "js"
-        },
-        "stringConcat": {
-            "exampleCode": "./live-examples/js-examples/string/string-concat.js",
-            "fileName": "string-concat.html",
-            "title": "JavaScript Demo: String.concat()",
-            "type": "js"
-        },
-        "stringEndsWith": {
-            "exampleCode": "./live-examples/js-examples/string/string-endswith.js",
-            "fileName": "string-endswith.html",
-            "title": "JavaScript Demo: String.endsWith()",
-            "type": "js"
-        },
-        "stringFromCharCode": {
-            "exampleCode": "./live-examples/js-examples/string/string-fromcharcode.js",
-            "fileName": "string-fromcharcode.html",
-            "title": "JavaScript Demo: String.fromCharCode()",
-            "type": "js"
-        },
-        "stringFromCodePoint": {
-            "exampleCode": "./live-examples/js-examples/string/string-fromcodepoint.js",
-            "fileName": "string-fromcodepoint.html",
-            "title": "JavaScript Demo: String.fromCodePoint()",
-            "type": "js"
-        },
-        "stringIncludes": {
-            "exampleCode": "./live-examples/js-examples/string/string-includes.js",
-            "fileName": "string-includes.html",
-            "title": "JavaScript Demo: String.includes()",
-            "type": "js"
-        },
-        "stringIndexOf": {
-            "exampleCode": "./live-examples/js-examples/string/string-indexof.js",
-            "fileName": "string-indexof.html",
-            "title": "JavaScript Demo: String.indexOf()",
-            "type": "js"
-        },
-        "stringIterator": {
-            "exampleCode": "./live-examples/js-examples/string/string-iterator.js",
-            "fileName": "string-iterator.html",
-            "title": "JavaScript Demo: String.prototype[@@iterator]()",
-            "type": "js"
-        },
-        "stringLastIndexOf": {
-            "exampleCode": "./live-examples/js-examples/string/string-lastindexof.js",
-            "fileName": "string-lastindexof.html",
-            "title": "JavaScript Demo: String.lastIndexOf()",
-            "type": "js"
-        },
-        "stringLength": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/string/string-length.js",
-            "fileName": "string-length.html",
-            "title": "JavaScript Demo: String.length",
-            "type": "js"
-        },
-        "stringLocaleCompare": {
-            "exampleCode": "./live-examples/js-examples/string/string-localecompare.js",
-            "fileName": "string-localecompare.html",
-            "title": "JavaScript Demo: String.localeCompare()",
-            "type": "js"
-        },
-        "stringMatch": {
-            "exampleCode": "./live-examples/js-examples/string/string-match.js",
-            "fileName": "string-match.html",
-            "title": "JavaScript Demo: String.match()",
-            "type": "js"
-        },
-        "stringMatchAll": {
-            "exampleCode": "./live-examples/js-examples/string/string-matchall.js",
-            "fileName": "string-matchall.html",
-            "title": "JavaScript Demo: String.matchAll()",
-            "type": "js"
-        },
-        "stringNormalize": {
-            "exampleCode": "./live-examples/js-examples/string/string-normalize.js",
-            "fileName": "string-normalize.html",
-            "title": "JavaScript Demo: String.normalize()",
-            "type": "js"
-        },
-        "stringPadEnd": {
-            "exampleCode": "./live-examples/js-examples/string/string-padend.js",
-            "fileName": "string-padend.html",
-            "title": "JavaScript Demo: String.padEnd()",
-            "type": "js"
-        },
-        "stringPadStart": {
-            "exampleCode": "./live-examples/js-examples/string/string-padstart.js",
-            "fileName": "string-padstart.html",
-            "title": "JavaScript Demo: String.padStart()",
-            "type": "js"
-        },
-        "stringRaw": {
-            "exampleCode": "./live-examples/js-examples/string/string-raw.js",
-            "fileName": "string-raw.html",
-            "title": "JavaScript Demo: String.raw()",
-            "type": "js"
-        },
-        "stringRepeat": {
-            "exampleCode": "./live-examples/js-examples/string/string-repeat.js",
-            "fileName": "string-repeat.html",
-            "title": "JavaScript Demo: String.repeat()",
-            "type": "js"
-        },
-        "stringReplace": {
-            "exampleCode": "./live-examples/js-examples/string/string-replace.js",
-            "fileName": "string-replace.html",
-            "title": "JavaScript Demo: String.replace()",
-            "type": "js"
-        },
-        "stringReplaceAll": {
-            "exampleCode": "./live-examples/js-examples/string/string-replaceall.js",
-            "fileName": "string-replaceall.html",
-            "title": "JavaScript Demo: String.replaceAll()",
-            "type": "js"
-        },
-        "stringSearch": {
-            "exampleCode": "./live-examples/js-examples/string/string-search.js",
-            "fileName": "string-search.html",
-            "title": "JavaScript Demo: String.search()",
-            "type": "js"
-        },
-        "stringSlice": {
-            "exampleCode": "./live-examples/js-examples/string/string-slice.js",
-            "fileName": "string-slice.html",
-            "title": "JavaScript Demo: String.slice()",
-            "type": "js"
-        },
-        "stringSplit": {
-            "exampleCode": "./live-examples/js-examples/string/string-split.js",
-            "fileName": "string-split.html",
-            "title": "JavaScript Demo: String.split()",
-            "type": "js"
-        },
-        "stringStartsWith": {
-            "exampleCode": "./live-examples/js-examples/string/string-startswith.js",
-            "fileName": "string-startswith.html",
-            "title": "JavaScript Demo: String.startsWith()",
-            "type": "js"
-        },
-        "stringSubstr": {
-            "exampleCode": "./live-examples/js-examples/string/string-substr.js",
-            "fileName": "string-substr.html",
-            "title": "JavaScript Demo: String.substr()",
-            "type": "js"
-        },
-        "stringSubstring": {
-            "exampleCode": "./live-examples/js-examples/string/string-substring.js",
-            "fileName": "string-substring.html",
-            "title": "JavaScript Demo: String.substring()",
-            "type": "js"
-        },
-        "stringToLocaleLowerCase": {
-            "exampleCode": "./live-examples/js-examples/string/string-tolocalelowercase.js",
-            "fileName": "string-tolocalelowercase.html",
-            "title": "JavaScript Demo: String.toLocaleLowerCase()",
-            "type": "js"
-        },
-        "stringToLocaleUpperCase": {
-            "exampleCode": "./live-examples/js-examples/string/string-tolocaleuppercase.js",
-            "fileName": "string-tolocaleuppercase.html",
-            "title": "JavaScript Demo: String.toLocaleUpperCase()",
-            "type": "js"
-        },
-        "stringToLowerCase": {
-            "exampleCode": "./live-examples/js-examples/string/string-tolowercase.js",
-            "fileName": "string-tolowercase.html",
-            "title": "JavaScript Demo: String.toLowerCase()",
-            "type": "js"
-        },
-        "stringToString": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/string/string-tostring.js",
-            "fileName": "string-tostring.html",
-            "title": "JavaScript Demo: String.toString()",
-            "type": "js"
-        },
-        "stringToUpperCase": {
-            "exampleCode": "./live-examples/js-examples/string/string-touppercase.js",
-            "fileName": "string-touppercase.html",
-            "title": "JavaScript Demo: String.toUpperCase()",
-            "type": "js"
-        },
-        "stringTrim": {
-            "exampleCode": "./live-examples/js-examples/string/string-trim.js",
-            "fileName": "string-trim.html",
-            "title": "JavaScript Demo: String.trim()",
-            "type": "js"
-        },
-        "stringTrimEnd": {
-            "exampleCode": "./live-examples/js-examples/string/string-trimend.js",
-            "fileName": "string-trimend.html",
-            "title": "JavaScript Demo: String.trimEnd()",
-            "type": "js"
-        },
-        "stringTrimStart": {
-            "exampleCode": "./live-examples/js-examples/string/string-trimstart.js",
-            "fileName": "string-trimstart.html",
-            "title": "JavaScript Demo: String.trimStart()",
-            "type": "js"
-        },
-        "stringValueOf": {
-            "baseTmpl": "tmpl/live-js-tmpl.html",
-            "exampleCode": "live-examples/js-examples/string/string-valueof.js",
-            "fileName": "string-valueof.html",
-            "title": "JavaScript Demo: String.valueOf()",
-            "type": "js"
-        }
+  "pages": {
+    "stringAt": {
+      "exampleCode": "./live-examples/js-examples/string/string-at.js",
+      "fileName": "string-at.html",
+      "title": "JavaScript Demo: String.at()",
+      "type": "js"
+    },
+    "stringCharAt": {
+      "exampleCode": "./live-examples/js-examples/string/string-charat.js",
+      "fileName": "string-charat.html",
+      "title": "JavaScript Demo: String.charAt()",
+      "type": "js"
+    },
+    "stringCharCodeAt": {
+      "exampleCode": "./live-examples/js-examples/string/string-charcodeat.js",
+      "fileName": "string-charcodeat.html",
+      "title": "JavaScript Demo: String.charCodeAt()",
+      "type": "js"
+    },
+    "stringCodePointAt": {
+      "exampleCode": "./live-examples/js-examples/string/string-codepointat.js",
+      "fileName": "string-codepointat.html",
+      "title": "JavaScript Demo: String.codePointAt()",
+      "type": "js"
+    },
+    "stringConcat": {
+      "exampleCode": "./live-examples/js-examples/string/string-concat.js",
+      "fileName": "string-concat.html",
+      "title": "JavaScript Demo: String.concat()",
+      "type": "js"
+    },
+    "stringEndsWith": {
+      "exampleCode": "./live-examples/js-examples/string/string-endswith.js",
+      "fileName": "string-endswith.html",
+      "title": "JavaScript Demo: String.endsWith()",
+      "type": "js"
+    },
+    "stringFromCharCode": {
+      "exampleCode": "./live-examples/js-examples/string/string-fromcharcode.js",
+      "fileName": "string-fromcharcode.html",
+      "title": "JavaScript Demo: String.fromCharCode()",
+      "type": "js"
+    },
+    "stringFromCodePoint": {
+      "exampleCode": "./live-examples/js-examples/string/string-fromcodepoint.js",
+      "fileName": "string-fromcodepoint.html",
+      "title": "JavaScript Demo: String.fromCodePoint()",
+      "type": "js"
+    },
+    "stringIncludes": {
+      "exampleCode": "./live-examples/js-examples/string/string-includes.js",
+      "fileName": "string-includes.html",
+      "title": "JavaScript Demo: String.includes()",
+      "type": "js"
+    },
+    "stringIndexOf": {
+      "exampleCode": "./live-examples/js-examples/string/string-indexof.js",
+      "fileName": "string-indexof.html",
+      "title": "JavaScript Demo: String.indexOf()",
+      "type": "js"
+    },
+    "stringIterator": {
+      "exampleCode": "./live-examples/js-examples/string/string-iterator.js",
+      "fileName": "string-iterator.html",
+      "title": "JavaScript Demo: String.prototype[@@iterator]()",
+      "type": "js"
+    },
+    "stringLastIndexOf": {
+      "exampleCode": "./live-examples/js-examples/string/string-lastindexof.js",
+      "fileName": "string-lastindexof.html",
+      "title": "JavaScript Demo: String.lastIndexOf()",
+      "type": "js"
+    },
+    "stringLength": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/string/string-length.js",
+      "fileName": "string-length.html",
+      "title": "JavaScript Demo: String.length",
+      "type": "js"
+    },
+    "stringLocaleCompare": {
+      "exampleCode": "./live-examples/js-examples/string/string-localecompare.js",
+      "fileName": "string-localecompare.html",
+      "title": "JavaScript Demo: String.localeCompare()",
+      "type": "js"
+    },
+    "stringMatch": {
+      "exampleCode": "./live-examples/js-examples/string/string-match.js",
+      "fileName": "string-match.html",
+      "title": "JavaScript Demo: String.match()",
+      "type": "js"
+    },
+    "stringMatchAll": {
+      "exampleCode": "./live-examples/js-examples/string/string-matchall.js",
+      "fileName": "string-matchall.html",
+      "title": "JavaScript Demo: String.matchAll()",
+      "type": "js"
+    },
+    "stringNormalize": {
+      "exampleCode": "./live-examples/js-examples/string/string-normalize.js",
+      "fileName": "string-normalize.html",
+      "title": "JavaScript Demo: String.normalize()",
+      "type": "js"
+    },
+    "stringPadEnd": {
+      "exampleCode": "./live-examples/js-examples/string/string-padend.js",
+      "fileName": "string-padend.html",
+      "title": "JavaScript Demo: String.padEnd()",
+      "type": "js"
+    },
+    "stringPadStart": {
+      "exampleCode": "./live-examples/js-examples/string/string-padstart.js",
+      "fileName": "string-padstart.html",
+      "title": "JavaScript Demo: String.padStart()",
+      "type": "js"
+    },
+    "stringRaw": {
+      "exampleCode": "./live-examples/js-examples/string/string-raw.js",
+      "fileName": "string-raw.html",
+      "title": "JavaScript Demo: String.raw()",
+      "type": "js"
+    },
+    "stringRepeat": {
+      "exampleCode": "./live-examples/js-examples/string/string-repeat.js",
+      "fileName": "string-repeat.html",
+      "title": "JavaScript Demo: String.repeat()",
+      "type": "js"
+    },
+    "stringReplace": {
+      "exampleCode": "./live-examples/js-examples/string/string-replace.js",
+      "fileName": "string-replace.html",
+      "title": "JavaScript Demo: String.replace()",
+      "type": "js"
+    },
+    "stringReplaceAll": {
+      "exampleCode": "./live-examples/js-examples/string/string-replaceall.js",
+      "fileName": "string-replaceall.html",
+      "title": "JavaScript Demo: String.replaceAll()",
+      "type": "js"
+    },
+    "stringSearch": {
+      "exampleCode": "./live-examples/js-examples/string/string-search.js",
+      "fileName": "string-search.html",
+      "title": "JavaScript Demo: String.search()",
+      "type": "js"
+    },
+    "stringSlice": {
+      "exampleCode": "./live-examples/js-examples/string/string-slice.js",
+      "fileName": "string-slice.html",
+      "title": "JavaScript Demo: String.slice()",
+      "type": "js"
+    },
+    "stringSplit": {
+      "exampleCode": "./live-examples/js-examples/string/string-split.js",
+      "fileName": "string-split.html",
+      "title": "JavaScript Demo: String.split()",
+      "type": "js"
+    },
+    "stringStartsWith": {
+      "exampleCode": "./live-examples/js-examples/string/string-startswith.js",
+      "fileName": "string-startswith.html",
+      "title": "JavaScript Demo: String.startsWith()",
+      "type": "js"
+    },
+    "stringSubstr": {
+      "exampleCode": "./live-examples/js-examples/string/string-substr.js",
+      "fileName": "string-substr.html",
+      "title": "JavaScript Demo: String.substr()",
+      "type": "js"
+    },
+    "stringSubstring": {
+      "exampleCode": "./live-examples/js-examples/string/string-substring.js",
+      "fileName": "string-substring.html",
+      "title": "JavaScript Demo: String.substring()",
+      "type": "js"
+    },
+    "stringToLocaleLowerCase": {
+      "exampleCode": "./live-examples/js-examples/string/string-tolocalelowercase.js",
+      "fileName": "string-tolocalelowercase.html",
+      "title": "JavaScript Demo: String.toLocaleLowerCase()",
+      "type": "js"
+    },
+    "stringToLocaleUpperCase": {
+      "exampleCode": "./live-examples/js-examples/string/string-tolocaleuppercase.js",
+      "fileName": "string-tolocaleuppercase.html",
+      "title": "JavaScript Demo: String.toLocaleUpperCase()",
+      "type": "js"
+    },
+    "stringToLowerCase": {
+      "exampleCode": "./live-examples/js-examples/string/string-tolowercase.js",
+      "fileName": "string-tolowercase.html",
+      "title": "JavaScript Demo: String.toLowerCase()",
+      "type": "js"
+    },
+    "stringToString": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/string/string-tostring.js",
+      "fileName": "string-tostring.html",
+      "title": "JavaScript Demo: String.toString()",
+      "type": "js"
+    },
+    "stringToUpperCase": {
+      "exampleCode": "./live-examples/js-examples/string/string-touppercase.js",
+      "fileName": "string-touppercase.html",
+      "title": "JavaScript Demo: String.toUpperCase()",
+      "type": "js"
+    },
+    "stringTrim": {
+      "exampleCode": "./live-examples/js-examples/string/string-trim.js",
+      "fileName": "string-trim.html",
+      "title": "JavaScript Demo: String.trim()",
+      "type": "js"
+    },
+    "stringTrimEnd": {
+      "exampleCode": "./live-examples/js-examples/string/string-trimend.js",
+      "fileName": "string-trimend.html",
+      "title": "JavaScript Demo: String.trimEnd()",
+      "type": "js"
+    },
+    "stringTrimStart": {
+      "exampleCode": "./live-examples/js-examples/string/string-trimstart.js",
+      "fileName": "string-trimstart.html",
+      "title": "JavaScript Demo: String.trimStart()",
+      "type": "js"
+    },
+    "stringValueOf": {
+      "baseTmpl": "tmpl/live-js-tmpl.html",
+      "exampleCode": "live-examples/js-examples/string/string-valueof.js",
+      "fileName": "string-valueof.html",
+      "title": "JavaScript Demo: String.valueOf()",
+      "type": "js"
     }
+  }
 }

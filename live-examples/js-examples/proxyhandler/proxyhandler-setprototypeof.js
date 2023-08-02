@@ -2,12 +2,12 @@ const handler1 = {
   setPrototypeOf(monster1, monsterProto) {
     monster1.geneticallyModified = true;
     return false;
-  }
+  },
 };
 
 const monsterProto = {};
 const monster1 = {
-  geneticallyModified: false
+  geneticallyModified: false,
 };
 
 const proxy1 = new Proxy(monster1, handler1);

@@ -1,9 +1,9 @@
 const startDate = new Date(Date.UTC(2007, 0, 10, 10, 0, 0)); // > 'Wed, 10 Jan 2007 10:00:00 GMT'
-const endDate = new Date(Date.UTC(2007, 0, 10, 11, 0, 0));   // > 'Wed, 10 Jan 2007 11:00:00 GMT'
+const endDate = new Date(Date.UTC(2007, 0, 10, 11, 0, 0)); // > 'Wed, 10 Jan 2007 11:00:00 GMT'
 
 const dateTimeFormat = new Intl.DateTimeFormat('en', {
   hour: 'numeric',
-  minute: 'numeric'
+  minute: 'numeric',
 });
 
 const parts = dateTimeFormat.formatRangeToParts(startDate, endDate);

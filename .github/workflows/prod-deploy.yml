@@ -48,7 +48,7 @@ jobs:
         uses: google-github-actions/auth@v1
         with:
           token_format: access_token
-          service_account:  deploy-prod-interactive-exampl@${{ secrets.GCP_PROJECT_NAME }}.iam.gserviceaccount.com
+          service_account: deploy-prod-interactive-exampl@${{ secrets.GCP_PROJECT_NAME }}.iam.gserviceaccount.com
           workload_identity_provider: projects/${{ secrets.WIP_PROJECT_ID }}/locations/global/workloadIdentityPools/github-actions/providers/github-actions
 
       - name: Setup gcloud

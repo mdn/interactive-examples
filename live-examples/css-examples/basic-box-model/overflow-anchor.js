@@ -5,14 +5,17 @@ window.addEventListener('load', () => {
 
   function setInitialState() {
     example.innerHTML = '';
-    Array.from(({ length: 10 }), (_, i) => i).forEach(addContent);
+    Array.from({ length: 10 }, (_, i) => i).forEach(addContent);
     example.scrollTop = example.scrollHeight;
   }
 
   function addContent() {
-    console.log('adding content')
+    console.log('adding content');
     const magicNumber = Math.floor(Math.random() * 10000);
-    example.insertAdjacentHTML('afterbegin', `<div class="new-content-container">New Magic Number: ${magicNumber}</div>`);
+    example.insertAdjacentHTML(
+      'afterbegin',
+      `<div class="new-content-container">New Magic Number: ${magicNumber}</div>`,
+    );
   }
 
   button.addEventListener('click', () => {
