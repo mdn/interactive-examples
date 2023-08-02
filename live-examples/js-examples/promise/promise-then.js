@@ -4,6 +4,5 @@ const promise1 = new Promise((resolve, reject) => {
 
 promise1.then((value) => {
   console.log(value);
-  // expected output: "Success!"
+  // Expected output: "Success!"
 });
-

@@ -3,7 +3,7 @@ function multiply(a, b = 1) {
 }
 
 console.log(multiply(5, 2));
-// expected output: 10
+// Expected output: 10
 
 console.log(multiply(5));
-// expected output: 5
+// Expected output: 5

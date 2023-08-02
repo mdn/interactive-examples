@@ -1,6 +1,6 @@
-const getRectArea = function(width, height) {
+const getRectArea = function (width, height) {
   return width * height;
 };
 
 console.log(getRectArea(3, 4));
-// expected output: 12
+// Expected output: 12

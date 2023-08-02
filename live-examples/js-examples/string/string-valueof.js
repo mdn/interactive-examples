@@ -1,7 +1,7 @@
 const stringObj = new String('foo');
 
 console.log(stringObj);
-// expected output: String { "foo" }
+// Expected output: String { "foo" }
 
 console.log(stringObj.valueOf());
-// expected output: "foo"
+// Expected output: "foo"

@@ -1,0 +1,16 @@
+abbr {
+  color: chocolate;
+}
+
+@media (hover: hover) {
+  abbr:hover {
+    color: limegreen;
+    transition-duration: 1s;
+  }
+}
+
+@media not all and (hover: hover) {
+  abbr::after {
+    content: ' (' attr(title) ')';
+  }
+}

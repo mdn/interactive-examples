@@ -9,4 +9,4 @@ class RegExp1 extends RegExp {
 }
 
 console.log('table football'.search(new RegExp1('foo')));
-// expected output: 6
+// Expected output: 6

@@ -1,29 +1,26 @@
-.output {
-    font: 1rem 'Fira Sans', sans-serif;
-}
-
 blockquote {
-    background: #eee;
-    border-radius: 5px;
-    margin: 16px 0;
+  background: #eee;
+  border-radius: 5px;
+  margin: 16px 0;
 }
 
 blockquote p {
-    padding: 15px;
+  padding: 15px;
 }
 
 cite {
-    margin: 16px 32px;
+  margin: 16px 32px;
+  font-weight: bold;
 }
 
 blockquote p::before {
-    content: '\201C';
+  content: '\201C';
 }
 
 blockquote p::after {
-    content: '\201D';
+  content: '\201D';
 }
 
 [contenteditable='true'] {
-    caret-color: red;
+  caret-color: red;
 }

@@ -1,0 +1,8 @@
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+input:out-of-range {
+  background-color: orangered;
+}

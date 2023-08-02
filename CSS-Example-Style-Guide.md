@@ -4,9 +4,9 @@ A style guide for people contributing interactive CSS examples. To learn the mec
 
 CSS examples consist of:
 
--   an DOM element whose ID is `"example-element"`
+- an DOM element whose ID is `"example-element"`
 
--   a set of _choices_, where each choice is one or more [CSS `property: value;` declarations](). One of these choices is selected initially, and the user can select a different choice. When a choice is selected, all the CSS declarations it contains will be applied to "example-element".
+- a set of _choices_, where each choice is one or more [CSS `property: value;` declarations](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax#css_declarations). One of these choices is selected initially, and the user can select a different choice. When a choice is selected, all the CSS declarations it contains will be applied to "example-element".
 
 You can also supply additional DOM elements, where that makes sense. For example, the [`position`](https://interactive-examples.mdn.mozilla.net/pages/css/position.html) example has one box which is the "example-element", but also includes extra boxes to show how setting the `position` property for an element interacts with the other elements in a layout.
 
@@ -16,10 +16,10 @@ You can also provide extra CSS both for the example element and any additional e
 
 The most basic form of the CSS choices is a group of one-line CSS style declarations, where each line illustrates a different form of the property. For example:
 
--   [`transform`](https://interactive-examples.mdn.mozilla.net/pages/css/transform.html)
--   [`filter`](https://interactive-examples.mdn.mozilla.net/pages/css/filter.html)
--   [`font`](https://interactive-examples.mdn.mozilla.net/pages/css/font.html)
--   [`text-overflow`](https://interactive-examples.mdn.mozilla.net/pages/css/text-overflow.html)
+- [`transform`](https://interactive-examples.mdn.mozilla.net/pages/css/transform.html)
+- [`filter`](https://interactive-examples.mdn.mozilla.net/pages/css/filter.html)
+- [`font`](https://interactive-examples.mdn.mozilla.net/pages/css/font.html)
+- [`text-overflow`](https://interactive-examples.mdn.mozilla.net/pages/css/text-overflow.html)
 
 This is the recommended style for most examples.
 
@@ -55,27 +55,27 @@ Since vertical space is at a premium, avoid comments unless they are really need
 
 By default, the first choice will be selected. You can override this by adding `initial-choice="true"` to the `example-choice` DIV:
 
-    <div class="example-choice" initial-choice="true">
-        ...
-    </div>
+```html
+<div class="example-choice" initial-choice="true">...</div>
+```
 
-## Colour
+## Color
 
-The CSS interactive examples are visual in nature. Because of this, you will often need to make use of shapes, borders, lines etc. as part of your example. To maintain consistency with the [MDN Web Docs](https://developer.mozilla.org) branding, please always refer to the [colour style guide](https://schalkneethling.github.io/mdn-fiori/patterns/scss/variables/) when choosing colours.
+The CSS interactive examples are visual in nature. Because of this, you will often need to make use of shapes, borders, lines etc. as part of your example. To maintain consistency with the [MDN Web Docs](https://developer.mozilla.org) branding, please always refer to the [color style guide](https://schalkneethling.github.io/mdn-fiori/patterns/scss/variables/) when choosing colors.
 
-We do acknowledge that this specific set of colours might not always work for your intended purpose. The above is therefore a guide, and is not meant to be hard and fast rules. Should you find that these colours cause legibility, and/or contrast problems, feel free to use a suitable substitute and make note of it in your pull request.
+We do acknowledge that this specific set of colors might not always work for your intended purpose. The above is therefore a guide, and is not meant to be hard and fast rules. Should you find that these colors cause legibility, and/or contrast problems, feel free to use a suitable substitute and make note of it in your pull request.
 
 ## Specifying images
 
 Sometimes you'll want to include images with the example. If you do:
 
--   make sure their license allows you to use them. It's difficult for us to satisfy an attribution requirement with the editor, so try to use images that have a very permissive license such as [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
--   run them through https://tinypng.com or https://imageoptim.com, to reduce the page weight of the examples.
--   For `SVG`, run the code through (SVGOMG)[https://jakearchibald.github.io/svgomg/], and ensure that the `SVG` file has an empty line at the end of the file
+- make sure their license allows you to use them. It's difficult for us to satisfy an attribution requirement with the editor, so try to use images that have a very permissive license such as [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
+- run them through <https://tinypng.com> or <https://imageoptim.com>, to reduce the page weight of the examples.
+- For `SVG`, run the code through [SVGOMG](https://jakearchibald.github.io/svgomg/), and ensure that the `SVG` file has an empty line at the end of the file
 
 ## Output width considerations
 
-On MDN pages the editor is laid out "side by side": that is with the example choices on the left and the output on the right, as it is in the local server that's started by `yarn start`. Then if the page width goes below some threshold it switches to "top and bottom", with the example choices above and the output below.
+On MDN pages the editor is laid out "side by side": that is with the example choices on the left and the output on the right, as it is in the local server that's started by `npm start`. Then if the page width goes below some threshold it switches to "top and bottom", with the example choices above and the output below.
 
 This means that ideally, the example should still work with an editor width of about 740 pixels:
 
@@ -86,3 +86,15 @@ This can be a difficult constraint to satisfy, but you should test at this width
 ## CSS syntax
 
 The interactive-examples project follows the same guidelines with regards to CSS code style as other projects that form part of the MDN Web Docs project. To ease review time for everyone, and ensure good coding practice, please review the guidelines on [terminology](https://schalkneethling.github.io/mdn-fiori/patterns/css/terminology/) and [formatting](https://schalkneethling.github.io/mdn-fiori/patterns/css/formatting/) when writing CSS.
+
+You can validate your example anytime by running the following npm script:
+
+```sh
+npm run lint:css
+```
+
+We've also provided the following command:
+
+```sh
+npm run fix:css
+```

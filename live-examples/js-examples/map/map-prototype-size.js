@@ -5,4 +5,4 @@ map1.set('b', 'beta');
 map1.set('g', 'gamma');
 
 console.log(map1.size);
-// expected output: 3
+// Expected output: 3

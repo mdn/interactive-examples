@@ -1,333 +1,333 @@
 {
-    "pages": {
-        "background": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background.html",
-            "fileName": "background.html",
-            "title": "CSS Demo: background",
-            "type": "css"
-        },
-        "backgroundAttachment": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-attachment.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-attachment.html",
-            "fileName": "background-attachment.html",
-            "title": "CSS Demo: background-attachment",
-            "type": "css"
-        },
-        "backgroundClip": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-clip.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-clip.html",
-            "fileName": "background-clip.html",
-            "title": "CSS Demo: background-clip",
-            "type": "css"
-        },
-        "backgroundColor": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-color.html",
-            "fileName": "background-color.html",
-            "title": "CSS Demo: background-color",
-            "type": "css"
-        },
-        "backgroundImage": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-image.html",
-            "fileName": "background-image.html",
-            "title": "CSS Demo: background-image",
-            "type": "css"
-        },
-        "backgroundOrigin": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-clip.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-origin.html",
-            "fileName": "background-origin.html",
-            "title": "CSS Demo: background-origin",
-            "type": "css"
-        },
-        "backgroundPosition": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-position.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-position.html",
-            "fileName": "background-position.html",
-            "title": "CSS Demo: background-position",
-            "type": "css"
-        },
-        "backgroundPositionX": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-position.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-position-y.html",
-            "fileName": "background-position-y.html",
-            "title": "CSS Demo: background-position-y",
-            "type": "css"
-        },
-        "backgroundPositionY": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-position.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-position-x.html",
-            "fileName": "background-position-x.html",
-            "title": "CSS Demo: background-position-x",
-            "type": "css"
-        },
-        "backgroundRepeat": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-repeat.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-repeat.html",
-            "fileName": "background-repeat.html",
-            "title": "CSS Demo: background-repeat",
-            "type": "css"
-        },
-        "backgroundSize": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-size.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-size.html",
-            "fileName": "background-size.html",
-            "title": "CSS Demo: background-size",
-            "type": "css"
-        },
-        "border": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border.html",
-            "fileName": "border.html",
-            "title": "CSS Demo: border",
-            "type": "css"
-        },
-        "borderBottom": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-bottom.html",
-            "fileName": "border-bottom.html",
-            "title": "CSS Demo: border-bottom",
-            "type": "css"
-        },
-        "borderBottomColor": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-color.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-bottom-color.html",
-            "fileName": "border-bottom-color.html",
-            "title": "CSS Demo: border-bottom-color",
-            "type": "css"
-        },
-        "borderBottomStyle": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-style.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-bottom-style.html",
-            "fileName": "border-bottom-style.html",
-            "title": "CSS Demo: border-bottom-style",
-            "type": "css"
-        },
-        "borderBottomWidth": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-width.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-bottom-width.html",
-            "fileName": "border-bottom-width.html",
-            "title": "CSS Demo: border-bottom-width",
-            "type": "css"
-        },
-        "borderColor": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-color.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-color.html",
-            "fileName": "border-color.html",
-            "title": "CSS Demo: border-color",
-            "type": "css"
-        },
-        "borderImage": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-image.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-image.html",
-            "fileName": "border-image.html",
-            "title": "CSS Demo: border-image",
-            "type": "css"
-        },
-        "borderImageOutset": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-image.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-image-outset.html",
-            "fileName": "border-image-outset.html",
-            "title": "CSS Demo: border-image-outset",
-            "type": "css"
-        },
-        "borderImageRepeat": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-image.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-image-repeat.html",
-            "fileName": "border-image-repeat.html",
-            "title": "CSS Demo: border-image-repeat",
-            "type": "css"
-        },
-        "borderImageSlice": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-image.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-image-slice.html",
-            "fileName": "border-image-slice.html",
-            "title": "CSS Demo: border-image-slice",
-            "type": "css"
-        },
-        "borderImageSource": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-image.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-image-source.html",
-            "fileName": "border-image-source.html",
-            "title": "CSS Demo: border-image-source",
-            "type": "css"
-        },
-        "borderImageWidth": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-image.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-image-width.html",
-            "fileName": "border-image-width.html",
-            "title": "CSS Demo: border-image-width",
-            "type": "css"
-        },
-        "borderLeft": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-left.html",
-            "fileName": "border-left.html",
-            "title": "CSS Demo: border-left",
-            "type": "css"
-        },
-        "borderLeftColor": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-color.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-left-color.html",
-            "fileName": "border-left-color.html",
-            "title": "CSS Demo: border-left-color",
-            "type": "css"
-        },
-        "borderLeftStyle": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-style.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-left-style.html",
-            "fileName": "border-left-style.html",
-            "title": "CSS Demo: border-left-style",
-            "type": "css"
-        },
-        "borderLeftWidth": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-width.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-left-width.html",
-            "fileName": "border-left-width.html",
-            "title": "CSS Demo: border-left-width",
-            "type": "css"
-        },
-        "borderBottomLeftRadius": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-bottom-left-radius.html",
-            "fileName": "border-bottom-left-radius.html",
-            "title": "CSS Demo: border-bottom-left-radius",
-            "type": "css"
-        },
-        "borderBottomRightRadius": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-bottom-right-radius.html",
-            "fileName": "border-bottom-right-radius.html",
-            "title": "CSS Demo: border-bottom-right-radius",
-            "type": "css"
-        },
-        "borderTopLeftRadius": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-top-left-radius.html",
-            "fileName": "border-top-left-radius.html",
-            "title": "CSS Demo: border-top-left-radius",
-            "type": "css"
-        },
-        "borderTopRightRadius": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-top-right-radius.html",
-            "fileName": "border-top-right-radius.html",
-            "title": "CSS Demo: border-top-right-radius",
-            "type": "css"
-        },
-        "borderEndEndRadius": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-end-end-radius.html",
-            "fileName": "border-end-end-radius.html",
-            "title": "CSS Demo: border-end-end-radius",
-            "type": "css"
-        },
-        "borderEndStartRadius": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-end-start-radius.html",
-            "fileName": "border-end-start-radius.html",
-            "title": "CSS Demo: border-end-start-radius",
-            "type": "css"
-        },
-        "borderStartEndRadius": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-start-end-radius.html",
-            "fileName": "border-start-end-radius.html",
-            "title": "CSS Demo: border-start-end-radius",
-            "type": "css"
-        },
-        "borderStartStartRadius": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-start-start-radius.html",
-            "fileName": "border-start-start-radius.html",
-            "title": "CSS Demo: border-start-start-radius",
-            "type": "css"
-        },
-        "borderRadius": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-radius.html",
-            "fileName": "border-radius.html",
-            "title": "CSS Demo: border-radius",
-            "type": "css"
-        },
-        "borderRight": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-right.html",
-            "fileName": "border-right.html",
-            "title": "CSS Demo: border-right",
-            "type": "css"
-        },
-        "borderRightColor": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-color.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-right-color.html",
-            "fileName": "border-right-color.html",
-            "title": "CSS Demo: border-right-color",
-            "type": "css"
-        },
-        "borderRightStyle": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-style.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-right-style.html",
-            "fileName": "border-right-style.html",
-            "title": "CSS Demo: border-right-style",
-            "type": "css"
-        },
-        "borderRightWidth": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-width.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-right-width.html",
-            "fileName": "border-right-width.html",
-            "title": "CSS Demo: border-right-width",
-            "type": "css"
-        },
-        "borderStyle": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-style.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-style.html",
-            "fileName": "border-style.html",
-            "title": "CSS Demo: border-style",
-            "type": "css"
-        },
-        "borderTop": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-top.html",
-            "fileName": "border-top.html",
-            "title": "CSS Demo: border-top",
-            "type": "css"
-        },
-        "borderTopColor": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-color.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-top-color.html",
-            "fileName": "border-top-color.html",
-            "title": "CSS Demo: border-top-color",
-            "type": "css"
-        },
-        "borderTopStyle": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-style.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-top-style.html",
-            "fileName": "border-top-style.html",
-            "title": "CSS Demo: border-top-style",
-            "type": "css"
-        },
-        "borderTopWidth": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-width.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-top-width.html",
-            "fileName": "border-top-width.html",
-            "title": "CSS Demo: border-top-width",
-            "type": "css"
-        },
-        "borderWidth": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-width.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-width.html",
-            "fileName": "border-width.html",
-            "title": "CSS Demo: border-width",
-            "type": "css"
-        },
-        "boxShadow": {
-            "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/box-shadow.css",
-            "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/box-shadow.html",
-            "fileName": "box-shadow.html",
-            "title": "CSS Demo: box-shadow",
-            "type": "css"
-        }
+  "pages": {
+    "background": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background.html",
+      "fileName": "background.html",
+      "title": "CSS Demo: background",
+      "type": "css"
+    },
+    "backgroundAttachment": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-attachment.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-attachment.html",
+      "fileName": "background-attachment.html",
+      "title": "CSS Demo: background-attachment",
+      "type": "css"
+    },
+    "backgroundClip": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-clip.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-clip.html",
+      "fileName": "background-clip.html",
+      "title": "CSS Demo: background-clip",
+      "type": "css"
+    },
+    "backgroundColor": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-color.html",
+      "fileName": "background-color.html",
+      "title": "CSS Demo: background-color",
+      "type": "css"
+    },
+    "backgroundImage": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-image.html",
+      "fileName": "background-image.html",
+      "title": "CSS Demo: background-image",
+      "type": "css"
+    },
+    "backgroundOrigin": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-clip.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-origin.html",
+      "fileName": "background-origin.html",
+      "title": "CSS Demo: background-origin",
+      "type": "css"
+    },
+    "backgroundPosition": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-position.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-position.html",
+      "fileName": "background-position.html",
+      "title": "CSS Demo: background-position",
+      "type": "css"
+    },
+    "backgroundPositionX": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-position.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-position-y.html",
+      "fileName": "background-position-y.html",
+      "title": "CSS Demo: background-position-y",
+      "type": "css"
+    },
+    "backgroundPositionY": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-position.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-position-x.html",
+      "fileName": "background-position-x.html",
+      "title": "CSS Demo: background-position-x",
+      "type": "css"
+    },
+    "backgroundRepeat": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-repeat.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-repeat.html",
+      "fileName": "background-repeat.html",
+      "title": "CSS Demo: background-repeat",
+      "type": "css"
+    },
+    "backgroundSize": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/background-size.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/background-size.html",
+      "fileName": "background-size.html",
+      "title": "CSS Demo: background-size",
+      "type": "css"
+    },
+    "border": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border.html",
+      "fileName": "border.html",
+      "title": "CSS Demo: border",
+      "type": "css"
+    },
+    "borderBottom": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-bottom.html",
+      "fileName": "border-bottom.html",
+      "title": "CSS Demo: border-bottom",
+      "type": "css"
+    },
+    "borderBottomColor": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-color.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-bottom-color.html",
+      "fileName": "border-bottom-color.html",
+      "title": "CSS Demo: border-bottom-color",
+      "type": "css"
+    },
+    "borderBottomStyle": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-style.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-bottom-style.html",
+      "fileName": "border-bottom-style.html",
+      "title": "CSS Demo: border-bottom-style",
+      "type": "css"
+    },
+    "borderBottomWidth": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-width.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-bottom-width.html",
+      "fileName": "border-bottom-width.html",
+      "title": "CSS Demo: border-bottom-width",
+      "type": "css"
+    },
+    "borderColor": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-color.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-color.html",
+      "fileName": "border-color.html",
+      "title": "CSS Demo: border-color",
+      "type": "css"
+    },
+    "borderImage": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-image.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-image.html",
+      "fileName": "border-image.html",
+      "title": "CSS Demo: border-image",
+      "type": "css"
+    },
+    "borderImageOutset": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-image.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-image-outset.html",
+      "fileName": "border-image-outset.html",
+      "title": "CSS Demo: border-image-outset",
+      "type": "css"
+    },
+    "borderImageRepeat": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-image.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-image-repeat.html",
+      "fileName": "border-image-repeat.html",
+      "title": "CSS Demo: border-image-repeat",
+      "type": "css"
+    },
+    "borderImageSlice": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-image.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-image-slice.html",
+      "fileName": "border-image-slice.html",
+      "title": "CSS Demo: border-image-slice",
+      "type": "css"
+    },
+    "borderImageSource": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-image.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-image-source.html",
+      "fileName": "border-image-source.html",
+      "title": "CSS Demo: border-image-source",
+      "type": "css"
+    },
+    "borderImageWidth": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-image.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-image-width.html",
+      "fileName": "border-image-width.html",
+      "title": "CSS Demo: border-image-width",
+      "type": "css"
+    },
+    "borderLeft": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-left.html",
+      "fileName": "border-left.html",
+      "title": "CSS Demo: border-left",
+      "type": "css"
+    },
+    "borderLeftColor": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-color.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-left-color.html",
+      "fileName": "border-left-color.html",
+      "title": "CSS Demo: border-left-color",
+      "type": "css"
+    },
+    "borderLeftStyle": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-style.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-left-style.html",
+      "fileName": "border-left-style.html",
+      "title": "CSS Demo: border-left-style",
+      "type": "css"
+    },
+    "borderLeftWidth": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-width.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-left-width.html",
+      "fileName": "border-left-width.html",
+      "title": "CSS Demo: border-left-width",
+      "type": "css"
+    },
+    "borderBottomLeftRadius": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-bottom-left-radius.html",
+      "fileName": "border-bottom-left-radius.html",
+      "title": "CSS Demo: border-bottom-left-radius",
+      "type": "css"
+    },
+    "borderBottomRightRadius": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-bottom-right-radius.html",
+      "fileName": "border-bottom-right-radius.html",
+      "title": "CSS Demo: border-bottom-right-radius",
+      "type": "css"
+    },
+    "borderTopLeftRadius": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-top-left-radius.html",
+      "fileName": "border-top-left-radius.html",
+      "title": "CSS Demo: border-top-left-radius",
+      "type": "css"
+    },
+    "borderTopRightRadius": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-top-right-radius.html",
+      "fileName": "border-top-right-radius.html",
+      "title": "CSS Demo: border-top-right-radius",
+      "type": "css"
+    },
+    "borderEndEndRadius": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-end-end-radius.html",
+      "fileName": "border-end-end-radius.html",
+      "title": "CSS Demo: border-end-end-radius",
+      "type": "css"
+    },
+    "borderEndStartRadius": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-end-start-radius.html",
+      "fileName": "border-end-start-radius.html",
+      "title": "CSS Demo: border-end-start-radius",
+      "type": "css"
+    },
+    "borderStartEndRadius": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-start-end-radius.html",
+      "fileName": "border-start-end-radius.html",
+      "title": "CSS Demo: border-start-end-radius",
+      "type": "css"
+    },
+    "borderStartStartRadius": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-start-start-radius.html",
+      "fileName": "border-start-start-radius.html",
+      "title": "CSS Demo: border-start-start-radius",
+      "type": "css"
+    },
+    "borderRadius": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-radius.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-radius.html",
+      "fileName": "border-radius.html",
+      "title": "CSS Demo: border-radius",
+      "type": "css"
+    },
+    "borderRight": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-right.html",
+      "fileName": "border-right.html",
+      "title": "CSS Demo: border-right",
+      "type": "css"
+    },
+    "borderRightColor": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-color.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-right-color.html",
+      "fileName": "border-right-color.html",
+      "title": "CSS Demo: border-right-color",
+      "type": "css"
+    },
+    "borderRightStyle": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-style.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-right-style.html",
+      "fileName": "border-right-style.html",
+      "title": "CSS Demo: border-right-style",
+      "type": "css"
+    },
+    "borderRightWidth": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-width.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-right-width.html",
+      "fileName": "border-right-width.html",
+      "title": "CSS Demo: border-right-width",
+      "type": "css"
+    },
+    "borderStyle": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-style.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-style.html",
+      "fileName": "border-style.html",
+      "title": "CSS Demo: border-style",
+      "type": "css"
+    },
+    "borderTop": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-top.html",
+      "fileName": "border-top.html",
+      "title": "CSS Demo: border-top",
+      "type": "css"
+    },
+    "borderTopColor": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-color.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-top-color.html",
+      "fileName": "border-top-color.html",
+      "title": "CSS Demo: border-top-color",
+      "type": "css"
+    },
+    "borderTopStyle": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-style.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-top-style.html",
+      "fileName": "border-top-style.html",
+      "title": "CSS Demo: border-top-style",
+      "type": "css"
+    },
+    "borderTopWidth": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-width.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-top-width.html",
+      "fileName": "border-top-width.html",
+      "title": "CSS Demo: border-top-width",
+      "type": "css"
+    },
+    "borderWidth": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/border-width.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/border-width.html",
+      "fileName": "border-width.html",
+      "title": "CSS Demo: border-width",
+      "type": "css"
+    },
+    "boxShadow": {
+      "cssExampleSrc": "./live-examples/css-examples/backgrounds-and-borders/box-shadow.css",
+      "exampleCode": "./live-examples/css-examples/backgrounds-and-borders/box-shadow.html",
+      "fileName": "box-shadow.html",
+      "title": "CSS Demo: box-shadow",
+      "type": "css"
     }
+  }
 }

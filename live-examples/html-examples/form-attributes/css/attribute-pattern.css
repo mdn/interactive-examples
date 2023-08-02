@@ -1,0 +1,12 @@
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+input:valid {
+  background-color: palegreen;
+}
+
+input:invalid {
+  background-color: lightpink;
+}

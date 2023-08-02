@@ -1,0 +1,117 @@
+{
+  "pages": {
+    "accept": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-accept.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-accept.css",
+      "fileName": "attribute-accept.html",
+      "title": "HTML Demo: accept",
+      "type": "tabbed",
+      "height": "tabbed-shorter"
+    },
+    "autocomplete": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-autocomplete.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-autocomplete.css",
+      "fileName": "attribute-autocomplete.html",
+      "title": "HTML Demo: autocomplete",
+      "type": "tabbed",
+      "height": "tabbed-shorter"
+    },
+    "capture": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-capture.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-capture.css",
+      "fileName": "attribute-capture.html",
+      "title": "HTML Demo: capture",
+      "type": "tabbed",
+      "height": "tabbed-standard"
+    },
+    "disabled": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-disabled.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-disabled.css",
+      "fileName": "attribute-disabled.html",
+      "title": "HTML Demo: disabled",
+      "type": "tabbed",
+      "height": "tabbed-standard"
+    },
+    "max": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-max.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-max.css",
+      "jsExampleSrc": "./live-examples/html-examples/form-attributes/js/attribute-max.js",
+      "fileName": "attribute-max.html",
+      "title": "HTML Demo: max",
+      "type": "tabbed",
+      "defaultTab": "html",
+      "tabs": "html,css,js",
+      "height": "tabbed-shorter"
+    },
+    "maxlength": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-maxlength.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-maxlength.css",
+      "fileName": "attribute-maxlength.html",
+      "title": "HTML Demo: maxlength",
+      "type": "tabbed",
+      "height": "tabbed-shorter"
+    },
+    "min": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-min.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-min.css",
+      "jsExampleSrc": "./live-examples/html-examples/form-attributes/js/attribute-min.js",
+      "fileName": "attribute-min.html",
+      "title": "HTML Demo: min",
+      "type": "tabbed",
+      "defaultTab": "html",
+      "tabs": "html,css,js",
+      "height": "tabbed-shorter"
+    },
+    "minlength": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-minlength.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-minlength.css",
+      "fileName": "attribute-minlength.html",
+      "title": "HTML Demo: minlength",
+      "type": "tabbed",
+      "height": "tabbed-shorter"
+    },
+    "multiple": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-multiple.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-multiple.css",
+      "fileName": "attribute-multiple.html",
+      "title": "HTML Demo: multiple",
+      "type": "tabbed",
+      "height": "tabbed-standard"
+    },
+    "pattern": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-pattern.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-pattern.css",
+      "fileName": "attribute-pattern.html",
+      "title": "HTML Demo: pattern",
+      "type": "tabbed",
+      "height": "tabbed-shorter"
+    },
+    "readonly": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-readonly.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-readonly.css",
+      "fileName": "attribute-readonly.html",
+      "title": "HTML Demo: readonly",
+      "type": "tabbed",
+      "height": "tabbed-shorter"
+    },
+    "size": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-size.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-size.css",
+      "fileName": "attribute-size.html",
+      "title": "HTML Demo: size",
+      "type": "tabbed",
+      "height": "tabbed-standard"
+    },
+    "step": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-step.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-step.css",
+      "jsExampleSrc": "./live-examples/html-examples/form-attributes/js/attribute-step.js",
+      "fileName": "attribute-step.html",
+      "title": "HTML Demo: step",
+      "type": "tabbed",
+      "defaultTab": "html",
+      "tabs": "html,css,js",
+      "height": "tabbed-shorter"
+    }
+  }
+}

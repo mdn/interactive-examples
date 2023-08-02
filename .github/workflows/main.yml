@@ -13,30 +13,24 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
         with:
-          node-version: "14"
-          cache: "yarn"
+          node-version: 18
+          cache: npm
 
-      - name: Cache node_modules
-        uses: actions/cache@v3
-        id: cached-node_modules
-        with:
-          path: |
-            node_modules
-          key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}-${{ hashFiles('.github/workflows/main.yml') }}
-
-      - name: Install all yarn packages
-        if: steps.cached-node_modules.outputs.cache-hit != 'true'
-        run: yarn --frozen-lockfile
+      - name: Install all npm packages
+        run: npm ci
 
       - name: Lint JS code
-        run: yarn lint:js
+        run: npm run lint:js
+
+      - name: Lint CSS code
+        run: npm run lint:css
 
       - name: Build all
-        run: yarn build
+        run: npm run build
 
       - name: Start server
         run: |
-          yarn start-server > /tmp/stdout.log 2> /tmp/stderr.log &
+          npm run start-server > /tmp/stdout.log 2> /tmp/stderr.log &
 
           sleep 3
           curl --retry-connrefused --retry 5 http://localhost:9090 > /dev/null

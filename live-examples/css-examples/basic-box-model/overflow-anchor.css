@@ -1,0 +1,33 @@
+.whole-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+#example-element {
+  height: 100%;
+  border: 2px dashed dodgerblue;
+  padding: 0.75em;
+  text-align: left;
+  overflow: scroll;
+}
+
+#playback {
+  font-size: 1em;
+  width: 10em;
+  height: 4em;
+  font-weight: bold;
+  margin: 1em auto;
+  background-color: aliceblue;
+  border: solid 2px dodgerblue;
+  border-radius: 5px;
+}
+
+#playback:hover {
+  border-color: lightseagreen;
+}
+
+#playback:active {
+  filter: brightness(0.9);
+}

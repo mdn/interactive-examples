@@ -1,13 +1,9 @@
 legend {
-    background-color: #000;
-    color: #fff;
-    padding: 3px 6px;
-}
-
-.output {
-    font: 1rem 'Fira Sans', sans-serif;
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
 }
 
 input {
-    margin: .4rem;
+  margin: 0.4rem;
 }

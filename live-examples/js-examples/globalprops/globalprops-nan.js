@@ -6,7 +6,7 @@ function sanitise(x) {
 }
 
 console.log(sanitise('1'));
-// expected output: "1"
+// Expected output: "1"
 
 console.log(sanitise('NotANumber'));
-// expected output: NaN
+// Expected output: NaN

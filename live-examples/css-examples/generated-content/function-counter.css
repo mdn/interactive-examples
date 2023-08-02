@@ -1,0 +1,11 @@
+.double-list {
+  counter-reset: count -1;
+}
+
+.double-list li {
+  counter-increment: count 2;
+}
+
+.double-list li::marker {
+  content: counter(count, decimal) ') ';
+}

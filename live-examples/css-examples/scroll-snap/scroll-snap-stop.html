@@ -1,0 +1,32 @@
+<section id="example-choice-list" class="example-choice-list large" data-property="scroll-snap-stop">
+  <div class="example-choice" initial-choice="true">
+    <pre><code class="language-css">scroll-snap-stop: normal;</code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true">
+      <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+  </div>
+
+  <div class="example-choice">
+    <pre><code class="language-css">scroll-snap-stop: always;</code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true">
+      <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+  </div>
+</section>
+
+<div id="output" class="output large hidden">
+  <section id="default-example" class="default-example">
+    <p class="explanation">
+      The effect of this property can be noticed on devices with a touchpad. Try to scroll through all items with a
+      single swing. Value <b class="keyword">'normal'</b> should pass through all pages, while
+      <b class="keyword">'always'</b> will stop at the second page.
+    </p>
+    <div class="snap-container">
+      <div>1</div>
+      <div id="example-element">2</div>
+      <div>3</div>
+    </div>
+
+    <div class="info">Scroll &raquo;</div>
+  </section>
+</div>

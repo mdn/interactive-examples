@@ -1,0 +1,16 @@
+{
+  "pages": {
+    "asyncFunctionAsteriskFunction": {
+      "exampleCode": "./live-examples/js-examples/functionasterisk/async-functionasterisk-function.js",
+      "fileName": "async-functionasterisk-function.html",
+      "title": "JavaScript Demo: AsyncGeneratorFunction()",
+      "type": "js"
+    },
+    "functionAsteriskFunction": {
+      "exampleCode": "./live-examples/js-examples/functionasterisk/functionasterisk-function.js",
+      "fileName": "functionasterisk-function.html",
+      "title": "JavaScript Demo: GeneratorFunction()",
+      "type": "js"
+    }
+  }
+}

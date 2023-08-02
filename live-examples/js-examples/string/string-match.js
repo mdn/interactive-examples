@@ -3,4 +3,4 @@ const regex = /[A-Z]/g;
 const found = paragraph.match(regex);
 
 console.log(found);
-// expected output: Array ["T", "I"]
+// Expected output: Array ["T", "I"]

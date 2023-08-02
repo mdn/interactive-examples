@@ -1,74 +1,81 @@
 {
-    "pages": {
-        "aspectRatio": {
-            "cssExampleSrc": "./live-examples/css-examples/images/aspect-ratio.css",
-            "exampleCode": "./live-examples/css-examples/images/aspect-ratio.html",
-            "fileName": "aspect-ratio.html",
-            "title": "CSS Demo: aspect-ratio",
-            "type": "css"
-        },
-        "imageRendering": {
-            "cssExampleSrc": "./live-examples/css-examples/images/image-rendering.css",
-            "exampleCode": "./live-examples/css-examples/images/image-rendering.html",
-            "fileName": "image-rendering.html",
-            "title": "CSS Demo: image-rendering",
-            "type": "css"
-        },
-        "linearGradient": {
-            "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
-            "exampleCode": "./live-examples/css-examples/images/function-linear-gradient.html",
-            "fileName": "function-linear-gradient.html",
-            "title": "CSS Demo: linear-gradient()",
-            "type": "css"
-        },
-        "radialGradient": {
-            "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
-            "exampleCode": "./live-examples/css-examples/images/function-radial-gradient.html",
-            "fileName": "function-radial-gradient.html",
-            "title": "CSS Demo: radial-gradient()",
-            "type": "css"
-        },
-        "conicalGradient": {
-            "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
-            "exampleCode": "./live-examples/css-examples/images/function-conic-gradient.html",
-            "fileName": "function-conic-gradient.html",
-            "title": "CSS Demo: conic-gradient()",
-            "type": "css"
-        },
-        "repeatingConicGradient": {
-            "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
-            "exampleCode": "./live-examples/css-examples/images/function-repeating-conic-gradient.html",
-            "fileName": "function-repeating-conic-gradient.html",
-            "title": "CSS Demo: repeating-conic-gradient()",
-            "type": "css"
-        },
-        "repeatingLinearGradient": {
-            "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
-            "exampleCode": "./live-examples/css-examples/images/function-repeating-linear-gradient.html",
-            "fileName": "function-repeating-linear-gradient.html",
-            "title": "CSS Demo: repeating-linear-gradient()",
-            "type": "css"
-        },
-        "repeatingRadialGradient": {
-            "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
-            "exampleCode": "./live-examples/css-examples/images/function-repeating-radial-gradient.html",
-            "fileName": "function-repeating-radial-gradient.html",
-            "title": "CSS Demo: repeating-radial-gradient()",
-            "type": "css"
-        },
-        "objectFit": {
-            "cssExampleSrc": "./live-examples/css-examples/images/object-fit.css",
-            "exampleCode": "./live-examples/css-examples/images/object-fit.html",
-            "fileName": "object-fit.html",
-            "title": "CSS Demo: object-fit",
-            "type": "css"
-        },
-        "objectPosition": {
-            "cssExampleSrc": "./live-examples/css-examples/images/object-position.css",
-            "exampleCode": "./live-examples/css-examples/images/object-position.html",
-            "fileName": "object-position.html",
-            "title": "CSS Demo: object-position",
-            "type": "css"
-        }
+  "pages": {
+    "aspectRatio": {
+      "cssExampleSrc": "./live-examples/css-examples/images/aspect-ratio.css",
+      "exampleCode": "./live-examples/css-examples/images/aspect-ratio.html",
+      "fileName": "aspect-ratio.html",
+      "title": "CSS Demo: aspect-ratio",
+      "type": "css"
+    },
+    "imageOrientation": {
+      "cssExampleSrc": "./live-examples/css-examples/images/image-orientation.css",
+      "exampleCode": "./live-examples/css-examples/images/image-orientation.html",
+      "fileName": "image-orientation.html",
+      "title": "CSS Demo: image-orientation",
+      "type": "css"
+    },
+    "imageRendering": {
+      "cssExampleSrc": "./live-examples/css-examples/images/image-rendering.css",
+      "exampleCode": "./live-examples/css-examples/images/image-rendering.html",
+      "fileName": "image-rendering.html",
+      "title": "CSS Demo: image-rendering",
+      "type": "css"
+    },
+    "linearGradient": {
+      "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
+      "exampleCode": "./live-examples/css-examples/images/function-linear-gradient.html",
+      "fileName": "function-linear-gradient.html",
+      "title": "CSS Demo: linear-gradient()",
+      "type": "css"
+    },
+    "radialGradient": {
+      "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
+      "exampleCode": "./live-examples/css-examples/images/function-radial-gradient.html",
+      "fileName": "function-radial-gradient.html",
+      "title": "CSS Demo: radial-gradient()",
+      "type": "css"
+    },
+    "conicalGradient": {
+      "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
+      "exampleCode": "./live-examples/css-examples/images/function-conic-gradient.html",
+      "fileName": "function-conic-gradient.html",
+      "title": "CSS Demo: conic-gradient()",
+      "type": "css"
+    },
+    "repeatingConicGradient": {
+      "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
+      "exampleCode": "./live-examples/css-examples/images/function-repeating-conic-gradient.html",
+      "fileName": "function-repeating-conic-gradient.html",
+      "title": "CSS Demo: repeating-conic-gradient()",
+      "type": "css"
+    },
+    "repeatingLinearGradient": {
+      "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
+      "exampleCode": "./live-examples/css-examples/images/function-repeating-linear-gradient.html",
+      "fileName": "function-repeating-linear-gradient.html",
+      "title": "CSS Demo: repeating-linear-gradient()",
+      "type": "css"
+    },
+    "repeatingRadialGradient": {
+      "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
+      "exampleCode": "./live-examples/css-examples/images/function-repeating-radial-gradient.html",
+      "fileName": "function-repeating-radial-gradient.html",
+      "title": "CSS Demo: repeating-radial-gradient()",
+      "type": "css"
+    },
+    "objectFit": {
+      "cssExampleSrc": "./live-examples/css-examples/images/object-fit.css",
+      "exampleCode": "./live-examples/css-examples/images/object-fit.html",
+      "fileName": "object-fit.html",
+      "title": "CSS Demo: object-fit",
+      "type": "css"
+    },
+    "objectPosition": {
+      "cssExampleSrc": "./live-examples/css-examples/images/object-position.css",
+      "exampleCode": "./live-examples/css-examples/images/object-position.html",
+      "fileName": "object-position.html",
+      "title": "CSS Demo: object-position",
+      "type": "css"
     }
+  }
 }

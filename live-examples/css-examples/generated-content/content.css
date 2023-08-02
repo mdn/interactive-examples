@@ -1,0 +1,12 @@
+.topic-games::before {
+  content: '🎮 ';
+}
+
+.topic-weather::before {
+  content: '⛅ ';
+}
+
+.topic-hot::before {
+  content: url('../../media/examples/fire.png');
+  margin-right: 6px;
+}

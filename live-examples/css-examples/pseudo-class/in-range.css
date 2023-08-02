@@ -1,0 +1,8 @@
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+input:in-range {
+  background-color: palegreen;
+}

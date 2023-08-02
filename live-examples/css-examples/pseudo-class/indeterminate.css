@@ -1,0 +1,9 @@
+label {
+  display: block;
+  margin-top: 0.3em;
+}
+
+*:indeterminate {
+  outline: 2px solid deeppink;
+  outline-offset: 2px;
+}

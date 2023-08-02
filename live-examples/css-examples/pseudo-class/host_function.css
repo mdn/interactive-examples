@@ -1,0 +1,9 @@
+/* Following CSS is being applied inside the shadow DOM. */
+
+:host(h1) {
+  color: red;
+}
+
+:host(#shadow-dom-host) {
+  border: 2px dashed blue;
+}

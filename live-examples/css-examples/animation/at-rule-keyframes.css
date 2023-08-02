@@ -1,0 +1,17 @@
+@keyframes fancy-background {
+  from {
+    background-color: darkred;
+  }
+  to {
+    background-color: orange;
+  }
+}
+
+.fancy-box {
+  animation: fancy-background alternate 1s infinite;
+  border: 5px solid #333;
+  height: 150px;
+  width: 150px;
+  color: white;
+  cursor: pointer;
+}

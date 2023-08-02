@@ -4,10 +4,10 @@ object1.property1 = 42;
 array1[0] = 42;
 
 console.log(object1.propertyIsEnumerable('property1'));
-// expected output: true
+// Expected output: true
 
 console.log(array1.propertyIsEnumerable(0));
-// expected output: true
+// Expected output: true
 
 console.log(array1.propertyIsEnumerable('length'));
-// expected output: false
+// Expected output: false

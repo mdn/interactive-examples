@@ -1,9 +1,5 @@
-.output {
-    font: 1rem 'Fira Sans', sans-serif;
-}
-
-.output iframe {
-    height: 200px;
-    margin-bottom: 24px;
-    width: 100%;
+iframe {
+  height: 200px;
+  margin-bottom: 24px;
+  width: 100%;
 }

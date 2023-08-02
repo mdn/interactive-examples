@@ -1,15 +1,15 @@
 label {
-    display: block;
-    margin-top: 1em;
+  display: block;
+  margin-top: 1em;
 }
 
 input:focus-visible {
-    outline: 2px solid crimson;
-    border-radius: 3px;
+  outline: 2px solid crimson;
+  border-radius: 3px;
 }
 
 select:focus-visible {
-    border: 2px dashed crimson;
-    border-radius: 3px;
-    outline: none;
+  border: 2px dashed crimson;
+  border-radius: 3px;
+  outline: none;
 }

@@ -7,4 +7,4 @@ function rejected(result) {
 }
 
 Promise.reject(new Error('fail')).then(resolved, rejected);
-// expected output: Error: fail
+// Expected output: Error: fail

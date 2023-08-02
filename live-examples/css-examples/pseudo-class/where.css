@@ -1,0 +1,15 @@
+ol {
+  list-style-type: upper-alpha;
+  color: darkblue;
+}
+
+/* Not applied to ol, because of lower specificity */
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown */
+:where(ol, ul, menu:unsupported) :where(ol, ul) {
+  color: green;
+}
+
+:where(ol, ul) :where(ol, ul) ol {
+  list-style-type: lower-greek;
+  color: chocolate;
+}

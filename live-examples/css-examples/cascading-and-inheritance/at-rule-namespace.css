@@ -1,0 +1,13 @@
+@namespace svg url('http://www.w3.org/2000/svg');
+
+a {
+  color: orangered;
+  text-decoration: underline dashed;
+  font-weight: bold;
+}
+
+svg|a {
+  fill: blueviolet;
+  text-decoration: underline solid;
+  text-transform: uppercase;
+}

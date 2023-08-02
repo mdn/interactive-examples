@@ -9,4 +9,4 @@ class Split1 {
 }
 
 console.log('foobar'.split(new Split1('foo')));
-// expected output: "foo/bar"
+// Expected output: "foo/bar"

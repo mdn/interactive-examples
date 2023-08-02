@@ -1,7 +1,6 @@
-var url = "{%wasm-url%}";
-await WebAssembly.instantiateStreaming(
-  fetch(url)
-).then(result => {
-  let get_90 = result.instance.exports.get_90;
+const url = '{%wasm-url%}';
+await WebAssembly.instantiateStreaming(fetch(url)).then((result) => {
+  const { get_90 } = result.instance.exports;
   console.log(get_90());
+  // Expected output: 90
 });

@@ -1,0 +1,12 @@
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+.req {
+  color: red;
+}
+
+*:optional {
+  background-color: palegreen;
+}

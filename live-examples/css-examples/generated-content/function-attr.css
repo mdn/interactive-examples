@@ -1,0 +1,9 @@
+blockquote {
+  margin: 1em 0;
+}
+
+blockquote::after {
+  display: block;
+  content: ' (source: ' attr(cite) ') ';
+  color: hotpink;
+}
