@@ -1,44 +1,59 @@
-name: prod-deploy
+name: Prod Deployment
 
 on:
-    push:
-        branches:
-            - 'main'
-        paths:
-            - './bin/**'
-            - './live-examples/**'
-            - './media/**'
-            - 'Jenkinsfile'
-            - 'package.json'
-    workflow_dispatch:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+    inputs:
+      notes:
+        description: 'Notes'
+        required: false
+        default: ''
+
+  workflow_call:
+    secrets:
+      GCP_PROJECT_NAME:
+        required: true
+      WIP_PROJECT_ID:
+        required: true
 
 jobs:
-    deploy:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v3
+  build:
+    environment: prod
+    permissions:
+      contents: read
+      id-token: write
 
-            - name: Setup Node.js environment
-              uses: actions/setup-node@v3
-              with:
-                  node-version: '16'
-                  cache: 'yarn'
+    runs-on: ubuntu-latest
+    if: github.triggering_actor != 'dependabot[bot]'
 
-            - name: Install all yarn packages
-              run: yarn --frozen-lockfile
+    steps:
+      - uses: actions/checkout@v3
 
-            - name: Build all
-              run: yarn build
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: npm
 
-            - name: Deploy pages
-              run: |
-                  git init
-                  git config user.name "schalkneethling"
-                  git config user.email "sneethling@mozilla.com"
-                  git checkout -b prod
-                  git add .
-                  git commit --allow-empty -m "Deploying latest generated pages"
-                  git remote add mdn "https://$GITHUB_TOKEN@github.com/mdn/interactive-examples.git"
-                  # Eat output so it doesn't spit out the sensitive GITHUB_TOKEN if something goes wrong:
-                  git push -q -f mdn prod > /dev/null 2>&1
+      - name: Install all npm packages
+        run: npm ci
+
+      - name: Build all
+        run: npm run build
+
+      - name: Authenticate with GCP
+        uses: google-github-actions/auth@v1
+        with:
+          token_format: access_token
+          service_account: deploy-prod-interactive-exampl@${{ secrets.GCP_PROJECT_NAME }}.iam.gserviceaccount.com
+          workload_identity_provider: projects/${{ secrets.WIP_PROJECT_ID }}/locations/global/workloadIdentityPools/github-actions/providers/github-actions
+
+      - name: Setup gcloud
+        uses: google-github-actions/setup-gcloud@v1
+
+      - name: Deploy pages to GCP
+        run: |-
+          gsutil -m rsync -d -r docs/ gs://interactive-examples-prod-mdn/

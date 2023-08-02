@@ -1,9 +1,9 @@
 const test = {
   prop: 42,
-  func: function() {
+  func: function () {
     return this.prop;
   },
 };
 
 console.log(test.func());
-// expected output: 42
+// Expected output: 42

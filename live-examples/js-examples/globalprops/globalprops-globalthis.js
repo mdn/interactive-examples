@@ -3,4 +3,4 @@ function canMakeHTTPRequest() {
 }
 
 console.log(canMakeHTTPRequest());
-// expected output (in a browser): true
+// Expected output (in a browser): true

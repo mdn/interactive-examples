@@ -6,7 +6,7 @@ function div(x) {
 }
 
 console.log(div(0));
-// expected output: "Number is Infinity!""
+// Expected output: "Number is Infinity!""
 
 console.log(div(1));
-// expected output: "Number is NOT Infinity."
+// Expected output: "Number is NOT Infinity."

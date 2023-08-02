@@ -9,4 +9,4 @@ for (const segment of iterator1) {
   }
 }
 
-// expected output: "demeure"
+// Expected output: "demeure"

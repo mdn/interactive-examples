@@ -5,4 +5,4 @@ class RegExp1 extends RegExp {
 }
 
 console.log('football'.replace(new RegExp1('foo')));
-// expected output: "#!@?tball"
+// Expected output: "#!@?tball"

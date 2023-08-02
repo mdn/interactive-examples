@@ -1,11 +1,11 @@
-name: "Label idle issues"
+name: 'Label idle issues'
 
 on:
   schedule:
-  -  cron: '0 8 * * *'
+    - cron: '0 8 * * *'
 
 jobs:
   mark-as-idle:
     uses: mdn/workflows/.github/workflows/idle.yml@main
     with:
-      target-repo: "mdn/interactive-examples"
+      target-repo: 'mdn/interactive-examples'

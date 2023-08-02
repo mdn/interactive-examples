@@ -1,88 +1,88 @@
 {
-    "pages": {
-        "alignContent": {
-            "cssExampleSrc": "./live-examples/css-examples/box-alignment/align-content.css",
-            "exampleCode": "./live-examples/css-examples/box-alignment/align-content.html",
-            "fileName": "align-content.html",
-            "title": "CSS Demo: align-content",
-            "type": "css"
-        },
-        "alignItems": {
-            "cssExampleSrc": "./live-examples/css-examples/box-alignment/align-items.css",
-            "exampleCode": "./live-examples/css-examples/box-alignment/align-items.html",
-            "fileName": "align-items.html",
-            "title": "CSS Demo: align-items",
-            "type": "css"
-        },
-        "alignSelf": {
-            "cssExampleSrc": "./live-examples/css-examples/box-alignment/align-self.css",
-            "exampleCode": "./live-examples/css-examples/box-alignment/align-self.html",
-            "fileName": "align-self.html",
-            "title": "CSS Demo: align-self",
-            "type": "css"
-        },
-        "columnGap": {
-            "cssExampleSrc": "./live-examples/css-examples/box-alignment/column-gap.css",
-            "exampleCode": "./live-examples/css-examples/box-alignment/column-gap.html",
-            "fileName": "column-gap.html",
-            "title": "CSS Demo: column-gap",
-            "type": "css"
-        },
-        "gap": {
-            "cssExampleSrc": "./live-examples/css-examples/box-alignment/gap.css",
-            "exampleCode": "./live-examples/css-examples/box-alignment/gap.html",
-            "fileName": "gap.html",
-            "title": "CSS Demo: gap",
-            "type": "css"
-        },
-        "justifyContent": {
-            "cssExampleSrc": "./live-examples/css-examples/box-alignment/justify-content.css",
-            "exampleCode": "./live-examples/css-examples/box-alignment/justify-content.html",
-            "fileName": "justify-content.html",
-            "title": "CSS Demo: justify-content",
-            "type": "css"
-        },
-        "justifyItems": {
-            "cssExampleSrc": "./live-examples/css-examples/box-alignment/justify-items.css",
-            "exampleCode": "./live-examples/css-examples/box-alignment/justify-items.html",
-            "fileName": "justify-items.html",
-            "title": "CSS Demo: justify-items",
-            "type": "css"
-        },
-        "justifySelf": {
-            "cssExampleSrc": "./live-examples/css-examples/box-alignment/justify-self.css",
-            "exampleCode": "./live-examples/css-examples/box-alignment/justify-self.html",
-            "fileName": "justify-self.html",
-            "title": "CSS Demo: justify-self",
-            "type": "css"
-        },
-        "placeItems": {
-            "cssExampleSrc": "./live-examples/css-examples/box-alignment/place-items.css",
-            "exampleCode": "./live-examples/css-examples/box-alignment/place-items.html",
-            "fileName": "place-items.html",
-            "title": "CSS Demo: place-items",
-            "type": "css"
-        },
-        "placeContent": {
-            "cssExampleSrc": "./live-examples/css-examples/box-alignment/place-content.css",
-            "exampleCode": "./live-examples/css-examples/box-alignment/place-content.html",
-            "fileName": "place-content.html",
-            "title": "CSS Demo: place-content",
-            "type": "css"
-        },
-        "placeSelf": {
-            "cssExampleSrc": "./live-examples/css-examples/box-alignment/place-self.css",
-            "exampleCode": "./live-examples/css-examples/box-alignment/place-self.html",
-            "fileName": "place-self.html",
-            "title": "CSS Demo: place-self",
-            "type": "css"
-        },
-        "rowGap": {
-            "cssExampleSrc": "./live-examples/css-examples/box-alignment/row-gap.css",
-            "exampleCode": "./live-examples/css-examples/box-alignment/row-gap.html",
-            "fileName": "row-gap.html",
-            "title": "CSS Demo: row-gap",
-            "type": "css"
-        }
+  "pages": {
+    "alignContent": {
+      "cssExampleSrc": "./live-examples/css-examples/box-alignment/align-content.css",
+      "exampleCode": "./live-examples/css-examples/box-alignment/align-content.html",
+      "fileName": "align-content.html",
+      "title": "CSS Demo: align-content",
+      "type": "css"
+    },
+    "alignItems": {
+      "cssExampleSrc": "./live-examples/css-examples/box-alignment/align-items.css",
+      "exampleCode": "./live-examples/css-examples/box-alignment/align-items.html",
+      "fileName": "align-items.html",
+      "title": "CSS Demo: align-items",
+      "type": "css"
+    },
+    "alignSelf": {
+      "cssExampleSrc": "./live-examples/css-examples/box-alignment/align-self.css",
+      "exampleCode": "./live-examples/css-examples/box-alignment/align-self.html",
+      "fileName": "align-self.html",
+      "title": "CSS Demo: align-self",
+      "type": "css"
+    },
+    "columnGap": {
+      "cssExampleSrc": "./live-examples/css-examples/box-alignment/column-gap.css",
+      "exampleCode": "./live-examples/css-examples/box-alignment/column-gap.html",
+      "fileName": "column-gap.html",
+      "title": "CSS Demo: column-gap",
+      "type": "css"
+    },
+    "gap": {
+      "cssExampleSrc": "./live-examples/css-examples/box-alignment/gap.css",
+      "exampleCode": "./live-examples/css-examples/box-alignment/gap.html",
+      "fileName": "gap.html",
+      "title": "CSS Demo: gap",
+      "type": "css"
+    },
+    "justifyContent": {
+      "cssExampleSrc": "./live-examples/css-examples/box-alignment/justify-content.css",
+      "exampleCode": "./live-examples/css-examples/box-alignment/justify-content.html",
+      "fileName": "justify-content.html",
+      "title": "CSS Demo: justify-content",
+      "type": "css"
+    },
+    "justifyItems": {
+      "cssExampleSrc": "./live-examples/css-examples/box-alignment/justify-items.css",
+      "exampleCode": "./live-examples/css-examples/box-alignment/justify-items.html",
+      "fileName": "justify-items.html",
+      "title": "CSS Demo: justify-items",
+      "type": "css"
+    },
+    "justifySelf": {
+      "cssExampleSrc": "./live-examples/css-examples/box-alignment/justify-self.css",
+      "exampleCode": "./live-examples/css-examples/box-alignment/justify-self.html",
+      "fileName": "justify-self.html",
+      "title": "CSS Demo: justify-self",
+      "type": "css"
+    },
+    "placeItems": {
+      "cssExampleSrc": "./live-examples/css-examples/box-alignment/place-items.css",
+      "exampleCode": "./live-examples/css-examples/box-alignment/place-items.html",
+      "fileName": "place-items.html",
+      "title": "CSS Demo: place-items",
+      "type": "css"
+    },
+    "placeContent": {
+      "cssExampleSrc": "./live-examples/css-examples/box-alignment/place-content.css",
+      "exampleCode": "./live-examples/css-examples/box-alignment/place-content.html",
+      "fileName": "place-content.html",
+      "title": "CSS Demo: place-content",
+      "type": "css"
+    },
+    "placeSelf": {
+      "cssExampleSrc": "./live-examples/css-examples/box-alignment/place-self.css",
+      "exampleCode": "./live-examples/css-examples/box-alignment/place-self.html",
+      "fileName": "place-self.html",
+      "title": "CSS Demo: place-self",
+      "type": "css"
+    },
+    "rowGap": {
+      "cssExampleSrc": "./live-examples/css-examples/box-alignment/row-gap.css",
+      "exampleCode": "./live-examples/css-examples/box-alignment/row-gap.html",
+      "fileName": "row-gap.html",
+      "title": "CSS Demo: row-gap",
+      "type": "css"
     }
+  }
 }

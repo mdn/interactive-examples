@@ -8,4 +8,4 @@ const view = new DataView(buffer);
 view.setBigInt64(1, max);
 
 console.log(view.getBigInt64(1));
-// expected output: 9223372036854775807n
+// Expected output: 9223372036854775807n

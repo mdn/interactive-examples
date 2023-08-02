@@ -1,0 +1,9 @@
+/* Following CSS is being applied inside the shadow DOM. */
+
+:host-context(.container) {
+  border: 5px dashed green;
+}
+
+:host-context(h1) {
+  color: red;
+}

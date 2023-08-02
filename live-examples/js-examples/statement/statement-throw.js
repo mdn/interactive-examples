@@ -8,5 +8,5 @@ try {
   getRectArea(3, 'A');
 } catch (e) {
   console.error(e);
-  // expected output: Error: Parameter is not a number!
+  // Expected output: Error: Parameter is not a number!
 }

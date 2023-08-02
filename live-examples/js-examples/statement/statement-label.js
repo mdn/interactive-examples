@@ -1,7 +1,6 @@
 let str = '';
 
-loop1:
-for (let i = 0; i < 5; i++) {
+loop1: for (let i = 0; i < 5; i++) {
   if (i === 1) {
     continue loop1;
   }
@@ -9,4 +8,4 @@ for (let i = 0; i < 5; i++) {
 }
 
 console.log(str);
-// expected output: "0234"
+// Expected output: "0234"

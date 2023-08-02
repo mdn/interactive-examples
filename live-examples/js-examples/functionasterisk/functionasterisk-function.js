@@ -12,4 +12,4 @@ for (const val of foo()) {
 }
 
 console.log(str);
-// expected output: "abc"
+// Expected output: "abc"

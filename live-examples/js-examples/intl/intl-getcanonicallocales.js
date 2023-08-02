@@ -1,12 +1,12 @@
 console.log(Intl.getCanonicalLocales('EN-US'));
-// expected output: Array ["en-US"]
+// Expected output: Array ["en-US"]
 
 console.log(Intl.getCanonicalLocales(['EN-US', 'Fr']));
-// expected output: Array ["en-US", "fr"]
+// Expected output: Array ["en-US", "fr"]
 
 try {
   Intl.getCanonicalLocales('EN_US');
 } catch (err) {
   console.log(err.toString());
-  // expected output: RangeError: invalid language tag: EN_US
+  // Expected output: RangeError: invalid language tag: EN_US
 }

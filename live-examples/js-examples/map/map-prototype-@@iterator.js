@@ -8,5 +8,5 @@ const iterator1 = map1[Symbol.iterator]();
 for (const item of iterator1) {
   console.log(item);
 }
-// expected output: Array ["0", "foo"]
-// expected output: Array [1, "bar"]
+// Expected output: Array ["0", "foo"]
+// Expected output: Array [1, "bar"]

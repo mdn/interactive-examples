@@ -1,0 +1,10 @@
+#full-screen-section {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+#full-screen-section:fullscreen {
+  background-color: khaki;
+  color: black;
+  text-align: center;
+}

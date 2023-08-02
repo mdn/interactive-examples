@@ -9,4 +9,4 @@ set1.forEach((point) => {
 });
 
 console.log(set1.size);
-// expected output: 1
+// Expected output: 1

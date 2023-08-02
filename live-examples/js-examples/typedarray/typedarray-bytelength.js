@@ -3,4 +3,4 @@ const buffer = new ArrayBuffer(8);
 const uint8 = new Uint8Array(buffer, 2);
 
 console.log(uint8.byteLength);
-// expected output: 6
+// Expected output: 6

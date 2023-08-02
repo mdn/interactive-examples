@@ -1,6 +1,6 @@
-name: "Issue report"
+name: 'Issue report'
 description: Report an unexpected problem or unintended behavior.
-labels: ["needs triage"]
+labels: ['needs triage']
 body:
   - type: markdown
     attributes:

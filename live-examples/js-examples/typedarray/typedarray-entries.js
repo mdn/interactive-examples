@@ -5,4 +5,4 @@ eArr.next();
 eArr.next();
 
 console.log(eArr.next().value);
-// expected output: Array [2, 30]
+// Expected output: Array [2, 30]
