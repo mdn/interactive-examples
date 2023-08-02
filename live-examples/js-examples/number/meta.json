@@ -1,124 +1,124 @@
 {
-    "pages": {
-        "numberEpsilon": {
-            "exampleCode": "./live-examples/js-examples/number/number-epsilon.js",
-            "fileName": "number-epsilon.html",
-            "title": "JavaScript Demo: Number.EPSILON",
-            "type": "js"
-        },
-        "numberIsFinite": {
-            "exampleCode": "./live-examples/js-examples/number/number-isfinite.js",
-            "fileName": "number-isfinite.html",
-            "title": "JavaScript Demo: Number.isFinite()",
-            "type": "js"
-        },
-        "numberIsInteger": {
-            "exampleCode": "./live-examples/js-examples/number/number-isinteger.js",
-            "fileName": "number-isinteger.html",
-            "title": "JavaScript Demo: Number.isInteger()",
-            "type": "js"
-        },
-        "numberIsNaN": {
-            "exampleCode": "./live-examples/js-examples/number/number-isnan.js",
-            "fileName": "number-isnan.html",
-            "title": "JavaScript Demo: Number.isNaN()",
-            "type": "js"
-        },
-        "numberIsSafeInteger": {
-            "exampleCode": "./live-examples/js-examples/number/number-issafeinteger.js",
-            "fileName": "number-issafeinteger.html",
-            "title": "JavaScript Demo: Number.isSafeInteger()",
-            "type": "js"
-        },
-        "numberMaxSafeInteger": {
-            "exampleCode": "./live-examples/js-examples/number/number-max-safe-integer.js",
-            "fileName": "number-maxsafeinteger.html",
-            "title": "JavaScript Demo: Number.MAX_SAFE_INTEGER",
-            "type": "js"
-        },
-        "numberMaxValue": {
-            "exampleCode": "./live-examples/js-examples/number/number-max-value.js",
-            "fileName": "number-maxvalue.html",
-            "title": "JavaScript Demo: Number.MAX_VALUE",
-            "type": "js"
-        },
-        "numberMinSafeInteger": {
-            "exampleCode": "./live-examples/js-examples/number/number-min-safe-integer.js",
-            "fileName": "number-min-safe-integer.html",
-            "title": "JavaScript Demo: Number.MIN_SAFE_INTEGER",
-            "type": "js"
-        },
-        "numberMinValue": {
-            "exampleCode": "./live-examples/js-examples/number/number-min-value.js",
-            "fileName": "number-min-value.html",
-            "title": "JavaScript Demo: Number.MIN_VALUE",
-            "type": "js"
-        },
-        "numberNaN": {
-            "exampleCode": "./live-examples/js-examples/number/number-nan.js",
-            "fileName": "number-nan.html",
-            "title": "JavaScript Demo: Number.NaN",
-            "type": "js"
-        },
-        "numberNegativeInfinity": {
-            "exampleCode": "./live-examples/js-examples/number/number-negative-infinity.js",
-            "fileName": "number-negative-infinity.html",
-            "title": "JavaScript Demo: Number.NEGATIVE_INFINITY",
-            "type": "js"
-        },
-        "numberParseFloat": {
-            "exampleCode": "./live-examples/js-examples/number/number-parsefloat.js",
-            "fileName": "number-parsefloat.html",
-            "title": "JavaScript Demo: Number.parseFloat()",
-            "type": "js"
-        },
-        "numberParseInt": {
-            "exampleCode": "./live-examples/js-examples/number/number-parseint.js",
-            "fileName": "number-parseint.html",
-            "title": "JavaScript Demo: Number.parseInt()",
-            "type": "js"
-        },
-        "numberPositiveInfinity": {
-            "exampleCode": "./live-examples/js-examples/number/number-positive-infinity.js",
-            "fileName": "number-positive-infinity.html",
-            "title": "JavaScript Demo: Number.POSITIVE_INFINITY",
-            "type": "js"
-        },
-        "numberToExponential": {
-            "exampleCode": "./live-examples/js-examples/number/number-toexponential.js",
-            "fileName": "number-toexponential.html",
-            "title": "JavaScript Demo: Number.toExponential()",
-            "type": "js"
-        },
-        "numberToFixed": {
-            "exampleCode": "./live-examples/js-examples/number/number-tofixed.js",
-            "fileName": "number-tofixed.html",
-            "title": "JavaScript Demo: Number.toFixed()",
-            "type": "js"
-        },
-        "numberToLocaleString": {
-            "exampleCode": "./live-examples/js-examples/number/number-tolocalestring.js",
-            "fileName": "number-tolocalestring.html",
-            "title": "JavaScript Demo: Number.toLocaleString()",
-            "type": "js"
-        },
-        "numberToPrecision": {
-            "exampleCode": "./live-examples/js-examples/number/number-toprecision.js",
-            "fileName": "number-toprecision.html",
-            "title": "JavaScript Demo: Number.toPrecision()",
-            "type": "js"
-        },
-        "numberToString": {
-            "exampleCode": "./live-examples/js-examples/number/number-tostring.js",
-            "fileName": "number-tostring.html",
-            "title": "JavaScript Demo: Number.toString()",
-            "type": "js"
-        },
-        "numberValueof": {
-            "exampleCode": "./live-examples/js-examples/number/number-valueof.js",
-            "fileName": "number-valueof.html",
-            "title": "JavaScript Demo: Number.valueOf()",
-            "type": "js"
-        }
+  "pages": {
+    "numberEpsilon": {
+      "exampleCode": "./live-examples/js-examples/number/number-epsilon.js",
+      "fileName": "number-epsilon.html",
+      "title": "JavaScript Demo: Number.EPSILON",
+      "type": "js"
+    },
+    "numberIsFinite": {
+      "exampleCode": "./live-examples/js-examples/number/number-isfinite.js",
+      "fileName": "number-isfinite.html",
+      "title": "JavaScript Demo: Number.isFinite()",
+      "type": "js"
+    },
+    "numberIsInteger": {
+      "exampleCode": "./live-examples/js-examples/number/number-isinteger.js",
+      "fileName": "number-isinteger.html",
+      "title": "JavaScript Demo: Number.isInteger()",
+      "type": "js"
+    },
+    "numberIsNaN": {
+      "exampleCode": "./live-examples/js-examples/number/number-isnan.js",
+      "fileName": "number-isnan.html",
+      "title": "JavaScript Demo: Number.isNaN()",
+      "type": "js"
+    },
+    "numberIsSafeInteger": {
+      "exampleCode": "./live-examples/js-examples/number/number-issafeinteger.js",
+      "fileName": "number-issafeinteger.html",
+      "title": "JavaScript Demo: Number.isSafeInteger()",
+      "type": "js"
+    },
+    "numberMaxSafeInteger": {
+      "exampleCode": "./live-examples/js-examples/number/number-max-safe-integer.js",
+      "fileName": "number-maxsafeinteger.html",
+      "title": "JavaScript Demo: Number.MAX_SAFE_INTEGER",
+      "type": "js"
+    },
+    "numberMaxValue": {
+      "exampleCode": "./live-examples/js-examples/number/number-max-value.js",
+      "fileName": "number-maxvalue.html",
+      "title": "JavaScript Demo: Number.MAX_VALUE",
+      "type": "js"
+    },
+    "numberMinSafeInteger": {
+      "exampleCode": "./live-examples/js-examples/number/number-min-safe-integer.js",
+      "fileName": "number-min-safe-integer.html",
+      "title": "JavaScript Demo: Number.MIN_SAFE_INTEGER",
+      "type": "js"
+    },
+    "numberMinValue": {
+      "exampleCode": "./live-examples/js-examples/number/number-min-value.js",
+      "fileName": "number-min-value.html",
+      "title": "JavaScript Demo: Number.MIN_VALUE",
+      "type": "js"
+    },
+    "numberNaN": {
+      "exampleCode": "./live-examples/js-examples/number/number-nan.js",
+      "fileName": "number-nan.html",
+      "title": "JavaScript Demo: Number.NaN",
+      "type": "js"
+    },
+    "numberNegativeInfinity": {
+      "exampleCode": "./live-examples/js-examples/number/number-negative-infinity.js",
+      "fileName": "number-negative-infinity.html",
+      "title": "JavaScript Demo: Number.NEGATIVE_INFINITY",
+      "type": "js"
+    },
+    "numberParseFloat": {
+      "exampleCode": "./live-examples/js-examples/number/number-parsefloat.js",
+      "fileName": "number-parsefloat.html",
+      "title": "JavaScript Demo: Number.parseFloat()",
+      "type": "js"
+    },
+    "numberParseInt": {
+      "exampleCode": "./live-examples/js-examples/number/number-parseint.js",
+      "fileName": "number-parseint.html",
+      "title": "JavaScript Demo: Number.parseInt()",
+      "type": "js"
+    },
+    "numberPositiveInfinity": {
+      "exampleCode": "./live-examples/js-examples/number/number-positive-infinity.js",
+      "fileName": "number-positive-infinity.html",
+      "title": "JavaScript Demo: Number.POSITIVE_INFINITY",
+      "type": "js"
+    },
+    "numberToExponential": {
+      "exampleCode": "./live-examples/js-examples/number/number-toexponential.js",
+      "fileName": "number-toexponential.html",
+      "title": "JavaScript Demo: Number.toExponential()",
+      "type": "js"
+    },
+    "numberToFixed": {
+      "exampleCode": "./live-examples/js-examples/number/number-tofixed.js",
+      "fileName": "number-tofixed.html",
+      "title": "JavaScript Demo: Number.toFixed()",
+      "type": "js"
+    },
+    "numberToLocaleString": {
+      "exampleCode": "./live-examples/js-examples/number/number-tolocalestring.js",
+      "fileName": "number-tolocalestring.html",
+      "title": "JavaScript Demo: Number.toLocaleString()",
+      "type": "js"
+    },
+    "numberToPrecision": {
+      "exampleCode": "./live-examples/js-examples/number/number-toprecision.js",
+      "fileName": "number-toprecision.html",
+      "title": "JavaScript Demo: Number.toPrecision()",
+      "type": "js"
+    },
+    "numberToString": {
+      "exampleCode": "./live-examples/js-examples/number/number-tostring.js",
+      "fileName": "number-tostring.html",
+      "title": "JavaScript Demo: Number.toString()",
+      "type": "js"
+    },
+    "numberValueof": {
+      "exampleCode": "./live-examples/js-examples/number/number-valueof.js",
+      "fileName": "number-valueof.html",
+      "title": "JavaScript Demo: Number.valueOf()",
+      "type": "js"
     }
+  }
 }

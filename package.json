@@ -1,52 +1,60 @@
 {
-    "name": "interactive-examples",
-    "version": "2.0.0",
-    "description": "Interactive code examples embedded on MDN",
-    "author": "Mozilla",
-    "license": "MPL-2.0",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mdn/interactive-examples.git"
-    },
-    "bugs": {
-        "url": "https://github.com/mdn/interactive-examples/issues"
-    },
-    "homepage": "https://github.com/mdn/interactive-examples#readme",
-    "main": "index.js",
-    "scripts": {
-        "build": "mdn-bob",
-        "fix:css": "npm run lint:css -- --fix",
-        "fix:js": "eslint --fix ./live-examples/js-examples",
-        "lint:css": "stylelint \"**/*.css\"",
-        "lint:js": "eslint ./live-examples/js-examples",
-        "start-server": "http-server -p 9090 ./docs",
-        "start-watch": "chokidar '**/{*.js,*.css,*.html,*.json}' -i 'package.json' -i 'docs/**' -i 'node_modules/**' -i 'js/editor-*.js' -c 'npm run build' --initial --silent",
-        "start": "npm-run-all --parallel start-watch start-server",
-        "test": "npm run lint:js"
-    },
-    "keywords": [
-        "javascript",
-        "css",
-        "nodejs",
-        "page-generator",
-        "mdn",
-        "mozilla"
-    ],
-    "engines": {
-        "node": ">=18.0.0"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.21.0",
-        "@babel/eslint-parser": "^7.19.1",
-        "@mdn/bob": "^3.0.3",
-        "chokidar-cli": "^3.0.0",
-        "eslint": "^8.35.0",
-        "http-server": "^14.1.1",
-        "npm-run-all": "^4.1.5",
-        "prettier": "^2.8.4",
-        "prettier-eslint": "^15.0.1",
-        "stylelint": "^14.16.1",
-        "stylelint-config-prettier": "^9.0.5",
-        "stylelint-prettier": "^3.0.0"
-    }
+  "name": "interactive-examples",
+  "version": "2.0.0",
+  "description": "Interactive code examples embedded on MDN",
+  "author": "Mozilla",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdn/interactive-examples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdn/interactive-examples/issues"
+  },
+  "homepage": "https://github.com/mdn/interactive-examples#readme",
+  "main": "index.js",
+  "scripts": {
+    "build": "mdn-bob",
+    "build:pages": "mdn-bob --skip-webpack",
+    "fix": "npm run fix:css && npm run fix:js && npm run fix:format",
+    "fix:css": "npm run lint:css -- --fix",
+    "fix:js": "eslint --fix .",
+    "fix:format": "prettier -w --ignore-unknown .",
+    "lint": "npm run lint:css && npm run lint:js && npm run lint:format",
+    "lint:css": "stylelint \"**/*.css\"",
+    "lint:js": "eslint .",
+    "lint:format": "prettier -c --ignore-unknown .",
+    "postinstall": "npm run build",
+    "prepare": "husky install",
+    "start-server": "http-server -p 9090 ./docs",
+    "start-watch": "chokidar \"./live-examples/**\" -c \"npm run build:pages\" --initial --silent",
+    "start": "npm-run-all --parallel start-watch start-server",
+    "test": "npm run lint"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "nodejs",
+    "page-generator",
+    "mdn",
+    "mozilla"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/eslint-parser": "^7.22.9",
+    "@mdn/bob": "^3.3.0",
+    "chokidar-cli": "^3.0.0",
+    "eslint": "^8.46.0",
+    "http-server": "^14.1.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.0.0",
+    "prettier-eslint": "^15.0.1",
+    "stylelint": "^15.10.2",
+    "stylelint-prettier": "^4.0.1"
+  }
 }

@@ -8,7 +8,7 @@ const handler1 = {
     // Expected output: "Creating a monster1"
 
     return new target(...args);
-  }
+  },
 };
 
 const proxy1 = new Proxy(monster1, handler1);

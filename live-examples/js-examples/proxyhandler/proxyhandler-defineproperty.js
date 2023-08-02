@@ -2,7 +2,7 @@ const handler1 = {
   defineProperty(target, key, descriptor) {
     invariant(key, 'define');
     return true;
-  }
+  },
 };
 
 function invariant(key, action) {
@@ -14,5 +14,5 @@ function invariant(key, action) {
 const monster1 = {};
 const proxy1 = new Proxy(monster1, handler1);
 
-console.log(proxy1._secret = 'easily scared');
+console.log((proxy1._secret = 'easily scared'));
 // Expected output: Error: Invalid attempt to define private "_secret" property

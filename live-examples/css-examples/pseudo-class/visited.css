@@ -1,8 +1,8 @@
 p {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 a:visited {
-    color: forestgreen;
-    text-decoration-color: hotpink;
+  color: forestgreen;
+  text-decoration-color: hotpink;
 }
