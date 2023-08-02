@@ -1,0 +1,12 @@
+<p>
+  <label>First Name (no "for" attribute):</label>
+  <input id="first" type="text" value="Jane" />
+</p>
+<p>
+  <label for="last">Last Name (w/ "for" attribute):</label>
+  <input id="last" type="text" value="Doe" />
+</p>
+<p id="result">
+  <strong id="result-label">Full Name:</strong>
+  <output for="first last" aria-labelledby="result-label" id="output"></output>
+</p>

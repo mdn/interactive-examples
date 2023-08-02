@@ -32,6 +32,17 @@
       "type": "tabbed",
       "height": "tabbed-standard"
     },
+    "for": {
+      "exampleCode": "./live-examples/html-examples/form-attributes/attribute-for.html",
+      "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-for.css",
+      "jsExampleSrc": "./live-examples/html-examples/form-attributes/js/attribute-for.js",
+      "fileName": "attribute-for.html",
+      "title": "HTML Demo: for",
+      "type": "tabbed",
+      "defaultTab": "html",
+      "tabs": "html,css,js",
+      "height": "tabbed-shorter"
+    },
     "max": {
       "exampleCode": "./live-examples/html-examples/form-attributes/attribute-max.html",
       "cssExampleSrc": "./live-examples/html-examples/form-attributes/css/attribute-max.css",
