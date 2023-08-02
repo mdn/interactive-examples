@@ -1,25 +1,25 @@
 {
-    "pages": {
-        "shapeImageThrehold": {
-            "cssExampleSrc": "./live-examples/css-examples/shapes/shape-image-threshold.css",
-            "exampleCode": "./live-examples/css-examples/shapes/shape-image-threshold.html",
-            "fileName": "shape-image-threshold.html",
-            "title": "CSS Demo: shape-image-threshold",
-            "type": "css"
-        },
-        "shapeMargin": {
-            "cssExampleSrc": "./live-examples/css-examples/shapes/shape-margin.css",
-            "exampleCode": "./live-examples/css-examples/shapes/shape-margin.html",
-            "fileName": "shape-margin.html",
-            "title": "CSS Demo: shape-margin",
-            "type": "css"
-        },
-        "shapeOutside": {
-            "cssExampleSrc": "./live-examples/css-examples/shapes/shape-outside.css",
-            "exampleCode": "./live-examples/css-examples/shapes/shape-outside.html",
-            "fileName": "shape-outside.html",
-            "title": "CSS Demo: shape-outside",
-            "type": "css"
-        }
+  "pages": {
+    "shapeImageThrehold": {
+      "cssExampleSrc": "./live-examples/css-examples/shapes/shape-image-threshold.css",
+      "exampleCode": "./live-examples/css-examples/shapes/shape-image-threshold.html",
+      "fileName": "shape-image-threshold.html",
+      "title": "CSS Demo: shape-image-threshold",
+      "type": "css"
+    },
+    "shapeMargin": {
+      "cssExampleSrc": "./live-examples/css-examples/shapes/shape-margin.css",
+      "exampleCode": "./live-examples/css-examples/shapes/shape-margin.html",
+      "fileName": "shape-margin.html",
+      "title": "CSS Demo: shape-margin",
+      "type": "css"
+    },
+    "shapeOutside": {
+      "cssExampleSrc": "./live-examples/css-examples/shapes/shape-outside.css",
+      "exampleCode": "./live-examples/css-examples/shapes/shape-outside.html",
+      "fileName": "shape-outside.html",
+      "title": "CSS Demo: shape-outside",
+      "type": "css"
     }
+  }
 }

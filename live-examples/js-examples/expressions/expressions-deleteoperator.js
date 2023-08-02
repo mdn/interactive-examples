@@ -1,6 +1,6 @@
 const Employee = {
   firstname: 'John',
-  lastname: 'Doe'
+  lastname: 'Doe',
 };
 
 console.log(Employee.firstname);

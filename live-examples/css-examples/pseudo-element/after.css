@@ -1,14 +1,14 @@
 a::after {
-    content: ' (' attr(href) ')';
+  content: ' (' attr(href) ')';
 }
 
 .dead-link {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 .dead-link::after {
-    content: url('../../media/warning.svg');
-    display: inline-block;
-    width: 12px;
-    height: 12px;
+  content: url('../../media/warning.svg');
+  display: inline-block;
+  width: 12px;
+  height: 12px;
 }

@@ -1,5 +1,5 @@
 const monster1 = {
-  eyeCount: 4
+  eyeCount: 4,
 };
 
 const handler1 = {
@@ -8,7 +8,7 @@ const handler1 = {
     // Expected output: "called: eyeCount"
 
     return { configurable: true, enumerable: true, value: 5 };
-  }
+  },
 };
 
 const proxy1 = new Proxy(monster1, handler1);

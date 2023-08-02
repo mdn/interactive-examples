@@ -1,82 +1,82 @@
 {
-    "pages": {
-        "reflectApply": {
-            "exampleCode": "./live-examples/js-examples/reflect/reflect-apply.js",
-            "fileName": "reflect-apply.html",
-            "title": "JavaScript Demo: Reflect.apply()",
-            "type": "js"
-        },
-        "reflectConstruct": {
-            "exampleCode": "./live-examples/js-examples/reflect/reflect-construct.js",
-            "fileName": "reflect-construct.html",
-            "title": "JavaScript Demo: Reflect.construct()",
-            "type": "js"
-        },
-        "reflectDefineProperty": {
-            "exampleCode": "./live-examples/js-examples/reflect/reflect-defineproperty.js",
-            "fileName": "reflect-defineproperty.html",
-            "title": "JavaScript Demo: Reflect.defineProperty()",
-            "type": "js"
-        },
-        "reflectDeleteProperty": {
-            "exampleCode": "./live-examples/js-examples/reflect/reflect-deleteproperty.js",
-            "fileName": "reflect-deleteproperty.html",
-            "title": "JavaScript Demo: Reflect.deleteProperty()",
-            "type": "js"
-        },
-        "reflectGet": {
-            "exampleCode": "./live-examples/js-examples/reflect/reflect-get.js",
-            "fileName": "reflect-get.html",
-            "title": "JavaScript Demo: Reflect.get()",
-            "type": "js"
-        },
-        "reflectGetOwnPropertyDescriptor": {
-            "exampleCode": "./live-examples/js-examples/reflect/reflect-getownpropertydescriptor.js",
-            "fileName": "reflect-getownpropertydescriptor.html",
-            "title": "JavaScript Demo: Reflect.getOwnPropertyDescriptor()",
-            "type": "js"
-        },
-        "reflectGetPrototypeOf": {
-            "exampleCode": "./live-examples/js-examples/reflect/reflect-getprototypeof.js",
-            "fileName": "reflect-getprototypeof.html",
-            "title": "JavaScript Demo: Reflect.getPrototypeOf()",
-            "type": "js"
-        },
-        "reflectHas": {
-            "exampleCode": "./live-examples/js-examples/reflect/reflect-has.js",
-            "fileName": "reflect-has.html",
-            "title": "JavaScript Demo: Reflect.has()",
-            "type": "js"
-        },
-        "reflectIsExtensible": {
-            "exampleCode": "./live-examples/js-examples/reflect/reflect-isextensible.js",
-            "fileName": "reflect-isextensible.html",
-            "title": "JavaScript Demo: Reflect.isExtensible()",
-            "type": "js"
-        },
-        "reflectOwnKeys": {
-            "exampleCode": "./live-examples/js-examples/reflect/reflect-ownkeys.js",
-            "fileName": "reflect-ownkeys.html",
-            "title": "JavaScript Demo: Reflect.ownKeys()",
-            "type": "js"
-        },
-        "reflectPreventExtensions": {
-            "exampleCode": "./live-examples/js-examples/reflect/reflect-preventextensions.js",
-            "fileName": "reflect-preventextensions.html",
-            "title": "JavaScript Demo: Reflect.preventExtensions()",
-            "type": "js"
-        },
-        "reflectSet": {
-            "exampleCode": "./live-examples/js-examples/reflect/reflect-set.js",
-            "fileName": "reflect-set.html",
-            "title": "JavaScript Demo: Reflect.set()",
-            "type": "js"
-        },
-        "reflectSetPrototypeOf": {
-            "exampleCode": "./live-examples/js-examples/reflect/reflect-setprototypeof.js",
-            "fileName": "reflect-setprototypeof.html",
-            "title": "JavaScript Demo: Reflect.setPrototypeOf()",
-            "type": "js"
-        }
+  "pages": {
+    "reflectApply": {
+      "exampleCode": "./live-examples/js-examples/reflect/reflect-apply.js",
+      "fileName": "reflect-apply.html",
+      "title": "JavaScript Demo: Reflect.apply()",
+      "type": "js"
+    },
+    "reflectConstruct": {
+      "exampleCode": "./live-examples/js-examples/reflect/reflect-construct.js",
+      "fileName": "reflect-construct.html",
+      "title": "JavaScript Demo: Reflect.construct()",
+      "type": "js"
+    },
+    "reflectDefineProperty": {
+      "exampleCode": "./live-examples/js-examples/reflect/reflect-defineproperty.js",
+      "fileName": "reflect-defineproperty.html",
+      "title": "JavaScript Demo: Reflect.defineProperty()",
+      "type": "js"
+    },
+    "reflectDeleteProperty": {
+      "exampleCode": "./live-examples/js-examples/reflect/reflect-deleteproperty.js",
+      "fileName": "reflect-deleteproperty.html",
+      "title": "JavaScript Demo: Reflect.deleteProperty()",
+      "type": "js"
+    },
+    "reflectGet": {
+      "exampleCode": "./live-examples/js-examples/reflect/reflect-get.js",
+      "fileName": "reflect-get.html",
+      "title": "JavaScript Demo: Reflect.get()",
+      "type": "js"
+    },
+    "reflectGetOwnPropertyDescriptor": {
+      "exampleCode": "./live-examples/js-examples/reflect/reflect-getownpropertydescriptor.js",
+      "fileName": "reflect-getownpropertydescriptor.html",
+      "title": "JavaScript Demo: Reflect.getOwnPropertyDescriptor()",
+      "type": "js"
+    },
+    "reflectGetPrototypeOf": {
+      "exampleCode": "./live-examples/js-examples/reflect/reflect-getprototypeof.js",
+      "fileName": "reflect-getprototypeof.html",
+      "title": "JavaScript Demo: Reflect.getPrototypeOf()",
+      "type": "js"
+    },
+    "reflectHas": {
+      "exampleCode": "./live-examples/js-examples/reflect/reflect-has.js",
+      "fileName": "reflect-has.html",
+      "title": "JavaScript Demo: Reflect.has()",
+      "type": "js"
+    },
+    "reflectIsExtensible": {
+      "exampleCode": "./live-examples/js-examples/reflect/reflect-isextensible.js",
+      "fileName": "reflect-isextensible.html",
+      "title": "JavaScript Demo: Reflect.isExtensible()",
+      "type": "js"
+    },
+    "reflectOwnKeys": {
+      "exampleCode": "./live-examples/js-examples/reflect/reflect-ownkeys.js",
+      "fileName": "reflect-ownkeys.html",
+      "title": "JavaScript Demo: Reflect.ownKeys()",
+      "type": "js"
+    },
+    "reflectPreventExtensions": {
+      "exampleCode": "./live-examples/js-examples/reflect/reflect-preventextensions.js",
+      "fileName": "reflect-preventextensions.html",
+      "title": "JavaScript Demo: Reflect.preventExtensions()",
+      "type": "js"
+    },
+    "reflectSet": {
+      "exampleCode": "./live-examples/js-examples/reflect/reflect-set.js",
+      "fileName": "reflect-set.html",
+      "title": "JavaScript Demo: Reflect.set()",
+      "type": "js"
+    },
+    "reflectSetPrototypeOf": {
+      "exampleCode": "./live-examples/js-examples/reflect/reflect-setprototypeof.js",
+      "fileName": "reflect-setprototypeof.html",
+      "title": "JavaScript Demo: Reflect.setPrototypeOf()",
+      "type": "js"
     }
+  }
 }

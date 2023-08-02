@@ -1,6 +1,6 @@
 const object1 = {
   property1: 42,
-  property2: 13
+  property2: 13,
 };
 
 const array1 = [];

@@ -1,5 +1,5 @@
 const object1 = {
-  property1: 42
+  property1: 42,
 };
 
 console.log(Reflect.has(object1, 'property1'));
