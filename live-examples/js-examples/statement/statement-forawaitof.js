@@ -3,11 +3,11 @@ async function* foo() {
   yield 2;
 }
 
-(async function() {
+(async function () {
   for await (const num of foo()) {
     console.log(num);
-    // expected output: 1
+    // Expected output: 1
 
-    break; // closes iterator, triggers return
+    break; // Closes iterator, triggers return
   }
 })();

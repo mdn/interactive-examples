@@ -6,6 +6,6 @@ set1.add(13);
 
 for (const item of set1) {
   console.log(item);
-  // expected output: 42
-  // expected output: 13
+  // Expected output: 42
+  // Expected output: 13
 }

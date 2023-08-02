@@ -3,10 +3,10 @@ function expo(x, f) {
 }
 
 console.log(expo(123456, 2));
-// expected output: "1.23e+5"
+// Expected output: "1.23e+5"
 
 console.log(expo('123456'));
-// expected output: "1.23456e+5"
+// Expected output: "1.23456e+5"
 
 console.log(expo('oink'));
-// expected output: "NaN"
+// Expected output: "NaN"

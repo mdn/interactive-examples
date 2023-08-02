@@ -1,10 +1,10 @@
 label,
 input[type='submit'] {
-    display: block;
-    margin-top: 1em;
+  display: block;
+  margin-top: 1em;
 }
 
 input:default {
-    border: none;
-    outline: 2px solid deeppink;
+  border: none;
+  outline: 2px solid deeppink;
 }

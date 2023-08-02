@@ -154,7 +154,7 @@ Sometimes formal and content guidelines are at odds. For example, sometimes writ
 
 ### Formal guidelines
 
-In general: try out your example using `yarn start` and see what it looks like with a browser window width of 1000px.
+In general: try out your example using `npm start` and see what it looks like with a browser window width of 1000px.
 
 - Can the user see the whole example source without having to scroll?
 
@@ -179,7 +179,11 @@ In particular, see the following guidelines for the HTML source and the output:
 - **Use line breaks for readability**: keep in mind that at different browser widths longer lines will wrap and this can hurt readability. By including line breaks you can make the example more readable at different browser widths. For example, consider an example like this:
 
 ```html
-<img class="fit-picture" src="/media/examples/Grapefruit_Slice--332x332.jpg" alt="Grapefruit slice atop a pile of other slices"/>
+<img
+  class="fit-picture"
+  src="/media/examples/Grapefruit_Slice--332x332.jpg"
+  alt="Grapefruit slice atop a pile of other slices"
+/>
 ```
 
 With a browser window width of 1000 pixels, this will wrap like this:
@@ -238,7 +242,7 @@ For example, here's an example for the `<button>` element:
 
 This includes 5 different button elements. It's too long. The example should include a single element with some common attributes.
 
-Try out your example with `yarn start`. Can you immediately see the point of the example, or is the element buried in a wall of source?
+Try out your example with `npm start`. Can you immediately see the point of the example, or is the element buried in a wall of source?
 
 #### Use good practices
 

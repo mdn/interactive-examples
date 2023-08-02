@@ -33,7 +33,7 @@ Next up, you need to fork and clone the repo to be able to contribute to it. You
 Finally, change into the new directory created by the clone and run the following command:
 
 ```bash
-yarn install
+npm install
 ```
 
 This will ensure that you have all the required development modules installed to build and test your contributions. You are now ready to contribute.
@@ -51,13 +51,13 @@ Once you've written an example you can run a local server to try it out.
 From your command line run:
 
 ```bash
-yarn run build
+npm run build
 ```
 
 Once this completes run:
 
 ```bash
-yarn start
+npm start
 ```
 
 This should give you some output including lines like:
@@ -80,7 +80,7 @@ Find your example and try it out.
 > **Note** On Linux, you might also run the automatic tests used by our continuous integration system.
 >
 > ```bash
-> yarn test
+> npm test
 > ```
 
 Once you're satisfied, the final step is to [submit your pull request](https://help.github.com/articles/creating-a-pull-request/).
@@ -99,25 +99,30 @@ After your pull request is reviewed and merged, you can publish your example on 
 ### **HEIGHT** argument
 
 For CSS examples this argument must always be skipped. To include the margin example, the following code should be placed:
+
 ```plain
 {{EmbedInteractiveExample("pages/css/margin.html")}}
 ```
 
 For HTML examples or any other `tabbed` type, the value of **HEIGHT** argument should match the value of property `height` in `meta.json` of the example. Possible values are: `"tabbed-shorter"`, `"tabbed-standard"` and `"tabbed-taller"`, so `EmbedInteractiveExample` might look like any of those:
+
 ```plain
 {{EmbedInteractiveExample("pages/tabbed/dfn.html", "tabbed-shorter")}}
 ```
+
 ```plain
 {{EmbedInteractiveExample("pages/tabbed/del.html", "tabbed-standard")}}
 ```
+
 ```plain
 {{EmbedInteractiveExample("pages/tabbed/colgroup.html", "tabbed-taller")}}
 ```
 
 For JS examples, the editor is automatically selecting the appropriate height, based on the amount of lines in the example:
-  - Examples less than 7 lines long get the short editor, so you should provide the `"shorter"` argument to `EmbedInteractiveExample`
-  - Examples 7-12 lines inclusive get the standard editor, so you should not provide any extra argument to `EmbedInteractiveExample`
-  - Examples 13 or more lines long get the tall editor, so you should provide the `"taller"` argument to `EmbedInteractiveExample`
+
+- Examples less than 7 lines long get the short editor, so you should provide the `"shorter"` argument to `EmbedInteractiveExample`
+- Examples 7-12 lines inclusive get the standard editor, so you should not provide any extra argument to `EmbedInteractiveExample`
+- Examples 13 or more lines long get the tall editor, so you should provide the `"taller"` argument to `EmbedInteractiveExample`
 
 ## Thank you
 

@@ -8,4 +8,4 @@ class Replace1 {
 }
 
 console.log('foo'.replace(new Replace1('bar')));
-// expected output: "s/foo/bar/g"
+// Expected output: "s/foo/bar/g"

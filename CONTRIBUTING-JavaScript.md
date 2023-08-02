@@ -10,7 +10,7 @@ Inside this file we'll write the example code:
 const result = Array.from('foo');
 
 console.log(result);
-// expected output: Array [ "f", "o", "o" ]
+// Expected output: Array [ "f", "o", "o" ]
 ```
 
 Please make sure the example conforms to the [JS Example Style Guide](JS-Example-Style-Guide.md).

@@ -1,7 +1,7 @@
 #example-element {
   width: 24px;
   height: 24px;
-  background: #2BC4A2;
+  background: #2bc4a2;
   offset-path: path('M-70,-40 C-70,70 70,70 70,-40');
   clip-path: polygon(0% 0%, 70% 0%, 100% 50%, 70% 100%, 0% 100%, 30% 50%);
 }

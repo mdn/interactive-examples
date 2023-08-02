@@ -3,4 +3,4 @@ function getNatLog10() {
 }
 
 console.log(getNatLog10());
-// expected output: 2.302585092994046
+// Expected output: 2.302585092994046

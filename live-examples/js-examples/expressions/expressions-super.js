@@ -22,7 +22,7 @@ class FooBar extends Foo {
 const firstFooBar = new FooBar('foo', 1);
 
 console.log(firstFooBar.name);
-// expected output: "foo"
+// Expected output: "foo"
 
 console.log(firstFooBar.getFullName());
-// expected output: "foo-1"
+// Expected output: "foo-1"

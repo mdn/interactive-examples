@@ -1,7 +1,7 @@
 li {
-    list-style-type: circle;
+  list-style-type: circle;
 }
 
 li li {
-    list-style-type: square;
+  list-style-type: square;
 }

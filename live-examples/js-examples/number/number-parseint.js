@@ -7,7 +7,7 @@ function roughScale(x, base) {
 }
 
 console.log(roughScale(' 0xF', 16));
-// expected output: 1500
+// Expected output: 1500
 
 console.log(roughScale('321', 2));
-// expected output: 0
+// Expected output: 0

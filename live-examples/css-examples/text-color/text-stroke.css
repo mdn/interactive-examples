@@ -1,0 +1,13 @@
+#example-element {
+  font-size: 3rem;
+  font-weight: bold;
+  color: bisque;
+}
+
+.stroke-width {
+  -webkit-text-stroke-width: 2px;
+}
+
+.stroke-color {
+  -webkit-text-stroke-color: violet;
+}

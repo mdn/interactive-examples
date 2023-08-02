@@ -5,4 +5,4 @@ class ValidatorClass {
 }
 
 console.log(Object.prototype.toString.call(new ValidatorClass()));
-// expected output: "[object Validator]"
+// Expected output: "[object Validator]"

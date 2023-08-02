@@ -2,11 +2,11 @@ const language = {
   set current(name) {
     this.log.push(name);
   },
-  log: []
+  log: [],
 };
 
 language.current = 'EN';
 language.current = 'FA';
 
 console.log(language.log);
-// expected output: Array ["EN", "FA"]
+// Expected output: Array ["EN", "FA"]

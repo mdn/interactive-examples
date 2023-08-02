@@ -1,11 +1,11 @@
 p::before {
-    padding-right: 5px;
+  padding-right: 5px;
 }
 
-[lang="en-GB"]::before {
-    content: '(In British English) ';
+[lang='en-GB']::before {
+  content: '(In British English) ';
 }
 
-[lang="fr"]::before {
-    content: '(In French) ';
+[lang='fr']::before {
+  content: '(In French) ';
 }

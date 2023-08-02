@@ -1,130 +1,130 @@
 {
-    "pages": {
-        "fitContent": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/function-fit-content.css",
-            "exampleCode": "./live-examples/css-examples/grid/function-fit-content.html",
-            "fileName": "function-fit-content.html",
-            "title": "CSS Demo: fit-content()",
-            "type": "css"
-        },
-        "grid": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid.html",
-            "fileName": "grid.html",
-            "title": "CSS Demo: grid",
-            "type": "css"
-        },
-        "gridArea": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-area.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-area.html",
-            "fileName": "grid-area.html",
-            "title": "CSS Demo: grid-area",
-            "type": "css"
-        },
-        "gridAutoColumns": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-auto-columns.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-auto-columns.html",
-            "fileName": "grid-auto-columns.html",
-            "title": "CSS Demo: grid-auto-columns",
-            "type": "css"
-        },
-        "gridAutoFlow": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-auto-flow.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-auto-flow.html",
-            "fileName": "grid-auto-flow.html",
-            "title": "CSS Demo: grid-auto-flow",
-            "type": "css"
-        },
-        "gridAutoRows": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-auto-rows.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-auto-rows.html",
-            "fileName": "grid-auto-rows.html",
-            "title": "CSS Demo: grid-auto-rows",
-            "type": "css"
-        },
-        "gridColumn": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-column.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-column.html",
-            "fileName": "grid-column.html",
-            "title": "CSS Demo: grid-column",
-            "type": "css"
-        },
-        "gridColumnEnd": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-column-end.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-column-end.html",
-            "fileName": "grid-column-end.html",
-            "title": "CSS Demo: grid-column-end",
-            "type": "css"
-        },
-        "gridColumnStart": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-column-start.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-column-start.html",
-            "fileName": "grid-column-start.html",
-            "title": "CSS Demo: grid-column-start",
-            "type": "css"
-        },
-        "gridRow": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-row.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-row.html",
-            "fileName": "grid-row.html",
-            "title": "CSS Demo: grid-row",
-            "type": "css"
-        },
-        "gridRowEnd": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-row-end.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-row-end.html",
-            "fileName": "grid-row-end.html",
-            "title": "CSS Demo: grid-row-end",
-            "type": "css"
-        },
-        "gridRowStart": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-row-start.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-row-start.html",
-            "fileName": "grid-row-start.html",
-            "title": "CSS Demo: grid-row-start",
-            "type": "css"
-        },
-        "gridTemplate": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-template.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-template.html",
-            "fileName": "grid-template.html",
-            "title": "CSS Demo: grid-template",
-            "type": "css"
-        },
-        "gridTemplateAreas": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-template-areas.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-template-areas.html",
-            "fileName": "grid-template-areas.html",
-            "title": "CSS Demo: grid-template-areas",
-            "type": "css"
-        },
-        "gridTemplateColumns": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-template-columns.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-template-columns.html",
-            "fileName": "grid-template-columns.html",
-            "title": "CSS Demo: grid-template-columns",
-            "type": "css"
-        },
-        "gridTemplateRows": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/grid-template-rows.css",
-            "exampleCode": "./live-examples/css-examples/grid/grid-template-rows.html",
-            "fileName": "grid-template-rows.html",
-            "title": "CSS Demo: grid-template-rows",
-            "type": "css"
-        },
-        "minmax": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/function-minmax.css",
-            "exampleCode": "./live-examples/css-examples/grid/function-minmax.html",
-            "fileName": "function-minmax.html",
-            "title": "CSS Demo: minmax()",
-            "type": "css"
-        },
-        "repeat": {
-            "cssExampleSrc": "./live-examples/css-examples/grid/function-repeat.css",
-            "exampleCode": "./live-examples/css-examples/grid/function-repeat.html",
-            "fileName": "function-repeat.html",
-            "title": "CSS Demo: repeat()",
-            "type": "css"
-        }
+  "pages": {
+    "fitContent": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/function-fit-content.css",
+      "exampleCode": "./live-examples/css-examples/grid/function-fit-content.html",
+      "fileName": "function-fit-content.html",
+      "title": "CSS Demo: fit-content()",
+      "type": "css"
+    },
+    "grid": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid.html",
+      "fileName": "grid.html",
+      "title": "CSS Demo: grid",
+      "type": "css"
+    },
+    "gridArea": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-area.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-area.html",
+      "fileName": "grid-area.html",
+      "title": "CSS Demo: grid-area",
+      "type": "css"
+    },
+    "gridAutoColumns": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-auto-columns.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-auto-columns.html",
+      "fileName": "grid-auto-columns.html",
+      "title": "CSS Demo: grid-auto-columns",
+      "type": "css"
+    },
+    "gridAutoFlow": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-auto-flow.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-auto-flow.html",
+      "fileName": "grid-auto-flow.html",
+      "title": "CSS Demo: grid-auto-flow",
+      "type": "css"
+    },
+    "gridAutoRows": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-auto-rows.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-auto-rows.html",
+      "fileName": "grid-auto-rows.html",
+      "title": "CSS Demo: grid-auto-rows",
+      "type": "css"
+    },
+    "gridColumn": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-column.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-column.html",
+      "fileName": "grid-column.html",
+      "title": "CSS Demo: grid-column",
+      "type": "css"
+    },
+    "gridColumnEnd": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-column-end.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-column-end.html",
+      "fileName": "grid-column-end.html",
+      "title": "CSS Demo: grid-column-end",
+      "type": "css"
+    },
+    "gridColumnStart": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-column-start.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-column-start.html",
+      "fileName": "grid-column-start.html",
+      "title": "CSS Demo: grid-column-start",
+      "type": "css"
+    },
+    "gridRow": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-row.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-row.html",
+      "fileName": "grid-row.html",
+      "title": "CSS Demo: grid-row",
+      "type": "css"
+    },
+    "gridRowEnd": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-row-end.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-row-end.html",
+      "fileName": "grid-row-end.html",
+      "title": "CSS Demo: grid-row-end",
+      "type": "css"
+    },
+    "gridRowStart": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-row-start.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-row-start.html",
+      "fileName": "grid-row-start.html",
+      "title": "CSS Demo: grid-row-start",
+      "type": "css"
+    },
+    "gridTemplate": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-template.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-template.html",
+      "fileName": "grid-template.html",
+      "title": "CSS Demo: grid-template",
+      "type": "css"
+    },
+    "gridTemplateAreas": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-template-areas.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-template-areas.html",
+      "fileName": "grid-template-areas.html",
+      "title": "CSS Demo: grid-template-areas",
+      "type": "css"
+    },
+    "gridTemplateColumns": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-template-columns.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-template-columns.html",
+      "fileName": "grid-template-columns.html",
+      "title": "CSS Demo: grid-template-columns",
+      "type": "css"
+    },
+    "gridTemplateRows": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/grid-template-rows.css",
+      "exampleCode": "./live-examples/css-examples/grid/grid-template-rows.html",
+      "fileName": "grid-template-rows.html",
+      "title": "CSS Demo: grid-template-rows",
+      "type": "css"
+    },
+    "minmax": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/function-minmax.css",
+      "exampleCode": "./live-examples/css-examples/grid/function-minmax.html",
+      "fileName": "function-minmax.html",
+      "title": "CSS Demo: minmax()",
+      "type": "css"
+    },
+    "repeat": {
+      "cssExampleSrc": "./live-examples/css-examples/grid/function-repeat.css",
+      "exampleCode": "./live-examples/css-examples/grid/function-repeat.html",
+      "fileName": "function-repeat.html",
+      "title": "CSS Demo: repeat()",
+      "type": "css"
     }
+  }
 }

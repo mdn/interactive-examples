@@ -3,4 +3,4 @@ function getLog10e() {
 }
 
 console.log(getLog10e());
-// expected output: 0.4342944819032518
+// Expected output: 0.4342944819032518

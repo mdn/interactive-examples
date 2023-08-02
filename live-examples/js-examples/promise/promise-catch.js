@@ -1,8 +1,8 @@
 const promise1 = new Promise((resolve, reject) => {
-  throw 'Uh-oh!';
+  throw new Error('Uh-oh!');
 });
 
 promise1.catch((error) => {
   console.error(error);
 });
-// expected output: Uh-oh!
+// Expected output: Error: Uh-oh!

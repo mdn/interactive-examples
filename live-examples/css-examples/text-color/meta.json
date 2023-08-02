@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "textStroke": {
+      "cssExampleSrc": "./live-examples/css-examples/text-color/text-stroke.css",
+      "exampleCode": "./live-examples/css-examples/text-color/text-stroke.html",
+      "fileName": "text-stroke.html",
+      "title": "CSS Demo: -webkit-text-stroke",
+      "type": "css"
+    },
+    "textStrokeColor": {
+      "cssExampleSrc": "./live-examples/css-examples/text-color/text-stroke.css",
+      "exampleCode": "./live-examples/css-examples/text-color/text-stroke-color.html",
+      "fileName": "text-stroke-color.html",
+      "title": "CSS Demo: -webkit-text-stroke-color",
+      "type": "css"
+    },
+    "textStrokeWidth": {
+      "cssExampleSrc": "./live-examples/css-examples/text-color/text-stroke.css",
+      "exampleCode": "./live-examples/css-examples/text-color/text-stroke-width.html",
+      "fileName": "text-stroke-width.html",
+      "title": "CSS Demo: -webkit-text-stroke-width",
+      "type": "css"
+    }
+  }
+}

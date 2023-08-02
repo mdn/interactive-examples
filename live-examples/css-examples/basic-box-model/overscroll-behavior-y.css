@@ -1,0 +1,31 @@
+.example-container {
+  position: relative;
+  border: medium dotted;
+  width: 35em;
+  height: 18em;
+  overflow: auto;
+  text-align: left;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 50% 70%;
+}
+
+#example-element {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 30%;
+  height: 70%;
+  border: medium dotted #1b76c4;
+  overflow: auto;
+  overscroll-behavior-y: none;
+  display: grid;
+  grid-template-columns: 80% 50%;
+}
+
+p {
+  padding-left: 1rem;
+  height: 200%;
+}

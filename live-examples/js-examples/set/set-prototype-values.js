@@ -5,7 +5,7 @@ set1.add('forty two');
 const iterator1 = set1.values();
 
 console.log(iterator1.next().value);
-// expected output: 42
+// Expected output: 42
 
 console.log(iterator1.next().value);
-// expected output: "forty two"
+// Expected output: "forty two"

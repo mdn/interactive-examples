@@ -1,5 +1,5 @@
 function fetchUserId(userName) {
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     console.log(`getting user id for ${userName}`);
     setTimeout(() => {
       // returning fixed id for now
@@ -8,7 +8,7 @@ function fetchUserId(userName) {
   });
 }
 
-const getUserId = async function(userName) {
+const getUserId = async function (userName) {
   return await fetchUserId(userName);
 };
 
