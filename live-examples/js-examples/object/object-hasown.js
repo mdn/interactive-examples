@@ -1,5 +1,5 @@
 const object1 = {
-  prop: 'exists'
+  prop: 'exists',
 };
 
 console.log(Object.hasOwn(object1, 'prop'));

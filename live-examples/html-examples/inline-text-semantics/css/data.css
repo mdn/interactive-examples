@@ -1,4 +1,4 @@
 data:hover::after {
-    content: ' (ID ' attr(value) ')';
-    font-size: 0.7em;
+  content: ' (ID ' attr(value) ')';
+  font-size: 0.7em;
 }

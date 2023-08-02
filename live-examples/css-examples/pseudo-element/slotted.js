@@ -1,4 +1,5 @@
-customElements.define('my-card',
+customElements.define(
+  'my-card',
   class extends HTMLElement {
     constructor() {
       super();
@@ -24,5 +25,5 @@ customElements.define('my-card',
         editorStyle.textContent = cssTab.textContent;
       });
     }
-  }
+  },
 );

@@ -1,28 +1,28 @@
 {
-    "pages": {
-        "weakMapPrototypeDelete": {
-            "exampleCode": "./live-examples/js-examples/weakmap/weakmap-prototype-delete.js",
-            "fileName": "weakmap-prototype-delete.html",
-            "title": "JavaScript Demo: WeakMap.prototype.delete()",
-            "type": "js"
-        },
-        "weakMapPrototypeGet": {
-            "exampleCode": "./live-examples/js-examples/weakmap/weakmap-prototype-get.js",
-            "fileName": "weakmap-prototype-get.html",
-            "title": "JavaScript Demo: WeakMap.prototype.get()",
-            "type": "js"
-        },
-        "weakMapPrototypeHas": {
-            "exampleCode": "./live-examples/js-examples/weakmap/weakmap-prototype-has.js",
-            "fileName": "weakmap-prototype-has.html",
-            "title": "JavaScript Demo: WeakMap.prototype.has()",
-            "type": "js"
-        },
-        "weakMapPrototypeSet": {
-            "exampleCode": "./live-examples/js-examples/weakmap/weakmap-prototype-set.js",
-            "fileName": "weakmap-prototype-set.html",
-            "title": "JavaScript Demo: WeakMap.prototype.set()",
-            "type": "js"
-        }
+  "pages": {
+    "weakMapPrototypeDelete": {
+      "exampleCode": "./live-examples/js-examples/weakmap/weakmap-prototype-delete.js",
+      "fileName": "weakmap-prototype-delete.html",
+      "title": "JavaScript Demo: WeakMap.prototype.delete()",
+      "type": "js"
+    },
+    "weakMapPrototypeGet": {
+      "exampleCode": "./live-examples/js-examples/weakmap/weakmap-prototype-get.js",
+      "fileName": "weakmap-prototype-get.html",
+      "title": "JavaScript Demo: WeakMap.prototype.get()",
+      "type": "js"
+    },
+    "weakMapPrototypeHas": {
+      "exampleCode": "./live-examples/js-examples/weakmap/weakmap-prototype-has.js",
+      "fileName": "weakmap-prototype-has.html",
+      "title": "JavaScript Demo: WeakMap.prototype.has()",
+      "type": "js"
+    },
+    "weakMapPrototypeSet": {
+      "exampleCode": "./live-examples/js-examples/weakmap/weakmap-prototype-set.js",
+      "fileName": "weakmap-prototype-set.html",
+      "title": "JavaScript Demo: WeakMap.prototype.set()",
+      "type": "js"
     }
+  }
 }

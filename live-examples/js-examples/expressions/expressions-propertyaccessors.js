@@ -7,7 +7,7 @@ console.log(person1.firstname);
 
 const person2 = {
   firstname: 'John',
-  lastname: 'Doe'
+  lastname: 'Doe',
 };
 
 console.log(person2['lastname']);

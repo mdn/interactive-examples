@@ -1,22 +1,22 @@
 .forecast {
-    margin: 0;
-    padding: 0.3rem;
-    background-color: #eee;
+  margin: 0;
+  padding: 0.3rem;
+  background-color: #eee;
 }
 
 .forecast > h1,
 .day-forecast {
-    margin: 0.5rem;
-    padding: 0.3rem;
-    font-size: 1.2rem;
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
 }
 
 .day-forecast {
-    background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
+  background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
 }
 
 .day-forecast > h2,
 .day-forecast > p {
-    margin: 0.2rem;
-    font-size: 1rem;
+  margin: 0.2rem;
+  font-size: 1rem;
 }

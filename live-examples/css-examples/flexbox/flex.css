@@ -1,20 +1,20 @@
 .default-example {
-    border: 1px solid #c5c5c5;
-    width: auto;
-    max-height: 300px;
-    display: flex;
+  border: 1px solid #c5c5c5;
+  width: auto;
+  max-height: 300px;
+  display: flex;
 }
 
 .default-example > div {
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 3px solid blue;
-    margin: 10px;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
+  background-color: rgba(0, 0, 255, 0.2);
+  border: 3px solid blue;
+  margin: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
 }
 
 #example-element {
-    background-color: rgba(255, 0, 200, 0.2);
-    border: 3px solid rebeccapurple;
+  background-color: rgba(255, 0, 200, 0.2);
+  border: 3px solid rebeccapurple;
 }

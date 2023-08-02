@@ -1,10 +1,10 @@
 table {
-    width: 15rem;
-    table-layout: fixed;
+  width: 15rem;
+  table-layout: fixed;
 }
 
 td {
-    border: 5px solid;
-    border-color: crimson dodgerblue orange limegreen;
-    padding: 0.75rem;
+  border: 5px solid;
+  border-color: crimson dodgerblue orange limegreen;
+  padding: 0.75rem;
 }
