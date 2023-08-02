@@ -1,13 +1,13 @@
 label {
-    display: block;
-    margin-top: 1em;
+  display: block;
+  margin-top: 1em;
 }
 
 input,
 select {
-    width: 100%;
+  width: 100%;
 }
 
 input:invalid {
-    background-color: lightpink;
+  background-color: lightpink;
 }

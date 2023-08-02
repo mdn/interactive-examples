@@ -1,16 +1,16 @@
 a {
-    color: #0000ff;
-    text-decoration: none;
+  color: #0000ff;
+  text-decoration: none;
 }
 
 a::before {
-    content: '🔗';
+  content: '🔗';
 }
 
 .local-link::before {
-    content: url('../../media/examples/firefox-logo.svg');
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
+  content: url('../../media/examples/firefox-logo.svg');
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
 }

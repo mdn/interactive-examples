@@ -11,4 +11,3 @@ promise1.then((value) => {
 
 console.log(promise1);
 // Expected output: [object Promise]
-

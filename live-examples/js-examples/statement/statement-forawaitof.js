@@ -3,7 +3,7 @@ async function* foo() {
   yield 2;
 }
 
-(async function() {
+(async function () {
   for await (const num of foo()) {
     console.log(num);
     // Expected output: 1

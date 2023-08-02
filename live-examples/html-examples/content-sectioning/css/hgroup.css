@@ -1,14 +1,14 @@
 hgroup {
-    text-align: right;
-    padding-right: 16px;
-    border-right: 10px solid #00c8d7;
+  text-align: right;
+  padding-right: 16px;
+  border-right: 10px solid #00c8d7;
 }
 
 hgroup h1 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 hgroup p {
-    margin: 0;
-    font-weight: bold;
+  margin: 0;
+  font-weight: bold;
 }

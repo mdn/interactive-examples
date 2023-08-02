@@ -1,5 +1,5 @@
 html {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 /* stylelint-disable-next-line block-no-empty */
@@ -7,5 +7,5 @@ bdi {
 }
 
 .name {
-    color: red;
+  color: red;
 }

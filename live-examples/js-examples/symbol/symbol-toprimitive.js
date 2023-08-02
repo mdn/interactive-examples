@@ -4,7 +4,7 @@ const object1 = {
       return 42;
     }
     return null;
-  }
+  },
 };
 
 console.log(+object1);
