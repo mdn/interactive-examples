@@ -1,148 +1,148 @@
 {
-    "pages": {
-        "dataviewBuffer": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-buffer.js",
-            "fileName": "dataview-buffer.html",
-            "title": "JavaScript Demo: DataView.buffer",
-            "type": "js"
-        },
-        "dataviewByteLength": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-bytelength.js",
-            "fileName": "dataview-bytelength.html",
-            "title": "JavaScript Demo: DataView.byteLength",
-            "type": "js"
-        },
-        "dataviewByteOffset": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-byteoffset.js",
-            "fileName": "dataview-byteoffset.html",
-            "title": "JavaScript Demo: DataView.byteOffset",
-            "type": "js"
-        },
-        "dataviewConstructor": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-constructor.js",
-            "fileName": "dataview-constructor.html",
-            "title": "JavaScript Demo: DataView Constructor",
-            "type": "js"
-        },
-        "dataviewGetBigInt64": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-getbigint64.js",
-            "fileName": "dataview-getbigint64.html",
-            "title": "JavaScript Demo: DataView.getBigInt64()",
-            "type": "js"
-        },
-        "dataviewGetBigUint64": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-getbiguint64.js",
-            "fileName": "dataview-getbiguint64.html",
-            "title": "JavaScript Demo: DataView.getBigUint64()",
-            "type": "js"
-        },
-        "dataviewGetFloat32": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-getfloat32.js",
-            "fileName": "dataview-getfloat32.html",
-            "title": "JavaScript Demo: DataView.getFloat32()",
-            "type": "js"
-        },
-        "dataviewGetFloat64": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-getfloat64.js",
-            "fileName": "dataview-getfloat64.html",
-            "title": "JavaScript Demo: DataView.getFloat64()",
-            "type": "js"
-        },
-        "dataviewGetInt8": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-getint8.js",
-            "fileName": "dataview-getint8.html",
-            "title": "JavaScript Demo: DataView.getInt8()",
-            "type": "js"
-        },
-        "dataviewGetInt16": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-getint16.js",
-            "fileName": "dataview-getint16.html",
-            "title": "JavaScript Demo: DataView.getInt16()",
-            "type": "js"
-        },
-        "dataviewGetInt32": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-getint32.js",
-            "fileName": "dataview-getint32.html",
-            "title": "JavaScript Demo: DataView.getInt32()",
-            "type": "js"
-        },
-        "dataviewGetUint8": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-getuint8.js",
-            "fileName": "dataview-getuint8.html",
-            "title": "JavaScript Demo: DataView.getUint8()",
-            "type": "js"
-        },
-        "dataviewGetUint16": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-getuint16.js",
-            "fileName": "dataview-getuint16.html",
-            "title": "JavaScript Demo: DataView.getUint16()",
-            "type": "js"
-        },
-        "dataviewGetUint32": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-getuint32.js",
-            "fileName": "dataview-getuint32.html",
-            "title": "JavaScript Demo: DataView.getUint32()",
-            "type": "js"
-        },
-        "dataviewSetBigInt64": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-setbigint64.js",
-            "fileName": "dataview-setbigint64.html",
-            "title": "JavaScript Demo: DataView.setBigInt64()",
-            "type": "js"
-        },
-        "dataviewSetBigUint64": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-setbiguint64.js",
-            "fileName": "dataview-setbiguint64.html",
-            "title": "JavaScript Demo: DataView.setBigUint64()",
-            "type": "js"
-        },
-        "dataviewSetFloat32": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-setfloat32.js",
-            "fileName": "dataview-setfloat32.html",
-            "title": "JavaScript Demo: DataView.setFloat32()",
-            "type": "js"
-        },
-        "dataviewSetFloat64": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-setfloat64.js",
-            "fileName": "dataview-setfloat64.html",
-            "title": "JavaScript Demo: DataView.setFloat64()",
-            "type": "js"
-        },
-        "dataviewSetInt8": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-setint8.js",
-            "fileName": "dataview-setint8.html",
-            "title": "JavaScript Demo: DataView.setInt8()",
-            "type": "js"
-        },
-        "dataviewSetInt16": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-setint16.js",
-            "fileName": "dataview-setint16.html",
-            "title": "JavaScript Demo: DataView.setInt16()",
-            "type": "js"
-        },
-        "dataviewSetInt32": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-setint32.js",
-            "fileName": "dataview-setint32.html",
-            "title": "JavaScript Demo: DataView.setInt32()",
-            "type": "js"
-        },
-        "dataviewSetUint8": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-setuint8.js",
-            "fileName": "dataview-setuint8.html",
-            "title": "JavaScript Demo: DataView.setUint8()",
-            "type": "js"
-        },
-        "dataviewSetUint8etUint16": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-setuint16.js",
-            "fileName": "dataview-setuint16.html",
-            "title": "JavaScript Demo: DataView.setUint16()",
-            "type": "js"
-        },
-        "dataviewSetUint32": {
-            "exampleCode": "./live-examples/js-examples/dataview/dataview-setuint32.js",
-            "fileName": "dataview-setuint32.html",
-            "title": "JavaScript Demo: DataView.setUint32()",
-            "type": "js"
-        }
+  "pages": {
+    "dataviewBuffer": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-buffer.js",
+      "fileName": "dataview-buffer.html",
+      "title": "JavaScript Demo: DataView.buffer",
+      "type": "js"
+    },
+    "dataviewByteLength": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-bytelength.js",
+      "fileName": "dataview-bytelength.html",
+      "title": "JavaScript Demo: DataView.byteLength",
+      "type": "js"
+    },
+    "dataviewByteOffset": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-byteoffset.js",
+      "fileName": "dataview-byteoffset.html",
+      "title": "JavaScript Demo: DataView.byteOffset",
+      "type": "js"
+    },
+    "dataviewConstructor": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-constructor.js",
+      "fileName": "dataview-constructor.html",
+      "title": "JavaScript Demo: DataView Constructor",
+      "type": "js"
+    },
+    "dataviewGetBigInt64": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-getbigint64.js",
+      "fileName": "dataview-getbigint64.html",
+      "title": "JavaScript Demo: DataView.getBigInt64()",
+      "type": "js"
+    },
+    "dataviewGetBigUint64": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-getbiguint64.js",
+      "fileName": "dataview-getbiguint64.html",
+      "title": "JavaScript Demo: DataView.getBigUint64()",
+      "type": "js"
+    },
+    "dataviewGetFloat32": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-getfloat32.js",
+      "fileName": "dataview-getfloat32.html",
+      "title": "JavaScript Demo: DataView.getFloat32()",
+      "type": "js"
+    },
+    "dataviewGetFloat64": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-getfloat64.js",
+      "fileName": "dataview-getfloat64.html",
+      "title": "JavaScript Demo: DataView.getFloat64()",
+      "type": "js"
+    },
+    "dataviewGetInt8": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-getint8.js",
+      "fileName": "dataview-getint8.html",
+      "title": "JavaScript Demo: DataView.getInt8()",
+      "type": "js"
+    },
+    "dataviewGetInt16": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-getint16.js",
+      "fileName": "dataview-getint16.html",
+      "title": "JavaScript Demo: DataView.getInt16()",
+      "type": "js"
+    },
+    "dataviewGetInt32": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-getint32.js",
+      "fileName": "dataview-getint32.html",
+      "title": "JavaScript Demo: DataView.getInt32()",
+      "type": "js"
+    },
+    "dataviewGetUint8": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-getuint8.js",
+      "fileName": "dataview-getuint8.html",
+      "title": "JavaScript Demo: DataView.getUint8()",
+      "type": "js"
+    },
+    "dataviewGetUint16": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-getuint16.js",
+      "fileName": "dataview-getuint16.html",
+      "title": "JavaScript Demo: DataView.getUint16()",
+      "type": "js"
+    },
+    "dataviewGetUint32": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-getuint32.js",
+      "fileName": "dataview-getuint32.html",
+      "title": "JavaScript Demo: DataView.getUint32()",
+      "type": "js"
+    },
+    "dataviewSetBigInt64": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-setbigint64.js",
+      "fileName": "dataview-setbigint64.html",
+      "title": "JavaScript Demo: DataView.setBigInt64()",
+      "type": "js"
+    },
+    "dataviewSetBigUint64": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-setbiguint64.js",
+      "fileName": "dataview-setbiguint64.html",
+      "title": "JavaScript Demo: DataView.setBigUint64()",
+      "type": "js"
+    },
+    "dataviewSetFloat32": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-setfloat32.js",
+      "fileName": "dataview-setfloat32.html",
+      "title": "JavaScript Demo: DataView.setFloat32()",
+      "type": "js"
+    },
+    "dataviewSetFloat64": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-setfloat64.js",
+      "fileName": "dataview-setfloat64.html",
+      "title": "JavaScript Demo: DataView.setFloat64()",
+      "type": "js"
+    },
+    "dataviewSetInt8": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-setint8.js",
+      "fileName": "dataview-setint8.html",
+      "title": "JavaScript Demo: DataView.setInt8()",
+      "type": "js"
+    },
+    "dataviewSetInt16": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-setint16.js",
+      "fileName": "dataview-setint16.html",
+      "title": "JavaScript Demo: DataView.setInt16()",
+      "type": "js"
+    },
+    "dataviewSetInt32": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-setint32.js",
+      "fileName": "dataview-setint32.html",
+      "title": "JavaScript Demo: DataView.setInt32()",
+      "type": "js"
+    },
+    "dataviewSetUint8": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-setuint8.js",
+      "fileName": "dataview-setuint8.html",
+      "title": "JavaScript Demo: DataView.setUint8()",
+      "type": "js"
+    },
+    "dataviewSetUint8etUint16": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-setuint16.js",
+      "fileName": "dataview-setuint16.html",
+      "title": "JavaScript Demo: DataView.setUint16()",
+      "type": "js"
+    },
+    "dataviewSetUint32": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-setuint32.js",
+      "fileName": "dataview-setuint32.html",
+      "title": "JavaScript Demo: DataView.setUint32()",
+      "type": "js"
     }
+  }
 }

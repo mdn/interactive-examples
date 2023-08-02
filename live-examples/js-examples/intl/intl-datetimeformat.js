@@ -10,5 +10,7 @@ console.log(new Intl.DateTimeFormat(['ban', 'id']).format(date));
 // Expected output: "20/12/2020"
 
 // Specify date and time format using "style" options (i.e. full, long, medium, short)
-console.log(new Intl.DateTimeFormat('en-GB', { dateStyle: 'full', timeStyle: 'long', timeZone: 'Australia/Sydney' }).format(date));
+console.log(
+  new Intl.DateTimeFormat('en-GB', { dateStyle: 'full', timeStyle: 'long', timeZone: 'Australia/Sydney' }).format(date),
+);
 // Expected output: "Sunday, 20 December 2020 at 14:23:16 GMT+11"

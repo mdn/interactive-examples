@@ -1,0 +1,12 @@
+button {
+  display: block;
+  margin: auto;
+  width: 10rem;
+  height: 2rem;
+}
+
+:modal {
+  background-color: beige;
+  border: 2px solid burlywood;
+  border-radius: 5px;
+}

@@ -1,85 +1,98 @@
 {
-    "pages": {
-        "after": {
-            "exampleCode": "./live-examples/css-examples/pseudo-element/after.html",
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/after.css",
-            "fileName": "pseudo-element-after.html",
-            "title": "HTML Demo: ::after",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-standard"
-        },
-        "before": {
-            "exampleCode": "./live-examples/css-examples/pseudo-element/before.html",
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/before.css",
-            "fileName": "pseudo-element-before.html",
-            "title": "HTML Demo: ::before",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-standard"
-        },
-        "cue": {
-            "exampleCode": "./live-examples/css-examples/pseudo-element/cue.html",
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/cue.css",
-            "fileName": "pseudo-element-cue.html",
-            "title": "HTML Demo: ::cue",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "fileSelectorButton": {
-            "exampleCode": "./live-examples/css-examples/pseudo-element/file-selector-button.html",
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/file-selector-button.css",
-            "fileName": "pseudo-element-file-selector-button.html",
-            "title": "HTML Demo: ::file-selector-button",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "firstLetter": {
-            "exampleCode": "./live-examples/css-examples/pseudo-element/first-letter.html",
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/first-letter.css",
-            "fileName": "pseudo-element-first-letter.html",
-            "title": "HTML Demo: ::first-letter",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "firstLine": {
-            "exampleCode": "./live-examples/css-examples/pseudo-element/first-line.html",
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/first-line.css",
-            "fileName": "pseudo-element-first-line.html",
-            "title": "HTML Demo: ::first-line",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "marker": {
-            "exampleCode": "./live-examples/css-examples/pseudo-element/marker.html",
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/marker.css",
-            "fileName": "pseudo-element-marker.html",
-            "title": "HTML Demo: ::marker",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "placeholder": {
-            "exampleCode": "./live-examples/css-examples/pseudo-element/placeholder.html",
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/placeholder.css",
-            "fileName": "pseudo-element-placeholder.html",
-            "title": "HTML Demo: ::placeholder",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "selection": {
-            "exampleCode": "./live-examples/css-examples/pseudo-element/selection.html",
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-element/selection.css",
-            "fileName": "pseudo-element-selection.html",
-            "title": "HTML Demo: ::selection",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        }
+  "pages": {
+    "after": {
+      "exampleCode": "./live-examples/css-examples/pseudo-element/after.html",
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-element/after.css",
+      "fileName": "pseudo-element-after.html",
+      "title": "HTML Demo: ::after",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-standard"
+    },
+    "backdrop": {
+      "exampleCode": "./live-examples/css-examples/pseudo-element/backdrop.html",
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-element/backdrop.css",
+      "jsExampleSrc": "./live-examples/css-examples/pseudo-element/backdrop.js",
+      "fileName": "pseudo-element-backdrop.html",
+      "title": "HTML Demo: ::backdrop",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "tabs": "html,css,js",
+      "height": "tabbed-shorter"
+    },
+    "before": {
+      "exampleCode": "./live-examples/css-examples/pseudo-element/before.html",
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-element/before.css",
+      "fileName": "pseudo-element-before.html",
+      "title": "HTML Demo: ::before",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-standard"
+    },
+    "cue": {
+      "exampleCode": "./live-examples/css-examples/pseudo-element/cue.html",
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-element/cue.css",
+      "fileName": "pseudo-element-cue.html",
+      "title": "HTML Demo: ::cue",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "fileSelectorButton": {
+      "exampleCode": "./live-examples/css-examples/pseudo-element/file-selector-button.html",
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-element/file-selector-button.css",
+      "fileName": "pseudo-element-file-selector-button.html",
+      "title": "HTML Demo: ::file-selector-button",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "firstLetter": {
+      "exampleCode": "./live-examples/css-examples/pseudo-element/first-letter.html",
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-element/first-letter.css",
+      "fileName": "pseudo-element-first-letter.html",
+      "title": "HTML Demo: ::first-letter",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "firstLine": {
+      "exampleCode": "./live-examples/css-examples/pseudo-element/first-line.html",
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-element/first-line.css",
+      "fileName": "pseudo-element-first-line.html",
+      "title": "HTML Demo: ::first-line",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "placeholder": {
+      "exampleCode": "./live-examples/css-examples/pseudo-element/placeholder.html",
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-element/placeholder.css",
+      "fileName": "pseudo-element-placeholder.html",
+      "title": "HTML Demo: ::placeholder",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "selection": {
+      "exampleCode": "./live-examples/css-examples/pseudo-element/selection.html",
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-element/selection.css",
+      "fileName": "pseudo-element-selection.html",
+      "title": "HTML Demo: ::selection",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "slotted": {
+      "exampleCode": "./live-examples/css-examples/pseudo-element/slotted.html",
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-element/slotted.css",
+      "jsExampleSrc": "./live-examples/css-examples/pseudo-element/slotted.js",
+      "fileName": "pseudo-element-slotted.html",
+      "title": "HTML Demo: ::slotted()",
+      "type": "tabbed",
+      "tabs": "html,css,js",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
     }
+  }
 }
