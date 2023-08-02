@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "weakRef": {
+      "exampleCode": "./live-examples/js-examples/weakref/weakref.js",
+      "fileName": "weakref.html",
+      "title": "JavaScript Demo: WeakRef",
+      "type": "js"
+    },
+    "weakRefConstructor": {
+      "exampleCode": "./live-examples/js-examples/weakref/weakref-constructor.js",
+      "fileName": "weakref-constructor.html",
+      "title": "JavaScript Demo: WeakRef Constructor",
+      "type": "js"
+    },
+    "weakRefPrototypeDeref": {
+      "exampleCode": "./live-examples/js-examples/weakref/weakref-prototype-deref.js",
+      "fileName": "weakref-prototype-deref.html",
+      "title": "JavaScript Demo: WeakRef.prototype.deref()",
+      "type": "js"
+    }
+  }
+}

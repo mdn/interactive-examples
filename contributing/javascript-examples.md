@@ -13,7 +13,7 @@ console.log(result);
 // Expected output: Array [ "f", "o", "o" ]
 ```
 
-Please make sure the example conforms to the [JS Example Style Guide](JS-Example-Style-Guide.md).
+Please make sure the example conforms to the [JS Example Style Guide](javascript-style-guide.md).
 
 ## Updating the metadata
 
@@ -32,4 +32,4 @@ The `title` property is displayed above the editor, and should be of the form: "
 
 The `fileName` property is the name of a HTML page that will be generated for you to run the associated JavaScript example. The filename should match that of the javascript example (with file extension .html).
 
-Once you've finished writing the example, see the [Testing](CONTRIBUTING.md#testing) section for the next step.
+Once you've finished writing the example, see the [Testing](../CONTRIBUTING.md#testing) section for the next step.
