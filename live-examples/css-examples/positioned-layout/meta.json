@@ -1,95 +1,95 @@
 {
-    "pages": {
-        "bottom": {
-            "cssExampleSrc": "./live-examples/css-examples/positioned-layout/offsets.css",
-            "exampleCode": "./live-examples/css-examples/positioned-layout/bottom.html",
-            "fileName": "bottom.html",
-            "title": "CSS Demo: bottom",
-            "type": "css"
-        },
-        "left": {
-            "cssExampleSrc": "./live-examples/css-examples/positioned-layout/offsets.css",
-            "exampleCode": "./live-examples/css-examples/positioned-layout/left.html",
-            "fileName": "left.html",
-            "title": "CSS Demo: left",
-            "type": "css"
-        },
-        "position": {
-            "cssExampleSrc": "./live-examples/css-examples/positioned-layout/position.css",
-            "exampleCode": "./live-examples/css-examples/positioned-layout/position.html",
-            "fileName": "position.html",
-            "title": "CSS Demo: position",
-            "type": "css"
-        },
-        "right": {
-            "cssExampleSrc": "./live-examples/css-examples/positioned-layout/offsets.css",
-            "exampleCode": "./live-examples/css-examples/positioned-layout/right.html",
-            "fileName": "right.html",
-            "title": "CSS Demo: right",
-            "type": "css"
-        },
-        "top": {
-            "cssExampleSrc": "./live-examples/css-examples/positioned-layout/offsets.css",
-            "exampleCode": "./live-examples/css-examples/positioned-layout/top.html",
-            "fileName": "top.html",
-            "title": "CSS Demo: top",
-            "type": "css"
-        },
-        "inset": {
-            "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
-            "exampleCode": "./live-examples/css-examples/positioned-layout/inset.html",
-            "fileName": "inset.html",
-            "title": "CSS Demo: inset",
-            "type": "css"
-        },
-        "insetBlock": {
-            "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
-            "exampleCode": "./live-examples/css-examples/positioned-layout/inset-block.html",
-            "fileName": "inset-block.html",
-            "title": "CSS Demo: inset-block",
-            "type": "css"
-        },
-        "insetBlockEnd": {
-            "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
-            "exampleCode": "./live-examples/css-examples/positioned-layout/inset-block-end.html",
-            "fileName": "inset-block-end.html",
-            "title": "CSS Demo: inset-block-end",
-            "type": "css"
-        },
-        "insetBlockStart": {
-            "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
-            "exampleCode": "./live-examples/css-examples/positioned-layout/inset-block-start.html",
-            "fileName": "inset-block-start.html",
-            "title": "CSS Demo: inset-block-start",
-            "type": "css"
-        },
-        "insetInline": {
-            "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
-            "exampleCode": "./live-examples/css-examples/positioned-layout/inset-inline.html",
-            "fileName": "inset-inline.html",
-            "title": "CSS Demo: inset-inline",
-            "type": "css"
-        },
-        "insetInlineEnd": {
-            "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
-            "exampleCode": "./live-examples/css-examples/positioned-layout/inset-inline-end.html",
-            "fileName": "inset-inline-end.html",
-            "title": "CSS Demo: inset-inline-end",
-            "type": "css"
-        },
-        "insetInlineStart": {
-            "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
-            "exampleCode": "./live-examples/css-examples/positioned-layout/inset-inline-start.html",
-            "fileName": "inset-inline-start.html",
-            "title": "CSS Demo: inset-inline-start",
-            "type": "css"
-        },
-        "zIndex": {
-            "cssExampleSrc": "./live-examples/css-examples/positioned-layout/z-index.css",
-            "exampleCode": "./live-examples/css-examples/positioned-layout/z-index.html",
-            "fileName": "z-index.html",
-            "title": "CSS Demo: z-index",
-            "type": "css"
-        }
+  "pages": {
+    "bottom": {
+      "cssExampleSrc": "./live-examples/css-examples/positioned-layout/offsets.css",
+      "exampleCode": "./live-examples/css-examples/positioned-layout/bottom.html",
+      "fileName": "bottom.html",
+      "title": "CSS Demo: bottom",
+      "type": "css"
+    },
+    "left": {
+      "cssExampleSrc": "./live-examples/css-examples/positioned-layout/offsets.css",
+      "exampleCode": "./live-examples/css-examples/positioned-layout/left.html",
+      "fileName": "left.html",
+      "title": "CSS Demo: left",
+      "type": "css"
+    },
+    "position": {
+      "cssExampleSrc": "./live-examples/css-examples/positioned-layout/position.css",
+      "exampleCode": "./live-examples/css-examples/positioned-layout/position.html",
+      "fileName": "position.html",
+      "title": "CSS Demo: position",
+      "type": "css"
+    },
+    "right": {
+      "cssExampleSrc": "./live-examples/css-examples/positioned-layout/offsets.css",
+      "exampleCode": "./live-examples/css-examples/positioned-layout/right.html",
+      "fileName": "right.html",
+      "title": "CSS Demo: right",
+      "type": "css"
+    },
+    "top": {
+      "cssExampleSrc": "./live-examples/css-examples/positioned-layout/offsets.css",
+      "exampleCode": "./live-examples/css-examples/positioned-layout/top.html",
+      "fileName": "top.html",
+      "title": "CSS Demo: top",
+      "type": "css"
+    },
+    "inset": {
+      "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
+      "exampleCode": "./live-examples/css-examples/positioned-layout/inset.html",
+      "fileName": "inset.html",
+      "title": "CSS Demo: inset",
+      "type": "css"
+    },
+    "insetBlock": {
+      "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
+      "exampleCode": "./live-examples/css-examples/positioned-layout/inset-block.html",
+      "fileName": "inset-block.html",
+      "title": "CSS Demo: inset-block",
+      "type": "css"
+    },
+    "insetBlockEnd": {
+      "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
+      "exampleCode": "./live-examples/css-examples/positioned-layout/inset-block-end.html",
+      "fileName": "inset-block-end.html",
+      "title": "CSS Demo: inset-block-end",
+      "type": "css"
+    },
+    "insetBlockStart": {
+      "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
+      "exampleCode": "./live-examples/css-examples/positioned-layout/inset-block-start.html",
+      "fileName": "inset-block-start.html",
+      "title": "CSS Demo: inset-block-start",
+      "type": "css"
+    },
+    "insetInline": {
+      "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
+      "exampleCode": "./live-examples/css-examples/positioned-layout/inset-inline.html",
+      "fileName": "inset-inline.html",
+      "title": "CSS Demo: inset-inline",
+      "type": "css"
+    },
+    "insetInlineEnd": {
+      "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
+      "exampleCode": "./live-examples/css-examples/positioned-layout/inset-inline-end.html",
+      "fileName": "inset-inline-end.html",
+      "title": "CSS Demo: inset-inline-end",
+      "type": "css"
+    },
+    "insetInlineStart": {
+      "cssExampleSrc": "./live-examples/css-examples/positioned-layout/inset.css",
+      "exampleCode": "./live-examples/css-examples/positioned-layout/inset-inline-start.html",
+      "fileName": "inset-inline-start.html",
+      "title": "CSS Demo: inset-inline-start",
+      "type": "css"
+    },
+    "zIndex": {
+      "cssExampleSrc": "./live-examples/css-examples/positioned-layout/z-index.css",
+      "exampleCode": "./live-examples/css-examples/positioned-layout/z-index.html",
+      "fileName": "z-index.html",
+      "title": "CSS Demo: z-index",
+      "type": "css"
     }
+  }
 }

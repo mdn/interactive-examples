@@ -1,10 +1,10 @@
 label {
-    display: block;
-    margin-top: 1em;
+  display: block;
+  margin-top: 1em;
 }
 
 input:placeholder-shown {
-    background-color: ivory;
-    border: 2px solid darkorange;
-    border-radius: 5px;
+  background-color: ivory;
+  border: 2px solid darkorange;
+  border-radius: 5px;
 }

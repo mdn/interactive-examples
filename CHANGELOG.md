@@ -2,31 +2,28 @@
 
 ## [2.0.0](https://github.com/mdn/interactive-examples/compare/v1.0.4...v2.0.0) (2023-02-24)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **deps-dev:** bump @mdn/bob from 2.2.0 to 3.0.3 ([#2454](https://github.com/mdn/interactive-examples/issues/2454))
+- **deps-dev:** bump @mdn/bob from 2.2.0 to 3.0.3 ([#2454](https://github.com/mdn/interactive-examples/issues/2454))
 
 ### Miscellaneous Chores
 
-* **deps-dev:** bump @mdn/bob from 2.2.0 to 3.0.3 ([#2454](https://github.com/mdn/interactive-examples/issues/2454)) ([4165fbf](https://github.com/mdn/interactive-examples/commit/4165fbf1e3c7bbbc917d77ef2c0e2db6a280fc58))
+- **deps-dev:** bump @mdn/bob from 2.2.0 to 3.0.3 ([#2454](https://github.com/mdn/interactive-examples/issues/2454)) ([4165fbf](https://github.com/mdn/interactive-examples/commit/4165fbf1e3c7bbbc917d77ef2c0e2db6a280fc58))
 
 ## [1.0.4](https://github.com/mdn/interactive-examples/compare/v1.0.3...v1.0.4) (2023-02-14)
 
-
 ### Bug Fixes
 
-* **ci:** run main workflow with NodeJS 18 ([#2429](https://github.com/mdn/interactive-examples/issues/2429)) ([a74779e](https://github.com/mdn/interactive-examples/commit/a74779ecd2381e011405ae609fe5eaf09c36598d))
-* **ci:** skip deploy/release on dependabot merges ([#2422](https://github.com/mdn/interactive-examples/issues/2422)) ([e606273](https://github.com/mdn/interactive-examples/commit/e606273bd6a182cf52962e6fc222bdf7e48d70f1))
-* correct return type for function ([#2391](https://github.com/mdn/interactive-examples/issues/2391)) ([56ca48a](https://github.com/mdn/interactive-examples/commit/56ca48a7ea9d7ddd429e0fb678e4d1ee3d72c372))
-* **stage-deploy:** build main with local bob ([#2370](https://github.com/mdn/interactive-examples/issues/2370)) ([a418610](https://github.com/mdn/interactive-examples/commit/a41861014c4aa618ea54976b2de27557ec52b070))
+- **ci:** run main workflow with NodeJS 18 ([#2429](https://github.com/mdn/interactive-examples/issues/2429)) ([a74779e](https://github.com/mdn/interactive-examples/commit/a74779ecd2381e011405ae609fe5eaf09c36598d))
+- **ci:** skip deploy/release on dependabot merges ([#2422](https://github.com/mdn/interactive-examples/issues/2422)) ([e606273](https://github.com/mdn/interactive-examples/commit/e606273bd6a182cf52962e6fc222bdf7e48d70f1))
+- correct return type for function ([#2391](https://github.com/mdn/interactive-examples/issues/2391)) ([56ca48a](https://github.com/mdn/interactive-examples/commit/56ca48a7ea9d7ddd429e0fb678e4d1ee3d72c372))
+- **stage-deploy:** build main with local bob ([#2370](https://github.com/mdn/interactive-examples/issues/2370)) ([a418610](https://github.com/mdn/interactive-examples/commit/a41861014c4aa618ea54976b2de27557ec52b070))
 
 ## [1.0.3](https://github.com/mdn/interactive-examples/compare/v1.0.2...v1.0.3) (2022-10-07)
 
-
 ### Bug Fixes
 
-* malformed code flagged by Prettier ([#2285](https://github.com/mdn/interactive-examples/issues/2285)) ([5aec104](https://github.com/mdn/interactive-examples/commit/5aec1045155bbf6589fb261e82a84581cf45b0a2))
+- malformed code flagged by Prettier ([#2285](https://github.com/mdn/interactive-examples/issues/2285)) ([5aec104](https://github.com/mdn/interactive-examples/commit/5aec1045155bbf6589fb261e82a84581cf45b0a2))
 
 ## [1.0.2](https://github.com/mdn/interactive-examples/compare/v1.0.1...v1.0.2) (2022-08-22)
 

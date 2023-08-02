@@ -1,37 +1,37 @@
 {
-    "pages": {
-        "direction": {
-            "cssExampleSrc": "./live-examples/css-examples/writing-modes/direction.css",
-            "exampleCode": "./live-examples/css-examples/writing-modes/direction.html",
-            "fileName": "direction.html",
-            "title": "CSS Demo: direction",
-            "type": "css"
-        },
-        "textCombineUpright": {
-            "cssExampleSrc": "./live-examples/css-examples/writing-modes/text-combine-upright.css",
-            "exampleCode": "./live-examples/css-examples/writing-modes/text-combine-upright.html",
-            "fileName": "text-combine-upright.html",
-            "title": "CSS Demo: text-combine-upright",
-            "type": "css"
-        },
-        "textOrientation": {
-            "exampleCode": "./live-examples/css-examples/writing-modes/text-orientation.html",
-            "fileName": "text-orientation.html",
-            "title": "CSS Demo: text-orientation",
-            "type": "css"
-        },
-        "unicodeBidi": {
-            "exampleCode": "./live-examples/css-examples/writing-modes/unicode-bidi.html",
-            "fileName": "unicode-bidi.html",
-            "title": "CSS Demo: unicode-bidi",
-            "type": "css"
-        },
-        "writingMode": {
-            "cssExampleSrc": "./live-examples/css-examples/writing-modes/writing-mode.css",
-            "exampleCode": "./live-examples/css-examples/writing-modes/writing-mode.html",
-            "fileName": "writing-mode.html",
-            "title": "CSS Demo: writing-mode",
-            "type": "css"
-        }
+  "pages": {
+    "direction": {
+      "cssExampleSrc": "./live-examples/css-examples/writing-modes/direction.css",
+      "exampleCode": "./live-examples/css-examples/writing-modes/direction.html",
+      "fileName": "direction.html",
+      "title": "CSS Demo: direction",
+      "type": "css"
+    },
+    "textCombineUpright": {
+      "cssExampleSrc": "./live-examples/css-examples/writing-modes/text-combine-upright.css",
+      "exampleCode": "./live-examples/css-examples/writing-modes/text-combine-upright.html",
+      "fileName": "text-combine-upright.html",
+      "title": "CSS Demo: text-combine-upright",
+      "type": "css"
+    },
+    "textOrientation": {
+      "exampleCode": "./live-examples/css-examples/writing-modes/text-orientation.html",
+      "fileName": "text-orientation.html",
+      "title": "CSS Demo: text-orientation",
+      "type": "css"
+    },
+    "unicodeBidi": {
+      "exampleCode": "./live-examples/css-examples/writing-modes/unicode-bidi.html",
+      "fileName": "unicode-bidi.html",
+      "title": "CSS Demo: unicode-bidi",
+      "type": "css"
+    },
+    "writingMode": {
+      "cssExampleSrc": "./live-examples/css-examples/writing-modes/writing-mode.css",
+      "exampleCode": "./live-examples/css-examples/writing-modes/writing-mode.html",
+      "fileName": "writing-mode.html",
+      "title": "CSS Demo: writing-mode",
+      "type": "css"
     }
+  }
 }
