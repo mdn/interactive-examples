@@ -6,7 +6,7 @@ Home of the [MDN](https://developer.mozilla.org/) interactive code examples.
 
 ## Project maintainers
 
-Should you have any questions regarding this project, please feel free to @mention either @wbamberg or @bsmth
+Should you have any questions regarding this project, please feel free to @mention either @wbamberg, @bsmth or @NiedziolkaMichal.
 
 ## Good first issues
 
