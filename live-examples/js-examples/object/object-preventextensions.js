@@ -4,7 +4,7 @@ Object.preventExtensions(object1);
 
 try {
   Object.defineProperty(object1, 'property1', {
-    value: 42
+    value: 42,
   });
 } catch (e) {
   console.log(e);

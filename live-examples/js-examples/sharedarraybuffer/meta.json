@@ -1,22 +1,22 @@
 {
-    "pages": {
-        "sharedarraybufferByteLength": {
-            "exampleCode": "./live-examples/js-examples/sharedarraybuffer/sharedarraybuffer-bytelength.js",
-            "fileName": "sharedarraybuffer-bytelength.html",
-            "title": "JavaScript Demo: SharedArrayBuffer.byteLength",
-            "type": "js"
-        },
-        "sharedarraybufferConstructor": {
-            "exampleCode": "./live-examples/js-examples/sharedarraybuffer/sharedarraybuffer-constructor.js",
-            "fileName": "sharedarraybuffer-constructor.html",
-            "title": "JavaScript Demo: SharedArrayBuffer Constructor",
-            "type": "js"
-        },
-        "sharedarraybufferSlice": {
-            "exampleCode": "./live-examples/js-examples/sharedarraybuffer/sharedarraybuffer-slice.js",
-            "fileName": "sharedarraybuffer-slice.html",
-            "title": "JavaScript Demo: SharedArrayBuffer.slice()",
-            "type": "js"
-        }
+  "pages": {
+    "sharedarraybufferByteLength": {
+      "exampleCode": "./live-examples/js-examples/sharedarraybuffer/sharedarraybuffer-bytelength.js",
+      "fileName": "sharedarraybuffer-bytelength.html",
+      "title": "JavaScript Demo: SharedArrayBuffer.byteLength",
+      "type": "js"
+    },
+    "sharedarraybufferConstructor": {
+      "exampleCode": "./live-examples/js-examples/sharedarraybuffer/sharedarraybuffer-constructor.js",
+      "fileName": "sharedarraybuffer-constructor.html",
+      "title": "JavaScript Demo: SharedArrayBuffer Constructor",
+      "type": "js"
+    },
+    "sharedarraybufferSlice": {
+      "exampleCode": "./live-examples/js-examples/sharedarraybuffer/sharedarraybuffer-slice.js",
+      "fileName": "sharedarraybuffer-slice.html",
+      "title": "JavaScript Demo: SharedArrayBuffer.slice()",
+      "type": "js"
     }
+  }
 }

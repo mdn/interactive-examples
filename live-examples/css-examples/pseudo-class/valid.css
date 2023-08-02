@@ -1,12 +1,12 @@
 label {
-    display: block;
-    margin-top: 1em;
+  display: block;
+  margin-top: 1em;
 }
 
 input:valid {
-    background-color: ivory;
-    border: none;
-    outline: 2px solid deepskyblue;
-    border-radius: 5px;
-    accent-color: gold;
+  background-color: ivory;
+  border: none;
+  outline: 2px solid deepskyblue;
+  border-radius: 5px;
+  accent-color: gold;
 }

@@ -1,6 +1,7 @@
 #example-element {
-    background-color: lightsalmon;
-    padding: 0.75em;
-    width: 180px;
-    height: 120px;
+  background-color: #0118f3;
+  padding: 0.75em;
+  width: 180px;
+  height: 120px;
+  color: white;
 }

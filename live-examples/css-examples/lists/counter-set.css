@@ -1,17 +1,18 @@
 #default-example {
-    text-align: left;
-    counter-set: chapter-count;
+  text-align: left;
+  counter-set: chapter-count;
 }
 
 #example-element {
-    background-color: lightblue;
+  background-color: #37077c;
+  color: white;
 }
 
 h2 {
-    counter-increment: chapter-count;
-    font-size: 1em;
+  counter-increment: chapter-count;
+  font-size: 1em;
 }
 
 h2::before {
-    content: 'Chapter ' counter(chapter-count) ': ';
+  content: 'Chapter ' counter(chapter-count) ': ';
 }

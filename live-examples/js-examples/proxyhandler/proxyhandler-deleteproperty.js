@@ -1,5 +1,5 @@
 const monster1 = {
-  texture: 'scaly'
+  texture: 'scaly',
 };
 
 const handler1 = {
@@ -9,7 +9,7 @@ const handler1 = {
       console.log(`property removed: ${prop}`);
       // Expected output: "property removed: texture"
     }
-  }
+  },
 };
 
 console.log(monster1.texture);

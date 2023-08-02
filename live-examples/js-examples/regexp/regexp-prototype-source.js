@@ -1,4 +1,4 @@
-const regex1 = /fooBar/ig;
+const regex1 = /fooBar/gi;
 
 console.log(regex1.source);
 // Expected output: "fooBar"
