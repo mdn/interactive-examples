@@ -9,7 +9,7 @@
 * @mdn/core-yari-content
 
 # All examples
-/live-examples/* @mdn/yari-content-mdn
+/live-examples/ @mdn/yari-content-mdn
 
 # JavaScript examples
 /live-examples/js-examples/ @mdn/yari-content-javascript
