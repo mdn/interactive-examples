@@ -1,7 +1,7 @@
 video {
-    width: 250px;
+  width: 250px;
 }
 
-video::cue { 
-    font-size: 1rem;
+video::cue {
+  font-size: 1rem;
 }

@@ -1,7 +1,7 @@
 p {
-    font: 1.5em sans-serif;
+  font: 1.5em sans-serif;
 }
 
 #example-element {
-    text-emphasis: filled double-circle blue;
+  text-emphasis: filled double-circle #ffb703;
 }

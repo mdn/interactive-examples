@@ -1,13 +1,12 @@
 p {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-li:nth-last-child(-n+3) {
-    border: 2px solid orange;
-    margin-top: 1px;
+li:nth-last-child(-n + 3) {
+  border: 2px solid orange;
+  margin-top: 1px;
 }
 
 li:nth-last-child(even) {
-    background-color: lightyellow;
+  background-color: lightyellow;
 }
-

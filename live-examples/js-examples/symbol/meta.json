@@ -1,106 +1,118 @@
 {
-    "pages": {
-        "symbolConstructor": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-constructor.js",
-            "fileName": "symbol-constructor.html",
-            "title": "JavaScript Demo: Symbol - Constructor",
-            "type": "js"
-        },
-        "symbolFor": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-for.js",
-            "fileName": "symbol-for.html",
-            "title": "JavaScript Demo: Symbol.for()",
-            "type": "js"
-        },
-        "symbolHasInstance": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-hasinstance.js",
-            "fileName": "symbol-hasinstance.html",
-            "title": "JavaScript Demo: Symbol.hasInstance",
-            "type": "js"
-        },
-        "symbolIsConcatSpreadable": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-isconcatspreadable.js",
-            "fileName": "symbol-isconcatspreadable.html",
-            "title": "JavaScript Demo: Symbol.isConcatSpreadable",
-            "type": "js"
-        },
-        "symbolIterator": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-iterator.js",
-            "fileName": "symbol-iterator.html",
-            "title": "JavaScript Demo: Symbol.iterator",
-            "type": "js"
-        },
-        "symbolKeyFor": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-keyfor.js",
-            "fileName": "symbol-keyfor.html",
-            "title": "JavaScript Demo: Symbol.keyFor()",
-            "type": "js"
-        },
-        "symbolMatch": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-match.js",
-            "fileName": "symbol-match.html",
-            "title": "JavaScript Demo: Symbol.match",
-            "type": "js"
-        },
-        "symbolMatchAll": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-matchall.js",
-            "fileName": "symbol-matchall.html",
-            "title": "JavaScript Demo: Symbol.matchAll",
-            "type": "js"
-        },
-        "symbolPrototypeDescription": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-prototype-description.js",
-            "fileName": "symbol-prototype-description.html",
-            "title": "JavaScript Demo: Symbol.prototype.description",
-            "type": "js"
-        },
-        "symbolPrototypeToString": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-prototype-tostring.js",
-            "fileName": "symbol-prototype-tostring.html",
-            "title": "JavaScript Demo: Symbol.prototype.toString()",
-            "type": "js"
-        },
-        "symbolReplace": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-replace.js",
-            "fileName": "symbol-replace.html",
-            "title": "JavaScript Demo: Symbol.replace",
-            "type": "js"
-        },
-        "symbolSearch": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-search.js",
-            "fileName": "symbol-search.html",
-            "title": "JavaScript Demo: Symbol.search",
-            "type": "js"
-        },
-        "symbolSpecies": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-species.js",
-            "fileName": "symbol-species.html",
-            "title": "JavaScript Demo: Symbol.species",
-            "type": "js"
-        },
-        "symbolSplit": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-split.js",
-            "fileName": "symbol-split.html",
-            "title": "JavaScript Demo: Symbol.split",
-            "type": "js"
-        },
-        "symbolToPrimitive": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-toprimitive.js",
-            "fileName": "symbol-toprimitive.html",
-            "title": "JavaScript Demo: Symbol.toPrimitive",
-            "type": "js"
-        },
-        "symbolToStringTag": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-tostringtag.js",
-            "fileName": "symbol-tostringtag.html",
-            "title": "JavaScript Demo: Symbol.toStringTag",
-            "type": "js"
-        },
-        "symbolUnscopables": {
-            "exampleCode": "./live-examples/js-examples/symbol/symbol-unscopables.js",
-            "fileName": "symbol-unscopables.html",
-            "title": "JavaScript Demo: Symbol.unscopables",
-            "type": "js"
-        }
+  "pages": {
+    "asyncIterator": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-asynciterator.js",
+      "fileName": "symbol-asynciterator.html",
+      "title": "JavaScript Demo: Symbol.asyncIterator",
+      "type": "js"
+    },
+    "symbolConstructor": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-constructor.js",
+      "fileName": "symbol-constructor.html",
+      "title": "JavaScript Demo: Symbol - Constructor",
+      "type": "js"
+    },
+    "symbolFor": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-for.js",
+      "fileName": "symbol-for.html",
+      "title": "JavaScript Demo: Symbol.for()",
+      "type": "js"
+    },
+    "symbolHasInstance": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-hasinstance.js",
+      "fileName": "symbol-hasinstance.html",
+      "title": "JavaScript Demo: Symbol.hasInstance",
+      "type": "js"
+    },
+    "symbolIsConcatSpreadable": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-isconcatspreadable.js",
+      "fileName": "symbol-isconcatspreadable.html",
+      "title": "JavaScript Demo: Symbol.isConcatSpreadable",
+      "type": "js"
+    },
+    "symbolIterator": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-iterator.js",
+      "fileName": "symbol-iterator.html",
+      "title": "JavaScript Demo: Symbol.iterator",
+      "type": "js"
+    },
+    "symbolKeyFor": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-keyfor.js",
+      "fileName": "symbol-keyfor.html",
+      "title": "JavaScript Demo: Symbol.keyFor()",
+      "type": "js"
+    },
+    "symbolMatch": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-match.js",
+      "fileName": "symbol-match.html",
+      "title": "JavaScript Demo: Symbol.match",
+      "type": "js"
+    },
+    "symbolMatchAll": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-matchall.js",
+      "fileName": "symbol-matchall.html",
+      "title": "JavaScript Demo: Symbol.matchAll",
+      "type": "js"
+    },
+    "symbolPrototypeDescription": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-prototype-description.js",
+      "fileName": "symbol-prototype-description.html",
+      "title": "JavaScript Demo: Symbol.prototype.description",
+      "type": "js"
+    },
+    "symbolPrototypeToString": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-prototype-tostring.js",
+      "fileName": "symbol-prototype-tostring.html",
+      "title": "JavaScript Demo: Symbol.prototype.toString()",
+      "type": "js"
+    },
+    "symbolPrototypeValueOf": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-prototype-valueof.js",
+      "fileName": "symbol-prototype-valueof.html",
+      "title": "JavaScript Demo: Symbol.prototype.valueOf()",
+      "type": "js"
+    },
+    "symbolReplace": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-replace.js",
+      "fileName": "symbol-replace.html",
+      "title": "JavaScript Demo: Symbol.replace",
+      "type": "js"
+    },
+    "symbolSearch": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-search.js",
+      "fileName": "symbol-search.html",
+      "title": "JavaScript Demo: Symbol.search",
+      "type": "js"
+    },
+    "symbolSpecies": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-species.js",
+      "fileName": "symbol-species.html",
+      "title": "JavaScript Demo: Symbol.species",
+      "type": "js"
+    },
+    "symbolSplit": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-split.js",
+      "fileName": "symbol-split.html",
+      "title": "JavaScript Demo: Symbol.split",
+      "type": "js"
+    },
+    "symbolToPrimitive": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-toprimitive.js",
+      "fileName": "symbol-toprimitive.html",
+      "title": "JavaScript Demo: Symbol.toPrimitive",
+      "type": "js"
+    },
+    "symbolToStringTag": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-tostringtag.js",
+      "fileName": "symbol-tostringtag.html",
+      "title": "JavaScript Demo: Symbol.toStringTag",
+      "type": "js"
+    },
+    "symbolUnscopables": {
+      "exampleCode": "./live-examples/js-examples/symbol/symbol-unscopables.js",
+      "fileName": "symbol-unscopables.html",
+      "title": "JavaScript Demo: Symbol.unscopables",
+      "type": "js"
     }
+  }
 }

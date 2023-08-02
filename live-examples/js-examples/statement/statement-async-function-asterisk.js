@@ -6,14 +6,11 @@ async function* asyncGenerator() {
 
 const asyncGen = asyncGenerator();
 
-asyncGen.next()
-  .then(res => console.log(res.value));
-// expected output: 1
+asyncGen.next().then((res) => console.log(res.value));
+// Expected output: 1
 
-asyncGen.next()
-  .then(res => console.log(res.value));
-// expected output: 2
+asyncGen.next().then((res) => console.log(res.value));
+// Expected output: 2
 
-asyncGen.next()
-  .then(res => console.log(res.value));
-// expected output: 3
+asyncGen.next().then((res) => console.log(res.value));
+// Expected output: 3

@@ -1,12 +1,12 @@
 #example-element {
-    border: 1px solid #c5c5c5;
-    display: grid;
-    grid-gap: 10px;
-    width: 250px;
+  border: 1px solid #c5c5c5;
+  display: grid;
+  grid-gap: 10px;
+  width: 250px;
 }
 
 #example-element > div {
-    background-color: rgba(0, 0, 255, .2);
-    border: 3px solid blue;
-    text-align: left;
+  background-color: rgba(0, 0, 255, 0.2);
+  border: 3px solid blue;
+  text-align: left;
 }

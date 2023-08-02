@@ -1,13 +1,13 @@
 .note {
-    font-style: italic;
-    font-weight: bold;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .editorial {
-    background: rgb(255, 0, 0, .25);
-    padding: 10px;
+  background: rgb(255, 0, 0, 0.25);
+  padding: 10px;
 }
 
 .editorial:before {
-    content: 'Editor: ';
+  content: 'Editor: ';
 }

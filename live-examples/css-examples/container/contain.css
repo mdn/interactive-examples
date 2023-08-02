@@ -1,0 +1,26 @@
+h2 {
+  margin-top: 0;
+}
+
+#default-example {
+  text-align: left;
+  padding: 4px;
+  font-size: 16px;
+}
+
+.card {
+  text-align: left;
+  border: 3px dotted;
+  padding: 20px;
+  margin: 10px;
+  width: 85%;
+  min-height: 150px;
+}
+
+.fixed {
+  position: fixed;
+  border: 3px dotted;
+  right: 4px;
+  padding: 4px;
+  margin: 4px;
+}

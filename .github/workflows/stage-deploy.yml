@@ -1,53 +1,58 @@
 name: Stage Deployment
 
 on:
-    workflow_dispatch:
-        inputs:
-            notes:
-              description: "Notes"
-              required: false
-              default: ""
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+    inputs:
+      notes:
+        description: 'Notes'
+        required: false
+        default: ''
+
+  workflow_call:
+    secrets:
+      GCP_PROJECT_NAME:
+        required: true
+      WIP_PROJECT_ID:
+        required: true
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    environment: stage
+    permissions:
+      contents: read
+      id-token: write
+    runs-on: ubuntu-latest
+    if: github.triggering_actor != 'dependabot[bot]'
 
-        steps:
-            - uses: actions/checkout@v3
-              with:
-                  path: examples
+    steps:
+      - uses: actions/checkout@v3
 
-            - uses: actions/checkout@v3
-              with:
-                  repository: mdn/bob
-                  ref: stage
-                  path: bob
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: npm
 
-            - name: Setup Node.js environment
-              uses: actions/setup-node@v3
-              with:
-                  node-version: '16'
+      - name: Install all npm packages
+        run: npm ci
 
-            - name: Install all yarn packages
-              if: steps.cached-node_modules.outputs.cache-hit != 'true'
-              run: yarn --production --frozen-lockfile
-              working-directory: bob
+      - name: Build all
+        run: npm run build
 
-            - name: Build all
-              # TODO: bob uses relative paths in bundles. For now we just symlink.
-              run:  |
-                  ln -s ../bob/node_modules .
-                  node ../bob/lib/mdn-bob.js
-              working-directory: examples
+      - name: Authenticate with GCP
+        uses: google-github-actions/auth@v1
+        with:
+          token_format: access_token
+          service_account: deploy-stage-interactive-examp@${{ secrets.GCP_PROJECT_NAME }}.iam.gserviceaccount.com
+          workload_identity_provider: projects/${{ secrets.WIP_PROJECT_ID }}/locations/global/workloadIdentityPools/github-actions/providers/github-actions
 
-            - name: Configure AWS credentials for stage
-              uses: aws-actions/configure-aws-credentials@v1
-              with:
-                  aws-access-key-id: ${{ secrets.STAGE_AWS_ACCESS_KEY_ID }}
-                  aws-secret-access-key: ${{ secrets.STAGE_AWS_ACCESS_KEY_SECRET }}
-                  aws-region: us-east-1
+      - name: Setup gcloud
+        uses: google-github-actions/setup-gcloud@v1
 
-            - name: Deploy pages
-              run: |
-                  aws s3 sync docs/ s3://interactive-examples-stage-ce3e7ea385c68f44/
-              working-directory: examples
+      - name: Deploy pages to GCP
+        run: |-
+          gsutil -m rsync -d -r docs/ gs://interactive-examples-stage-mdn/

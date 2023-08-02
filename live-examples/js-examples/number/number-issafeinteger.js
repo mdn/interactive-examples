@@ -6,7 +6,7 @@ function warn(x) {
 }
 
 console.log(warn(Math.pow(2, 53)));
-// expected output: "Precision may be lost!"
+// Expected output: "Precision may be lost!"
 
 console.log(warn(Math.pow(2, 53) - 1));
-// expected output: "Precision safe."
+// Expected output: "Precision safe."

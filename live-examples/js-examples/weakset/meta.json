@@ -1,22 +1,22 @@
 {
-    "pages": {
-        "weaksetPrototypeAdd": {
-            "exampleCode": "./live-examples/js-examples/weakset/weakset-prototype-add.js",
-            "fileName": "weakset-prototype-add.html",
-            "title": "JavaScript Demo: WeakSet.Prototype.add()",
-            "type": "js"
-        },
-        "weaksetPrototypeDelete": {
-            "exampleCode": "./live-examples/js-examples/weakset/weakset-prototype-delete.js",
-            "fileName": "weakset-prototype-delete.html",
-            "title": "JavaScript Demo: WeakSet.Prototype.delete()",
-            "type": "js"
-        },
-        "weaksetPrototypeHas": {
-            "exampleCode": "./live-examples/js-examples/weakset/weakset-prototype-has.js",
-            "fileName": "weakset-prototype-has.html",
-            "title": "JavaScript Demo: WeakSet.Prototype.has()",
-            "type": "js"
-        }
+  "pages": {
+    "weaksetPrototypeAdd": {
+      "exampleCode": "./live-examples/js-examples/weakset/weakset-prototype-add.js",
+      "fileName": "weakset-prototype-add.html",
+      "title": "JavaScript Demo: WeakSet.Prototype.add()",
+      "type": "js"
+    },
+    "weaksetPrototypeDelete": {
+      "exampleCode": "./live-examples/js-examples/weakset/weakset-prototype-delete.js",
+      "fileName": "weakset-prototype-delete.html",
+      "title": "JavaScript Demo: WeakSet.Prototype.delete()",
+      "type": "js"
+    },
+    "weaksetPrototypeHas": {
+      "exampleCode": "./live-examples/js-examples/weakset/weakset-prototype-has.js",
+      "fileName": "weakset-prototype-has.html",
+      "title": "JavaScript Demo: WeakSet.Prototype.has()",
+      "type": "js"
     }
+  }
 }

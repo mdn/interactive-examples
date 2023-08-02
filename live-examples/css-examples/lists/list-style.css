@@ -1,28 +1,33 @@
 .default-example {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 #example-element {
-    width: 100%;
-    background: #f1f8ff30;
+  width: 100%;
+  background: #be094b;
+  color: white;
 }
 
 .output section {
-    text-align: left;
-    flex-direction: column;
+  text-align: left;
+  flex-direction: column;
 }
 
 .output hr {
-    width: 50%;
-    color: lightgray;
-    margin: .5em;
+  width: 50%;
+  color: lightgray;
+  margin: 0.5em;
 }
 
 .output .note {
-    font-size: .8rem;
+  font-size: 0.8rem;
+}
+
+.note a {
+  color: #009e5f;
 }
 
 @counter-style space-counter {
-    symbols: "\1F680" "\1F6F8" "\1F6F0" "\1F52D";
-    suffix: " "
+  symbols: '\1F680' '\1F6F8' '\1F6F0' '\1F52D';
+  suffix: ' ';
 }

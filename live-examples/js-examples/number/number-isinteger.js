@@ -6,7 +6,7 @@ function fits(x, y) {
 }
 
 console.log(fits(5, 10));
-// expected output: "Fits!"
+// Expected output: "Fits!"
 
 console.log(fits(5, 11));
-// expected output: "Does NOT fit!"
+// Expected output: "Does NOT fit!"

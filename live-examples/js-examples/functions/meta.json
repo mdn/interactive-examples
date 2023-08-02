@@ -1,46 +1,46 @@
 {
-    "pages": {
-        "functionsArguments": {
-            "exampleCode": "./live-examples/js-examples/functions/functions-arguments.js",
-            "fileName": "functions-arguments.html",
-            "title": "JavaScript Demo: Functions Arguments",
-            "type": "js"
-        },
-        "functionsArrow": {
-            "exampleCode": "./live-examples/js-examples/functions/functions-arrow.js",
-            "fileName": "functions-arrow.html",
-            "title": "JavaScript Demo: Functions =>",
-            "type": "js"
-        },
-        "functionsDefault": {
-            "exampleCode": "./live-examples/js-examples/functions/functions-default.js",
-            "fileName": "functions-default.html",
-            "title": "JavaScript Demo: Functions Default",
-            "type": "js"
-        },
-        "functionsDefinitions": {
-            "exampleCode": "./live-examples/js-examples/functions/functions-definitions.js",
-            "fileName": "functions-definitions.html",
-            "title": "JavaScript Demo: Functions Definitions",
-            "type": "js"
-        },
-        "functionsGetter": {
-            "exampleCode": "./live-examples/js-examples/functions/functions-getter.js",
-            "fileName": "functions-getter.html",
-            "title": "JavaScript Demo: Functions Getter",
-            "type": "js"
-        },
-        "functionsRestParameters": {
-            "exampleCode": "./live-examples/js-examples/functions/functions-restparameters.js",
-            "fileName": "functions-restparameters.html",
-            "title": "JavaScript Demo: Functions Rest Parameters",
-            "type": "js"
-        },
-        "functionsSetter": {
-            "exampleCode": "./live-examples/js-examples/functions/functions-setter.js",
-            "fileName": "functions-setter.html",
-            "title": "JavaScript Demo: Functions Setter",
-            "type": "js"
-        }
+  "pages": {
+    "functionsArguments": {
+      "exampleCode": "./live-examples/js-examples/functions/functions-arguments.js",
+      "fileName": "functions-arguments.html",
+      "title": "JavaScript Demo: Functions Arguments",
+      "type": "js"
+    },
+    "functionsArrow": {
+      "exampleCode": "./live-examples/js-examples/functions/functions-arrow.js",
+      "fileName": "functions-arrow.html",
+      "title": "JavaScript Demo: Functions =>",
+      "type": "js"
+    },
+    "functionsDefault": {
+      "exampleCode": "./live-examples/js-examples/functions/functions-default.js",
+      "fileName": "functions-default.html",
+      "title": "JavaScript Demo: Functions Default",
+      "type": "js"
+    },
+    "functionsDefinitions": {
+      "exampleCode": "./live-examples/js-examples/functions/functions-definitions.js",
+      "fileName": "functions-definitions.html",
+      "title": "JavaScript Demo: Functions Definitions",
+      "type": "js"
+    },
+    "functionsGetter": {
+      "exampleCode": "./live-examples/js-examples/functions/functions-getter.js",
+      "fileName": "functions-getter.html",
+      "title": "JavaScript Demo: Functions Getter",
+      "type": "js"
+    },
+    "functionsRestParameters": {
+      "exampleCode": "./live-examples/js-examples/functions/functions-restparameters.js",
+      "fileName": "functions-restparameters.html",
+      "title": "JavaScript Demo: Functions Rest Parameters",
+      "type": "js"
+    },
+    "functionsSetter": {
+      "exampleCode": "./live-examples/js-examples/functions/functions-setter.js",
+      "fileName": "functions-setter.html",
+      "title": "JavaScript Demo: Functions Setter",
+      "type": "js"
     }
+  }
 }

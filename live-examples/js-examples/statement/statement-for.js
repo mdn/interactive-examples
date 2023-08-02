@@ -5,4 +5,4 @@ for (let i = 0; i < 9; i++) {
 }
 
 console.log(str);
-// expected output: "012345678"
+// Expected output: "012345678"

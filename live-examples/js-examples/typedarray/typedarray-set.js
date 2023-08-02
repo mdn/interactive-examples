@@ -1,4 +1,4 @@
-// create an ArrayBuffer with a size in bytes
+// Create an ArrayBuffer with a size in bytes
 const buffer = new ArrayBuffer(8);
 const uint8 = new Uint8Array(buffer);
 
@@ -6,4 +6,4 @@ const uint8 = new Uint8Array(buffer);
 uint8.set([1, 2, 3], 3);
 
 console.log(uint8);
-// expected output: Uint8Array [0, 0, 0, 1, 2, 3, 0, 0]
+// Expected output: Uint8Array [0, 0, 0, 1, 2, 3, 0, 0]

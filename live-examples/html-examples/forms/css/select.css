@@ -1,21 +1,10 @@
-label,
-footer {
-    font-family: sans-serif;
-}
-
 label {
-    font-size: 1rem;
-    padding-right: 10px;
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-right: 10px;
 }
 
 select {
-    font-size: .9rem;
-    padding: 2px 5px;
-}
-
-footer {
-    font-size: .8rem;
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
+  font-size: 0.9rem;
+  padding: 2px 5px;
 }

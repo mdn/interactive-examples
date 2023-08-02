@@ -8,7 +8,7 @@
     i32.const 0
     select
   )
-  (func (export "select_externref") (param $value externref) (param $condition i32) (result i32)
+  (func (export "select_externref") (param $value externref) (param $condition i32) (result externref)
     ;; this is "select t", the explicitly typed variant
     ref.null extern
     local.get $value

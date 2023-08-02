@@ -1,14 +1,14 @@
 .joinBtn {
-    width: 10em;
-    height: 5ex;
-    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
+  width: 10em;
+  height: 5ex;
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
 }
 
 .joinBtn:active {
-    box-shadow: 2px 2px 5px #fc894d;
+  box-shadow: 2px 2px 5px #fc894d;
 }

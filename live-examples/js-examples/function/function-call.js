@@ -9,4 +9,4 @@ function Food(name, price) {
 }
 
 console.log(new Food('cheese', 5).name);
-// expected output: "cheese"
+// Expected output: "cheese"
