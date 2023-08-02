@@ -1,6 +1,6 @@
 const object1 = {
   a: 'somestring',
-  b: 42
+  b: 42,
 };
 
 for (const [key, value] of Object.entries(object1)) {

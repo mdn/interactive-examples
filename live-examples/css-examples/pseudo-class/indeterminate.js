@@ -1,9 +1,9 @@
-var newsletter = document.getElementById('newsletter');
-var premium = document.getElementById('premium');
+const newsletter = document.getElementById('newsletter');
+const premium = document.getElementById('premium');
 
 premium.indeterminate = true;
 
-newsletter.addEventListener('change', function() {
+newsletter.addEventListener('change', function () {
   if (this.checked) {
     premium.disabled = false;
     premium.indeterminate = false;

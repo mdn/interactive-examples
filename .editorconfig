@@ -10,7 +10,7 @@ trim_trailing_whitespace = true
 # Indentation
 [*.{css,html,js,json,py,styl}]
 indent_style = space
-indent_size = 4
+indent_size = 2
 
 # Indentation for JS examples
 [live-examples/**.js]

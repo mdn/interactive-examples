@@ -1,46 +1,46 @@
 {
-    "pages": {
-        "functionApply": {
-            "exampleCode": "./live-examples/js-examples/function/function-apply.js",
-            "fileName": "function-apply.html",
-            "title": "JavaScript Demo: Function.apply()",
-            "type": "js"
-        },
-        "functionBind": {
-            "exampleCode": "./live-examples/js-examples/function/function-bind.js",
-            "fileName": "function-bind.html",
-            "title": "JavaScript Demo: Function.bind()",
-            "type": "js"
-        },
-        "functionCall": {
-            "exampleCode": "./live-examples/js-examples/function/function-call.js",
-            "fileName": "function-call.html",
-            "title": "JavaScript Demo: Function.call()",
-            "type": "js"
-        },
-        "functionConstructor": {
-            "exampleCode": "./live-examples/js-examples/function/function-constructor.js",
-            "fileName": "function-constructor.html",
-            "title": "JavaScript Demo: Function()",
-            "type": "js"
-        },
-        "functionLength": {
-            "exampleCode": "./live-examples/js-examples/function/function-length.js",
-            "fileName": "function-length.html",
-            "title": "JavaScript Demo: Function.length",
-            "type": "js"
-        },
-        "functionName": {
-            "exampleCode": "./live-examples/js-examples/function/function-name.js",
-            "fileName": "function-name.html",
-            "title": "JavaScript Demo: Function.name",
-            "type": "js"
-        },
-        "functionToString": {
-            "exampleCode": "./live-examples/js-examples/function/function-tostring.js",
-            "fileName": "function-tostring.html",
-            "title": "JavaScript Demo: Function.toString()",
-            "type": "js"
-        }
+  "pages": {
+    "functionApply": {
+      "exampleCode": "./live-examples/js-examples/function/function-apply.js",
+      "fileName": "function-apply.html",
+      "title": "JavaScript Demo: Function.apply()",
+      "type": "js"
+    },
+    "functionBind": {
+      "exampleCode": "./live-examples/js-examples/function/function-bind.js",
+      "fileName": "function-bind.html",
+      "title": "JavaScript Demo: Function.bind()",
+      "type": "js"
+    },
+    "functionCall": {
+      "exampleCode": "./live-examples/js-examples/function/function-call.js",
+      "fileName": "function-call.html",
+      "title": "JavaScript Demo: Function.call()",
+      "type": "js"
+    },
+    "functionConstructor": {
+      "exampleCode": "./live-examples/js-examples/function/function-constructor.js",
+      "fileName": "function-constructor.html",
+      "title": "JavaScript Demo: Function()",
+      "type": "js"
+    },
+    "functionLength": {
+      "exampleCode": "./live-examples/js-examples/function/function-length.js",
+      "fileName": "function-length.html",
+      "title": "JavaScript Demo: Function.length",
+      "type": "js"
+    },
+    "functionName": {
+      "exampleCode": "./live-examples/js-examples/function/function-name.js",
+      "fileName": "function-name.html",
+      "title": "JavaScript Demo: Function.name",
+      "type": "js"
+    },
+    "functionToString": {
+      "exampleCode": "./live-examples/js-examples/function/function-tostring.js",
+      "fileName": "function-tostring.html",
+      "title": "JavaScript Demo: Function.toString()",
+      "type": "js"
     }
+  }
 }

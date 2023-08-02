@@ -5,9 +5,9 @@ console.log(output);
 void console.log('expression evaluated');
 // Expected output: "expression evaluated"
 
-void function iife() {
+void (function iife() {
   console.log('iife is executed');
-}();
+})();
 // Expected output: "iife is executed"
 
 void function test() {

@@ -1,4 +1,8 @@
-const array1 = [[0, 1], [2, 3], [4, 5]];
+const array1 = [
+  [0, 1],
+  [2, 3],
+  [4, 5],
+];
 
 const result = array1.reduceRight((accumulator, currentValue) => accumulator.concat(currentValue));
 

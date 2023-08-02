@@ -1,292 +1,292 @@
 {
-    "pages": {
-        "dateConstructor": {
-            "exampleCode": "./live-examples/js-examples/date/date-constructor.js",
-            "fileName": "date-constructor.html",
-            "title": "JavaScript Demo: Date Constructor",
-            "type": "js"
-        },
-        "dateGetDate": {
-            "exampleCode": "./live-examples/js-examples/date/date-getdate.js",
-            "fileName": "date-getdate.html",
-            "title": "JavaScript Demo: Date.getDate()",
-            "type": "js"
-        },
-        "dateGetDay": {
-            "exampleCode": "./live-examples/js-examples/date/date-getday.js",
-            "fileName": "date-getday.html",
-            "title": "JavaScript Demo: Date.getDay()",
-            "type": "js"
-        },
-        "dateGetFullYear": {
-            "exampleCode": "./live-examples/js-examples/date/date-getfullyear.js",
-            "fileName": "date-getfullyear.html",
-            "title": "JavaScript Demo: Date.getFullYear()",
-            "type": "js"
-        },
-        "dateGetHours": {
-            "exampleCode": "./live-examples/js-examples/date/date-gethours.js",
-            "fileName": "date-gethours.html",
-            "title": "JavaScript Demo: Date.getHours()",
-            "type": "js"
-        },
-        "dateGetMilliseconds": {
-            "exampleCode": "./live-examples/js-examples/date/date-getmilliseconds.js",
-            "fileName": "date-getmilliseconds.html",
-            "title": "JavaScript Demo: Date.getMilliseconds()",
-            "type": "js"
-        },
-        "dateGetMinutes": {
-            "exampleCode": "./live-examples/js-examples/date/date-getminutes.js",
-            "fileName": "date-getminutes.html",
-            "title": "JavaScript Demo: Date.getMinutes()",
-            "type": "js"
-        },
-        "dateGetMonth": {
-            "exampleCode": "./live-examples/js-examples/date/date-getmonth.js",
-            "fileName": "date-getmonth.html",
-            "title": "JavaScript Demo: Date.getMonth()",
-            "type": "js"
-        },
-        "dateGetSeconds": {
-            "exampleCode": "./live-examples/js-examples/date/date-getseconds.js",
-            "fileName": "date-getseconds.html",
-            "title": "JavaScript Demo: Date.getSeconds()",
-            "type": "js"
-        },
-        "dateGetTime": {
-            "exampleCode": "./live-examples/js-examples/date/date-gettime.js",
-            "fileName": "date-gettime.html",
-            "title": "JavaScript Demo: Date.getTime()",
-            "type": "js"
-        },
-        "dateGetTimezoneOffset": {
-            "exampleCode": "./live-examples/js-examples/date/date-gettimezoneoffset.js",
-            "fileName": "date-gettimezoneoffset.html",
-            "title": "JavaScript Demo: Date.getTimezoneOffset()",
-            "type": "js"
-        },
-        "dateGetUTCDate": {
-            "exampleCode": "./live-examples/js-examples/date/date-getutcdate.js",
-            "fileName": "date-getutcdate.html",
-            "title": "JavaScript Demo: Date.getUTCDate()",
-            "type": "js"
-        },
-        "dateGetUTCDay": {
-            "exampleCode": "./live-examples/js-examples/date/date-getutcday.js",
-            "fileName": "date-getutcday.html",
-            "title": "JavaScript Demo: Date.getUTCDay()",
-            "type": "js"
-        },
-        "dateGetUTCFullYear": {
-            "exampleCode": "./live-examples/js-examples/date/date-getutcfullyear.js",
-            "fileName": "date-getutcfullyear.html",
-            "title": "JavaScript Demo: Date.getUTCFullYear()",
-            "type": "js"
-        },
-        "dateGetUTCHours": {
-            "exampleCode": "./live-examples/js-examples/date/date-getutchours.js",
-            "fileName": "date-getutchours.html",
-            "title": "JavaScript Demo: Date.getUTCHours()",
-            "type": "js"
-        },
-        "dateGetUTCMonth": {
-            "exampleCode": "./live-examples/js-examples/date/date-getutcmonth.js",
-            "fileName": "date-getutcmonth.html",
-            "title": "JavaScript Demo: Date.getUTCMonth()",
-            "type": "js"
-        },
-        "dateGetUTCMilliseconds": {
-            "exampleCode": "./live-examples/js-examples/date/date-getutcmilliseconds.js",
-            "fileName": "date-getutcmilliseconds.html",
-            "title": "JavaScript Demo: Date.getUTCMilliseconds()",
-            "type": "js"
-        },
-        "dateGetUTCMinutes": {
-            "exampleCode": "./live-examples/js-examples/date/date-getutcminutes.js",
-            "fileName": "date-getutcminutes.html",
-            "title": "JavaScript Demo: Date.getUTCMinutes()",
-            "type": "js"
-        },
-        "dateGetUTCSeconds": {
-            "exampleCode": "./live-examples/js-examples/date/date-getutcseconds.js",
-            "fileName": "date-getutcseconds.html",
-            "title": "JavaScript Demo: Date.getUTCSeconds()",
-            "type": "js"
-        },
-        "dateNow": {
-            "exampleCode": "./live-examples/js-examples/date/date-now.js",
-            "fileName": "date-now.html",
-            "title": "JavaScript Demo: Date.now()",
-            "type": "js"
-        },
-        "dateParse": {
-            "exampleCode": "./live-examples/js-examples/date/date-parse.js",
-            "fileName": "date-parse.html",
-            "title": "JavaScript Demo: Date.parse()",
-            "type": "js"
-        },
-        "dateSetDate": {
-            "exampleCode": "./live-examples/js-examples/date/date-setdate.js",
-            "fileName": "date-setdate.html",
-            "title": "JavaScript Demo: Date.setDate()",
-            "type": "js"
-        },
-        "dateSetFullYear": {
-            "exampleCode": "./live-examples/js-examples/date/date-setfullyear.js",
-            "fileName": "date-setfullyear.html",
-            "title": "JavaScript Demo: Date.setFullYear()",
-            "type": "js"
-        },
-        "dateSetHours": {
-            "exampleCode": "./live-examples/js-examples/date/date-sethours.js",
-            "fileName": "date-sethours.html",
-            "title": "JavaScript Demo: Date.setHours()",
-            "type": "js"
-        },
-        "dateSetMilliseconds": {
-            "exampleCode": "./live-examples/js-examples/date/date-setmilliseconds.js",
-            "fileName": "date-setmilliseconds.html",
-            "title": "JavaScript Demo: Date.setMilliseconds()",
-            "type": "js"
-        },
-        "dateSetMinutes": {
-            "exampleCode": "./live-examples/js-examples/date/date-setminutes.js",
-            "fileName": "date-setminutes.html",
-            "title": "JavaScript Demo: Date.setMinutes()",
-            "type": "js"
-        },
-        "dateSetMonth": {
-            "exampleCode": "./live-examples/js-examples/date/date-setmonth.js",
-            "fileName": "date-setmonth.html",
-            "title": "JavaScript Demo: Date.setMonth()",
-            "type": "js"
-        },
-        "dateSetSeconds": {
-            "exampleCode": "./live-examples/js-examples/date/date-setseconds.js",
-            "fileName": "date-setseconds.html",
-            "title": "JavaScript Demo: Date.setSeconds()",
-            "type": "js"
-        },
-        "dateSetTime": {
-            "exampleCode": "./live-examples/js-examples/date/date-settime.js",
-            "fileName": "date-settime.html",
-            "title": "JavaScript Demo: Date.setTime()",
-            "type": "js"
-        },
-        "dateSetUTCDate": {
-            "exampleCode": "./live-examples/js-examples/date/date-setutcdate.js",
-            "fileName": "date-setutcdate.html",
-            "title": "JavaScript Demo: Date.setUTCDate()",
-            "type": "js"
-        },
-        "dateSetUTCFullYear": {
-            "exampleCode": "./live-examples/js-examples/date/date-setutcfullyear.js",
-            "fileName": "date-setutcfullyear.html",
-            "title": "JavaScript Demo: Date.setUTCFullYear()",
-            "type": "js"
-        },
-        "dateSetUTCHours": {
-            "exampleCode": "./live-examples/js-examples/date/date-setutchours.js",
-            "fileName": "date-setutchours.html",
-            "title": "JavaScript Demo: Date.setUTCHours()",
-            "type": "js"
-        },
-        "dateSetUTCMilliseconds": {
-            "exampleCode": "./live-examples/js-examples/date/date-setutcmilliseconds.js",
-            "fileName": "date-setutcmilliseconds.html",
-            "title": "JavaScript Demo: Date.setUTCMilliseconds()",
-            "type": "js"
-        },
-        "dateSetUTCMinutes": {
-            "exampleCode": "./live-examples/js-examples/date/date-setutcminutes.js",
-            "fileName": "date-setutcminutes.html",
-            "title": "JavaScript Demo: Date.setUTCMinutes()",
-            "type": "js"
-        },
-        "dateSetUTCMonth": {
-            "exampleCode": "./live-examples/js-examples/date/date-setutcmonth.js",
-            "fileName": "date-setutcmonth.html",
-            "title": "JavaScript Demo: Date.setUTCMonth()",
-            "type": "js"
-        },
-        "dateSetUTCSeconds": {
-            "exampleCode": "./live-examples/js-examples/date/date-setutcseconds.js",
-            "fileName": "date-setutcseconds.html",
-            "title": "JavaScript Demo: Date.setUTCSeconds()",
-            "type": "js"
-        },
-        "dateToDateString": {
-            "exampleCode": "./live-examples/js-examples/date/date-todatestring.js",
-            "fileName": "date-todatestring.html",
-            "title": "JavaScript Demo: Date.toDateString()",
-            "type": "js"
-        },
-        "dateToISOString": {
-            "exampleCode": "./live-examples/js-examples/date/date-toisostring.js",
-            "fileName": "date-toisostring.html",
-            "title": "JavaScript Demo: Date.toISOString()",
-            "type": "js"
-        },
-        "dateToJSON": {
-            "exampleCode": "./live-examples/js-examples/date/date-tojson.js",
-            "fileName": "date-tojson.html",
-            "title": "JavaScript Demo: Date.toJSON()",
-            "type": "js"
-        },
-        "dateToLocaleDateString": {
-            "exampleCode": "./live-examples/js-examples/date/date-tolocaledatestring.js",
-            "fileName": "date-tolocaledatestring.html",
-            "title": "JavaScript Demo: Date.toLocaleDateString()",
-            "type": "js"
-        },
-        "dateToLocaleString": {
-            "exampleCode": "./live-examples/js-examples/date/date-tolocalestring.js",
-            "fileName": "date-tolocalestring.html",
-            "title": "JavaScript Demo: Date.toLocaleString()",
-            "type": "js"
-        },
-        "dateToLocaleTimeString": {
-            "exampleCode": "./live-examples/js-examples/date/date-tolocaletimestring.js",
-            "fileName": "date-tolocaletimestring.html",
-            "title": "JavaScript Demo: Date.toLocaleTimeString()",
-            "type": "js"
-        },
-        "dateToPrimitive": {
-            "exampleCode": "./live-examples/js-examples/date/date-toprimitive.js",
-            "fileName": "date-toprimitive.html",
-            "title": "JavaScript Demo: Date.prototype[@@toPrimitive]",
-            "type": "js"
-        },
-        "dateToString": {
-            "exampleCode": "./live-examples/js-examples/date/date-tostring.js",
-            "fileName": "date-tostring.html",
-            "title": "JavaScript Demo: Date.toString()",
-            "type": "js"
-        },
-        "dateToTimeString": {
-            "exampleCode": "./live-examples/js-examples/date/date-totimestring.js",
-            "fileName": "date-totimestring.html",
-            "title": "JavaScript Demo: Date.toTimeString()",
-            "type": "js"
-        },
-        "dateToUTCString": {
-            "exampleCode": "./live-examples/js-examples/date/date-toutcstring.js",
-            "fileName": "date-toutcstring.html",
-            "title": "JavaScript Demo: Date.toUTCString()",
-            "type": "js"
-        },
-        "dateUTC": {
-            "exampleCode": "./live-examples/js-examples/date/date-utc.js",
-            "fileName": "date-utc.html",
-            "title": "JavaScript Demo: Date.UTC()",
-            "type": "js"
-        },
-        "dateValueOf": {
-            "exampleCode": "./live-examples/js-examples/date/date-valueof.js",
-            "fileName": "date-valueof.html",
-            "title": "JavaScript Demo: Date.valueOf()",
-            "type": "js"
-        }
+  "pages": {
+    "dateConstructor": {
+      "exampleCode": "./live-examples/js-examples/date/date-constructor.js",
+      "fileName": "date-constructor.html",
+      "title": "JavaScript Demo: Date Constructor",
+      "type": "js"
+    },
+    "dateGetDate": {
+      "exampleCode": "./live-examples/js-examples/date/date-getdate.js",
+      "fileName": "date-getdate.html",
+      "title": "JavaScript Demo: Date.getDate()",
+      "type": "js"
+    },
+    "dateGetDay": {
+      "exampleCode": "./live-examples/js-examples/date/date-getday.js",
+      "fileName": "date-getday.html",
+      "title": "JavaScript Demo: Date.getDay()",
+      "type": "js"
+    },
+    "dateGetFullYear": {
+      "exampleCode": "./live-examples/js-examples/date/date-getfullyear.js",
+      "fileName": "date-getfullyear.html",
+      "title": "JavaScript Demo: Date.getFullYear()",
+      "type": "js"
+    },
+    "dateGetHours": {
+      "exampleCode": "./live-examples/js-examples/date/date-gethours.js",
+      "fileName": "date-gethours.html",
+      "title": "JavaScript Demo: Date.getHours()",
+      "type": "js"
+    },
+    "dateGetMilliseconds": {
+      "exampleCode": "./live-examples/js-examples/date/date-getmilliseconds.js",
+      "fileName": "date-getmilliseconds.html",
+      "title": "JavaScript Demo: Date.getMilliseconds()",
+      "type": "js"
+    },
+    "dateGetMinutes": {
+      "exampleCode": "./live-examples/js-examples/date/date-getminutes.js",
+      "fileName": "date-getminutes.html",
+      "title": "JavaScript Demo: Date.getMinutes()",
+      "type": "js"
+    },
+    "dateGetMonth": {
+      "exampleCode": "./live-examples/js-examples/date/date-getmonth.js",
+      "fileName": "date-getmonth.html",
+      "title": "JavaScript Demo: Date.getMonth()",
+      "type": "js"
+    },
+    "dateGetSeconds": {
+      "exampleCode": "./live-examples/js-examples/date/date-getseconds.js",
+      "fileName": "date-getseconds.html",
+      "title": "JavaScript Demo: Date.getSeconds()",
+      "type": "js"
+    },
+    "dateGetTime": {
+      "exampleCode": "./live-examples/js-examples/date/date-gettime.js",
+      "fileName": "date-gettime.html",
+      "title": "JavaScript Demo: Date.getTime()",
+      "type": "js"
+    },
+    "dateGetTimezoneOffset": {
+      "exampleCode": "./live-examples/js-examples/date/date-gettimezoneoffset.js",
+      "fileName": "date-gettimezoneoffset.html",
+      "title": "JavaScript Demo: Date.getTimezoneOffset()",
+      "type": "js"
+    },
+    "dateGetUTCDate": {
+      "exampleCode": "./live-examples/js-examples/date/date-getutcdate.js",
+      "fileName": "date-getutcdate.html",
+      "title": "JavaScript Demo: Date.getUTCDate()",
+      "type": "js"
+    },
+    "dateGetUTCDay": {
+      "exampleCode": "./live-examples/js-examples/date/date-getutcday.js",
+      "fileName": "date-getutcday.html",
+      "title": "JavaScript Demo: Date.getUTCDay()",
+      "type": "js"
+    },
+    "dateGetUTCFullYear": {
+      "exampleCode": "./live-examples/js-examples/date/date-getutcfullyear.js",
+      "fileName": "date-getutcfullyear.html",
+      "title": "JavaScript Demo: Date.getUTCFullYear()",
+      "type": "js"
+    },
+    "dateGetUTCHours": {
+      "exampleCode": "./live-examples/js-examples/date/date-getutchours.js",
+      "fileName": "date-getutchours.html",
+      "title": "JavaScript Demo: Date.getUTCHours()",
+      "type": "js"
+    },
+    "dateGetUTCMonth": {
+      "exampleCode": "./live-examples/js-examples/date/date-getutcmonth.js",
+      "fileName": "date-getutcmonth.html",
+      "title": "JavaScript Demo: Date.getUTCMonth()",
+      "type": "js"
+    },
+    "dateGetUTCMilliseconds": {
+      "exampleCode": "./live-examples/js-examples/date/date-getutcmilliseconds.js",
+      "fileName": "date-getutcmilliseconds.html",
+      "title": "JavaScript Demo: Date.getUTCMilliseconds()",
+      "type": "js"
+    },
+    "dateGetUTCMinutes": {
+      "exampleCode": "./live-examples/js-examples/date/date-getutcminutes.js",
+      "fileName": "date-getutcminutes.html",
+      "title": "JavaScript Demo: Date.getUTCMinutes()",
+      "type": "js"
+    },
+    "dateGetUTCSeconds": {
+      "exampleCode": "./live-examples/js-examples/date/date-getutcseconds.js",
+      "fileName": "date-getutcseconds.html",
+      "title": "JavaScript Demo: Date.getUTCSeconds()",
+      "type": "js"
+    },
+    "dateNow": {
+      "exampleCode": "./live-examples/js-examples/date/date-now.js",
+      "fileName": "date-now.html",
+      "title": "JavaScript Demo: Date.now()",
+      "type": "js"
+    },
+    "dateParse": {
+      "exampleCode": "./live-examples/js-examples/date/date-parse.js",
+      "fileName": "date-parse.html",
+      "title": "JavaScript Demo: Date.parse()",
+      "type": "js"
+    },
+    "dateSetDate": {
+      "exampleCode": "./live-examples/js-examples/date/date-setdate.js",
+      "fileName": "date-setdate.html",
+      "title": "JavaScript Demo: Date.setDate()",
+      "type": "js"
+    },
+    "dateSetFullYear": {
+      "exampleCode": "./live-examples/js-examples/date/date-setfullyear.js",
+      "fileName": "date-setfullyear.html",
+      "title": "JavaScript Demo: Date.setFullYear()",
+      "type": "js"
+    },
+    "dateSetHours": {
+      "exampleCode": "./live-examples/js-examples/date/date-sethours.js",
+      "fileName": "date-sethours.html",
+      "title": "JavaScript Demo: Date.setHours()",
+      "type": "js"
+    },
+    "dateSetMilliseconds": {
+      "exampleCode": "./live-examples/js-examples/date/date-setmilliseconds.js",
+      "fileName": "date-setmilliseconds.html",
+      "title": "JavaScript Demo: Date.setMilliseconds()",
+      "type": "js"
+    },
+    "dateSetMinutes": {
+      "exampleCode": "./live-examples/js-examples/date/date-setminutes.js",
+      "fileName": "date-setminutes.html",
+      "title": "JavaScript Demo: Date.setMinutes()",
+      "type": "js"
+    },
+    "dateSetMonth": {
+      "exampleCode": "./live-examples/js-examples/date/date-setmonth.js",
+      "fileName": "date-setmonth.html",
+      "title": "JavaScript Demo: Date.setMonth()",
+      "type": "js"
+    },
+    "dateSetSeconds": {
+      "exampleCode": "./live-examples/js-examples/date/date-setseconds.js",
+      "fileName": "date-setseconds.html",
+      "title": "JavaScript Demo: Date.setSeconds()",
+      "type": "js"
+    },
+    "dateSetTime": {
+      "exampleCode": "./live-examples/js-examples/date/date-settime.js",
+      "fileName": "date-settime.html",
+      "title": "JavaScript Demo: Date.setTime()",
+      "type": "js"
+    },
+    "dateSetUTCDate": {
+      "exampleCode": "./live-examples/js-examples/date/date-setutcdate.js",
+      "fileName": "date-setutcdate.html",
+      "title": "JavaScript Demo: Date.setUTCDate()",
+      "type": "js"
+    },
+    "dateSetUTCFullYear": {
+      "exampleCode": "./live-examples/js-examples/date/date-setutcfullyear.js",
+      "fileName": "date-setutcfullyear.html",
+      "title": "JavaScript Demo: Date.setUTCFullYear()",
+      "type": "js"
+    },
+    "dateSetUTCHours": {
+      "exampleCode": "./live-examples/js-examples/date/date-setutchours.js",
+      "fileName": "date-setutchours.html",
+      "title": "JavaScript Demo: Date.setUTCHours()",
+      "type": "js"
+    },
+    "dateSetUTCMilliseconds": {
+      "exampleCode": "./live-examples/js-examples/date/date-setutcmilliseconds.js",
+      "fileName": "date-setutcmilliseconds.html",
+      "title": "JavaScript Demo: Date.setUTCMilliseconds()",
+      "type": "js"
+    },
+    "dateSetUTCMinutes": {
+      "exampleCode": "./live-examples/js-examples/date/date-setutcminutes.js",
+      "fileName": "date-setutcminutes.html",
+      "title": "JavaScript Demo: Date.setUTCMinutes()",
+      "type": "js"
+    },
+    "dateSetUTCMonth": {
+      "exampleCode": "./live-examples/js-examples/date/date-setutcmonth.js",
+      "fileName": "date-setutcmonth.html",
+      "title": "JavaScript Demo: Date.setUTCMonth()",
+      "type": "js"
+    },
+    "dateSetUTCSeconds": {
+      "exampleCode": "./live-examples/js-examples/date/date-setutcseconds.js",
+      "fileName": "date-setutcseconds.html",
+      "title": "JavaScript Demo: Date.setUTCSeconds()",
+      "type": "js"
+    },
+    "dateToDateString": {
+      "exampleCode": "./live-examples/js-examples/date/date-todatestring.js",
+      "fileName": "date-todatestring.html",
+      "title": "JavaScript Demo: Date.toDateString()",
+      "type": "js"
+    },
+    "dateToISOString": {
+      "exampleCode": "./live-examples/js-examples/date/date-toisostring.js",
+      "fileName": "date-toisostring.html",
+      "title": "JavaScript Demo: Date.toISOString()",
+      "type": "js"
+    },
+    "dateToJSON": {
+      "exampleCode": "./live-examples/js-examples/date/date-tojson.js",
+      "fileName": "date-tojson.html",
+      "title": "JavaScript Demo: Date.toJSON()",
+      "type": "js"
+    },
+    "dateToLocaleDateString": {
+      "exampleCode": "./live-examples/js-examples/date/date-tolocaledatestring.js",
+      "fileName": "date-tolocaledatestring.html",
+      "title": "JavaScript Demo: Date.toLocaleDateString()",
+      "type": "js"
+    },
+    "dateToLocaleString": {
+      "exampleCode": "./live-examples/js-examples/date/date-tolocalestring.js",
+      "fileName": "date-tolocalestring.html",
+      "title": "JavaScript Demo: Date.toLocaleString()",
+      "type": "js"
+    },
+    "dateToLocaleTimeString": {
+      "exampleCode": "./live-examples/js-examples/date/date-tolocaletimestring.js",
+      "fileName": "date-tolocaletimestring.html",
+      "title": "JavaScript Demo: Date.toLocaleTimeString()",
+      "type": "js"
+    },
+    "dateToPrimitive": {
+      "exampleCode": "./live-examples/js-examples/date/date-toprimitive.js",
+      "fileName": "date-toprimitive.html",
+      "title": "JavaScript Demo: Date.prototype[@@toPrimitive]",
+      "type": "js"
+    },
+    "dateToString": {
+      "exampleCode": "./live-examples/js-examples/date/date-tostring.js",
+      "fileName": "date-tostring.html",
+      "title": "JavaScript Demo: Date.toString()",
+      "type": "js"
+    },
+    "dateToTimeString": {
+      "exampleCode": "./live-examples/js-examples/date/date-totimestring.js",
+      "fileName": "date-totimestring.html",
+      "title": "JavaScript Demo: Date.toTimeString()",
+      "type": "js"
+    },
+    "dateToUTCString": {
+      "exampleCode": "./live-examples/js-examples/date/date-toutcstring.js",
+      "fileName": "date-toutcstring.html",
+      "title": "JavaScript Demo: Date.toUTCString()",
+      "type": "js"
+    },
+    "dateUTC": {
+      "exampleCode": "./live-examples/js-examples/date/date-utc.js",
+      "fileName": "date-utc.html",
+      "title": "JavaScript Demo: Date.UTC()",
+      "type": "js"
+    },
+    "dateValueOf": {
+      "exampleCode": "./live-examples/js-examples/date/date-valueof.js",
+      "fileName": "date-valueof.html",
+      "title": "JavaScript Demo: Date.valueOf()",
+      "type": "js"
     }
+  }
 }
