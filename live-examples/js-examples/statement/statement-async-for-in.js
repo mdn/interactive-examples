@@ -1,11 +1,7 @@
 async function getFromList() {
   const url = 'https://www.random.org/decimal-fractions/?num=1&dec=10&col=1&format=plain&rnd=new';
 
-  const arrayOfFetches = [
-    doFetch(url),
-    doFetch(url),
-    doFetch(url)
-  ];
+  const arrayOfFetches = [doFetch(url), doFetch(url), doFetch(url)];
 
   console.log('Regular iterator: promise objects are expected.');
   for (const item of arrayOfFetches) {

@@ -1,13 +1,15 @@
 p,
 dl {
-    font: 1rem 'Fira Sans', sans-serif;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
 }
 
 dl > dt {
-    font-weight: normal;
-    font-style: oblique;
+  font-weight: normal;
+  font-style: oblique;
 }
 
 dd {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }

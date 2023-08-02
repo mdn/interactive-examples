@@ -1,130 +1,129 @@
 {
-    "pages": {
-        "font": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font.html",
-            "fileName": "font.html",
-            "title": "CSS Demo: font",
-            "type": "css"
-        },
-        "fontFamily": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-family.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-family.html",
-            "fileName": "font-family.html",
-            "title": "CSS Demo: font-family",
-            "type": "css"
-        },
-        "fontFeatureSettings": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-feature-settings.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-feature-settings.html",
-            "fileName": "font-feature-settings.html",
-            "title": "CSS Demo: font-feature-settings",
-            "type": "css"
-        },
-        "fontLanguageOverride": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-language-override.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-language-override.html",
-            "fileName": "font-language-override.html",
-            "title": "CSS Demo: font-language-override",
-            "type": "css"
-        },
-        "fontKerning": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-kerning.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-kerning.html",
-            "fileName": "font-kerning.html",
-            "title": "CSS Demo: font-kerning",
-            "type": "css"
-        },
-        "fontOpticalSizing": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-optical-sizing.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-optical-sizing.html",
-            "fileName": "font-optical-sizing.html",
-            "title": "CSS Demo: font-optical-sizing",
-            "type": "css"
-        },
-        "fontSize": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-size.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-size.html",
-            "fileName": "font-size.html",
-            "title": "CSS Demo: font-size",
-            "type": "css"
-        },
-        "fontSizeAdjust": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-size-adjust.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-size-adjust.html",
-            "fileName": "font-size-adjust.html",
-            "title": "CSS Demo: font-size-adjust",
-            "type": "css"
-        },
-        "fontStretch": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-stretch.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-stretch.html",
-            "fileName": "font-stretch.html",
-            "title": "CSS Demo: font-stretch",
-            "type": "css"
-        },
-        "fontStyle": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-style.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-style.html",
-            "fileName": "font-style.html",
-            "title": "CSS Demo: font-style",
-            "type": "css"
-        },
-        "fontSynthesis": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-synthesis.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-synthesis.html",
-            "fileName": "font-synthesis.html",
-            "title": "CSS Demo: font-synthesis",
-            "type": "css"
-        },
-        "fontVariant": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-variant.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-variant.html",
-            "fileName": "font-variant.html",
-            "title": "CSS Demo: font-variant",
-            "type": "css"
-        },
-        "fontVariantEastAsian": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-variant-east-asian.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-variant-east-asian.html",
-            "fileName": "font-variant-east-asian.html",
-            "title": "CSS Demo: font-variant-east-asian",
-            "type": "css"
-        },
-        "fontVariantCaps": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-variant-caps.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-variant-caps.html",
-            "fileName": "font-variant-caps.html",
-            "title": "CSS Demo: font-variant-caps",
-            "type": "css"
-        },
-        "fontVariantLigatures": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-variant-ligatures.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-variant-ligatures.html",
-            "fileName": "font-variant-ligatures.html",
-            "title": "CSS Demo: font-variant-ligatures",
-            "type": "css"
-        },
-        "fontVariantNumeric": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-variant-numeric.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-variant-numeric.html",
-            "fileName": "font-variant-numeric.html",
-            "title": "CSS Demo: font-variant-numeric",
-            "type": "css"
-        },
-        "fontVariationSettings": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-variation-settings.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-variation-settings.html",
-            "fileName": "font-variation-settings.html",
-            "title": "CSS Demo: font-variation-settings",
-            "type": "css"
-        },
-        "fontWeight": {
-            "cssExampleSrc": "./live-examples/css-examples/fonts/font-weight.css",
-            "exampleCode": "./live-examples/css-examples/fonts/font-weight.html",
-            "fileName": "font-weight.html",
-            "title": "CSS Demo: font-weight",
-            "type": "css"
-        }
+  "pages": {
+    "font": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font.html",
+      "fileName": "font.html",
+      "title": "CSS Demo: font",
+      "type": "css"
+    },
+    "fontFamily": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-family.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-family.html",
+      "fileName": "font-family.html",
+      "title": "CSS Demo: font-family",
+      "type": "css"
+    },
+    "fontFeatureSettings": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-feature-settings.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-feature-settings.html",
+      "fileName": "font-feature-settings.html",
+      "title": "CSS Demo: font-feature-settings",
+      "type": "css"
+    },
+    "fontLanguageOverride": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-language-override.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-language-override.html",
+      "fileName": "font-language-override.html",
+      "title": "CSS Demo: font-language-override",
+      "type": "css"
+    },
+    "fontKerning": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-kerning.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-kerning.html",
+      "fileName": "font-kerning.html",
+      "title": "CSS Demo: font-kerning",
+      "type": "css"
+    },
+    "fontOpticalSizing": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-optical-sizing.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-optical-sizing.html",
+      "fileName": "font-optical-sizing.html",
+      "title": "CSS Demo: font-optical-sizing",
+      "type": "css"
+    },
+    "fontSize": {
+      "exampleCode": "./live-examples/css-examples/fonts/font-size.html",
+      "fileName": "font-size.html",
+      "title": "CSS Demo: font-size",
+      "type": "css"
+    },
+    "fontSizeAdjust": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-size-adjust.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-size-adjust.html",
+      "fileName": "font-size-adjust.html",
+      "title": "CSS Demo: font-size-adjust",
+      "type": "css"
+    },
+    "fontStretch": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-stretch.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-stretch.html",
+      "fileName": "font-stretch.html",
+      "title": "CSS Demo: font-stretch",
+      "type": "css"
+    },
+    "fontStyle": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-style.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-style.html",
+      "fileName": "font-style.html",
+      "title": "CSS Demo: font-style",
+      "type": "css"
+    },
+    "fontSynthesis": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-synthesis.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-synthesis.html",
+      "fileName": "font-synthesis.html",
+      "title": "CSS Demo: font-synthesis",
+      "type": "css"
+    },
+    "fontVariant": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-variant.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-variant.html",
+      "fileName": "font-variant.html",
+      "title": "CSS Demo: font-variant",
+      "type": "css"
+    },
+    "fontVariantEastAsian": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-variant-east-asian.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-variant-east-asian.html",
+      "fileName": "font-variant-east-asian.html",
+      "title": "CSS Demo: font-variant-east-asian",
+      "type": "css"
+    },
+    "fontVariantCaps": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-variant-caps.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-variant-caps.html",
+      "fileName": "font-variant-caps.html",
+      "title": "CSS Demo: font-variant-caps",
+      "type": "css"
+    },
+    "fontVariantLigatures": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-variant-ligatures.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-variant-ligatures.html",
+      "fileName": "font-variant-ligatures.html",
+      "title": "CSS Demo: font-variant-ligatures",
+      "type": "css"
+    },
+    "fontVariantNumeric": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-variant-numeric.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-variant-numeric.html",
+      "fileName": "font-variant-numeric.html",
+      "title": "CSS Demo: font-variant-numeric",
+      "type": "css"
+    },
+    "fontVariationSettings": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-variation-settings.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-variation-settings.html",
+      "fileName": "font-variation-settings.html",
+      "title": "CSS Demo: font-variation-settings",
+      "type": "css"
+    },
+    "fontWeight": {
+      "cssExampleSrc": "./live-examples/css-examples/fonts/font-weight.css",
+      "exampleCode": "./live-examples/css-examples/fonts/font-weight.html",
+      "fileName": "font-weight.html",
+      "title": "CSS Demo: font-weight",
+      "type": "css"
     }
+  }
 }

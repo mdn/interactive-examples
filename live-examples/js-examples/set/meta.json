@@ -1,64 +1,64 @@
 {
-    "pages": {
-        "setPrototype@@Iterator": {
-            "exampleCode": "./live-examples/js-examples/set/set-prototype-@@iterator.js",
-            "fileName": "set-prototype-@@iterator.html",
-            "title": "JavaScript Demo: Set.prototype[@@iterator]()",
-            "type": "js"
-        },
-        "setPrototypeAdd": {
-            "exampleCode": "./live-examples/js-examples/set/set-prototype-add.js",
-            "fileName": "set-prototype-add.html",
-            "title": "JavaScript Demo: Set.prototype.add()",
-            "type": "js"
-        },
-        "setPrototypeClear": {
-            "exampleCode": "./live-examples/js-examples/set/set-prototype-clear.js",
-            "fileName": "set-prototype-clear.html",
-            "title": "JavaScript Demo: Set.prototype.clear()",
-            "type": "js"
-        },
-        "setPrototypeConstructor": {
-            "exampleCode": "./live-examples/js-examples/set/set-prototype-constructor.js",
-            "fileName": "set-prototype-constructor.html",
-            "title": "JavaScript Demo: Set.prototype Constructor",
-            "type": "js"
-        },
-        "setPrototypeDelete": {
-            "exampleCode": "./live-examples/js-examples/set/set-prototype-delete.js",
-            "fileName": "set-prototype-delete.html",
-            "title": "JavaScript Demo: Set.prototype.delete()",
-            "type": "js"
-        },
-        "setPrototypeEntries": {
-            "exampleCode": "./live-examples/js-examples/set/set-prototype-entries.js",
-            "fileName": "set-prototype-entries.html",
-            "title": "JavaScript Demo: Set.prototype.entries()",
-            "type": "js"
-        },
-        "setPrototypeForEach": {
-            "exampleCode": "./live-examples/js-examples/set/set-prototype-foreach.js",
-            "fileName": "set-prototype-foreach.html",
-            "title": "JavaScript Demo: Set.prototype.forEach()",
-            "type": "js"
-        },
-        "setPrototypeHas": {
-            "exampleCode": "./live-examples/js-examples/set/set-prototype-has.js",
-            "fileName": "set-prototype-has.html",
-            "title": "JavaScript Demo: Set.prototype.has()",
-            "type": "js"
-        },
-        "setPrototypeSize": {
-            "exampleCode": "./live-examples/js-examples/set/set-prototype-size.js",
-            "fileName": "set-prototype-size.html",
-            "title": "JavaScript Demo: Set.prototype.size",
-            "type": "js"
-        },
-        "setPrototypeValues": {
-            "exampleCode": "./live-examples/js-examples/set/set-prototype-values.js",
-            "fileName": "set-prototype-values.html",
-            "title": "JavaScript Demo: Set.prototype.values",
-            "type": "js"
-        }
+  "pages": {
+    "setPrototype@@Iterator": {
+      "exampleCode": "./live-examples/js-examples/set/set-prototype-@@iterator.js",
+      "fileName": "set-prototype-@@iterator.html",
+      "title": "JavaScript Demo: Set.prototype[@@iterator]()",
+      "type": "js"
+    },
+    "setPrototypeAdd": {
+      "exampleCode": "./live-examples/js-examples/set/set-prototype-add.js",
+      "fileName": "set-prototype-add.html",
+      "title": "JavaScript Demo: Set.prototype.add()",
+      "type": "js"
+    },
+    "setPrototypeClear": {
+      "exampleCode": "./live-examples/js-examples/set/set-prototype-clear.js",
+      "fileName": "set-prototype-clear.html",
+      "title": "JavaScript Demo: Set.prototype.clear()",
+      "type": "js"
+    },
+    "setPrototypeConstructor": {
+      "exampleCode": "./live-examples/js-examples/set/set-prototype-constructor.js",
+      "fileName": "set-prototype-constructor.html",
+      "title": "JavaScript Demo: Set.prototype Constructor",
+      "type": "js"
+    },
+    "setPrototypeDelete": {
+      "exampleCode": "./live-examples/js-examples/set/set-prototype-delete.js",
+      "fileName": "set-prototype-delete.html",
+      "title": "JavaScript Demo: Set.prototype.delete()",
+      "type": "js"
+    },
+    "setPrototypeEntries": {
+      "exampleCode": "./live-examples/js-examples/set/set-prototype-entries.js",
+      "fileName": "set-prototype-entries.html",
+      "title": "JavaScript Demo: Set.prototype.entries()",
+      "type": "js"
+    },
+    "setPrototypeForEach": {
+      "exampleCode": "./live-examples/js-examples/set/set-prototype-foreach.js",
+      "fileName": "set-prototype-foreach.html",
+      "title": "JavaScript Demo: Set.prototype.forEach()",
+      "type": "js"
+    },
+    "setPrototypeHas": {
+      "exampleCode": "./live-examples/js-examples/set/set-prototype-has.js",
+      "fileName": "set-prototype-has.html",
+      "title": "JavaScript Demo: Set.prototype.has()",
+      "type": "js"
+    },
+    "setPrototypeSize": {
+      "exampleCode": "./live-examples/js-examples/set/set-prototype-size.js",
+      "fileName": "set-prototype-size.html",
+      "title": "JavaScript Demo: Set.prototype.size",
+      "type": "js"
+    },
+    "setPrototypeValues": {
+      "exampleCode": "./live-examples/js-examples/set/set-prototype-values.js",
+      "fileName": "set-prototype-values.html",
+      "title": "JavaScript Demo: Set.prototype.values",
+      "type": "js"
     }
+  }
 }

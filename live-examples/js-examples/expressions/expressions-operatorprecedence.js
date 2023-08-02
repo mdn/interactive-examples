@@ -7,5 +7,5 @@ console.log(4 * 3 ** 2); // 4 * 9
 let a;
 let b;
 
-console.log(a = b = 5);
+console.log((a = b = 5));
 // Expected output: 5

@@ -1,85 +1,85 @@
 {
-    "pages": {
-        "angle": {
-            "cssExampleSrc": "./live-examples/css-examples/values-and-units/angle.css",
-            "exampleCode": "./live-examples/css-examples/values-and-units/type-angle.html",
-            "fileName": "type-angle.html",
-            "title": "CSS Demo: &lt;angle&gt;",
-            "type": "css"
-        },
-        "basicShape": {
-            "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
-            "exampleCode": "./live-examples/css-examples/values-and-units/type-basic-shape.html",
-            "fileName": "type-basic-shape.html",
-            "title": "CSS Demo: &lt;basic-shape&gt;",
-            "type": "css"
-        },
-        "calc": {
-            "cssExampleSrc": "./live-examples/css-examples/values-and-units/function-calc.css",
-            "exampleCode": "./live-examples/css-examples/values-and-units/function-calc.html",
-            "fileName": "function-calc.html",
-            "title": "CSS Demo: calc()",
-            "type": "css"
-        },
-        "circle": {
-            "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
-            "exampleCode": "./live-examples/css-examples/values-and-units/function-circle.html",
-            "fileName": "function-circle.html",
-            "title": "CSS Demo: circle()",
-            "type": "css"
-        },
-        "clamp": {
-            "exampleCode": "./live-examples/css-examples/values-and-units/function-clamp.html",
-            "fileName": "function-clamp.html",
-            "title": "CSS Demo: clamp()",
-            "type": "css"
-        },
-        "ellipse": {
-            "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
-            "exampleCode": "./live-examples/css-examples/values-and-units/function-ellipse.html",
-            "fileName": "function-ellipse.html",
-            "title": "CSS Demo: ellipse()",
-            "type": "css"
-        },
-        "inset": {
-            "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
-            "exampleCode": "./live-examples/css-examples/values-and-units/function-inset.html",
-            "fileName": "function-inset.html",
-            "title": "CSS Demo: inset()",
-            "type": "css"
-        },
-        "gradient": {
-            "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
-            "exampleCode": "./live-examples/css-examples/values-and-units/type-gradient.html",
-            "fileName": "type-gradient.html",
-            "title": "CSS Demo: &lt;gradient&gt;",
-            "type": "css"
-        },
-        "max": {
-            "exampleCode": "./live-examples/css-examples/values-and-units/function-max.html",
-            "fileName": "function-max.html",
-            "title": "CSS Demo: max()",
-            "type": "css"
-        },
-        "min": {
-            "exampleCode": "./live-examples/css-examples/values-and-units/function-min.html",
-            "fileName": "function-min.html",
-            "title": "CSS Demo: min()",
-            "type": "css"
-        },
-        "path": {
-            "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
-            "exampleCode": "./live-examples/css-examples/values-and-units/function-path.html",
-            "fileName": "function-path.html",
-            "title": "CSS Demo: path()",
-            "type": "css"
-        },
-        "polygon": {
-            "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
-            "exampleCode": "./live-examples/css-examples/values-and-units/function-polygon.html",
-            "fileName": "function-polygon.html",
-            "title": "CSS Demo: polygon()",
-            "type": "css"
-        }
+  "pages": {
+    "angle": {
+      "cssExampleSrc": "./live-examples/css-examples/values-and-units/angle.css",
+      "exampleCode": "./live-examples/css-examples/values-and-units/type-angle.html",
+      "fileName": "type-angle.html",
+      "title": "CSS Demo: &lt;angle&gt;",
+      "type": "css"
+    },
+    "basicShape": {
+      "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
+      "exampleCode": "./live-examples/css-examples/values-and-units/type-basic-shape.html",
+      "fileName": "type-basic-shape.html",
+      "title": "CSS Demo: &lt;basic-shape&gt;",
+      "type": "css"
+    },
+    "calc": {
+      "cssExampleSrc": "./live-examples/css-examples/values-and-units/function-calc.css",
+      "exampleCode": "./live-examples/css-examples/values-and-units/function-calc.html",
+      "fileName": "function-calc.html",
+      "title": "CSS Demo: calc()",
+      "type": "css"
+    },
+    "circle": {
+      "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
+      "exampleCode": "./live-examples/css-examples/values-and-units/function-circle.html",
+      "fileName": "function-circle.html",
+      "title": "CSS Demo: circle()",
+      "type": "css"
+    },
+    "clamp": {
+      "exampleCode": "./live-examples/css-examples/values-and-units/function-clamp.html",
+      "fileName": "function-clamp.html",
+      "title": "CSS Demo: clamp()",
+      "type": "css"
+    },
+    "ellipse": {
+      "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
+      "exampleCode": "./live-examples/css-examples/values-and-units/function-ellipse.html",
+      "fileName": "function-ellipse.html",
+      "title": "CSS Demo: ellipse()",
+      "type": "css"
+    },
+    "inset": {
+      "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
+      "exampleCode": "./live-examples/css-examples/values-and-units/function-inset.html",
+      "fileName": "function-inset.html",
+      "title": "CSS Demo: inset()",
+      "type": "css"
+    },
+    "gradient": {
+      "cssExampleSrc": "./live-examples/css-examples/images/gradient.css",
+      "exampleCode": "./live-examples/css-examples/values-and-units/type-gradient.html",
+      "fileName": "type-gradient.html",
+      "title": "CSS Demo: &lt;gradient&gt;",
+      "type": "css"
+    },
+    "max": {
+      "exampleCode": "./live-examples/css-examples/values-and-units/function-max.html",
+      "fileName": "function-max.html",
+      "title": "CSS Demo: max()",
+      "type": "css"
+    },
+    "min": {
+      "exampleCode": "./live-examples/css-examples/values-and-units/function-min.html",
+      "fileName": "function-min.html",
+      "title": "CSS Demo: min()",
+      "type": "css"
+    },
+    "path": {
+      "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
+      "exampleCode": "./live-examples/css-examples/values-and-units/function-path.html",
+      "fileName": "function-path.html",
+      "title": "CSS Demo: path()",
+      "type": "css"
+    },
+    "polygon": {
+      "cssExampleSrc": "./live-examples/css-examples/values-and-units/basic-shape.css",
+      "exampleCode": "./live-examples/css-examples/values-and-units/function-polygon.html",
+      "fileName": "function-polygon.html",
+      "title": "CSS Demo: polygon()",
+      "type": "css"
     }
+  }
 }

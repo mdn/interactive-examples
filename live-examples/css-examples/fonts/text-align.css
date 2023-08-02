@@ -1,0 +1,7 @@
+#output section {
+  font-size: 1.5em;
+}
+
+#default-example > div {
+  width: 250px;
+}

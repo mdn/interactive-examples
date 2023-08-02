@@ -2,7 +2,7 @@ const object1 = {};
 
 Object.defineProperty(object1, 'property1', {
   value: 42,
-  writable: false
+  writable: false,
 });
 
 object1.property1 = 77;

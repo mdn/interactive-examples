@@ -1,12 +1,12 @@
 p {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 li:nth-child(-n + 3) {
-    border: 2px solid orange;
-    margin-bottom: 1px;
+  border: 2px solid orange;
+  margin-bottom: 1px;
 }
 
 li:nth-child(even) {
-    background-color: lightyellow;
+  background-color: lightyellow;
 }

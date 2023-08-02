@@ -1,7 +1,7 @@
 p {
-    font: 1rem 'Fira Sans', sans-serif;
+  margin: 0;
 }
 
 u {
-    text-decoration: #f00 wavy underline;
+  text-decoration: #f00 wavy underline;
 }

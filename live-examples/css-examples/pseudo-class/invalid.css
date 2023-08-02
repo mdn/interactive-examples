@@ -1,11 +1,11 @@
 label {
-    display: block;
-    margin-top: 1em;
+  display: block;
+  margin-top: 1em;
 }
 
 input:invalid {
-    background-color: ivory;
-    border: none;
-    outline: 2px solid red;
-    border-radius: 5px;
+  background-color: ivory;
+  border: none;
+  outline: 2px solid red;
+  border-radius: 5px;
 }
