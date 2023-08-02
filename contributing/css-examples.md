@@ -210,4 +210,4 @@ and the meta.json entry for a type would look like:
 }
 ```
 
-Once you've finished writing the example, see the [Testing](CONTRIBUTING.md#testing) section for the next step.
+Once you've finished writing the example, see the [Testing](../CONTRIBUTING.md#testing) section for the next step.

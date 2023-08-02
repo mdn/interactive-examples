@@ -137,11 +137,11 @@ Add a property under `pages` describing your example. The example for `<td>` cou
 
 Note that entries in `pages` are in alphabetical order, please preserve that when adding your page.
 
-Once you've finished writing the example, see the [Testing](CONTRIBUTING.md#testing) section for the next step.
+Once you've finished writing the example, see the [Testing](../CONTRIBUTING.md#testing) section for the next step.
 
 The final example should look something like this:
 
-![Code editor example combining HTML and CSS amd demonstrating the result](./media/html-example-screenshot.png)
+![Code editor example combining HTML and CSS amd demonstrating the result](../media/html-example-screenshot.png)
 
 ## Guidelines
 
@@ -179,7 +179,11 @@ In particular, see the following guidelines for the HTML source and the output:
 - **Use line breaks for readability**: keep in mind that at different browser widths longer lines will wrap and this can hurt readability. By including line breaks you can make the example more readable at different browser widths. For example, consider an example like this:
 
 ```html
-<img class="fit-picture" src="/media/examples/Grapefruit_Slice--332x332.jpg" alt="Grapefruit slice atop a pile of other slices"/>
+<img
+  class="fit-picture"
+  src="/media/examples/Grapefruit_Slice--332x332.jpg"
+  alt="Grapefruit slice atop a pile of other slices"
+/>
 ```
 
 With a browser window width of 1000 pixels, this will wrap like this:
