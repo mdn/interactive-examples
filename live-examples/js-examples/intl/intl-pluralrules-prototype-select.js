@@ -1,11 +1,11 @@
 console.log(new Intl.PluralRules('ar-EG').select(0));
-// expected output: "zero"
+// Expected output: "zero"
 
 console.log(new Intl.PluralRules('ar-EG').select(5));
-// expected output: "few"
+// Expected output: "few"
 
 console.log(new Intl.PluralRules('ar-EG').select(55));
-// expected output: "many"
+// Expected output: "many"
 
 console.log(new Intl.PluralRules('en').select(0));
-// expected output: "other"
+// Expected output: "other"

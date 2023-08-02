@@ -3,10 +3,10 @@ const korean = new Intl.Locale('ko-Kore-KR');
 const arabic = new Intl.Locale('ar-Arab-EG');
 
 console.log(english.minimize().baseName);
-// expected output: "en"
+// Expected output: "en"
 
 console.log(korean.minimize().baseName);
-// expected output: "ko"
+// Expected output: "ko"
 
 console.log(arabic.minimize().baseName);
-// expected output: "ar"
+// Expected output: "ar"

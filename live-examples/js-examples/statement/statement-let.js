@@ -4,8 +4,8 @@ if (x === 1) {
   let x = 2;
 
   console.log(x);
-  // expected output: 2
+  // Expected output: 2
 }
 
 console.log(x);
-// expected output: 1
+// Expected output: 1

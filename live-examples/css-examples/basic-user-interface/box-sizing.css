@@ -1,16 +1,16 @@
 #example-element-parent {
-    width: 220px;
-    height: 200px;
-    border: solid 10px #ffc129;
-    margin: 0.8em;
+  width: 220px;
+  height: 200px;
+  border: solid 10px #ffc129;
+  margin: 0.8em;
 }
 
 #example-element {
-    height: 60px;
-    margin: 2em auto;
-    background-color: rgba(229, 232, 252, 0.6);
+  height: 60px;
+  margin: 2em auto;
+  background-color: rgba(81, 81, 81, 0.6);
 }
 
 #example-element > p {
-    margin: 0;
+  margin: 0;
 }

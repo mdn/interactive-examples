@@ -5,4 +5,4 @@ class Polygon {
 }
 
 console.log(new Polygon(4, 3).area);
-// expected output: 12
+// Expected output: 12

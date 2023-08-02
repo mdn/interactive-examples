@@ -5,4 +5,4 @@ const buffer = new ArrayBuffer(123);
 const view = new DataView(buffer);
 
 console.log(view.buffer.byteLength);
-// expected output: 123
+// Expected output: 123

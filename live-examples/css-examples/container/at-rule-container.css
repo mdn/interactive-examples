@@ -1,0 +1,23 @@
+.container {
+  container-type: inline-size;
+  margin-bottom: 1rem;
+}
+
+.size-big {
+  width: 150px;
+}
+
+.size-standard {
+  width: 80px;
+}
+
+.child {
+  padding: 5px;
+  background-color: sandybrown;
+}
+
+@container (width < 100px) {
+  .child {
+    background-color: hotpink;
+  }
+}

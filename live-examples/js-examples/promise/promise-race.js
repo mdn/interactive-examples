@@ -10,4 +10,4 @@ Promise.race([promise1, promise2]).then((value) => {
   console.log(value);
   // Both resolve, but promise2 is faster
 });
-// expected output: "two"
+// Expected output: "two"

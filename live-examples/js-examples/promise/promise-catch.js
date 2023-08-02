@@ -5,4 +5,4 @@ const promise1 = new Promise((resolve, reject) => {
 promise1.catch((error) => {
   console.error(error);
 });
-// expected output: Error: Uh-oh!
+// Expected output: Error: Uh-oh!

@@ -1,0 +1,8 @@
+#special-paragraph {
+  font-weight: bold;
+}
+
+.special-s {
+  text-decoration: underline overline line-through;
+  color: crimson;
+}

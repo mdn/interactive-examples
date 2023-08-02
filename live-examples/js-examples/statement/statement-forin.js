@@ -4,7 +4,7 @@ for (const property in object) {
   console.log(`${property}: ${object[property]}`);
 }
 
-// expected output:
+// Expected output:
 // "a: 1"
 // "b: 2"
 // "c: 3"

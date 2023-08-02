@@ -8,4 +8,4 @@ object1[b] = 'globalSymbol';
 const objectSymbols = Object.getOwnPropertySymbols(object1);
 
 console.log(objectSymbols.length);
-// expected output: 2
+// Expected output: 2

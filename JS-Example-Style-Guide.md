@@ -31,12 +31,12 @@ For example:
 const array1 = ['a', 'b', 'c'];
 
 console.log(array1);
-// expected output: Array ["a", "b", "c"]
+// Expected output: Array ["a", "b", "c"]
 
 const array2 = [1, 2, 3];
 
 console.log(array2);
-// expected output: Array [1, 2, 3]
+// Expected output: Array [1, 2, 3]
 ```
 
 #### Descriptive suffixes
@@ -80,7 +80,7 @@ function monster1(disposition) {
 const handler1 = {
   construct: (target, args) => {
     console.log('monster1 constructor called');
-    // expected output: "monster1 constructor called"
+    // Expected output: "monster1 constructor called"
 
     return new target(...args);
   },
@@ -89,7 +89,7 @@ const handler1 = {
 const proxy1 = new Proxy(monster1, handler1);
 
 console.log(new proxy1('fierce').disposition);
-// expected output: "fierce"
+// Expected output: "fierce"
 ```
 
 ### Providing context
@@ -98,7 +98,7 @@ Where possible, it is useful to provide examples showing how a method could be u
 
 ### Indicating console.log output
 
-To indicate the output we expect, we place a comment `// expected output:` on the line below each `console.log`.
+To indicate the output we expect, we place a comment `// Expected output:` on the line below each `console.log`.
 
 ### Representing browser differences
 
@@ -106,8 +106,8 @@ Occasionally browsers will produce different results, in these cases we can deno
 
 ```js
 console.log(matchesDe);
-// expected output (Chrome / Firefox): Array ["Bären"]
-// expected output (Safari): Array ["Bären", "Baren"]
+// Expected output (Chrome / Firefox): Array ["Bären"]
+// Expected output (Safari): Array ["Bären", "Baren"]
 ```
 
 ### Dealing with errors
@@ -121,7 +121,7 @@ try {
   Intl.getCanonicalLocales('EN_US');
 } catch (err) {
   console.log(err);
-  // expected output: RangeError: invalid language tag: EN_US
+  // Expected output: RangeError: invalid language tag: EN_US
 }
 ```
 
@@ -149,13 +149,13 @@ For example, in the comparison operators' example we have to show how the `==` o
 You can validate your example anytime by running the following npm script:
 
 ```sh
-yarn run lint:js
+npm run lint:js
 ```
 
 We've also provided the following command:
 
 ```sh
-yarn run fix:js
+npm run fix:js
 ```
 
 This runs ESLint with the `--fix` option, which tries to fix issues.
@@ -177,7 +177,7 @@ For example:
 ```js
 construct: (target, args) => {
   console.log('monster1 constructor called');
-  // expected output: "monster1 constructor called"
+  // Expected output: "monster1 constructor called"
 
   return new target(...args);
 };
@@ -189,5 +189,5 @@ and
 const proxy1 = new Proxy(monster1, handler1);
 
 console.log(new proxy1('fierce').disposition);
-// expected output: "fierce"
+// Expected output: "fierce"
 ```

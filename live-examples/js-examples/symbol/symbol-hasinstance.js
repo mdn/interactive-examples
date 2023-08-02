@@ -5,4 +5,4 @@ class Array1 {
 }
 
 console.log([] instanceof Array1);
-// expected output: true
+// Expected output: true

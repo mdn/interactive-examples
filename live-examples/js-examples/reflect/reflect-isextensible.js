@@ -1,14 +1,14 @@
 const object1 = {};
 
 console.log(Reflect.isExtensible(object1));
-// expected output: true
+// Expected output: true
 
 Reflect.preventExtensions(object1);
 
 console.log(Reflect.isExtensible(object1));
-// expected output: false
+// Expected output: false
 
 const object2 = Object.seal({});
 
 console.log(Reflect.isExtensible(object2));
-// expected output: false
+// Expected output: false

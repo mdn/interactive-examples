@@ -6,4 +6,4 @@ const promises = [promise1, promise2, promise3];
 
 Promise.any(promises).then((value) => console.log(value));
 
-// expected output: "quick"
+// Expected output: "quick"

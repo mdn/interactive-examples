@@ -1,5 +1,5 @@
 const monster1 = {
-  canEvolve: true
+  canEvolve: true,
 };
 
 const handler1 = {
@@ -7,15 +7,15 @@ const handler1 = {
     target.canEvolve = false;
     Object.preventExtensions(target);
     return true;
-  }
+  },
 };
 
 const proxy1 = new Proxy(monster1, handler1);
 
 console.log(monster1.canEvolve);
-// expected output: true
+// Expected output: true
 
 Object.preventExtensions(proxy1);
 
 console.log(monster1.canEvolve);
-// expected output: false
+// Expected output: false

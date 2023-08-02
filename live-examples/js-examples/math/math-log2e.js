@@ -3,4 +3,4 @@ function getLog2e() {
 }
 
 console.log(getLog2e());
-// expected output: 1.4426950408889634
+// Expected output: 1.4426950408889634

@@ -1,18 +1,18 @@
 .example-container {
-    border: 1px solid #c5c5c5;
-    display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr;
-    grid-template-rows: repeat(3, minmax(40px, auto));
-    grid-gap: 10px;
-    width: 200px;
+  border: 1px solid #c5c5c5;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-rows: repeat(3, minmax(40px, auto));
+  grid-gap: 10px;
+  width: 200px;
 }
 
 .example-container > div {
-    background-color: rgba(0, 0, 255, 0.2);
-    border: 3px solid blue;
+  background-color: rgba(0, 0, 255, 0.2);
+  border: 3px solid blue;
 }
 
 #example-element {
-    background-color: rgba(255, 0, 200, 0.2);
-    border: 3px solid rebeccapurple;
+  background-color: rgba(255, 0, 200, 0.2);
+  border: 3px solid rebeccapurple;
 }

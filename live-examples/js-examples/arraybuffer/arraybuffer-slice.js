@@ -8,4 +8,4 @@ const sliced = new Int32Array(buffer.slice(4, 12));
 // Produces Int32Array [42, 0]
 
 console.log(sliced[0]);
-// expected output: 42
+// Expected output: 42

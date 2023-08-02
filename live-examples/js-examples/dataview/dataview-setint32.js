@@ -5,4 +5,4 @@ const view = new DataView(buffer);
 view.setInt32(1, 2147483647); // Max signed 32-bit integer
 
 console.log(view.getInt32(1));
-// expected output: 2147483647
+// Expected output: 2147483647

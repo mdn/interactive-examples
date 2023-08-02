@@ -1,0 +1,44 @@
+<section id="example-choice-list" class="example-choice-list large" data-property="overscroll-behavior-y">
+  <div class="example-choice">
+    <pre><code class="language-css">overscroll-behavior-y: auto;</code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true">
+      <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+  </div>
+
+  <div class="example-choice">
+    <pre><code class="language-css">overscroll-behavior-y: contain;</code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true">
+      <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+  </div>
+
+  <div class="example-choice">
+    <pre><code class="language-css">overscroll-behavior-y: none;</code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true">
+      <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+  </div>
+</section>
+
+<div id="output" class="output large hidden">
+  <section id="default-example" class="default-example">
+    <div class="example-container">
+      <div class="box">
+        <p>
+          Focus your cursor on the smaller container.
+          <code class="language-css">overscroll-behavior-y: auto;</code> permits scroll chaining on the y-axis
+          (vertically) after reaching the end of the scrolling area of the inner container.
+          <code class="language-css">overscroll-behavior-y: contain;</code>
+          disables scroll chaining to the outer container for the y-axis only. Scroll chaining will still occur for the
+          x-axis.
+        </p>
+        <p class="second"></p>
+      </div>
+      <div id="example-element">
+        <p>Focus your cursor here and begin scrolling.</p>
+        <p></p>
+      </div>
+    </div>
+  </section>
+</div>

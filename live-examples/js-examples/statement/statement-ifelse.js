@@ -9,4 +9,4 @@ function testNum(a) {
 }
 
 console.log(testNum(-5));
-// expected output: "NOT positive"
+// Expected output: "NOT positive"

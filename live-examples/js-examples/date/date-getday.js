@@ -3,4 +3,4 @@ const day1 = birthday.getDay();
 // Sunday - Saturday : 0 - 6
 
 console.log(day1);
-// expected output: 2
+// Expected output: 2

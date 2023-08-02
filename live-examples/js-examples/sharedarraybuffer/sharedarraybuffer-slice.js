@@ -7,4 +7,4 @@ int32View[1] = 42;
 const sliced = new Int32Array(buffer.slice(4, 12));
 
 console.log(sliced);
-// expected output: Int32Array [42, 0]
+// Expected output: Int32Array [42, 0]
