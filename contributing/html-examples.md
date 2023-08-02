@@ -137,11 +137,11 @@ Add a property under `pages` describing your example. The example for `<td>` cou
 
 Note that entries in `pages` are in alphabetical order, please preserve that when adding your page.
 
-Once you've finished writing the example, see the [Testing](CONTRIBUTING.md#testing) section for the next step.
+Once you've finished writing the example, see the [Testing](../CONTRIBUTING.md#testing) section for the next step.
 
 The final example should look something like this:
 
-![Code editor example combining HTML and CSS amd demonstrating the result](./media/html-example-screenshot.png)
+![Code editor example combining HTML and CSS amd demonstrating the result](../media/html-example-screenshot.png)
 
 ## Guidelines
 
@@ -332,6 +332,52 @@ When an HTML interactive example is loaded, the HTML tab will be opened by defau
     "height": "tabbed-standard"
 }
 ```
+
+### Changing which tabs are shown
+
+The tabbed editor is displaying `HTML` and `CSS` tabs by default and allows the user to switch between those two. If one of the tabs is not needed, or if you wish to show the `JS` tab too, you can add the `tabs` property. The expected value is a comma-separated list of tab names in lowercase, which are `html`, `css` and `js`. For example:
+
+```json
+"template": {
+   "exampleCode": "./live-examples/html-examples/interactive-elements/template.html",
+   "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/template.css",
+   "jsExampleSrc": "./live-examples/html-examples/interactive-elements/js/template.js",
+   "fileName": "template.html",
+   "title": "HTML Demo: template",
+   "type": "tabbed",
+   "tabs": "html,css,js",
+   "height": "tabbed-shorter"
+}
+```
+
+When this property is set, make sure to provide the path to the content which is to be placed in every visible tab.
+
+- Tab `html` expects the path to the HTML file in the `exampleCode` property.
+- Tab `css` expects the path to the CSS file in the `cssExampleSrc` property.
+- Tab `js` expects the path to the JS file in the `jsExampleSrc` property.
+
+### Changing which tabs are shown
+
+The tabbed editor is displaying `HTML` and `CSS` tabs by default and allows the user to switch between those two. If one of the tabs is not needed, or if you wish to show the `JS` tab too, you can add the `tabs` property. The expected value is a comma-separated list of tab names in lowercase, which are `html`, `css` and `js`. For example:
+
+```json
+"template": {
+   "exampleCode": "./live-examples/html-examples/interactive-elements/template.html",
+   "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/template.css",
+   "jsExampleSrc": "./live-examples/html-examples/interactive-elements/js/template.js",
+   "fileName": "template.html",
+   "title": "HTML Demo: template",
+   "type": "tabbed",
+   "tabs": "html,css,js",
+   "height": "tabbed-shorter"
+}
+```
+
+When this property is set, make sure to provide the path to the content which is to be placed in every visible tab.
+
+- Tab `html` expects the path to the HTML file in the `exampleCode` property.
+- Tab `css` expects the path to the CSS file in the `cssExampleSrc` property.
+- Tab `js` expects the path to the JS file in the `jsExampleSrc` property.
 
 ### Encoding HTML entities
 
