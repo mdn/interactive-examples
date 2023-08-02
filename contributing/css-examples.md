@@ -109,7 +109,7 @@ Now we've finished writing the HTML for the example. The final version of `borde
 </div>
 ```
 
-When you're writing examples, please make sure that they conform to the [CSS Example Style Guide](CSS-Example-Style-Guide.md).
+When you're writing examples, please make sure that they conform to the [CSS Example Style Guide](css-style-guide.md).
 
 ## Supporting prefixed properties
 
