@@ -45,7 +45,7 @@
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/eslint-parser": "^7.22.9",
-    "@mdn/bob": "^3.3.0",
+    "@mdn/bob": "^3.4.0",
     "chokidar-cli": "^3.0.0",
     "eslint": "^8.46.0",
     "http-server": "^14.1.1",
