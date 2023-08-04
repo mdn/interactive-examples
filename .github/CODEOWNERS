@@ -9,17 +9,16 @@
 * @mdn/core-yari-content
 
 # All examples
-/live-examples/* @mdn/yari-content-mdn
+/live-examples/ @mdn/yari-content-mdn
 
 # JavaScript examples
-/live-examples/js-examples/* @mdn/yari-content-javascript
+/live-examples/js-examples/ @mdn/yari-content-javascript
 
 # CSS examples
-/live-examples/css-examples/* @mdn/yari-content-css
+/live-examples/css-examples/ @mdn/yari-content-css
 
 # HTML examples
-/live-examples/html-examples/* @mdn/yari-content-html
+/live-examples/html-examples/ @mdn/yari-content-html
 
 # Admin files
 /.github/     @mdn/core-dev
-
