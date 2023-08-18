@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/mdn/interactive-examples/compare/v2.1.0...v2.1.1) (2023-08-17)
+
+
+### Bug Fixes
+
+* Replace marker example ([#2585](https://github.com/mdn/interactive-examples/issues/2585)) ([deb64df](https://github.com/mdn/interactive-examples/commit/deb64df3ff4e07bbd21c65bd78f83fa899068e03))
+
 ## [2.1.0](https://github.com/mdn/interactive-examples/compare/v2.0.0...v2.1.0) (2023-08-02)
 
 
