@@ -14,6 +14,13 @@
       "title": "CSS Demo: hyphenate-character",
       "type": "css"
     },
+    "hyphenateLimitChars": {
+      "cssExampleSrc": "./live-examples/css-examples/text/hyphenate-limit-chars.css",
+      "exampleCode": "./live-examples/css-examples/text/hyphenate-limit-chars.html",
+      "fileName": "hyphenate-limit-chars.html",
+      "title": "CSS Demo: hyphenate-limit-chars",
+      "type": "css"
+    },
     "hyphens": {
       "cssExampleSrc": "./live-examples/css-examples/text/hyphens.css",
       "exampleCode": "./live-examples/css-examples/text/hyphens.html",
