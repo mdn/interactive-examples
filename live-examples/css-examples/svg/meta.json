@@ -1,11 +1,11 @@
 {
-    "pages": {
-        "pointEvents": {
-            "cssExampleSrc": "./live-examples/css-examples/svg/pointer-events.css",
-            "exampleCode": "./live-examples/css-examples/svg/pointer-events.html",
-            "fileName": "pointer-events.html",
-            "title": "CSS Demo: pointer-events",
-            "type": "css"
-        }
+  "pages": {
+    "pointEvents": {
+      "cssExampleSrc": "./live-examples/css-examples/svg/pointer-events.css",
+      "exampleCode": "./live-examples/css-examples/svg/pointer-events.html",
+      "fileName": "pointer-events.html",
+      "title": "CSS Demo: pointer-events",
+      "type": "css"
     }
+  }
 }

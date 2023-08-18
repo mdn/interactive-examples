@@ -1,412 +1,434 @@
 {
-    "pages": {
-        "active": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/active.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/active.html",
-            "fileName": "pseudo-class-active.html",
-            "title": "CSS Demo: :active",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "anyLink": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/any-link.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/any-link.html",
-            "fileName": "pseudo-class-any-link.html",
-            "title": "CSS Demo: :any-link",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "autofill": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/autofill.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/autofill.html",
-            "fileName": "pseudo-class-autofill.html",
-            "title": "CSS Demo: :autofill",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "checked": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/checked.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/checked.html",
-            "fileName": "pseudo-class-checked.html",
-            "title": "CSS Demo: :checked",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "default": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/default.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/default.html",
-            "fileName": "pseudo-class-default.html",
-            "title": "CSS Demo: :default",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "disabled": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/disabled.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/disabled.html",
-            "fileName": "pseudo-class-disabled.html",
-            "title": "CSS Demo: :disabled",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-standard"
-        },
-        "empty": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/empty.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/empty.html",
-            "fileName": "pseudo-class-empty.html",
-            "title": "CSS Demo: :empty",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "enabled": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/enabled.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/enabled.html",
-            "fileName": "pseudo-class-enabled.html",
-            "title": "CSS Demo: :enabled",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-standard"
-        },
-        "firstChild": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/first-child.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/first-child.html",
-            "fileName": "pseudo-class-first-child.html",
-            "title": "CSS Demo: :first-child",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "firstOfType": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/first-of-type.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/first-of-type.html",
-            "fileName": "pseudo-class-first-of-type.html",
-            "title": "CSS Demo: :first-of-type",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "focus": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/focus.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/focus.html",
-            "fileName": "pseudo-class-focus.html",
-            "title": "CSS Demo: :focus",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "focusVisible": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/focus-visible.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/focus-visible.html",
-            "fileName": "pseudo-class-focus-visible.html",
-            "title": "CSS Demo: :focus-visible",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "focusWithin": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/focus-within.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/focus-within.html",
-            "fileName": "pseudo-class-focus-within.html",
-            "title": "CSS Demo: :focus-within",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "functionLang": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/function-lang.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/function-lang.html",
-            "fileName": "pseudo-class-function-lang.html",
-            "title": "CSS Demo: :lang()",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "hover": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/hover.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/hover.html",
-            "fileName": "pseudo-class-hover.html",
-            "title": "CSS Demo: :hover",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "host": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/host.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/host.html",
-            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/host.js",
-            "fileName": "pseudo-class-host.html",
-            "title": "CSS Demo: :host",
-            "type": "tabbed",
-            "tabs": "html,css,js",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "host-context": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/host-context.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/host-context.html",
-            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/host.js",
-            "fileName": "pseudo-class-host-context.html",
-            "title": "CSS Demo: :host-context()",
-            "type": "tabbed",
-            "tabs": "html,css,js",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "host_function": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/host_function.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/host_function.html",
-            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/host.js",
-            "fileName": "pseudo-class-host_function.html",
-            "title": "CSS Demo: :host()",
-            "type": "tabbed",
-            "tabs": "html,css,js",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "inRange": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/in-range.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/in-range.html",
-            "fileName": "pseudo-class-in-range.html",
-            "title": "CSS Demo: :in-range",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "invalid": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/invalid.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/invalid.html",
-            "fileName": "pseudo-class-invalid.html",
-            "title": "CSS Demo: :invalid",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-         "is": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/is.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/is.html",
-            "fileName": "pseudo-class-is.html",
-            "title": "CSS Demo: :is",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "fullscreen": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/fullscreen.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/fullscreen.html",
-            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/fullscreen.js",
-            "fileName": "pseudo-class-fullscreen.html",
-            "title": "CSS Demo: :fullscreen",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "tabs": "html,css,js",
-            "height": "tabbed-shorter"
-        },
-        "lastChild": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/last-child.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/last-child.html",
-            "fileName": "pseudo-class-last-child.html",
-            "title": "CSS Demo: :last-child",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "lastOfType": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/last-of-type.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/last-of-type.html",
-            "fileName": "pseudo-class-last-of-type.html",
-            "title": "CSS Demo: :last-of-type",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "link": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/link.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/link.html",
-            "fileName": "pseudo-class-link.html",
-            "title": "CSS Demo: :link",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "modal": {
-            "exampleCode": "./live-examples/css-examples/pseudo-class/modal.html",
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/modal.css",
-            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/modal.js",
-            "fileName": "pseudo-class-modal.html",
-            "title": "HTML Demo: :modal",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "tabs": "html,css,js",
-            "height": "tabbed-shorter"
-        },
-        "not": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/not.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/not.html",
-            "fileName": "pseudo-class-not.html",
-            "title": "CSS Demo: :not",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "nthChild": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/nth-child.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/nth-child.html",
-            "fileName": "pseudo-class-nth-child.html",
-            "title": "CSS Demo: :nth-child",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "nthLastChild": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/nth-last-child.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/nth-last-child.html",
-            "fileName": "pseudo-class-nth-last-child.html",
-            "title": "CSS Demo: :nth-last-child",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "nthLastOfType": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/nth-last-of-type.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/nth-last-of-type.html",
-            "fileName": "pseudo-class-nth-last-of-type.html",
-            "title": "CSS Demo: :nth-last-of-type",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "nthOfType": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/nth-of-type.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/nth-of-type.html",
-            "fileName": "pseudo-class-nth-of-type.html",
-            "title": "CSS Demo: :nth-of-type",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "onlyChild": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/only-child.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/only-child.html",
-            "fileName": "pseudo-class-only-child.html",
-            "title": "CSS Demo: :only-child",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "onlyOfType": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/only-of-type.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/only-of-type.html",
-            "fileName": "pseudo-class-only-of-type.html",
-            "title": "CSS Demo: :only-of-type",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "optional": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/optional.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/optional.html",
-            "fileName": "pseudo-class-optional.html",
-            "title": "CSS Demo: :optional",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-standard"
-        },
-        "outOfRange": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/out-of-range.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/out-of-range.html",
-            "fileName": "pseudo-class-out-of-range.html",
-            "title": "CSS Demo: :out-of-range",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "placeholderShown": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/placeholder-shown.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/placeholder-shown.html",
-            "fileName": "pseudo-class-placeholder-shown.html",
-            "title": "CSS Demo: :placeholder-shown",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "readOnly": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/read-only.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/read-only.html",
-            "fileName": "pseudo-class-read-only.html",
-            "title": "CSS Demo: :read-only",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "readWrite": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/read-write.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/read-write.html",
-            "fileName": "pseudo-class-read-write.html",
-            "title": "CSS Demo: :read-write",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "required": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/required.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/required.html",
-            "fileName": "pseudo-class-required.html",
-            "title": "CSS Demo: :required",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-standard"
-        },
-        "root": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/root.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/root.html",
-            "fileName": "pseudo-class-root.html",
-            "title": "CSS Demo: :root",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "scope": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/scope.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/scope.html",
-            "jsExampleSrc": "./live-examples/css-examples/pseudo-class/scope.js",
-            "fileName": "pseudo-class-scope.html",
-            "title": "CSS Demo: :scope",
-            "type": "tabbed",
-            "defaultTab": "js",
-            "tabs": "html,css,js",
-            "height": "tabbed-shorter"
-        },
-        "valid": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/valid.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/valid.html",
-            "fileName": "pseudo-class-valid.html",
-            "title": "CSS Demo: :valid",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "visited": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/visited.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/visited.html",
-            "fileName": "pseudo-class-visited.html",
-            "title": "CSS Demo: :visited",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        },
-        "where": {
-            "cssExampleSrc": "./live-examples/css-examples/pseudo-class/where.css",
-            "exampleCode": "./live-examples/css-examples/pseudo-class/where.html",
-            "fileName": "pseudo-class-where.html",
-            "title": "CSS Demo: :where",
-            "type": "tabbed",
-            "defaultTab": "css",
-            "height": "tabbed-shorter"
-        }
+  "pages": {
+    "active": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/active.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/active.html",
+      "fileName": "pseudo-class-active.html",
+      "title": "CSS Demo: :active",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "anyLink": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/any-link.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/any-link.html",
+      "fileName": "pseudo-class-any-link.html",
+      "title": "CSS Demo: :any-link",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "autofill": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/autofill.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/autofill.html",
+      "fileName": "pseudo-class-autofill.html",
+      "title": "CSS Demo: :autofill",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "checked": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/checked.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/checked.html",
+      "fileName": "pseudo-class-checked.html",
+      "title": "CSS Demo: :checked",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "default": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/default.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/default.html",
+      "fileName": "pseudo-class-default.html",
+      "title": "CSS Demo: :default",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "defined": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/defined.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/defined.html",
+      "jsExampleSrc": "./live-examples/css-examples/pseudo-class/defined.js",
+      "fileName": "pseudo-class-defined.html",
+      "title": "CSS Demo: :defined",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "tabs": "html,css,js",
+      "height": "tabbed-shorter"
+    },
+    "disabled": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/disabled.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/disabled.html",
+      "fileName": "pseudo-class-disabled.html",
+      "title": "CSS Demo: :disabled",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-standard"
+    },
+    "empty": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/empty.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/empty.html",
+      "fileName": "pseudo-class-empty.html",
+      "title": "CSS Demo: :empty",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "enabled": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/enabled.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/enabled.html",
+      "fileName": "pseudo-class-enabled.html",
+      "title": "CSS Demo: :enabled",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-standard"
+    },
+    "firstChild": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/first-child.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/first-child.html",
+      "fileName": "pseudo-class-first-child.html",
+      "title": "CSS Demo: :first-child",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "firstOfType": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/first-of-type.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/first-of-type.html",
+      "fileName": "pseudo-class-first-of-type.html",
+      "title": "CSS Demo: :first-of-type",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "indeterminate": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/indeterminate.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/indeterminate.html",
+      "jsExampleSrc": "./live-examples/css-examples/pseudo-class/indeterminate.js",
+      "fileName": "pseudo-class-indeterminate.html",
+      "title": "CSS Demo: :indeterminate",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "tabs": "html,css,js",
+      "height": "tabbed-standard"
+    },
+    "focus": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/focus.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/focus.html",
+      "fileName": "pseudo-class-focus.html",
+      "title": "CSS Demo: :focus",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "focusVisible": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/focus-visible.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/focus-visible.html",
+      "fileName": "pseudo-class-focus-visible.html",
+      "title": "CSS Demo: :focus-visible",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "focusWithin": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/focus-within.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/focus-within.html",
+      "fileName": "pseudo-class-focus-within.html",
+      "title": "CSS Demo: :focus-within",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "functionLang": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/function-lang.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/function-lang.html",
+      "fileName": "pseudo-class-function-lang.html",
+      "title": "CSS Demo: :lang()",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "hover": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/hover.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/hover.html",
+      "fileName": "pseudo-class-hover.html",
+      "title": "CSS Demo: :hover",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "host": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/host.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/host.html",
+      "jsExampleSrc": "./live-examples/css-examples/pseudo-class/host.js",
+      "fileName": "pseudo-class-host.html",
+      "title": "CSS Demo: :host",
+      "type": "tabbed",
+      "tabs": "html,css,js",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "host-context": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/host-context.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/host-context.html",
+      "jsExampleSrc": "./live-examples/css-examples/pseudo-class/host.js",
+      "fileName": "pseudo-class-host-context.html",
+      "title": "CSS Demo: :host-context()",
+      "type": "tabbed",
+      "tabs": "html,css,js",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "host_function": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/host_function.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/host_function.html",
+      "jsExampleSrc": "./live-examples/css-examples/pseudo-class/host.js",
+      "fileName": "pseudo-class-host_function.html",
+      "title": "CSS Demo: :host()",
+      "type": "tabbed",
+      "tabs": "html,css,js",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "inRange": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/in-range.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/in-range.html",
+      "fileName": "pseudo-class-in-range.html",
+      "title": "CSS Demo: :in-range",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "invalid": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/invalid.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/invalid.html",
+      "fileName": "pseudo-class-invalid.html",
+      "title": "CSS Demo: :invalid",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "is": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/is.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/is.html",
+      "fileName": "pseudo-class-is.html",
+      "title": "CSS Demo: :is",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "fullscreen": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/fullscreen.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/fullscreen.html",
+      "jsExampleSrc": "./live-examples/css-examples/pseudo-class/fullscreen.js",
+      "fileName": "pseudo-class-fullscreen.html",
+      "title": "CSS Demo: :fullscreen",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "tabs": "html,css,js",
+      "height": "tabbed-shorter"
+    },
+    "lastChild": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/last-child.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/last-child.html",
+      "fileName": "pseudo-class-last-child.html",
+      "title": "CSS Demo: :last-child",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "lastOfType": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/last-of-type.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/last-of-type.html",
+      "fileName": "pseudo-class-last-of-type.html",
+      "title": "CSS Demo: :last-of-type",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "link": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/link.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/link.html",
+      "fileName": "pseudo-class-link.html",
+      "title": "CSS Demo: :link",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "modal": {
+      "exampleCode": "./live-examples/css-examples/pseudo-class/modal.html",
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/modal.css",
+      "jsExampleSrc": "./live-examples/css-examples/pseudo-class/modal.js",
+      "fileName": "pseudo-class-modal.html",
+      "title": "HTML Demo: :modal",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "tabs": "html,css,js",
+      "height": "tabbed-shorter"
+    },
+    "not": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/not.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/not.html",
+      "fileName": "pseudo-class-not.html",
+      "title": "CSS Demo: :not",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "nthChild": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/nth-child.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/nth-child.html",
+      "fileName": "pseudo-class-nth-child.html",
+      "title": "CSS Demo: :nth-child",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "nthLastChild": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/nth-last-child.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/nth-last-child.html",
+      "fileName": "pseudo-class-nth-last-child.html",
+      "title": "CSS Demo: :nth-last-child",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "nthLastOfType": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/nth-last-of-type.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/nth-last-of-type.html",
+      "fileName": "pseudo-class-nth-last-of-type.html",
+      "title": "CSS Demo: :nth-last-of-type",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "nthOfType": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/nth-of-type.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/nth-of-type.html",
+      "fileName": "pseudo-class-nth-of-type.html",
+      "title": "CSS Demo: :nth-of-type",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "onlyChild": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/only-child.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/only-child.html",
+      "fileName": "pseudo-class-only-child.html",
+      "title": "CSS Demo: :only-child",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "onlyOfType": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/only-of-type.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/only-of-type.html",
+      "fileName": "pseudo-class-only-of-type.html",
+      "title": "CSS Demo: :only-of-type",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "optional": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/optional.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/optional.html",
+      "fileName": "pseudo-class-optional.html",
+      "title": "CSS Demo: :optional",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-standard"
+    },
+    "outOfRange": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/out-of-range.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/out-of-range.html",
+      "fileName": "pseudo-class-out-of-range.html",
+      "title": "CSS Demo: :out-of-range",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "placeholderShown": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/placeholder-shown.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/placeholder-shown.html",
+      "fileName": "pseudo-class-placeholder-shown.html",
+      "title": "CSS Demo: :placeholder-shown",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "readOnly": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/read-only.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/read-only.html",
+      "fileName": "pseudo-class-read-only.html",
+      "title": "CSS Demo: :read-only",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "readWrite": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/read-write.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/read-write.html",
+      "fileName": "pseudo-class-read-write.html",
+      "title": "CSS Demo: :read-write",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "required": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/required.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/required.html",
+      "fileName": "pseudo-class-required.html",
+      "title": "CSS Demo: :required",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-standard"
+    },
+    "root": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/root.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/root.html",
+      "fileName": "pseudo-class-root.html",
+      "title": "CSS Demo: :root",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "scope": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/scope.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/scope.html",
+      "jsExampleSrc": "./live-examples/css-examples/pseudo-class/scope.js",
+      "fileName": "pseudo-class-scope.html",
+      "title": "CSS Demo: :scope",
+      "type": "tabbed",
+      "defaultTab": "js",
+      "tabs": "html,css,js",
+      "height": "tabbed-shorter"
+    },
+    "valid": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/valid.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/valid.html",
+      "fileName": "pseudo-class-valid.html",
+      "title": "CSS Demo: :valid",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "visited": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/visited.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/visited.html",
+      "fileName": "pseudo-class-visited.html",
+      "title": "CSS Demo: :visited",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
+    "where": {
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-class/where.css",
+      "exampleCode": "./live-examples/css-examples/pseudo-class/where.html",
+      "fileName": "pseudo-class-where.html",
+      "title": "CSS Demo: :where",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
     }
+  }
 }

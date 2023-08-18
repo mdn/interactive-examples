@@ -1,0 +1,10 @@
+*	text=auto eol=lf
+*.md	linguist-detectable
+CHANGELOG.md	-linguist-detectable
+CODE_OF_CONDUCT.md  -linguist-detectable
+CONTRIBUTING.md  -linguist-detectable
+contributing/*.md  -linguist-detectable
+LICENSE	-linguist-detectable
+README.md	-linguist-detectable
+REVIEWING.md	-linguist-detectable
+SECURITY.md  -linguist-detectable

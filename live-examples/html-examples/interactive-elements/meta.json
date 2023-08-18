@@ -1,39 +1,50 @@
 {
-    "pages": {
-        "details": {
-            "exampleCode": "./live-examples/html-examples/interactive-elements/details.html",
-            "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/details.css",
-            "fileName": "details.html",
-            "title": "HTML Demo: <details>",
-            "type": "tabbed",
-            "height": "tabbed-shorter"
-        },
-        "menu": {
-            "exampleCode": "./live-examples/html-examples/interactive-elements/menu.html",
-            "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/menu.css",
-            "fileName": "menu.html",
-            "title": "HTML Demo: <menu>",
-            "type": "tabbed",
-            "height": "tabbed-shorter"
-        },
-        "summary": {
-            "exampleCode": "./live-examples/html-examples/interactive-elements/summary.html",
-            "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/summary.css",
-            "fileName": "summary.html",
-            "title": "HTML Demo: <summary>",
-            "type": "tabbed",
-            "height": "tabbed-shorter"
-        },
-        "template": {
-            "exampleCode": "./live-examples/html-examples/interactive-elements/template.html",
-            "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/template.css",
-            "jsExampleSrc": "./live-examples/html-examples/interactive-elements/js/template.js",
-            "fileName": "template.html",
-            "title": "HTML Demo: <template>",
-            "type": "tabbed",
-            "defaultTab": "html",
-            "tabs": "html,css,js",
-            "height": "tabbed-shorter"
-        }
+  "pages": {
+    "details": {
+      "exampleCode": "./live-examples/html-examples/interactive-elements/details.html",
+      "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/details.css",
+      "fileName": "details.html",
+      "title": "HTML Demo: <details>",
+      "type": "tabbed",
+      "height": "tabbed-shorter"
+    },
+    "menu": {
+      "exampleCode": "./live-examples/html-examples/interactive-elements/menu.html",
+      "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/menu.css",
+      "fileName": "menu.html",
+      "title": "HTML Demo: <menu>",
+      "type": "tabbed",
+      "height": "tabbed-shorter"
+    },
+    "output": {
+      "exampleCode": "./live-examples/html-examples/interactive-elements/output.html",
+      "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/output.css",
+      "jsExampleSrc": "./live-examples/html-examples/interactive-elements/js/output.js",
+      "fileName": "output.html",
+      "title": "HTML Demo: <output>",
+      "type": "tabbed",
+      "defaultTab": "html",
+      "tabs": "html,css,js",
+      "height": "tabbed-shorter"
+    },
+    "summary": {
+      "exampleCode": "./live-examples/html-examples/interactive-elements/summary.html",
+      "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/summary.css",
+      "fileName": "summary.html",
+      "title": "HTML Demo: <summary>",
+      "type": "tabbed",
+      "height": "tabbed-shorter"
+    },
+    "template": {
+      "exampleCode": "./live-examples/html-examples/interactive-elements/template.html",
+      "cssExampleSrc": "./live-examples/html-examples/interactive-elements/css/template.css",
+      "jsExampleSrc": "./live-examples/html-examples/interactive-elements/js/template.js",
+      "fileName": "template.html",
+      "title": "HTML Demo: <template>",
+      "type": "tabbed",
+      "defaultTab": "html",
+      "tabs": "html,css,js",
+      "height": "tabbed-shorter"
     }
+  }
 }

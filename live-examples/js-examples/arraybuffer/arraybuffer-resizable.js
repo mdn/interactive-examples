@@ -1,4 +1,4 @@
-const buffer1 = new ArrayBuffer(8, { maxByteLength: 16 } );
+const buffer1 = new ArrayBuffer(8, { maxByteLength: 16 });
 const buffer2 = new ArrayBuffer(8);
 
 console.log(buffer1.resizable);

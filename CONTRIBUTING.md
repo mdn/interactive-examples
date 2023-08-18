@@ -40,9 +40,9 @@ This will ensure that you have all the required development modules installed to
 
 We've written separate guides to contributing each type of example:
 
-- [Contributing a CSS example](CONTRIBUTING-CSS.md)
-- [Contributing an HTML example](CONTRIBUTING-HTML.md)
-- [Contributing a JavaScript example](CONTRIBUTING-JavaScript.md)
+- [Contributing a CSS example](contributing/css-examples.md)
+- [Contributing an HTML example](contributing/html-examples.md)
+- [Contributing a JavaScript example](contributing/js-examples.md)
 
 ## Testing
 
@@ -99,25 +99,30 @@ After your pull request is reviewed and merged, you can publish your example on 
 ### **HEIGHT** argument
 
 For CSS examples this argument must always be skipped. To include the margin example, the following code should be placed:
+
 ```plain
 {{EmbedInteractiveExample("pages/css/margin.html")}}
 ```
 
 For HTML examples or any other `tabbed` type, the value of **HEIGHT** argument should match the value of property `height` in `meta.json` of the example. Possible values are: `"tabbed-shorter"`, `"tabbed-standard"` and `"tabbed-taller"`, so `EmbedInteractiveExample` might look like any of those:
+
 ```plain
 {{EmbedInteractiveExample("pages/tabbed/dfn.html", "tabbed-shorter")}}
 ```
+
 ```plain
 {{EmbedInteractiveExample("pages/tabbed/del.html", "tabbed-standard")}}
 ```
+
 ```plain
 {{EmbedInteractiveExample("pages/tabbed/colgroup.html", "tabbed-taller")}}
 ```
 
 For JS examples, the editor is automatically selecting the appropriate height, based on the amount of lines in the example:
-  - Examples less than 7 lines long get the short editor, so you should provide the `"shorter"` argument to `EmbedInteractiveExample`
-  - Examples 7-12 lines inclusive get the standard editor, so you should not provide any extra argument to `EmbedInteractiveExample`
-  - Examples 13 or more lines long get the tall editor, so you should provide the `"taller"` argument to `EmbedInteractiveExample`
+
+- Examples less than 7 lines long get the short editor, so you should provide the `"shorter"` argument to `EmbedInteractiveExample`
+- Examples 7-12 lines inclusive get the standard editor, so you should not provide any extra argument to `EmbedInteractiveExample`
+- Examples 13 or more lines long get the tall editor, so you should provide the `"taller"` argument to `EmbedInteractiveExample`
 
 ## Thank you
 

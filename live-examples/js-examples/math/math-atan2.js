@@ -1,5 +1,5 @@
 function calcAngleDegrees(x, y) {
-  return Math.atan2(y, x) * 180 / Math.PI;
+  return (Math.atan2(y, x) * 180) / Math.PI;
 }
 
 console.log(calcAngleDegrees(5, 5));

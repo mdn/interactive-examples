@@ -1,4 +1,4 @@
-const regex1 = new RegExp( 'foo', 'g' );
+const regex1 = new RegExp('foo', 'g');
 const str1 = 'table football, foosball';
 
 regex1.test(str1);

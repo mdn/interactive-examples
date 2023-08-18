@@ -1,7 +1,5 @@
-var url = "{%wasm-url%}";
-await WebAssembly.instantiateStreaming(
-  fetch(url)
-).then(result => {
+const url = '{%wasm-url%}';
+await WebAssembly.instantiateStreaming(fetch(url)).then((result) => {
   const { select_simple, select_externref } = result.instance.exports;
 
   console.log(select_simple());
