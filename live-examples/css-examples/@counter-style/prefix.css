@@ -1,7 +1,7 @@
 @counter-style heads {
     system: cyclic;
     symbols: 👧 🧒 🧑 👱;
-    prefix: "🖐🏻";
+    prefix: '🖐🏻';
 }
 
 ul {
