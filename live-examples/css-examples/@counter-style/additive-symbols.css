@@ -1,0 +1,15 @@
+@counter-style full-roman {
+  system: additive;
+  additive-symbols:
+    50 l,
+    40 xl,
+    10 x,
+    9 ix,
+    5 v,
+    4 iv,
+    1 i;
+}
+
+ul {
+  list-style: full-roman;
+}
