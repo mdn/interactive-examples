@@ -1,7 +1,7 @@
 const korean = new Intl.Locale('ko', {
   script: 'Kore',
   region: 'KR',
-  hourCycle: 'h12',
+  hourCycle: 'h23',
   calendar: 'gregory',
 });
 
@@ -11,4 +11,4 @@ console.log(korean.baseName, japanese.baseName);
 // Expected output: "ko-Kore-KR" "ja-Jpan-JP"
 
 console.log(korean.hourCycle, japanese.hourCycle);
-// Expected output: "h12" "h12"
+// Expected output: "h23" "h12"
