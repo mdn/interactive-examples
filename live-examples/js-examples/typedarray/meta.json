@@ -6,6 +6,12 @@
       "title": "JavaScript Demo: TypedArray.at()",
       "type": "js"
     },
+    "typedarrayBigInt64": {
+      "exampleCode": "./live-examples/js-examples/typedarray/typedarray-bigint64.js",
+      "fileName": "typedarray-bigint64.html",
+      "title": "JavaScript Demo: BigInt64Array()",
+      "type": "js"
+    },
     "typedarrayBuffer": {
       "exampleCode": "./live-examples/js-examples/typedarray/typedarray-buffer.js",
       "fileName": "typedarray-buffer.html",
@@ -106,6 +112,12 @@
       "exampleCode": "./live-examples/js-examples/typedarray/typedarray-indexof.js",
       "fileName": "typedarray-indexof.html",
       "title": "JavaScript Demo: TypedArray.indexOf()",
+      "type": "js"
+    },
+    "typedarrayIterator": {
+      "exampleCode": "./live-examples/js-examples/typedarray/typedarray-iterator.js",
+      "fileName": "typedarray-prototype-@@iterator.html",
+      "title": "JavaScript Demo: TypedArray.prototype[@@iterator]()",
       "type": "js"
     },
     "typedarrayJoin": {

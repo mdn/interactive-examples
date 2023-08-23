@@ -1,0 +1,9 @@
+@counter-style colors {
+  system: fixed;
+  symbols: 🟤 🟠 🟡 🟢 🟣;
+  fallback: disc;
+}
+
+ul {
+  list-style: colors;
+}

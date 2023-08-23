@@ -1,0 +1,7 @@
+#example-element {
+  border: 2px dashed #999;
+  font-size: 1.3rem;
+  text-align: left;
+  width: 9rem;
+  hyphens: auto;
+}

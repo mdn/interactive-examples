@@ -240,10 +240,10 @@
       "title": "JavaScript Demo: Expressions - Logical NOT",
       "type": "js"
     },
-    "expressionsLogicalNullishAssignment": {
-      "exampleCode": "./live-examples/js-examples/expressions/expressions-logical-nullish-assignment.js",
-      "fileName": "expressions-logical-nullish-assignment.html",
-      "title": "JavaScript Demo: Expressions - Logical nullish assignment",
+    "expressionsNullishCoalescingAssignment": {
+      "exampleCode": "./live-examples/js-examples/expressions/expressions-nullish-coalescing-assignment.js",
+      "fileName": "expressions-nullish-coalescing-assignment.html",
+      "title": "JavaScript Demo: Expressions - Nullish coalescing assignment",
       "type": "js"
     },
     "expressionsMultiplication": {

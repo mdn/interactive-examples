@@ -3,8 +3,7 @@
 CHANGELOG.md	-linguist-detectable
 CODE_OF_CONDUCT.md  -linguist-detectable
 CONTRIBUTING.md  -linguist-detectable
-CONTRIBUTING-*.md  -linguist-detectable
-*-Example-Style-Guide.md  -linguist-detectable
+contributing/*.md  -linguist-detectable
 LICENSE	-linguist-detectable
 README.md	-linguist-detectable
 REVIEWING.md	-linguist-detectable

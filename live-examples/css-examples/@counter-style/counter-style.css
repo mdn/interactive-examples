@@ -1,0 +1,11 @@
+@counter-style black-white-squares {
+  system: symbolic;
+  symbols: ◆ ◇;
+  suffix: ' ';
+  range: 0 6;
+  fallback: square;
+}
+
+ul {
+  list-style: black-white-squares;
+}

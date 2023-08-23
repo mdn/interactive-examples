@@ -1,0 +1,8 @@
+@counter-style cool-symbols {
+  system: symbolic;
+  symbols: '*' '\21C9' ▲ 🐉 '🥲' ✹ '"' ❎ 💓;
+}
+
+ul {
+  list-style: cool-symbols;
+}
