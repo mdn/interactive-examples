@@ -77,6 +77,12 @@
       "fileName": "map-prototype-values.html",
       "title": "JavaScript Demo: Map.prototype.values",
       "type": "js"
+    },
+    "mapGroupBy": {
+      "exampleCode": "./live-examples/js-examples/map/map-groupby.js",
+      "fileName": "map-groupby.html",
+      "title": "JavaScript Demo: Map.groupBy()",
+      "type": "js"
     }
   }
 }
