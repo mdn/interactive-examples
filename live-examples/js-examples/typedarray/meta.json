@@ -108,6 +108,12 @@
       "title": "JavaScript Demo: TypedArray.indexOf()",
       "type": "js"
     },
+    "typedarrayIterator": {
+      "exampleCode": "./live-examples/js-examples/typedarray/typedarray-iterator.js",
+      "fileName": "typedarray-prototype-@@iterator.html",
+      "title": "JavaScript Demo: TypedArray.prototype[@@iterator]()",
+      "type": "js"
+    },
     "typedarrayJoin": {
       "exampleCode": "./live-examples/js-examples/typedarray/typedarray-join.js",
       "fileName": "typedarray-join.html",
