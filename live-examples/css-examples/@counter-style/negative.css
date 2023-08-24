@@ -1,0 +1,9 @@
+@counter-style negative-alphabet {
+  system: numeric;
+  symbols: 'A' 'B' 'C' 'D' 'E' 'F';
+  negative: '→' '←';
+}
+
+ol {
+  list-style: negative-alphabet;
+}
