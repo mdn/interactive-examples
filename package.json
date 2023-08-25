@@ -47,7 +47,7 @@
     "@babel/eslint-parser": "^7.22.11",
     "@mdn/bob": "^3.4.0",
     "chokidar-cli": "^3.0.0",
-    "eslint": "^8.47.0",
+    "eslint": "^8.48.0",
     "http-server": "^14.1.1",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
