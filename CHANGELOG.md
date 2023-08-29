@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.2.0](https://github.com/mdn/interactive-examples/compare/v2.1.1...v2.2.0) (2023-08-29)
+
+
+### Features
+
+* **css:** Add example of `[@counter-style](https://github.com/counter-style)` and all of its descriptors ([#2089](https://github.com/mdn/interactive-examples/issues/2089)) ([2c4362a](https://github.com/mdn/interactive-examples/commit/2c4362ab85cfa3f8100dd25235f84a21d8021300))
+* **html:** Add example of `&lt;dialog&gt;` ([#2212](https://github.com/mdn/interactive-examples/issues/2212)) ([e97aa1d](https://github.com/mdn/interactive-examples/commit/e97aa1d340a2d6cfdbf9badf3329f141b9b94b90))
+
 ## [2.1.1](https://github.com/mdn/interactive-examples/compare/v2.1.0...v2.1.1) (2023-08-17)
 
 
