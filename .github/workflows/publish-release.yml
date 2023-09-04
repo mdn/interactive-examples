@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Checkout
         if: needs.publish-release.outputs.release_created
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js environment
         if: needs.publish-release.outputs.release_created
