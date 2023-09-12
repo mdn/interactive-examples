@@ -72,3 +72,11 @@
 .small-caps {
   font-variant: small-caps;
 }
+
+.sub {
+  font-variant: sub;
+}
+
+.sup {
+  font-variant: super;
+}
