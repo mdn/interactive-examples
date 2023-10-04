@@ -1,0 +1,18 @@
+.card {
+  text-align: center;
+  width: 80%;
+  background-color: bisque;
+  padding: 1em;
+  font-weight: bold;
+}
+
+dialog::backdrop {
+  background-color: grey;
+}
+
+.won {
+  font-weight: bold;
+  color: deeppink;
+  font-size: 1.3em;
+  text-align: center;
+}

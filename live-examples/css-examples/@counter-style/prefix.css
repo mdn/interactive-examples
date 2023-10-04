@@ -1,0 +1,9 @@
+@counter-style heads {
+  system: cyclic;
+  symbols: 👧 🧒 🧑 👱;
+  prefix: '🖐🏻';
+}
+
+ul {
+  list-style: heads;
+}

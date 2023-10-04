@@ -1,0 +1,8 @@
+@counter-style smiles {
+  system: fixed;
+  symbols: 😀 😂 🙂 😍 😘 🤪;
+}
+
+ul {
+  list-style: smiles;
+}

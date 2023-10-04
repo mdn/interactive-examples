@@ -122,7 +122,7 @@
     },
     "arrayIterator": {
       "exampleCode": "./live-examples/js-examples/array/array-iterator.js",
-      "fileName": "array-iterator.html",
+      "fileName": "array-prototype-@@iterator.html",
       "title": "JavaScript Demo: Array.prototype[@@iterator]()",
       "type": "js"
     },
