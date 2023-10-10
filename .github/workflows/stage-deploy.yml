@@ -26,7 +26,7 @@ jobs:
       contents: read
       id-token: write
     runs-on: ubuntu-latest
-    if: github.triggering_actor != 'dependabot[bot]' && startsWith( github.repository, 'mdn/' )
+    if: github.triggering_actor != 'dependabot[bot]' && github.repository == 'mdn/interactive-examples'
 
     steps:
       - uses: actions/checkout@v4
