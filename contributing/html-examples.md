@@ -182,8 +182,7 @@ In particular, see the following guidelines for the HTML source and the output:
 <img
   class="fit-picture"
   src="/media/examples/Grapefruit_Slice--332x332.jpg"
-  alt="Grapefruit slice atop a pile of other slices"
-/>
+  alt="Grapefruit slice atop a pile of other slices" />
 ```
 
 With a browser window width of 1000 pixels, this will wrap like this:
@@ -194,8 +193,7 @@ With a browser window width of 1000 pixels, this will wrap like this:
   src="/media/examples
 /Grapefruit_Slice--332x332.jpg"
   alt="Grapefruit slice atop a pile
-of other slices"
-/>
+of other slices" />
 ```
 
 If we add line breaks after each attribute, the example is much more readable:
@@ -204,8 +202,7 @@ If we add line breaks after each attribute, the example is much more readable:
 <img
   class="fit-picture"
   src="/media/examples/Grapefruit_Slice--332x332.jpg"
-  alt="Grapefruit slice atop a pile of other slices"
-/>
+  alt="Grapefruit slice atop a pile of other slices" />
 ```
 
 #### HTML output formal guidelines
