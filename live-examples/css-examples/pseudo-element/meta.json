@@ -65,6 +65,15 @@
       "defaultTab": "css",
       "height": "tabbed-shorter"
     },
+    "marker": {
+      "exampleCode": "./live-examples/css-examples/pseudo-element/marker.html",
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-element/marker.css",
+      "fileName": "pseudo-element-marker.html",
+      "title": "HTML Demo: ::marker",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
     "placeholder": {
       "exampleCode": "./live-examples/css-examples/pseudo-element/placeholder.html",
       "cssExampleSrc": "./live-examples/css-examples/pseudo-element/placeholder.css",

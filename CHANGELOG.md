@@ -1,5 +1,30 @@
 # Changelog
 
+## [2.2.1](https://github.com/mdn/interactive-examples/compare/v2.2.0...v2.2.1) (2023-10-09)
+
+
+### Bug Fixes
+
+* **css:** for font examples use 'rem' instead of 'em' ([#2604](https://github.com/mdn/interactive-examples/issues/2604)) ([822ffc3](https://github.com/mdn/interactive-examples/commit/822ffc311ae370991cb1ac94e8d8da24a90b6e75))
+* **deps:** run npm audit fix ([#2624](https://github.com/mdn/interactive-examples/issues/2624)) ([ac27b1c](https://github.com/mdn/interactive-examples/commit/ac27b1c3f3a593254cc37057cb33fca867cd4b3c))
+* **pseudo class empty:** removed whitespace example ([#2582](https://github.com/mdn/interactive-examples/issues/2582)) ([66f59c8](https://github.com/mdn/interactive-examples/commit/66f59c8cd6e50af3c321039eabfc3722f1a65979))
+* vulnerabilities with `npm audit fix` ([#2620](https://github.com/mdn/interactive-examples/issues/2620)) ([2a51597](https://github.com/mdn/interactive-examples/commit/2a515974ac2bca0685784228a341556f1c6d18d8))
+
+## [2.2.0](https://github.com/mdn/interactive-examples/compare/v2.1.1...v2.2.0) (2023-08-29)
+
+
+### Features
+
+* **css:** Add example of `[@counter-style](https://github.com/counter-style)` and all of its descriptors ([#2089](https://github.com/mdn/interactive-examples/issues/2089)) ([2c4362a](https://github.com/mdn/interactive-examples/commit/2c4362ab85cfa3f8100dd25235f84a21d8021300))
+* **html:** Add example of `&lt;dialog&gt;` ([#2212](https://github.com/mdn/interactive-examples/issues/2212)) ([e97aa1d](https://github.com/mdn/interactive-examples/commit/e97aa1d340a2d6cfdbf9badf3329f141b9b94b90))
+
+## [2.1.1](https://github.com/mdn/interactive-examples/compare/v2.1.0...v2.1.1) (2023-08-17)
+
+
+### Bug Fixes
+
+* Replace marker example ([#2585](https://github.com/mdn/interactive-examples/issues/2585)) ([deb64df](https://github.com/mdn/interactive-examples/commit/deb64df3ff4e07bbd21c65bd78f83fa899068e03))
+
 ## [2.1.0](https://github.com/mdn/interactive-examples/compare/v2.0.0...v2.1.0) (2023-08-02)
 
 ### Features

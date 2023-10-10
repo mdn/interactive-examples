@@ -14,8 +14,8 @@
     },
     "intlCollatorSupportedLocalesOf": {
       "exampleCode": "./live-examples/js-examples/intl/intl-collator-supportedlocalesof.js",
-      "fileName": "intl-collator-prototype-supportedlocalesof.html",
-      "title": "JavaScript Demo: Intl.Collator.prototype.supportedLocalesOf",
+      "fileName": "intl-collator-supportedlocalesof.html",
+      "title": "JavaScript Demo: Intl.Collator.supportedLocalesOf",
       "type": "js"
     },
     "intlCollator": {
@@ -56,8 +56,8 @@
     },
     "intlDateTimeFormatSupportedLocalesOf": {
       "exampleCode": "./live-examples/js-examples/intl/intl-datetimeformat-supportedlocalesof.js",
-      "fileName": "intl-datetimeformat-prototype-supportedlocalesof.html",
-      "title": "JavaScript Demo: Intl.DateTimeFormat.prototype.supportedLocalesOf",
+      "fileName": "intl-datetimeformat-supportedlocalesof.html",
+      "title": "JavaScript Demo: Intl.DateTimeFormat.supportedLocalesOf",
       "type": "js"
     },
     "intlDateTimeFormat": {
@@ -140,8 +140,8 @@
     },
     "intlNumberFormatSupportedLocalesOf": {
       "exampleCode": "./live-examples/js-examples/intl/intl-numberformat-supportedlocalesof.js",
-      "fileName": "intl-numberformat-prototype-supportedlocalesof.html",
-      "title": "JavaScript Demo: Intl.NumberFormat.prototype.supportedLocalesOf",
+      "fileName": "intl-numberformat-supportedlocalesof.html",
+      "title": "JavaScript Demo: Intl.NumberFormat.supportedLocalesOf",
       "type": "js"
     },
     "intlNumberFormat": {
@@ -170,8 +170,8 @@
     },
     "intlPluralRulesSupportedLocalesOf": {
       "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-supportedlocalesof.js",
-      "fileName": "intl-pluralrules-prototype-supportedlocalesof.html",
-      "title": "JavaScript Demo: Intl.PluralRules.prototype.supportedLocalesOf",
+      "fileName": "intl-pluralrules-supportedlocalesof.html",
+      "title": "JavaScript Demo: Intl.PluralRules.supportedLocalesOf",
       "type": "js"
     },
     "intlRelativeTimeFormat": {
@@ -200,8 +200,8 @@
     },
     "intlRelativeTimeFormatSupportedLocalesOf": {
       "exampleCode": "./live-examples/js-examples/intl/intl-relativetimeformat-supportedlocalesof.js",
-      "fileName": "intl-relativetimeformat-prototype-supportedlocalesof.html",
-      "title": "JavaScript Demo: Intl.RelativeTimeFormat.prototype.supportedLocalesOf",
+      "fileName": "intl-relativetimeformat-supportedlocalesof.html",
+      "title": "JavaScript Demo: Intl.RelativeTimeFormat.supportedLocalesOf",
       "type": "js"
     },
     "intlSegmenter": {
@@ -228,16 +228,16 @@
       "title": "JavaScript Demo: Intl.Segmenter.supportedLocalesOf",
       "type": "js"
     },
-    "intlSegmentsPrototypeIterator": {
-      "exampleCode": "./live-examples/js-examples/intl/intl-segments-prototype-@@iterator.js",
-      "fileName": "intl-segments-prototype-@@iterator.html",
-      "title": "JavaScript Demo: Intl.Segments.prototype.@@iterator",
+    "segmentsPrototypeIterator": {
+      "exampleCode": "./live-examples/js-examples/intl/segments-prototype-@@iterator.js",
+      "fileName": "segments-prototype-@@iterator.html",
+      "title": "JavaScript Demo: Segments.prototype.@@iterator",
       "type": "js"
     },
-    "intlSegmentsPrototypeContaining": {
-      "exampleCode": "./live-examples/js-examples/intl/intl-segments-prototype-containing.js",
-      "fileName": "intl-segments-prototype-containing.html",
-      "title": "JavaScript Demo: Intl.Segments.prototype.containing",
+    "segmentsPrototypeContaining": {
+      "exampleCode": "./live-examples/js-examples/intl/segments-prototype-containing.js",
+      "fileName": "segments-prototype-containing.html",
+      "title": "JavaScript Demo: Segments.prototype.containing",
       "type": "js"
     },
     "intlSupportedValuesOf": {

@@ -1,0 +1,9 @@
+@counter-style binary-with-pad {
+  system: numeric;
+  symbols: '0' '1';
+  pad: 4 '_';
+}
+
+ul {
+  list-style: binary-with-pad;
+}
