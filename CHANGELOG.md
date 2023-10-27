@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.3.0](https://github.com/mdn/interactive-examples/compare/v2.2.1...v2.3.0) (2023-10-10)
+
+
+### Features
+
+* **ci:** run all linting actions ([#2576](https://github.com/mdn/interactive-examples/issues/2576)) ([c7380db](https://github.com/mdn/interactive-examples/commit/c7380dbd8ed15f0d17710246402beb3e28cceb25))
+
+
+### Bug Fixes
+
+* **ci:** skip workflows on forks ([#2628](https://github.com/mdn/interactive-examples/issues/2628)) ([74d36c9](https://github.com/mdn/interactive-examples/commit/74d36c96bf49e98e8f09674e90db6c1c9f3a8559)), closes [#2586](https://github.com/mdn/interactive-examples/issues/2586)
+
 ## [2.2.1](https://github.com/mdn/interactive-examples/compare/v2.2.0...v2.2.1) (2023-10-09)
 
 
