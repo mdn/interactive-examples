@@ -1,5 +1,7 @@
 const btn = document.getElementById('print-btn');
-const editorContainer = document.getElementsByClassName('css-editor-container')[0];
+const editorContainer = document.getElementsByClassName(
+  'css-editor-container',
+)[0];
 const exampleHTMLElement = document.getElementById('default-example');
 
 const printableSection = document.createElement('div');

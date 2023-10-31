@@ -4,7 +4,9 @@ class Split1 {
   }
   [Symbol.split](string) {
     const index = string.indexOf(this.value);
-    return `${this.value}${string.substr(0, index)}/${string.substr(index + this.value.length)}`;
+    return `${this.value}${string.substr(0, index)}/${string.substr(
+      index + this.value.length,
+    )}`;
   }
 }
 
