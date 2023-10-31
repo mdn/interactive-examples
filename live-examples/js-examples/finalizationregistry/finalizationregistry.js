@@ -9,7 +9,7 @@ const array1 = ['foo'];
 registry.register(array1, 'foo');
 // array1 is not referenced in any callback, so it can be garbage collected
 
-console.log("Triggering garbage collection, don't do this in production code!");
+console.log("Triggering garbage collection. Don't do this in production code!");
 
 (function allocateMemory() {
   Array.from({ length: 50000 }, () => () => {});
