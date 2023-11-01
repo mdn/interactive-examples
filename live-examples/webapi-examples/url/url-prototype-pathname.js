@@ -1,3 +1,3 @@
-const url = new URL('https://en.wikipedia.org:443/wiki/Mozilla#Software');
+const url = new URL('https://example.com:443/wiki/Mozilla#Software');
 console.log(url.pathname);
 // expected output: "/wiki/Mozilla"
