@@ -1,0 +1,12 @@
+#example-container {
+  background-color: black;
+  color: white;
+  padding: 4px;
+  width: 100%;
+  height: 48px;
+}
+
+#example-element {
+  background-color: red;
+  height: 100%;
+}

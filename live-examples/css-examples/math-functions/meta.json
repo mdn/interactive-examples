@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "min": {
+      "cssExampleSrc": "./live-examples/css-examples/math-functions/function-min-01.css",
+      "exampleCode": "./live-examples/css-examples/math-functions/function-min-01.html",
+      "fileName": "function-min-01.html",
+      "title": "CSS Math Functions: min()",
+      "type": "css"
+    },
+    "max": {
+      "cssExampleSrc": "./live-examples/css-examples/math-functions/function-max-01.css",
+      "exampleCode": "./live-examples/css-examples/math-functions/function-max-01.html",
+      "fileName": "function-max-01.html",
+      "title": "CSS Math Functions: max()",
+      "type": "css"
+    },
+    "clamp": {
+      "cssExampleSrc": "./live-examples/css-examples/math-functions/function-clamp-01.css",
+      "exampleCode": "./live-examples/css-examples/math-functions/function-clamp-01.html",
+      "fileName": "function-clamp-01.html",
+      "title": "CSS Math Functions: clamp()",
+      "type": "css"
+    }
+  }
+}
