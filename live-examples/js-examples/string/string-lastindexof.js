@@ -1,11 +1,8 @@
-const paragraph =
-  'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+const paragraph = "I think Ruth's dog is cuter than your dog!";
 
 const searchTerm = 'dog';
 
 console.log(
-  `The index of the first "${searchTerm}" from the end is ${paragraph.lastIndexOf(
-    searchTerm,
-  )}`,
+  `Index of the last ${searchTerm} is ${paragraph.lastIndexOf(searchTerm)}`,
 );
-// Expected output: "The index of the first "dog" from the end is 52"
+// Expected output: "Index of the last "dog" is 38"

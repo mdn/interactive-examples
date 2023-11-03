@@ -8,6 +8,5 @@ function check64bit(number) {
 
 check64bit(2n ** 64n);
 // Expected output: "Number doesn't fit in signed 64-bit integer!"
-
 check64bit(2n ** 32n);
 // Expected output: 4294967296n
