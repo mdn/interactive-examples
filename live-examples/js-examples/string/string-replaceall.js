@@ -1,10 +1,9 @@
-const p =
-  'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
+const paragraph = "I think Ruth's dog is cuter than your dog!";
 
-console.log(p.replaceAll('dog', 'monkey'));
-// Expected output: "The quick brown fox jumps over the lazy monkey. If the monkey reacted, was it really lazy?"
+console.log(paragraph.replaceAll('dog', 'monkey'));
+// Expected output: "I think Ruth's monkey is cuter than your monkey!"
 
 // Global flag required when calling replaceAll with regex
 const regex = /Dog/gi;
-console.log(p.replaceAll(regex, 'ferret'));
-// Expected output: "The quick brown fox jumps over the lazy ferret. If the ferret reacted, was it really lazy?"
+console.log(paragraph.replaceAll(regex, 'ferret'));
+// Expected output: "I think Ruth's ferret is cuter than your ferret!"
