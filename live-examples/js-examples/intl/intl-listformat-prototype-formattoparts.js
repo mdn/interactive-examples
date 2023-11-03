@@ -1,8 +1,10 @@
 const vehicles = ['Motorcycle', 'Bus', 'Car'];
+
 const formatterEn = new Intl.ListFormat('en', {
   style: 'long',
   type: 'conjunction',
 });
+
 const formatterFr = new Intl.ListFormat('fr', {
   style: 'long',
   type: 'conjunction',
