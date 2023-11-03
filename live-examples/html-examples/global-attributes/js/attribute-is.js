@@ -15,4 +15,6 @@ class LengthLeftTextarea extends HTMLTextAreaElement {
   }
 }
 
-customElements.define('length-left-textarea', LengthLeftTextarea, { extends: 'textarea' });
+customElements.define('length-left-textarea', LengthLeftTextarea, {
+  extends: 'textarea',
+});

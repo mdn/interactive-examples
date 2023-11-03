@@ -1,4 +1,9 @@
-const options1 = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const options1 = {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+};
 const options2 = { year: '2-digit', month: 'numeric', day: 'numeric' };
 
 const startDate = new Date(Date.UTC(2007, 0, 10, 10, 0, 0));
