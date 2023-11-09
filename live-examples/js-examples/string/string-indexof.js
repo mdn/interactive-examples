@@ -4,7 +4,7 @@ const searchTerm = 'dog';
 const indexOfFirst = paragraph.indexOf(searchTerm);
 
 console.log(`The index of the first "${searchTerm}" is ${indexOfFirst}`);
-// Expected output: "The index of the first "dog" is 7"
+// Expected output: "The index of the first "dog" is 15"
 
 console.log(
   `The index of the second "${searchTerm}" is ${paragraph.indexOf(
@@ -12,4 +12,4 @@ console.log(
     indexOfFirst + 1,
   )}`,
 );
-// Expected output: "The index of the second "dog" is 41"
+// Expected output: "The index of the second "dog" is 38"
