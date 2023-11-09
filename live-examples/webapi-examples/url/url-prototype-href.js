@@ -1,3 +1,3 @@
-const url = new URL('https://example.com:443/wiki/Mozilla#Software');
+const url = new URL('https://en.wikipedia.org:443/wiki/Mozilla#Software');
 console.log(url.href);
-// expected output: "https://example.com/wiki/Mozilla#Software"
+// expected output: "https://en.wikipedia.org/wiki/Mozilla#Software"
