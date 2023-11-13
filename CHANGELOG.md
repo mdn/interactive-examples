@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.3.1](https://github.com/mdn/interactive-examples/compare/v2.3.0...v2.3.1) (2023-11-13)
+
+
+### Bug Fixes
+
+* **css:** update order demo ([#2660](https://github.com/mdn/interactive-examples/issues/2660)) ([be57d9c](https://github.com/mdn/interactive-examples/commit/be57d9ca0404152e7d3b15213b4878e1f12f7d8e))
+* **js:** horizontal and vertical scroll improvements ([#2649](https://github.com/mdn/interactive-examples/issues/2649)) ([617205f](https://github.com/mdn/interactive-examples/commit/617205f412c9a80f81cc1fc83b24aabb232f06e0))
+
 ## [2.3.0](https://github.com/mdn/interactive-examples/compare/v2.2.1...v2.3.0) (2023-10-10)
 
 
