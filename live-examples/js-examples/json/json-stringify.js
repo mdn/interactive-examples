@@ -1,7 +1,9 @@
 console.log(JSON.stringify({ x: 5, y: 6 }));
 // Expected output: '{"x":5,"y":6}'
 
-console.log(JSON.stringify([new Number(3), new String('false'), new Boolean(false)]));
+console.log(
+  JSON.stringify([new Number(3), new String('false'), new Boolean(false)]),
+);
 // Expected output: '[3,"false",false]'
 
 console.log(JSON.stringify({ x: [10, undefined, function () {}, Symbol('')] }));

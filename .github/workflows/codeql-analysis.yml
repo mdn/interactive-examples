@@ -24,6 +24,7 @@ jobs:
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
+    if: github.repository == 'mdn/interactive-examples'
     permissions:
       actions: read
       contents: read

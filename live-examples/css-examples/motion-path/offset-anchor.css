@@ -12,7 +12,14 @@
 }
 
 .wrapper {
-  background-image: linear-gradient(to bottom, transparent, transparent 49%, #000 50%, #000 51%, transparent 52%);
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    transparent 49%,
+    #000 50%,
+    #000 51%,
+    transparent 52%
+  );
   border: 1px solid #ccc;
   width: 90%;
 }

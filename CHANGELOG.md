@@ -1,5 +1,35 @@
 # Changelog
 
+## [2.3.1](https://github.com/mdn/interactive-examples/compare/v2.3.0...v2.3.1) (2023-11-13)
+
+
+### Bug Fixes
+
+* **css:** update order demo ([#2660](https://github.com/mdn/interactive-examples/issues/2660)) ([be57d9c](https://github.com/mdn/interactive-examples/commit/be57d9ca0404152e7d3b15213b4878e1f12f7d8e))
+* **js:** horizontal and vertical scroll improvements ([#2649](https://github.com/mdn/interactive-examples/issues/2649)) ([617205f](https://github.com/mdn/interactive-examples/commit/617205f412c9a80f81cc1fc83b24aabb232f06e0))
+
+## [2.3.0](https://github.com/mdn/interactive-examples/compare/v2.2.1...v2.3.0) (2023-10-10)
+
+
+### Features
+
+* **ci:** run all linting actions ([#2576](https://github.com/mdn/interactive-examples/issues/2576)) ([c7380db](https://github.com/mdn/interactive-examples/commit/c7380dbd8ed15f0d17710246402beb3e28cceb25))
+
+
+### Bug Fixes
+
+* **ci:** skip workflows on forks ([#2628](https://github.com/mdn/interactive-examples/issues/2628)) ([74d36c9](https://github.com/mdn/interactive-examples/commit/74d36c96bf49e98e8f09674e90db6c1c9f3a8559)), closes [#2586](https://github.com/mdn/interactive-examples/issues/2586)
+
+## [2.2.1](https://github.com/mdn/interactive-examples/compare/v2.2.0...v2.2.1) (2023-10-09)
+
+
+### Bug Fixes
+
+* **css:** for font examples use 'rem' instead of 'em' ([#2604](https://github.com/mdn/interactive-examples/issues/2604)) ([822ffc3](https://github.com/mdn/interactive-examples/commit/822ffc311ae370991cb1ac94e8d8da24a90b6e75))
+* **deps:** run npm audit fix ([#2624](https://github.com/mdn/interactive-examples/issues/2624)) ([ac27b1c](https://github.com/mdn/interactive-examples/commit/ac27b1c3f3a593254cc37057cb33fca867cd4b3c))
+* **pseudo class empty:** removed whitespace example ([#2582](https://github.com/mdn/interactive-examples/issues/2582)) ([66f59c8](https://github.com/mdn/interactive-examples/commit/66f59c8cd6e50af3c321039eabfc3722f1a65979))
+* vulnerabilities with `npm audit fix` ([#2620](https://github.com/mdn/interactive-examples/issues/2620)) ([2a51597](https://github.com/mdn/interactive-examples/commit/2a515974ac2bca0685784228a341556f1c6d18d8))
+
 ## [2.2.0](https://github.com/mdn/interactive-examples/compare/v2.1.1...v2.2.0) (2023-08-29)
 
 
