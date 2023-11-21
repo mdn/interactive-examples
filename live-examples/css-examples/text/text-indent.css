@@ -1,9 +1,10 @@
 #output section {
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 #example-element {
   text-align: left;
   margin-left: 3em;
-  background-color: #808080;
+  background-color: darkslateblue;
+  color: white;
 }
