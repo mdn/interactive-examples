@@ -7,7 +7,7 @@ console.log(`Width: ${match[1]} / Height: ${match[2]}.`);
 
 // backreferences
 const aliceExcerpt =
-  "This is is some text text with double double words some where I I am not not sure why why I am typing ok? rainbow rainbow unicorn unicorn.";
+  "This is is some text text with double double words some where I I am not not sure.";
 const regexpWithoutE = /\b(\w+)\s\1\b/g;
 console.log(aliceExcerpt.match(regexpWithoutE));
-// Expected output: Array ['is is', 'text text', 'double double', 'I I', 'not not', 'why why', 'rainbow rainbow', 'unicorn unicorn']
+// Expected output: Array ['is is', 'text text', 'double double', 'I I', 'not not']
