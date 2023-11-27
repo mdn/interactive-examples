@@ -6,7 +6,7 @@ console.log(`Width: ${match[1]} / Height: ${match[2]}.`);
 // Expected output: "Width: 1440 / Height: 900."
 
 // backreferences
-const aliceExcerpt = '<strong>This a strong tag.</strong><h1>This is a H1 tag.</h1>';
-const regexpWithoutE = /<(\w+)>[\w\s\.]+<\/\1>/g;
+const aliceExcerpt = 'This is is some text text with double double words some where I I am not not sure why why I am typing ok? rainbow rainbow unicorn unicorn.';
+const regexpWithoutE = /\b(\w+)\s\1\b/g;
 console.log(aliceExcerpt.match(regexpWithoutE));
-// Expected output: Array ["<strong>This is a strong tag.</strong>", "<h1>This is an H1 tag.</h1>"]
+// Expected output: Array ['is is', 'text text', 'double double', 'I I', 'not not', 'why why', 'rainbow rainbow', 'unicorn unicorn']
