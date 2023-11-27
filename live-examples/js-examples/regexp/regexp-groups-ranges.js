@@ -12,3 +12,4 @@ const regexpSize = /([0-9]+)×([0-9]+)/;
 const match = imageDescription.match(regexpSize);
 console.log(`Width: ${match[1]} / Height: ${match[2]}.`);
 // Expected output: "Width: 1440 / Height: 900."
+
