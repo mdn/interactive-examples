@@ -27,7 +27,7 @@
     "regexpGroupsRanges": {
       "exampleCode": "./live-examples/js-examples/regexp/regexp-groups-ranges.js",
       "fileName": "regexp-groups-ranges.html",
-      "title": "JavaScript Demo: RegExp Groups and ranges",
+      "title": "JavaScript Demo: RegExp Groups and backreferences",
       "type": "js"
     },
     "regexpLastIndex": {
