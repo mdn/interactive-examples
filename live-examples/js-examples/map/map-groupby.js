@@ -9,7 +9,7 @@ const inventory = [
 const restock = { restock: true };
 const sufficient = { restock: false };
 const result = Map.groupBy(inventory, ({ quantity }) =>
-  quantity < 6 ? restock : sufficient,
+  quantity < 6 ? restock : sufficient
 );
 console.log(result.get(restock));
 // [{ name: "bananas", type: "fruit", quantity: 5 }]
