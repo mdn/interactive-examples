@@ -5,7 +5,7 @@
     f32.const 10
     f32.const 2
 
-    f32.max ;; caluculat the higher number
+    f32.max ;; calculate the higher number
     call $log ;; log the result
   )
   (start $main)
