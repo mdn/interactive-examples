@@ -4,7 +4,7 @@
     ;; load the number onto the stack
     local.get $num
 
-    ;; coount the amount of 1s and return the result
+    ;; count the amount of 1s and return the result
     i32.popcnt
   )
 
