@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.3](https://github.com/mdn/interactive-examples/compare/v2.3.2...v2.3.3) (2023-12-04)
+
+
+### Bug Fixes
+
+* **html:** use `&lt;textarea&gt;` in spellcheck example ([#2680](https://github.com/mdn/interactive-examples/issues/2680)) ([163699b](https://github.com/mdn/interactive-examples/commit/163699b01085cf8be5cecdbc2d9ed8618bb9aab9))
+
 ## [2.3.2](https://github.com/mdn/interactive-examples/compare/v2.3.1...v2.3.2) (2023-12-04)
 
 
