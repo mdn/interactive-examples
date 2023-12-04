@@ -3,7 +3,7 @@
   (func $main
 
     f32.const -10 ;; load a number onto the stack
-    f32.abs ;; caluculate the absolute value
+    f32.abs ;; calculate the absolute value
     call $log ;; log the result
 
   )
