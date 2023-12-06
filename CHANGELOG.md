@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.4](https://github.com/mdn/interactive-examples/compare/v2.3.3...v2.3.4) (2023-12-06)
+
+
+### Bug Fixes
+
+* **html:** provide corresponding 'id's for 'for' attributes on &lt;label&gt; tags ([#2678](https://github.com/mdn/interactive-examples/issues/2678)) ([49a3dca](https://github.com/mdn/interactive-examples/commit/49a3dca5e9612f9efd6dacf4f0bf661e0db6c54c))
+
 ## [2.3.3](https://github.com/mdn/interactive-examples/compare/v2.3.2...v2.3.3) (2023-12-04)
 
 
