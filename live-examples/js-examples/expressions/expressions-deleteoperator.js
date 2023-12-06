@@ -1,10 +1,10 @@
 const Employee = {
-  firstname: 'John',
-  lastname: 'Doe',
+  firstname: 'Maria',
+  lastname: 'Sanchez',
 };
 
 console.log(Employee.firstname);
-// Expected output: "John"
+// Expected output: "Maria"
 
 delete Employee.firstname;
 
