@@ -6,9 +6,8 @@ console.log(`Width: ${match[1]} / Height: ${match[2]}.`);
 // Expected output: "Width: 1440 / Height: 900."
 
 // Backreferences
-const quote = `Single quote "'" and double quote '"'`;
-const regexpQuotes = /(['"]).*?\1/g;
-for (const match of quote.matchAll(regexpQuotes)) {
-  console.log(match[0]);
-}
-// Expected output: '"'"' '"'"'
+const findDuplicates = 'foo foo bar';
+const regex = /\b(\w+)\s+\1\b/g;
+console.log(findDuplicates.match(regex));
+// Expected output: Array ["foo", "foo"]
+
