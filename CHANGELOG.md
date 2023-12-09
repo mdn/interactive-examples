@@ -1,5 +1,27 @@
 # Changelog
 
+## [2.3.4](https://github.com/mdn/interactive-examples/compare/v2.3.3...v2.3.4) (2023-12-06)
+
+
+### Bug Fixes
+
+* **html:** provide corresponding 'id's for 'for' attributes on &lt;label&gt; tags ([#2678](https://github.com/mdn/interactive-examples/issues/2678)) ([49a3dca](https://github.com/mdn/interactive-examples/commit/49a3dca5e9612f9efd6dacf4f0bf661e0db6c54c))
+
+## [2.3.3](https://github.com/mdn/interactive-examples/compare/v2.3.2...v2.3.3) (2023-12-04)
+
+
+### Bug Fixes
+
+* **html:** use `&lt;textarea&gt;` in spellcheck example ([#2680](https://github.com/mdn/interactive-examples/issues/2680)) ([163699b](https://github.com/mdn/interactive-examples/commit/163699b01085cf8be5cecdbc2d9ed8618bb9aab9))
+
+## [2.3.2](https://github.com/mdn/interactive-examples/compare/v2.3.1...v2.3.2) (2023-12-04)
+
+
+### Bug Fixes
+
+* **css:** improve contrast of margin-block ([#2666](https://github.com/mdn/interactive-examples/issues/2666)) ([0df7a29](https://github.com/mdn/interactive-examples/commit/0df7a296e422a4b9006fcfb3d0de383fb87943c8))
+* various code issues ([#2679](https://github.com/mdn/interactive-examples/issues/2679)) ([c877595](https://github.com/mdn/interactive-examples/commit/c877595a7320691690fbb6304a9e699e9c2ddc57))
+
 ## [2.3.1](https://github.com/mdn/interactive-examples/compare/v2.3.0...v2.3.1) (2023-11-13)
 
 

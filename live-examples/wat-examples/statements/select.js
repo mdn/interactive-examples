@@ -5,7 +5,7 @@ await WebAssembly.instantiateStreaming(fetch(url)).then((result) => {
   console.log(select_simple());
   // Expected output: 20
 
-  // If the second parameter is zero, returns the first paramater (which may be an arbitrary JS value)
+  // If the second parameter is zero, returns the first parameter (which may be an arbitrary JS value)
   const map = new Map();
   console.log(select_externref(map, 0));
   // Expected output: [object Map]
