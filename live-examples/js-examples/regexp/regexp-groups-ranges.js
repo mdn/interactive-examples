@@ -9,5 +9,4 @@ console.log(`Width: ${match[1]} / Height: ${match[2]}.`);
 const findDuplicates = 'foo foo bar';
 const regex = /\b(\w+)\s+\1\b/g;
 console.log(findDuplicates.match(regex));
-// Expected output: Array ["foo", "foo"]
-
+// Expected output: Array ["foo foo"]
