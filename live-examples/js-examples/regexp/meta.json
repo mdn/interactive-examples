@@ -24,10 +24,10 @@
       "title": "JavaScript Demo: RegExp.getRegExp[@@species]",
       "type": "js"
     },
-    "regexpGroupsRanges": {
-      "exampleCode": "./live-examples/js-examples/regexp/regexp-groups-ranges.js",
-      "fileName": "regexp-groups-ranges.html",
-      "title": "JavaScript Demo: RegExp Groups and ranges",
+    "regexpGroupsBackreferences": {
+      "exampleCode": "./live-examples/js-examples/regexp/regexp-groups-backreferences.js",
+      "fileName": "regexp-groups-backreferences.html",
+      "title": "JavaScript Demo: RegExp Groups and backreferences",
       "type": "js"
     },
     "regexpLastIndex": {
