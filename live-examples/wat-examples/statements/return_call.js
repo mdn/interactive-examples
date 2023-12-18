@@ -1,11 +1,4 @@
 const url = '{%wasm-url%}';
-await WebAssembly.instantiateStreaming(fetch(url), {
-  env: {
-    fac: function (x) {
-      if (x === 0) {
-        return 1;
-      }
-      return x * this.fac(x - 1);
-    },
-  },
-});
+const { instance } = await WebAssembly.instantiateStreaming(fetch(url));
+const result = instance.exports.fac(5n);
+console.log(result);
