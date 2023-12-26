@@ -1,0 +1,41 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  width: 35em;
+  height: 18em;
+  border: medium dotted;
+  padding: 0.75em;
+  text-align: left;
+  overflow: scroll;
+}
+
+.box {
+  white-space: nowrap;
+  margin-bottom: 1em;
+}
+
+#example-element {
+  display: flex;
+  flex-direction: row;
+  width: 20em;
+  min-height: 12em;
+  border: medium dotted #1b76c4;
+  padding: 0.3em;
+  margin: 0 0.3em;
+  text-align: left;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+}
+
+#element-left {
+  overflow-wrap: break-word;
+  min-width: 120%;
+  margin-right: 2em;
+}
+
+#last-element {
+  margin-top: 1em;
+  white-space: normal;
+  overflow-wrap: break-word;
+  line-height: 2em;
+}
