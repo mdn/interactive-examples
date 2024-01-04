@@ -42,7 +42,7 @@ We've written separate guides to contributing each type of example:
 
 - [Contributing a CSS example](contributing/css-examples.md)
 - [Contributing an HTML example](contributing/html-examples.md)
-- [Contributing a JavaScript example](contributing/js-examples.md)
+- [Contributing a JavaScript example](contributing/javascript-examples.md)
 
 ## Testing
 
