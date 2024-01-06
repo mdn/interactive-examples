@@ -10,9 +10,9 @@
   background-color: rgb(220 0 0 /100%);
   background-image: linear-gradient(
     to top left,
-    rgb(0 0 0 /0.2),
-    rgb(0 0 0 /0.2) 30%,
-    rgb(0 0 0 /0)
+    rgb(0 0 0 /20%),
+    rgb(0 0 0 /20%) 30%,
+    rgb(0 0 0 /20%)
   );
   box-shadow:
     inset 2px 2px 3px rgb(255 255 255 /60%),
