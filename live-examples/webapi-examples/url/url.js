@@ -1,12 +1,12 @@
-const url = new URL('https://en.wikipedia.org/wiki/Mozilla#Software');
+const url = new URL('https://example.com/path/to/file#Software');
 console.log(url.protocol);
 // expected output: "https:"
 
 console.log(url.hostname);
-// expected output: "en.wikipedia.org"
+// expected output: "example.com"
 
 console.log(url.pathname);
-// expected output: "/wiki/Mozilla"
+// expected output: "/path/to/file"
 
 console.log(url.hash);
 // expected output: "#Software"
