@@ -3,8 +3,12 @@
   height: 100%;
 }
 
+code {
+  background: #8888;
+}
+
 #example-element {
-  border: 3px solid #00f;
+  border: 3px solid orange;
 }
 
 .child {
