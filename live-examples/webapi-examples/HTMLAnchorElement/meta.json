@@ -1,0 +1,14 @@
+{
+  "pages": {
+    "target": {
+      "exampleCode": "./live-examples/webapi-examples/HTMLAnchorElement/target/HTMLAnchorElement-target.html",
+      "cssExampleSrc": "./live-examples/webapi-examples/HTMLAnchorElement/target/css/HTMLAnchorElement-target.css",
+      "fileName": "HTMLAnchorElement-target.html",
+      "title": "<a> target attribute values",
+      "height": "tabbed-shorter",
+      "type": "webapi-tabbed",
+      "tabs": "html,css",
+      "defaultTab": "html"
+    }
+  }
+}
