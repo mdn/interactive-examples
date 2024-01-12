@@ -8,7 +8,7 @@ code {
 }
 
 #example-element {
-  border: 3px solid orange;
+  border: 3px dashed orange;
 }
 
 .child {
