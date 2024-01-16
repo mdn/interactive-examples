@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.5](https://github.com/mdn/interactive-examples/compare/v2.3.4...v2.3.5) (2024-01-16)
+
+
+### Bug Fixes
+
+* **css:** update 'display' interactive demo ([#2710](https://github.com/mdn/interactive-examples/issues/2710)) ([2125dd1](https://github.com/mdn/interactive-examples/commit/2125dd1d5eac464cc3f8c489f44a4b3aaf940d05))
+
 ## [2.3.4](https://github.com/mdn/interactive-examples/compare/v2.3.3...v2.3.4) (2023-12-06)
 
 
