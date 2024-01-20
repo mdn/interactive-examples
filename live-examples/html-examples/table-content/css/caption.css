@@ -6,7 +6,7 @@ caption {
 
 table {
   border-collapse: collapse;
-  border: 2px solid rgb(140, 140, 140);
+  border: 2px solid rgb(140 140 140);
   font-family: sans-serif;
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -14,12 +14,12 @@ table {
 
 th,
 td {
-  border: 1px solid rgb(160, 160, 160);
+  border: 1px solid rgb(160 160 160);
   padding: 8px 10px;
 }
 
 th {
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(230 230 230);
 }
 
 td {
@@ -27,11 +27,11 @@ td {
 }
 
 tr:nth-child(even) td {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(250 250 250);
 }
 
 tr:nth-child(odd) td {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(240 240 240);
 }
 
 .heman {

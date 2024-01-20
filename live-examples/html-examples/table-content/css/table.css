@@ -1,6 +1,6 @@
 table {
   border-collapse: collapse;
-  border: 2px solid rgb(140, 140, 140);
+  border: 2px solid rgb(140 140 140);
   font-family: sans-serif;
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -14,12 +14,12 @@ caption {
 
 thead,
 tfoot {
-  background-color: rgb(228, 240, 245);
+  background-color: rgb(228 240 245);
 }
 
 th,
 td {
-  border: 1px solid rgb(160, 160, 160);
+  border: 1px solid rgb(160 160 160);
   padding: 8px 10px;
 }
 
@@ -28,7 +28,7 @@ td:last-of-type {
 }
 
 tbody > tr:nth-of-type(even) {
-  background-color: rgb(237, 238, 242);
+  background-color: rgb(237 238 242);
 }
 
 tfoot th {
