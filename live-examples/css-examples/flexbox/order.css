@@ -1,16 +1,28 @@
 .default-example {
   max-height: 300px;
   display: flex;
+  flex-flow: column;
 }
 
 .default-example > div {
   background-color: rgba(0, 0, 255, 0.2);
   border: 3px solid blue;
-  margin: 10px;
+  margin: 0.5rem;
+  padding: 0.5rem;
   flex: 1;
 }
 
 #example-element {
   background-color: rgba(255, 0, 200, 0.2);
   border: 3px solid rebeccapurple;
+}
+
+#example-element::after {
+  content: attr(style);
+  background: #444;
+  font-family: monospace;
+}
+
+code {
+  background: #444;
 }

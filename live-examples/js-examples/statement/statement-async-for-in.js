@@ -1,5 +1,6 @@
 async function getFromList() {
-  const url = 'https://www.random.org/decimal-fractions/?num=1&dec=10&col=1&format=plain&rnd=new';
+  const url =
+    'https://www.random.org/decimal-fractions/?num=1&dec=10&col=1&format=plain&rnd=new';
 
   const arrayOfFetches = [doFetch(url), doFetch(url), doFetch(url)];
 
