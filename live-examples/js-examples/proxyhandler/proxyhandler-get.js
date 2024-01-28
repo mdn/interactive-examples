@@ -6,7 +6,7 @@ const monster1 = {
 const handler1 = {
   get: function (target, prop, receiver) {
     if (prop === 'secret') {
-      return `${target.secret.substr(0, 4)} ... shhhh!`;
+      return `${target.secret.substring(0, 4)} ... shhhh!`;
     }
     return Reflect.get(...arguments);
   },

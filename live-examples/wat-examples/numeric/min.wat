@@ -5,7 +5,7 @@
     f32.const 10
     f32.const 2
 
-    f32.min ;; caluculat the lower number
+    f32.min ;; calculate the lower number
     call $log ;; log the result
   )
   (start $main)
