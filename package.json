@@ -25,7 +25,7 @@
     "lint:js": "eslint .",
     "lint:format": "prettier -c --ignore-unknown .",
     "postinstall": "npm run build",
-    "prepare": "husky install",
+    "prepare": "husky || true",
     "start-server": "http-server -p 9090 ./docs",
     "start-watch": "chokidar \"./live-examples/**\" -c \"npm run build:pages\" --initial --silent",
     "start": "npm-run-all --parallel start-watch start-server",
