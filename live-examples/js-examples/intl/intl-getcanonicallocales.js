@@ -8,5 +8,5 @@ try {
   Intl.getCanonicalLocales('EN_US');
 } catch (err) {
   console.log(err.toString());
-  // Expected output: RangeError: invalid language tag: EN_US
+  // Expected output: RangeError: Incorrect locale information provided
 }
