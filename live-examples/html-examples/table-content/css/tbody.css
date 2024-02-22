@@ -1,6 +1,6 @@
 thead,
 tfoot {
-  background-color: #3f87a6;
+  background-color: #2c5e77;
   color: #fff;
 }
 
@@ -8,23 +8,23 @@ tbody {
   background-color: #e4f0f5;
 }
 
-caption {
-  padding: 10px;
-  caption-side: bottom;
-}
-
 table {
   border-collapse: collapse;
-  border: 2px solid rgb(200, 200, 200);
-  letter-spacing: 1px;
+  border: 2px solid rgb(140 140 140);
   font-family: sans-serif;
   font-size: 0.8rem;
+  letter-spacing: 1px;
 }
 
-td,
-th {
-  border: 1px solid rgb(190, 190, 190);
-  padding: 5px 10px;
+caption {
+  caption-side: bottom;
+  padding: 10px;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
 }
 
 td {

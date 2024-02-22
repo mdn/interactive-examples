@@ -15,6 +15,13 @@
       "fileName": "contain.html",
       "title": "CSS Demo: contain",
       "type": "css"
+    },
+    "content-visibility": {
+      "cssExampleSrc": "./live-examples/css-examples/container/content-visibility.css",
+      "exampleCode": "./live-examples/css-examples/container/content-visibility.html",
+      "fileName": "content-visibility.html",
+      "title": "CSS Demo: content-visibility",
+      "type": "css"
     }
   }
 }

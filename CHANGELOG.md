@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.4.0](https://github.com/mdn/interactive-examples/compare/v2.3.5...v2.4.0) (2024-01-23)
+
+
+### Features
+
+* **css:** create an example for content-visibility ([#2663](https://github.com/mdn/interactive-examples/issues/2663)) ([fd7893d](https://github.com/mdn/interactive-examples/commit/fd7893d9b328c50b797e53a407ddb0de986c290e))
+
+
+### Bug Fixes
+
+* Run Prettier on html-examples/input/tel.html, upgrade stylelint ([#2723](https://github.com/mdn/interactive-examples/issues/2723)) ([79fb2ce](https://github.com/mdn/interactive-examples/commit/79fb2cea2c20bdc5d94d726c2cbd9eebfbddd039))
+
+## [2.3.5](https://github.com/mdn/interactive-examples/compare/v2.3.4...v2.3.5) (2024-01-16)
+
+
+### Bug Fixes
+
+* **css:** update 'display' interactive demo ([#2710](https://github.com/mdn/interactive-examples/issues/2710)) ([2125dd1](https://github.com/mdn/interactive-examples/commit/2125dd1d5eac464cc3f8c489f44a4b3aaf940d05))
+
 ## [2.3.4](https://github.com/mdn/interactive-examples/compare/v2.3.3...v2.3.4) (2023-12-06)
 
 

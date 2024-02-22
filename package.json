@@ -1,6 +1,6 @@
 {
   "name": "interactive-examples",
-  "version": "2.3.4",
+  "version": "2.4.0",
   "description": "Interactive code examples embedded on MDN",
   "author": "Mozilla",
   "license": "MPL-2.0",
@@ -25,7 +25,7 @@
     "lint:js": "eslint .",
     "lint:format": "prettier -c --ignore-unknown .",
     "postinstall": "npm run build",
-    "prepare": "husky install",
+    "prepare": "husky || true",
     "start-server": "http-server -p 9090 ./docs",
     "start-watch": "chokidar \"./live-examples/**\" -c \"npm run build:pages\" --initial --silent",
     "start": "npm-run-all --parallel start-watch start-server",
@@ -43,18 +43,18 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.6",
-    "@babel/eslint-parser": "^7.23.3",
+    "@babel/core": "^7.23.9",
+    "@babel/eslint-parser": "^7.23.10",
     "@mdn/bob": "^4.0.0",
     "chokidar-cli": "^3.0.0",
     "eslint": "^8.56.0",
     "http-server": "^14.1.1",
-    "husky": "^8.0.3",
-    "lint-staged": "^15.2.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.1.1",
-    "prettier-eslint": "^16.1.2",
-    "stylelint": "^16.0.2",
+    "prettier": "^3.2.5",
+    "prettier-eslint": "^16.2.0",
+    "stylelint": "^16.2.1",
     "stylelint-prettier": "^5.0.0"
   }
 }

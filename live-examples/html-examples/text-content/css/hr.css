@@ -7,7 +7,7 @@ hr {
   height: 5px;
 }
 
-hr:after {
+hr::after {
   background: #fff;
   content: '§';
   padding: 0 4px;
