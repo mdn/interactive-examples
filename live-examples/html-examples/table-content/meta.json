@@ -30,7 +30,7 @@
       "fileName": "table.html",
       "title": "HTML Demo: <table>",
       "type": "tabbed",
-      "height": "tabbed-standard"
+      "height": "tabbed-taller"
     },
     "tbody": {
       "exampleCode": "./live-examples/html-examples/table-content/tbody.html",
