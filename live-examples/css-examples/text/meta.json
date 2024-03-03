@@ -98,6 +98,13 @@
       "title": "CSS Demo: text-transform",
       "type": "css"
     },
+    "textWrap": {
+      "cssExampleSrc": "./live-examples/css-examples/text/text-wrap.css",
+      "exampleCode": "./live-examples/css-examples/text/text-wrap.html",
+      "fileName": "text-wrap.html",
+      "title": "CSS Demo: text-wrap",
+      "type": "css"
+    },
     "userSelect": {
       "cssExampleSrc": "./live-examples/css-examples/text/user-select.css",
       "exampleCode": "./live-examples/css-examples/text/user-select.html",
