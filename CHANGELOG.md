@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.4.1](https://github.com/mdn/interactive-examples/compare/v2.4.0...v2.4.1) (2024-03-06)
+
+
+### Bug Fixes
+
+* `Intl.getCanonicalLocales` error message ([#2741](https://github.com/mdn/interactive-examples/issues/2741)) ([f5a8492](https://github.com/mdn/interactive-examples/commit/f5a8492c5fefbc0bc301163b13b19f8edc0925ba))
+* **ci:** migrate to husky v9 ([#2731](https://github.com/mdn/interactive-examples/issues/2731)) ([dee2d96](https://github.com/mdn/interactive-examples/commit/dee2d96f858a2c1eefda37bf4f840a28e3b0cd22))
+* **js:** ignore formatting empty statement example with code comment ([#2696](https://github.com/mdn/interactive-examples/issues/2696)) ([0b33754](https://github.com/mdn/interactive-examples/commit/0b337543c9ebc4bf0b7d302848b85748c182d167))
+
 ## [2.4.0](https://github.com/mdn/interactive-examples/compare/v2.3.5...v2.4.0) (2024-01-23)
 
 
