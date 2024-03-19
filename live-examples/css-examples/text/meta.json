@@ -105,6 +105,20 @@
       "title": "CSS Demo: text-wrap",
       "type": "css"
     },
+    "textWrapMode": {
+      "cssExampleSrc": "./live-examples/css-examples/text/text-wrap-mode.css",
+      "exampleCode": "./live-examples/css-examples/text/text-wrap-mode.html",
+      "fileName": "text-wrap-mode.html",
+      "title": "CSS Demo: text-wrap-mode",
+      "type": "css"
+    },
+    "textWrapStyle": {
+      "cssExampleSrc": "./live-examples/css-examples/text/text-wrap-style.css",
+      "exampleCode": "./live-examples/css-examples/text/text-wrap-style.html",
+      "fileName": "text-wrap-style.html",
+      "title": "CSS Demo: text-wrap-style",
+      "type": "css"
+    },
     "userSelect": {
       "cssExampleSrc": "./live-examples/css-examples/text/user-select.css",
       "exampleCode": "./live-examples/css-examples/text/user-select.html",
