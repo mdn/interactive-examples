@@ -8,7 +8,7 @@ const handler1 = {
     if (prop === 'secret') {
       return `${target.secret.substring(0, 4)} ... shhhh!`;
     }
-    return Reflect.get(...arguments);
+    return Reflect.get(target, prop, receiver);
   },
 };
 
