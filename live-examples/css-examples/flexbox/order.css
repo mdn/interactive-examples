@@ -19,5 +19,6 @@
 
 #example-element::after {
   content: attr(style);
+  outline: 2px dashed;
   font-family: monospace;
 }
