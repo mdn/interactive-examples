@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 60px 60px;
   grid-auto-rows: 40px;
-  grid-gap: 10px;
+  row-gap: 10px;
 }
 
 #example-element > div {
