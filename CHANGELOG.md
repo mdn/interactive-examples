@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.0](https://github.com/mdn/interactive-examples/compare/v2.4.1...v2.5.0) (2024-05-03)
+
+
+### Features
+
+* Upgrade stylelint to v16.5.0 ([#2770](https://github.com/mdn/interactive-examples/issues/2770)) ([e9dcc1f](https://github.com/mdn/interactive-examples/commit/e9dcc1f361590717238ee4cf550e789af8bef0ab))
+
 ## [2.4.1](https://github.com/mdn/interactive-examples/compare/v2.4.0...v2.4.1) (2024-03-06)
 
 
