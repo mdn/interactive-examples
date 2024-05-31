@@ -84,6 +84,12 @@
       "title": "JavaScript Demo: Array.flatMap()",
       "type": "js"
     },
+    "arrayFindMax": {
+      "exampleCode": "./live-examples/js-examples/array/array-findmax.js",
+      "fileName": "array-findmax.html",
+      "title": "JavaScript Demo: Finding Maximum in Array",
+      "type": "js"
+    },
     "arrayForEach": {
       "exampleCode": "./live-examples/js-examples/array/array-foreach.js",
       "fileName": "array-foreach.html",
