@@ -102,6 +102,12 @@
       "title": "JavaScript Demo: Math.floor()",
       "type": "js"
     },
+    "mathF16round": {
+      "exampleCode": "./live-examples/js-examples/math/math-f16round.js",
+      "fileName": "math-f16round.html",
+      "title": "JavaScript Demo: Math.f16round()",
+      "type": "js"
+    },
     "mathFround": {
       "exampleCode": "./live-examples/js-examples/math/math-fround.js",
       "fileName": "math-fround.html",

@@ -36,6 +36,12 @@
       "title": "JavaScript Demo: DataView.getBigUint64()",
       "type": "js"
     },
+    "dataviewGetFloat16": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-getfloat16.js",
+      "fileName": "dataview-getfloat16.html",
+      "title": "JavaScript Demo: DataView.getFloat16()",
+      "type": "js"
+    },
     "dataviewGetFloat32": {
       "exampleCode": "./live-examples/js-examples/dataview/dataview-getfloat32.js",
       "fileName": "dataview-getfloat32.html",
@@ -94,6 +100,12 @@
       "exampleCode": "./live-examples/js-examples/dataview/dataview-setbiguint64.js",
       "fileName": "dataview-setbiguint64.html",
       "title": "JavaScript Demo: DataView.setBigUint64()",
+      "type": "js"
+    },
+    "dataviewSetFloat16": {
+      "exampleCode": "./live-examples/js-examples/dataview/dataview-setfloat16.js",
+      "fileName": "dataview-setfloat16.html",
+      "title": "JavaScript Demo: DataView.setFloat16()",
       "type": "js"
     },
     "dataviewSetFloat32": {
