@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.1](https://github.com/mdn/interactive-examples/compare/v2.5.0...v2.5.1) (2024-06-10)
+
+
+### Bug Fixes
+
+* **css:** add cue pseudo element with argument case ([#2787](https://github.com/mdn/interactive-examples/issues/2787)) ([0923c6c](https://github.com/mdn/interactive-examples/commit/0923c6c3a2bde867102704733266afd5b5a009ec))
+
 ## [2.5.0](https://github.com/mdn/interactive-examples/compare/v2.4.1...v2.5.0) (2024-05-03)
 
 
