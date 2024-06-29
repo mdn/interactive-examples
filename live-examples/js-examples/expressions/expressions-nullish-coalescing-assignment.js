@@ -1,9 +1,19 @@
-const a = { duration: 50 };
+let a = null;
+a ??= 10;
+console.log(a);
+// Expected output: 10
 
-a.duration ??= 10;
-console.log(a.duration);
+let b = undefined;
+b ??= 20;
+console.log(b);
+// Expected output: 20
+
+let c = 0;
+c ??= 30;
+console.log(c);
+// Expected output: 0
+
+let d = 50;
+d ??= 40;
+console.log(d);
 // Expected output: 50
-
-a.speed ??= 25;
-console.log(a.speed);
-// Expected output: 25
