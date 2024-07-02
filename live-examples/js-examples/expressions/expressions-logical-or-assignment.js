@@ -6,4 +6,4 @@ console.log(a.duration);
 
 a.title ||= 'title is empty.';
 console.log(a.title);
-// Expected output: "title is empty"
+// Expected output: "title is empty."
