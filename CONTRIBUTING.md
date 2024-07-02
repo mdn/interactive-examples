@@ -18,7 +18,7 @@ This guide focuses on contributing examples, although we welcome contributions t
 
 To contribute live examples all you need is a text editor, git, a GitHub account, and Nodejs.
 
-As far as text/code editors go, there are more editors than you can shake a stick at, so it's down to personal preference. [Visual Studio](https://code.visualstudio.com/download) and [Atom](https://atom.io/) are great editors we can definitely recommend.
+As far as text/code editors go, there are more editors than you can shake a stick at, so it's down to personal preference. [Visual Studio Code](https://code.visualstudio.com/download) and [WebStorm](https://www.jetbrains.com/webstorm/) are great editors we can definitely recommend.
 
 For more information on setting up Git on your machine, [read this article](https://help.github.com/articles/set-up-git/).
 
