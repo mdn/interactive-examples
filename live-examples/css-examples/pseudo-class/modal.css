@@ -5,12 +5,12 @@ button {
   height: 2rem;
 }
 
+dialog p {
+  color:  black;
+}
+
 :modal {
   background-color: beige;
   border: 2px solid burlywood;
   border-radius: 5px;
-}
-
-p {
-  color:  black;
 }
