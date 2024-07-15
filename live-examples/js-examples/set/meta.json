@@ -3,7 +3,7 @@
     "setPrototype@@Iterator": {
       "exampleCode": "./live-examples/js-examples/set/set-prototype-@@iterator.js",
       "fileName": "set-prototype-@@iterator.html",
-      "title": "JavaScript Demo: Set.prototype[@@iterator]()",
+      "title": "JavaScript Demo: Set.prototype[Symbol.iterator]()",
       "type": "js"
     },
     "setPrototypeAdd": {
