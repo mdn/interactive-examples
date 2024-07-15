@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.0](https://github.com/mdn/interactive-examples/compare/v2.5.1...v2.6.0) (2024-07-03)
+
+
+### Features
+
+* update editor recommendations ([#2800](https://github.com/mdn/interactive-examples/issues/2800)) ([7ee5969](https://github.com/mdn/interactive-examples/commit/7ee59696a7437e4d2035189bf8d6ff08b25551f5))
+
 ## [2.5.1](https://github.com/mdn/interactive-examples/compare/v2.5.0...v2.5.1) (2024-06-10)
 
 
