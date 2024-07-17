@@ -7,15 +7,6 @@
   border-radius: 50%;
 }
 
-@-webkit-keyframes slidein {
-  from {
-    margin-left: -20%;
-  }
-  to {
-    margin-left: 100%;
-  }
-}
-
 @keyframes slidein {
   from {
     margin-left: -20%;
