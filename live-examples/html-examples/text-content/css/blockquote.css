@@ -1,10 +1,7 @@
-blockquote {
-  margin: 0;
-}
-
-blockquote p {
+div:has(> blockquote) {
+  background-color: #ededed;
+  margin: 10px auto;
   padding: 15px;
-  background: #eee;
   border-radius: 5px;
 }
 
@@ -14,4 +11,8 @@ blockquote p::before {
 
 blockquote p::after {
   content: '\201D';
+}
+
+blockquote + p {
+  text-align: right;
 }
