@@ -3,10 +3,10 @@ label {
   margin-top: 1em;
 }
 
-input:autofill {
+input:-webkit-autofill {
   border: 3px solid darkorange;
 }
 
-input:-webkit-autofill {
+input:autofill {
   border: 3px solid darkorange;
 }
