@@ -150,12 +150,6 @@
       "title": "JavaScript Demo: Intl.NumberFormat",
       "type": "js"
     },
-    "intlPrototypeToString": {
-      "exampleCode": "./live-examples/js-examples/intl/intl-prototype-@@tostringtag.js",
-      "fileName": "intl-prototype-tostringtag.html",
-      "title": "JavaScript Demo: Intl.prototype.toString()",
-      "type": "js"
-    },
     "intlPluralRulesPrototypeResolvedOptions": {
       "exampleCode": "./live-examples/js-examples/intl/intl-pluralrules-prototype-resolvedoptions.js",
       "fileName": "intl-pluralrules-prototype-resolvedoptions.html",
@@ -231,7 +225,7 @@
     "segmentsPrototypeIterator": {
       "exampleCode": "./live-examples/js-examples/intl/segments-prototype-@@iterator.js",
       "fileName": "segments-prototype-@@iterator.html",
-      "title": "JavaScript Demo: Segments.prototype.@@iterator",
+      "title": "JavaScript Demo: Segments.prototype[Symbol.iterator]()",
       "type": "js"
     },
     "segmentsPrototypeContaining": {

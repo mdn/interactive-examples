@@ -117,7 +117,7 @@
     "typedarrayIterator": {
       "exampleCode": "./live-examples/js-examples/typedarray/typedarray-iterator.js",
       "fileName": "typedarray-prototype-@@iterator.html",
-      "title": "JavaScript Demo: TypedArray.prototype[@@iterator]()",
+      "title": "JavaScript Demo: TypedArray.prototype[Symbol.iterator]()",
       "type": "js"
     },
     "typedarrayJoin": {

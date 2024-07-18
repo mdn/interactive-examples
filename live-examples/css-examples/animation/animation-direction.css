@@ -22,19 +22,6 @@
   font-size: 2rem;
 }
 
-@-webkit-keyframes slide {
-  from {
-    background-color: orange;
-    color: black;
-    margin-left: 0;
-  }
-  to {
-    background-color: orange;
-    color: black;
-    margin-left: 80%;
-  }
-}
-
 @keyframes slide {
   from {
     background-color: orange;

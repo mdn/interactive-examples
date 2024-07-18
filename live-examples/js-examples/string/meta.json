@@ -63,7 +63,7 @@
     "stringIterator": {
       "exampleCode": "./live-examples/js-examples/string/string-iterator.js",
       "fileName": "string-prototype-@@iterator.html",
-      "title": "JavaScript Demo: String.prototype[@@iterator]()",
+      "title": "JavaScript Demo: String.prototype[Symbol.iterator]()",
       "type": "js"
     },
     "stringLastIndexOf": {
