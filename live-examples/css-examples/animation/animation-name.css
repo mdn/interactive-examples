@@ -13,19 +13,6 @@
   width: 150px;
 }
 
-@-webkit-keyframes slide {
-  from {
-    background-color: orange;
-    color: black;
-    margin-left: 0;
-  }
-  to {
-    background-color: orange;
-    color: black;
-    margin-left: 80%;
-  }
-}
-
 @keyframes slide {
   from {
     background-color: orange;
@@ -36,19 +23,6 @@
     background-color: orange;
     color: black;
     margin-left: 80%;
-  }
-}
-
-@-webkit-keyframes bounce {
-  from {
-    background-color: orange;
-    color: black;
-    margin-bottom: 0;
-  }
-  to {
-    background-color: orange;
-    color: black;
-    margin-bottom: 40%;
   }
 }
 

@@ -22,19 +22,6 @@
   animation: slide 1s ease-in 1;
 }
 
-@-webkit-keyframes slide {
-  from {
-    background-color: orange;
-    color: black;
-    margin-left: 0;
-  }
-  to {
-    background-color: orange;
-    color: black;
-    margin-left: 80%;
-  }
-}
-
 @keyframes slide {
   from {
     background-color: orange;
