@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.1](https://github.com/mdn/interactive-examples/compare/v2.6.0...v2.6.1) (2024-07-18)
+
+
+### Bug Fixes
+
+* place vendor-prefixed props first in declaration order ([#2812](https://github.com/mdn/interactive-examples/issues/2812)) ([182fa05](https://github.com/mdn/interactive-examples/commit/182fa0526b6415dd14b241ed8b9f750a27a68943))
+
 ## [2.6.0](https://github.com/mdn/interactive-examples/compare/v2.5.1...v2.6.0) (2024-07-03)
 
 
