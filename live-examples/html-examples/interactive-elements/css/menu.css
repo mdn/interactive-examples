@@ -1,7 +1,11 @@
 .news {
-  background-color: black;
+  background-color: bisque;
   padding: 1em;
   border: solid thin black;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: black;
+  }
 }
 
 menu {
@@ -10,4 +14,9 @@ menu {
   padding: 0;
   margin-bottom: 0;
   gap: 1em;
+}
+
+button {
+  color: black;
+  background: white;
 }
