@@ -9,6 +9,7 @@
 
 #abspos {
   background-color: yellow;
+  color: black;
   border: 3px solid red;
   position: absolute;
   inset-inline-start: 50px;
