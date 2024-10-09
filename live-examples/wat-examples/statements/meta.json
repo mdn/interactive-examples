@@ -63,6 +63,13 @@
       "title": "Wat Demo: return",
       "type": "wat"
     },
+    "return_call": {
+      "watExampleCode": "./live-examples/wat-examples/statements/return_call.wat",
+      "jsExampleCode": "./live-examples/wat-examples/statements/return_call.js",
+      "fileName": "return_call.html",
+      "title": "Wat Demo: return_call",
+      "type": "wat"
+    },
     "select": {
       "watExampleCode": "./live-examples/wat-examples/statements/select.wat",
       "jsExampleCode": "./live-examples/wat-examples/statements/select.js",
