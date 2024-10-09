@@ -21,7 +21,7 @@
     "regexpGetRegExp@@Species": {
       "exampleCode": "./live-examples/js-examples/regexp/regexp-getregexp-@@species.js",
       "fileName": "regexp-getregexp-@@species.html",
-      "title": "JavaScript Demo: RegExp.getRegExp[@@species]",
+      "title": "JavaScript Demo: RegExp[Symbol.species]",
       "type": "js"
     },
     "regexpGroupsBackreferences": {
@@ -39,31 +39,31 @@
     "regexpPrototype@@Match": {
       "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-@@match.js",
       "fileName": "regexp-prototype-@@match.html",
-      "title": "JavaScript Demo: RegExp.prototype[@@match]",
+      "title": "JavaScript Demo: RegExp.prototype[Symbol.match]()",
       "type": "js"
     },
     "regexpPrototype@@MatchAll": {
       "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-@@matchall.js",
       "fileName": "regexp-prototype-@@matchall.html",
-      "title": "JavaScript Demo: RegExp.prototype[@@matchAll]",
+      "title": "JavaScript Demo: RegExp.prototype[Symbol.matchAll]()",
       "type": "js"
     },
     "regexpPrototype@@Replace": {
       "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-@@replace.js",
       "fileName": "regexp-prototype-@@replace.html",
-      "title": "JavaScript Demo: RegExp.prototype[@@replace]",
+      "title": "JavaScript Demo: RegExp.prototype[SYmbol.replace]()",
       "type": "js"
     },
     "regexpPrototype@@Search": {
       "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-@@search.js",
       "fileName": "regexp-prototype-@@search.html",
-      "title": "JavaScript Demo: RegExp.prototype[@@search]",
+      "title": "JavaScript Demo: RegExp.prototype[Symbol.search]()",
       "type": "js"
     },
     "regexpPrototype@@Split": {
       "exampleCode": "./live-examples/js-examples/regexp/regexp-prototype-@@split.js",
       "fileName": "regexp-prototype-@@split.html",
-      "title": "JavaScript Demo: RegExp.prototype[@@split]",
+      "title": "JavaScript Demo: RegExp.prototype[Symbol.split]()",
       "type": "js"
     },
     "regexpPrototypeDotAll": {

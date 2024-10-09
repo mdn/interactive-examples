@@ -19,10 +19,6 @@
 
 #example-element::after {
   content: attr(style);
-  background: #444;
+  outline: 2px dashed;
   font-family: monospace;
-}
-
-code {
-  background: #444;
 }

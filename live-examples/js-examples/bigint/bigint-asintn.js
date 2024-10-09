@@ -1,12 +1,12 @@
-const max = 2n ** (64n - 1n) - 1n;
+const I64_CEIL = 2n ** 63n;
 
-function check64bit(number) {
-  number > max
-    ? console.log("Number doesn't fit in signed 64-bit integer!")
-    : console.log(BigInt.asIntN(64, number));
-}
-
-check64bit(2n ** 64n);
-// Expected output: "Number doesn't fit in signed 64-bit integer!"
-check64bit(2n ** 32n);
-// Expected output: 4294967296n
+console.log(BigInt.asIntN(64, I64_CEIL - 1n));
+// 9223372036854775807n (2n ** 64n - 1n, the maximum non-wrapping value)
+console.log(BigInt.asIntN(64, I64_CEIL));
+// -9223372036854775808n (wraps to min value)
+console.log(BigInt.asIntN(64, I64_CEIL + 1n));
+// -9223372036854775807n (min value + 1n)
+console.log(BigInt.asIntN(64, I64_CEIL * 2n));
+// 0n (wrapped around to zero)
+console.log(BigInt.asIntN(64, -I64_CEIL * -42n));
+// 0n (also wraps on negative multiples)

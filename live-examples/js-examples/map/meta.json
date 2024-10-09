@@ -9,13 +9,7 @@
     "mapPrototype@@Iterator": {
       "exampleCode": "./live-examples/js-examples/map/map-prototype-@@iterator.js",
       "fileName": "map-prototype-@@iterator.html",
-      "title": "JavaScript Demo: Map.prototype[@@iterator]()",
-      "type": "js"
-    },
-    "mapPrototype@@ToStringTag": {
-      "exampleCode": "./live-examples/js-examples/map/map-prototype-@@tostringtag.js",
-      "fileName": "map-prototype-@@tostringtag.html",
-      "title": "JavaScript Demo: Map.prototype[@@toStringTag]",
+      "title": "JavaScript Demo: Map.prototype[Symbol.iterator]()",
       "type": "js"
     },
     "mapPrototypeClear": {

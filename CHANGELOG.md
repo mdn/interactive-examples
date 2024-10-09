@@ -1,5 +1,42 @@
 # Changelog
 
+## [2.6.1](https://github.com/mdn/interactive-examples/compare/v2.6.0...v2.6.1) (2024-07-18)
+
+
+### Bug Fixes
+
+* place vendor-prefixed props first in declaration order ([#2812](https://github.com/mdn/interactive-examples/issues/2812)) ([182fa05](https://github.com/mdn/interactive-examples/commit/182fa0526b6415dd14b241ed8b9f750a27a68943))
+
+## [2.6.0](https://github.com/mdn/interactive-examples/compare/v2.5.1...v2.6.0) (2024-07-03)
+
+
+### Features
+
+* update editor recommendations ([#2800](https://github.com/mdn/interactive-examples/issues/2800)) ([7ee5969](https://github.com/mdn/interactive-examples/commit/7ee59696a7437e4d2035189bf8d6ff08b25551f5))
+
+## [2.5.1](https://github.com/mdn/interactive-examples/compare/v2.5.0...v2.5.1) (2024-06-10)
+
+
+### Bug Fixes
+
+* **css:** add cue pseudo element with argument case ([#2787](https://github.com/mdn/interactive-examples/issues/2787)) ([0923c6c](https://github.com/mdn/interactive-examples/commit/0923c6c3a2bde867102704733266afd5b5a009ec))
+
+## [2.5.0](https://github.com/mdn/interactive-examples/compare/v2.4.1...v2.5.0) (2024-05-03)
+
+
+### Features
+
+* Upgrade stylelint to v16.5.0 ([#2770](https://github.com/mdn/interactive-examples/issues/2770)) ([e9dcc1f](https://github.com/mdn/interactive-examples/commit/e9dcc1f361590717238ee4cf550e789af8bef0ab))
+
+## [2.4.1](https://github.com/mdn/interactive-examples/compare/v2.4.0...v2.4.1) (2024-03-06)
+
+
+### Bug Fixes
+
+* `Intl.getCanonicalLocales` error message ([#2741](https://github.com/mdn/interactive-examples/issues/2741)) ([f5a8492](https://github.com/mdn/interactive-examples/commit/f5a8492c5fefbc0bc301163b13b19f8edc0925ba))
+* **ci:** migrate to husky v9 ([#2731](https://github.com/mdn/interactive-examples/issues/2731)) ([dee2d96](https://github.com/mdn/interactive-examples/commit/dee2d96f858a2c1eefda37bf4f840a28e3b0cd22))
+* **js:** ignore formatting empty statement example with code comment ([#2696](https://github.com/mdn/interactive-examples/issues/2696)) ([0b33754](https://github.com/mdn/interactive-examples/commit/0b337543c9ebc4bf0b7d302848b85748c182d167))
+
 ## [2.4.0](https://github.com/mdn/interactive-examples/compare/v2.3.5...v2.4.0) (2024-01-23)
 
 

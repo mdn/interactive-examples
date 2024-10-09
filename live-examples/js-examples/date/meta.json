@@ -255,7 +255,7 @@
     "dateToPrimitive": {
       "exampleCode": "./live-examples/js-examples/date/date-toprimitive.js",
       "fileName": "date-toprimitive.html",
-      "title": "JavaScript Demo: Date.prototype[@@toPrimitive]",
+      "title": "JavaScript Demo: Date.prototype[Symbol.toPrimitive]",
       "type": "js"
     },
     "dateToString": {
