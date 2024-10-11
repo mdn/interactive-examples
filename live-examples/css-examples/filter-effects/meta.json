@@ -32,6 +32,7 @@
       "type": "css"
     },
     "filter": {
+      "cssExampleSrc": "./live-examples/css-examples/filter-effects/filter.css",
       "exampleCode": "./live-examples/css-examples/filter-effects/filter.html",
       "fileName": "filter.html",
       "title": "CSS Demo: filter",
