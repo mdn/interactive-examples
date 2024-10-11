@@ -1,0 +1,13 @@
+.example-container {
+  background-color: #fff;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#example-element {
+  flex: 1;
+  padding: 30px;
+}
