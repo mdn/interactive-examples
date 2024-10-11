@@ -1,10 +1,12 @@
 (module
+  ;; Import the `greet` function from the environment
   (import "env" "greet" (func $greet))
 
   (func
-    ;; call the greet function
+    ;; Call the imported `greet` function
     call $greet
   )
 
-  (start 1) ;; run the first function automatically
+  ;; Automatically run the first function when the module starts
+  (start 1)
 )
