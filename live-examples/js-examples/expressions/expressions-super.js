@@ -14,6 +14,11 @@ class FooBar extends Foo {
     this.index = index;
   }
 
+  // Does not get called
+  getNameSeparator() {
+    return '/';
+  }
+
   getFullName() {
     return this.name + super.getNameSeparator() + this.index;
   }
