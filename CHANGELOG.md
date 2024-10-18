@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.2](https://github.com/mdn/interactive-examples/compare/v2.6.1...v2.6.2) (2024-10-18)
+
+
+### Bug Fixes
+
+* **ci:** check dependabot PR user instead of actor ([#2834](https://github.com/mdn/interactive-examples/issues/2834)) ([7bb336d](https://github.com/mdn/interactive-examples/commit/7bb336db1f01669831e38faeac5ba0dcd3732df9))
+
 ## [2.6.1](https://github.com/mdn/interactive-examples/compare/v2.6.0...v2.6.1) (2024-07-18)
 
 
