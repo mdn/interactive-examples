@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.7.0](https://github.com/mdn/interactive-examples/compare/v2.6.1...v2.7.0) (2024-11-01)
+
+
+### Features
+
+* **css:** add auto examples for text-emphasis-position ([#2849](https://github.com/mdn/interactive-examples/issues/2849)) ([3eb4fa4](https://github.com/mdn/interactive-examples/commit/3eb4fa4f8a6072de1131f5c4fc58ae727f6e7fc7))
+
+
+### Bug Fixes
+
+* **ci:** check dependabot PR user instead of actor ([#2834](https://github.com/mdn/interactive-examples/issues/2834)) ([7bb336d](https://github.com/mdn/interactive-examples/commit/7bb336db1f01669831e38faeac5ba0dcd3732df9))
+* correct typo for text-transform value ([#2858](https://github.com/mdn/interactive-examples/issues/2858)) ([f577c01](https://github.com/mdn/interactive-examples/commit/f577c01d17d39d41f158590538159e90ac928af3))
+
 ## [2.6.1](https://github.com/mdn/interactive-examples/compare/v2.6.0...v2.6.1) (2024-07-18)
 
 
