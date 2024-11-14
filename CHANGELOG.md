@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/mdn/interactive-examples/compare/v2.7.0...v3.0.0) (2024-11-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** bump node from v18 to v20 ([#2859](https://github.com/mdn/interactive-examples/issues/2859))
+
+### Miscellaneous Chores
+
+* **deps:** bump node from v18 to v20 ([#2859](https://github.com/mdn/interactive-examples/issues/2859)) ([4fa2496](https://github.com/mdn/interactive-examples/commit/4fa2496346cfce33c3255b13891a6f6935be19c2))
+
 ## [2.7.0](https://github.com/mdn/interactive-examples/compare/v2.6.1...v2.7.0) (2024-11-01)
 
 
