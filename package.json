@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "Interactive code examples embedded on MDN",
   "author": "Mozilla",
-  "license": "MPL-2.0",
+  "license": "CC0-1.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mdn/interactive-examples.git"
