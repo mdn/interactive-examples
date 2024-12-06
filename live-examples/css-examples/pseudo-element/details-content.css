@@ -1,0 +1,5 @@
+details[open]::details-content {
+  color: dodgerblue;
+  padding: 0.5em;
+  border: thin solid grey;
+}
