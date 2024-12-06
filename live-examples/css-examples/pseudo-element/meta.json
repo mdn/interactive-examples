@@ -38,6 +38,15 @@
       "defaultTab": "css",
       "height": "tabbed-shorter"
     },
+    "details-content": {
+      "exampleCode": "./live-examples/css-examples/pseudo-element/details-content.html",
+      "cssExampleSrc": "./live-examples/css-examples/pseudo-element/details-content.css",
+      "fileName": "pseudo-element-details-content.html",
+      "title": "HTML Demo: ::details-content",
+      "type": "tabbed",
+      "defaultTab": "css",
+      "height": "tabbed-shorter"
+    },
     "fileSelectorButton": {
       "exampleCode": "./live-examples/css-examples/pseudo-element/file-selector-button.html",
       "cssExampleSrc": "./live-examples/css-examples/pseudo-element/file-selector-button.css",
