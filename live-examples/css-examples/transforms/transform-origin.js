@@ -2,7 +2,7 @@
 
 window.addEventListener('load', () => {
   function update() {
-    const selected = document.querySelector('.selected code');
+    const selected = document.querySelector('.selected');
 
     /* Restart the animation
            https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Tips */
