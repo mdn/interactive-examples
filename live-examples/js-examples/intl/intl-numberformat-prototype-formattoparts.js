@@ -6,4 +6,4 @@ const parts = numberFormat.formatToParts(amount);
 const partValues = parts.map((p) => p.value);
 
 console.log(partValues);
-// Expected output: "["$", "654", ",", "321", ".", "99"]"
+// Expected output: Array ["$", "654", ",", "321", ".", "99"]

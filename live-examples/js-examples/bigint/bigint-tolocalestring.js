@@ -8,4 +8,4 @@ console.log(bigint.toLocaleString('de-DE'));
 console.log(
   bigint.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' }),
 );
-// Expected output: "123.456.789.123.456.789,00 €"
+// Expected output: "123.456.789.123.456.789,00 €"

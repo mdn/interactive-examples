@@ -10,5 +10,5 @@ try {
   Intl.supportedValuesOf('someInvalidKey');
 } catch (err) {
   console.log(err.toString());
-  // Expected output: RangeError: invalid key: "someInvalidKey"
+  // Expected output: "RangeError: Invalid key : someInvalidKey"
 }
