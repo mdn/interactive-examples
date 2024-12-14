@@ -14,6 +14,6 @@ const proxy1 = new Proxy(monster1, handler1);
 
 for (const key of Object.keys(proxy1)) {
   console.log(key);
-  // Expected output: "_age"
-  // Expected output: "eyeCount"
 }
+// Expected output: "_age"
+// Expected output: "eyeCount"

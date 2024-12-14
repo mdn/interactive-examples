@@ -7,6 +7,7 @@ class ClassWithStaticMethod {
     console.log('Class static initialization block called');
   }
 }
+// Expected output: "Class static initialization block called"
 
 console.log(ClassWithStaticMethod.staticProperty);
 // Expected output: "someValue"
