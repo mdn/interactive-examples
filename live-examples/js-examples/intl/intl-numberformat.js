@@ -5,7 +5,7 @@ console.log(
     number,
   ),
 );
-// Expected output: "123.456,79 €"
+// Expected output: "123.456,79 €"
 
 // The Japanese yen doesn't use a minor unit
 console.log(
