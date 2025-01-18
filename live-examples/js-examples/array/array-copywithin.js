@@ -6,4 +6,4 @@ console.log(array1.copyWithin(0, 3, 4));
 
 // Copy to index 1 all elements from index 3 to the end
 console.log(array1.copyWithin(1, 3));
-// Expected output: Array ["d", "d", "e", "d", "e"]
+// Expected output: Array ["a", "d", "e", "d", "e"]
