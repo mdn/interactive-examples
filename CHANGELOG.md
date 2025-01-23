@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/mdn/interactive-examples/compare/v3.0.0...v3.0.1) (2025-01-23)
+
+
+### Bug Fixes
+
+* Fix JS for CSS transform-origin example ([#2875](https://github.com/mdn/interactive-examples/issues/2875)) ([#2876](https://github.com/mdn/interactive-examples/issues/2876)) ([92c1c7a](https://github.com/mdn/interactive-examples/commit/92c1c7ab5a85f6f65a5f058530226f156cb3a5c5))
+
 ## [3.0.0](https://github.com/mdn/interactive-examples/compare/v2.7.0...v3.0.0) (2024-11-14)
 
 
