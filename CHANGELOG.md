@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.0.1](https://github.com/mdn/interactive-examples/compare/v3.0.0...v3.0.1) (2025-05-16)
+
+
+### Bug Fixes
+
+* **css:** clip-path should use proper coords ([#2904](https://github.com/mdn/interactive-examples/issues/2904)) ([c9a8765](https://github.com/mdn/interactive-examples/commit/c9a8765881872ef5b67f31fa172727da4a1b0dc4))
+* Fix JS for CSS transform-origin example ([#2875](https://github.com/mdn/interactive-examples/issues/2875)) ([#2876](https://github.com/mdn/interactive-examples/issues/2876)) ([92c1c7a](https://github.com/mdn/interactive-examples/commit/92c1c7ab5a85f6f65a5f058530226f156cb3a5c5))
+* **workflows:** disable cache in privileged workflows ([#2927](https://github.com/mdn/interactive-examples/issues/2927)) ([ea2f6c0](https://github.com/mdn/interactive-examples/commit/ea2f6c0b3263d51085e8466cd63f71a47e8bcd52))
+
 ## [3.0.0](https://github.com/mdn/interactive-examples/compare/v2.7.0...v3.0.0) (2024-11-14)
 
 
